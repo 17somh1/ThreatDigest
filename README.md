@@ -15,3 +15,5 @@ To run with real secrets, export the required env vars:
 - `FROM_EMAIL`
 
 Feed URLs live in `config/settings.yaml` under `feeds`.
+
+For local development, you can copy `.env.example` to `.env` and fill in values.

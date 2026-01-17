@@ -22,6 +22,24 @@ REQUIRED_ENV_VARS = [
     "FROM_EMAIL",
 ]
 CONFIG_PATH = Path("config/settings.yaml")
+ENV_PATH = Path(".env")
+
+
+def load_dotenv() -> None:
+    if not ENV_PATH.exists():
+        return
+
+    for line in ENV_PATH.read_text(encoding="utf-8").splitlines():
+        stripped = line.strip()
+        if not stripped or stripped.startswith("#"):
+            continue
+        if "=" not in stripped:
+            continue
+        key, value = stripped.split("=", 1)
+        key = key.strip()
+        value = value.strip().strip("'\"")
+        if key and key not in os.environ:
+            os.environ[key] = value
 
 
 def find_missing_env_vars() -> list[str]:
@@ -44,6 +62,7 @@ def load_feed_urls() -> list[str]:
 
 
 def main() -> int:
+    load_dotenv()
     if os.getenv("SKIP_ENV_CHECK") != "1":
         missing = find_missing_env_vars()
         if missing:
