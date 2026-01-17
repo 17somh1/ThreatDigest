@@ -22,7 +22,6 @@ jobs:
 
       - name: Run pipeline
         env:
-          FEEDLY_TOKEN: ${{ secrets.FEEDLY_TOKEN }}
           OPENAI_API_KEY: ${{ secrets.OPENAI_API_KEY }}
           EMAIL_API_KEY: ${{ secrets.EMAIL_API_KEY }}
           TO_EMAIL: ${{ secrets.TO_EMAIL }}
