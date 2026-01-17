@@ -5,6 +5,7 @@ on:
   schedule:
     - cron: "0 8 * * *"
 
+
 jobs:
   digest:
     runs-on: ubuntu-latest
