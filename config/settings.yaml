@@ -1,0 +1,7 @@
+# Placeholder settings for ThreatDigest
+feedly:
+  source: ""
+llm:
+  model: ""
+email:
+  provider: ""
