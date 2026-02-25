@@ -11,7 +11,6 @@ from src.fetch import fetch_url
 DEFAULT_FEEDS = [
     "https://www.cisa.gov/uscert/ncas/alerts.xml",
     "https://www.cisa.gov/uscert/ncas/current-activity.xml",
-    "https://www.ncsc.gov.uk/api/1/services/v1/all-rss-feed.xml",
     "https://www.bleepingcomputer.com/feed/",
     "https://thehackernews.com/feeds/posts/default",
     "https://krebsonsecurity.com/feed/",
