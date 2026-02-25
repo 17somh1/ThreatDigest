@@ -367,7 +367,6 @@
           <h3>{{ item.cluster_title }}</h3>
         {% endif %}
         <div class="text-block"><span class="label">Why this is here:</span> {{ item.why_this_is_here }}</div>
-        <div class="text-block"><span class="label">Spicy take:</span> {{ item.spicy_take }}</div>
         <div class="text-block"><span class="label">TL;DR:</span> {{ item.tl_dr }}</div>
         <ul class="story-list">
           {% for line in item.story_lines %}
@@ -420,7 +419,7 @@
     {%- endmacro %}
 
     <header>
-      <div class="eyebrow">Spicy-but-Educational Digest</div>
+      <div class="eyebrow">Threat Digest for Cool People</div>
       <h1>Threat Digest - {{ digest_date }}</h1>
       <p class="subtitle">
         Straight talk from a tired SOC analyst. Clear explanations, mild sarcasm, and no mystery jargon.

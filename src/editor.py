@@ -151,10 +151,6 @@ def _build_cluster(cluster_payload: dict) -> dict:
     primary = _choose_primary_item(items)
     sources = _merge_sources(items)
     signals = _signals_from_items(items)
-    spicy_take = _clean_text(primary.get("spicy_take", ""))
-    if spicy_take.lower().startswith("because who"):
-        spicy_take = "If this is exposed, assume scanning already started."
-
     return {
         "cluster_id": cluster_payload["topic_key"],
         "cluster_title": _clean_text(primary.get("title", "Untitled")),
@@ -164,7 +160,6 @@ def _build_cluster(cluster_payload: dict) -> dict:
         "confidence": _confidence_from_signals(signals, signals.get("sources", set())),
         "attack_stage": primary.get("attack_stage", "Unknown"),
         "why_this_is_here": _why_this_is_here(signals),
-        "spicy_take": spicy_take,
         "tl_dr": _clean_text(primary.get("tl_dr", "")),
         "story_lines": _story_lines(primary, sources),
         "beginner_breakdown": _merge_beginner_breakdown(items),
