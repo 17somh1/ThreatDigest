@@ -1,19 +1,40 @@
 # ThreatDigest
-An AI threat intelligence newsletter daily digest.
+A portfolio-grade, daily cyber threat digest built from free RSS/Atom feeds. It fetches recent items, filters and ranks them, summarizes each with OpenAI into a strict JSON schema, and renders a static site published via GitHub Pages.
 
-## Local run (stubbed)
+## Architecture
 
-```bash
-SKIP_ENV_CHECK=1 python -m src.main
+```
+RSS/Atom feeds -> filter + dedupe + rank -> OpenAI JSON summaries -> Jinja2 render -> docs/index.html + docs/archive/
 ```
 
-To run with real secrets, export the required env vars:
+## Local run
 
-- `OPENAI_API_KEY`
-- `EMAIL_API_KEY`
-- `TO_EMAIL`
-- `FROM_EMAIL`
+```bash
+python -m venv .venv
+source .venv/bin/activate
+pip install -r requirements.txt
 
-Feed URLs live in `config/settings.yaml` under `feeds`.
+export OPENAI_API_KEY=...
+python -m src.main
+```
 
-For local development, you can copy `.env.example` to `.env` and fill in values.
+Outputs:
+- `docs/index.html`
+- `docs/archive/YYYY-MM-DD.html`
+
+## Configuration
+
+- `config/settings.yaml` contains the RSS feed list.
+- Environment variables:
+  - `OPENAI_API_KEY` (required)
+  - `OPENAI_MODEL` (optional, default `gpt-4o-mini`)
+  - `MAX_ITEMS_PER_RUN` (optional, default `15`)
+  - `RECENT_HOURS` (optional, default `48`)
+
+## Methodology
+
+The pipeline filters to recent items, deduplicates by canonical URL and normalized title hash, and keeps at most 15 items per run. It boosts items containing CVE identifiers, zero-day indicators, ransomware/exploit keywords, and authoritative sources like CISA/NCSC. Risk and confidence are assigned by the model with a strict JSON schema to keep output stable across runs.
+
+## GitHub Actions
+
+The workflow in `.github/workflows/digest.yml` runs daily on a cron schedule, generates the digest, and commits updated `docs/` and `state.json` back to the repo. GitHub Pages should be configured to serve from the `docs/` folder.

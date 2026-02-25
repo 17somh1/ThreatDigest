@@ -11,17 +11,12 @@ from src.fetch import fetch_url
 DEFAULT_FEEDS = [
     "https://www.cisa.gov/uscert/ncas/alerts.xml",
     "https://www.cisa.gov/uscert/ncas/current-activity.xml",
-    "https://www.kb.cert.org/vuls/rss.xml",
-    "https://isc.sans.edu/rssfeed.xml",
+    "https://www.ncsc.gov.uk/api/1/services/v1/all-rss-feed.xml",
+    "https://www.bleepingcomputer.com/feed/",
+    "https://thehackernews.com/feeds/posts/default",
     "https://krebsonsecurity.com/feed/",
     "https://msrc.microsoft.com/blog/feed/",
-    "https://www.mandiant.com/resources/blog/rss.xml",
-    "https://unit42.paloaltonetworks.com/feed/",
-    "https://blog.talosintelligence.com/feeds/posts/default?alt=rss",
-    "https://www.crowdstrike.com/blog/feed/",
-    "https://thehackernews.com/feeds/posts/default",
-    "https://www.bleepingcomputer.com/feed/",
-    "https://www.securityweek.com/feed/",
+    "https://blog.google/threat-analysis-group/rss/",
 ]
 
 
