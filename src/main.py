@@ -14,6 +14,7 @@ if __package__ is None or __package__ == "":
 from src import dedupe
 from src import feeds
 from src import rank
+from src import editor
 from src import render
 from src import state
 from src import summarise
@@ -147,14 +148,15 @@ def main() -> int:
     _ensure_dirs()
     archive_links = _sync_archives(digest_date, keep_days=14)
 
-    themes_data = themes.generate_themes(summarized_items, api_key=api_key, model=model)
+    editorial = editor.build_editorial(summarized_items, max_clusters=8)
+    themes_data = themes.generate_themes(editorial.all_clusters, api_key=api_key, model=model)
 
     html = render.render_digest(
-        summarized_items,
         digest_date=digest_date,
         generated_at=generated_at,
         archive_links=archive_links,
         template_path=TEMPLATE_PATH,
+        editorial=editorial,
         themes_data=themes_data,
         tone_mode=tone_mode,
     )

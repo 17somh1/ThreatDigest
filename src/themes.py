@@ -10,32 +10,32 @@ from openai import OpenAI
 
 from src.summarise import DEFAULT_MODEL
 
-_REQUIRED_KEYS = {"themes", "one_line_rant"}
+_REQUIRED_KEYS = {"themes", "today_in_one_sentence"}
 
 
 class ThemesError(ValueError):
     """Raised when theme output cannot be normalized."""
 
 
-def _build_prompt(items: list[dict]) -> str:
-    titles = "\n".join(f"- {item.get('title', '').strip()}" for item in items)
-    tags = ", ".join(
-        sorted({tag for item in items for tag in (item.get("tags") or []) if isinstance(tag, str)})
+def _build_prompt(clusters: list[dict]) -> str:
+    titles = "\n".join(f"- {cluster.get('cluster_title', '').strip()}" for cluster in clusters)
+    labels = ", ".join(
+        sorted({label for cluster in clusters for label in (cluster.get("labels") or []) if isinstance(label, str)})
     )
     return (
-        "You are summarizing today's threat digest themes for beginners. "
+        "You are summarizing today's threat digest patterns for beginners. "
         "Return STRICT JSON with the required keys only.\n\n"
         "Schema:\n"
         "{\n"
-        "  \"themes\": [\"short beginner-friendly theme\", \"...\"],\n"
-        "  \"one_line_rant\": \"short, safe, mildly sarcastic but clear\"\n"
+        "  \"today_in_one_sentence\": \"short, clear, beginner-friendly\",\n"
+        "  \"themes\": [\"pattern-level theme\", \"...\", \"...\"]\n"
         "}\n\n"
         "Rules:\n"
         "- Output valid JSON only. No markdown.\n"
-        "- Themes must be understandable to a beginner.\n"
-        "- Keep one_line_rant short and professional.\n\n"
-        f"Titles:\n{titles}\n\n"
-        f"Tags: {tags}\n"
+        "- Themes must be pattern-level, not headline-level.\n"
+        "- Avoid jargon unless you explain it in plain English.\n\n"
+        f"Cluster titles:\n{titles}\n\n"
+        f"Labels: {labels}\n"
     )
 
 
@@ -45,25 +45,25 @@ def _normalize_output(data: dict[str, Any]) -> dict[str, Any]:
         raise ThemesError(f"Missing keys: {missing}")
 
     themes = [str(item).strip() for item in data.get("themes", []) if str(item).strip()]
-    if not themes:
-        raise ThemesError("themes must not be empty")
+    if len(themes) < 3:
+        raise ThemesError("themes must have 3 entries")
 
     return {
-        "themes": themes[:4],
-        "one_line_rant": str(data.get("one_line_rant", "")).strip(),
+        "themes": themes[:3],
+        "today_in_one_sentence": str(data.get("today_in_one_sentence", "")).strip(),
     }
 
 
 def generate_themes(
-    items: list[dict],
+    clusters: list[dict],
     api_key: str,
     model: str | None = None,
 ) -> dict[str, Any] | None:
-    if not items:
+    if not clusters:
         return None
 
     client = OpenAI(api_key=api_key)
-    prompt = _build_prompt(items)
+    prompt = _build_prompt(clusters)
 
     try:
         response = client.chat.completions.create(
@@ -73,7 +73,7 @@ def generate_themes(
                 {"role": "user", "content": prompt},
             ],
             temperature=0.3,
-            max_tokens=250,
+            max_tokens=200,
             response_format={"type": "json_object"},
         )
         content = response.choices[0].message.content or ""

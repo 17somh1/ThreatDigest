@@ -6,7 +6,7 @@ A portfolio-grade daily threat digest with a spicy-but-educational voice. It ing
 ```
 RSS/Atom feeds -> filter + dedupe + rank -> OpenAI JSON summaries
                          |                       |
-                         +----> themes (OpenAI) -+
+                         +--> editor layer ----> clusters -> themes (OpenAI)
 
 Rendered HTML -> docs/index.html + docs/archive/YYYY-MM-DD.html
 ```
@@ -44,7 +44,7 @@ Outputs:
 
 ## Methodology
 
-The pipeline keeps only relevant items using keyword + source filters, ranks them deterministically, and summarizes each with a strict JSON schema. Any jargon used must be defined for beginners. If source content is thin, the model is instructed to set confidence to LOW and explain uncertainty.
+The pipeline keeps only relevant items using keyword + source filters, ranks them deterministically, and summarizes each with a strict JSON schema. The editor layer clusters related items into stories, forces prioritization (top story, top 3, then context), and caps output to 8 clusters per run. Any jargon used must be defined for beginners. If source content is thin, the model is instructed to set confidence to LOW and explain uncertainty.
 
 ## GitHub Actions
 
