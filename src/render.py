@@ -20,14 +20,14 @@ def render_digest(
     )
     template = env.get_template(template_path.name)
 
-    grouped = {\"HIGH\": [], \"MEDIUM\": [], \"LOW\": []}
+    grouped = {"HIGH": [], "MEDIUM": [], "LOW": []}
     for item in items:
-        grouped.setdefault(item.get(\"risk\", \"LOW\"), []).append(item)
+        grouped.setdefault(item.get("risk", "LOW"), []).append(item)
 
     sections = [
-        (\"High\", grouped.get(\"HIGH\", [])),
-        (\"Medium\", grouped.get(\"MEDIUM\", [])),
-        (\"Low\", grouped.get(\"LOW\", [])),
+        ("High", grouped.get("HIGH", [])),
+        ("Medium", grouped.get("MEDIUM", [])),
+        ("Low", grouped.get("LOW", [])),
     ]
 
     return template.render(
