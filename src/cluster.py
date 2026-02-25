@@ -84,6 +84,22 @@ def _tokenize(text: str) -> list[str]:
     return [token for token in tokens if token not in _STOPWORDS and len(token) > 2]
 
 
+def extract_vendor_key(text: str) -> str:
+    lower = text.lower()
+    for vendor in sorted(_VENDOR_HINTS, key=len, reverse=True):
+        if vendor in lower:
+            return vendor
+    return ""
+
+
+def extract_exploit_chain(text: str) -> str:
+    lower = text.lower()
+    for keyword in ("auth bypass", "rce", "remote code", "zero-day", "0-day", "privilege", "deserialization"):
+        if keyword in lower:
+            return keyword
+    return ""
+
+
 def _title_tokens(title: str) -> set[str]:
     return set(_tokenize(title))
 
@@ -97,14 +113,15 @@ def extract_topic_key(item: dict) -> str:
     if cve_match:
         return cve_match.group(0).upper()
 
-    lower = combined.lower()
-    vendor_hits = [vendor for vendor in _VENDOR_HINTS if vendor in lower]
-    if vendor_hits:
-        vendor = sorted(vendor_hits, key=len, reverse=True)[0]
+    vendor = extract_vendor_key(combined)
+    chain = extract_exploit_chain(combined)
+    if vendor:
         tokens = _tokenize(title)
-        if tokens:
-            return f"{vendor} {tokens[0]}"
-        return vendor
+        product = tokens[0] if tokens else "product"
+        key = f"{vendor} {product}"
+        if chain:
+            key = f"{key} {chain}"
+        return key
 
     tokens = _tokenize(title)
     if not tokens:
@@ -132,6 +149,8 @@ def cluster_items(items: Iterable[dict]) -> list[dict]:
     for item in items:
         topic_key = extract_topic_key(item)
         tokens = _title_tokens(item.get("title", ""))
+        vendor_key = extract_vendor_key(f"{item.get('title', '')} {item.get('summary', '')}")
+        chain_key = extract_exploit_chain(f"{item.get('title', '')} {item.get('summary', '')}")
 
         assigned = False
         for cluster in clusters:
@@ -141,8 +160,14 @@ def cluster_items(items: Iterable[dict]) -> list[dict]:
                 assigned = True
                 break
 
+            if vendor_key and cluster.get("vendor_key") == vendor_key and chain_key:
+                cluster["items"].append(item)
+                cluster["tokens"].update(tokens)
+                assigned = True
+                break
+
             overlap = _jaccard(cluster["tokens"], tokens)
-            if overlap >= 0.5:
+            if overlap >= 0.35:
                 cluster["items"].append(item)
                 cluster["tokens"].update(tokens)
                 assigned = True
@@ -154,6 +179,8 @@ def cluster_items(items: Iterable[dict]) -> list[dict]:
                     "topic_key": topic_key,
                     "items": [item],
                     "tokens": set(tokens),
+                    "vendor_key": vendor_key,
+                    "chain_key": chain_key,
                 }
             )
 
@@ -174,6 +201,8 @@ def score_item(item: dict) -> int:
         score += 2
     if item.get("source", "").lower().startswith("cisa"):
         score += 2
+    if "patch" in text or "fixed" in text:
+        score += 1
 
     if "policy" in text or "regulation" in text or "law" in text:
         score -= 2

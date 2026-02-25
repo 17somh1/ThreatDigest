@@ -388,7 +388,15 @@
         <div class="sources">
           <div class="label">Sources</div>
           {% for source in item.sources %}
-            <div><a href="{{ source.url }}" target="_blank" rel="noopener">{{ source.source }} - {{ source.title }}</a></div>
+            {% if source.url %}
+              <div>
+                <a href="{{ source.url }}" target="_blank" rel="noopener noreferrer">
+                  {{ source.source }} - {{ source.title }}
+                </a>
+              </div>
+            {% else %}
+              <div>{{ source.source }} - {{ source.title }}</div>
+            {% endif %}
           {% endfor %}
         </div>
       </article>

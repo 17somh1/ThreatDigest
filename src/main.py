@@ -148,7 +148,7 @@ def main() -> int:
     _ensure_dirs()
     archive_links = _sync_archives(digest_date, keep_days=14)
 
-    editorial = editor.build_editorial(summarized_items, max_clusters=8)
+    editorial = editor.build_editorial(summarized_items, max_clusters=6)
     themes_data = themes.generate_themes(editorial.all_clusters, api_key=api_key, model=model)
 
     html = render.render_digest(

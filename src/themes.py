@@ -33,7 +33,9 @@ def _build_prompt(clusters: list[dict]) -> str:
         "Rules:\n"
         "- Output valid JSON only. No markdown.\n"
         "- Themes must be pattern-level, not headline-level.\n"
-        "- Avoid jargon unless you explain it in plain English.\n\n"
+        "- The sentence must be sharp and human, no corporate filler.\n"
+        "- Avoid jargon unless you explain it in plain English.\n"
+        "- One sentence only for today_in_one_sentence.\n\n"
         f"Cluster titles:\n{titles}\n\n"
         f"Labels: {labels}\n"
     )
