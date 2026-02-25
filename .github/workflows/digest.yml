@@ -10,6 +10,8 @@ jobs:
     runs-on: ubuntu-latest
     permissions:
       contents: write
+      pages: write
+      id-token: write
     steps:
       - name: Check out repository
         uses: actions/checkout@v4
@@ -29,6 +31,9 @@ jobs:
           MAX_ITEMS_PER_RUN: ${{ secrets.MAX_ITEMS_PER_RUN }}
         run: python -m src.main
 
+      - name: Disable Jekyll
+        run: touch docs/.nojekyll
+
       - name: Commit updated digest
         run: |
           if git status --porcelain | grep -qE '^( M|M |A |\?\?) (docs/|state.json)'; then
@@ -40,3 +45,11 @@ jobs:
           else
             echo "No changes to commit"
           fi
+
+      - name: Upload Pages artifact
+        uses: actions/upload-pages-artifact@v3
+        with:
+          path: docs
+
+      - name: Deploy to GitHub Pages
+        uses: actions/deploy-pages@v4
