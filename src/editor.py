@@ -39,11 +39,16 @@ def _merge_beginner_breakdown(items: Iterable[dict]) -> list[str]:
 def _merge_sources(items: Iterable[dict]) -> list[dict]:
     sources = []
     seen_urls = set()
+    seen_sources = set()
     for item in items:
         url = item.get("url")
         if not url or url in seen_urls:
             continue
+        source_name = _clean_text(item.get("source", "")).lower()
+        if source_name in seen_sources:
+            continue
         seen_urls.add(url)
+        seen_sources.add(source_name)
         sources.append(
             {
                 "title": _clean_text(item.get("title", "")),
@@ -103,9 +108,9 @@ def _story_lines(primary: dict, sources: list[dict]) -> list[str]:
         also = ", ".join(source.get("source", "") for source in sources[1:])
         lines.append(f"Also reported by {also}.")
 
-    lines = [f"- {_clean_text(line)}" for line in lines if line]
+    lines = [_clean_text(line) for line in lines if line]
     if len(lines) < 4:
-        lines.append("- Expect follow-on reporting as more details surface.")
+        lines.append("Expect follow-on reporting as more details surface.")
     return lines[:8]
 
 
@@ -161,7 +166,7 @@ def _build_cluster(cluster_payload: dict) -> dict:
         "why_this_is_here": _why_this_is_here(signals),
         "spicy_take": spicy_take,
         "tl_dr": _clean_text(primary.get("tl_dr", "")),
-        "the_story": "\n".join(_story_lines(primary, sources)),
+        "story_lines": _story_lines(primary, sources),
         "beginner_breakdown": _merge_beginner_breakdown(items),
         "soc_focus": [_clean_text(entry) for entry in (primary.get("soc_focus", []) or [])],
         "recommended_actions": [_clean_text(entry) for entry in (primary.get("recommended_actions", []) or [])],

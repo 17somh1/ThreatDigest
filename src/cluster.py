@@ -66,6 +66,23 @@ _STOPWORDS = {
     "report",
     "reports",
     "update",
+    "vulnerability",
+    "vulnerabilities",
+    "flaw",
+    "flaws",
+    "critical",
+    "patch",
+    "update",
+    "exploit",
+    "exploited",
+    "execution",
+    "remote",
+    "code",
+    "attack",
+    "attacks",
+    "security",
+    "issue",
+    "issues",
 }
 
 _LABEL_KEYWORDS = {

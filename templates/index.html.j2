@@ -223,11 +223,17 @@
         color: var(--ink);
       }
 
-      .story {
+      .story-list {
         background: rgba(255, 255, 255, 0.6);
         border-radius: 12px;
-        padding: 0.8rem;
-        white-space: pre-line;
+        padding: 0.8rem 1rem;
+        margin: 0;
+        color: var(--muted);
+        line-height: 1.6;
+      }
+
+      .story-list li {
+        margin: 0.35rem 0;
       }
 
       details {
@@ -358,7 +364,11 @@
         <div class="text-block"><span class="label">Why this is here:</span> {{ item.why_this_is_here }}</div>
         <div class="text-block"><span class="label">Spicy take:</span> {{ item.spicy_take }}</div>
         <div class="text-block"><span class="label">TL;DR:</span> {{ item.tl_dr }}</div>
-        <div class="story">{{ item.the_story }}</div>
+        <ul class="story-list">
+          {% for line in item.story_lines %}
+            <li>{{ line }}</li>
+          {% endfor %}
+        </ul>
 
         <details>
           <summary>Beginner breakdown</summary>
