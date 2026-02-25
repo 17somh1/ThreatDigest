@@ -13,35 +13,17 @@ if __package__ is None or __package__ == "":
 
 from src import dedupe
 from src import feeds
+from src import rank
 from src import render
 from src import state
 from src import summarise
-from src.extract import extract_text
+from src import themes
 
 CONFIG_PATH = Path("config/settings.yaml")
 ENV_PATH = Path(".env")
 TEMPLATE_PATH = Path("templates/index.html.j2")
 DOCS_DIR = Path("docs")
 ARCHIVE_DIR = DOCS_DIR / "archive"
-
-KEYWORDS = [
-    "ransomware",
-    "exploit",
-    "zero-day",
-    "0-day",
-    "cve",
-    "apt",
-    "supply chain",
-    "bank",
-    "finance",
-    "cloud",
-    "malware",
-]
-
-AUTHORITATIVE_SOURCES = [
-    "cisa",
-    "ncsc",
-]
 
 DEFAULT_MAX_ITEMS = 15
 DEFAULT_RECENT_HOURS = 48
@@ -81,55 +63,6 @@ def _is_recent(item: dict, cutoff: datetime) -> bool:
     return published_dt >= cutoff
 
 
-def _matches_keywords(text: str) -> bool:
-    lower = text.lower()
-    return any(keyword in lower for keyword in KEYWORDS)
-
-
-def _is_authoritative(source: str) -> bool:
-    lower = source.lower()
-    return any(name in lower for name in AUTHORITATIVE_SOURCES)
-
-
-def _score_item(item: dict) -> int:
-    text = f"{item.get('title', '')} {item.get('summary', '')}".lower()
-    score = 0
-
-    if "cve-" in text:
-        score += 3
-    if "zero-day" in text or "0-day" in text:
-        score += 3
-    if "ransomware" in text:
-        score += 2
-    if "exploit" in text:
-        score += 2
-    if "supply chain" in text:
-        score += 2
-    if "apt" in text:
-        score += 2
-    if "malware" in text:
-        score += 1
-    if "cloud" in text:
-        score += 1
-    if "bank" in text or "finance" in text:
-        score += 1
-    if _is_authoritative(item.get("source", "")):
-        score += 3
-
-    return score
-
-
-def _keep_relevant(items: list[dict]) -> list[dict]:
-    filtered: list[dict] = []
-    for item in items:
-        summary_text = extract_text(item.get("summary", ""))
-        combined = f"{item.get('title', '')} {summary_text}"
-        if _matches_keywords(combined) or _is_authoritative(item.get("source", "")):
-            item["summary"] = summary_text
-            filtered.append(item)
-    return filtered
-
-
 def _ensure_dirs() -> None:
     DOCS_DIR.mkdir(parents=True, exist_ok=True)
     ARCHIVE_DIR.mkdir(parents=True, exist_ok=True)
@@ -157,9 +90,12 @@ def main() -> int:
         print("Missing OPENAI_API_KEY", file=sys.stderr)
         return 1
 
-    max_items = _read_int_env("MAX_ITEMS_PER_RUN", DEFAULT_MAX_ITEMS)
+    max_items = _read_int_env("MAX_ITEMS", DEFAULT_MAX_ITEMS)
     recent_hours = _read_int_env("RECENT_HOURS", DEFAULT_RECENT_HOURS)
     model = os.getenv("OPENAI_MODEL") or None
+    tone_mode = os.getenv("TONE_MODE", "spicy").strip().lower()
+    if tone_mode not in {"spicy", "clean"}:
+        tone_mode = "spicy"
 
     feed_urls = feeds.load_feed_urls(CONFIG_PATH)
     entries = feeds.fetch_entries(feed_urls)
@@ -168,8 +104,8 @@ def main() -> int:
     recent_entries = [entry for entry in entries if _is_recent(entry, cutoff)]
 
     deduped_entries = dedupe.dedupe_items(recent_entries)
-    filtered_entries = _keep_relevant(deduped_entries)
-    ranked_entries = sorted(filtered_entries, key=_score_item, reverse=True)
+    filtered_entries = rank.filter_items(deduped_entries)
+    ranked_entries = rank.rank_items(filtered_entries)
 
     digest_state = state.load_state()
     new_entries = [
@@ -185,7 +121,12 @@ def main() -> int:
 
     summarized_items: list[dict] = []
     for entry in selected_entries:
-        summary = summarise.summarize_item(entry, api_key=api_key, model=model)
+        summary = summarise.summarize_item(
+            entry,
+            api_key=api_key,
+            tone_mode=tone_mode,
+            model=model,
+        )
         if not summary:
             continue
         entry.update(summary)
@@ -202,12 +143,16 @@ def main() -> int:
     _ensure_dirs()
     archive_links = _sync_archives(digest_date, keep_days=14)
 
+    themes_data = themes.generate_themes(summarized_items, api_key=api_key, model=model)
+
     html = render.render_digest(
         summarized_items,
         digest_date=digest_date,
         generated_at=generated_at,
         archive_links=archive_links,
         template_path=TEMPLATE_PATH,
+        themes_data=themes_data,
+        tone_mode=tone_mode,
     )
 
     index_path = DOCS_DIR / "index.html"

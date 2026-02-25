@@ -110,10 +110,35 @@
         border-radius: 50%;
       }
 
+      .themes {
+        background: var(--card);
+        border-radius: 20px;
+        padding: 1.5rem;
+        box-shadow: var(--shadow);
+        border: 1px solid var(--border);
+        display: grid;
+        gap: 1rem;
+      }
+
+      .themes h2 {
+        margin: 0;
+        font-size: 1.3rem;
+      }
+
+      .themes ul {
+        margin: 0;
+        padding-left: 1.2rem;
+        color: var(--muted);
+      }
+
+      .themes .rant {
+        font-weight: 600;
+      }
+
       .grid {
         display: grid;
         gap: 1.5rem;
-        grid-template-columns: repeat(auto-fit, minmax(260px, 1fr));
+        grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
       }
 
       .card {
@@ -185,16 +210,44 @@
         color: var(--low);
       }
 
-      .summary,
-      .actions {
-        margin: 0;
-        padding-left: 1.2rem;
+      .stage {
+        background: rgba(42, 127, 127, 0.12);
+        color: var(--teal);
+      }
+
+      .text-block {
         color: var(--muted);
         line-height: 1.6;
       }
 
-      .detail strong {
+      .label {
+        font-weight: 600;
         color: var(--ink);
+      }
+
+      details {
+        background: rgba(255, 255, 255, 0.7);
+        padding: 0.6rem 0.8rem;
+        border-radius: 12px;
+        border: 1px solid var(--border);
+      }
+
+      details summary {
+        cursor: pointer;
+        font-weight: 600;
+        color: var(--ink);
+      }
+
+      details ul {
+        margin: 0.6rem 0 0;
+        padding-left: 1.2rem;
+        color: var(--muted);
+      }
+
+      .list {
+        margin: 0.3rem 0 0;
+        padding-left: 1.2rem;
+        color: var(--muted);
       }
 
       .tags {
@@ -268,19 +321,33 @@
   </head>
   <body>
     <header>
-      <div class="eyebrow">Daily Threat Digest</div>
+      <div class="eyebrow">Spicy-but-Educational Digest</div>
       <h1>Threat Digest - {{ digest_date }}</h1>
       <p class="subtitle">
-        A concise, portfolio-grade view of the most relevant cyber threats in the last 48 hours.
-        Each item is scored for severity and summarized with consistent structure.
+        Straight talk from a tired SOC analyst. Clear explanations, mild sarcasm, and no mystery jargon.
       </p>
       <div class="meta-bar">
-        <span>Generated at {{ generated_at }}</span>
+        <span>Generated at: {{ generated_at }}</span>
         <span>Archive days: {{ archive_links | length }}</span>
+        <span>Tone mode: {{ tone_mode }}</span>
       </div>
     </header>
 
     <main>
+      <section class="themes">
+        <h2>Today's Themes</h2>
+        {% if themes_data %}
+          <ul>
+            {% for theme in themes_data.themes %}
+            <li>{{ theme }}</li>
+            {% endfor %}
+          </ul>
+          <div class="rant">{{ themes_data.one_line_rant }}</div>
+        {% else %}
+          <p class="empty">No themes available yet.</p>
+        {% endif %}
+      </section>
+
       {% for label, items in sections %}
       <section>
         <div class="section-title">
@@ -293,25 +360,43 @@
             <article class="card" style="--i: {{ loop.index0 }};">
               <div class="meta">
                 <span class="chip risk-{{ label | lower }}">{{ item.risk }}</span>
+                <span class="chip stage">{{ item.attack_stage }}</span>
                 <span>{{ item.source }}</span>
                 <span>{{ item.published }}</span>
               </div>
               <h3><a href="{{ item.url }}" target="_blank" rel="noopener">{{ item.title }}</a></h3>
-              <ul class="summary">
-                {% for bullet in item.summary_bullets %}
-                <li>{{ bullet }}</li>
-                {% endfor %}
-              </ul>
-              <div class="detail"><strong>Impact:</strong> {{ item.impact }}</div>
-              <div class="detail"><strong>Affected:</strong> {{ item.who_affected }}</div>
-              <div class="detail">
-                <strong>Actions:</strong>
-                <ul class="actions">
-                  {% for action in item.actions %}
+              <div class="text-block"><span class="label">Spicy take:</span> {{ item.spicy_take }}</div>
+              <div class="text-block"><span class="label">TL;DR:</span> {{ item.tl_dr }}</div>
+              <div class="text-block"><span class="label">What happened:</span> {{ item.what_happened }}</div>
+              <div class="text-block"><span class="label">Why it matters:</span> {{ item.why_it_matters }}</div>
+
+              <details>
+                <summary>Beginner breakdown</summary>
+                <ul>
+                  {% for entry in item.beginner_breakdown %}
+                  <li>{{ entry }}</li>
+                  {% endfor %}
+                </ul>
+              </details>
+
+              <div>
+                <div class="label">SOC focus</div>
+                <ul class="list">
+                  {% for focus in item.soc_focus %}
+                  <li>{{ focus }}</li>
+                  {% endfor %}
+                </ul>
+              </div>
+
+              <div>
+                <div class="label">Recommended actions</div>
+                <ul class="list">
+                  {% for action in item.recommended_actions %}
                   <li>{{ action }}</li>
                   {% endfor %}
                 </ul>
               </div>
+
               <div class="tags">
                 {% for tag in item.tags %}
                 <span>#{{ tag }}</span>
@@ -338,7 +423,7 @@
     </aside>
 
     <footer>
-      Generated by the Threat Digest pipeline. Built for portfolio showcase with free RSS sources and OpenAI summaries.
+      Generated by the Threat Digest pipeline using free RSS sources and OpenAI summaries.
     </footer>
   </body>
 </html>
