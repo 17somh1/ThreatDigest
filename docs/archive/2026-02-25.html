@@ -327,7 +327,7 @@
         Straight talk from a tired SOC analyst. Clear explanations, mild sarcasm, and no mystery jargon.
       </p>
       <div class="meta-bar">
-        <span>Generated at: 2026-02-25 20:03 UTC</span>
+        <span>Generated at: 2026-02-25 20:11 UTC</span>
         <span>Archive days: 1</span>
         <span>Tone mode: spicy</span>
       </div>
@@ -337,7 +337,18 @@
       <section class="themes">
         <h2>Today's Themes</h2>
         
-          <p class="empty">No themes available yet.</p>
+          <ul>
+            
+            <li>Cisco SD-WAN vulnerabilities are being actively exploited.</li>
+            
+            <li>CISA is updating its list of known vulnerabilities.</li>
+            
+            <li>Guidance released for Cisco SD-WAN exploitation issues.</li>
+            
+            <li>Critical flaws in SolarWinds software patched.</li>
+            
+          </ul>
+          <div class="rant">It's a wild world out there; stay alert and patch those vulnerabilities!</div>
         
       </section>
 
@@ -348,7 +359,815 @@
           High Risk
         </div>
         
-          <p class="empty">No items in this band today.</p>
+          <div class="grid">
+            
+            <article class="card" style="--i: 0;">
+              <div class="meta">
+                <span class="chip risk-high">HIGH</span>
+                <span class="chip stage">Initial Access</span>
+                <span>BleepingComputer</span>
+                <span>Wed, 25 Feb 2026 13:01:51 -0500</span>
+              </div>
+              <h3><a href="https://www.bleepingcomputer.com/news/security/critical-cisco-sd-wan-bug-exploited-in-zero-day-attacks-since-2023/" target="_blank" rel="noopener">Critical Cisco SD-WAN bug exploited in zero-day attacks since 2023</a></h3>
+              <div class="text-block"><span class="label">Spicy take:</span> Ah yes, another day, another critical bug that makes you question your network's security.</div>
+              <div class="text-block"><span class="label">TL;DR:</span> A serious vulnerability in Cisco SD-WAN has been exploited by attackers to compromise networks.</div>
+              <div class="text-block"><span class="label">What happened:</span> Cisco announced that a critical authentication bypass vulnerability, identified as CVE-2026-20127, has been actively exploited in zero-day attacks. This flaw allows remote attackers to compromise controllers and introduce malicious rogue peers into targeted networks.</div>
+              <div class="text-block"><span class="label">Why it matters:</span> The exploitation of this vulnerability poses a significant risk to network integrity and security, potentially allowing attackers to manipulate network traffic and access sensitive information. Organizations using Cisco SD-WAN should be particularly vigilant, as the impacts could lead to data breaches or service disruptions.</div>
+
+              <details>
+                <summary>Beginner breakdown</summary>
+                <ul>
+                  
+                  <li>CVE - Common Vulnerabilities and Exposures, a list of publicly disclosed cybersecurity vulnerabilities.</li>
+                  
+                  <li>Zero-day - A vulnerability that is exploited before the vendor has released a fix.</li>
+                  
+                </ul>
+              </details>
+
+              <div>
+                <div class="label">SOC focus</div>
+                <ul class="list">
+                  
+                  <li>Monitor network traffic for unusual patterns that may indicate rogue peers.</li>
+                  
+                  <li>Implement strict access controls to limit who can connect to network controllers.</li>
+                  
+                  <li>Regularly update and patch Cisco SD-WAN devices to mitigate known vulnerabilities.</li>
+                  
+                </ul>
+              </div>
+
+              <div>
+                <div class="label">Recommended actions</div>
+                <ul class="list">
+                  
+                  <li>Assess your network for potential exposure to this vulnerability.</li>
+                  
+                  <li>Apply any available patches from Cisco immediately.</li>
+                  
+                  <li>Educate your team on recognizing signs of network compromise.</li>
+                  
+                </ul>
+              </div>
+
+              <div class="tags">
+                
+                <span>#ransomware</span>
+                
+                <span>#cve</span>
+                
+                <span>#cloud</span>
+                
+              </div>
+              <div class="confidence">Confidence: MEDIUM</div>
+            </article>
+            
+            <article class="card" style="--i: 1;">
+              <div class="meta">
+                <span class="chip risk-high">HIGH</span>
+                <span class="chip stage">Initial Access</span>
+                <span>Alerts</span>
+                <span>Wed, 25 Feb 26 12:00:00 +0000</span>
+              </div>
+              <h3><a href="https://www.cisa.gov/news-events/alerts/2026/02/25/cisa-adds-two-known-exploited-vulnerabilities-catalog" target="_blank" rel="noopener">CISA Adds Two Known Exploited Vulnerabilities to Catalog</a></h3>
+              <div class="text-block"><span class="label">Spicy take:</span> It's always a good day when CISA reminds us that vulnerabilities are like bad habits—hard to shake off and always lurking around.</div>
+              <div class="text-block"><span class="label">TL;DR:</span> CISA has added two critical vulnerabilities to its catalog, urging organizations to address them promptly.</div>
+              <div class="text-block"><span class="label">What happened:</span> CISA has identified and added two new vulnerabilities to its Known Exploited Vulnerabilities (KEV) Catalog: CVE-2022-20775 and CVE-2026-20127. These vulnerabilities are related to Cisco Catalyst SD-WAN products and have been confirmed to be actively exploited. The KEV Catalog serves as a crucial resource for identifying vulnerabilities that pose significant risks to federal networks.</div>
+              <div class="text-block"><span class="label">Why it matters:</span> These vulnerabilities are frequent targets for cyber attackers, and their exploitation can lead to severe impacts on federal and potentially other organizational networks. The Binding Operational Directive (BOD) 22-01 mandates that federal agencies remediate these vulnerabilities to safeguard against active threats, highlighting the urgency for all organizations to prioritize their vulnerability management practices.</div>
+
+              <details>
+                <summary>Beginner breakdown</summary>
+                <ul>
+                  
+                  <li>CVE - Common Vulnerabilities and Exposures, a list of publicly known cybersecurity vulnerabilities.</li>
+                  
+                  <li>BOD - Binding Operational Directive, a directive issued to ensure federal agencies address cybersecurity risks.</li>
+                  
+                </ul>
+              </details>
+
+              <div>
+                <div class="label">SOC focus</div>
+                <ul class="list">
+                  
+                  <li>Monitor for attempts to exploit the newly identified vulnerabilities in your network.</li>
+                  
+                  <li>Ensure that all relevant systems are updated and patched against these vulnerabilities.</li>
+                  
+                  <li>Review and enhance your vulnerability management processes to prioritize KEV Catalog entries.</li>
+                  
+                </ul>
+              </div>
+
+              <div>
+                <div class="label">Recommended actions</div>
+                <ul class="list">
+                  
+                  <li>Patch the identified vulnerabilities immediately.</li>
+                  
+                  <li>Conduct a thorough assessment of your network for potential exploitation.</li>
+                  
+                  <li>Implement regular vulnerability scanning to stay ahead of threats.</li>
+                  
+                </ul>
+              </div>
+
+              <div class="tags">
+                
+                <span>#cve</span>
+                
+                <span>#vulnerability</span>
+                
+                <span>#federal</span>
+                
+              </div>
+              <div class="confidence">Confidence: MEDIUM</div>
+            </article>
+            
+            <article class="card" style="--i: 2;">
+              <div class="meta">
+                <span class="chip risk-high">HIGH</span>
+                <span class="chip stage">Initial Access</span>
+                <span>Alerts</span>
+                <span>Wed, 25 Feb 26 12:00:00 +0000</span>
+              </div>
+              <h3><a href="https://www.cisa.gov/news-events/alerts/2026/02/25/cisa-and-partners-release-guidance-ongoing-global-exploitation-cisco-sd-wan-systems" target="_blank" rel="noopener">CISA and Partners Release Guidance for Ongoing Global Exploitation of Cisco SD-WAN Systems</a></h3>
+              <div class="text-block"><span class="label">Spicy take:</span> Because who doesn't love a good old-fashioned exploitation of vulnerabilities in widely used systems?</div>
+              <div class="text-block"><span class="label">TL;DR:</span> CISA warns of ongoing global exploitation of Cisco SD-WAN systems, urging immediate action to mitigate vulnerabilities.</div>
+              <div class="text-block"><span class="label">What happened:</span> CISA and partners have identified ongoing exploitation of vulnerabilities in Cisco SD-WAN systems, including two newly added CVEs. Malicious actors have been exploiting an authentication bypass vulnerability (CVE-2026-20127) for initial access and escalating privileges using CVE-2022-20775. CISA has issued Emergency Directive 26-03 to guide Federal agencies in addressing these vulnerabilities.</div>
+              <div class="text-block"><span class="label">Why it matters:</span> The exploitation of these vulnerabilities poses significant risks to organizations using Cisco SD-WAN systems, potentially leading to unauthorized access and data breaches. Immediate action is required to inventory, patch, and assess these systems to prevent further compromise and ensure network integrity.</div>
+
+              <details>
+                <summary>Beginner breakdown</summary>
+                <ul>
+                  
+                  <li>CVE - Common Vulnerabilities and Exposures, a list of publicly known cybersecurity vulnerabilities.</li>
+                  
+                  <li>SD-WAN - Software-Defined Wide Area Network, a technology that simplifies the management and operation of a WAN by separating the networking hardware from its control mechanism.</li>
+                  
+                </ul>
+              </details>
+
+              <div>
+                <div class="label">SOC focus</div>
+                <ul class="list">
+                  
+                  <li>Inventory all Cisco SD-WAN systems to identify those at risk.</li>
+                  
+                  <li>Collect logs and virtual snapshots for threat hunting activities.</li>
+                  
+                  <li>Ensure all systems are fully patched with the latest updates.</li>
+                  
+                </ul>
+              </div>
+
+              <div>
+                <div class="label">Recommended actions</div>
+                <ul class="list">
+                  
+                  <li>Immediately inventory Cisco SD-WAN systems.</li>
+                  
+                  <li>Patch all identified vulnerabilities without delay.</li>
+                  
+                  <li>Conduct a thorough threat hunt for signs of compromise.</li>
+                  
+                </ul>
+              </div>
+
+              <div class="tags">
+                
+                <span>#ransomware</span>
+                
+                <span>#cve</span>
+                
+                <span>#cloud</span>
+                
+              </div>
+              <div class="confidence">Confidence: MEDIUM</div>
+            </article>
+            
+            <article class="card" style="--i: 3;">
+              <div class="meta">
+                <span class="chip risk-high">HIGH</span>
+                <span class="chip stage">Initial Access</span>
+                <span>Alerts</span>
+                <span>Tue, 24 Feb 26 12:00:00 +0000</span>
+              </div>
+              <h3><a href="https://www.cisa.gov/news-events/alerts/2026/02/24/cisa-adds-one-known-exploited-vulnerability-catalog" target="_blank" rel="noopener">CISA Adds One Known Exploited Vulnerability to Catalog</a></h3>
+              <div class="text-block"><span class="label">Spicy take:</span> Just when you thought it was safe to ignore vulnerabilities, CISA reminds us they’re still very much alive and kicking.</div>
+              <div class="text-block"><span class="label">TL;DR:</span> CISA has added a new high-risk vulnerability to its catalog that is currently being exploited.</div>
+              <div class="text-block"><span class="label">What happened:</span> CISA has included CVE-2026-25108, a command injection vulnerability in Soliton Systems K.K. FileZen, in its Known Exploited Vulnerabilities (KEV) Catalog due to evidence of active exploitation. This vulnerability is a common target for cyber attackers and poses significant risks to federal networks.</div>
+              <div class="text-block"><span class="label">Why it matters:</span> The addition of this vulnerability to the KEV Catalog highlights the ongoing threat landscape and the need for immediate action to mitigate risks. Federal agencies are required to address these vulnerabilities promptly, but CISA encourages all organizations to prioritize remediation to protect against potential cyberattacks.</div>
+
+              <details>
+                <summary>Beginner breakdown</summary>
+                <ul>
+                  
+                  <li>CVE - Common Vulnerabilities and Exposures, a list of publicly known cybersecurity vulnerabilities.</li>
+                  
+                  <li>KEV - Known Exploited Vulnerabilities, a catalog of vulnerabilities that are actively being exploited in the wild.</li>
+                  
+                </ul>
+              </details>
+
+              <div>
+                <div class="label">SOC focus</div>
+                <ul class="list">
+                  
+                  <li>Monitor for any attempts to exploit CVE-2026-25108 in your environment.</li>
+                  
+                  <li>Ensure that all systems using FileZen are updated and patched to mitigate this vulnerability.</li>
+                  
+                  <li>Review and enhance your vulnerability management practices to prioritize KEV vulnerabilities.</li>
+                  
+                </ul>
+              </div>
+
+              <div>
+                <div class="label">Recommended actions</div>
+                <ul class="list">
+                  
+                  <li>Patch the identified vulnerability immediately.</li>
+                  
+                  <li>Conduct a risk assessment to understand the potential impact.</li>
+                  
+                  <li>Implement a continuous monitoring strategy for known vulnerabilities.</li>
+                  
+                </ul>
+              </div>
+
+              <div class="tags">
+                
+                <span>#cve</span>
+                
+                <span>#vulnerability</span>
+                
+                <span>#federal</span>
+                
+              </div>
+              <div class="confidence">Confidence: MEDIUM</div>
+            </article>
+            
+            <article class="card" style="--i: 4;">
+              <div class="meta">
+                <span class="chip risk-high">HIGH</span>
+                <span class="chip stage">Execution</span>
+                <span>The Hacker News</span>
+                <span>Wed, 25 Feb 2026 12:34:00 +0530</span>
+              </div>
+              <h3><a href="https://thehackernews.com/2026/02/solarwinds-patches-4-critical-serv-u.html" target="_blank" rel="noopener">SolarWinds Patches 4 Critical Serv-U 15.5 Flaws Allowing Root Code Execution</a></h3>
+              <div class="text-block"><span class="label">Spicy take:</span> Because who doesn't love a good root code execution vulnerability in their file transfer software?</div>
+              <div class="text-block"><span class="label">TL;DR:</span> SolarWinds has patched four critical vulnerabilities in its Serv-U software that could allow attackers to execute code remotely.</div>
+              <div class="text-block"><span class="label">What happened:</span> SolarWinds released updates to fix four critical security flaws in its Serv-U file transfer software. These vulnerabilities, rated 9.1 on the CVSS scoring system, could allow attackers to execute arbitrary code remotely. The flaws include a broken access control vulnerability that enables the creation of a system admin user.</div>
+              <div class="text-block"><span class="label">Why it matters:</span> These vulnerabilities are particularly dangerous as they could allow attackers to gain full control over affected systems. Successful exploitation could lead to significant data breaches or disruptions in services, impacting businesses that rely on Serv-U for file transfers.</div>
+
+              <details>
+                <summary>Beginner breakdown</summary>
+                <ul>
+                  
+                  <li>CVSS - Common Vulnerability Scoring System, a standard for assessing the severity of security vulnerabilities.</li>
+                  
+                  <li>Remote Code Execution - A type of vulnerability that allows an attacker to run arbitrary code on a target machine from a remote location.</li>
+                  
+                </ul>
+              </details>
+
+              <div>
+                <div class="label">SOC focus</div>
+                <ul class="list">
+                  
+                  <li>Monitor for unusual user account creations, especially admin accounts.</li>
+                  
+                  <li>Implement the latest patches for Serv-U software immediately.</li>
+                  
+                  <li>Conduct a review of file transfer logs for any suspicious activity.</li>
+                  
+                </ul>
+              </div>
+
+              <div>
+                <div class="label">Recommended actions</div>
+                <ul class="list">
+                  
+                  <li>Update Serv-U software to the latest version.</li>
+                  
+                  <li>Review and tighten access controls for file transfer systems.</li>
+                  
+                  <li>Educate staff on recognizing potential phishing attempts that could exploit these vulnerabilities.</li>
+                  
+                </ul>
+              </div>
+
+              <div class="tags">
+                
+                <span>#ransomware</span>
+                
+                <span>#cve</span>
+                
+                <span>#cloud</span>
+                
+              </div>
+              <div class="confidence">Confidence: MEDIUM</div>
+            </article>
+            
+            <article class="card" style="--i: 5;">
+              <div class="meta">
+                <span class="chip risk-high">HIGH</span>
+                <span class="chip stage">Execution</span>
+                <span>The Hacker News</span>
+                <span>Wed, 25 Feb 2026 10:53:00 +0530</span>
+              </div>
+              <h3><a href="https://thehackernews.com/2026/02/cisa-confirms-active-exploitation-of.html" target="_blank" rel="noopener">CISA Confirms Active Exploitation of FileZen CVE-2026-25108 Vulnerability</a></h3>
+              <div class="text-block"><span class="label">Spicy take:</span> Ah yes, another day, another vulnerability that reminds us how much we love patching.</div>
+              <div class="text-block"><span class="label">TL;DR:</span> CISA has confirmed that a serious vulnerability in FileZen is being actively exploited.</div>
+              <div class="text-block"><span class="label">What happened:</span> The U.S. Cybersecurity and Infrastructure Security Agency (CISA) has added the FileZen vulnerability, tracked as CVE-2026-25108, to its Known Exploited Vulnerabilities catalog. This vulnerability, which has a CVSS v4 score of 8.7, allows an authenticated user to execute OS command injections, leading to potential unauthorized access.</div>
+              <div class="text-block"><span class="label">Why it matters:</span> This vulnerability poses a significant risk as it can be exploited by authenticated users, potentially leading to severe security breaches. Organizations using FileZen need to be aware of this threat to protect their systems and sensitive data from exploitation.</div>
+
+              <details>
+                <summary>Beginner breakdown</summary>
+                <ul>
+                  
+                  <li>CVE - Common Vulnerabilities and Exposures, a list of publicly known cybersecurity vulnerabilities.</li>
+                  
+                  <li>OS Command Injection - A type of attack where an attacker can execute arbitrary commands on a host operating system.</li>
+                  
+                </ul>
+              </details>
+
+              <div>
+                <div class="label">SOC focus</div>
+                <ul class="list">
+                  
+                  <li>Monitor for unusual command executions from authenticated users.</li>
+                  
+                  <li>Implement strict access controls to limit who can execute commands.</li>
+                  
+                  <li>Ensure that all systems using FileZen are updated with the latest security patches.</li>
+                  
+                </ul>
+              </div>
+
+              <div>
+                <div class="label">Recommended actions</div>
+                <ul class="list">
+                  
+                  <li>Review and apply patches for CVE-2026-25108 immediately.</li>
+                  
+                  <li>Conduct a security audit of systems using FileZen.</li>
+                  
+                  <li>Educate users about the risks of command injection attacks.</li>
+                  
+                </ul>
+              </div>
+
+              <div class="tags">
+                
+                <span>#ransomware</span>
+                
+                <span>#cve</span>
+                
+                <span>#cloud</span>
+                
+              </div>
+              <div class="confidence">Confidence: MEDIUM</div>
+            </article>
+            
+            <article class="card" style="--i: 6;">
+              <div class="meta">
+                <span class="chip risk-high">HIGH</span>
+                <span class="chip stage">Credential Access</span>
+                <span>BleepingComputer</span>
+                <span>Tue, 24 Feb 2026 18:57:58 -0500</span>
+              </div>
+              <h3><a href="https://www.bleepingcomputer.com/news/security/phishing-campaign-targets-freight-and-logistics-orgs-in-the-us-europe/" target="_blank" rel="noopener">Phishing campaign targets freight and logistics orgs in the US, Europe</a></h3>
+              <div class="text-block"><span class="label">Spicy take:</span> Ah yes, because who doesn't love a good phishing campaign targeting essential industries?</div>
+              <div class="text-block"><span class="label">TL;DR:</span> A phishing campaign is targeting freight and logistics organizations in the US and Europe to steal credentials.</div>
+              <div class="text-block"><span class="label">What happened:</span> A financially motivated threat group known as 'Diesel Vortex' has launched a phishing campaign aimed at freight and logistics organizations in the U.S. and Europe. They are utilizing 52 different domains to execute these attacks, which are designed to steal sensitive credentials from their victims.</div>
+              <div class="text-block"><span class="label">Why it matters:</span> The freight and logistics sector is crucial for global trade, and credential theft can lead to significant operational disruptions. If attackers gain access to these organizations, they could manipulate shipments, steal sensitive data, or even hold operations ransom, impacting the economy and supply chains.</div>
+
+              <details>
+                <summary>Beginner breakdown</summary>
+                <ul>
+                  
+                  <li>Phishing - a cyber attack that uses deceptive emails or websites to trick individuals into providing sensitive information.</li>
+                  
+                  <li>Credentials - the combination of a username and password used to access accounts or systems.</li>
+                  
+                </ul>
+              </details>
+
+              <div>
+                <div class="label">SOC focus</div>
+                <ul class="list">
+                  
+                  <li>Monitor for unusual email activity related to freight and logistics organizations.</li>
+                  
+                  <li>Implement multi-factor authentication to protect sensitive accounts.</li>
+                  
+                  <li>Educate employees about recognizing phishing attempts and reporting suspicious emails.</li>
+                  
+                </ul>
+              </div>
+
+              <div>
+                <div class="label">Recommended actions</div>
+                <ul class="list">
+                  
+                  <li>Review and strengthen email filtering systems.</li>
+                  
+                  <li>Conduct a security awareness training session for employees.</li>
+                  
+                  <li>Regularly update and patch systems to mitigate vulnerabilities.</li>
+                  
+                </ul>
+              </div>
+
+              <div class="tags">
+                
+                <span>#phishing</span>
+                
+                <span>#credentials</span>
+                
+                <span>#logistics</span>
+                
+              </div>
+              <div class="confidence">Confidence: MEDIUM</div>
+            </article>
+            
+            <article class="card" style="--i: 7;">
+              <div class="meta">
+                <span class="chip risk-high">HIGH</span>
+                <span class="chip stage">Unknown</span>
+                <span>BleepingComputer</span>
+                <span>Wed, 25 Feb 2026 03:21:40 -0500</span>
+              </div>
+              <h3><a href="https://www.bleepingcomputer.com/news/security/ex-l3harris-exec-jailed-for-selling-zero-days-to-russian-exploit-broker/" target="_blank" rel="noopener">Ex-L3Harris exec jailed for selling zero-days to Russian exploit broker</a></h3>
+              <div class="text-block"><span class="label">Spicy take:</span> Who knew that selling zero-days could land you in a cozy federal prison instead of a tech startup?</div>
+              <div class="text-block"><span class="label">TL;DR:</span> A former executive sold sensitive exploits to a Russian broker and is now facing over seven years in prison.</div>
+              <div class="text-block"><span class="label">What happened:</span> The ex-head of Trenchant, a U.S. defense contractor, was sentenced for stealing and selling zero-day vulnerabilities to a Russian exploit broker. This broker reportedly has connections with the Russian government, raising significant national security concerns.</div>
+              <div class="text-block"><span class="label">Why it matters:</span> The sale of zero-day exploits to foreign entities poses a direct threat to national security and can enable cyberattacks against critical infrastructure. This incident highlights the risks associated with insider threats and the potential for sensitive information to be misused.</div>
+
+              <details>
+                <summary>Beginner breakdown</summary>
+                <ul>
+                  
+                  <li>ZERO-DAY - a software vulnerability that is unknown to the vendor and has not yet been patched.</li>
+                  
+                  <li>EXPLOIT - a piece of software or code that takes advantage of a vulnerability to cause unintended behavior in a system.</li>
+                  
+                </ul>
+              </details>
+
+              <div>
+                <div class="label">SOC focus</div>
+                <ul class="list">
+                  
+                  <li>Monitor for insider threats within your organization to prevent similar incidents.</li>
+                  
+                  <li>Implement strict access controls to sensitive information and systems.</li>
+                  
+                  <li>Conduct regular security training for employees to recognize and report suspicious activities.</li>
+                  
+                </ul>
+              </div>
+
+              <div>
+                <div class="label">Recommended actions</div>
+                <ul class="list">
+                  
+                  <li>Review and tighten access controls for sensitive data.</li>
+                  
+                  <li>Enhance monitoring for unusual activities by employees.</li>
+                  
+                  <li>Establish a whistleblower program to encourage reporting of unethical behavior.</li>
+                  
+                </ul>
+              </div>
+
+              <div class="tags">
+                
+                <span>#zero-day</span>
+                
+                <span>#insider threat</span>
+                
+                <span>#national security</span>
+                
+              </div>
+              <div class="confidence">Confidence: MEDIUM</div>
+            </article>
+            
+            <article class="card" style="--i: 8;">
+              <div class="meta">
+                <span class="chip risk-high">HIGH</span>
+                <span class="chip stage">Unknown</span>
+                <span>The Hacker News</span>
+                <span>Wed, 25 Feb 2026 14:19:00 +0530</span>
+              </div>
+              <h3><a href="https://thehackernews.com/2026/02/defense-contractor-employee-jailed-for.html" target="_blank" rel="noopener">Defense Contractor Employee Jailed for Selling 8 Zero-Days to Russian Broker</a></h3>
+              <div class="text-block"><span class="label">Spicy take:</span> Who knew selling secrets could land you in jail? Shocking, right?</div>
+              <div class="text-block"><span class="label">TL;DR:</span> A former defense contractor was sentenced to prison for selling zero-day exploits to a Russian broker.</div>
+              <div class="text-block"><span class="label">What happened:</span> Peter Williams, a 39-year-old Australian, was sentenced to over seven years in prison for selling eight zero-day exploits to a Russian broker known as Operation Zero. He pleaded guilty to two counts of theft of trade secrets in October 2025. The exploits were sold for millions of dollars, raising significant concerns about national security.</div>
+              <div class="text-block"><span class="label">Why it matters:</span> The sale of zero-day exploits poses a serious risk to national security, as these vulnerabilities can be exploited by malicious actors to compromise sensitive systems. This incident highlights the ongoing threat of insider threats within defense contractors and the potential for critical information to fall into the wrong hands.</div>
+
+              <details>
+                <summary>Beginner breakdown</summary>
+                <ul>
+                  
+                  <li>Zero-Day - A software vulnerability that is unknown to the vendor and has no patch available.</li>
+                  
+                  <li>Trade Secrets - Confidential business information that provides a competitive edge.</li>
+                  
+                </ul>
+              </details>
+
+              <div>
+                <div class="label">SOC focus</div>
+                <ul class="list">
+                  
+                  <li>Monitor for unusual insider activity within defense contractors.</li>
+                  
+                  <li>Implement strict access controls to sensitive information.</li>
+                  
+                  <li>Conduct regular training on the importance of protecting trade secrets.</li>
+                  
+                </ul>
+              </div>
+
+              <div>
+                <div class="label">Recommended actions</div>
+                <ul class="list">
+                  
+                  <li>Review and strengthen insider threat programs.</li>
+                  
+                  <li>Enhance monitoring of employee access to sensitive data.</li>
+                  
+                  <li>Establish clear reporting protocols for suspicious activities.</li>
+                  
+                </ul>
+              </div>
+
+              <div class="tags">
+                
+                <span>#zero-day</span>
+                
+                <span>#insider threat</span>
+                
+                <span>#national security</span>
+                
+              </div>
+              <div class="confidence">Confidence: MEDIUM</div>
+            </article>
+            
+            <article class="card" style="--i: 9;">
+              <div class="meta">
+                <span class="chip risk-high">HIGH</span>
+                <span class="chip stage">Exfiltration</span>
+                <span>BleepingComputer</span>
+                <span>Wed, 25 Feb 2026 10:54:44 -0500</span>
+              </div>
+              <h3><a href="https://www.bleepingcomputer.com/news/security/marquis-sues-sonicwall-over-backup-breach-that-led-to-ransomware-attack/" target="_blank" rel="noopener">Marquis sues SonicWall over backup breach that led to ransomware attack</a></h3>
+              <div class="text-block"><span class="label">Spicy take:</span> Who knew that a backup breach could lead to such a dramatic plot twist in the world of cybersecurity?</div>
+              <div class="text-block"><span class="label">TL;DR:</span> Marquis Software Solutions is suing SonicWall after a backup breach resulted in a ransomware attack affecting 74 banks.</div>
+              <div class="text-block"><span class="label">What happened:</span> Marquis Software Solutions has initiated legal action against SonicWall, claiming that the company's negligence and misrepresentation contributed to a significant ransomware attack. This breach reportedly disrupted operations at 74 banks across the United States. The lawsuit highlights concerns over the security measures in place at SonicWall.</div>
+              <div class="text-block"><span class="label">Why it matters:</span> This incident underscores the critical importance of robust cybersecurity practices, especially for companies that provide security solutions. The potential financial and reputational damage to both Marquis and SonicWall could have far-reaching implications for the banking sector and trust in cybersecurity providers.</div>
+
+              <details>
+                <summary>Beginner breakdown</summary>
+                <ul>
+                  
+                  <li>Ransomware - a type of malicious software that encrypts a victim's files, demanding payment for the decryption key.</li>
+                  
+                  <li>Negligence - failure to take proper care in doing something, which in this case refers to SonicWall's alleged lack of adequate security measures.</li>
+                  
+                </ul>
+              </details>
+
+              <div>
+                <div class="label">SOC focus</div>
+                <ul class="list">
+                  
+                  <li>Monitor for unusual access patterns to backup systems.</li>
+                  
+                  <li>Implement alerts for any unauthorized changes to backup configurations.</li>
+                  
+                  <li>Conduct regular security audits of third-party vendors.</li>
+                  
+                </ul>
+              </div>
+
+              <div>
+                <div class="label">Recommended actions</div>
+                <ul class="list">
+                  
+                  <li>Review and strengthen backup security protocols.</li>
+                  
+                  <li>Educate staff on recognizing phishing attempts that could lead to ransomware.</li>
+                  
+                  <li>Establish a clear incident response plan for ransomware attacks.</li>
+                  
+                </ul>
+              </div>
+
+              <div class="tags">
+                
+                <span>#ransomware</span>
+                
+                <span>#cve</span>
+                
+                <span>#cloud</span>
+                
+              </div>
+              <div class="confidence">Confidence: MEDIUM</div>
+            </article>
+            
+            <article class="card" style="--i: 10;">
+              <div class="meta">
+                <span class="chip risk-high">HIGH</span>
+                <span class="chip stage">Execution</span>
+                <span>The Hacker News</span>
+                <span>Wed, 25 Feb 2026 22:30:00 +0530</span>
+              </div>
+              <h3><a href="https://thehackernews.com/2026/02/claude-code-flaws-allow-remote-code.html" target="_blank" rel="noopener">Claude Code Flaws Allow Remote Code Execution and API Key Exfiltration</a></h3>
+              <div class="text-block"><span class="label">Spicy take:</span> Because who doesn't love a little remote code execution with their morning coffee?</div>
+              <div class="text-block"><span class="label">TL;DR:</span> Multiple vulnerabilities in Claude Code could allow hackers to execute code remotely and steal API keys.</div>
+              <div class="text-block"><span class="label">What happened:</span> Cybersecurity researchers have identified several security flaws in Anthropic's Claude Code, an AI-powered coding assistant. These vulnerabilities could lead to remote code execution and the exfiltration of API credentials. The issues arise from various configuration mechanisms such as Hooks and Model Context Protocol (MCP) servers.</div>
+              <div class="text-block"><span class="label">Why it matters:</span> If exploited, these vulnerabilities could allow attackers to take control of systems and access sensitive information, posing a significant risk to organizations using Claude Code. The potential for API key theft could lead to unauthorized access to other services, amplifying the impact of the breach.</div>
+
+              <details>
+                <summary>Beginner breakdown</summary>
+                <ul>
+                  
+                  <li>Remote Code Execution - a vulnerability that allows an attacker to run arbitrary code on a target machine from a distance.</li>
+                  
+                  <li>API Key - a code passed in by computer programs calling an API to identify the calling program, its developer, or its user to the website.</li>
+                  
+                </ul>
+              </details>
+
+              <div>
+                <div class="label">SOC focus</div>
+                <ul class="list">
+                  
+                  <li>Monitor for unusual API calls that could indicate credential theft.</li>
+                  
+                  <li>Implement strict access controls to limit the impact of potential remote code execution.</li>
+                  
+                  <li>Regularly update and patch the Claude Code environment to mitigate known vulnerabilities.</li>
+                  
+                </ul>
+              </div>
+
+              <div>
+                <div class="label">Recommended actions</div>
+                <ul class="list">
+                  
+                  <li>Assess your use of Claude Code and identify any potential exposure.</li>
+                  
+                  <li>Review and tighten API key management practices.</li>
+                  
+                  <li>Stay updated on patches and security advisories related to Claude Code.</li>
+                  
+                </ul>
+              </div>
+
+              <div class="tags">
+                
+                <span>#ransomware</span>
+                
+                <span>#cve</span>
+                
+                <span>#cloud</span>
+                
+              </div>
+              <div class="confidence">Confidence: MEDIUM</div>
+            </article>
+            
+            <article class="card" style="--i: 11;">
+              <div class="meta">
+                <span class="chip risk-high">HIGH</span>
+                <span class="chip stage">Initial Access</span>
+                <span>The Hacker News</span>
+                <span>Wed, 25 Feb 2026 20:36:00 +0530</span>
+              </div>
+              <h3><a href="https://thehackernews.com/2026/02/slh-offers-5001000-per-call-to-recruit.html" target="_blank" rel="noopener">SLH Offers $500–$1,000 Per Call to Recruit Women for IT Help Desk Vishing Attacks</a></h3>
+              <div class="text-block"><span class="label">Spicy take:</span> Because who wouldn't want to make a quick buck by duping IT help desks?</div>
+              <div class="text-block"><span class="label">TL;DR:</span> A cybercrime group is trying to recruit women for voice phishing attacks against IT help desks, offering significant financial incentives.</div>
+              <div class="text-block"><span class="label">What happened:</span> The cybercrime group Scattered LAPSUS$ Hunters (SLH) has been reported to offer between $500 and $1,000 per call to recruit women for voice phishing attacks. These attacks specifically target IT help desks, aiming to exploit social engineering tactics to gain unauthorized access to sensitive information.</div>
+              <div class="text-block"><span class="label">Why it matters:</span> This recruitment strategy highlights a concerning trend in cybercrime, where financial incentives are used to manipulate individuals into participating in illegal activities. The potential success of these attacks could lead to significant data breaches and financial losses for organizations, making it crucial for IT departments to remain vigilant.</div>
+
+              <details>
+                <summary>Beginner breakdown</summary>
+                <ul>
+                  
+                  <li>Vishing - Voice phishing, a type of social engineering attack where attackers use phone calls to trick individuals into revealing sensitive information.</li>
+                  
+                  <li>Social Engineering - Manipulative tactics used by attackers to deceive individuals into divulging confidential information.</li>
+                  
+                </ul>
+              </details>
+
+              <div>
+                <div class="label">SOC focus</div>
+                <ul class="list">
+                  
+                  <li>Monitor for unusual call patterns to IT help desks.</li>
+                  
+                  <li>Educate staff on recognizing vishing attempts.</li>
+                  
+                  <li>Implement multi-factor authentication to reduce the impact of successful attacks.</li>
+                  
+                </ul>
+              </div>
+
+              <div>
+                <div class="label">Recommended actions</div>
+                <ul class="list">
+                  
+                  <li>Enhance training on social engineering tactics.</li>
+                  
+                  <li>Establish clear reporting procedures for suspicious calls.</li>
+                  
+                  <li>Review and strengthen access controls for sensitive information.</li>
+                  
+                </ul>
+              </div>
+
+              <div class="tags">
+                
+                <span>#social engineering</span>
+                
+                <span>#vishing</span>
+                
+                <span>#cybercrime</span>
+                
+              </div>
+              <div class="confidence">Confidence: MEDIUM</div>
+            </article>
+            
+            <article class="card" style="--i: 12;">
+              <div class="meta">
+                <span class="chip risk-high">HIGH</span>
+                <span class="chip stage">Initial Access</span>
+                <span>The Hacker News</span>
+                <span>Wed, 25 Feb 2026 00:22:00 +0530</span>
+              </div>
+              <h3><a href="https://thehackernews.com/2026/02/roguepilot-flaw-in-github-codespaces.html" target="_blank" rel="noopener">RoguePilot Flaw in GitHub Codespaces Enabled Copilot to Leak GITHUB_TOKEN</a></h3>
+              <div class="text-block"><span class="label">Spicy take:</span> Who knew that AI could be so helpful and yet so harmful at the same time?</div>
+              <div class="text-block"><span class="label">TL;DR:</span> A vulnerability in GitHub Codespaces allowed attackers to potentially leak sensitive tokens through malicious AI instructions.</div>
+              <div class="text-block"><span class="label">What happened:</span> A flaw in GitHub Codespaces, dubbed RoguePilot, was discovered that allowed malicious actors to inject harmful instructions into GitHub issues. This vulnerability could enable attackers to take control of repositories by leaking sensitive information, such as GITHUB_TOKEN. Microsoft has since patched the issue following responsible disclosure.</div>
+              <div class="text-block"><span class="label">Why it matters:</span> This vulnerability poses a significant risk as it could allow unauthorized access to sensitive repositories, potentially leading to data breaches or unauthorized code changes. Developers relying on GitHub Codespaces need to be aware of such vulnerabilities to protect their projects and sensitive information.</div>
+
+              <details>
+                <summary>Beginner breakdown</summary>
+                <ul>
+                  
+                  <li>GITHUB_TOKEN - a sensitive credential used to authenticate and authorize actions in GitHub repositories.</li>
+                  
+                  <li>RoguePilot - the codename for the vulnerability that exploited GitHub Codespaces to leak sensitive information.</li>
+                  
+                </ul>
+              </details>
+
+              <div>
+                <div class="label">SOC focus</div>
+                <ul class="list">
+                  
+                  <li>Monitor GitHub activity for unusual instructions or changes in repository settings.</li>
+                  
+                  <li>Implement alerts for any unauthorized access attempts to repositories.</li>
+                  
+                  <li>Educate developers about the importance of securing their GITHUB_TOKEN and recognizing suspicious activity.</li>
+                  
+                </ul>
+              </div>
+
+              <div>
+                <div class="label">Recommended actions</div>
+                <ul class="list">
+                  
+                  <li>Review and update security policies for GitHub usage.</li>
+                  
+                  <li>Ensure all developers are trained on recognizing potential vulnerabilities.</li>
+                  
+                  <li>Regularly audit access logs for any suspicious activity.</li>
+                  
+                </ul>
+              </div>
+
+              <div class="tags">
+                
+                <span>#ransomware</span>
+                
+                <span>#cve</span>
+                
+                <span>#cloud</span>
+                
+              </div>
+              <div class="confidence">Confidence: MEDIUM</div>
+            </article>
+            
+          </div>
         
       </section>
       
@@ -358,7 +1177,133 @@
           Medium Risk
         </div>
         
-          <p class="empty">No items in this band today.</p>
+          <div class="grid">
+            
+            <article class="card" style="--i: 0;">
+              <div class="meta">
+                <span class="chip risk-medium">MEDIUM</span>
+                <span class="chip stage">Unknown</span>
+                <span>BleepingComputer</span>
+                <span>Wed, 25 Feb 2026 05:31:13 -0500</span>
+              </div>
+              <h3><a href="https://www.bleepingcomputer.com/news/security/us-sanctions-russian-exploit-broker-for-buying-stolen-zero-days/" target="_blank" rel="noopener">US sanctions Russian broker for buying stolen zero-day exploits</a></h3>
+              <div class="text-block"><span class="label">Spicy take:</span> Because nothing says 'trustworthy' like buying stolen hacking tools from a former defense contractor executive.</div>
+              <div class="text-block"><span class="label">TL;DR:</span> The U.S. has sanctioned a Russian broker for purchasing stolen zero-day exploits.</div>
+              <div class="text-block"><span class="label">What happened:</span> The U.S. Treasury Department imposed sanctions on a Russian exploit broker who acquired stolen hacking tools. These tools were reportedly obtained from a former executive of a U.S. defense contractor. The sanctions aim to disrupt the market for such exploits and deter future purchases.</div>
+              <div class="text-block"><span class="label">Why it matters:</span> This action highlights the ongoing threat posed by the sale of zero-day exploits, which can be used for cyberattacks. By targeting the financial networks of those involved, the U.S. hopes to limit the availability of these dangerous tools and protect national security.</div>
+
+              <details>
+                <summary>Beginner breakdown</summary>
+                <ul>
+                  
+                  <li>Zero-day exploit - a vulnerability in software that is unknown to the vendor and can be exploited by attackers.</li>
+                  
+                  <li>Sanction - a penalty imposed by one country on another to restrict trade or financial transactions.</li>
+                  
+                </ul>
+              </details>
+
+              <div>
+                <div class="label">SOC focus</div>
+                <ul class="list">
+                  
+                  <li>Monitor for any unusual financial transactions related to exploit purchases.</li>
+                  
+                  <li>Enhance threat intelligence on zero-day vulnerabilities and their potential impact.</li>
+                  
+                  <li>Collaborate with law enforcement to track the distribution of stolen exploits.</li>
+                  
+                </ul>
+              </div>
+
+              <div>
+                <div class="label">Recommended actions</div>
+                <ul class="list">
+                  
+                  <li>Stay informed about new sanctions and their implications.</li>
+                  
+                  <li>Review and update incident response plans to address potential exploit usage.</li>
+                  
+                  <li>Engage in threat hunting for signs of zero-day exploit activity in your environment.</li>
+                  
+                </ul>
+              </div>
+
+              <div class="tags">
+                
+                <span>#exploit</span>
+                
+                <span>#sanctions</span>
+                
+                <span>#cybersecurity</span>
+                
+              </div>
+              <div class="confidence">Confidence: MEDIUM</div>
+            </article>
+            
+            <article class="card" style="--i: 1;">
+              <div class="meta">
+                <span class="chip risk-medium">MEDIUM</span>
+                <span class="chip stage">Exfiltration</span>
+                <span>BleepingComputer</span>
+                <span>Tue, 24 Feb 2026 16:51:20 -0500</span>
+              </div>
+              <h3><a href="https://www.bleepingcomputer.com/news/security/wynn-resorts-confirms-employee-data-breach-after-extortion-threat/" target="_blank" rel="noopener">Wynn Resorts confirms employee data breach after extortion threat</a></h3>
+              <div class="text-block"><span class="label">Spicy take:</span> Because who doesn't love a good data breach to spice up their workday?</div>
+              <div class="text-block"><span class="label">TL;DR:</span> Wynn Resorts experienced a data breach affecting employee information after being targeted by hackers.</div>
+              <div class="text-block"><span class="label">What happened:</span> Wynn Resorts confirmed that a hacker stole employee data from its systems. This breach occurred after the company was listed on the ShinyHunters extortion gang's data leak site.</div>
+              <div class="text-block"><span class="label">Why it matters:</span> The breach exposes sensitive employee information, which could lead to identity theft and other malicious activities. It also highlights the ongoing threat posed by cybercriminals to organizations, emphasizing the need for robust security measures.</div>
+
+              <details>
+                <summary>Beginner breakdown</summary>
+                <ul>
+                  
+                  <li>Data Breach - an incident where unauthorized access to sensitive data occurs.</li>
+                  
+                  <li>Extortion Gang - a group of cybercriminals that threatens to release stolen data unless a ransom is paid.</li>
+                  
+                </ul>
+              </details>
+
+              <div>
+                <div class="label">SOC focus</div>
+                <ul class="list">
+                  
+                  <li>Monitor for unusual access patterns to employee data.</li>
+                  
+                  <li>Implement alerts for any attempts to access sensitive information.</li>
+                  
+                  <li>Review and enhance data protection policies to prevent future breaches.</li>
+                  
+                </ul>
+              </div>
+
+              <div>
+                <div class="label">Recommended actions</div>
+                <ul class="list">
+                  
+                  <li>Investigate the breach to understand the extent of the data loss.</li>
+                  
+                  <li>Notify affected employees about the breach and potential risks.</li>
+                  
+                  <li>Strengthen security protocols to prevent future incidents.</li>
+                  
+                </ul>
+              </div>
+
+              <div class="tags">
+                
+                <span>#data breach</span>
+                
+                <span>#extortion</span>
+                
+                <span>#employee data</span>
+                
+              </div>
+              <div class="confidence">Confidence: MEDIUM</div>
+            </article>
+            
+          </div>
         
       </section>
       
