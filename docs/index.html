@@ -110,10 +110,35 @@
         border-radius: 50%;
       }
 
+      .themes {
+        background: var(--card);
+        border-radius: 20px;
+        padding: 1.5rem;
+        box-shadow: var(--shadow);
+        border: 1px solid var(--border);
+        display: grid;
+        gap: 1rem;
+      }
+
+      .themes h2 {
+        margin: 0;
+        font-size: 1.3rem;
+      }
+
+      .themes ul {
+        margin: 0;
+        padding-left: 1.2rem;
+        color: var(--muted);
+      }
+
+      .themes .rant {
+        font-weight: 600;
+      }
+
       .grid {
         display: grid;
         gap: 1.5rem;
-        grid-template-columns: repeat(auto-fit, minmax(260px, 1fr));
+        grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
       }
 
       .card {
@@ -185,16 +210,44 @@
         color: var(--low);
       }
 
-      .summary,
-      .actions {
-        margin: 0;
-        padding-left: 1.2rem;
+      .stage {
+        background: rgba(42, 127, 127, 0.12);
+        color: var(--teal);
+      }
+
+      .text-block {
         color: var(--muted);
         line-height: 1.6;
       }
 
-      .detail strong {
+      .label {
+        font-weight: 600;
         color: var(--ink);
+      }
+
+      details {
+        background: rgba(255, 255, 255, 0.7);
+        padding: 0.6rem 0.8rem;
+        border-radius: 12px;
+        border: 1px solid var(--border);
+      }
+
+      details summary {
+        cursor: pointer;
+        font-weight: 600;
+        color: var(--ink);
+      }
+
+      details ul {
+        margin: 0.6rem 0 0;
+        padding-left: 1.2rem;
+        color: var(--muted);
+      }
+
+      .list {
+        margin: 0.3rem 0 0;
+        padding-left: 1.2rem;
+        color: var(--muted);
       }
 
       .tags {
@@ -268,19 +321,37 @@
   </head>
   <body>
     <header>
-      <div class="eyebrow">Daily Threat Digest</div>
+      <div class="eyebrow">Spicy-but-Educational Digest</div>
       <h1>Threat Digest - 2026-02-25</h1>
       <p class="subtitle">
-        A concise, portfolio-grade view of the most relevant cyber threats in the last 48 hours.
-        Each item is scored for severity and summarized with consistent structure.
+        Straight talk from a tired SOC analyst. Clear explanations, mild sarcasm, and no mystery jargon.
       </p>
       <div class="meta-bar">
-        <span>Generated at 2026-02-25 19:33 UTC</span>
+        <span>Generated at: 2026-02-25 19:52 UTC</span>
         <span>Archive days: 1</span>
+        <span>Tone mode: spicy</span>
       </div>
     </header>
 
     <main>
+      <section class="themes">
+        <h2>Today's Themes</h2>
+        
+          <ul>
+            
+            <li>Phishing scams are targeting shipping companies.</li>
+            
+            <li>Understanding how to manage user identities is crucial.</li>
+            
+            <li>AI systems need security just like everything else.</li>
+            
+            <li>Cybersecurity isn't always clear-cut.</li>
+            
+          </ul>
+          <div class="rant">Cyber threats are evolving, but so should our understanding.</div>
+        
+      </section>
+
       
       <section>
         <div class="section-title">
@@ -293,44 +364,60 @@
             <article class="card" style="--i: 0;">
               <div class="meta">
                 <span class="chip risk-high">HIGH</span>
+                <span class="chip stage">Credential Access</span>
                 <span>BleepingComputer</span>
-                <span>Wed, 25 Feb 2026 10:54:44 -0500</span>
+                <span>Tue, 24 Feb 2026 18:57:58 -0500</span>
               </div>
-              <h3><a href="https://www.bleepingcomputer.com/news/security/marquis-sues-sonicwall-over-backup-breach-that-led-to-ransomware-attack/" target="_blank" rel="noopener">Marquis sues SonicWall over backup breach that led to ransomware attack</a></h3>
-              <ul class="summary">
-                
-                <li>Marquis Software Solutions sues SonicWall for negligence.</li>
-                
-                <li>Lawsuit claims breach led to ransomware attack on 74 banks.</li>
-                
-                <li>Allegations include misrepresentation by SonicWall.</li>
-                
-              </ul>
-              <div class="detail"><strong>Impact:</strong> Disruption of operations at multiple financial institutions.</div>
-              <div class="detail"><strong>Affected:</strong> 74 U.S. banks and their customers.</div>
-              <div class="detail">
-                <strong>Actions:</strong>
-                <ul class="actions">
+              <h3><a href="https://www.bleepingcomputer.com/news/security/phishing-campaign-targets-freight-and-logistics-orgs-in-the-us-europe/" target="_blank" rel="noopener">Phishing campaign targets freight and logistics orgs in the US, Europe</a></h3>
+              <div class="text-block"><span class="label">Spicy take:</span> Who knew that freight and logistics could be so enticing for cybercriminals? Apparently, Diesel Vortex did.</div>
+              <div class="text-block"><span class="label">TL;DR:</span> A phishing campaign is targeting freight and logistics organizations in the U.S. and Europe to steal credentials.</div>
+              <div class="text-block"><span class="label">What happened:</span> A financially motivated threat group named 'Diesel Vortex' has launched a phishing campaign aimed at freight and logistics organizations in the U.S. and Europe. They are utilizing 52 different domains to execute these attacks, which primarily focus on stealing user credentials.</div>
+              <div class="text-block"><span class="label">Why it matters:</span> The success of these phishing attacks can lead to significant financial losses and operational disruptions for affected organizations. As freight and logistics are crucial for supply chain management, any compromise could have a ripple effect on broader economic activities.</div>
+
+              <details>
+                <summary>Beginner breakdown</summary>
+                <ul>
                   
-                  <li>Monitor for updates on the lawsuit.</li>
+                  <li>Phishing - a type of cyber attack where attackers impersonate legitimate entities to trick individuals into revealing sensitive information.</li>
                   
-                  <li>Review cybersecurity measures with SonicWall.</li>
+                  <li>Credentials - the combination of username and password used to access accounts or systems.</li>
                   
-                  <li>Prepare incident response plans for ransomware threats.</li>
+                </ul>
+              </details>
+
+              <div>
+                <div class="label">SOC focus</div>
+                <ul class="list">
+                  
+                  <li>Monitor for unusual login attempts from unexpected locations.</li>
+                  
+                  <li>Educate employees on recognizing phishing attempts and suspicious emails.</li>
+                  
+                  <li>Implement multi-factor authentication to add an extra layer of security.</li>
                   
                 </ul>
               </div>
+
+              <div>
+                <div class="label">Recommended actions</div>
+                <ul class="list">
+                  
+                  <li>Enhance email filtering to block potential phishing emails.</li>
+                  
+                  <li>Conduct regular security awareness training for employees.</li>
+                  
+                  <li>Review and update incident response plans to address phishing attacks.</li>
+                  
+                </ul>
+              </div>
+
               <div class="tags">
                 
-                <span>#ransomware</span>
+                <span>#phishing</span>
                 
-                <span>#lawsuit</span>
+                <span>#credentials</span>
                 
-                <span>#cybersecurity</span>
-                
-                <span>#SonicWall</span>
-                
-                <span>#banking</span>
+                <span>#logistics</span>
                 
               </div>
               <div class="confidence">Confidence: MEDIUM</div>
@@ -339,228 +426,60 @@
             <article class="card" style="--i: 1;">
               <div class="meta">
                 <span class="chip risk-high">HIGH</span>
+                <span class="chip stage">Credential Access</span>
                 <span>The Hacker News</span>
-                <span>Wed, 25 Feb 2026 22:30:00 +0530</span>
+                <span>Wed, 25 Feb 2026 20:36:00 +0530</span>
               </div>
-              <h3><a href="https://thehackernews.com/2026/02/claude-code-flaws-allow-remote-code.html" target="_blank" rel="noopener">Claude Code Flaws Allow Remote Code Execution and API Key Exfiltration</a></h3>
-              <ul class="summary">
-                
-                <li>Multiple vulnerabilities in Claude Code disclosed.</li>
-                
-                <li>Exploits can lead to remote code execution.</li>
-                
-                <li>API credentials may be exfiltrated.</li>
-                
-              </ul>
-              <div class="detail"><strong>Impact:</strong> Potential unauthorized access and control over systems using Claude Code.</div>
-              <div class="detail"><strong>Affected:</strong> Users of Anthropic's Claude Code.</div>
-              <div class="detail">
-                <strong>Actions:</strong>
-                <ul class="actions">
+              <h3><a href="https://thehackernews.com/2026/02/slh-offers-5001000-per-call-to-recruit.html" target="_blank" rel="noopener">SLH Offers $500–$1,000 Per Call to Recruit Women for IT Help Desk Vishing Attacks</a></h3>
+              <div class="text-block"><span class="label">Spicy take:</span> Because who wouldn't want to make a quick buck by duping IT professionals over the phone?</div>
+              <div class="text-block"><span class="label">TL;DR:</span> A cybercrime group is recruiting women to conduct vishing attacks on IT help desks for financial gain.</div>
+              <div class="text-block"><span class="label">What happened:</span> The cybercrime collective known as Scattered LAPSUS$ Hunters (SLH) has been reported to offer financial incentives, ranging from $500 to $1,000 per call, to recruit women for voice phishing campaigns. These attacks specifically target IT help desks, aiming to manipulate staff into divulging sensitive information.</div>
+              <div class="text-block"><span class="label">Why it matters:</span> This recruitment strategy highlights a troubling trend in cybercrime where social engineering tactics are being outsourced for profit. Successful vishing attacks can lead to significant data breaches and financial losses for organizations, making it crucial for IT departments to be vigilant.</div>
+
+              <details>
+                <summary>Beginner breakdown</summary>
+                <ul>
                   
-                  <li>Update to the latest version of Claude Code.</li>
+                  <li>Vishing - Voice phishing, a type of social engineering attack where attackers use phone calls to trick individuals into revealing confidential information.</li>
                   
-                  <li>Review and secure API keys.</li>
+                  <li>Social Engineering - A manipulation technique that exploits human psychology to gain confidential information.</li>
                   
-                  <li>Monitor systems for unusual activity.</li>
+                </ul>
+              </details>
+
+              <div>
+                <div class="label">SOC focus</div>
+                <ul class="list">
+                  
+                  <li>Monitor for unusual call patterns to IT help desks.</li>
+                  
+                  <li>Implement strict verification processes for sensitive requests.</li>
+                  
+                  <li>Educate staff on recognizing vishing tactics and suspicious calls.</li>
                   
                 </ul>
               </div>
-              <div class="tags">
-                
-                <span>#vulnerability</span>
-                
-                <span>#remote code execution</span>
-                
-                <span>#API security</span>
-                
-                <span>#Claude Code</span>
-                
-                <span>#Anthropic</span>
-                
-              </div>
-              <div class="confidence">Confidence: MEDIUM</div>
-            </article>
-            
-            <article class="card" style="--i: 2;">
-              <div class="meta">
-                <span class="chip risk-high">HIGH</span>
-                <span>The Hacker News</span>
-                <span>Wed, 25 Feb 2026 00:22:00 +0530</span>
-              </div>
-              <h3><a href="https://thehackernews.com/2026/02/roguepilot-flaw-in-github-codespaces.html" target="_blank" rel="noopener">RoguePilot Flaw in GitHub Codespaces Enabled Copilot to Leak GITHUB_TOKEN</a></h3>
-              <ul class="summary">
-                
-                <li>Vulnerability in GitHub Codespaces allows leakage of GITHUB_TOKEN.</li>
-                
-                <li>Exploited by injecting malicious Copilot instructions.</li>
-                
-                <li>Patched by Microsoft after responsible disclosure.</li>
-                
-              </ul>
-              <div class="detail"><strong>Impact:</strong> Potential unauthorized access to GitHub repositories.</div>
-              <div class="detail"><strong>Affected:</strong> GitHub Codespaces users.</div>
-              <div class="detail">
-                <strong>Actions:</strong>
-                <ul class="actions">
+
+              <div>
+                <div class="label">Recommended actions</div>
+                <ul class="list">
                   
-                  <li>Update GitHub Codespaces to the latest version.</li>
+                  <li>Enhance training programs for IT staff on social engineering.</li>
                   
-                  <li>Review repository access permissions.</li>
+                  <li>Establish a clear protocol for verifying requests over the phone.</li>
                   
-                  <li>Monitor for unusual activity in repositories.</li>
+                  <li>Increase monitoring of call logs for suspicious activity.</li>
                   
                 </ul>
               </div>
+
               <div class="tags">
                 
-                <span>#GitHub</span>
+                <span>#social engineering</span>
                 
-                <span>#vulnerability</span>
+                <span>#vishing</span>
                 
-                <span>#security</span>
-                
-                <span>#RoguePilot</span>
-                
-                <span>#AI</span>
-                
-              </div>
-              <div class="confidence">Confidence: HIGH</div>
-            </article>
-            
-            <article class="card" style="--i: 3;">
-              <div class="meta">
-                <span class="chip risk-high">HIGH</span>
-                <span>The Hacker News</span>
-                <span>Tue, 24 Feb 2026 17:22:00 +0530</span>
-              </div>
-              <h3><a href="https://thehackernews.com/2026/02/lazarus-group-uses-medusa-ransomware-in.html" target="_blank" rel="noopener">Lazarus Group Uses Medusa Ransomware in Middle East and U.S. Healthcare Attacks</a></h3>
-              <ul class="summary">
-                
-                <li>Lazarus Group targets entities in the Middle East and U.S. healthcare.</li>
-                
-                <li>Medusa ransomware used in recent attacks.</li>
-                
-                <li>Threat actors linked to North Korea.</li>
-                
-              </ul>
-              <div class="detail"><strong>Impact:</strong> Potential data breaches and operational disruptions in critical sectors.</div>
-              <div class="detail"><strong>Affected:</strong> Healthcare organizations and entities in the Middle East.</div>
-              <div class="detail">
-                <strong>Actions:</strong>
-                <ul class="actions">
-                  
-                  <li>Implement robust cybersecurity measures.</li>
-                  
-                  <li>Conduct security awareness training for staff.</li>
-                  
-                  <li>Regularly update and patch systems.</li>
-                  
-                </ul>
-              </div>
-              <div class="tags">
-                
-                <span>#ransomware</span>
-                
-                <span>#Lazarus Group</span>
-                
-                <span>#cybersecurity</span>
-                
-                <span>#healthcare</span>
-                
-                <span>#threat intelligence</span>
-                
-              </div>
-              <div class="confidence">Confidence: MEDIUM</div>
-            </article>
-            
-            <article class="card" style="--i: 4;">
-              <div class="meta">
-                <span class="chip risk-high">HIGH</span>
-                <span>The Hacker News</span>
-                <span>Wed, 25 Feb 2026 18:13:00 +0530</span>
-              </div>
-              <h3><a href="https://thehackernews.com/2026/02/malicious-nuget-packages-stole-aspnet.html" target="_blank" rel="noopener">Malicious NuGet Packages Stole ASP.NET Data; npm Package Dropped Malware</a></h3>
-              <ul class="summary">
-                
-                <li>Four malicious NuGet packages identified targeting ASP.NET developers.</li>
-                
-                <li>Packages exfiltrate sensitive ASP.NET Identity data.</li>
-                
-                <li>Manipulates authorization rules to create persistent backdoors.</li>
-                
-              </ul>
-              <div class="detail"><strong>Impact:</strong> Compromise of sensitive user data and application integrity.</div>
-              <div class="detail"><strong>Affected:</strong> ASP.NET web application developers.</div>
-              <div class="detail">
-                <strong>Actions:</strong>
-                <ul class="actions">
-                  
-                  <li>Remove malicious packages immediately.</li>
-                  
-                  <li>Audit applications for unauthorized changes.</li>
-                  
-                  <li>Implement security measures to prevent future attacks.</li>
-                  
-                </ul>
-              </div>
-              <div class="tags">
-                
-                <span>#NuGet</span>
-                
-                <span>#ASP.NET</span>
-                
-                <span>#malware</span>
-                
-                <span>#data theft</span>
-                
-                <span>#cybersecurity</span>
-                
-              </div>
-              <div class="confidence">Confidence: HIGH</div>
-            </article>
-            
-            <article class="card" style="--i: 5;">
-              <div class="meta">
-                <span class="chip risk-high">HIGH</span>
-                <span>The Hacker News</span>
-                <span>Tue, 24 Feb 2026 19:51:00 +0530</span>
-              </div>
-              <h3><a href="https://thehackernews.com/2026/02/uac-0050-targets-european-financial.html" target="_blank" rel="noopener">UAC-0050 Targets European Financial Institution With Spoofed Domain and RMS Malware</a></h3>
-              <ul class="summary">
-                
-                <li>Russia-aligned threat actor targets European financial institution.</li>
-                
-                <li>Attack involves spoofed domain and RMS malware.</li>
-                
-                <li>Indicates potential expansion of targeting beyond Ukraine.</li>
-                
-              </ul>
-              <div class="detail"><strong>Impact:</strong> Possible intelligence gathering or financial theft.</div>
-              <div class="detail"><strong>Affected:</strong> European financial institutions.</div>
-              <div class="detail">
-                <strong>Actions:</strong>
-                <ul class="actions">
-                  
-                  <li>Implement enhanced email filtering.</li>
-                  
-                  <li>Educate staff on social engineering tactics.</li>
-                  
-                  <li>Monitor for unusual account activity.</li>
-                  
-                </ul>
-              </div>
-              <div class="tags">
-                
-                <span>#malware</span>
-                
-                <span>#phishing</span>
-                
-                <span>#financial</span>
-                
-                <span>#cybersecurity</span>
-                
-                <span>#threat-actor</span>
+                <span>#cybercrime</span>
                 
               </div>
               <div class="confidence">Confidence: MEDIUM</div>
@@ -581,47 +500,373 @@
             <article class="card" style="--i: 0;">
               <div class="meta">
                 <span class="chip risk-medium">MEDIUM</span>
-                <span>BleepingComputer</span>
-                <span>Wed, 25 Feb 2026 10:01:11 -0500</span>
+                <span class="chip stage">Unknown</span>
+                <span>NCSC Feed</span>
+                <span>Thu, 13 Mar 3625 12:05:36 GMT</span>
               </div>
-              <h3><a href="https://www.bleepingcomputer.com/news/security/the-openclaw-hype-analysis-of-chatter-from-open-source-deep-and-dark-web/" target="_blank" rel="noopener">The OpenClaw Hype: Analysis of Chatter from Open-Source Deep and Dark Web</a></h3>
-              <ul class="summary">
-                
-                <li>OpenClaw generates significant chatter on Telegram and dark web.</li>
-                
-                <li>Flare's data indicates hype rather than widespread exploitation.</li>
-                
-                <li>Real supply-chain risks identified in the skills marketplace.</li>
-                
-              </ul>
-              <div class="detail"><strong>Impact:</strong> Potential for increased cyber threats in supply-chain environments.</div>
-              <div class="detail"><strong>Affected:</strong> Organizations relying on skills marketplaces.</div>
-              <div class="detail">
-                <strong>Actions:</strong>
-                <ul class="actions">
+              <h3><a href="https://www.ncsc.gov.uk/blog-post/thinking-about-security-ai-systems" target="_blank" rel="noopener">Thinking about the security of AI systems</a></h3>
+              <div class="text-block"><span class="label">Spicy take:</span> Because who wouldn't want to apply old-school security principles to the shiny new world of AI?</div>
+              <div class="text-block"><span class="label">TL;DR:</span> Established cybersecurity principles are still crucial for AI system security.</div>
+              <div class="text-block"><span class="label">What happened:</span> The NCSC published a blog post discussing the importance of traditional cybersecurity principles in the context of developing and implementing machine learning models. The post emphasizes that as AI systems become more prevalent, the foundational security practices should not be overlooked.</div>
+              <div class="text-block"><span class="label">Why it matters:</span> Ignoring established security principles can lead to vulnerabilities in AI systems, which could be exploited by malicious actors. Ensuring robust security measures is essential to protect sensitive data and maintain trust in AI technologies.</div>
+
+              <details>
+                <summary>Beginner breakdown</summary>
+                <ul>
                   
-                  <li>Monitor dark web for OpenClaw-related activities.</li>
+                  <li>Cybersecurity - practices designed to protect systems, networks, and data from digital attacks.</li>
                   
-                  <li>Assess supply-chain vulnerabilities.</li>
+                  <li>Machine Learning - a subset of AI that enables systems to learn from data and improve their performance over time without being explicitly programmed.</li>
                   
-                  <li>Enhance security measures in skills procurement.</li>
+                </ul>
+              </details>
+
+              <div>
+                <div class="label">SOC focus</div>
+                <ul class="list">
+                  
+                  <li>Review existing security protocols to ensure they are applicable to AI systems.</li>
+                  
+                  <li>Conduct risk assessments specifically for machine learning models.</li>
+                  
+                  <li>Stay updated on emerging threats related to AI technologies.</li>
                   
                 </ul>
               </div>
+
+              <div>
+                <div class="label">Recommended actions</div>
+                <ul class="list">
+                  
+                  <li>Implement traditional security measures in AI development.</li>
+                  
+                  <li>Educate teams on the importance of cybersecurity in AI.</li>
+                  
+                  <li>Regularly assess AI systems for vulnerabilities.</li>
+                  
+                </ul>
+              </div>
+
               <div class="tags">
                 
-                <span>#OpenClaw</span>
+                <span>#AI</span>
                 
                 <span>#cybersecurity</span>
                 
-                <span>#dark web</span>
+                <span>#machine learning</span>
                 
-                <span>#supply chain</span>
+              </div>
+              <div class="confidence">Confidence: LOW</div>
+            </article>
+            
+            <article class="card" style="--i: 1;">
+              <div class="meta">
+                <span class="chip risk-medium">MEDIUM</span>
+                <span class="chip stage">Unknown</span>
+                <span>NCSC Feed</span>
+                <span>Fri, 13 Mar 2725 07:52:23 GMT</span>
+              </div>
+              <h3><a href="https://www.ncsc.gov.uk/blog-post/preparing-the-long-haul-the-cyber-threat-from-russia" target="_blank" rel="noopener">Preparing for the long haul: the cyber threat from Russia</a></h3>
+              <div class="text-block"><span class="label">Spicy take:</span> It's always a good idea to stay alert, especially when the threat is as persistent as your neighbor's holiday decorations.</div>
+              <div class="text-block"><span class="label">TL;DR:</span> The UK hasn't faced major cyber attacks from Russia yet, but vigilance is crucial.</div>
+              <div class="text-block"><span class="label">What happened:</span> The NCSC has reported that while the UK has not experienced significant cyber attacks linked to Russia's actions in Ukraine, the potential for future threats remains. The situation is fluid, and cyber actors may exploit ongoing geopolitical tensions.</div>
+              <div class="text-block"><span class="label">Why it matters:</span> Complacency can lead to vulnerabilities, especially as adversaries may be planning their next move. Understanding the threat landscape can help organizations prepare and strengthen their defenses against potential cyber incidents.</div>
+
+              <details>
+                <summary>Beginner breakdown</summary>
+                <ul>
+                  
+                  <li>NCSC - National Cyber Security Centre, a UK government organization that provides guidance on cybersecurity.</li>
+                  
+                  <li>Cyber threat - potential malicious attacks targeting computer systems or networks.</li>
+                  
+                </ul>
+              </details>
+
+              <div>
+                <div class="label">SOC focus</div>
+                <ul class="list">
+                  
+                  <li>Monitor for unusual network activity that could indicate preparation for an attack.</li>
+                  
+                  <li>Review and update incident response plans to ensure readiness.</li>
+                  
+                  <li>Educate staff on recognizing phishing attempts that may arise from geopolitical tensions.</li>
+                  
+                </ul>
+              </div>
+
+              <div>
+                <div class="label">Recommended actions</div>
+                <ul class="list">
+                  
+                  <li>Stay informed about the latest threat intelligence.</li>
+                  
+                  <li>Conduct regular security assessments.</li>
+                  
+                  <li>Implement robust monitoring systems.</li>
+                  
+                </ul>
+              </div>
+
+              <div class="tags">
                 
-                <span>#threat analysis</span>
+                <span>#cybersecurity</span>
+                
+                <span>#geopolitical</span>
+                
+                <span>#threat intelligence</span>
                 
               </div>
               <div class="confidence">Confidence: MEDIUM</div>
+            </article>
+            
+            <article class="card" style="--i: 2;">
+              <div class="meta">
+                <span class="chip risk-medium">MEDIUM</span>
+                <span class="chip stage">Defense Evasion</span>
+                <span>NCSC Feed</span>
+                <span>Sat, 12 Mar 2625 09:40:52 GMT</span>
+              </div>
+              <h3><a href="https://www.ncsc.gov.uk/guidance/guidance-on-digital-forensics-protective-monitoring" target="_blank" rel="noopener">Guidance on digital forensics and protective monitoring specifications for producers of network devices and appliances</a></h3>
+              <div class="text-block"><span class="label">Spicy take:</span> Because who doesn't want to know the bare minimum for keeping their network safe?</div>
+              <div class="text-block"><span class="label">TL;DR:</span> New guidelines outline minimum requirements for digital forensics and protective monitoring for network devices.</div>
+              <div class="text-block"><span class="label">What happened:</span> The NCSC published guidance on digital forensics and protective monitoring specifications for network device producers. This document details the expectations for minimum forensic visibility to aid network defenders in securing their networks.</div>
+              <div class="text-block"><span class="label">Why it matters:</span> These guidelines are crucial for ensuring that organizations can effectively monitor and respond to security incidents. By establishing minimum requirements, they help improve overall network security and resilience against potential compromises.</div>
+
+              <details>
+                <summary>Beginner breakdown</summary>
+                <ul>
+                  
+                  <li>Digital Forensics - the process of collecting, preserving, and analyzing electronic data to investigate cyber incidents.</li>
+                  
+                  <li>Protective Monitoring - continuous monitoring of systems to detect and respond to security threats in real-time.</li>
+                  
+                </ul>
+              </details>
+
+              <div>
+                <div class="label">SOC focus</div>
+                <ul class="list">
+                  
+                  <li>Review current forensic capabilities to ensure they meet the new guidelines.</li>
+                  
+                  <li>Implement protective monitoring tools that align with the outlined specifications.</li>
+                  
+                  <li>Train staff on the importance of digital forensics in incident response.</li>
+                  
+                </ul>
+              </div>
+
+              <div>
+                <div class="label">Recommended actions</div>
+                <ul class="list">
+                  
+                  <li>Read the NCSC guidance thoroughly.</li>
+                  
+                  <li>Assess your current network devices against the new specifications.</li>
+                  
+                  <li>Update your incident response plan to incorporate forensic visibility.</li>
+                  
+                </ul>
+              </div>
+
+              <div class="tags">
+                
+                <span>#forensics</span>
+                
+                <span>#monitoring</span>
+                
+                <span>#network security</span>
+                
+              </div>
+              <div class="confidence">Confidence: LOW</div>
+            </article>
+            
+            <article class="card" style="--i: 3;">
+              <div class="meta">
+                <span class="chip risk-medium">MEDIUM</span>
+                <span class="chip stage">Unknown</span>
+                <span>NCSC Feed</span>
+                <span>Mon, 13 Mar 2028 11:22:06 GMT</span>
+              </div>
+              <h3><a href="https://www.ncsc.gov.uk/blog-post/tackling-human-factor-transform-cyber-security-behaviours" target="_blank" rel="noopener">Tackling the 'human factor' to transform cyber security behaviours</a></h3>
+              <div class="text-block"><span class="label">Spicy take:</span> Because who doesn't love a good challenge when it comes to human behavior in cybersecurity?</div>
+              <div class="text-block"><span class="label">TL;DR:</span> Startups are struggling to improve cybersecurity behaviors due to the human factor.</div>
+              <div class="text-block"><span class="label">What happened:</span> Tim Ward, CEO of ThinkCyber, discussed the difficulties startups encounter in enhancing cybersecurity practices. He emphasized the importance of addressing the human factor in cybersecurity, which often undermines technical solutions.</div>
+              <div class="text-block"><span class="label">Why it matters:</span> Understanding the human element in cybersecurity is crucial because it can lead to vulnerabilities that technology alone cannot mitigate. Startups must find ways to foster better security behaviors among their teams to protect their innovations.</div>
+
+              <details>
+                <summary>Beginner breakdown</summary>
+                <ul>
+                  
+                  <li>Human Factor - the influence of human behavior on cybersecurity practices and vulnerabilities.</li>
+                  
+                  <li>Cybersecurity Behaviors - the actions and practices individuals adopt to protect themselves and their organizations from cyber threats.</li>
+                  
+                </ul>
+              </details>
+
+              <div>
+                <div class="label">SOC focus</div>
+                <ul class="list">
+                  
+                  <li>Educate employees about common cyber threats and safe practices.</li>
+                  
+                  <li>Implement regular training sessions to reinforce good cybersecurity habits.</li>
+                  
+                  <li>Encourage a culture of reporting suspicious activities without fear of reprimand.</li>
+                  
+                </ul>
+              </div>
+
+              <div>
+                <div class="label">Recommended actions</div>
+                <ul class="list">
+                  
+                  <li>Assess current cybersecurity training programs.</li>
+                  
+                  <li>Develop targeted awareness campaigns.</li>
+                  
+                  <li>Foster an open environment for discussing security concerns.</li>
+                  
+                </ul>
+              </div>
+
+              <div class="tags">
+                
+                <span>#cybersecurity</span>
+                
+                <span>#human factor</span>
+                
+                <span>#startups</span>
+                
+              </div>
+              <div class="confidence">Confidence: LOW</div>
+            </article>
+            
+            <article class="card" style="--i: 4;">
+              <div class="meta">
+                <span class="chip risk-medium">MEDIUM</span>
+                <span class="chip stage">Exfiltration</span>
+                <span>BleepingComputer</span>
+                <span>Tue, 24 Feb 2026 16:51:20 -0500</span>
+              </div>
+              <h3><a href="https://www.bleepingcomputer.com/news/security/wynn-resorts-confirms-employee-data-breach-after-extortion-threat/" target="_blank" rel="noopener">Wynn Resorts confirms employee data breach after extortion threat</a></h3>
+              <div class="text-block"><span class="label">Spicy take:</span> Who knew that employee data could be so popular with hackers? It's almost like they have a taste for it.</div>
+              <div class="text-block"><span class="label">TL;DR:</span> Wynn Resorts experienced a data breach where employee information was stolen following an extortion threat.</div>
+              <div class="text-block"><span class="label">What happened:</span> Wynn Resorts confirmed that a hacker accessed and stole employee data from its systems. This breach occurred after the company was featured on the ShinyHunters extortion gang's data leak site, indicating a targeted attack.</div>
+              <div class="text-block"><span class="label">Why it matters:</span> The breach of employee data can lead to identity theft and other malicious activities, affecting not only the employees but also the company's reputation. Additionally, it highlights the ongoing threat posed by extortion gangs in the cybersecurity landscape.</div>
+
+              <details>
+                <summary>Beginner breakdown</summary>
+                <ul>
+                  
+                  <li>Data Breach - an incident where unauthorized access to sensitive information occurs.</li>
+                  
+                  <li>Extortion Gang - a group that threatens to release stolen data unless a ransom is paid.</li>
+                  
+                </ul>
+              </details>
+
+              <div>
+                <div class="label">SOC focus</div>
+                <ul class="list">
+                  
+                  <li>Monitor for any unusual access patterns to employee data.</li>
+                  
+                  <li>Implement alerts for any attempts to access sensitive information.</li>
+                  
+                  <li>Ensure that employee data is encrypted to mitigate risks from future breaches.</li>
+                  
+                </ul>
+              </div>
+
+              <div>
+                <div class="label">Recommended actions</div>
+                <ul class="list">
+                  
+                  <li>Investigate the breach to understand the extent of the data stolen.</li>
+                  
+                  <li>Notify affected employees about the breach and potential risks.</li>
+                  
+                  <li>Review and enhance security measures to prevent future incidents.</li>
+                  
+                </ul>
+              </div>
+
+              <div class="tags">
+                
+                <span>#data breach</span>
+                
+                <span>#extortion</span>
+                
+                <span>#employee data</span>
+                
+              </div>
+              <div class="confidence">Confidence: MEDIUM</div>
+            </article>
+            
+            <article class="card" style="--i: 5;">
+              <div class="meta">
+                <span class="chip risk-medium">MEDIUM</span>
+                <span class="chip stage">Unknown</span>
+                <span>NCSC Feed</span>
+                <span>Wed, 12 Mar 7000 12:17:25 GMT</span>
+              </div>
+              <h3><a href="https://www.ncsc.gov.uk/blog-post/chatgpt-and-large-language-models-whats-the-risk" target="_blank" rel="noopener">ChatGPT and large language models: what's the risk?</a></h3>
+              <div class="text-block"><span class="label">Spicy take:</span> If you think loose prompts are harmless, then I have a bridge to sell you.</div>
+              <div class="text-block"><span class="label">TL;DR:</span> ChatGPT and large language models pose potential cybersecurity risks due to their handling of prompts.</div>
+              <div class="text-block"><span class="label">What happened:</span> The NCSC has published a blog discussing the cybersecurity implications of ChatGPT and large language models (LLMs). It raises concerns about how poorly constructed prompts can lead to security vulnerabilities. The discussion is timely, given the increasing use of AI in various sectors.</div>
+              <div class="text-block"><span class="label">Why it matters:</span> Understanding the risks associated with LLMs is crucial for organizations that rely on AI technologies. Poorly designed prompts can inadvertently expose sensitive information or lead to unintended consequences in automated processes. This could result in data breaches or other security incidents.</div>
+
+              <details>
+                <summary>Beginner breakdown</summary>
+                <ul>
+                  
+                  <li>PROMPT - a set of instructions or questions given to an AI model to generate responses.</li>
+                  
+                  <li>LLM - Large Language Model, a type of AI that processes and generates human-like text.</li>
+                  
+                </ul>
+              </details>
+
+              <div>
+                <div class="label">SOC focus</div>
+                <ul class="list">
+                  
+                  <li>Monitor for unusual AI-generated content that may indicate misuse.</li>
+                  
+                  <li>Implement guidelines for prompt construction to minimize risks.</li>
+                  
+                  <li>Educate staff on the potential vulnerabilities associated with AI tools.</li>
+                  
+                </ul>
+              </div>
+
+              <div>
+                <div class="label">Recommended actions</div>
+                <ul class="list">
+                  
+                  <li>Review and update AI usage policies.</li>
+                  
+                  <li>Conduct training sessions on safe AI practices.</li>
+                  
+                  <li>Establish a response plan for potential AI-related incidents.</li>
+                  
+                </ul>
+              </div>
+
+              <div class="tags">
+                
+                <span>#AI</span>
+                
+                <span>#cybersecurity</span>
+                
+                <span>#risk</span>
+                
+              </div>
+              <div class="confidence">Confidence: LOW</div>
             </article>
             
           </div>
@@ -634,7 +879,195 @@
           Low Risk
         </div>
         
-          <p class="empty">No items in this band today.</p>
+          <div class="grid">
+            
+            <article class="card" style="--i: 0;">
+              <div class="meta">
+                <span class="chip risk-low">LOW</span>
+                <span class="chip stage">Unknown</span>
+                <span>NCSC Feed</span>
+                <span>Wed, 12 Mar 8025 09:42:38 GMT</span>
+              </div>
+              <h3><a href="https://www.ncsc.gov.uk/guidance/introduction-identity-and-access-management" target="_blank" rel="noopener">Introduction to identity and access management</a></h3>
+              <div class="text-block"><span class="label">Spicy take:</span> Ah, identity and access management—because who doesn't love a good password policy?</div>
+              <div class="text-block"><span class="label">TL;DR:</span> This guidance explains the basics of identity and access management.</div>
+              <div class="text-block"><span class="label">What happened:</span> The NCSC published a guidance document on identity and access management. It covers essential techniques, technologies, and uses related to managing access to systems and data.</div>
+              <div class="text-block"><span class="label">Why it matters:</span> Effective identity and access management is crucial for protecting sensitive information and ensuring that only authorized users can access certain resources. Poor management can lead to data breaches and unauthorized access, which can have serious consequences for organizations.</div>
+
+              <details>
+                <summary>Beginner breakdown</summary>
+                <ul>
+                  
+                  <li>Identity Management - the process of managing user identities and their access to resources.</li>
+                  
+                  <li>Access Management - the policies and technologies that control who can access what within an organization.</li>
+                  
+                </ul>
+              </details>
+
+              <div>
+                <div class="label">SOC focus</div>
+                <ul class="list">
+                  
+                  <li>Review current identity and access management policies for gaps.</li>
+                  
+                  <li>Implement multi-factor authentication to enhance security.</li>
+                  
+                  <li>Regularly audit user access rights to ensure compliance.</li>
+                  
+                </ul>
+              </div>
+
+              <div>
+                <div class="label">Recommended actions</div>
+                <ul class="list">
+                  
+                  <li>Read the NCSC guidance thoroughly.</li>
+                  
+                  <li>Train staff on the importance of access management.</li>
+                  
+                  <li>Establish a regular review process for access permissions.</li>
+                  
+                </ul>
+              </div>
+
+              <div class="tags">
+                
+                <span>#identity management</span>
+                
+                <span>#access management</span>
+                
+                <span>#security</span>
+                
+              </div>
+              <div class="confidence">Confidence: LOW</div>
+            </article>
+            
+            <article class="card" style="--i: 1;">
+              <div class="meta">
+                <span class="chip risk-low">LOW</span>
+                <span class="chip stage">Unknown</span>
+                <span>NCSC Feed</span>
+                <span>Sun, 13 Mar 3025 11:24:19 GMT</span>
+              </div>
+              <h3><a href="https://www.ncsc.gov.uk/blog-post/terminology-its-not-black-and-white" target="_blank" rel="noopener">Terminology: it's not black and white</a></h3>
+              <div class="text-block"><span class="label">Spicy take:</span> Because who doesn't love a good rebranding of terms that have been around forever?</div>
+              <div class="text-block"><span class="label">TL;DR:</span> The NCSC has updated terminology to use 'allow list' and 'deny list' instead of 'whitelist' and 'blacklist'.</div>
+              <div class="text-block"><span class="label">What happened:</span> The National Cyber Security Centre (NCSC) has decided to replace the terms 'whitelist' and 'blacklist' with 'allow list' and 'deny list'. This change aims to promote inclusivity and avoid racial connotations associated with the old terms.</div>
+              <div class="text-block"><span class="label">Why it matters:</span> This terminology update reflects a growing awareness of language sensitivity in the tech community. Using more neutral terms can help create a more inclusive environment, which is essential for fostering diverse perspectives in cybersecurity.</div>
+
+              <details>
+                <summary>Beginner breakdown</summary>
+                <ul>
+                  
+                  <li>ALLOW LIST - a list of items that are permitted or approved</li>
+                  
+                  <li>DENY LIST - a list of items that are not permitted or blocked</li>
+                  
+                </ul>
+              </details>
+
+              <div>
+                <div class="label">SOC focus</div>
+                <ul class="list">
+                  
+                  <li>Update internal documentation to reflect the new terminology.</li>
+                  
+                  <li>Educate team members on the importance of inclusive language.</li>
+                  
+                  <li>Monitor industry trends for further changes in terminology.</li>
+                  
+                </ul>
+              </div>
+
+              <div>
+                <div class="label">Recommended actions</div>
+                <ul class="list">
+                  
+                  <li>Revise all training materials to use the new terms.</li>
+                  
+                  <li>Encourage discussions about language sensitivity in team meetings.</li>
+                  
+                  <li>Stay informed about best practices in inclusive language.</li>
+                  
+                </ul>
+              </div>
+
+              <div class="tags">
+                
+                <span>#terminology</span>
+                
+                <span>#inclusivity</span>
+                
+                <span>#cybersecurity</span>
+                
+              </div>
+              <div class="confidence">Confidence: MEDIUM</div>
+            </article>
+            
+            <article class="card" style="--i: 2;">
+              <div class="meta">
+                <span class="chip risk-low">LOW</span>
+                <span class="chip stage">Unknown</span>
+                <span>NCSC Feed</span>
+                <span>Thu, 03 Jun 2027 12:03:10 GMT</span>
+              </div>
+              <h3><a href="https://www.ncsc.gov.uk/blog-post/winning-trust-and-making-powerful-connections" target="_blank" rel="noopener">"Winning trust, and making powerful connections"</a></h3>
+              <div class="text-block"><span class="label">Spicy take:</span> Ah yes, because nothing says 'trust' like a startup's journey through a government program.</div>
+              <div class="text-block"><span class="label">TL;DR:</span> A CEO discusses how a government program helped his startup build trust and connections.</div>
+              <div class="text-block"><span class="label">What happened:</span> Chris Wallis, the CEO of Intruder, shared insights on how participating in the NCSC's Startup Programme significantly impacted his organization. He emphasized the importance of trust and connections in the cybersecurity landscape.</div>
+              <div class="text-block"><span class="label">Why it matters:</span> Building trust is crucial for startups in cybersecurity, as it can lead to stronger partnerships and increased customer confidence. The insights shared may inspire other startups to seek similar programs for growth.</div>
+
+              <details>
+                <summary>Beginner breakdown</summary>
+                <ul>
+                  
+                  <li>NCSC - National Cyber Security Centre, a UK government organization that provides guidance on cybersecurity.</li>
+                  
+                  <li>Startup Programme - A program designed to support new businesses in the cybersecurity sector.</li>
+                  
+                </ul>
+              </details>
+
+              <div>
+                <div class="label">SOC focus</div>
+                <ul class="list">
+                  
+                  <li>Monitor for new startups entering the cybersecurity space and their partnerships.</li>
+                  
+                  <li>Assess the credibility of organizations participating in government programs.</li>
+                  
+                  <li>Stay informed about trends in trust-building within the cybersecurity community.</li>
+                  
+                </ul>
+              </div>
+
+              <div>
+                <div class="label">Recommended actions</div>
+                <ul class="list">
+                  
+                  <li>Research the NCSC's Startup Programme for potential collaboration.</li>
+                  
+                  <li>Engage with local startups to understand their cybersecurity needs.</li>
+                  
+                  <li>Share insights from successful programs to foster community trust.</li>
+                  
+                </ul>
+              </div>
+
+              <div class="tags">
+                
+                <span>#cybersecurity</span>
+                
+                <span>#startup</span>
+                
+                <span>#trust</span>
+                
+              </div>
+              <div class="confidence">Confidence: LOW</div>
+            </article>
+            
+          </div>
         
       </section>
       
@@ -650,7 +1083,7 @@
     </aside>
 
     <footer>
-      Generated by the Threat Digest pipeline. Built for portfolio showcase with free RSS sources and OpenAI summaries.
+      Generated by the Threat Digest pipeline using free RSS sources and OpenAI summaries.
     </footer>
   </body>
 </html>

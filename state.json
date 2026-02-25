@@ -1,5 +1,5 @@
 {
-  "last_run_utc": "2026-02-25T19:33:05.858926+00:00",
+  "last_run_utc": "2026-02-25T19:52:51.799397+00:00",
   "processed_urls": [
     "https://www.bleepingcomputer.com/news/security/critical-cisco-sd-wan-bug-exploited-in-zero-day-attacks-since-2023/",
     "https://www.cisa.gov/news-events/alerts/2026/02/25/cisa-and-partners-release-guidance-ongoing-global-exploitation-cisco-sd-wan-systems",
@@ -22,6 +22,17 @@
     "https://thehackernews.com/2026/02/roguepilot-flaw-in-github-codespaces.html",
     "https://thehackernews.com/2026/02/lazarus-group-uses-medusa-ransomware-in.html",
     "https://thehackernews.com/2026/02/malicious-nuget-packages-stole-aspnet.html",
-    "https://thehackernews.com/2026/02/uac-0050-targets-european-financial.html"
+    "https://thehackernews.com/2026/02/uac-0050-targets-european-financial.html",
+    "https://www.bleepingcomputer.com/news/security/phishing-campaign-targets-freight-and-logistics-orgs-in-the-us-europe/",
+    "https://www.ncsc.gov.uk/guidance/introduction-identity-and-access-management",
+    "https://www.ncsc.gov.uk/blog-post/thinking-about-security-ai-systems",
+    "https://www.ncsc.gov.uk/blog-post/terminology-its-not-black-and-white",
+    "https://www.ncsc.gov.uk/blog-post/preparing-the-long-haul-the-cyber-threat-from-russia",
+    "https://www.ncsc.gov.uk/guidance/guidance-on-digital-forensics-protective-monitoring",
+    "https://www.ncsc.gov.uk/blog-post/tackling-human-factor-transform-cyber-security-behaviours",
+    "https://www.ncsc.gov.uk/blog-post/winning-trust-and-making-powerful-connections",
+    "https://www.bleepingcomputer.com/news/security/wynn-resorts-confirms-employee-data-breach-after-extortion-threat/",
+    "https://thehackernews.com/2026/02/slh-offers-5001000-per-call-to-recruit.html",
+    "https://www.ncsc.gov.uk/blog-post/chatgpt-and-large-language-models-whats-the-risk"
   ]
 }
