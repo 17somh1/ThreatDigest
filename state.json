@@ -1,4 +1,20 @@
 {
-  "last_run_utc": "",
-  "processed_urls": []
+  "last_run_utc": "2026-02-25T19:29:15.460349+00:00",
+  "processed_urls": [
+    "https://www.bleepingcomputer.com/news/security/critical-cisco-sd-wan-bug-exploited-in-zero-day-attacks-since-2023/",
+    "https://www.cisa.gov/news-events/alerts/2026/02/25/cisa-and-partners-release-guidance-ongoing-global-exploitation-cisco-sd-wan-systems",
+    "https://www.cisa.gov/news-events/alerts/2026/02/25/cisa-adds-two-known-exploited-vulnerabilities-catalog",
+    "https://www.cisa.gov/news-events/alerts/2026/02/24/cisa-adds-one-known-exploited-vulnerability-catalog",
+    "https://www.ncsc.gov.uk/blog-post/introducing-hardware-security-problem-book",
+    "https://www.ncsc.gov.uk/blog-post/cyber-security-toolkit-for-boards-updated-briefing-pack-released",
+    "https://www.ncsc.gov.uk/guidance/mapping-your-supply-chain",
+    "https://www.bleepingcomputer.com/news/security/us-sanctions-russian-exploit-broker-for-buying-stolen-zero-days/",
+    "https://www.bleepingcomputer.com/news/security/ex-l3harris-exec-jailed-for-selling-zero-days-to-russian-exploit-broker/",
+    "https://thehackernews.com/2026/02/defense-contractor-employee-jailed-for.html",
+    "https://thehackernews.com/2026/02/solarwinds-patches-4-critical-serv-u.html",
+    "https://thehackernews.com/2026/02/cisa-confirms-active-exploitation-of.html",
+    "https://thehackernews.com/2026/02/apt28-targeted-european-entities-using.html",
+    "https://www.ncsc.gov.uk/guidance/application-development-guidance-introduction",
+    "https://www.ncsc.gov.uk/guidance/business-communications-sms-and-telephone-best-practice"
+  ]
 }
