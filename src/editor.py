@@ -60,7 +60,7 @@ def _merge_sources(items: Iterable[dict]) -> list[dict]:
 def _clean_text(text: str) -> str:
     cleaned = " ".join(str(text).split())
     cleaned = cleaned.replace("U. S.", "U.S.")
-    cleaned = re.sub(r"(\\d)\\s+\\.\\s+(\\d)", r\"\\1.\\2\", cleaned)
+    cleaned = re.sub(r"(\\d)\\s+\\.\\s+(\\d)", r"\\1.\\2", cleaned)
     cleaned = cleaned.replace("U. K.", "U.K.")
     return cleaned.strip()
 
