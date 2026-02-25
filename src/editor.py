@@ -153,6 +153,7 @@ def _build_cluster(cluster_payload: dict) -> dict:
     return {
         "cluster_id": cluster_payload["topic_key"],
         "cluster_title": _clean_text(primary.get("title", "Untitled")),
+        "primary_url": sources[0]["url"] if sources else "",
         "labels": cluster.label_cluster(cluster_payload),
         "risk": _risk_from_items(items),
         "confidence": _confidence_from_signals(signals, signals.get("sources", set())),

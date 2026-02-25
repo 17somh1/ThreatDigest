@@ -227,8 +227,6 @@
         background: rgba(255, 255, 255, 0.6);
         border-radius: 12px;
         padding: 0.8rem;
-        font-family: "SFMono-Regular", "Consolas", "Liberation Mono", monospace;
-        font-size: 0.9rem;
         white-space: pre-line;
       }
 
@@ -352,7 +350,11 @@
           <span class="chip">{{ item.attack_stage }}</span>
           <span>{{ item.confidence }}</span>
         </div>
-        <h3>{{ item.cluster_title }}</h3>
+        {% if item.primary_url %}
+          <h3><a href="{{ item.primary_url }}" target="_blank" rel="noopener noreferrer">{{ item.cluster_title }}</a></h3>
+        {% else %}
+          <h3>{{ item.cluster_title }}</h3>
+        {% endif %}
         <div class="text-block"><span class="label">Why this is here:</span> {{ item.why_this_is_here }}</div>
         <div class="text-block"><span class="label">Spicy take:</span> {{ item.spicy_take }}</div>
         <div class="text-block"><span class="label">TL;DR:</span> {{ item.tl_dr }}</div>
