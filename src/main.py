@@ -114,6 +114,8 @@ def main() -> int:
         entry for entry in ranked_entries if state.should_process(digest_state, entry.get("url"))
     ]
     selected_entries = new_entries[:max_items]
+    if not selected_entries:
+        selected_entries = ranked_entries[:max_items]
 
     print(f"Fetched {len(entries)} entries from RSS feeds")
     print(f"Recent entries (last {recent_hours}h): {len(recent_entries)}")
