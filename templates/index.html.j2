@@ -213,6 +213,11 @@
         color: var(--teal);
       }
 
+      .chip-neutral {
+        background: rgba(27, 28, 32, 0.08);
+        color: var(--muted);
+      }
+
       .text-block {
         color: var(--muted);
         line-height: 1.6;
@@ -353,8 +358,8 @@
           {% for label in item.labels %}
             <span class="chip label-chip">{{ label.replace('_', ' ') }}</span>
           {% endfor %}
-          <span class="chip">{{ item.attack_stage }}</span>
-          <span>{{ item.confidence }}</span>
+          <span class="chip chip-neutral">{{ item.attack_stage }}</span>
+          <span class="chip chip-neutral">Conf {{ item.confidence }}</span>
         </div>
         {% if item.primary_url %}
           <h3><a href="{{ item.primary_url }}" target="_blank" rel="noopener noreferrer">{{ item.cluster_title }}</a></h3>
