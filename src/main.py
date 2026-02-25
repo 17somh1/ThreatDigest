@@ -105,6 +105,8 @@ def main() -> int:
 
     deduped_entries = dedupe.dedupe_items(recent_entries)
     filtered_entries = rank.filter_items(deduped_entries)
+    if not filtered_entries:
+        filtered_entries = deduped_entries
     ranked_entries = rank.rank_items(filtered_entries)
 
     digest_state = state.load_state()
