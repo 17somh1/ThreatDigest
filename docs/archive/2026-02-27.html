@@ -360,7 +360,7 @@
         Straight talk from a tired SOC analyst. Clear explanations, mild sarcasm, and no mystery jargon.
       </p>
       <div class="meta-bar">
-        <span>Generated at: 2026-02-27 08:34 UTC</span>
+        <span>Generated at: 2026-02-27 13:18 UTC</span>
         <span>Archive days: 3</span>
         <span>Tone mode: spicy</span>
       </div>
@@ -370,7 +370,7 @@
       <section class="one-liner">
         <h2>Today in one sentence</h2>
         
-          <p class="text-block">Today's threat landscape shows a rise in cyberattacks alongside a decrease in ransomware payments, indicating a shift in how organizations respond to threats.</p>
+          <p class="text-block">Cyber threats are evolving with increased exploitation of vulnerabilities, a rise in ransomware attacks, and ongoing legal battles over data breaches.</p>
         
       </section>
 
@@ -379,11 +379,11 @@
         
           <ul>
             
-            <li>increased cyberattacks</li>
+            <li>exploitation of vulnerabilities</li>
             
-            <li>declining ransomware payments</li>
+            <li>ransomware trends</li>
             
-            <li>data security vulnerabilities</li>
+            <li>legal implications of cyber incidents</li>
             
           </ul>
         
@@ -398,27 +398,29 @@
           <div class="grid">
             <article class="card" style="--i: 0;">
         <div class="meta">
-          <span class="chip risk-medium">MEDIUM</span>
+          <span class="chip risk-high">HIGH</span>
           
-            <span class="chip label-chip">INDUSTRY SIGNAL</span>
+            <span class="chip label-chip">ACTIVE EXPLOITATION</span>
+          
+            <span class="chip label-chip">LEGAL POLICY</span>
           
           <span class="chip chip-neutral">Initial Access</span>
-          <span class="chip chip-neutral">Conf LOW</span>
+          <span class="chip chip-neutral">Conf HIGH</span>
         </div>
         
-          <h3><a href="https://www.bleepingcomputer.com/news/security/olympique-marseille-football-club-confirms-cyberattack-after-data-leak/" target="_blank" rel="noopener noreferrer">Olympique Marseille confirms 'attempted' cyberattack after data leak</a></h3>
+          <h3><a href="https://www.bleepingcomputer.com/news/security/critical-cisco-sd-wan-bug-exploited-in-zero-day-attacks-since-2023/" target="_blank" rel="noopener noreferrer">Critical Cisco SD-WAN bug exploited in zero-day attacks since 2023</a></h3>
         
-        <div class="text-block"><span class="label">Why this is here:</span> Context worth tracking while details firm up.</div>
-        <div class="text-block"><span class="label">TL;DR:</span> Olympique Marseille confirmed a cyberattack following a data leak by a threat actor.</div>
+        <div class="text-block"><span class="label">Why this is here:</span> Active exploitation signals mean this needs attention now. Multiple sources confirm the same issue.</div>
+        <div class="text-block"><span class="label">TL;DR:</span> A critical bug in Cisco's SD-WAN has been exploited in zero-day attacks, allowing unauthorized access to networks.</div>
         <ul class="story-list">
           
-            <li>Olympique Marseille confirmed a cyberattack following a data leak by a threat actor.</li>
+            <li>A critical bug in Cisco's SD-WAN has been exploited in zero-day attacks, allowing unauthorized access to networks.</li>
           
-            <li>Olympique Marseille, a French professional football club, acknowledged an attempted cyberattack after a threat actor claimed to have breached their systems earlier in the month. The club's confirmation came after the threat actor leaked data online, raising concerns about the integrity of their systems.</li>
+            <li>Cisco has identified a critical authentication bypass vulnerability in its Catalyst SD-WAN, labeled CVE-2026-20127. This flaw has been actively exploited in zero-day attacks, enabling remote attackers to compromise network controllers and introduce rogue peers into targeted networks.</li>
           
-            <li>This incident highlights the growing trend of cyberattacks targeting high-profile organizations, including sports clubs. A successful breach could lead to sensitive data exposure, financial loss, and damage to the club's reputation, impacting fans and stakeholders alike.</li>
+            <li>The exploitation of this vulnerability poses a significant risk to network integrity and security, as attackers can manipulate network traffic and gain unauthorized access. Organizations using Cisco SD-WAN should be particularly vigilant, as the potential for data breaches and service disruptions is high.</li>
           
-            <li>Expect follow-on reporting as more details surface.</li>
+            <li>Also reported by The Hacker News.</li>
           
         </ul>
 
@@ -426,9 +428,11 @@
           <summary>Beginner breakdown</summary>
           <ul>
             
-            <li>cyberattack - an attempt to gain unauthorized access to computer systems or networks with malicious intent.</li>
+            <li>CVE - Common Vulnerabilities and Exposures, a list of publicly disclosed cybersecurity vulnerabilities.</li>
             
-            <li>data leak - the unauthorized transmission of data from within an organization to an external destination.</li>
+            <li>Zero-day - A vulnerability that is exploited before the vendor has released a fix.</li>
+            
+            <li>CVSS - Common Vulnerability Scoring System, a standardized method for rating the severity of security vulnerabilities.</li>
             
           </ul>
         </details>
@@ -437,11 +441,11 @@
           <div class="label">SOC focus</div>
           <ul class="list">
             
-            <li>Monitor network traffic for unusual access patterns that may indicate a breach.</li>
+            <li>Monitor network traffic for unusual patterns that may indicate rogue peers.</li>
             
-            <li>Implement data loss prevention (DLP) tools to detect and prevent unauthorized data transfers.</li>
+            <li>Implement strict access controls to limit who can modify network configurations.</li>
             
-            <li>Conduct regular security audits and vulnerability assessments to identify potential weaknesses.</li>
+            <li>Regularly update and patch Cisco SD-WAN devices to mitigate known vulnerabilities.</li>
             
           </ul>
         </div>
@@ -450,11 +454,11 @@
           <div class="label">Recommended actions</div>
           <ul class="list">
             
-            <li>Enhance monitoring of network activity for suspicious behavior.</li>
+            <li>Assess your network for potential exposure to CVE-2026-20127.</li>
             
-            <li>Review and update incident response plans to address potential breaches.</li>
+            <li>Apply any available patches from Cisco immediately.</li>
             
-            <li>Educate staff on recognizing phishing attempts and other common attack vectors.</li>
+            <li>Educate your team on recognizing signs of unauthorized access.</li>
             
           </ul>
         </div>
@@ -464,8 +468,16 @@
           
             
               <div>
-                <a href="https://www.bleepingcomputer.com/news/security/olympique-marseille-football-club-confirms-cyberattack-after-data-leak/" target="_blank" rel="noopener noreferrer">
-                  BleepingComputer - Olympique Marseille confirms 'attempted' cyberattack after data leak
+                <a href="https://www.bleepingcomputer.com/news/security/critical-cisco-sd-wan-bug-exploited-in-zero-day-attacks-since-2023/" target="_blank" rel="noopener noreferrer">
+                  BleepingComputer - Critical Cisco SD-WAN bug exploited in zero-day attacks since 2023
+                </a>
+              </div>
+            
+          
+            
+              <div>
+                <a href="https://thehackernews.com/2026/02/cisco-sd-wan-zero-day-cve-2026-20127.html" target="_blank" rel="noopener noreferrer">
+                  The Hacker News - Cisco SD-WAN Zero-Day CVE-2026-20127 Exploited Since 2023 for Admin Access
                 </a>
               </div>
             
@@ -486,6 +498,83 @@
             
               <article class="card" style="--i: 0;">
         <div class="meta">
+          <span class="chip risk-medium">MEDIUM</span>
+          
+            <span class="chip label-chip">INDUSTRY SIGNAL</span>
+          
+          <span class="chip chip-neutral">Initial Access</span>
+          <span class="chip chip-neutral">Conf LOW</span>
+        </div>
+        
+          <h3><a href="https://www.bleepingcomputer.com/news/security/olympique-marseille-football-club-confirms-cyberattack-after-data-leak/" target="_blank" rel="noopener noreferrer">Olympique Marseille confirms 'attempted' cyberattack after data leak</a></h3>
+        
+        <div class="text-block"><span class="label">Why this is here:</span> Context worth tracking while details firm up.</div>
+        <div class="text-block"><span class="label">TL;DR:</span> Olympique Marseille confirmed a cyberattack following a data leak by a threat actor.</div>
+        <ul class="story-list">
+          
+            <li>Olympique Marseille confirmed a cyberattack following a data leak by a threat actor.</li>
+          
+            <li>Olympique Marseille, a French football club, acknowledged an attempted cyberattack after a threat actor claimed to have breached their systems. The incident reportedly occurred earlier in the month, leading to concerns about the security of the club's data.</li>
+          
+            <li>This breach could expose sensitive information about players, staff, and club operations, potentially impacting their reputation and operations. Additionally, it highlights the vulnerability of organizations in the sports sector to cyber threats.</li>
+          
+            <li>Expect follow-on reporting as more details surface.</li>
+          
+        </ul>
+
+        <details>
+          <summary>Beginner breakdown</summary>
+          <ul>
+            
+            <li>cyberattack - an attempt to damage or disrupt a computer network or system</li>
+            
+            <li>data leak - unauthorized access and release of sensitive information</li>
+            
+          </ul>
+        </details>
+
+        <div>
+          <div class="label">SOC focus</div>
+          <ul class="list">
+            
+            <li>Monitor network traffic for unusual access patterns that may indicate a breach.</li>
+            
+            <li>Implement data loss prevention (DLP) tools to safeguard sensitive information.</li>
+            
+            <li>Conduct regular security audits to identify and mitigate vulnerabilities.</li>
+            
+          </ul>
+        </div>
+
+        <div>
+          <div class="label">Recommended actions</div>
+          <ul class="list">
+            
+            <li>Enhance security protocols to prevent unauthorized access.</li>
+            
+            <li>Train staff on recognizing phishing attempts and other cyber threats.</li>
+            
+            <li>Establish an incident response plan for future breaches.</li>
+            
+          </ul>
+        </div>
+
+        <div class="sources">
+          <div class="label">Sources</div>
+          
+            
+              <div>
+                <a href="https://www.bleepingcomputer.com/news/security/olympique-marseille-football-club-confirms-cyberattack-after-data-leak/" target="_blank" rel="noopener noreferrer">
+                  BleepingComputer - Olympique Marseille confirms 'attempted' cyberattack after data leak
+                </a>
+              </div>
+            
+          
+        </div>
+      </article>
+            
+              <article class="card" style="--i: 1;">
+        <div class="meta">
           <span class="chip risk-high">HIGH</span>
           
             <span class="chip label-chip">INDUSTRY SIGNAL</span>
@@ -502,9 +591,9 @@
           
             <li>Ransomware attacks are increasing, but fewer victims are paying the ransom.</li>
           
-            <li>Recent data shows that only 28% of ransomware victims chose to pay their attackers last year, marking a record low. This decline occurred despite a notable surge in reported ransomware incidents.</li>
+            <li>A recent report indicates that the percentage of ransomware victims who paid their attackers fell to 28%, a record low. This decline occurred despite a notable rise in the number of ransomware attacks reported last year.</li>
           
-            <li>The drop in payment rates suggests that organizations are becoming more resilient and are exploring alternatives to paying ransoms. However, the increase in attacks indicates that threat actors are still active and adapting their tactics.</li>
+            <li>The drop in payment rates suggests that organizations are becoming more resilient and are exploring alternatives to paying ransoms. However, the increase in attacks indicates that threat actors are still highly active and adapting their tactics.</li>
           
             <li>Expect follow-on reporting as more details surface.</li>
           
@@ -514,7 +603,7 @@
           <summary>Beginner breakdown</summary>
           <ul>
             
-            <li>Ransomware - a type of malicious software that encrypts a victim's files and demands payment for the decryption key.</li>
+            <li>Ransomware - a type of malicious software that encrypts a victim's files, demanding payment for decryption.</li>
             
             <li>Threat Actor - an individual or group that conducts malicious activities, such as cyberattacks.</li>
             
@@ -525,11 +614,11 @@
           <div class="label">SOC focus</div>
           <ul class="list">
             
-            <li>Monitor for unusual network activity that may indicate a ransomware attack.</li>
+            <li>Monitor for unusual file encryption patterns in your environment.</li>
             
-            <li>Implement and regularly test backup solutions to ensure data can be restored without paying a ransom.</li>
+            <li>Implement and test backup solutions to ensure data recovery without paying ransoms.</li>
             
-            <li>Educate employees on recognizing phishing attempts, which are common entry points for ransomware.</li>
+            <li>Educate employees about phishing tactics that could lead to ransomware infections.</li>
             
           </ul>
         </div>
@@ -571,7 +660,254 @@
           🧠 Context / Industry Signal
         </div>
         
-          <p class="empty">No context stories today.</p>
+          <div class="grid">
+            
+              <article class="card" style="--i: 0;">
+        <div class="meta">
+          <span class="chip risk-medium">MEDIUM</span>
+          
+            <span class="chip label-chip">INDUSTRY SIGNAL</span>
+          
+          <span class="chip chip-neutral">Unknown</span>
+          <span class="chip chip-neutral">Conf LOW</span>
+        </div>
+        
+          <h3><a href="https://thehackernews.com/2026/02/expert-recommends-prepare-for-pqc-right.html" target="_blank" rel="noopener noreferrer">Expert Recommends: Prepare for PQC Right Now</a></h3>
+        
+        <div class="text-block"><span class="label">Why this is here:</span> Context worth tracking while details firm up.</div>
+        <div class="text-block"><span class="label">TL;DR:</span> Experts warn that organizations need to start preparing for quantum computing threats now.</div>
+        <ul class="story-list">
+          
+            <li>Experts warn that organizations need to start preparing for quantum computing threats now.</li>
+          
+            <li>Experts have highlighted the urgent need for organizations to prepare for the implications of post-quantum cryptography (PQC). As digital evolution continues, adversaries are expected to leverage quantum computing capabilities to compromise existing cryptographic systems. This shift could render current security measures obsolete in the near future.</li>
+          
+            <li>The potential for quantum computing to break traditional encryption poses significant risks to data security and integrity. Organizations that fail to adapt may find themselves vulnerable to cyber extortion and data breaches, leading to financial losses and reputational damage. Proactive measures are essential to safeguard sensitive information against future threats.</li>
+          
+            <li>Expect follow-on reporting as more details surface.</li>
+          
+        </ul>
+
+        <details>
+          <summary>Beginner breakdown</summary>
+          <ul>
+            
+            <li>PQC - Post-Quantum Cryptography, a type of cryptography designed to be secure against the potential threats posed by quantum computers.</li>
+            
+            <li>Cyber Extortion - A form of cybercrime where attackers demand payment to prevent or stop a cyber attack.</li>
+            
+          </ul>
+        </details>
+
+        <div>
+          <div class="label">SOC focus</div>
+          <ul class="list">
+            
+            <li>Monitor for emerging threats related to quantum computing and PQC vulnerabilities.</li>
+            
+            <li>Evaluate current cryptographic practices and identify areas for improvement.</li>
+            
+            <li>Engage in threat intelligence sharing to stay informed about advancements in quantum computing attacks.</li>
+            
+          </ul>
+        </div>
+
+        <div>
+          <div class="label">Recommended actions</div>
+          <ul class="list">
+            
+            <li>Begin assessing your current encryption methods.</li>
+            
+            <li>Invest in training for your team on quantum threats.</li>
+            
+            <li>Stay updated on developments in post-quantum cryptography.</li>
+            
+          </ul>
+        </div>
+
+        <div class="sources">
+          <div class="label">Sources</div>
+          
+            
+              <div>
+                <a href="https://thehackernews.com/2026/02/expert-recommends-prepare-for-pqc-right.html" target="_blank" rel="noopener noreferrer">
+                  The Hacker News - Expert Recommends: Prepare for PQC Right Now
+                </a>
+              </div>
+            
+          
+        </div>
+      </article>
+            
+              <article class="card" style="--i: 1;">
+        <div class="meta">
+          <span class="chip risk-high">HIGH</span>
+          
+            <span class="chip label-chip">INDUSTRY SIGNAL</span>
+          
+          <span class="chip chip-neutral">Initial Access</span>
+          <span class="chip chip-neutral">Conf LOW</span>
+        </div>
+        
+          <h3><a href="https://thehackernews.com/2026/02/slh-offers-5001000-per-call-to-recruit.html" target="_blank" rel="noopener noreferrer">SLH Offers $500–$1,000 Per Call to Recruit Women for IT Help Desk Vishing Attacks</a></h3>
+        
+        <div class="text-block"><span class="label">Why this is here:</span> Context worth tracking while details firm up.</div>
+        <div class="text-block"><span class="label">TL;DR:</span> A cybercrime group is paying women to conduct voice phishing attacks on IT help desks.</div>
+        <ul class="story-list">
+          
+            <li>A cybercrime group is paying women to conduct voice phishing attacks on IT help desks.</li>
+          
+            <li>The Scattered LAPSUS$ Hunters (SLH) have been observed offering financial incentives ranging from $500 to $1,000 per call to recruit women for voice phishing attacks. These attacks specifically target IT help desks, aiming to exploit social engineering tactics to gain unauthorized access to sensitive information.</li>
+          
+            <li>This recruitment strategy highlights a troubling trend in cybercrime, where financial incentives are used to exploit individuals for malicious purposes. The potential for successful attacks on IT help desks could lead to significant data breaches and financial losses for organizations.</li>
+          
+            <li>Expect follow-on reporting as more details surface.</li>
+          
+        </ul>
+
+        <details>
+          <summary>Beginner breakdown</summary>
+          <ul>
+            
+            <li>Vishing - Voice phishing, a type of social engineering attack where attackers use phone calls to trick individuals into revealing sensitive information.</li>
+            
+            <li>Social Engineering - Psychological manipulation used to trick individuals into divulging confidential information.</li>
+            
+          </ul>
+        </details>
+
+        <div>
+          <div class="label">SOC focus</div>
+          <ul class="list">
+            
+            <li>Monitor call logs for unusual patterns or spikes in calls to IT help desks.</li>
+            
+            <li>Implement caller verification processes to authenticate users before providing assistance.</li>
+            
+            <li>Educate IT staff on recognizing social engineering tactics and suspicious caller behavior.</li>
+            
+          </ul>
+        </div>
+
+        <div>
+          <div class="label">Recommended actions</div>
+          <ul class="list">
+            
+            <li>Enhance training for IT help desk staff on social engineering awareness.</li>
+            
+            <li>Establish strict verification protocols for callers.</li>
+            
+            <li>Report any suspicious recruitment activities to law enforcement.</li>
+            
+          </ul>
+        </div>
+
+        <div class="sources">
+          <div class="label">Sources</div>
+          
+            
+              <div>
+                <a href="https://thehackernews.com/2026/02/slh-offers-5001000-per-call-to-recruit.html" target="_blank" rel="noopener noreferrer">
+                  The Hacker News - SLH Offers $500–$1,000 Per Call to Recruit Women for IT Help Desk Vishing Attacks
+                </a>
+              </div>
+            
+          
+        </div>
+      </article>
+            
+              <article class="card" style="--i: 2;">
+        <div class="meta">
+          <span class="chip risk-high">HIGH</span>
+          
+            <span class="chip label-chip">LEGAL POLICY</span>
+          
+            <span class="chip label-chip">RESEARCH</span>
+          
+          <span class="chip chip-neutral">Exfiltration</span>
+          <span class="chip chip-neutral">Conf MEDIUM</span>
+        </div>
+        
+          <h3><a href="https://www.bleepingcomputer.com/news/security/marquis-sues-sonicwall-over-backup-breach-that-led-to-ransomware-attack/" target="_blank" rel="noopener noreferrer">Marquis sues SonicWall over backup breach that led to ransomware attack</a></h3>
+        
+        <div class="text-block"><span class="label">Why this is here:</span> Multiple sources confirm the same issue.</div>
+        <div class="text-block"><span class="label">TL;DR:</span> Marquis Software Solutions is suing SonicWall for a backup breach that caused a ransomware attack affecting 74 banks.</div>
+        <ul class="story-list">
+          
+            <li>Marquis Software Solutions is suing SonicWall for a backup breach that caused a ransomware attack affecting 74 banks.</li>
+          
+            <li>Marquis Software Solutions has initiated legal action against SonicWall, claiming that the company's negligence and misrepresentation resulted in a backup breach. This breach subsequently led to a ransomware attack that disrupted operations at 74 banks across the United States.</li>
+          
+            <li>The lawsuit highlights the critical importance of cybersecurity measures and accountability in protecting sensitive data. If SonicWall is found liable, it could set a precedent for how cybersecurity firms manage their responsibilities and the potential financial repercussions of breaches.</li>
+          
+            <li>Also reported by The Hacker News.</li>
+          
+        </ul>
+
+        <details>
+          <summary>Beginner breakdown</summary>
+          <ul>
+            
+            <li>Ransomware - a type of malicious software that encrypts a victim's files, demanding payment for the decryption key.</li>
+            
+            <li>Backup breach - an incident where unauthorized access is gained to backup data, potentially compromising sensitive information.</li>
+            
+            <li>Remote Code Execution - a vulnerability that allows an attacker to run arbitrary code on a target system from a remote location.</li>
+            
+            <li>API Key - a code passed in by computer programs calling an API (Application Programming Interface) to identify the calling program.</li>
+            
+          </ul>
+        </details>
+
+        <div>
+          <div class="label">SOC focus</div>
+          <ul class="list">
+            
+            <li>Monitor for unusual access patterns to backup systems that could indicate a breach.</li>
+            
+            <li>Ensure that all backup systems are regularly updated and patched to mitigate vulnerabilities.</li>
+            
+            <li>Implement incident response plans that include legal and public relations strategies in case of a breach.</li>
+            
+          </ul>
+        </div>
+
+        <div>
+          <div class="label">Recommended actions</div>
+          <ul class="list">
+            
+            <li>Review and strengthen backup security protocols.</li>
+            
+            <li>Conduct a risk assessment of third-party vendors.</li>
+            
+            <li>Stay informed about legal developments related to cybersecurity negligence.</li>
+            
+          </ul>
+        </div>
+
+        <div class="sources">
+          <div class="label">Sources</div>
+          
+            
+              <div>
+                <a href="https://www.bleepingcomputer.com/news/security/marquis-sues-sonicwall-over-backup-breach-that-led-to-ransomware-attack/" target="_blank" rel="noopener noreferrer">
+                  BleepingComputer - Marquis sues SonicWall over backup breach that led to ransomware attack
+                </a>
+              </div>
+            
+          
+            
+              <div>
+                <a href="https://thehackernews.com/2026/02/claude-code-flaws-allow-remote-code.html" target="_blank" rel="noopener noreferrer">
+                  The Hacker News - Claude Code Flaws Allow Remote Code Execution and API Key Exfiltration
+                </a>
+              </div>
+            
+          
+        </div>
+      </article>
+            
+          </div>
         
       </section>
     </main>
