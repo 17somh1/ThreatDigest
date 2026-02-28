@@ -1,5 +1,5 @@
 {
-  "last_run_utc": "2026-02-27T13:18:21.553119+00:00",
+  "last_run_utc": "2026-02-28T08:21:36.508388+00:00",
   "processed_urls": [
     "https://www.bleepingcomputer.com/news/security/critical-cisco-sd-wan-bug-exploited-in-zero-day-attacks-since-2023/",
     "https://www.cisa.gov/news-events/alerts/2026/02/25/cisa-and-partners-release-guidance-ongoing-global-exploitation-cisco-sd-wan-systems",
@@ -37,6 +37,9 @@
     "https://thehackernews.com/2026/02/cisco-sd-wan-zero-day-cve-2026-20127.html",
     "https://thehackernews.com/2026/02/expert-recommends-prepare-for-pqc-right.html",
     "https://www.bleepingcomputer.com/news/security/olympique-marseille-football-club-confirms-cyberattack-after-data-leak/",
-    "https://www.bleepingcomputer.com/news/security/ransomware-payment-rate-drops-to-record-low-as-attacks-surge/"
+    "https://www.bleepingcomputer.com/news/security/ransomware-payment-rate-drops-to-record-low-as-attacks-surge/",
+    "https://www.bleepingcomputer.com/news/security/cisa-warns-that-resurge-malware-can-be-dormant-on-ivanti-devices/",
+    "https://thehackernews.com/2026/02/pentagon-designates-anthropic-supply.html",
+    "https://thehackernews.com/2026/02/900-sangoma-freepbx-instances.html"
   ]
 }
