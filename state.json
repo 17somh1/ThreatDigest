@@ -1,5 +1,5 @@
 {
-  "last_run_utc": "2026-03-03T08:33:11.479468+00:00",
+  "last_run_utc": "2026-03-03T13:17:32.452613+00:00",
   "processed_urls": [
     "https://www.bleepingcomputer.com/news/security/critical-cisco-sd-wan-bug-exploited-in-zero-day-attacks-since-2023/",
     "https://www.cisa.gov/news-events/alerts/2026/02/25/cisa-and-partners-release-guidance-ongoing-global-exploitation-cisco-sd-wan-systems",
@@ -46,6 +46,10 @@
     "https://thehackernews.com/2026/03/google-confirms-cve-2026-21385-in.html",
     "https://www.bleepingcomputer.com/news/security/fake-google-security-site-uses-pwa-app-to-steal-credentials-mfa-codes/",
     "https://thehackernews.com/2026/03/new-chrome-vulnerability-let-malicious.html",
-    "https://thehackernews.com/2026/03/weekly-recap-sd-wan-0-day-critical-cves.html"
+    "https://thehackernews.com/2026/03/weekly-recap-sd-wan-0-day-critical-cves.html",
+    "https://www.bleepingcomputer.com/news/security/google-patches-android-zero-day-actively-exploited-in-attacks/",
+    "https://www.bleepingcomputer.com/news/security/university-of-hawaii-cancer-center-ransomware-attack-affects-nearly-12-million-people/",
+    "https://thehackernews.com/2026/03/starkiller-phishing-suite-uses-aitm.html",
+    "https://thehackernews.com/2026/03/microsoft-warns-oauth-redirect-abuse.html"
   ]
 }
