@@ -1,5 +1,5 @@
 {
-  "last_run_utc": "2026-03-03T13:17:32.452613+00:00",
+  "last_run_utc": "2026-03-04T08:32:23.721260+00:00",
   "processed_urls": [
     "https://www.bleepingcomputer.com/news/security/critical-cisco-sd-wan-bug-exploited-in-zero-day-attacks-since-2023/",
     "https://www.cisa.gov/news-events/alerts/2026/02/25/cisa-and-partners-release-guidance-ongoing-global-exploitation-cisco-sd-wan-systems",
@@ -50,6 +50,12 @@
     "https://www.bleepingcomputer.com/news/security/google-patches-android-zero-day-actively-exploited-in-attacks/",
     "https://www.bleepingcomputer.com/news/security/university-of-hawaii-cancer-center-ransomware-attack-affects-nearly-12-million-people/",
     "https://thehackernews.com/2026/03/starkiller-phishing-suite-uses-aitm.html",
-    "https://thehackernews.com/2026/03/microsoft-warns-oauth-redirect-abuse.html"
+    "https://thehackernews.com/2026/03/microsoft-warns-oauth-redirect-abuse.html",
+    "https://www.cisa.gov/news-events/alerts/2026/03/03/cisa-adds-two-known-exploited-vulnerabilities-catalog",
+    "https://www.bleepingcomputer.com/news/security/cisa-flags-vmware-aria-operations-rce-flaw-as-exploited-in-attacks/",
+    "https://thehackernews.com/2026/03/cisa-adds-actively-exploited-vmware.html",
+    "https://www.bleepingcomputer.com/news/security/compromised-site-management-panels-are-a-hot-item-in-cybercrime-markets/",
+    "https://www.bleepingcomputer.com/news/security/microsoft-hackers-abuse-oauth-error-flows-to-spread-malware/",
+    "https://thehackernews.com/2026/03/fake-tech-support-spam-deploys.html"
   ]
 }
