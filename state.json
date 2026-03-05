@@ -1,5 +1,5 @@
 {
-  "last_run_utc": "2026-03-04T13:16:20.201692+00:00",
+  "last_run_utc": "2026-03-05T08:34:07.428401+00:00",
   "processed_urls": [
     "https://www.bleepingcomputer.com/news/security/critical-cisco-sd-wan-bug-exploited-in-zero-day-attacks-since-2023/",
     "https://www.cisa.gov/news-events/alerts/2026/02/25/cisa-and-partners-release-guidance-ongoing-global-exploitation-cisco-sd-wan-systems",
@@ -57,6 +57,13 @@
     "https://www.bleepingcomputer.com/news/security/compromised-site-management-panels-are-a-hot-item-in-cybercrime-markets/",
     "https://www.bleepingcomputer.com/news/security/microsoft-hackers-abuse-oauth-error-flows-to-spread-malware/",
     "https://thehackernews.com/2026/03/fake-tech-support-spam-deploys.html",
-    "https://thehackernews.com/2026/03/apt41-linked-silver-dragon-targets.html"
+    "https://thehackernews.com/2026/03/apt41-linked-silver-dragon-targets.html",
+    "https://www.bleepingcomputer.com/news/security/how-a-brute-force-attack-unmasked-a-ransomware-infrastructure-network/",
+    "https://thehackernews.com/2026/03/europol-led-operation-takes-down-tycoon.html",
+    "https://www.bleepingcomputer.com/news/security/bitwarden-adds-support-for-passkey-login-on-windows-11/",
+    "https://www.bleepingcomputer.com/news/security/fake-lastpass-support-email-threads-try-to-steal-vault-passwords/",
+    "https://www.bleepingcomputer.com/news/security/europol-coordinated-action-disrupts-tycoon2fa-phishing-platform/",
+    "https://www.bleepingcomputer.com/news/security/mississippi-medical-center-reopens-clinics-hit-by-ransomware-attack/",
+    "https://thehackernews.com/2026/03/fbi-and-europol-seize-leakbase-forum.html"
   ]
 }
