@@ -133,6 +133,12 @@
         color: var(--muted);
       }
 
+      .overview-grid {
+        display: grid;
+        gap: 1.5rem;
+        grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+      }
+
       .grid {
         display: grid;
         gap: 1.5rem;
@@ -223,9 +229,22 @@
         line-height: 1.6;
       }
 
+      .hook {
+        margin: 0;
+        color: var(--ink);
+        font-size: 1.05rem;
+        line-height: 1.6;
+        font-weight: 600;
+      }
+
       .label {
         font-weight: 600;
         color: var(--ink);
+      }
+
+      .support-grid {
+        display: grid;
+        gap: 0.85rem;
       }
 
       .story-list {
@@ -241,23 +260,16 @@
         margin: 0.35rem 0;
       }
 
-      details {
+      .glossary {
         background: rgba(255, 255, 255, 0.7);
-        padding: 0.6rem 0.8rem;
+        padding: 0.9rem 1rem;
         border-radius: 12px;
         border: 1px solid var(--border);
       }
 
-      details summary {
-        cursor: pointer;
-        font-weight: 600;
-        color: var(--ink);
-      }
-
-      details ul {
-        margin: 0.6rem 0 0;
-        padding-left: 1.2rem;
-        color: var(--muted);
+      .glossary .label {
+        display: block;
+        margin-bottom: 0.4rem;
       }
 
       .list {
@@ -348,124 +360,152 @@
           align-items: flex-start;
         }
       }
+
+      @media (min-width: 900px) {
+        .support-grid {
+          grid-template-columns: repeat(2, minmax(0, 1fr));
+        }
+      }
     </style>
   </head>
   <body>
     
 
     <header>
-      <div class="eyebrow">Threat Digest for Cool People</div>
+      <div class="eyebrow">Daily Threat Briefing</div>
       <h1>Threat Digest - 2026-03-06</h1>
       <p class="subtitle">
-        Straight talk from a tired SOC analyst. Clear explanations, mild sarcasm, and no mystery jargon.
+        The security news worth your attention, with context and practical takeaways.
       </p>
       <div class="meta-bar">
-        <span>Generated at: 2026-03-06 13:16 UTC</span>
-        <span>Archive days: 10</span>
-        <span>Tone mode: spicy</span>
+        <span>Updated: 2026-03-06 20:37 UTC</span>
+        <span>Stories: 2</span>
+        <span>Recent issues: 10</span>
       </div>
     </header>
 
     <main>
-      <section class="one-liner">
-        <h2>Today in one sentence</h2>
-        
-          <p class="text-block">Today, multiple vulnerabilities are under active exploitation, highlighting the urgent need for robust security measures.</p>
-        
-      </section>
+      <div class="overview-grid">
+        <section class="one-liner">
+          <h2>What Matters Today</h2>
+          
+            <p class="text-block">Federal agencies face immediate threats from crypto-theft due to unpatched iOS vulnerabilities, highlighting a critical need for swift action.</p>
+          
+        </section>
 
-      <section class="themes">
-        <h2>Today's Themes</h2>
-        
-          <ul>
-            
-            <li>active exploitation of vulnerabilities</li>
-            
-            <li>increase in known exploited vulnerabilities</li>
-            
-            <li>credential abuse challenges</li>
-            
-          </ul>
-        
-      </section>
+        <section class="themes">
+          <h2>Patterns To Watch</h2>
+          
+            <ul>
+              
+              <li>Active exploitation of iOS vulnerabilities increases pressure on federal IT security teams to prioritize patching.</li>
+              
+              <li>The expansion of AI certifications signals a growing recognition of the skills gap in cybersecurity, necessitating upskilling efforts.</li>
+              
+              <li>Defenders must balance immediate patching needs with long-term workforce development to effectively combat evolving threats.</li>
+              
+            </ul>
+          
+        </section>
+      </div>
 
       <section>
         <div class="section-title">
           <span class="pill" style="background: var(--high);"></span>
-          🚨 If You Only Read One Thing Today
+          Start Here
         </div>
         
           <div class="grid">
             <article class="card" style="--i: 0;">
         <div class="meta">
-          <span class="chip risk-high">HIGH</span>
+          <span class="chip risk-low">LOW</span>
           
-            <span class="chip label-chip">ACTIVE EXPLOITATION</span>
+            <span class="chip label-chip">INDUSTRY SIGNAL</span>
           
           <span class="chip chip-neutral">Unknown</span>
-          <span class="chip chip-neutral">Conf LOW</span>
+          <span class="chip chip-neutral">Confidence LOW</span>
         </div>
         
-          <h3><a href="https://www.bleepingcomputer.com/news/security/google-says-90-zero-days-were-exploited-in-attacks-last-year/" target="_blank" rel="noopener noreferrer">Google says 90 zero-days were exploited in attacks last year</a></h3>
+          <h3><a href="https://www.bleepingcomputer.com/news/security/ec-council-expands-ai-certification-portfolio-to-strengthen-us-ai-workforce-readiness-and-security/" target="_blank" rel="noopener noreferrer">EC-Council Expands AI Certification Portfolio to Strengthen U.S. AI Workforce Readiness and Security</a></h3>
         
-        <div class="text-block"><span class="label">Why this is here:</span> Active exploitation signals mean this needs attention now.</div>
-        <div class="text-block"><span class="label">TL;DR:</span> In 2025, 90 zero-day vulnerabilities were exploited, primarily in enterprise software.</div>
+        <p class="hook">The expansion of AI certifications by EC-Council is crucial for enhancing the cybersecurity skills of the U.S. workforce, addressing a growing skills gap in AI security.</p>
+        <div class="support-grid">
+          <div class="text-block"><span class="label">Who should care:</span> Cybersecurity teams and organizations utilizing AI technologies should pay attention to these new certifications.</div>
+          <div class="text-block"><span class="label">Attack path:</span> While not directly related to an attack vector, the lack of trained professionals in AI security could lead to vulnerabilities being exploited by attackers.</div>
+        </div>
+        <div class="text-block"><span class="label">Why this matters now:</span> Useful context for teams tracking where attacker pressure is building.</div>
+        <div class="text-block"><span class="label">In plain English:</span> EC-Council has launched new AI certifications to improve cybersecurity readiness in the U.S.</div>
+        
+          <div class="tags">
+            
+              <span>education</span>
+            
+              <span>ai</span>
+            
+              <span>cybersecurity</span>
+            
+          </div>
+        
         <ul class="story-list">
           
-            <li>In 2025, 90 zero-day vulnerabilities were exploited, primarily in enterprise software.</li>
+            <li>EC-Council has introduced its Enterprise AI Credential Suite, which includes four new role-based AI certifications and an updated Certified CISO program. This initiative aims to bolster the skills of professionals in the cybersecurity field, particularly in AI applications.</li>
           
-            <li>Google's Threat Intelligence Group reported that 90 zero-day vulnerabilities were actively exploited in various attacks throughout 2025. Nearly half of these vulnerabilities were found in enterprise software and appliances, highlighting a significant threat landscape.</li>
+            <li>As AI technologies become more integrated into business operations, the need for skilled professionals who can secure these systems is increasing. The new certifications will help fill the skills gap and prepare the workforce to address emerging threats associated with AI.</li>
           
-            <li>The exploitation of zero-day vulnerabilities poses a critical risk to organizations, as these are flaws that are not yet known to the software vendor, leaving systems defenseless. With nearly half affecting enterprise software, businesses must prioritize patch management and threat detection to mitigate potential breaches.</li>
+            <li>While not directly related to an attack vector, the lack of trained professionals in AI security could lead to vulnerabilities being exploited by attackers.</li>
           
-            <li>Expect follow-on reporting as more details surface.</li>
+            <li>Watch next: Monitor for updates on certification uptake and industry response to the new AI credential offerings.</li>
           
         </ul>
 
-        <details>
-          <summary>Beginner breakdown</summary>
-          <ul>
+        
+          <div class="glossary">
+            <div class="label">Key terms</div>
+            <ul class="list">
             
-            <li>Zero-Day - A vulnerability that is exploited before the software vendor has issued a fix.</li>
+              <li>CERTIFICATION - an official recognition of a person's skills and knowledge in a specific area.</li>
             
-            <li>Enterprise Software - Software designed to meet the needs of an organization rather than individual users.</li>
+              <li>AI - artificial intelligence, the simulation of human intelligence processes by machines.</li>
             
-          </ul>
-        </details>
+            </ul>
+          </div>
+        
 
         <div>
-          <div class="label">SOC focus</div>
+          <div class="label">Defender focus</div>
           <ul class="list">
             
-            <li>Monitor for unusual activity in enterprise software environments.</li>
+            <li>Assess current AI security training programs within your organization.</li>
             
-            <li>Implement robust patch management practices to address known vulnerabilities.</li>
+            <li>Encourage team members to pursue the new AI certifications to enhance skills.</li>
             
-            <li>Enhance threat detection capabilities to identify potential exploitation attempts.</li>
+            <li>Stay informed about the evolving landscape of AI-related threats.</li>
             
           </ul>
         </div>
 
         <div>
-          <div class="label">Recommended actions</div>
+          <div class="label">Do now</div>
           <ul class="list">
             
-            <li>Review and update your vulnerability management policies.</li>
+            <li>Review the new AI certifications offered by EC-Council.</li>
             
-            <li>Conduct regular security training for staff on recognizing threats.</li>
+            <li>Identify team members who could benefit from these certifications.</li>
             
-            <li>Invest in advanced threat detection solutions.</li>
+            <li>Plan for training sessions to integrate AI security practices into existing protocols.</li>
             
           </ul>
         </div>
+
+        <div class="text-block"><span class="label">Watch next:</span> Monitor for updates on certification uptake and industry response to the new AI credential offerings.</div>
 
         <div class="sources">
           <div class="label">Sources</div>
           
             
               <div>
-                <a href="https://www.bleepingcomputer.com/news/security/google-says-90-zero-days-were-exploited-in-attacks-last-year/" target="_blank" rel="noopener noreferrer">
-                  BleepingComputer - Google says 90 zero-days were exploited in attacks last year
+                <a href="https://www.bleepingcomputer.com/news/security/ec-council-expands-ai-certification-portfolio-to-strengthen-us-ai-workforce-readiness-and-security/" target="_blank" rel="noopener noreferrer">
+                  BleepingComputer - EC-Council Expands AI Certification Portfolio to Strengthen U.S. AI Workforce Readiness and Security
                 </a>
               </div>
             
@@ -479,7 +519,7 @@
       <section>
         <div class="section-title">
           <span class="pill" style="background: var(--med);"></span>
-          🔥 Top 3 Today
+          Priority Watchlist
         </div>
         
           <div class="grid">
@@ -488,165 +528,94 @@
         <div class="meta">
           <span class="chip risk-high">HIGH</span>
           
-            <span class="chip label-chip">ACTIVE EXPLOITATION</span>
-          
-            <span class="chip label-chip">KEV ADDED</span>
+            <span class="chip label-chip">PATCH RELEASE</span>
           
             <span class="chip label-chip">LEGAL POLICY</span>
           
           <span class="chip chip-neutral">Initial Access</span>
-          <span class="chip chip-neutral">Conf HIGH</span>
+          <span class="chip chip-neutral">Confidence LOW</span>
         </div>
         
-          <h3><a href="https://www.cisa.gov/news-events/alerts/2026/03/05/cisa-adds-five-known-exploited-vulnerabilities-catalog" target="_blank" rel="noopener noreferrer">CISA Adds Five Known Exploited Vulnerabilities to Catalog</a></h3>
+          <h3><a href="https://www.bleepingcomputer.com/news/security/cisa-warns-of-apple-flaws-exploited-in-spyware-crypto-theft-attacks/" target="_blank" rel="noopener noreferrer">CISA warns feds to patch iOS flaws exploited in crypto-theft attacks</a></h3>
         
-        <div class="text-block"><span class="label">Why this is here:</span> KEV listing shrinks the patch window. Multiple sources confirm the same issue.</div>
-        <div class="text-block"><span class="label">TL;DR:</span> CISA has added five vulnerabilities to its catalog that are actively being exploited, urging organizations to prioritize their remediation.</div>
+        <p class="hook">Federal agencies are at immediate risk of crypto-theft due to unpatched iOS vulnerabilities being actively exploited.</p>
+        <div class="support-grid">
+          <div class="text-block"><span class="label">Who should care:</span> Federal IT security teams and agencies managing iOS devices are most exposed to these threats.</div>
+          <div class="text-block"><span class="label">Attack path:</span> Attackers can leverage these vulnerabilities to gain unauthorized access to iOS devices, allowing them to deploy spyware and steal cryptocurrency.</div>
+        </div>
+        <div class="text-block"><span class="label">Why this matters now:</span> A live patch or vendor fix gives defenders something concrete to validate.</div>
+        <div class="text-block"><span class="label">In plain English:</span> CISA has warned that federal agencies must patch critical iOS flaws to prevent crypto-theft attacks.</div>
+        
+          <div class="tags">
+            
+              <span>cve</span>
+            
+              <span>ios</span>
+            
+              <span>cybersecurity</span>
+            
+          </div>
+        
         <ul class="story-list">
           
-            <li>CISA has added five vulnerabilities to its catalog that are actively being exploited, urging organizations to prioritize their remediation.</li>
+            <li>CISA has issued an alert regarding three security vulnerabilities in iOS that are being exploited in cyberespionage and cryptocurrency theft attacks. These vulnerabilities are being targeted using the Coruna exploit kit, which has been linked to recent incidents.</li>
           
-            <li>CISA has identified five new vulnerabilities that are being actively exploited and added them to its Known Exploited Vulnerabilities (KEV) Catalog. These include issues in products from Hikvision and Apple, as well as Rockwell. The vulnerabilities range from improper authentication to use-after-free issues, which can be exploited by malicious actors.</li>
+            <li>If these vulnerabilities are not patched, federal agencies could face significant financial losses and data breaches. The exploitation of these flaws could lead to unauthorized access to sensitive information and assets, impacting national security.</li>
           
-            <li>These vulnerabilities represent significant risks to federal networks and potentially to other organizations as well. The Binding Operational Directive mandates that federal agencies remediate these vulnerabilities promptly to protect their systems. Ignoring these vulnerabilities could lead to severe security breaches and data loss.</li>
+            <li>Attackers can leverage these vulnerabilities to gain unauthorized access to iOS devices, allowing them to deploy spyware and steal cryptocurrency.</li>
           
-            <li>Also reported by The Hacker News.</li>
+            <li>Watch next: Monitor for updates from CISA regarding patch releases and any additional vulnerabilities that may be discovered.</li>
           
         </ul>
 
-        <details>
-          <summary>Beginner breakdown</summary>
-          <ul>
+        
+          <div class="glossary">
+            <div class="label">Key terms</div>
+            <ul class="list">
             
-            <li>CVE - Common Vulnerabilities and Exposures, a list of publicly disclosed cybersecurity vulnerabilities.</li>
+              <li>CISA - Cybersecurity and Infrastructure Security Agency, a U.S. government agency responsible for protecting the nation's critical infrastructure.</li>
             
-            <li>KEV - Known Exploited Vulnerabilities, a catalog of vulnerabilities that are actively being exploited in the wild.</li>
+              <li>Coruna exploit kit - a set of tools used by attackers to exploit vulnerabilities in software, particularly for deploying malware.</li>
             
-            <li>CISA - The U.S. Cybersecurity and Infrastructure Security Agency, responsible for protecting the nation's critical infrastructure.</li>
-            
-            <li>CVSS - Common Vulnerability Scoring System, a standard for assessing the severity of security vulnerabilities.</li>
-            
-          </ul>
-        </details>
+            </ul>
+          </div>
+        
 
         <div>
-          <div class="label">SOC focus</div>
+          <div class="label">Defender focus</div>
           <ul class="list">
             
-            <li>Monitor for any exploitation attempts related to the newly added CVEs.</li>
+            <li>Implement immediate monitoring for unusual activity on iOS devices within federal networks.</li>
             
-            <li>Ensure that patch management processes are in place to address these vulnerabilities promptly.</li>
+            <li>Ensure that all iOS devices are updated with the latest security patches as soon as they are available.</li>
             
-            <li>Educate users about the risks associated with these vulnerabilities and the importance of timely updates.</li>
+            <li>Review access logs for any signs of unauthorized access or exploitation attempts.</li>
             
           </ul>
         </div>
 
         <div>
-          <div class="label">Recommended actions</div>
+          <div class="label">Do now</div>
           <ul class="list">
             
-            <li>Review the KEV Catalog for the latest vulnerabilities.</li>
+            <li>Patch all affected iOS devices immediately.</li>
             
-            <li>Implement patches for the identified CVEs immediately.</li>
+            <li>Conduct a security audit to identify any potential breaches.</li>
             
-            <li>Conduct a risk assessment to understand the potential impact of these vulnerabilities on your organization.</li>
+            <li>Enhance monitoring for suspicious activity related to cryptocurrency transactions.</li>
             
           </ul>
         </div>
+
+        <div class="text-block"><span class="label">Watch next:</span> Monitor for updates from CISA regarding patch releases and any additional vulnerabilities that may be discovered.</div>
 
         <div class="sources">
           <div class="label">Sources</div>
           
             
               <div>
-                <a href="https://www.cisa.gov/news-events/alerts/2026/03/05/cisa-adds-five-known-exploited-vulnerabilities-catalog" target="_blank" rel="noopener noreferrer">
-                  Alerts - CISA Adds Five Known Exploited Vulnerabilities to Catalog
-                </a>
-              </div>
-            
-          
-            
-              <div>
-                <a href="https://thehackernews.com/2026/03/hikvision-and-rockwell-automation-cvss.html" target="_blank" rel="noopener noreferrer">
-                  The Hacker News - Hikvision and Rockwell Automation CVSS 9.8 Flaws Added to CISA KEV Catalog
-                </a>
-              </div>
-            
-          
-        </div>
-      </article>
-            
-              <article class="card" style="--i: 1;">
-        <div class="meta">
-          <span class="chip risk-high">HIGH</span>
-          
-            <span class="chip label-chip">ACTIVE EXPLOITATION</span>
-          
-          <span class="chip chip-neutral">Execution</span>
-          <span class="chip chip-neutral">Conf LOW</span>
-        </div>
-        
-          <h3><a href="https://thehackernews.com/2026/03/cisco-confirms-active-exploitation-of.html" target="_blank" rel="noopener noreferrer">Cisco Confirms Active Exploitation of Two Catalyst SD-WAN Manager Vulnerabilities</a></h3>
-        
-        <div class="text-block"><span class="label">Why this is here:</span> Active exploitation signals mean this needs attention now.</div>
-        <div class="text-block"><span class="label">TL;DR:</span> Cisco's Catalyst SD-WAN Manager has two vulnerabilities that are currently being exploited by attackers.</div>
-        <ul class="story-list">
-          
-            <li>Cisco's Catalyst SD-WAN Manager has two vulnerabilities that are currently being exploited by attackers.</li>
-          
-            <li>Cisco has confirmed that two vulnerabilities in the Catalyst SD-WAN Manager are under active exploitation. The vulnerabilities include CVE-2026-20122, which allows authenticated remote attackers to overwrite arbitrary files on the local file system. This poses a significant risk to organizations using this software.</li>
-          
-            <li>Exploitation of these vulnerabilities can lead to unauthorized access and potential data loss, impacting the integrity and availability of network services. Organizations relying on Cisco's SD-WAN Manager need to act quickly to mitigate these risks and protect their infrastructure.</li>
-          
-            <li>Expect follow-on reporting as more details surface.</li>
-          
-        </ul>
-
-        <details>
-          <summary>Beginner breakdown</summary>
-          <ul>
-            
-            <li>CVE - Common Vulnerabilities and Exposures, a list of publicly disclosed cybersecurity vulnerabilities.</li>
-            
-            <li>CVSS - Common Vulnerability Scoring System, a standard for assessing the severity of vulnerabilities.</li>
-            
-          </ul>
-        </details>
-
-        <div>
-          <div class="label">SOC focus</div>
-          <ul class="list">
-            
-            <li>Monitor network logs for unusual file access patterns related to Catalyst SD-WAN Manager.</li>
-            
-            <li>Implement file integrity monitoring to detect unauthorized file changes.</li>
-            
-            <li>Ensure that all systems are updated with the latest security patches from Cisco.</li>
-            
-          </ul>
-        </div>
-
-        <div>
-          <div class="label">Recommended actions</div>
-          <ul class="list">
-            
-            <li>Assess your current use of Cisco Catalyst SD-WAN Manager.</li>
-            
-            <li>Apply the latest security patches provided by Cisco immediately.</li>
-            
-            <li>Educate your team on the importance of monitoring for unusual activities.</li>
-            
-          </ul>
-        </div>
-
-        <div class="sources">
-          <div class="label">Sources</div>
-          
-            
-              <div>
-                <a href="https://thehackernews.com/2026/03/cisco-confirms-active-exploitation-of.html" target="_blank" rel="noopener noreferrer">
-                  The Hacker News - Cisco Confirms Active Exploitation of Two Catalyst SD-WAN Manager Vulnerabilities
+                <a href="https://www.bleepingcomputer.com/news/security/cisa-warns-of-apple-flaws-exploited-in-spyware-crypto-theft-attacks/" target="_blank" rel="noopener noreferrer">
+                  BleepingComputer - CISA warns feds to patch iOS flaws exploited in crypto-theft attacks
                 </a>
               </div>
             
@@ -661,251 +630,16 @@
       <section>
         <div class="section-title">
           <span class="pill" style="background: var(--low);"></span>
-          🧠 Context / Industry Signal
+          Wider Signal
         </div>
         
-          <div class="grid">
-            
-              <article class="card" style="--i: 0;">
-        <div class="meta">
-          <span class="chip risk-high">HIGH</span>
-          
-            <span class="chip label-chip">ACTIVE EXPLOITATION</span>
-          
-            <span class="chip label-chip">LEGAL POLICY</span>
-          
-          <span class="chip chip-neutral">Initial Access</span>
-          <span class="chip chip-neutral">Conf LOW</span>
-        </div>
-        
-          <h3><a href="https://www.bleepingcomputer.com/news/security/cisco-flags-more-sd-wan-flaws-as-actively-exploited-in-attacks/" target="_blank" rel="noopener noreferrer">Cisco flags more SD-WAN flaws as actively exploited in attacks</a></h3>
-        
-        <div class="text-block"><span class="label">Why this is here:</span> Active exploitation signals mean this needs attention now.</div>
-        <div class="text-block"><span class="label">TL;DR:</span> Cisco has identified two critical vulnerabilities in its SD-WAN Manager that are being actively exploited.</div>
-        <ul class="story-list">
-          
-            <li>Cisco has identified two critical vulnerabilities in its SD-WAN Manager that are being actively exploited.</li>
-          
-            <li>Cisco has reported two security flaws in its Catalyst SD-WAN Manager that are currently being exploited by attackers. The company has urged administrators to upgrade their devices to mitigate these vulnerabilities. This announcement highlights the ongoing risks associated with SD-WAN technologies.</li>
-          
-            <li>These vulnerabilities could allow attackers to gain unauthorized access to network resources, potentially leading to data breaches or service disruptions. Given the increasing reliance on SD-WAN for secure connectivity, addressing these flaws is crucial for maintaining network integrity and security.</li>
-          
-            <li>Expect follow-on reporting as more details surface.</li>
-          
-        </ul>
-
-        <details>
-          <summary>Beginner breakdown</summary>
-          <ul>
-            
-            <li>SD-WAN - Software-Defined Wide Area Network, a technology that allows organizations to manage their network connections more efficiently.</li>
-            
-            <li>Vulnerability - A weakness in a system that can be exploited by attackers to gain unauthorized access or cause harm.</li>
-            
-          </ul>
-        </details>
-
-        <div>
-          <div class="label">SOC focus</div>
-          <ul class="list">
-            
-            <li>Monitor network traffic for unusual patterns that may indicate exploitation attempts.</li>
-            
-            <li>Ensure that all SD-WAN devices are updated to the latest security patches.</li>
-            
-            <li>Implement access controls to limit exposure of vulnerable devices to the internet.</li>
-            
-          </ul>
-        </div>
-
-        <div>
-          <div class="label">Recommended actions</div>
-          <ul class="list">
-            
-            <li>Upgrade all vulnerable Cisco SD-WAN devices immediately.</li>
-            
-            <li>Conduct a security audit of your network to identify potential risks.</li>
-            
-            <li>Educate staff on recognizing signs of network compromise.</li>
-            
-          </ul>
-        </div>
-
-        <div class="sources">
-          <div class="label">Sources</div>
-          
-            
-              <div>
-                <a href="https://www.bleepingcomputer.com/news/security/cisco-flags-more-sd-wan-flaws-as-actively-exploited-in-attacks/" target="_blank" rel="noopener noreferrer">
-                  BleepingComputer - Cisco flags more SD-WAN flaws as actively exploited in attacks
-                </a>
-              </div>
-            
-          
-        </div>
-      </article>
-            
-              <article class="card" style="--i: 1;">
-        <div class="meta">
-          <span class="chip risk-high">HIGH</span>
-          
-            <span class="chip label-chip">INDUSTRY SIGNAL</span>
-          
-          <span class="chip chip-neutral">Credential Access</span>
-          <span class="chip chip-neutral">Conf LOW</span>
-        </div>
-        
-          <h3><a href="https://thehackernews.com/2026/03/where-multi-factor-authentication-stops.html" target="_blank" rel="noopener noreferrer">Where Multi-Factor Authentication Stops and Credential Abuse Starts</a></h3>
-        
-        <div class="text-block"><span class="label">Why this is here:</span> Context worth tracking while details firm up.</div>
-        <div class="text-block"><span class="label">TL;DR:</span> Multi-factor authentication is often misconfigured, allowing attackers to exploit stolen credentials.</div>
-        <ul class="story-list">
-          
-            <li>Multi-factor authentication is often misconfigured, allowing attackers to exploit stolen credentials.</li>
-          
-            <li>Many organizations implement multi-factor authentication (MFA) believing it protects them from credential theft. However, in Windows environments, attackers continue to gain access using valid credentials. The problem lies not with MFA itself, but with its inconsistent application across systems.</li>
-          
-            <li>If MFA is not properly enforced, organizations remain vulnerable to credential abuse, leading to potential data breaches and financial losses. Understanding the limitations of MFA is crucial for improving security posture and preventing unauthorized access.</li>
-          
-            <li>Expect follow-on reporting as more details surface.</li>
-          
-        </ul>
-
-        <details>
-          <summary>Beginner breakdown</summary>
-          <ul>
-            
-            <li>Multi-Factor Authentication (MFA) - a security measure that requires more than one form of verification to access a system.</li>
-            
-            <li>Identity Provider (IdP) - a service that manages user identities and provides authentication services.</li>
-            
-          </ul>
-        </details>
-
-        <div>
-          <div class="label">SOC focus</div>
-          <ul class="list">
-            
-            <li>Review MFA configurations to ensure they are enforced across all systems.</li>
-            
-            <li>Monitor for unusual login attempts that may indicate credential abuse.</li>
-            
-            <li>Educate users on the importance of strong passwords and the limitations of MFA.</li>
-            
-          </ul>
-        </div>
-
-        <div>
-          <div class="label">Recommended actions</div>
-          <ul class="list">
-            
-            <li>Audit current MFA implementations for coverage gaps.</li>
-            
-            <li>Implement additional security measures alongside MFA.</li>
-            
-            <li>Regularly train staff on recognizing phishing attempts.</li>
-            
-          </ul>
-        </div>
-
-        <div class="sources">
-          <div class="label">Sources</div>
-          
-            
-              <div>
-                <a href="https://thehackernews.com/2026/03/where-multi-factor-authentication-stops.html" target="_blank" rel="noopener noreferrer">
-                  The Hacker News - Where Multi-Factor Authentication Stops and Credential Abuse Starts
-                </a>
-              </div>
-            
-          
-        </div>
-      </article>
-            
-              <article class="card" style="--i: 2;">
-        <div class="meta">
-          <span class="chip risk-high">HIGH</span>
-          
-            <span class="chip label-chip">LEGAL POLICY</span>
-          
-          <span class="chip chip-neutral">Credential Access</span>
-          <span class="chip chip-neutral">Conf LOW</span>
-        </div>
-        
-          <h3><a href="https://thehackernews.com/2026/03/europol-led-operation-takes-down-tycoon.html" target="_blank" rel="noopener noreferrer">Europol-Led Operation Takes Down Tycoon 2FA Phishing-as-a-Service Linked to 64,000 Attacks</a></h3>
-        
-        <div class="text-block"><span class="label">Why this is here:</span> Context worth tracking while details firm up.</div>
-        <div class="text-block"><span class="label">TL;DR:</span> Europol has taken down Tycoon 2FA, a major phishing toolkit linked to thousands of attacks.</div>
-        <ul class="story-list">
-          
-            <li>Europol has taken down Tycoon 2FA, a major phishing toolkit linked to thousands of attacks.</li>
-          
-            <li>Tycoon 2FA, a phishing-as-a-service toolkit, was dismantled by Europol and various security agencies. This toolkit enabled cybercriminals to conduct adversary-in-the-middle attacks, allowing them to harvest credentials from unsuspecting victims. It had been in operation since August 2023 and was linked to approximately 64,000 attacks.</li>
-          
-            <li>The dismantling of Tycoon 2FA is significant as it disrupts a major tool used for credential theft, potentially protecting thousands of individuals and organizations from identity theft. Phishing remains a leading vector for cyberattacks, and reducing the availability of such toolkits can help lower the overall risk landscape.</li>
-          
-            <li>Expect follow-on reporting as more details surface.</li>
-          
-        </ul>
-
-        <details>
-          <summary>Beginner breakdown</summary>
-          <ul>
-            
-            <li>Phishing-as-a-Service (PhaaS) - a subscription-based service that provides tools and resources for conducting phishing attacks.</li>
-            
-            <li>Adversary-in-the-Middle (AitM) - a type of attack where the attacker intercepts communication between two parties to steal sensitive information.</li>
-            
-          </ul>
-        </details>
-
-        <div>
-          <div class="label">SOC focus</div>
-          <ul class="list">
-            
-            <li>Monitor for unusual login attempts that may indicate credential harvesting.</li>
-            
-            <li>Implement multi-factor authentication to mitigate the risk of stolen credentials.</li>
-            
-            <li>Educate users about recognizing phishing attempts and suspicious communications.</li>
-            
-          </ul>
-        </div>
-
-        <div>
-          <div class="label">Recommended actions</div>
-          <ul class="list">
-            
-            <li>Review and enhance email filtering solutions.</li>
-            
-            <li>Conduct regular security awareness training for all employees.</li>
-            
-            <li>Stay updated on emerging phishing techniques and toolkits.</li>
-            
-          </ul>
-        </div>
-
-        <div class="sources">
-          <div class="label">Sources</div>
-          
-            
-              <div>
-                <a href="https://thehackernews.com/2026/03/europol-led-operation-takes-down-tycoon.html" target="_blank" rel="noopener noreferrer">
-                  The Hacker News - Europol-Led Operation Takes Down Tycoon 2FA Phishing-as-a-Service Linked to 64,000 Attacks
-                </a>
-              </div>
-            
-          
-        </div>
-      </article>
-            
-          </div>
+          <p class="empty">No context stories today.</p>
         
       </section>
     </main>
 
     <aside class="archive">
-      <strong>Archive</strong>
+      <strong>Recent Issues</strong>
       <div class="archive-list">
         
         <a href="archive/2026-03-06.html">2026-03-06</a>
@@ -932,7 +666,7 @@
     </aside>
 
     <footer>
-      Generated by the Threat Digest pipeline using free RSS sources and OpenAI summaries.
+      Generated by the Threat Digest pipeline from RSS feeds and structured summaries.
     </footer>
 
   </body>
