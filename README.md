@@ -34,7 +34,6 @@ Outputs:
   - `OPENAI_MODEL` (optional, default `gpt-4o-mini`)
   - `MAX_ITEMS` (optional, default `15`)
   - `RECENT_HOURS` (optional, default `48`)
-  - `TONE_MODE` (optional, `spicy` or `clean`, default `spicy`)
 
 ## Cost controls
 

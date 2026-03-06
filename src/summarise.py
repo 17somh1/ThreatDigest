@@ -31,10 +31,13 @@ _ALLOWED_ATTACK_STAGES = {
 _REQUIRED_KEYS = {
     "risk",
     "confidence",
-    "spicy_take",
+    "hook",
     "tl_dr",
     "what_happened",
     "why_it_matters",
+    "who_should_care",
+    "attacker_path",
+    "watch_next",
     "beginner_breakdown",
     "attack_stage",
     "soc_focus",
@@ -47,40 +50,40 @@ class SummarizationError(ValueError):
     """Raised when model output cannot be normalized."""
 
 
-def _build_prompt(item: dict, tone_mode: str) -> str:
+def _build_prompt(item: dict) -> str:
     summary_text = extract_text(item.get("summary", ""))
-    tone_hint = (
-        "Use a mild, professional sarcasm in spicy_take." if tone_mode == "spicy" else
-        "Use a plain Analyst take that starts with 'Analyst take:' and contains no sarcasm."
-    )
 
     return (
-        "You are a senior SOC analyst writing a threat digest for people new to threat intel. "
-        "Be engaging but always clear and factual.\n"
-        f"Tone rule: {tone_hint}\n\n"
+        "You are a senior SOC analyst writing a daily threat briefing for readers who want "
+        "technical depth without mystery jargon. Lead with consequences, stay concrete, and "
+        "keep urgency proportional to the evidence.\n\n"
         "Return STRICT JSON with the required keys only.\n\n"
         "Schema:\n"
         "{\n"
         "  \"risk\": \"LOW|MEDIUM|HIGH\",\n"
         "  \"confidence\": \"LOW|MEDIUM|HIGH\",\n"
-        "  \"spicy_take\": \"1 sentence, slightly sarcastic but professional; must not be confusing\",\n"
+        "  \"hook\": \"1 sentence, consequence-led; explain why this matters now\",\n"
         "  \"tl_dr\": \"1 sentence, plain English\",\n"
         "  \"what_happened\": \"2-4 sentences, factual\",\n"
         "  \"why_it_matters\": \"2-4 sentences, practical impact\",\n"
+        "  \"who_should_care\": \"1 sentence naming the teams, products, or environments most exposed\",\n"
+        "  \"attacker_path\": \"1-2 sentences describing how an attacker gains leverage or what abuse looks like\",\n"
+        "  \"watch_next\": \"1 sentence on the next signal, vendor action, or follow-on reporting to monitor\",\n"
         "  \"beginner_breakdown\": [\"TERM - definition\", \"TERM - definition\"],\n"
         "  \"attack_stage\": \"Initial Access|Execution|Persistence|Privilege Escalation|Defense Evasion|Credential Access|Discovery|Lateral Movement|Collection|Command and Control|Exfiltration|Impact|Unknown\",\n"
         "  \"soc_focus\": [\"2-4 concrete detection/response ideas, plain English\"],\n"
         "  \"tags\": [\"ransomware\", \"cve\", \"cloud\"],\n"
-        "  \"recommended_actions\": [\"max 3 actions, imperative voice\"]\n"
+        "  \"recommended_actions\": [\"max 3 actions, imperative voice, ordered from most immediate to least immediate\"]\n"
         "}\n\n"
         "Rules:\n"
         "- Output valid JSON only. No markdown.\n"
+        "- No sarcasm, jokes, or branded voice.\n"
         "- Define any jargon used in beginner_breakdown.\n"
         "- If source content is insufficient, set confidence LOW and say what is unclear.\n"
+        "- If the story is a retrospective, research roundup, or trend report, say that explicitly and do not overstate urgency.\n"
+        "- SOC focus must be product/context-specific when possible.\n"
+        "- Avoid generic advice like 'educate users' unless the story is explicitly about awareness or phishing behavior.\n"
         "- Do not invent facts.\n\n"
-        "- Avoid repetitive phrasing like 'Because who doesn't'.\n"
-        "- Make spicy_take specific to the vulnerability or campaign.\n"
-        "- SOC focus must be product/context-specific when possible.\n\n"
         "Item:\n"
         f"Title: {item.get('title', '').strip()}\n"
         f"Source: {item.get('source', '').strip()}\n"
@@ -90,7 +93,7 @@ def _build_prompt(item: dict, tone_mode: str) -> str:
     )
 
 
-def _normalize_output(data: dict[str, Any], tone_mode: str) -> dict[str, Any]:
+def _normalize_output(data: dict[str, Any]) -> dict[str, Any]:
     if not _REQUIRED_KEYS.issubset(data.keys()):
         missing = ", ".join(sorted(_REQUIRED_KEYS - set(data.keys())))
         raise SummarizationError(f"Missing keys: {missing}")
@@ -113,24 +116,34 @@ def _normalize_output(data: dict[str, Any], tone_mode: str) -> dict[str, Any]:
     soc_focus = _list(data.get("soc_focus"))
     tags = _list(data.get("tags"))
     recommended_actions = _list(data.get("recommended_actions"))
+    hook = str(data.get("hook", "")).strip()
+    who_should_care = str(data.get("who_should_care", "")).strip()
+    attacker_path = str(data.get("attacker_path", "")).strip()
+    watch_next = str(data.get("watch_next", "")).strip()
 
     if not beginner_breakdown:
         raise SummarizationError("beginner_breakdown must not be empty")
     if not soc_focus:
         raise SummarizationError("soc_focus must not be empty")
-
-    spicy_take = str(data.get("spicy_take", "")).strip()
-    if tone_mode != "spicy":
-        if not spicy_take.lower().startswith("analyst take"):
-            spicy_take = f"Analyst take: {spicy_take}"
+    if not hook:
+        raise SummarizationError("hook must not be empty")
+    if not who_should_care:
+        raise SummarizationError("who_should_care must not be empty")
+    if not attacker_path:
+        raise SummarizationError("attacker_path must not be empty")
+    if not watch_next:
+        raise SummarizationError("watch_next must not be empty")
 
     return {
         "risk": risk,
         "confidence": confidence,
-        "spicy_take": spicy_take,
+        "hook": hook,
         "tl_dr": str(data.get("tl_dr", "")).strip(),
         "what_happened": str(data.get("what_happened", "")).strip(),
         "why_it_matters": str(data.get("why_it_matters", "")).strip(),
+        "who_should_care": who_should_care,
+        "attacker_path": attacker_path,
+        "watch_next": watch_next,
         "beginner_breakdown": beginner_breakdown,
         "attack_stage": attack_stage,
         "soc_focus": soc_focus,
@@ -142,12 +155,11 @@ def _normalize_output(data: dict[str, Any], tone_mode: str) -> dict[str, Any]:
 def summarize_item(
     item: dict,
     api_key: str,
-    tone_mode: str = "spicy",
     model: str | None = None,
     max_retries: int = 1,
 ) -> dict[str, Any] | None:
     client = OpenAI(api_key=api_key)
-    prompt = _build_prompt(item, tone_mode=tone_mode)
+    prompt = _build_prompt(item)
     attempts = max_retries + 1
 
     for attempt in range(attempts):
@@ -158,13 +170,13 @@ def summarize_item(
                     {"role": "system", "content": "Return only strict JSON."},
                     {"role": "user", "content": prompt},
                 ],
-                temperature=0.3 if tone_mode == "spicy" else 0.2,
-                max_tokens=700,
+                temperature=0.2,
+                max_tokens=900,
                 response_format={"type": "json_object"},
             )
             content = response.choices[0].message.content or ""
             data = json.loads(content)
-            return _normalize_output(data, tone_mode=tone_mode)
+            return _normalize_output(data)
         except (json.JSONDecodeError, SummarizationError) as exc:
             if attempt >= max_retries:
                 print(f"Skipping item after invalid JSON: {exc}", file=sys.stderr)

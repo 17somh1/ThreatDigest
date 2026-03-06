@@ -133,6 +133,12 @@
         color: var(--muted);
       }
 
+      .overview-grid {
+        display: grid;
+        gap: 1.5rem;
+        grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+      }
+
       .grid {
         display: grid;
         gap: 1.5rem;
@@ -223,9 +229,22 @@
         line-height: 1.6;
       }
 
+      .hook {
+        margin: 0;
+        color: var(--ink);
+        font-size: 1.05rem;
+        line-height: 1.6;
+        font-weight: 600;
+      }
+
       .label {
         font-weight: 600;
         color: var(--ink);
+      }
+
+      .support-grid {
+        display: grid;
+        gap: 0.85rem;
       }
 
       .story-list {
@@ -241,23 +260,16 @@
         margin: 0.35rem 0;
       }
 
-      details {
+      .glossary {
         background: rgba(255, 255, 255, 0.7);
-        padding: 0.6rem 0.8rem;
+        padding: 0.9rem 1rem;
         border-radius: 12px;
         border: 1px solid var(--border);
       }
 
-      details summary {
-        cursor: pointer;
-        font-weight: 600;
-        color: var(--ink);
-      }
-
-      details ul {
-        margin: 0.6rem 0 0;
-        padding-left: 1.2rem;
-        color: var(--muted);
+      .glossary .label {
+        display: block;
+        margin-bottom: 0.4rem;
       }
 
       .list {
@@ -348,6 +360,12 @@
           align-items: flex-start;
         }
       }
+
+      @media (min-width: 900px) {
+        .support-grid {
+          grid-template-columns: repeat(2, minmax(0, 1fr));
+        }
+      }
     </style>
   </head>
   <body>
@@ -359,32 +377,46 @@
             <span class="chip label-chip">{{ label.replace('_', ' ') }}</span>
           {% endfor %}
           <span class="chip chip-neutral">{{ item.attack_stage }}</span>
-          <span class="chip chip-neutral">Conf {{ item.confidence }}</span>
+          <span class="chip chip-neutral">Confidence {{ item.confidence }}</span>
         </div>
         {% if item.primary_url %}
           <h3><a href="{{ item.primary_url }}" target="_blank" rel="noopener noreferrer">{{ item.cluster_title }}</a></h3>
         {% else %}
           <h3>{{ item.cluster_title }}</h3>
         {% endif %}
-        <div class="text-block"><span class="label">Why this is here:</span> {{ item.why_this_is_here }}</div>
-        <div class="text-block"><span class="label">TL;DR:</span> {{ item.tl_dr }}</div>
+        <p class="hook">{{ item.hook }}</p>
+        <div class="support-grid">
+          <div class="text-block"><span class="label">Who should care:</span> {{ item.who_should_care }}</div>
+          <div class="text-block"><span class="label">Attack path:</span> {{ item.attacker_path }}</div>
+        </div>
+        <div class="text-block"><span class="label">Why this matters now:</span> {{ item.why_this_is_here }}</div>
+        <div class="text-block"><span class="label">In plain English:</span> {{ item.tl_dr }}</div>
+        {% if item.tags %}
+          <div class="tags">
+            {% for tag in item.tags %}
+              <span>{{ tag.replace('-', ' ') }}</span>
+            {% endfor %}
+          </div>
+        {% endif %}
         <ul class="story-list">
           {% for line in item.story_lines %}
             <li>{{ line }}</li>
           {% endfor %}
         </ul>
 
-        <details>
-          <summary>Beginner breakdown</summary>
-          <ul>
+        {% if item.beginner_breakdown %}
+          <div class="glossary">
+            <div class="label">Key terms</div>
+            <ul class="list">
             {% for entry in item.beginner_breakdown %}
-            <li>{{ entry }}</li>
+              <li>{{ entry }}</li>
             {% endfor %}
-          </ul>
-        </details>
+            </ul>
+          </div>
+        {% endif %}
 
         <div>
-          <div class="label">SOC focus</div>
+          <div class="label">Defender focus</div>
           <ul class="list">
             {% for focus in item.soc_focus %}
             <li>{{ focus }}</li>
@@ -393,13 +425,15 @@
         </div>
 
         <div>
-          <div class="label">Recommended actions</div>
+          <div class="label">Do now</div>
           <ul class="list">
             {% for action in item.recommended_actions %}
             <li>{{ action }}</li>
             {% endfor %}
           </ul>
         </div>
+
+        <div class="text-block"><span class="label">Watch next:</span> {{ item.watch_next }}</div>
 
         <div class="sources">
           <div class="label">Sources</div>
@@ -419,45 +453,47 @@
     {%- endmacro %}
 
     <header>
-      <div class="eyebrow">Threat Digest for Cool People</div>
+      <div class="eyebrow">Daily Threat Briefing</div>
       <h1>Threat Digest - {{ digest_date }}</h1>
       <p class="subtitle">
-        Straight talk from a tired SOC analyst. Clear explanations, mild sarcasm, and no mystery jargon.
+        The security news worth your attention, with context and practical takeaways.
       </p>
       <div class="meta-bar">
-        <span>Generated at: {{ generated_at }}</span>
-        <span>Archive days: {{ archive_links | length }}</span>
-        <span>Tone mode: {{ tone_mode }}</span>
+        <span>Updated: {{ generated_at }}</span>
+        <span>Stories: {{ editorial.all_clusters | length }}</span>
+        <span>Recent issues: {{ archive_links | length }}</span>
       </div>
     </header>
 
     <main>
-      <section class="one-liner">
-        <h2>Today in one sentence</h2>
-        {% if themes_data %}
-          <p class="text-block">{{ themes_data.today_in_one_sentence }}</p>
-        {% else %}
-          <p class="empty">No summary available yet.</p>
-        {% endif %}
-      </section>
+      <div class="overview-grid">
+        <section class="one-liner">
+          <h2>What Matters Today</h2>
+          {% if themes_data %}
+            <p class="text-block">{{ themes_data.today_in_one_sentence }}</p>
+          {% else %}
+            <p class="empty">No summary available yet.</p>
+          {% endif %}
+        </section>
 
-      <section class="themes">
-        <h2>Today's Themes</h2>
-        {% if themes_data %}
-          <ul>
-            {% for theme in themes_data.themes %}
-            <li>{{ theme }}</li>
-            {% endfor %}
-          </ul>
-        {% else %}
-          <p class="empty">No themes available yet.</p>
-        {% endif %}
-      </section>
+        <section class="themes">
+          <h2>Patterns To Watch</h2>
+          {% if themes_data %}
+            <ul>
+              {% for theme in themes_data.themes %}
+              <li>{{ theme }}</li>
+              {% endfor %}
+            </ul>
+          {% else %}
+            <p class="empty">No themes available yet.</p>
+          {% endif %}
+        </section>
+      </div>
 
       <section>
         <div class="section-title">
           <span class="pill" style="background: var(--high);"></span>
-          🚨 If You Only Read One Thing Today
+          Start Here
         </div>
         {% if editorial.top_story %}
           <div class="grid">
@@ -471,7 +507,7 @@
       <section>
         <div class="section-title">
           <span class="pill" style="background: var(--med);"></span>
-          🔥 Top 3 Today
+          Priority Watchlist
         </div>
         {% if editorial.top_three %}
           <div class="grid">
@@ -487,7 +523,7 @@
       <section>
         <div class="section-title">
           <span class="pill" style="background: var(--low);"></span>
-          🧠 Context / Industry Signal
+          Wider Signal
         </div>
         {% if editorial.context %}
           <div class="grid">
@@ -502,7 +538,7 @@
     </main>
 
     <aside class="archive">
-      <strong>Archive</strong>
+      <strong>Recent Issues</strong>
       <div class="archive-list">
         {% for archive_date in archive_links %}
         <a href="archive/{{ archive_date }}.html">{{ archive_date }}</a>
@@ -511,7 +547,7 @@
     </aside>
 
     <footer>
-      Generated by the Threat Digest pipeline using free RSS sources and OpenAI summaries.
+      Generated by the Threat Digest pipeline from RSS feeds and structured summaries.
     </footer>
 
   </body>

@@ -14,7 +14,6 @@ def render_digest(
     template_path: Path,
     editorial: object,
     themes_data: dict | None,
-    tone_mode: str,
 ) -> str:
     env = Environment(
         loader=FileSystemLoader(str(template_path.parent)),
@@ -28,5 +27,4 @@ def render_digest(
         archive_links=archive_links,
         editorial=editorial,
         themes_data=themes_data,
-        tone_mode=tone_mode,
     )

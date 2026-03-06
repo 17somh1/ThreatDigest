@@ -94,9 +94,6 @@ def main() -> int:
     max_items = _read_int_env("MAX_ITEMS", DEFAULT_MAX_ITEMS)
     recent_hours = _read_int_env("RECENT_HOURS", DEFAULT_RECENT_HOURS)
     model = os.getenv("OPENAI_MODEL") or None
-    tone_mode = os.getenv("TONE_MODE", "spicy").strip().lower()
-    if tone_mode not in {"spicy", "clean"}:
-        tone_mode = "spicy"
 
     feed_urls = feeds.load_feed_urls(CONFIG_PATH)
     entries = feeds.fetch_entries(feed_urls)
@@ -129,7 +126,6 @@ def main() -> int:
         summary = summarise.summarize_item(
             entry,
             api_key=api_key,
-            tone_mode=tone_mode,
             model=model,
         )
         if not summary:
@@ -158,7 +154,6 @@ def main() -> int:
         template_path=TEMPLATE_PATH,
         editorial=editorial,
         themes_data=themes_data,
-        tone_mode=tone_mode,
     )
 
     index_path = DOCS_DIR / "index.html"

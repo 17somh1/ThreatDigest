@@ -18,26 +18,35 @@ class ThemesError(ValueError):
 
 
 def _build_prompt(clusters: list[dict]) -> str:
-    titles = "\n".join(f"- {cluster.get('cluster_title', '').strip()}" for cluster in clusters)
-    labels = ", ".join(
-        sorted({label for cluster in clusters for label in (cluster.get("labels") or []) if isinstance(label, str)})
+    cluster_notes = "\n".join(
+        "\n".join(
+            [
+                f"- Title: {cluster.get('cluster_title', '').strip()}",
+                f"  Risk: {cluster.get('risk', '').strip()}",
+                f"  Hook: {cluster.get('hook', '').strip()}",
+                f"  Who should care: {cluster.get('who_should_care', '').strip()}",
+                f"  Why now: {cluster.get('why_this_is_here', '').strip()}",
+                f"  Labels: {', '.join(cluster.get('labels', []))}",
+            ]
+        )
+        for cluster in clusters
     )
     return (
-        "You are summarizing today's threat digest patterns for beginners. "
+        "You are summarizing today's threat digest patterns for readers who want clear, operator-minded analysis. "
         "Return STRICT JSON with the required keys only.\n\n"
         "Schema:\n"
         "{\n"
-        "  \"today_in_one_sentence\": \"short, clear, beginner-friendly\",\n"
-        "  \"themes\": [\"pattern-level theme\", \"...\", \"...\"]\n"
+        "  \"today_in_one_sentence\": \"1 sentence explaining the day's main operational takeaway in plain English\",\n"
+        "  \"themes\": [\"pattern-level theme with plain-English implication\", \"...\", \"...\"]\n"
         "}\n\n"
         "Rules:\n"
         "- Output valid JSON only. No markdown.\n"
         "- Themes must be pattern-level, not headline-level.\n"
+        "- Prefer pressure points, attacker behavior, and defender workload over generic observations.\n"
         "- The sentence must be sharp and human, no corporate filler.\n"
         "- Avoid jargon unless you explain it in plain English.\n"
         "- One sentence only for today_in_one_sentence.\n\n"
-        f"Cluster titles:\n{titles}\n\n"
-        f"Labels: {labels}\n"
+        f"Digest notes:\n{cluster_notes}\n"
     )
 
 
