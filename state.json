@@ -1,5 +1,5 @@
 {
-  "last_run_utc": "2026-03-10T13:21:29.855361+00:00",
+  "last_run_utc": "2026-03-11T08:34:24.201030+00:00",
   "processed_urls": [
     "https://www.bleepingcomputer.com/news/security/critical-cisco-sd-wan-bug-exploited-in-zero-day-attacks-since-2023/",
     "https://www.cisa.gov/news-events/alerts/2026/02/25/cisa-and-partners-release-guidance-ongoing-global-exploitation-cisco-sd-wan-systems",
@@ -93,6 +93,14 @@
     "https://www.bleepingcomputer.com/news/security/cisa-recently-patched-ivanti-epm-flaw-now-actively-exploited/",
     "https://thehackernews.com/2026/03/the-zero-day-scramble-is-avoidable.html",
     "https://www.bleepingcomputer.com/news/microsoft/microsoft-to-enable-hotpatch-security-updates-by-default-in-may/",
-    "https://thehackernews.com/2026/03/how-to-stop-ai-data-leaks-webinar-guide.html"
+    "https://thehackernews.com/2026/03/how-to-stop-ai-data-leaks-webinar-guide.html",
+    "https://thehackernews.com/2026/03/kadnap-malware-infects-14000-edge.html",
+    "https://www.bleepingcomputer.com/news/microsoft/microsoft-releases-windows-10-kb5078885-extended-security-update/",
+    "https://www.bleepingcomputer.com/news/microsoft/microsoft-march-2026-patch-tuesday-fixes-2-zero-days-79-flaws/",
+    "https://krebsonsecurity.com/2026/03/microsoft-patch-tuesday-march-2026-edition/",
+    "https://thehackernews.com/2026/03/fortigate-devices-exploited-to-breach.html",
+    "https://www.bleepingcomputer.com/news/security/hpe-warns-of-critical-aos-cx-flaw-allowing-admin-password-resets/",
+    "https://www.bleepingcomputer.com/news/microsoft/microsoft-entra-brings-phishing-resistant-sign-in-to-windows/",
+    "https://thehackernews.com/2026/03/new-leakylooker-flaws-in-google-looker.html"
   ]
 }
