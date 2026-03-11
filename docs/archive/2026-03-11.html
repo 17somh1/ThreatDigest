@@ -378,8 +378,8 @@
         The security news worth your attention, with context and practical takeaways.
       </p>
       <div class="meta-bar">
-        <span>Updated: 2026-03-11 08:34 UTC</span>
-        <span>Stories: 6</span>
+        <span>Updated: 2026-03-11 13:21 UTC</span>
+        <span>Stories: 3</span>
         <span>Recent issues: 14</span>
       </div>
     </header>
@@ -389,7 +389,7 @@
         <section class="one-liner">
           <h2>What Matters Today</h2>
           
-            <p class="text-block">Multiple high-risk vulnerabilities across various platforms highlight urgent defender workload and the need for immediate patching to prevent exploitation.</p>
+            <p class="text-block">Defenders must urgently patch critical vulnerabilities in Microsoft and enterprise software to prevent potential remote code execution and system compromises.</p>
           
         </section>
 
@@ -398,11 +398,11 @@
           
             <ul>
               
-              <li>Rapid spread of malware in edge devices indicates a growing trend of targeting network infrastructure for stealthy attacks.</li>
+              <li>Immediate patching is essential to mitigate high-risk vulnerabilities that could lead to severe exploitation.</li>
               
-              <li>Zero-day vulnerabilities in widely used software necessitate prompt action from IT teams to mitigate potential breaches.</li>
+              <li>Supply chain attacks are increasingly targeting development environments, emphasizing the need for rigorous package management and security practices.</li>
               
-              <li>Exploitation of firewall vulnerabilities shows increasing sophistication in attacker methods, emphasizing the need for vigilance in network security.</li>
+              <li>Defender workload is heightened as multiple critical patches require swift validation and deployment across various systems.</li>
               
             </ul>
           
@@ -420,43 +420,45 @@
         <div class="meta">
           <span class="chip risk-high">HIGH</span>
           
-            <span class="chip label-chip">ACTIVE EXPLOITATION</span>
+            <span class="chip label-chip">PATCH RELEASE</span>
+          
+            <span class="chip label-chip">LEGAL POLICY</span>
           
             <span class="chip label-chip">RESEARCH</span>
           
-          <span class="chip chip-neutral">Initial Access</span>
+          <span class="chip chip-neutral">Privilege Escalation</span>
           <span class="chip chip-neutral">Confidence LOW</span>
         </div>
         
-          <h3><a href="https://thehackernews.com/2026/03/kadnap-malware-infects-14000-edge.html" target="_blank" rel="noopener noreferrer">KadNap Malware Infects 14,000+ Edge Devices to Power Stealth Proxy Botnet</a></h3>
+          <h3><a href="https://thehackernews.com/2026/03/microsoft-patches-84-flaws-in-march.html" target="_blank" rel="noopener noreferrer">Microsoft Patches 84 Flaws in March Patch Tuesday, Including Two Public Zero-Days</a></h3>
         
-        <p class="hook">The rapid spread of KadNap malware across over 14,000 edge devices poses a significant risk of malicious traffic being routed through compromised networks, impacting both security and performance.</p>
+        <p class="hook">Immediate action is required as Microsoft has patched critical vulnerabilities that could allow attackers to escalate privileges and execute code remotely.</p>
         <div class="support-grid">
-          <div class="text-block"><span class="label">Who should care:</span> Network security teams managing Asus routers and edge devices should be particularly vigilant.</div>
-          <div class="text-block"><span class="label">Attack path:</span> Attackers exploit vulnerabilities in Asus routers to install the KadNap malware, allowing them to control the devices and use them for malicious purposes.</div>
+          <div class="text-block"><span class="label">Who should care:</span> IT security teams managing Microsoft environments and applications should prioritize these patches.</div>
+          <div class="text-block"><span class="label">Attack path:</span> Attackers could exploit these vulnerabilities to gain elevated privileges or execute arbitrary code, potentially compromising entire systems.</div>
         </div>
-        <div class="text-block"><span class="label">Why this matters now:</span> Active exploitation makes this an immediate exposure check.</div>
-        <div class="text-block"><span class="label">In plain English:</span> KadNap malware is infecting Asus routers to create a large proxy botnet, primarily affecting U.S. networks.</div>
+        <div class="text-block"><span class="label">Why this matters now:</span> A live patch or vendor fix gives defenders something concrete to validate.</div>
+        <div class="text-block"><span class="label">In plain English:</span> Microsoft has released patches for 84 vulnerabilities, including two critical zero-days that need urgent attention.</div>
         
           <div class="tags">
             
-              <span>malware</span>
+              <span>cve</span>
             
-              <span>botnet</span>
+              <span>microsoft</span>
             
-              <span>asus</span>
+              <span>patching</span>
             
           </div>
         
         <ul class="story-list">
           
-            <li>KadNap malware has been identified infecting Asus routers, with over 14,000 devices compromised since its detection in August 2025. The majority of these infections are located in the United States, raising concerns about the potential for widespread abuse.</li>
+            <li>On March Patch Tuesday, Microsoft addressed 84 security vulnerabilities across its software, including two that are publicly known. Among these, eight vulnerabilities are rated as Critical, while 76 are Important. The majority of the vulnerabilities involve privilege escalation and remote code execution.</li>
           
-            <li>The use of compromised routers for proxying malicious traffic can lead to increased risk of data breaches and network performance degradation. Organizations relying on these devices may face reputational damage and operational disruptions if their networks are used for illicit activities.</li>
+            <li>The presence of publicly known vulnerabilities increases the risk of exploitation, especially for those rated Critical. Organizations using affected Microsoft products must prioritize applying these patches to prevent potential breaches that could lead to unauthorized access and data loss.</li>
           
-            <li>Attackers exploit vulnerabilities in Asus routers to install the KadNap malware, allowing them to control the devices and use them for malicious purposes.</li>
+            <li>Attackers could exploit these vulnerabilities to gain elevated privileges or execute arbitrary code, potentially compromising entire systems.</li>
           
-            <li>Watch next: Monitor for updates from Asus regarding firmware patches and any emerging indicators of compromise related to KadNap.</li>
+            <li>Watch next: Monitor for any reports of exploitation attempts targeting these vulnerabilities in the wild.</li>
           
         </ul>
 
@@ -465,9 +467,9 @@
             <div class="label">Key terms</div>
             <ul class="list">
             
-              <li>Malware - malicious software designed to disrupt, damage, or gain unauthorized access to computer systems.</li>
+              <li>Privilege Escalation - a type of attack where an attacker gains elevated access to resources that are normally protected from the user.</li>
             
-              <li>Botnet - a network of infected devices controlled by an attacker to perform automated tasks, often for malicious purposes.</li>
+              <li>Remote Code Execution - a vulnerability that allows an attacker to run arbitrary code on a remote system.</li>
             
             </ul>
           </div>
@@ -477,11 +479,11 @@
           <div class="label">Defender focus</div>
           <ul class="list">
             
-            <li>Implement monitoring for unusual outbound traffic patterns from Asus routers.</li>
+            <li>Verify that all Microsoft products are updated with the latest patches.</li>
             
-            <li>Check for known vulnerabilities in Asus firmware and apply patches immediately.</li>
+            <li>Monitor logs for any unusual access patterns that may indicate exploitation attempts.</li>
             
-            <li>Conduct a review of network device configurations to ensure security best practices are followed.</li>
+            <li>Conduct vulnerability scans to identify any unpatched systems.</li>
             
           </ul>
         </div>
@@ -490,24 +492,24 @@
           <div class="label">Do now</div>
           <ul class="list">
             
-            <li>Update Asus router firmware to the latest version.</li>
+            <li>Immediately apply the latest Microsoft patches across all affected systems.</li>
             
-            <li>Conduct a network scan to identify and isolate infected devices.</li>
+            <li>Review and update incident response plans to address potential exploitation scenarios.</li>
             
-            <li>Enhance monitoring for signs of unauthorized access or unusual traffic.</li>
+            <li>Educate teams about the importance of timely patch management.</li>
             
           </ul>
         </div>
 
-        <div class="text-block"><span class="label">Watch next:</span> Monitor for updates from Asus regarding firmware patches and any emerging indicators of compromise related to KadNap.</div>
+        <div class="text-block"><span class="label">Watch next:</span> Monitor for any reports of exploitation attempts targeting these vulnerabilities in the wild.</div>
 
         <div class="sources">
           <div class="label">Sources</div>
           
             
               <div>
-                <a href="https://thehackernews.com/2026/03/kadnap-malware-infects-14000-edge.html" target="_blank" rel="noopener noreferrer">
-                  The Hacker News - KadNap Malware Infects 14,000+ Edge Devices to Power Stealth Proxy Botnet
+                <a href="https://thehackernews.com/2026/03/microsoft-patches-84-flaws-in-march.html" target="_blank" rel="noopener noreferrer">
+                  The Hacker News - Microsoft Patches 84 Flaws in March Patch Tuesday, Including Two Public Zero-Days
                 </a>
               </div>
             
@@ -534,47 +536,39 @@
           
             <span class="chip label-chip">LEGAL POLICY</span>
           
-          <span class="chip chip-neutral">Initial Access</span>
-          <span class="chip chip-neutral">Confidence MEDIUM</span>
+          <span class="chip chip-neutral">Execution</span>
+          <span class="chip chip-neutral">Confidence LOW</span>
         </div>
         
-          <h3><a href="https://www.bleepingcomputer.com/news/microsoft/microsoft-releases-windows-10-kb5078885-extended-security-update/" target="_blank" rel="noopener noreferrer">Microsoft releases Windows 10 KB5078885 extended security update</a></h3>
+          <h3><a href="https://thehackernews.com/2026/03/dozens-of-vendors-patch-security-flaws.html" target="_blank" rel="noopener noreferrer">Dozens of Vendors Patch Security Flaws Across Enterprise Software and Network Devices</a></h3>
         
-        <p class="hook">Immediate action is required to mitigate risks from two zero-day vulnerabilities in Windows 10 that could be exploited by attackers.</p>
+        <p class="hook">Critical vulnerabilities in widely used enterprise software could lead to severe system compromises if not patched immediately.</p>
         <div class="support-grid">
-          <div class="text-block"><span class="label">Who should care:</span> IT security teams managing Windows 10 environments and any users of affected devices should prioritize this update.</div>
-          <div class="text-block"><span class="label">Attack path:</span> An attacker could exploit the zero-day vulnerabilities to execute arbitrary code on unpatched systems, gaining unauthorized access or control.</div>
+          <div class="text-block"><span class="label">Who should care:</span> IT security teams managing SAP applications and enterprise software environments should prioritize these updates.</div>
+          <div class="text-block"><span class="label">Attack path:</span> An attacker could exploit these vulnerabilities to inject malicious code or manipulate data, gaining unauthorized access to sensitive systems.</div>
         </div>
-        <div class="text-block"><span class="label">Why this matters now:</span> A live patch or vendor fix gives defenders something concrete to validate. Multiple sources point to the same operational problem.</div>
-        <div class="text-block"><span class="label">In plain English:</span> Microsoft's latest security update addresses critical vulnerabilities that could allow attackers to compromise systems.</div>
+        <div class="text-block"><span class="label">Why this matters now:</span> A live patch or vendor fix gives defenders something concrete to validate.</div>
+        <div class="text-block"><span class="label">In plain English:</span> SAP has issued urgent patches for two severe vulnerabilities that could allow attackers to execute arbitrary code.</div>
         
           <div class="tags">
             
               <span>cve</span>
             
-              <span>windows</span>
+              <span>enterprise software</span>
             
-              <span>security update</span>
-            
-              <span>microsoft</span>
-            
-              <span>patch</span>
-            
-              <span>patching</span>
+              <span>patch management</span>
             
           </div>
         
         <ul class="story-list">
           
-            <li>Microsoft released the Windows 10 KB5078885 extended security update on March 10, 2026, addressing vulnerabilities identified during the March Patch Tuesday. This update includes fixes for two zero-day vulnerabilities that could allow remote code execution and an issue affecting device shutdown.</li>
+            <li>SAP released security updates addressing two critical vulnerabilities: CVE-2019-17571, a code injection flaw with a CVSS score of 9.8, and CVE-2026-27685, an insecure deserialization issue with a CVSS score of 9.1. These vulnerabilities affect the SAP Quotation Management Insurance application.</li>
           
-            <li>The presence of zero-day vulnerabilities means that attackers can exploit these flaws before they are widely known or patched, potentially leading to unauthorized access or control over affected systems. Organizations using Windows 10 should prioritize applying this update to protect their environments from potential breaches.</li>
+            <li>If exploited, these vulnerabilities could allow attackers to execute arbitrary code on affected systems, potentially leading to data breaches or system outages. Organizations using SAP products must prioritize these patches to mitigate the risk of exploitation.</li>
           
-            <li>An attacker could exploit the zero-day vulnerabilities to execute arbitrary code on unpatched systems, gaining unauthorized access or control.</li>
+            <li>An attacker could exploit these vulnerabilities to inject malicious code or manipulate data, gaining unauthorized access to sensitive systems.</li>
           
-            <li>Also reported by Krebs on Security.</li>
-          
-            <li>Watch next: Monitor for any reports of exploitation attempts related to these vulnerabilities in the wild.</li>
+            <li>Watch next: Monitor for updates from SAP regarding the effectiveness of the patches and any emerging threats related to these vulnerabilities.</li>
           
         </ul>
 
@@ -583,17 +577,9 @@
             <div class="label">Key terms</div>
             <ul class="list">
             
-              <li>ZERO-DAY - a vulnerability that is exploited before the vendor releases a patch to fix it.</li>
+              <li>CVE - Common Vulnerabilities and Exposures, a list of publicly disclosed cybersecurity vulnerabilities.</li>
             
-              <li>PATCH TUESDAY - the second Tuesday of each month when Microsoft releases security updates.</li>
-            
-              <li>ZERO-DAY - a vulnerability that is exploited before the vendor releases a fix.</li>
-            
-              <li>PATCH - a software update designed to fix vulnerabilities or improve functionality.</li>
-            
-              <li>PATCH - a software update that fixes vulnerabilities or bugs in a program</li>
-            
-              <li>ZERO-DAY - a vulnerability that is exploited before the vendor has released a fix</li>
+              <li>CVSS - Common Vulnerability Scoring System, a standard for assessing the severity of security vulnerabilities.</li>
             
             </ul>
           </div>
@@ -603,11 +589,11 @@
           <div class="label">Defender focus</div>
           <ul class="list">
             
-            <li>Verify that the KB5078885 update is applied across all Windows 10 systems.</li>
+            <li>Verify that all SAP systems are updated with the latest security patches.</li>
             
             <li>Monitor logs for any unusual activity that may indicate exploitation attempts.</li>
             
-            <li>Educate users on the importance of keeping systems updated to prevent vulnerabilities.</li>
+            <li>Conduct vulnerability scans to ensure no unpatched systems remain in the environment.</li>
             
           </ul>
         </div>
@@ -616,32 +602,24 @@
           <div class="label">Do now</div>
           <ul class="list">
             
-            <li>Immediately deploy the KB5078885 update to all Windows 10 devices.</li>
+            <li>Immediately apply the latest SAP security patches.</li>
             
-            <li>Conduct a vulnerability assessment to identify any unpatched systems.</li>
+            <li>Review and update incident response plans to address potential exploitation scenarios.</li>
             
-            <li>Review security logs for signs of exploitation related to these vulnerabilities.</li>
+            <li>Educate relevant teams about the nature of these vulnerabilities and the importance of timely patching.</li>
             
           </ul>
         </div>
 
-        <div class="text-block"><span class="label">Watch next:</span> Monitor for any reports of exploitation attempts related to these vulnerabilities in the wild.</div>
+        <div class="text-block"><span class="label">Watch next:</span> Monitor for updates from SAP regarding the effectiveness of the patches and any emerging threats related to these vulnerabilities.</div>
 
         <div class="sources">
           <div class="label">Sources</div>
           
             
               <div>
-                <a href="https://www.bleepingcomputer.com/news/microsoft/microsoft-releases-windows-10-kb5078885-extended-security-update/" target="_blank" rel="noopener noreferrer">
-                  BleepingComputer - Microsoft releases Windows 10 KB5078885 extended security update
-                </a>
-              </div>
-            
-          
-            
-              <div>
-                <a href="https://krebsonsecurity.com/2026/03/microsoft-patch-tuesday-march-2026-edition/" target="_blank" rel="noopener noreferrer">
-                  Krebs on Security - Microsoft Patch Tuesday, March 2026 Edition
+                <a href="https://thehackernews.com/2026/03/dozens-of-vendors-patch-security-flaws.html" target="_blank" rel="noopener noreferrer">
+                  The Hacker News - Dozens of Vendors Patch Security Flaws Across Enterprise Software and Network Devices
                 </a>
               </div>
             
@@ -653,41 +631,41 @@
         <div class="meta">
           <span class="chip risk-high">HIGH</span>
           
-            <span class="chip label-chip">RESEARCH</span>
+            <span class="chip label-chip">INDUSTRY SIGNAL</span>
           
           <span class="chip chip-neutral">Initial Access</span>
           <span class="chip chip-neutral">Confidence LOW</span>
         </div>
         
-          <h3><a href="https://thehackernews.com/2026/03/fortigate-devices-exploited-to-breach.html" target="_blank" rel="noopener noreferrer">FortiGate Devices Exploited to Breach Networks and Steal Service Account Credentials</a></h3>
+          <h3><a href="https://thehackernews.com/2026/03/unc6426-exploits-nx-npm-supply-chain.html" target="_blank" rel="noopener noreferrer">UNC6426 Exploits nx npm Supply-Chain Attack to Gain AWS Admin Access in 72 Hours</a></h3>
         
-        <p class="hook">Threat actors are exploiting vulnerabilities in FortiGate devices, potentially compromising entire networks and sensitive credentials.</p>
+        <p class="hook">The exploitation of a compromised npm package to gain AWS admin access poses a significant threat to cloud security, highlighting vulnerabilities in supply chain integrity.</p>
         <div class="support-grid">
-          <div class="text-block"><span class="label">Who should care:</span> Network security teams managing FortiGate devices and organizations using these firewalls should be particularly vigilant.</div>
-          <div class="text-block"><span class="label">Attack path:</span> Attackers gain leverage by exploiting known vulnerabilities or weak passwords to access FortiGate devices, allowing them to extract sensitive configuration files.</div>
+          <div class="text-block"><span class="label">Who should care:</span> Development teams and cloud operations teams using npm packages and AWS services should be particularly concerned.</div>
+          <div class="text-block"><span class="label">Attack path:</span> The attacker gained leverage by stealing a GitHub token, which provided direct access to the cloud environment. This method illustrates how compromised credentials can lead to rapid escalation of privileges.</div>
         </div>
         <div class="text-block"><span class="label">Why this matters now:</span> Useful context for teams tracking where attacker pressure is building.</div>
-        <div class="text-block"><span class="label">In plain English:</span> FortiGate firewalls are being targeted to breach networks and steal credentials.</div>
+        <div class="text-block"><span class="label">In plain English:</span> A threat actor exploited a stolen GitHub token from a compromised npm package to breach a cloud environment within 72 hours.</div>
         
           <div class="tags">
             
-              <span>cve</span>
+              <span>supply chain</span>
             
-              <span>network security</span>
+              <span>npm</span>
             
-              <span>fortigate</span>
+              <span>aws</span>
             
           </div>
         
         <ul class="story-list">
           
-            <li>Cybersecurity researchers have identified a campaign where attackers exploit vulnerabilities in FortiGate Next-Generation Firewall appliances. They are using weak credentials or recently disclosed security flaws to access configuration files that contain sensitive service account credentials.</li>
+            <li>The threat actor known as UNC6426 exploited a supply chain attack on the nx npm package to steal a developer's GitHub token. This token was then used to gain unauthorized access to a victim's AWS cloud environment, leading to data theft.</li>
           
-            <li>The compromise of service account credentials can lead to unauthorized access across networks, allowing attackers to move laterally and escalate privileges. This poses a significant risk to organizations relying on FortiGate devices for network security.</li>
+            <li>This incident underscores the risks associated with supply chain vulnerabilities, particularly in software development environments. Organizations using npm packages must be vigilant about the security of their dependencies to prevent similar breaches.</li>
           
-            <li>Attackers gain leverage by exploiting known vulnerabilities or weak passwords to access FortiGate devices, allowing them to extract sensitive configuration files.</li>
+            <li>The attacker gained leverage by stealing a GitHub token, which provided direct access to the cloud environment. This method illustrates how compromised credentials can lead to rapid escalation of privileges.</li>
           
-            <li>Watch next: Monitor for updates from Fortinet regarding patches for the identified vulnerabilities and any related threat intelligence.</li>
+            <li>Watch next: Monitor for any updates from npm regarding security measures or patches related to the nx package.</li>
           
         </ul>
 
@@ -696,9 +674,9 @@
             <div class="label">Key terms</div>
             <ul class="list">
             
-              <li>FortiGate - a brand of next-generation firewalls used to protect networks from cyber threats.</li>
+              <li>npm - a package manager for JavaScript that allows developers to share and reuse code.</li>
             
-              <li>Service Account - a special type of account used by applications or services to interact with other applications or services.</li>
+              <li>GitHub token - a secure way to authenticate to GitHub services, often used in automated processes.</li>
             
             </ul>
           </div>
@@ -708,110 +686,11 @@
           <div class="label">Defender focus</div>
           <ul class="list">
             
-            <li>Review firewall logs for unusual access patterns or failed login attempts.</li>
+            <li>Implement monitoring for unusual access patterns to AWS accounts.</li>
             
-            <li>Ensure that all FortiGate devices are updated with the latest security patches.</li>
+            <li>Review and rotate GitHub tokens and other credentials regularly.</li>
             
-            <li>Implement strong password policies for all service accounts to mitigate credential theft.</li>
-            
-          </ul>
-        </div>
-
-        <div>
-          <div class="label">Do now</div>
-          <ul class="list">
-            
-            <li>Patch all FortiGate devices immediately to close known vulnerabilities.</li>
-            
-            <li>Audit service account credentials and enforce strong password policies.</li>
-            
-            <li>Monitor network traffic for signs of unauthorized access or lateral movement.</li>
-            
-          </ul>
-        </div>
-
-        <div class="text-block"><span class="label">Watch next:</span> Monitor for updates from Fortinet regarding patches for the identified vulnerabilities and any related threat intelligence.</div>
-
-        <div class="sources">
-          <div class="label">Sources</div>
-          
-            
-              <div>
-                <a href="https://thehackernews.com/2026/03/fortigate-devices-exploited-to-breach.html" target="_blank" rel="noopener noreferrer">
-                  The Hacker News - FortiGate Devices Exploited to Breach Networks and Steal Service Account Credentials
-                </a>
-              </div>
-            
-          
-        </div>
-      </article>
-            
-              <article class="card" style="--i: 2;">
-        <div class="meta">
-          <span class="chip risk-high">HIGH</span>
-          
-            <span class="chip label-chip">PATCH RELEASE</span>
-          
-            <span class="chip label-chip">LEGAL POLICY</span>
-          
-          <span class="chip chip-neutral">Initial Access</span>
-          <span class="chip chip-neutral">Confidence LOW</span>
-        </div>
-        
-          <h3><a href="https://www.bleepingcomputer.com/news/security/hpe-warns-of-critical-aos-cx-flaw-allowing-admin-password-resets/" target="_blank" rel="noopener noreferrer">HPE warns of critical AOS-CX flaw allowing admin password resets</a></h3>
-        
-        <p class="hook">A critical flaw in HPE's AOS-CX could allow attackers to reset admin passwords, potentially compromising entire network infrastructures.</p>
-        <div class="support-grid">
-          <div class="text-block"><span class="label">Who should care:</span> Network operations teams and organizations using HPE's AOS-CX operating system should prioritize this issue.</div>
-          <div class="text-block"><span class="label">Attack path:</span> An attacker could exploit the authentication flaws to gain administrative access, allowing them to reset passwords and take control of network devices.</div>
-        </div>
-        <div class="text-block"><span class="label">Why this matters now:</span> A live patch or vendor fix gives defenders something concrete to validate.</div>
-        <div class="text-block"><span class="label">In plain English:</span> HPE has patched serious vulnerabilities in its AOS-CX operating system that could lead to unauthorized access.</div>
-        
-          <div class="tags">
-            
-              <span>cve</span>
-            
-              <span>network security</span>
-            
-              <span>vulnerability</span>
-            
-          </div>
-        
-        <ul class="story-list">
-          
-            <li>Hewlett Packard Enterprise (HPE) announced multiple security vulnerabilities in the Aruba Networking AOS-CX operating system, including issues that allow for authentication bypass and remote code execution. These vulnerabilities could enable attackers to reset admin passwords and gain control over affected systems.</li>
-          
-            <li>The ability to reset admin passwords can lead to unauthorized access to critical network devices, allowing attackers to manipulate configurations or exfiltrate sensitive data. Organizations using AOS-CX are at risk of significant operational disruption and data breaches if these vulnerabilities are exploited.</li>
-          
-            <li>An attacker could exploit the authentication flaws to gain administrative access, allowing them to reset passwords and take control of network devices.</li>
-          
-            <li>Watch next: Monitor for updates from HPE regarding any additional patches or advisories related to AOS-CX vulnerabilities.</li>
-          
-        </ul>
-
-        
-          <div class="glossary">
-            <div class="label">Key terms</div>
-            <ul class="list">
-            
-              <li>AOS-CX - Aruba Networking's operating system for network switches and routers.</li>
-            
-              <li>Authentication Bypass - A vulnerability that allows unauthorized users to gain access without proper credentials.</li>
-            
-            </ul>
-          </div>
-        
-
-        <div>
-          <div class="label">Defender focus</div>
-          <ul class="list">
-            
-            <li>Implement monitoring for unusual access attempts to AOS-CX devices.</li>
-            
-            <li>Review and update access controls for network devices to limit exposure.</li>
-            
-            <li>Ensure all AOS-CX systems are updated with the latest security patches.</li>
+            <li>Audit the use of npm packages in development environments for known vulnerabilities.</li>
             
           </ul>
         </div>
@@ -820,24 +699,24 @@
           <div class="label">Do now</div>
           <ul class="list">
             
-            <li>Immediately apply the latest patches provided by HPE for AOS-CX.</li>
+            <li>Immediately review access logs for any unauthorized activity.</li>
             
-            <li>Audit current access controls and user permissions on affected devices.</li>
+            <li>Ensure all developers are using secure practices for managing tokens.</li>
             
-            <li>Prepare incident response plans in case of exploitation.</li>
+            <li>Conduct a security assessment of npm packages in use.</li>
             
           </ul>
         </div>
 
-        <div class="text-block"><span class="label">Watch next:</span> Monitor for updates from HPE regarding any additional patches or advisories related to AOS-CX vulnerabilities.</div>
+        <div class="text-block"><span class="label">Watch next:</span> Monitor for any updates from npm regarding security measures or patches related to the nx package.</div>
 
         <div class="sources">
           <div class="label">Sources</div>
           
             
               <div>
-                <a href="https://www.bleepingcomputer.com/news/security/hpe-warns-of-critical-aos-cx-flaw-allowing-admin-password-resets/" target="_blank" rel="noopener noreferrer">
-                  BleepingComputer - HPE warns of critical AOS-CX flaw allowing admin password resets
+                <a href="https://thehackernews.com/2026/03/unc6426-exploits-nx-npm-supply-chain.html" target="_blank" rel="noopener noreferrer">
+                  The Hacker News - UNC6426 Exploits nx npm Supply-Chain Attack to Gain AWS Admin Access in 72 Hours
                 </a>
               </div>
             
@@ -855,203 +734,7 @@
           Wider Signal
         </div>
         
-          <div class="grid">
-            
-              <article class="card" style="--i: 0;">
-        <div class="meta">
-          <span class="chip risk-medium">MEDIUM</span>
-          
-            <span class="chip label-chip">INDUSTRY SIGNAL</span>
-          
-          <span class="chip chip-neutral">Credential Access</span>
-          <span class="chip chip-neutral">Confidence LOW</span>
-        </div>
-        
-          <h3><a href="https://www.bleepingcomputer.com/news/microsoft/microsoft-entra-brings-phishing-resistant-sign-in-to-windows/" target="_blank" rel="noopener noreferrer">Microsoft brings phishing-resistant Windows sign-ins via Entra passkeys</a></h3>
-        
-        <p class="hook">The introduction of phishing-resistant sign-ins via Entra passkeys significantly reduces the risk of credential theft, making it crucial for organizations to adopt this technology now.</p>
-        <div class="support-grid">
-          <div class="text-block"><span class="label">Who should care:</span> IT security teams and organizations using Windows devices for employee authentication should prioritize this update.</div>
-          <div class="text-block"><span class="label">Attack path:</span> Attackers typically exploit stolen credentials through phishing; with passkeys, this attack vector is significantly diminished, as no passwords are involved.</div>
-        </div>
-        <div class="text-block"><span class="label">Why this matters now:</span> Useful context for teams tracking where attacker pressure is building.</div>
-        <div class="text-block"><span class="label">In plain English:</span> Microsoft is enhancing Windows security with passwordless sign-ins that are resistant to phishing attacks.</div>
-        
-          <div class="tags">
-            
-              <span>authentication</span>
-            
-              <span>phishing</span>
-            
-              <span>windows</span>
-            
-          </div>
-        
-        <ul class="story-list">
-          
-            <li>Microsoft has announced the rollout of passkey support for Microsoft Entra on Windows devices. This feature enables passwordless authentication through Windows Hello, which is designed to be resistant to phishing attempts.</li>
-          
-            <li>With phishing attacks being a leading cause of data breaches, implementing this technology can greatly enhance security posture. Organizations that adopt these passkeys can mitigate the risk of credential theft and improve user experience by eliminating the need for passwords.</li>
-          
-            <li>Attackers typically exploit stolen credentials through phishing; with passkeys, this attack vector is significantly diminished, as no passwords are involved.</li>
-          
-            <li>Watch next: Monitor for updates on the adoption rates of Entra passkeys and any reported incidents of phishing attempts against organizations that have not yet transitioned.</li>
-          
-        </ul>
-
-        
-          <div class="glossary">
-            <div class="label">Key terms</div>
-            <ul class="list">
-            
-              <li>Passkey - a secure method of authentication that replaces traditional passwords with cryptographic keys.</li>
-            
-              <li>Windows Hello - a biometric authentication feature in Windows that allows users to sign in using facial recognition or fingerprints.</li>
-            
-            </ul>
-          </div>
-        
-
-        <div>
-          <div class="label">Defender focus</div>
-          <ul class="list">
-            
-            <li>Ensure that Windows Hello is enabled and configured correctly on all devices.</li>
-            
-            <li>Monitor for any unusual authentication attempts that may indicate a fallback to password use.</li>
-            
-            <li>Educate users on the benefits of using passkeys and how to set them up.</li>
-            
-          </ul>
-        </div>
-
-        <div>
-          <div class="label">Do now</div>
-          <ul class="list">
-            
-            <li>Implement passkey support for all Windows devices using Microsoft Entra.</li>
-            
-            <li>Review and update security policies to reflect the new authentication methods.</li>
-            
-            <li>Conduct training sessions for users on how to utilize Windows Hello effectively.</li>
-            
-          </ul>
-        </div>
-
-        <div class="text-block"><span class="label">Watch next:</span> Monitor for updates on the adoption rates of Entra passkeys and any reported incidents of phishing attempts against organizations that have not yet transitioned.</div>
-
-        <div class="sources">
-          <div class="label">Sources</div>
-          
-            
-              <div>
-                <a href="https://www.bleepingcomputer.com/news/microsoft/microsoft-entra-brings-phishing-resistant-sign-in-to-windows/" target="_blank" rel="noopener noreferrer">
-                  BleepingComputer - Microsoft brings phishing-resistant Windows sign-ins via Entra passkeys
-                </a>
-              </div>
-            
-          
-        </div>
-      </article>
-            
-              <article class="card" style="--i: 1;">
-        <div class="meta">
-          <span class="chip risk-high">HIGH</span>
-          
-            <span class="chip label-chip">LEGAL POLICY</span>
-          
-            <span class="chip label-chip">RESEARCH</span>
-          
-          <span class="chip chip-neutral">Credential Access</span>
-          <span class="chip chip-neutral">Confidence LOW</span>
-        </div>
-        
-          <h3><a href="https://thehackernews.com/2026/03/new-leakylooker-flaws-in-google-looker.html" target="_blank" rel="noopener noreferrer">New "LeakyLooker" Flaws in Google Looker Studio Could Enable Cross-Tenant SQL Queries</a></h3>
-        
-        <p class="hook">The newly disclosed LeakyLooker vulnerabilities in Google Looker Studio could allow attackers to access sensitive data across different tenants, posing a significant risk to organizations using this platform.</p>
-        <div class="support-grid">
-          <div class="text-block"><span class="label">Who should care:</span> Teams managing Google Cloud environments and those using Google Looker Studio for data analytics should be particularly vigilant.</div>
-          <div class="text-block"><span class="label">Attack path:</span> An attacker could leverage these vulnerabilities to run SQL queries on databases of other tenants, potentially exfiltrating sensitive information without detection.</div>
-        </div>
-        <div class="text-block"><span class="label">Why this matters now:</span> Useful context for teams tracking where attacker pressure is building.</div>
-        <div class="text-block"><span class="label">In plain English:</span> Nine vulnerabilities in Google Looker Studio could let attackers run unauthorized SQL queries and access sensitive data.</div>
-        
-          <div class="tags">
-            
-              <span>cve</span>
-            
-              <span>cloud</span>
-            
-          </div>
-        
-        <ul class="story-list">
-          
-            <li>Researchers identified nine cross-tenant vulnerabilities in Google Looker Studio, collectively named LeakyLooker. These flaws could allow attackers to execute arbitrary SQL queries on databases belonging to other tenants. There is currently no evidence that these vulnerabilities have been exploited in the wild.</li>
-          
-            <li>If exploited, these vulnerabilities could lead to unauthorized access to sensitive data across different organizations using Google Looker Studio. This could result in data breaches, regulatory penalties, and loss of customer trust, particularly for organizations handling sensitive information.</li>
-          
-            <li>An attacker could leverage these vulnerabilities to run SQL queries on databases of other tenants, potentially exfiltrating sensitive information without detection.</li>
-          
-            <li>Watch next: Monitor for any updates from Google regarding patches or mitigations for these vulnerabilities.</li>
-          
-        </ul>
-
-        
-          <div class="glossary">
-            <div class="label">Key terms</div>
-            <ul class="list">
-            
-              <li>Cross-tenant - a situation where one tenant (user or organization) can access data or resources belonging to another tenant in a multi-tenant environment.</li>
-            
-              <li>SQL query - a request for data or information from a database using Structured Query Language.</li>
-            
-            </ul>
-          </div>
-        
-
-        <div>
-          <div class="label">Defender focus</div>
-          <ul class="list">
-            
-            <li>Implement monitoring for unusual SQL query patterns in Google Looker Studio.</li>
-            
-            <li>Review access controls and permissions for users in Google Cloud environments.</li>
-            
-            <li>Stay updated on vendor communications regarding patches or security updates.</li>
-            
-          </ul>
-        </div>
-
-        <div>
-          <div class="label">Do now</div>
-          <ul class="list">
-            
-            <li>Assess and apply any available patches from Google for Looker Studio.</li>
-            
-            <li>Review and tighten access controls for Google Cloud resources.</li>
-            
-            <li>Educate relevant teams about the potential risks associated with these vulnerabilities.</li>
-            
-          </ul>
-        </div>
-
-        <div class="text-block"><span class="label">Watch next:</span> Monitor for any updates from Google regarding patches or mitigations for these vulnerabilities.</div>
-
-        <div class="sources">
-          <div class="label">Sources</div>
-          
-            
-              <div>
-                <a href="https://thehackernews.com/2026/03/new-leakylooker-flaws-in-google-looker.html" target="_blank" rel="noopener noreferrer">
-                  The Hacker News - New "LeakyLooker" Flaws in Google Looker Studio Could Enable Cross-Tenant SQL Queries
-                </a>
-              </div>
-            
-          
-        </div>
-      </article>
-            
-          </div>
+          <p class="empty">No context stories today.</p>
         
       </section>
     </main>
