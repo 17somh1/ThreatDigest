@@ -1,5 +1,5 @@
 {
-  "last_run_utc": "2026-03-11T13:21:08.869300+00:00",
+  "last_run_utc": "2026-03-12T08:36:08.413728+00:00",
   "processed_urls": [
     "https://www.bleepingcomputer.com/news/security/critical-cisco-sd-wan-bug-exploited-in-zero-day-attacks-since-2023/",
     "https://www.cisa.gov/news-events/alerts/2026/02/25/cisa-and-partners-release-guidance-ongoing-global-exploitation-cisco-sd-wan-systems",
@@ -104,6 +104,12 @@
     "https://thehackernews.com/2026/03/new-leakylooker-flaws-in-google-looker.html",
     "https://thehackernews.com/2026/03/dozens-of-vendors-patch-security-flaws.html",
     "https://thehackernews.com/2026/03/microsoft-patches-84-flaws-in-march.html",
-    "https://thehackernews.com/2026/03/unc6426-exploits-nx-npm-supply-chain.html"
+    "https://thehackernews.com/2026/03/unc6426-exploits-nx-npm-supply-chain.html",
+    "https://thehackernews.com/2026/03/cisa-flags-actively-exploited-n8n-rce.html",
+    "https://www.cisa.gov/news-events/alerts/2026/03/11/cisa-adds-one-known-exploited-vulnerability-catalog",
+    "https://www.bleepingcomputer.com/news/security/cisa-orders-feds-to-patch-n8n-rce-flaw-exploited-in-attacks/",
+    "https://thehackernews.com/2026/03/critical-n8n-flaws-allow-remote-code.html",
+    "https://www.bleepingcomputer.com/news/security/sqli-flaw-in-elementor-ally-plugin-impacts-250k-plus-wordpress-sites/",
+    "https://thehackernews.com/2026/03/researchers-trick-perplexitys-comet-ai.html"
   ]
 }
