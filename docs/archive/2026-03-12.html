@@ -378,8 +378,8 @@
         The security news worth your attention, with context and practical takeaways.
       </p>
       <div class="meta-bar">
-        <span>Updated: 2026-03-12 08:36 UTC</span>
-        <span>Stories: 5</span>
+        <span>Updated: 2026-03-12 13:21 UTC</span>
+        <span>Stories: 3</span>
         <span>Recent issues: 14</span>
       </div>
     </header>
@@ -389,7 +389,7 @@
         <section class="one-liner">
           <h2>What Matters Today</h2>
           
-            <p class="text-block">Immediate action is crucial as multiple critical vulnerabilities in widely used platforms like n8n and Elementor Ally expose organizations to significant risks of remote code execution and data theft.</p>
+            <p class="text-block">Defenders face heightened pressure from evolving phishing tactics and the need for urgent updates on older iOS devices to mitigate emerging threats.</p>
           
         </section>
 
@@ -398,11 +398,11 @@
           
             <ul>
               
-              <li>Active exploitation of known vulnerabilities increases urgency for patching, putting pressure on development and security teams.</li>
+              <li>Older iOS devices are now a target, necessitating immediate updates to prevent exploitation.</li>
               
-              <li>High exposure levels in popular tools indicate a growing trend of attackers targeting widely used software for maximum impact.</li>
+              <li>Ongoing legal actions against ransomware negotiators indicate a shift in attacker confidence and tactics.</li>
               
-              <li>The emergence of new phishing techniques exploiting AI-driven systems highlights the evolving tactics of attackers, necessitating vigilance from security teams.</li>
+              <li>Phishing campaigns are increasingly designed to overwhelm security operations, complicating incident response efforts.</li>
               
             </ul>
           
@@ -418,55 +418,45 @@
           <div class="grid">
             <article class="card" style="--i: 0;">
         <div class="meta">
-          <span class="chip risk-high">HIGH</span>
-          
-            <span class="chip label-chip">ACTIVE EXPLOITATION</span>
-          
-            <span class="chip label-chip">KEV ADDED</span>
+          <span class="chip risk-medium">MEDIUM</span>
           
             <span class="chip label-chip">PATCH RELEASE</span>
           
             <span class="chip label-chip">LEGAL POLICY</span>
           
-          <span class="chip chip-neutral">Execution</span>
-          <span class="chip chip-neutral">Confidence HIGH</span>
+          <span class="chip chip-neutral">Initial Access</span>
+          <span class="chip chip-neutral">Confidence LOW</span>
         </div>
         
-          <h3><a href="https://thehackernews.com/2026/03/cisa-flags-actively-exploited-n8n-rce.html" target="_blank" rel="noopener noreferrer">CISA Flags Actively Exploited n8n RCE Bug as 24,700 Instances Remain Exposed</a></h3>
+          <h3><a href="https://thehackernews.com/2026/03/apple-issues-security-updates-for-older.html" target="_blank" rel="noopener noreferrer">Apple Issues Security Updates for Older iOS Devices Targeted by Coruna WebKit Exploit</a></h3>
         
-        <p class="hook">Immediate action is required as 24,700 instances of n8n remain vulnerable to a critical remote code execution flaw, potentially allowing attackers to take full control of affected systems.</p>
+        <p class="hook">Older iOS devices are now at risk from a serious WebKit exploit, making immediate updates essential to prevent potential breaches.</p>
         <div class="support-grid">
-          <div class="text-block"><span class="label">Who should care:</span> Development and security teams managing n8n instances should prioritize addressing this vulnerability.</div>
-          <div class="text-block"><span class="label">Attack path:</span> An attacker can exploit this vulnerability by sending specially crafted requests to the n8n application, allowing them to execute arbitrary code on the server.</div>
+          <div class="text-block"><span class="label">Who should care:</span> IT and security teams managing older Apple devices should prioritize these updates to mitigate risks.</div>
+          <div class="text-block"><span class="label">Attack path:</span> An attacker could leverage the WebKit vulnerability to execute malicious code on an unpatched device, gaining unauthorized access to sensitive information.</div>
         </div>
-        <div class="text-block"><span class="label">Why this matters now:</span> Active exploitation makes this an immediate exposure check. KEV status shortens the acceptable patch window.</div>
-        <div class="text-block"><span class="label">In plain English:</span> A critical vulnerability in n8n is being actively exploited, affecting thousands of instances.</div>
+        <div class="text-block"><span class="label">Why this matters now:</span> A live patch or vendor fix gives defenders something concrete to validate.</div>
+        <div class="text-block"><span class="label">In plain English:</span> Apple has released security updates for older iOS devices to address a critical WebKit vulnerability exploited by attackers.</div>
         
           <div class="tags">
             
-              <span>ransomware</span>
-            
               <span>cve</span>
             
-              <span>cloud</span>
+              <span>ios</span>
             
-              <span>vulnerability</span>
-            
-              <span>cisa</span>
+              <span>security</span>
             
           </div>
         
         <ul class="story-list">
           
-            <li>CISA has flagged a critical vulnerability in n8n, tracked as CVE-2025-68613, which allows for remote code execution due to expression injection. This vulnerability has a CVSS score of 9.9 and is included in CISA's Known Exploited Vulnerabilities catalog due to evidence of active exploitation.</li>
+            <li>Apple issued security updates for older versions of iOS, iPadOS, and macOS Sonoma to address a vulnerability tracked as CVE-2023-43010. This flaw, related to WebKit, can lead to memory corruption when handling malicious web content. The updates were backported after the vulnerability was identified as part of the Coruna exploit kit.</li>
           
-            <li>The active exploitation of this vulnerability poses a significant risk to organizations using n8n, as attackers could execute arbitrary code on affected systems. This could lead to data breaches, service disruptions, and unauthorized access to sensitive information.</li>
+            <li>If left unpatched, this vulnerability could allow attackers to execute arbitrary code on affected devices, potentially leading to data theft or device compromise. Given the widespread use of older iOS devices, the risk of exploitation is significant, especially in environments where these devices are still operational.</li>
           
-            <li>An attacker can exploit this vulnerability by sending specially crafted requests to the n8n application, allowing them to execute arbitrary code on the server.</li>
+            <li>An attacker could leverage the WebKit vulnerability to execute malicious code on an unpatched device, gaining unauthorized access to sensitive information.</li>
           
-            <li>Also reported by Alerts.</li>
-          
-            <li>Watch next: Monitor for updates from n8n regarding patches and any reported incidents of exploitation.</li>
+            <li>Watch next: Monitor for reports of exploitation attempts using the Coruna exploit kit and ensure all devices are updated promptly.</li>
           
         </ul>
 
@@ -475,13 +465,9 @@
             <div class="label">Key terms</div>
             <ul class="list">
             
-              <li>CVE - Common Vulnerabilities and Exposures, a list of publicly disclosed cybersecurity vulnerabilities.</li>
+              <li>CVE-2023-43010 - a unique identifier for a specific security vulnerability in software.</li>
             
-              <li>RCE - Remote Code Execution, a type of vulnerability that allows an attacker to execute code on a remote machine.</li>
-            
-              <li>CVE - Common Vulnerabilities and Exposures, a list of publicly known cybersecurity vulnerabilities.</li>
-            
-              <li>KEV - Known Exploited Vulnerabilities, a catalog of vulnerabilities that are actively being exploited in the wild.</li>
+              <li>WebKit - a browser engine used by Apple for rendering web pages.</li>
             
             </ul>
           </div>
@@ -491,11 +477,11 @@
           <div class="label">Defender focus</div>
           <ul class="list">
             
-            <li>Implement monitoring for unusual activity on n8n instances.</li>
+            <li>Verify that all older iOS devices are updated to the latest version.</li>
             
-            <li>Ensure that all n8n installations are updated with the latest security patches.</li>
+            <li>Implement monitoring for unusual behavior on devices that may indicate exploitation attempts.</li>
             
-            <li>Review access logs for any signs of exploitation attempts.</li>
+            <li>Educate users about the importance of applying updates promptly.</li>
             
           </ul>
         </div>
@@ -504,32 +490,24 @@
           <div class="label">Do now</div>
           <ul class="list">
             
-            <li>Patch all vulnerable n8n instances immediately.</li>
+            <li>Immediately apply the latest security updates to all affected devices.</li>
             
-            <li>Conduct a security audit of affected systems.</li>
+            <li>Conduct a risk assessment to identify any unpatched devices in your environment.</li>
             
-            <li>Increase monitoring for suspicious activity related to n8n.</li>
+            <li>Review security policies to ensure timely updates are part of routine maintenance.</li>
             
           </ul>
         </div>
 
-        <div class="text-block"><span class="label">Watch next:</span> Monitor for updates from n8n regarding patches and any reported incidents of exploitation.</div>
+        <div class="text-block"><span class="label">Watch next:</span> Monitor for reports of exploitation attempts using the Coruna exploit kit and ensure all devices are updated promptly.</div>
 
         <div class="sources">
           <div class="label">Sources</div>
           
             
               <div>
-                <a href="https://thehackernews.com/2026/03/cisa-flags-actively-exploited-n8n-rce.html" target="_blank" rel="noopener noreferrer">
-                  The Hacker News - CISA Flags Actively Exploited n8n RCE Bug as 24,700 Instances Remain Exposed
-                </a>
-              </div>
-            
-          
-            
-              <div>
-                <a href="https://www.cisa.gov/news-events/alerts/2026/03/11/cisa-adds-one-known-exploited-vulnerability-catalog" target="_blank" rel="noopener noreferrer">
-                  Alerts - CISA Adds One Known Exploited Vulnerability to Catalog
+                <a href="https://thehackernews.com/2026/03/apple-issues-security-updates-for-older.html" target="_blank" rel="noopener noreferrer">
+                  The Hacker News - Apple Issues Security Updates for Older iOS Devices Targeted by Coruna WebKit Exploit
                 </a>
               </div>
             
@@ -550,47 +528,43 @@
             
               <article class="card" style="--i: 0;">
         <div class="meta">
-          <span class="chip risk-high">HIGH</span>
+          <span class="chip risk-medium">MEDIUM</span>
           
-            <span class="chip label-chip">ACTIVE EXPLOITATION</span>
+            <span class="chip label-chip">INDUSTRY SIGNAL</span>
           
-            <span class="chip label-chip">PATCH RELEASE</span>
-          
-            <span class="chip label-chip">LEGAL POLICY</span>
-          
-          <span class="chip chip-neutral">Execution</span>
+          <span class="chip chip-neutral">Unknown</span>
           <span class="chip chip-neutral">Confidence LOW</span>
         </div>
         
-          <h3><a href="https://www.bleepingcomputer.com/news/security/cisa-orders-feds-to-patch-n8n-rce-flaw-exploited-in-attacks/" target="_blank" rel="noopener noreferrer">CISA orders feds to patch n8n RCE flaw exploited in attacks</a></h3>
+          <h3><a href="https://www.bleepingcomputer.com/news/security/us-charges-another-ransomware-negotiator-linked-to-blackcat-attacks/" target="_blank" rel="noopener noreferrer">US charges another ransomware negotiator linked to BlackCat attacks</a></h3>
         
-        <p class="hook">Immediate action is required to mitigate a critical remote code execution vulnerability in n8n that is currently being exploited in the wild.</p>
+        <p class="hook">The recent charges against a ransomware negotiator highlight ongoing vulnerabilities in ransomware response efforts, which could embolden attackers.</p>
         <div class="support-grid">
-          <div class="text-block"><span class="label">Who should care:</span> Federal IT security teams and organizations using n8n should prioritize this patch to protect their systems.</div>
-          <div class="text-block"><span class="label">Attack path:</span> Attackers can exploit this vulnerability to gain remote access and execute malicious commands on vulnerable n8n instances. This could lead to unauthorized data access or system control.</div>
+          <div class="text-block"><span class="label">Who should care:</span> Incident response teams and organizations involved in ransomware negotiations should be particularly vigilant.</div>
+          <div class="text-block"><span class="label">Attack path:</span> Insider threats can provide attackers with sensitive information about negotiation tactics and payment processes, allowing them to manipulate outcomes in their favor.</div>
         </div>
-        <div class="text-block"><span class="label">Why this matters now:</span> Active exploitation makes this an immediate exposure check. A live patch or vendor fix gives defenders something concrete to validate.</div>
-        <div class="text-block"><span class="label">In plain English:</span> CISA has mandated that federal agencies patch a serious n8n vulnerability that attackers are actively exploiting.</div>
+        <div class="text-block"><span class="label">Why this matters now:</span> Useful context for teams tracking where attacker pressure is building.</div>
+        <div class="text-block"><span class="label">In plain English:</span> A former employee of DigitalMint has been charged for colluding with the BlackCat ransomware group, raising concerns about insider threats in ransomware negotiations.</div>
         
           <div class="tags">
             
-              <span>rce</span>
+              <span>ransomware</span>
             
-              <span>cisa</span>
+              <span>insider threat</span>
             
-              <span>n8n</span>
+              <span>blackcat</span>
             
           </div>
         
         <ul class="story-list">
           
-            <li>CISA has issued an order for federal agencies to patch a remote code execution (RCE) vulnerability in n8n, an open-source workflow automation tool. This vulnerability has been confirmed to be actively exploited by attackers.</li>
+            <li>The U.S. Department of Justice has charged a former DigitalMint employee for allegedly collaborating with the BlackCat ransomware operation. This individual is accused of facilitating negotiations for ransom payments while secretly working with the attackers.</li>
           
-            <li>If left unpatched, this vulnerability could allow attackers to execute arbitrary code on affected systems, potentially leading to data breaches or system compromise. Given the active exploitation, the risk of significant impact increases daily.</li>
+            <li>This incident underscores the risk posed by insider threats in the context of ransomware negotiations, potentially leading to increased attacks and higher ransom demands. Organizations may need to reassess their negotiation strategies and internal controls to prevent similar breaches.</li>
           
-            <li>Attackers can exploit this vulnerability to gain remote access and execute malicious commands on vulnerable n8n instances. This could lead to unauthorized data access or system control.</li>
+            <li>Insider threats can provide attackers with sensitive information about negotiation tactics and payment processes, allowing them to manipulate outcomes in their favor.</li>
           
-            <li>Watch next: Monitor for updates from CISA regarding the effectiveness of the patch and any further exploitation attempts.</li>
+            <li>Watch next: Monitor for updates on the legal proceedings and any implications for ransomware negotiation practices.</li>
           
         </ul>
 
@@ -599,9 +573,9 @@
             <div class="label">Key terms</div>
             <ul class="list">
             
-              <li>RCE - Remote Code Execution, a vulnerability that allows an attacker to run arbitrary code on a target machine.</li>
+              <li>Ransomware - a type of malicious software that encrypts files on a victim's system, demanding payment for decryption.</li>
             
-              <li>n8n - An open-source workflow automation tool that allows users to automate tasks and connect different applications.</li>
+              <li>Insider Threat - a security risk that originates from within the organization, typically involving employees or contractors.</li>
             
             </ul>
           </div>
@@ -611,11 +585,11 @@
           <div class="label">Defender focus</div>
           <ul class="list">
             
-            <li>Ensure all n8n instances are updated with the latest security patches immediately.</li>
+            <li>Review negotiation protocols to ensure they are secure and not susceptible to insider manipulation.</li>
             
-            <li>Monitor network traffic for unusual activity that may indicate exploitation attempts.</li>
+            <li>Implement stricter access controls for employees involved in financial transactions related to ransomware.</li>
             
-            <li>Review logs for any unauthorized access attempts related to n8n services.</li>
+            <li>Conduct regular audits of negotiation practices to identify potential vulnerabilities.</li>
             
           </ul>
         </div>
@@ -624,24 +598,24 @@
           <div class="label">Do now</div>
           <ul class="list">
             
-            <li>Patch n8n installations without delay.</li>
+            <li>Enhance monitoring of employee activities related to financial negotiations.</li>
             
-            <li>Conduct a security audit of systems using n8n to identify potential vulnerabilities.</li>
+            <li>Provide training on recognizing and mitigating insider threats.</li>
             
-            <li>Stay informed on CISA updates regarding this vulnerability.</li>
+            <li>Establish clear reporting channels for suspicious behavior among negotiation teams.</li>
             
           </ul>
         </div>
 
-        <div class="text-block"><span class="label">Watch next:</span> Monitor for updates from CISA regarding the effectiveness of the patch and any further exploitation attempts.</div>
+        <div class="text-block"><span class="label">Watch next:</span> Monitor for updates on the legal proceedings and any implications for ransomware negotiation practices.</div>
 
         <div class="sources">
           <div class="label">Sources</div>
           
             
               <div>
-                <a href="https://www.bleepingcomputer.com/news/security/cisa-orders-feds-to-patch-n8n-rce-flaw-exploited-in-attacks/" target="_blank" rel="noopener noreferrer">
-                  BleepingComputer - CISA orders feds to patch n8n RCE flaw exploited in attacks
+                <a href="https://www.bleepingcomputer.com/news/security/us-charges-another-ransomware-negotiator-linked-to-blackcat-attacks/" target="_blank" rel="noopener noreferrer">
+                  BleepingComputer - US charges another ransomware negotiator linked to BlackCat attacks
                 </a>
               </div>
             
@@ -653,142 +627,41 @@
         <div class="meta">
           <span class="chip risk-high">HIGH</span>
           
-            <span class="chip label-chip">PATCH RELEASE</span>
+            <span class="chip label-chip">INDUSTRY SIGNAL</span>
           
-            <span class="chip label-chip">LEGAL POLICY</span>
-          
-            <span class="chip label-chip">RESEARCH</span>
-          
-          <span class="chip chip-neutral">Execution</span>
+          <span class="chip chip-neutral">Initial Access</span>
           <span class="chip chip-neutral">Confidence LOW</span>
         </div>
         
-          <h3><a href="https://thehackernews.com/2026/03/critical-n8n-flaws-allow-remote-code.html" target="_blank" rel="noopener noreferrer">Critical n8n Flaws Allow Remote Code Execution and Exposure of Stored Credentials</a></h3>
+          <h3><a href="https://thehackernews.com/2026/03/attackers-dont-just-send-phishing.html" target="_blank" rel="noopener noreferrer">Attackers Don't Just Send Phishing Emails. They Weaponize Your SOC's Workload</a></h3>
         
-        <p class="hook">Two critical vulnerabilities in the n8n platform could allow attackers to execute arbitrary commands, posing a significant risk to organizations using this automation tool.</p>
+        <p class="hook">Phishing campaigns are evolving to overwhelm SOC analysts, increasing the risk of breaches.</p>
         <div class="support-grid">
-          <div class="text-block"><span class="label">Who should care:</span> Development and IT operations teams using the n8n platform should be particularly vigilant.</div>
-          <div class="text-block"><span class="label">Attack path:</span> An attacker could exploit these vulnerabilities to execute arbitrary commands on the server running n8n, gaining unauthorized access to sensitive information.</div>
-        </div>
-        <div class="text-block"><span class="label">Why this matters now:</span> A live patch or vendor fix gives defenders something concrete to validate.</div>
-        <div class="text-block"><span class="label">In plain English:</span> Recent flaws in n8n could let attackers run malicious code remotely, affecting stored credentials.</div>
-        
-          <div class="tags">
-            
-              <span>ransomware</span>
-            
-              <span>cve</span>
-            
-              <span>cloud</span>
-            
-          </div>
-        
-        <ul class="story-list">
-          
-            <li>Cybersecurity researchers disclosed two critical vulnerabilities in the n8n workflow automation platform. The first, CVE-2026-27577, allows for remote code execution due to an expression sandbox escape. The second, CVE-2026-27493, enables unauthenticated access, both of which have been patched.</li>
-          
-            <li>These vulnerabilities could lead to unauthorized access and control over systems using n8n, potentially exposing sensitive data and stored credentials. Organizations that rely on n8n for workflow automation must prioritize patching to mitigate the risk of exploitation.</li>
-          
-            <li>An attacker could exploit these vulnerabilities to execute arbitrary commands on the server running n8n, gaining unauthorized access to sensitive information.</li>
-          
-            <li>Watch next: Monitor for any signs of exploitation attempts against unpatched n8n instances and ensure timely application of the latest security updates.</li>
-          
-        </ul>
-
-        
-          <div class="glossary">
-            <div class="label">Key terms</div>
-            <ul class="list">
-            
-              <li>Remote Code Execution (RCE) - a vulnerability that allows an attacker to run arbitrary code on a target machine from a remote location.</li>
-            
-              <li>Unauthenticated Access - the ability to access a system or application without needing to provide valid credentials.</li>
-            
-            </ul>
-          </div>
-        
-
-        <div>
-          <div class="label">Defender focus</div>
-          <ul class="list">
-            
-            <li>Ensure all instances of n8n are updated to the latest version to close these vulnerabilities.</li>
-            
-            <li>Monitor logs for any unusual activity that may indicate exploitation attempts.</li>
-            
-            <li>Review access controls and stored credentials for any signs of compromise.</li>
-            
-          </ul>
-        </div>
-
-        <div>
-          <div class="label">Do now</div>
-          <ul class="list">
-            
-            <li>Immediately apply the latest patches for n8n to mitigate the vulnerabilities.</li>
-            
-            <li>Conduct a security audit of systems using n8n to identify any potential exposure.</li>
-            
-            <li>Educate relevant teams about the vulnerabilities and the importance of timely updates.</li>
-            
-          </ul>
-        </div>
-
-        <div class="text-block"><span class="label">Watch next:</span> Monitor for any signs of exploitation attempts against unpatched n8n instances and ensure timely application of the latest security updates.</div>
-
-        <div class="sources">
-          <div class="label">Sources</div>
-          
-            
-              <div>
-                <a href="https://thehackernews.com/2026/03/critical-n8n-flaws-allow-remote-code.html" target="_blank" rel="noopener noreferrer">
-                  The Hacker News - Critical n8n Flaws Allow Remote Code Execution and Exposure of Stored Credentials
-                </a>
-              </div>
-            
-          
-        </div>
-      </article>
-            
-              <article class="card" style="--i: 2;">
-        <div class="meta">
-          <span class="chip risk-medium">MEDIUM</span>
-          
-            <span class="chip label-chip">RESEARCH</span>
-          
-          <span class="chip chip-neutral">Execution</span>
-          <span class="chip chip-neutral">Confidence LOW</span>
-        </div>
-        
-          <h3><a href="https://thehackernews.com/2026/03/researchers-trick-perplexitys-comet-ai.html" target="_blank" rel="noopener noreferrer">Researchers Trick Perplexity's Comet AI Browser Into Phishing Scam in Under Four Minutes</a></h3>
-        
-        <p class="hook">The recent ability to exploit AI-driven browsers for phishing attacks poses a significant risk to user security and trust in automated systems.</p>
-        <div class="support-grid">
-          <div class="text-block"><span class="label">Who should care:</span> Security teams managing AI-driven applications and user-facing web services should be particularly vigilant.</div>
-          <div class="text-block"><span class="label">Attack path:</span> An attacker can manipulate the AI's reasoning process to lower its security defenses, allowing them to execute phishing scams without immediate detection.</div>
+          <div class="text-block"><span class="label">Who should care:</span> SOC teams and incident response units are most exposed to this evolving threat.</div>
+          <div class="text-block"><span class="label">Attack path:</span> Attackers exploit the time and resources of SOC teams by launching complex phishing campaigns that require extensive investigation. This can lead to delayed responses and potential breaches.</div>
         </div>
         <div class="text-block"><span class="label">Why this matters now:</span> Useful context for teams tracking where attacker pressure is building.</div>
-        <div class="text-block"><span class="label">In plain English:</span> Researchers demonstrated that AI browsers can be manipulated into executing phishing scams quickly.</div>
+        <div class="text-block"><span class="label">In plain English:</span> Attackers are using sophisticated phishing tactics that drain SOC resources, leading to potential security failures.</div>
         
           <div class="tags">
             
               <span>phishing</span>
             
-              <span>ai</span>
+              <span>soc</span>
             
-              <span>security</span>
+              <span>incident response</span>
             
           </div>
         
         <ul class="story-list">
           
-            <li>Researchers successfully tricked Perplexity's Comet AI browser into participating in a phishing scam in under four minutes. This was achieved by exploiting the browser's AI capabilities, which are designed to autonomously execute actions across multiple websites.</li>
+            <li>Recent reports indicate that attackers are not only sending phishing emails but are also crafting campaigns that significantly increase the workload for SOC analysts. These campaigns can extend investigation times from minutes to hours, creating opportunities for breaches.</li>
           
-            <li>This incident highlights vulnerabilities in AI-driven web browsers, which could lead to widespread phishing attacks if not addressed. As these technologies become more prevalent, the potential for abuse increases, putting users' sensitive information at risk.</li>
+            <li>When SOC analysts are overwhelmed, their ability to respond effectively diminishes, increasing the likelihood of a successful attack. This shift in tactics means organizations must adapt their defenses to protect not just against phishing but also against the operational strain it causes.</li>
           
-            <li>An attacker can manipulate the AI's reasoning process to lower its security defenses, allowing them to execute phishing scams without immediate detection.</li>
+            <li>Attackers exploit the time and resources of SOC teams by launching complex phishing campaigns that require extensive investigation. This can lead to delayed responses and potential breaches.</li>
           
-            <li>Watch next: Monitor for updates from Perplexity regarding security patches or enhancements to their AI browser's defenses.</li>
+            <li>Watch next: Monitor for emerging phishing tactics that specifically target SOC workloads and any updates from security vendors addressing these challenges.</li>
           
         </ul>
 
@@ -797,9 +670,9 @@
             <div class="label">Key terms</div>
             <ul class="list">
             
-              <li>AI Browser - a web browser that uses artificial intelligence to automate tasks and enhance user experience.</li>
+              <li>SOC - Security Operations Center, a team responsible for monitoring and responding to security incidents.</li>
             
-              <li>Phishing - a fraudulent attempt to obtain sensitive information by disguising as a trustworthy entity.</li>
+              <li>Phishing - A cyber attack that attempts to trick individuals into providing sensitive information by masquerading as a trustworthy entity.</li>
             
             </ul>
           </div>
@@ -809,11 +682,11 @@
           <div class="label">Defender focus</div>
           <ul class="list">
             
-            <li>Implement monitoring for unusual behavior in AI browser interactions.</li>
+            <li>Implement automated phishing detection tools to reduce analyst workload.</li>
             
-            <li>Review and enhance security protocols for AI-driven applications.</li>
+            <li>Enhance threat intelligence sharing to stay ahead of evolving phishing tactics.</li>
             
-            <li>Conduct a risk assessment on the use of AI browsers in your environment.</li>
+            <li>Conduct regular reviews of incident response processes to ensure efficiency.</li>
             
           </ul>
         </div>
@@ -822,24 +695,24 @@
           <div class="label">Do now</div>
           <ul class="list">
             
-            <li>Assess the current security posture of AI-driven applications.</li>
+            <li>Deploy automated tools to assist in phishing detection.</li>
             
-            <li>Educate users on the risks associated with AI browsers and phishing.</li>
+            <li>Train SOC analysts on prioritizing incidents based on potential impact.</li>
             
-            <li>Stay informed about vendor updates and security patches.</li>
+            <li>Review and streamline incident response workflows.</li>
             
           </ul>
         </div>
 
-        <div class="text-block"><span class="label">Watch next:</span> Monitor for updates from Perplexity regarding security patches or enhancements to their AI browser's defenses.</div>
+        <div class="text-block"><span class="label">Watch next:</span> Monitor for emerging phishing tactics that specifically target SOC workloads and any updates from security vendors addressing these challenges.</div>
 
         <div class="sources">
           <div class="label">Sources</div>
           
             
               <div>
-                <a href="https://thehackernews.com/2026/03/researchers-trick-perplexitys-comet-ai.html" target="_blank" rel="noopener noreferrer">
-                  The Hacker News - Researchers Trick Perplexity's Comet AI Browser Into Phishing Scam in Under Four Minutes
+                <a href="https://thehackernews.com/2026/03/attackers-dont-just-send-phishing.html" target="_blank" rel="noopener noreferrer">
+                  The Hacker News - Attackers Don't Just Send Phishing Emails. They Weaponize Your SOC's Workload
                 </a>
               </div>
             
@@ -857,106 +730,7 @@
           Wider Signal
         </div>
         
-          <div class="grid">
-            
-              <article class="card" style="--i: 0;">
-        <div class="meta">
-          <span class="chip risk-high">HIGH</span>
-          
-            <span class="chip label-chip">LEGAL POLICY</span>
-          
-          <span class="chip chip-neutral">Initial Access</span>
-          <span class="chip chip-neutral">Confidence LOW</span>
-        </div>
-        
-          <h3><a href="https://www.bleepingcomputer.com/news/security/sqli-flaw-in-elementor-ally-plugin-impacts-250k-plus-wordpress-sites/" target="_blank" rel="noopener noreferrer">SQLi flaw in Elementor Ally plugin impacts 250k+ WordPress sites</a></h3>
-        
-        <p class="hook">Over 250,000 WordPress sites are at risk of data theft due to a critical SQL injection vulnerability in a widely used plugin.</p>
-        <div class="support-grid">
-          <div class="text-block"><span class="label">Who should care:</span> Web administrators and security teams managing WordPress sites using the Elementor Ally plugin should be particularly vigilant.</div>
-          <div class="text-block"><span class="label">Attack path:</span> An attacker could leverage this SQL injection flaw to execute arbitrary SQL queries, allowing them to retrieve sensitive information from the database.</div>
-        </div>
-        <div class="text-block"><span class="label">Why this matters now:</span> Useful context for teams tracking where attacker pressure is building.</div>
-        <div class="text-block"><span class="label">In plain English:</span> A serious SQL injection flaw in the Elementor Ally plugin could allow attackers to access sensitive data on many WordPress sites.</div>
-        
-          <div class="tags">
-            
-              <span>cve</span>
-            
-              <span>wordpress</span>
-            
-              <span>sql_injection</span>
-            
-          </div>
-        
-        <ul class="story-list">
-          
-            <li>A SQL injection vulnerability was discovered in the Elementor Ally plugin, which is installed on over 400,000 WordPress sites. This flaw allows attackers to exploit the plugin without needing authentication, potentially leading to unauthorized data access.</li>
-          
-            <li>The ability to steal sensitive data without authentication poses a significant risk to website owners and their users. If exploited, this vulnerability could lead to data breaches, loss of customer trust, and potential legal ramifications for affected organizations.</li>
-          
-            <li>An attacker could leverage this SQL injection flaw to execute arbitrary SQL queries, allowing them to retrieve sensitive information from the database.</li>
-          
-            <li>Watch next: Monitor for updates from Elementor regarding patches or mitigation strategies for this vulnerability.</li>
-          
-        </ul>
-
-        
-          <div class="glossary">
-            <div class="label">Key terms</div>
-            <ul class="list">
-            
-              <li>SQL Injection (SQLi) - a type of attack that allows an attacker to interfere with the queries that an application makes to its database.</li>
-            
-              <li>Plugin - a piece of software that adds specific features or functionalities to an existing computer program, in this case, WordPress.</li>
-            
-            </ul>
-          </div>
-        
-
-        <div>
-          <div class="label">Defender focus</div>
-          <ul class="list">
-            
-            <li>Implement web application firewalls to filter out malicious SQL queries.</li>
-            
-            <li>Regularly scan WordPress installations for vulnerable plugins and apply updates promptly.</li>
-            
-            <li>Monitor logs for unusual database access patterns that may indicate exploitation attempts.</li>
-            
-          </ul>
-        </div>
-
-        <div>
-          <div class="label">Do now</div>
-          <ul class="list">
-            
-            <li>Update the Elementor Ally plugin immediately to the latest version.</li>
-            
-            <li>Conduct a security audit of all WordPress sites to identify and mitigate vulnerabilities.</li>
-            
-            <li>Educate web administrators on the importance of maintaining plugin security.</li>
-            
-          </ul>
-        </div>
-
-        <div class="text-block"><span class="label">Watch next:</span> Monitor for updates from Elementor regarding patches or mitigation strategies for this vulnerability.</div>
-
-        <div class="sources">
-          <div class="label">Sources</div>
-          
-            
-              <div>
-                <a href="https://www.bleepingcomputer.com/news/security/sqli-flaw-in-elementor-ally-plugin-impacts-250k-plus-wordpress-sites/" target="_blank" rel="noopener noreferrer">
-                  BleepingComputer - SQLi flaw in Elementor Ally plugin impacts 250k+ WordPress sites
-                </a>
-              </div>
-            
-          
-        </div>
-      </article>
-            
-          </div>
+          <p class="empty">No context stories today.</p>
         
       </section>
     </main>
