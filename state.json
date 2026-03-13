@@ -1,5 +1,5 @@
 {
-  "last_run_utc": "2026-03-12T13:21:18.113061+00:00",
+  "last_run_utc": "2026-03-13T08:34:03.205941+00:00",
   "processed_urls": [
     "https://www.bleepingcomputer.com/news/security/critical-cisco-sd-wan-bug-exploited-in-zero-day-attacks-since-2023/",
     "https://www.cisa.gov/news-events/alerts/2026/02/25/cisa-and-partners-release-guidance-ongoing-global-exploitation-cisco-sd-wan-systems",
@@ -113,6 +113,16 @@
     "https://thehackernews.com/2026/03/researchers-trick-perplexitys-comet-ai.html",
     "https://thehackernews.com/2026/03/apple-issues-security-updates-for-older.html",
     "https://www.bleepingcomputer.com/news/security/us-charges-another-ransomware-negotiator-linked-to-blackcat-attacks/",
-    "https://thehackernews.com/2026/03/attackers-dont-just-send-phishing.html"
+    "https://thehackernews.com/2026/03/attackers-dont-just-send-phishing.html",
+    "https://www.bleepingcomputer.com/news/google/google-fixes-two-new-chrome-zero-days-exploited-in-attacks/",
+    "https://thehackernews.com/2026/03/veeam-patches-7-critical-backup.html",
+    "https://www.bleepingcomputer.com/news/security/england-hockey-investigating-ransomware-data-breach/",
+    "https://www.bleepingcomputer.com/news/security/ai-generated-slopoly-malware-used-in-interlock-ransomware-attack/",
+    "https://www.bleepingcomputer.com/news/security/veeam-warns-of-critical-flaws-exposing-backup-servers-to-rce-attacks/",
+    "https://www.bleepingcomputer.com/news/apple/apple-patches-older-iphones-and-ipads-against-coruna-exploits/",
+    "https://thehackernews.com/2026/03/rust-based-venon-malware-targets-33.html",
+    "https://thehackernews.com/2026/03/hive0163-uses-ai-assisted-slopoly.html",
+    "https://thehackernews.com/2026/03/how-to-scale-phishing-detection-in-your.html",
+    "https://thehackernews.com/2026/03/threatsday-bulletin-oauth-trap-edr.html"
   ]
 }
