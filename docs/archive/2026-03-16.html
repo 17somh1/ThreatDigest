@@ -3,7 +3,7 @@
   <head>
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1" />
-    <title>Threat Digest - 2026-03-02</title>
+    <title>Threat Digest - 2026-03-16</title>
     <style>
       @import url("https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,600;9..144,700&family=Space+Grotesk:wght@400;500;600&display=swap");
 
@@ -133,6 +133,12 @@
         color: var(--muted);
       }
 
+      .overview-grid {
+        display: grid;
+        gap: 1.5rem;
+        grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+      }
+
       .grid {
         display: grid;
         gap: 1.5rem;
@@ -223,9 +229,22 @@
         line-height: 1.6;
       }
 
+      .hook {
+        margin: 0;
+        color: var(--ink);
+        font-size: 1.05rem;
+        line-height: 1.6;
+        font-weight: 600;
+      }
+
       .label {
         font-weight: 600;
         color: var(--ink);
+      }
+
+      .support-grid {
+        display: grid;
+        gap: 0.85rem;
       }
 
       .story-list {
@@ -241,23 +260,16 @@
         margin: 0.35rem 0;
       }
 
-      details {
+      .glossary {
         background: rgba(255, 255, 255, 0.7);
-        padding: 0.6rem 0.8rem;
+        padding: 0.9rem 1rem;
         border-radius: 12px;
         border: 1px solid var(--border);
       }
 
-      details summary {
-        cursor: pointer;
-        font-weight: 600;
-        color: var(--ink);
-      }
-
-      details ul {
-        margin: 0.6rem 0 0;
-        padding-left: 1.2rem;
-        color: var(--muted);
+      .glossary .label {
+        display: block;
+        margin-bottom: 0.4rem;
       }
 
       .list {
@@ -348,126 +360,146 @@
           align-items: flex-start;
         }
       }
+
+      @media (min-width: 900px) {
+        .support-grid {
+          grid-template-columns: repeat(2, minmax(0, 1fr));
+        }
+      }
     </style>
   </head>
   <body>
     
 
     <header>
-      <div class="eyebrow">Threat Digest for Cool People</div>
-      <h1>Threat Digest - 2026-03-02</h1>
+      <div class="eyebrow">Daily Threat Briefing</div>
+      <h1>Threat Digest - 2026-03-16</h1>
       <p class="subtitle">
-        Straight talk from a tired SOC analyst. Clear explanations, mild sarcasm, and no mystery jargon.
+        The security news worth your attention, with context and practical takeaways.
       </p>
       <div class="meta-bar">
-        <span>Generated at: 2026-03-02 13:18 UTC</span>
-        <span>Archive days: 6</span>
-        <span>Tone mode: spicy</span>
+        <span>Updated: 2026-03-16 08:49 UTC</span>
+        <span>Stories: 1</span>
+        <span>Recent issues: 14</span>
       </div>
     </header>
 
     <main>
-      <section class="one-liner">
-        <h2>Today in one sentence</h2>
-        
-          <p class="text-block">A cyber threat group is exploiting a serious vulnerability in Microsoft software before a fix is available.</p>
-        
-      </section>
+      <div class="overview-grid">
+        <section class="one-liner">
+          <h2>What Matters Today</h2>
+          
+            <p class="empty">No summary available yet.</p>
+          
+        </section>
 
-      <section class="themes">
-        <h2>Today's Themes</h2>
-        
-          <ul>
-            
-            <li>zero-day exploitation</li>
-            
-            <li>vulnerability management</li>
-            
-            <li>cyber threat actors</li>
-            
-          </ul>
-        
-      </section>
+        <section class="themes">
+          <h2>Patterns To Watch</h2>
+          
+            <p class="empty">No themes available yet.</p>
+          
+        </section>
+      </div>
 
       <section>
         <div class="section-title">
           <span class="pill" style="background: var(--high);"></span>
-          🚨 If You Only Read One Thing Today
+          Start Here
         </div>
         
           <div class="grid">
             <article class="card" style="--i: 0;">
         <div class="meta">
-          <span class="chip risk-high">HIGH</span>
+          <span class="chip risk-medium">MEDIUM</span>
           
             <span class="chip label-chip">PATCH RELEASE</span>
           
             <span class="chip label-chip">LEGAL POLICY</span>
           
           <span class="chip chip-neutral">Initial Access</span>
-          <span class="chip chip-neutral">Conf LOW</span>
+          <span class="chip chip-neutral">Confidence LOW</span>
         </div>
         
-          <h3><a href="https://thehackernews.com/2026/03/apt28-tied-to-cve-2026-21513-mshtml-0.html" target="_blank" rel="noopener noreferrer">APT28 Tied to CVE-2026-21513 MSHTML 0-Day Exploited Before Feb 2026 Patch Tuesday</a></h3>
+          <h3><a href="https://www.bleepingcomputer.com/news/microsoft/microsoft-releases-windows-11-oob-hotpatch-to-fix-rras-rce-flaw/" target="_blank" rel="noopener noreferrer">Microsoft releases Windows 11 OOB hotpatch to fix RRAS RCE flaw</a></h3>
         
-        <div class="text-block"><span class="label">Why this is here:</span> Patch release for widely deployed software.</div>
-        <div class="text-block"><span class="label">TL;DR:</span> APT28 has exploited a high-severity MSHTML vulnerability before Microsoft released a patch.</div>
+        <p class="hook">Immediate application of the new hotpatch is crucial to prevent potential remote code execution vulnerabilities in Windows 11 Enterprise devices.</p>
+        <div class="support-grid">
+          <div class="text-block"><span class="label">Who should care:</span> IT security teams managing Windows 11 Enterprise environments need to act swiftly to apply this update.</div>
+          <div class="text-block"><span class="label">Attack path:</span> An attacker could exploit the RRAS vulnerability to gain remote access and execute malicious code on vulnerable systems, compromising the integrity of the network.</div>
+        </div>
+        <div class="text-block"><span class="label">Why this matters now:</span> A live patch or vendor fix gives defenders something concrete to validate.</div>
+        <div class="text-block"><span class="label">In plain English:</span> Microsoft has issued an urgent hotpatch for Windows 11 to address a serious security flaw.</div>
+        
+          <div class="tags">
+            
+              <span>windows</span>
+            
+              <span>rce</span>
+            
+              <span>hotpatch</span>
+            
+          </div>
+        
         <ul class="story-list">
           
-            <li>APT28 has exploited a high-severity MSHTML vulnerability before Microsoft released a patch.</li>
+            <li>Microsoft released an out-of-band hotpatch for Windows 11 to address a critical remote code execution (RCE) vulnerability in the Routing and Remote Access Service (RRAS). This update is specifically for Windows 11 Enterprise devices that utilize hotpatch updates instead of the standard Patch Tuesday updates.</li>
           
-            <li>A recently disclosed vulnerability, CVE-2026-21513, in the MSHTML Framework has been linked to the Russian state-sponsored group APT28. This security feature bypass has a CVSS score of 8.8, indicating its high severity. Findings from Akamai suggest that APT28 may have exploited this flaw prior to the scheduled patch release.</li>
+            <li>If exploited, this RCE vulnerability could allow attackers to execute arbitrary code on affected systems, potentially leading to unauthorized access and data breaches. Organizations using Windows 11 Enterprise should prioritize applying this hotpatch to mitigate risks associated with remote access services.</li>
           
-            <li>The exploitation of this vulnerability by a state-sponsored actor highlights the ongoing threat posed by advanced persistent threats (APTs). Organizations using affected Microsoft products are at risk of unauthorized access and potential data breaches, making timely patching crucial.</li>
+            <li>An attacker could exploit the RRAS vulnerability to gain remote access and execute malicious code on vulnerable systems, compromising the integrity of the network.</li>
           
-            <li>Expect follow-on reporting as more details surface.</li>
+            <li>Watch next: Monitor for any follow-up patches or advisories from Microsoft regarding additional vulnerabilities or updates.</li>
           
         </ul>
 
-        <details>
-          <summary>Beginner breakdown</summary>
-          <ul>
+        
+          <div class="glossary">
+            <div class="label">Key terms</div>
+            <ul class="list">
             
-            <li>CVE - Common Vulnerabilities and Exposures, a list of publicly disclosed cybersecurity vulnerabilities.</li>
+              <li>RCE - Remote Code Execution, a vulnerability that allows an attacker to run arbitrary code on a target machine.</li>
             
-            <li>MSHTML - Microsoft HTML Rendering Engine, used in various Microsoft applications for displaying web content.</li>
+              <li>Hotpatch - An update that can be applied to a system without requiring a full restart.</li>
             
-          </ul>
-        </details>
+            </ul>
+          </div>
+        
 
         <div>
-          <div class="label">SOC focus</div>
+          <div class="label">Defender focus</div>
           <ul class="list">
             
-            <li>Monitor for indicators of compromise related to CVE-2026-21513.</li>
+            <li>Ensure the hotpatch is deployed across all Windows 11 Enterprise devices immediately.</li>
             
-            <li>Ensure that all systems are updated with the latest Microsoft patches as soon as they are available.</li>
+            <li>Monitor logs for any unusual remote access attempts that could indicate exploitation of the vulnerability.</li>
             
-            <li>Implement network segmentation to limit the potential impact of any exploitation.</li>
+            <li>Review network configurations related to RRAS to identify any potential misconfigurations that could be exploited.</li>
             
           </ul>
         </div>
 
         <div>
-          <div class="label">Recommended actions</div>
+          <div class="label">Do now</div>
           <ul class="list">
             
-            <li>Patch affected systems immediately.</li>
+            <li>Apply the hotpatch to all affected Windows 11 Enterprise devices immediately.</li>
             
-            <li>Review logs for unusual activity related to MSHTML.</li>
+            <li>Review and update security policies related to remote access services.</li>
             
-            <li>Educate users on the risks of phishing attacks that may exploit this vulnerability.</li>
+            <li>Conduct a vulnerability assessment to identify any other potential weaknesses in the environment.</li>
             
           </ul>
         </div>
+
+        <div class="text-block"><span class="label">Watch next:</span> Monitor for any follow-up patches or advisories from Microsoft regarding additional vulnerabilities or updates.</div>
 
         <div class="sources">
           <div class="label">Sources</div>
           
             
               <div>
-                <a href="https://thehackernews.com/2026/03/apt28-tied-to-cve-2026-21513-mshtml-0.html" target="_blank" rel="noopener noreferrer">
-                  The Hacker News - APT28 Tied to CVE-2026-21513 MSHTML 0-Day Exploited Before Feb 2026 Patch Tuesday
+                <a href="https://www.bleepingcomputer.com/news/microsoft/microsoft-releases-windows-11-oob-hotpatch-to-fix-rras-rce-flaw/" target="_blank" rel="noopener noreferrer">
+                  BleepingComputer - Microsoft releases Windows 11 OOB hotpatch to fix RRAS RCE flaw
                 </a>
               </div>
             
@@ -481,7 +513,7 @@
       <section>
         <div class="section-title">
           <span class="pill" style="background: var(--med);"></span>
-          🔥 Top 3 Today
+          Priority Watchlist
         </div>
         
           <p class="empty">No additional top stories.</p>
@@ -491,7 +523,7 @@
       <section>
         <div class="section-title">
           <span class="pill" style="background: var(--low);"></span>
-          🧠 Context / Industry Signal
+          Wider Signal
         </div>
         
           <p class="empty">No context stories today.</p>
@@ -500,26 +532,42 @@
     </main>
 
     <aside class="archive">
-      <strong>Archive</strong>
+      <strong>Recent Issues</strong>
       <div class="archive-list">
         
-        <a href="archive/2026-03-02.html">2026-03-02</a>
+        <a href="archive/2026-03-16.html">2026-03-16</a>
         
-        <a href="archive/2026-03-01.html">2026-03-01</a>
+        <a href="archive/2026-03-15.html">2026-03-15</a>
         
-        <a href="archive/2026-02-28.html">2026-02-28</a>
+        <a href="archive/2026-03-14.html">2026-03-14</a>
         
-        <a href="archive/2026-02-27.html">2026-02-27</a>
+        <a href="archive/2026-03-13.html">2026-03-13</a>
         
-        <a href="archive/2026-02-26.html">2026-02-26</a>
+        <a href="archive/2026-03-12.html">2026-03-12</a>
         
-        <a href="archive/2026-02-25.html">2026-02-25</a>
+        <a href="archive/2026-03-11.html">2026-03-11</a>
+        
+        <a href="archive/2026-03-10.html">2026-03-10</a>
+        
+        <a href="archive/2026-03-09.html">2026-03-09</a>
+        
+        <a href="archive/2026-03-08.html">2026-03-08</a>
+        
+        <a href="archive/2026-03-07.html">2026-03-07</a>
+        
+        <a href="archive/2026-03-06.html">2026-03-06</a>
+        
+        <a href="archive/2026-03-05.html">2026-03-05</a>
+        
+        <a href="archive/2026-03-04.html">2026-03-04</a>
+        
+        <a href="archive/2026-03-03.html">2026-03-03</a>
         
       </div>
     </aside>
 
     <footer>
-      Generated by the Threat Digest pipeline using free RSS sources and OpenAI summaries.
+      Generated by the Threat Digest pipeline from RSS feeds and structured summaries.
     </footer>
 
   </body>
