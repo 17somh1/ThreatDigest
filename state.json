@@ -1,5 +1,5 @@
 {
-  "last_run_utc": "2026-03-16T13:46:25.840535+00:00",
+  "last_run_utc": "2026-03-17T08:43:52.115243+00:00",
   "processed_urls": [
     "https://www.bleepingcomputer.com/news/security/critical-cisco-sd-wan-bug-exploited-in-zero-day-attacks-since-2023/",
     "https://www.cisa.gov/news-events/alerts/2026/02/25/cisa-and-partners-release-guidance-ongoing-global-exploitation-cisco-sd-wan-systems",
@@ -130,6 +130,10 @@
     "https://thehackernews.com/2026/03/interpol-dismantles-45000-malicious-ips.html",
     "https://www.bleepingcomputer.com/news/security/fake-enterprise-vpn-downloads-used-to-steal-company-credentials/",
     "https://thehackernews.com/2026/03/storm-2561-spreads-trojan-vpn-clients.html",
-    "https://www.bleepingcomputer.com/news/microsoft/microsoft-releases-windows-11-oob-hotpatch-to-fix-rras-rce-flaw/"
+    "https://www.bleepingcomputer.com/news/microsoft/microsoft-releases-windows-11-oob-hotpatch-to-fix-rras-rce-flaw/",
+    "https://thehackernews.com/2026/03/cisa-flags-actively-exploited-wing-ftp.html",
+    "https://www.cisa.gov/news-events/alerts/2026/03/16/cisa-adds-one-known-exploited-vulnerability-catalog",
+    "https://www.bleepingcomputer.com/news/security/cisa-flags-wing-ftp-server-flaw-as-actively-exploited-in-attacks/",
+    "https://thehackernews.com/2026/03/weekly-recap-chrome-0-days-router.html"
   ]
 }
