@@ -1,5 +1,5 @@
 {
-  "last_run_utc": "2026-03-17T08:43:52.115243+00:00",
+  "last_run_utc": "2026-03-17T13:43:50.283413+00:00",
   "processed_urls": [
     "https://www.bleepingcomputer.com/news/security/critical-cisco-sd-wan-bug-exploited-in-zero-day-attacks-since-2023/",
     "https://www.cisa.gov/news-events/alerts/2026/02/25/cisa-and-partners-release-guidance-ongoing-global-exploitation-cisco-sd-wan-systems",
@@ -134,6 +134,9 @@
     "https://thehackernews.com/2026/03/cisa-flags-actively-exploited-wing-ftp.html",
     "https://www.cisa.gov/news-events/alerts/2026/03/16/cisa-adds-one-known-exploited-vulnerability-catalog",
     "https://www.bleepingcomputer.com/news/security/cisa-flags-wing-ftp-server-flaw-as-actively-exploited-in-attacks/",
-    "https://thehackernews.com/2026/03/weekly-recap-chrome-0-days-router.html"
+    "https://thehackernews.com/2026/03/weekly-recap-chrome-0-days-router.html",
+    "https://www.bleepingcomputer.com/news/security/leaknet-ransomware-uses-clickfix-and-deno-runtime-for-stealthy-attacks/",
+    "https://www.bleepingcomputer.com/news/microsoft/new-windows-11-hotpatch-fixes-bluetooth-device-visibility-issue/",
+    "https://thehackernews.com/2026/03/konni-deploys-endrat-through-spear.html"
   ]
 }
