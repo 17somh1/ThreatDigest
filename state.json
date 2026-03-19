@@ -1,5 +1,5 @@
 {
-  "last_run_utc": "2026-03-18T13:45:41.685786+00:00",
+  "last_run_utc": "2026-03-19T08:36:15.471149+00:00",
   "processed_urls": [
     "https://www.bleepingcomputer.com/news/security/critical-cisco-sd-wan-bug-exploited-in-zero-day-attacks-since-2023/",
     "https://www.cisa.gov/news-events/alerts/2026/02/25/cisa-and-partners-release-guidance-ongoing-global-exploitation-cisco-sd-wan-systems",
@@ -142,6 +142,14 @@
     "https://www.bleepingcomputer.com/news/security/apple-pushes-first-background-security-improvements-update-to-fix-webkit-flaw/",
     "https://thehackernews.com/2026/03/apple-fixes-webkit-vulnerability.html",
     "https://thehackernews.com/2026/03/leaknet-ransomware-uses-clickfix-via.html",
-    "https://thehackernews.com/2026/03/ubuntu-cve-2026-3888-bug-lets-attackers.html"
+    "https://thehackernews.com/2026/03/ubuntu-cve-2026-3888-bug-lets-attackers.html",
+    "https://thehackernews.com/2026/03/cisa-warns-of-zimbra-sharepoint-flaw.html",
+    "https://www.cisa.gov/news-events/alerts/2026/03/18/cisa-adds-one-known-exploited-vulnerability-catalog-0",
+    "https://www.bleepingcomputer.com/news/security/cisa-orders-feds-to-patch-zimbra-xss-flaw-exploited-in-attacks/",
+    "https://thehackernews.com/2026/03/interlock-ransomware-exploits-cisco-fmc.html",
+    "https://www.bleepingcomputer.com/news/security/interlock-ransomware-exploited-secure-fmc-flaw-in-zero-day-attacks-since-january/",
+    "https://www.cisa.gov/news-events/alerts/2026/03/18/cisa-urges-endpoint-management-system-hardening-after-cyberattack-against-us-organization",
+    "https://www.bleepingcomputer.com/news/security/connectwise-patches-new-flaw-allowing-screenconnect-hijacking/",
+    "https://www.bleepingcomputer.com/news/security/marquis-ransomware-gang-stole-data-of-672-000-people-in-2025-cyberattack/"
   ]
 }
