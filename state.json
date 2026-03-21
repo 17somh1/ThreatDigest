@@ -1,5 +1,5 @@
 {
-  "last_run_utc": "2026-03-20T13:19:03.645397+00:00",
+  "last_run_utc": "2026-03-21T08:25:18.482636+00:00",
   "processed_urls": [
     "https://www.bleepingcomputer.com/news/security/critical-cisco-sd-wan-bug-exploited-in-zero-day-attacks-since-2023/",
     "https://www.cisa.gov/news-events/alerts/2026/02/25/cisa-and-partners-release-guidance-ongoing-global-exploitation-cisco-sd-wan-systems",
@@ -160,6 +160,12 @@
     "https://www.bleepingcomputer.com/news/security/fbi-seizes-handala-data-leak-site-after-stryker-cyberattack/",
     "https://thehackernews.com/2026/03/54-edr-killers-use-byovd-to-exploit-34.html",
     "https://thehackernews.com/2026/03/the-importance-of-behavioral-analytics.html",
-    "https://thehackernews.com/2026/03/magento-polyshell-flaw-enables.html"
+    "https://thehackernews.com/2026/03/magento-polyshell-flaw-enables.html",
+    "https://www.cisa.gov/news-events/alerts/2026/03/20/cisa-adds-five-known-exploited-vulnerabilities-catalog",
+    "https://www.bleepingcomputer.com/news/security/oracle-pushes-emergency-fix-for-critical-identity-manager-rce-flaw/",
+    "https://www.bleepingcomputer.com/news/security/cisa-orders-feds-to-patch-max-severity-cisco-flaw-by-sunday/",
+    "https://www.bleepingcomputer.com/news/security/fbi-links-signal-phishing-attacks-to-russian-intelligence-services/",
+    "https://thehackernews.com/2026/03/trivy-supply-chain-attack-triggers-self.html",
+    "https://thehackernews.com/2026/03/critical-langflow-flaw-cve-2026-33017.html"
   ]
 }
