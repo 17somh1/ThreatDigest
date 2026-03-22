@@ -1,5 +1,5 @@
 {
-  "last_run_utc": "2026-03-21T13:07:54.220483+00:00",
+  "last_run_utc": "2026-03-22T08:27:23.539909+00:00",
   "processed_urls": [
     "https://www.bleepingcomputer.com/news/security/critical-cisco-sd-wan-bug-exploited-in-zero-day-attacks-since-2023/",
     "https://www.cisa.gov/news-events/alerts/2026/02/25/cisa-and-partners-release-guidance-ongoing-global-exploitation-cisco-sd-wan-systems",
@@ -168,6 +168,9 @@
     "https://thehackernews.com/2026/03/trivy-supply-chain-attack-triggers-self.html",
     "https://thehackernews.com/2026/03/critical-langflow-flaw-cve-2026-33017.html",
     "https://thehackernews.com/2026/03/cisa-flags-apple-craft-cms-laravel-bugs.html",
-    "https://thehackernews.com/2026/03/oracle-patches-critical-cve-2026-21992.html"
+    "https://thehackernews.com/2026/03/oracle-patches-critical-cve-2026-21992.html",
+    "https://www.bleepingcomputer.com/news/security/trivy-vulnerability-scanner-breach-pushed-infostealer-via-github-actions/",
+    "https://www.bleepingcomputer.com/news/security/microsoft-azure-monitor-alerts-abused-in-callback-phishing-campaigns/",
+    "https://thehackernews.com/2026/03/fbi-warns-russian-hackers-target-signal.html"
   ]
 }

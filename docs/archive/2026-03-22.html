@@ -3,7 +3,7 @@
   <head>
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1" />
-    <title>Threat Digest - 2026-03-08</title>
+    <title>Threat Digest - 2026-03-22</title>
     <style>
       @import url("https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,600;9..144,700&family=Space+Grotesk:wght@400;500;600&display=swap");
 
@@ -373,14 +373,14 @@
 
     <header>
       <div class="eyebrow">Daily Threat Briefing</div>
-      <h1>Threat Digest - 2026-03-08</h1>
+      <h1>Threat Digest - 2026-03-22</h1>
       <p class="subtitle">
         The security news worth your attention, with context and practical takeaways.
       </p>
       <div class="meta-bar">
-        <span>Updated: 2026-03-08 13:07 UTC</span>
+        <span>Updated: 2026-03-22 08:27 UTC</span>
         <span>Stories: 3</span>
-        <span>Recent issues: 12</span>
+        <span>Recent issues: 14</span>
       </div>
     </header>
 
@@ -389,7 +389,7 @@
         <section class="one-liner">
           <h2>What Matters Today</h2>
           
-            <p class="text-block">Federal agencies face immediate threats from unpatched iOS vulnerabilities while new AI certifications signal a growing need for skilled professionals in AI security.</p>
+            <p class="text-block">Today's threat landscape highlights the urgent need for vigilance as attackers exploit trusted tools and services to launch credential theft and phishing attacks.</p>
           
         </section>
 
@@ -398,11 +398,11 @@
           
             <ul>
               
-              <li>Active exploitation of iOS vulnerabilities increases urgency for federal IT security teams to implement patches.</li>
+              <li>The compromise of widely-used security tools like Trivy increases the risk of credential theft, stressing the importance of securing development environments.</li>
               
-              <li>Emerging ransomware threats linked to existing attack vectors highlight the need for proactive monitoring and incident response.</li>
+              <li>Abuse of cloud services for phishing indicates a shift in attacker tactics, requiring IT teams to enhance monitoring and response strategies.</li>
               
-              <li>The expansion of AI certifications indicates a rising demand for expertise in securing AI systems, reflecting a shift in attacker focus.</li>
+              <li>Targeting popular messaging apps for phishing reflects a growing trend in exploiting communication platforms, necessitating stronger defenses for sensitive communications.</li>
               
             </ul>
           
@@ -418,43 +418,43 @@
           <div class="grid">
             <article class="card" style="--i: 0;">
         <div class="meta">
-          <span class="chip risk-low">LOW</span>
+          <span class="chip risk-high">HIGH</span>
           
-            <span class="chip label-chip">INDUSTRY SIGNAL</span>
+            <span class="chip label-chip">PATCH RELEASE</span>
           
-          <span class="chip chip-neutral">Unknown</span>
+          <span class="chip chip-neutral">Initial Access</span>
           <span class="chip chip-neutral">Confidence LOW</span>
         </div>
         
-          <h3><a href="https://www.bleepingcomputer.com/news/security/ec-council-expands-ai-certification-portfolio-to-strengthen-us-ai-workforce-readiness-and-security/" target="_blank" rel="noopener noreferrer">EC-Council Expands AI Certification Portfolio to Strengthen U.S. AI Workforce Readiness and Security</a></h3>
+          <h3><a href="https://www.bleepingcomputer.com/news/security/trivy-vulnerability-scanner-breach-pushed-infostealer-via-github-actions/" target="_blank" rel="noopener noreferrer">Trivy vulnerability scanner breach pushed infostealer via GitHub Actions</a></h3>
         
-        <p class="hook">The expansion of AI certifications by EC-Council highlights the growing need for skilled professionals in AI security, which is crucial for safeguarding U.S. infrastructure.</p>
+        <p class="hook">The compromise of the Trivy vulnerability scanner poses a significant risk to organizations relying on it for security, potentially leading to widespread credential theft.</p>
         <div class="support-grid">
-          <div class="text-block"><span class="label">Who should care:</span> Cybersecurity teams and organizations involved in AI development and deployment should pay attention to these new certifications.</div>
-          <div class="text-block"><span class="label">Attack path:</span> Attackers may exploit vulnerabilities in AI systems if not properly secured, leading to data breaches or manipulation of AI outputs.</div>
+          <div class="text-block"><span class="label">Who should care:</span> Development and security teams using the Trivy scanner for vulnerability management should be particularly concerned.</div>
+          <div class="text-block"><span class="label">Attack path:</span> Attackers leveraged a trusted CI/CD pipeline to inject malware into legitimate software releases, allowing them to distribute infostealer malware to users.</div>
         </div>
         <div class="text-block"><span class="label">Why this matters now:</span> Useful context for teams tracking where attacker pressure is building.</div>
-        <div class="text-block"><span class="label">In plain English:</span> EC-Council has launched new AI certifications to enhance workforce readiness in AI security.</div>
+        <div class="text-block"><span class="label">In plain English:</span> A supply-chain attack on the Trivy scanner has distributed malware that steals credentials.</div>
         
           <div class="tags">
             
-              <span>ai</span>
+              <span>supply chain</span>
             
-              <span>certification</span>
+              <span>malware</span>
             
-              <span>cybersecurity</span>
+              <span>credential theft</span>
             
           </div>
         
         <ul class="story-list">
           
-            <li>EC-Council announced the launch of its Enterprise AI Credential Suite, which includes four new role-based AI certifications and an updated Certified CISO program. This initiative aims to address the increasing demand for expertise in AI security.</li>
+            <li>The Trivy vulnerability scanner was breached by a group known as TeamPCP, which used GitHub Actions to push infostealer malware through official releases. This incident highlights vulnerabilities in the software supply chain, allowing attackers to exploit trusted tools.</li>
           
-            <li>As AI technologies become more integrated into various sectors, the potential for security vulnerabilities increases. The new certifications are designed to equip professionals with the necessary skills to mitigate these risks, thereby enhancing overall security posture.</li>
+            <li>Organizations using Trivy may unknowingly download compromised versions, leading to credential theft and unauthorized access to sensitive systems. The incident underscores the need for vigilance in monitoring third-party tools and their updates.</li>
           
-            <li>Attackers may exploit vulnerabilities in AI systems if not properly secured, leading to data breaches or manipulation of AI outputs.</li>
+            <li>Attackers leveraged a trusted CI/CD pipeline to inject malware into legitimate software releases, allowing them to distribute infostealer malware to users.</li>
           
-            <li>Watch next: Monitor for updates on certification uptake and any subsequent changes in AI-related security incidents.</li>
+            <li>Watch next: Monitor for updates from the Trivy team regarding patches and any further developments related to this breach.</li>
           
         </ul>
 
@@ -463,9 +463,9 @@
             <div class="label">Key terms</div>
             <ul class="list">
             
-              <li>AI - Artificial Intelligence, the simulation of human intelligence processes by machines.</li>
+              <li>Supply-chain attack - a type of cyber attack where the attacker targets less-secure elements in the supply chain to compromise a larger system.</li>
             
-              <li>Certification - A formal recognition that an individual has demonstrated specific skills or knowledge in a particular area.</li>
+              <li>Infostealer - a type of malware designed to steal sensitive information, such as usernames and passwords.</li>
             
             </ul>
           </div>
@@ -475,11 +475,11 @@
           <div class="label">Defender focus</div>
           <ul class="list">
             
-            <li>Encourage team members to pursue the new AI certifications to enhance their skills.</li>
+            <li>Implement monitoring for unusual activity related to the Trivy scanner in your environment.</li>
             
-            <li>Assess current AI systems for potential vulnerabilities that could be exploited.</li>
+            <li>Review and validate the integrity of all software updates from third-party sources.</li>
             
-            <li>Stay informed about emerging AI security threats and best practices.</li>
+            <li>Consider temporarily disabling the use of Trivy until further security assessments are completed.</li>
             
           </ul>
         </div>
@@ -488,24 +488,24 @@
           <div class="label">Do now</div>
           <ul class="list">
             
-            <li>Review current AI security measures and identify gaps.</li>
+            <li>Immediately assess the current version of Trivy in use and verify its integrity.</li>
             
-            <li>Promote the new certifications among team members.</li>
+            <li>Communicate with development teams about the potential risks and necessary precautions.</li>
             
-            <li>Engage with training providers to facilitate certification opportunities.</li>
+            <li>Stay updated on any security advisories from the Trivy team regarding this incident.</li>
             
           </ul>
         </div>
 
-        <div class="text-block"><span class="label">Watch next:</span> Monitor for updates on certification uptake and any subsequent changes in AI-related security incidents.</div>
+        <div class="text-block"><span class="label">Watch next:</span> Monitor for updates from the Trivy team regarding patches and any further developments related to this breach.</div>
 
         <div class="sources">
           <div class="label">Sources</div>
           
             
               <div>
-                <a href="https://www.bleepingcomputer.com/news/security/ec-council-expands-ai-certification-portfolio-to-strengthen-us-ai-workforce-readiness-and-security/" target="_blank" rel="noopener noreferrer">
-                  BleepingComputer - EC-Council Expands AI Certification Portfolio to Strengthen U.S. AI Workforce Readiness and Security
+                <a href="https://www.bleepingcomputer.com/news/security/trivy-vulnerability-scanner-breach-pushed-infostealer-via-github-actions/" target="_blank" rel="noopener noreferrer">
+                  BleepingComputer - Trivy vulnerability scanner breach pushed infostealer via GitHub Actions
                 </a>
               </div>
             
@@ -526,45 +526,43 @@
             
               <article class="card" style="--i: 0;">
         <div class="meta">
-          <span class="chip risk-high">HIGH</span>
+          <span class="chip risk-medium">MEDIUM</span>
           
-            <span class="chip label-chip">PATCH RELEASE</span>
+            <span class="chip label-chip">INDUSTRY SIGNAL</span>
           
-            <span class="chip label-chip">LEGAL POLICY</span>
-          
-          <span class="chip chip-neutral">Initial Access</span>
+          <span class="chip chip-neutral">Credential Access</span>
           <span class="chip chip-neutral">Confidence LOW</span>
         </div>
         
-          <h3><a href="https://www.bleepingcomputer.com/news/security/cisa-warns-of-apple-flaws-exploited-in-spyware-crypto-theft-attacks/" target="_blank" rel="noopener noreferrer">CISA warns feds to patch iOS flaws exploited in crypto-theft attacks</a></h3>
+          <h3><a href="https://www.bleepingcomputer.com/news/security/microsoft-azure-monitor-alerts-abused-in-callback-phishing-campaigns/" target="_blank" rel="noopener noreferrer">Microsoft Azure Monitor alerts abused for callback phishing attacks</a></h3>
         
-        <p class="hook">Federal agencies are at immediate risk of crypto-theft due to unpatched iOS vulnerabilities being actively exploited.</p>
+        <p class="hook">The abuse of Microsoft Azure Monitor alerts for phishing attacks poses a significant risk to organizations relying on Azure services for security notifications.</p>
         <div class="support-grid">
-          <div class="text-block"><span class="label">Who should care:</span> Federal IT security teams and agencies managing iOS devices are most exposed to these threats.</div>
-          <div class="text-block"><span class="label">Attack path:</span> Attackers can leverage these vulnerabilities to gain unauthorized access to iOS devices, facilitating the theft of cryptocurrency and sensitive data.</div>
+          <div class="text-block"><span class="label">Who should care:</span> IT security teams and organizations using Microsoft Azure services should be particularly vigilant.</div>
+          <div class="text-block"><span class="label">Attack path:</span> Attackers exploit the trust in Azure Monitor alerts to deliver convincing phishing emails, increasing the likelihood of user interaction and data compromise.</div>
         </div>
-        <div class="text-block"><span class="label">Why this matters now:</span> A live patch or vendor fix gives defenders something concrete to validate.</div>
-        <div class="text-block"><span class="label">In plain English:</span> CISA has warned that federal agencies must patch critical iOS flaws to prevent crypto-theft attacks.</div>
+        <div class="text-block"><span class="label">Why this matters now:</span> Useful context for teams tracking where attacker pressure is building.</div>
+        <div class="text-block"><span class="label">In plain English:</span> Phishing emails are being sent using Azure Monitor alerts to trick users into providing sensitive information.</div>
         
           <div class="tags">
             
-              <span>crypto theft</span>
+              <span>phishing</span>
             
-              <span>cve</span>
+              <span>azure</span>
             
-              <span>ios</span>
+              <span>security</span>
             
           </div>
         
         <ul class="story-list">
           
-            <li>CISA has identified three iOS security vulnerabilities that are being exploited in cyberespionage and crypto-theft attacks. These vulnerabilities are being targeted using the Coruna exploit kit, which has been linked to recent incidents affecting federal agencies.</li>
+            <li>Phishing campaigns are leveraging Microsoft Azure Monitor alerts to impersonate security warnings from Microsoft. These emails claim unauthorized charges on user accounts, prompting recipients to take immediate action.</li>
           
-            <li>If these vulnerabilities are not patched promptly, federal agencies could face significant financial losses and data breaches. The exploitation of these flaws could lead to unauthorized access to sensitive information and assets, undermining national security.</li>
+            <li>This tactic can lead to credential theft and unauthorized access to sensitive systems, especially for organizations that trust Azure notifications. Users may be misled into providing personal information, resulting in financial and reputational damage.</li>
           
-            <li>Attackers can leverage these vulnerabilities to gain unauthorized access to iOS devices, facilitating the theft of cryptocurrency and sensitive data.</li>
+            <li>Attackers exploit the trust in Azure Monitor alerts to deliver convincing phishing emails, increasing the likelihood of user interaction and data compromise.</li>
           
-            <li>Watch next: Monitor for updates from CISA regarding the effectiveness of the patching efforts and any new vulnerabilities that may emerge.</li>
+            <li>Watch next: Monitor for any updates from Microsoft regarding the security of Azure services and phishing trends.</li>
           
         </ul>
 
@@ -573,9 +571,9 @@
             <div class="label">Key terms</div>
             <ul class="list">
             
-              <li>CISA - Cybersecurity and Infrastructure Security Agency, a U.S. government agency focused on protecting the nation's critical infrastructure.</li>
+              <li>Phishing - a fraudulent attempt to obtain sensitive information by disguising as a trustworthy entity in electronic communications.</li>
             
-              <li>Coruna exploit kit - A toolkit used by attackers to exploit vulnerabilities in software, allowing them to execute malicious code.</li>
+              <li>Azure Monitor - a service that provides a comprehensive solution for collecting, analyzing, and acting on telemetry from cloud and on-premises environments.</li>
             
             </ul>
           </div>
@@ -585,11 +583,11 @@
           <div class="label">Defender focus</div>
           <ul class="list">
             
-            <li>Implement immediate patching of affected iOS devices within federal agencies.</li>
+            <li>Implement email filtering rules to detect and block phishing attempts.</li>
             
-            <li>Monitor network traffic for signs of exploitation attempts related to the identified vulnerabilities.</li>
+            <li>Educate users on identifying suspicious emails, particularly those that mimic official notifications.</li>
             
-            <li>Review and enhance incident response plans to address potential crypto-theft scenarios.</li>
+            <li>Monitor Azure activity logs for unusual access patterns or alerts that may indicate phishing success.</li>
             
           </ul>
         </div>
@@ -598,24 +596,24 @@
           <div class="label">Do now</div>
           <ul class="list">
             
-            <li>Patch all affected iOS devices immediately.</li>
+            <li>Enhance email security measures to filter out phishing attempts.</li>
             
-            <li>Conduct a security audit to identify any devices that may be vulnerable.</li>
+            <li>Conduct a security awareness training session focused on recognizing phishing tactics.</li>
             
-            <li>Increase monitoring for unusual account activity related to cryptocurrency transactions.</li>
+            <li>Review and tighten access controls for Azure accounts to mitigate potential breaches.</li>
             
           </ul>
         </div>
 
-        <div class="text-block"><span class="label">Watch next:</span> Monitor for updates from CISA regarding the effectiveness of the patching efforts and any new vulnerabilities that may emerge.</div>
+        <div class="text-block"><span class="label">Watch next:</span> Monitor for any updates from Microsoft regarding the security of Azure services and phishing trends.</div>
 
         <div class="sources">
           <div class="label">Sources</div>
           
             
               <div>
-                <a href="https://www.bleepingcomputer.com/news/security/cisa-warns-of-apple-flaws-exploited-in-spyware-crypto-theft-attacks/" target="_blank" rel="noopener noreferrer">
-                  BleepingComputer - CISA warns feds to patch iOS flaws exploited in crypto-theft attacks
+                <a href="https://www.bleepingcomputer.com/news/security/microsoft-azure-monitor-alerts-abused-in-callback-phishing-campaigns/" target="_blank" rel="noopener noreferrer">
+                  BleepingComputer - Microsoft Azure Monitor alerts abused for callback phishing attacks
                 </a>
               </div>
             
@@ -629,39 +627,39 @@
           
             <span class="chip label-chip">INDUSTRY SIGNAL</span>
           
-          <span class="chip chip-neutral">Initial Access</span>
+          <span class="chip chip-neutral">Credential Access</span>
           <span class="chip chip-neutral">Confidence LOW</span>
         </div>
         
-          <h3><a href="https://www.bleepingcomputer.com/news/security/termite-ransomware-breaches-linked-to-clickfix-castlerat-attacks/" target="_blank" rel="noopener noreferrer">Termite ransomware breaches linked to ClickFix CastleRAT attacks</a></h3>
+          <h3><a href="https://thehackernews.com/2026/03/fbi-warns-russian-hackers-target-signal.html" target="_blank" rel="noopener noreferrer">FBI Warns Russian Hackers Target Signal, WhatsApp in Mass Phishing Attacks</a></h3>
         
-        <p class="hook">The emergence of Termite ransomware linked to ClickFix CastleRAT attacks poses a significant threat to organizations, potentially leading to severe data breaches and operational disruptions.</p>
+        <p class="hook">Russian hackers are actively targeting commercial messaging apps, posing a significant risk to sensitive communications.</p>
         <div class="support-grid">
-          <div class="text-block"><span class="label">Who should care:</span> IT security teams and incident response units should prioritize monitoring for these threats, especially those managing Windows environments.</div>
-          <div class="text-block"><span class="label">Attack path:</span> Attackers gain leverage by exploiting legitimate tools within the Windows operating system, making detection challenging. Abuse typically manifests as unauthorized access to sensitive data and system control.</div>
+          <div class="text-block"><span class="label">Who should care:</span> Security teams managing communications for high-profile individuals or organizations should be particularly vigilant.</div>
+          <div class="text-block"><span class="label">Attack path:</span> Attackers typically use phishing emails or messages to trick users into providing their login credentials, allowing them to take over accounts.</div>
         </div>
         <div class="text-block"><span class="label">Why this matters now:</span> Useful context for teams tracking where attacker pressure is building.</div>
-        <div class="text-block"><span class="label">In plain English:</span> Termite ransomware is being deployed through a new attack method that leverages legitimate Windows tools.</div>
+        <div class="text-block"><span class="label">In plain English:</span> Phishing attacks are aimed at compromising accounts on Signal and WhatsApp, particularly those of high-value individuals.</div>
         
           <div class="tags">
             
-              <span>ransomware</span>
+              <span>phishing</span>
             
-              <span>cve</span>
+              <span>signal</span>
             
-              <span>cloud</span>
+              <span>whatsapp</span>
             
           </div>
         
         <ul class="story-list">
           
-            <li>Ransomware actors known as Velvet Tempest are utilizing the ClickFix technique to deploy DonutLoader malware and the CastleRAT backdoor. This method involves using legitimate Windows utilities to bypass security measures.</li>
+            <li>The FBI and CISA reported that Russian-affiliated threat actors are conducting phishing campaigns against commercial messaging applications like Signal and WhatsApp. These attacks aim to gain control of accounts belonging to individuals with high intelligence value.</li>
           
-            <li>This attack vector increases the risk of successful breaches, as it can evade traditional detection mechanisms. Organizations may face data loss, financial impact, and reputational damage if they fall victim to these attacks.</li>
+            <li>Compromised accounts can lead to unauthorized access to sensitive communications, potentially exposing personal and organizational information. The targeting of high-value individuals increases the risk of espionage and data breaches.</li>
           
-            <li>Attackers gain leverage by exploiting legitimate tools within the Windows operating system, making detection challenging. Abuse typically manifests as unauthorized access to sensitive data and system control.</li>
+            <li>Attackers typically use phishing emails or messages to trick users into providing their login credentials, allowing them to take over accounts.</li>
           
-            <li>Watch next: Monitor for updates on the effectiveness of current defenses against the DonutLoader and CastleRAT payloads.</li>
+            <li>Watch next: Monitor for updates from CISA and the FBI regarding the evolution of these phishing tactics and any specific indicators of compromise.</li>
           
         </ul>
 
@@ -670,9 +668,9 @@
             <div class="label">Key terms</div>
             <ul class="list">
             
-              <li>Ransomware - a type of malicious software that encrypts files and demands payment for their release.</li>
+              <li>Phishing - a method of trying to gather personal information using deceptive emails and websites.</li>
             
-              <li>Backdoor - a method of bypassing normal authentication to gain remote access to a system.</li>
+              <li>Commercial Messaging Applications (CMA) - apps like WhatsApp and Signal used for personal and business communication.</li>
             
             </ul>
           </div>
@@ -682,11 +680,11 @@
           <div class="label">Defender focus</div>
           <ul class="list">
             
-            <li>Implement monitoring for unusual use of Windows utilities that could indicate exploitation.</li>
+            <li>Implement email filtering to detect and block phishing attempts.</li>
             
-            <li>Enhance endpoint detection and response capabilities to identify and mitigate DonutLoader and CastleRAT activity.</li>
+            <li>Educate users on recognizing phishing attempts specific to messaging applications.</li>
             
-            <li>Review and update incident response plans to include scenarios involving ransomware and backdoor attacks.</li>
+            <li>Monitor account access logs for unusual login attempts or changes.</li>
             
           </ul>
         </div>
@@ -695,24 +693,24 @@
           <div class="label">Do now</div>
           <ul class="list">
             
-            <li>Increase monitoring for suspicious activity related to Windows utilities.</li>
+            <li>Enhance email security measures to prevent phishing.</li>
             
-            <li>Conduct a security audit to identify vulnerabilities that could be exploited by these attacks.</li>
+            <li>Conduct a security review of messaging app usage policies.</li>
             
-            <li>Train staff on recognizing signs of ransomware and backdoor compromises.</li>
+            <li>Provide targeted training for high-value individuals on recognizing phishing attempts.</li>
             
           </ul>
         </div>
 
-        <div class="text-block"><span class="label">Watch next:</span> Monitor for updates on the effectiveness of current defenses against the DonutLoader and CastleRAT payloads.</div>
+        <div class="text-block"><span class="label">Watch next:</span> Monitor for updates from CISA and the FBI regarding the evolution of these phishing tactics and any specific indicators of compromise.</div>
 
         <div class="sources">
           <div class="label">Sources</div>
           
             
               <div>
-                <a href="https://www.bleepingcomputer.com/news/security/termite-ransomware-breaches-linked-to-clickfix-castlerat-attacks/" target="_blank" rel="noopener noreferrer">
-                  BleepingComputer - Termite ransomware breaches linked to ClickFix CastleRAT attacks
+                <a href="https://thehackernews.com/2026/03/fbi-warns-russian-hackers-target-signal.html" target="_blank" rel="noopener noreferrer">
+                  The Hacker News - FBI Warns Russian Hackers Target Signal, WhatsApp in Mass Phishing Attacks
                 </a>
               </div>
             
@@ -739,29 +737,33 @@
       <strong>Recent Issues</strong>
       <div class="archive-list">
         
-        <a href="archive/2026-03-08.html">2026-03-08</a>
+        <a href="archive/2026-03-22.html">2026-03-22</a>
         
-        <a href="archive/2026-03-07.html">2026-03-07</a>
+        <a href="archive/2026-03-21.html">2026-03-21</a>
         
-        <a href="archive/2026-03-06.html">2026-03-06</a>
+        <a href="archive/2026-03-20.html">2026-03-20</a>
         
-        <a href="archive/2026-03-05.html">2026-03-05</a>
+        <a href="archive/2026-03-19.html">2026-03-19</a>
         
-        <a href="archive/2026-03-04.html">2026-03-04</a>
+        <a href="archive/2026-03-18.html">2026-03-18</a>
         
-        <a href="archive/2026-03-03.html">2026-03-03</a>
+        <a href="archive/2026-03-17.html">2026-03-17</a>
         
-        <a href="archive/2026-03-02.html">2026-03-02</a>
+        <a href="archive/2026-03-16.html">2026-03-16</a>
         
-        <a href="archive/2026-03-01.html">2026-03-01</a>
+        <a href="archive/2026-03-15.html">2026-03-15</a>
         
-        <a href="archive/2026-02-28.html">2026-02-28</a>
+        <a href="archive/2026-03-14.html">2026-03-14</a>
         
-        <a href="archive/2026-02-27.html">2026-02-27</a>
+        <a href="archive/2026-03-13.html">2026-03-13</a>
         
-        <a href="archive/2026-02-26.html">2026-02-26</a>
+        <a href="archive/2026-03-12.html">2026-03-12</a>
         
-        <a href="archive/2026-02-25.html">2026-02-25</a>
+        <a href="archive/2026-03-11.html">2026-03-11</a>
+        
+        <a href="archive/2026-03-10.html">2026-03-10</a>
+        
+        <a href="archive/2026-03-09.html">2026-03-09</a>
         
       </div>
     </aside>
