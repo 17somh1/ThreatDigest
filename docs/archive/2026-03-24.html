@@ -378,8 +378,8 @@
         The security news worth your attention, with context and practical takeaways.
       </p>
       <div class="meta-bar">
-        <span>Updated: 2026-03-24 08:43 UTC</span>
-        <span>Stories: 4</span>
+        <span>Updated: 2026-03-24 13:43 UTC</span>
+        <span>Stories: 3</span>
         <span>Recent issues: 14</span>
       </div>
     </header>
@@ -389,7 +389,7 @@
         <section class="one-liner">
           <h2>What Matters Today</h2>
           
-            <p class="text-block">Defenders must prioritize patching critical vulnerabilities in Citrix NetScaler and remain vigilant against the resurgence of phishing threats targeting two-factor authentication.</p>
+            <p class="text-block">Today's threats highlight a surge in targeted attacks exploiting CI/CD vulnerabilities and malicious packages, demanding heightened vigilance from development and security teams.</p>
           
         </section>
 
@@ -398,11 +398,11 @@
           
             <ul>
               
-              <li>Critical vulnerabilities in widely used products like Citrix NetScaler can lead to significant data leaks if not patched immediately.</li>
+              <li>Attackers are increasingly targeting CI/CD processes to gain access to sensitive data.</li>
               
-              <li>The return of the Tycoon2FA phishing platform indicates a shift in attacker tactics, specifically targeting two-factor authentication mechanisms.</li>
+              <li>The use of malicious packages in software development is a growing tactic for stealing credentials.</li>
               
-              <li>Ongoing vulnerabilities in CI/CD systems present a persistent risk to software supply chains, increasing the workload for development teams.</li>
+              <li>Initial access pathways remain a critical vulnerability point for organizations facing ransomware threats.</li>
               
             </ul>
           
@@ -420,43 +420,41 @@
         <div class="meta">
           <span class="chip risk-high">HIGH</span>
           
-            <span class="chip label-chip">PATCH RELEASE</span>
+            <span class="chip label-chip">INDUSTRY SIGNAL</span>
           
-            <span class="chip label-chip">LEGAL POLICY</span>
-          
-          <span class="chip chip-neutral">Exfiltration</span>
+          <span class="chip chip-neutral">Initial Access</span>
           <span class="chip chip-neutral">Confidence LOW</span>
         </div>
         
-          <h3><a href="https://thehackernews.com/2026/03/citrix-urges-patching-critical.html" target="_blank" rel="noopener noreferrer">Citrix Urges Patching Critical NetScaler Flaw Allowing Unauthenticated Data Leaks</a></h3>
+          <h3><a href="https://thehackernews.com/2026/03/teampcp-hacks-checkmarx-github-actions.html" target="_blank" rel="noopener noreferrer">TeamPCP Hacks Checkmarx GitHub Actions Using Stolen CI Credentials</a></h3>
         
-        <p class="hook">Immediate patching of critical vulnerabilities in Citrix NetScaler is essential to prevent unauthorized data leaks that could compromise sensitive information.</p>
+        <p class="hook">The compromise of Checkmarx's GitHub Actions workflows poses a significant risk to cloud security, potentially exposing sensitive data and undermining supply chain integrity.</p>
         <div class="support-grid">
-          <div class="text-block"><span class="label">Who should care:</span> IT security teams managing Citrix NetScaler products should prioritize this update.</div>
-          <div class="text-block"><span class="label">Attack path:</span> An attacker could exploit the insufficient input validation to read sensitive data from memory, gaining unauthorized access to information.</div>
+          <div class="text-block"><span class="label">Who should care:</span> Development and security teams using Checkmarx's GitHub Actions for CI/CD processes should be particularly vigilant.</div>
+          <div class="text-block"><span class="label">Attack path:</span> Attackers gain leverage by using stolen credentials to access and manipulate GitHub Actions workflows, potentially leading to the deployment of malicious code.</div>
         </div>
-        <div class="text-block"><span class="label">Why this matters now:</span> A live patch or vendor fix gives defenders something concrete to validate.</div>
-        <div class="text-block"><span class="label">In plain English:</span> Citrix has identified critical vulnerabilities in NetScaler that require urgent patching to avoid data leaks.</div>
+        <div class="text-block"><span class="label">Why this matters now:</span> Useful context for teams tracking where attacker pressure is building.</div>
+        <div class="text-block"><span class="label">In plain English:</span> TeamPCP has hacked Checkmarx's GitHub Actions, raising serious security concerns for cloud-native applications.</div>
         
           <div class="tags">
             
-              <span>cve</span>
+              <span>cloud</span>
             
-              <span>netscaler</span>
+              <span>supply chain</span>
             
-              <span>data_leak</span>
+              <span>credential theft</span>
             
           </div>
         
         <ul class="story-list">
           
-            <li>Citrix has released security updates addressing two vulnerabilities in NetScaler ADC and NetScaler Gateway. The critical flaw, CVE-2026-3055, has a CVSS score of 9.3 and is due to insufficient input validation, which could lead to memory overread and potential data leaks.</li>
+            <li>TeamPCP, a known cybercriminal group, has compromised two GitHub Actions workflows maintained by Checkmarx. These workflows are used for supply chain security and have been targeted using stolen CI credentials.</li>
           
-            <li>If exploited, these vulnerabilities could allow attackers to access sensitive data without authentication, posing significant risks to organizations using Citrix products. The potential for data leaks underscores the urgency for affected organizations to apply the patches immediately.</li>
+            <li>The breach could allow attackers to manipulate or inject malicious code into software builds, impacting the security of applications that rely on these workflows. Organizations using Checkmarx's tools may face increased vulnerability to supply chain attacks.</li>
           
-            <li>An attacker could exploit the insufficient input validation to read sensitive data from memory, gaining unauthorized access to information.</li>
+            <li>Attackers gain leverage by using stolen credentials to access and manipulate GitHub Actions workflows, potentially leading to the deployment of malicious code.</li>
           
-            <li>Watch next: Monitor for updates from Citrix regarding any additional vulnerabilities or patches related to NetScaler.</li>
+            <li>Watch next: Monitor for updates from Checkmarx regarding the incident and any patches or mitigations they may release.</li>
           
         </ul>
 
@@ -465,9 +463,9 @@
             <div class="label">Key terms</div>
             <ul class="list">
             
-              <li>CVE - Common Vulnerabilities and Exposures, a list of publicly disclosed cybersecurity vulnerabilities.</li>
+              <li>CI - Continuous Integration, a development practice where code changes are automatically tested and merged into a shared repository.</li>
             
-              <li>CVSS - Common Vulnerability Scoring System, a standard for assessing the severity of vulnerabilities.</li>
+              <li>GitHub Actions - A feature in GitHub that allows automation of software workflows, including building, testing, and deploying code.</li>
             
             </ul>
           </div>
@@ -477,11 +475,11 @@
           <div class="label">Defender focus</div>
           <ul class="list">
             
-            <li>Implement monitoring for unusual data access patterns on NetScaler systems.</li>
+            <li>Review access logs for unusual activity related to Checkmarx workflows.</li>
             
-            <li>Ensure that all instances of NetScaler are updated with the latest security patches.</li>
+            <li>Implement stricter credential management policies to prevent unauthorized access.</li>
             
-            <li>Review access logs for any unauthorized attempts to access sensitive data.</li>
+            <li>Ensure that all CI/CD pipelines are monitored for unexpected changes or deployments.</li>
             
           </ul>
         </div>
@@ -490,24 +488,24 @@
           <div class="label">Do now</div>
           <ul class="list">
             
-            <li>Patch all affected Citrix NetScaler systems immediately.</li>
+            <li>Immediately audit GitHub Actions workflows for unauthorized changes.</li>
             
-            <li>Conduct a risk assessment to identify potential exposure from these vulnerabilities.</li>
+            <li>Reset credentials for any affected CI/CD systems.</li>
             
-            <li>Review and enhance security measures around sensitive data access.</li>
+            <li>Enhance monitoring for suspicious activity in cloud environments.</li>
             
           </ul>
         </div>
 
-        <div class="text-block"><span class="label">Watch next:</span> Monitor for updates from Citrix regarding any additional vulnerabilities or patches related to NetScaler.</div>
+        <div class="text-block"><span class="label">Watch next:</span> Monitor for updates from Checkmarx regarding the incident and any patches or mitigations they may release.</div>
 
         <div class="sources">
           <div class="label">Sources</div>
           
             
               <div>
-                <a href="https://thehackernews.com/2026/03/citrix-urges-patching-critical.html" target="_blank" rel="noopener noreferrer">
-                  The Hacker News - Citrix Urges Patching Critical NetScaler Flaw Allowing Unauthenticated Data Leaks
+                <a href="https://thehackernews.com/2026/03/teampcp-hacks-checkmarx-github-actions.html" target="_blank" rel="noopener noreferrer">
+                  The Hacker News - TeamPCP Hacks Checkmarx GitHub Actions Using Stolen CI Credentials
                 </a>
               </div>
             
@@ -528,43 +526,43 @@
             
               <article class="card" style="--i: 0;">
         <div class="meta">
-          <span class="chip risk-high">HIGH</span>
+          <span class="chip risk-medium">MEDIUM</span>
           
             <span class="chip label-chip">INDUSTRY SIGNAL</span>
           
-          <span class="chip chip-neutral">Credential Access</span>
+          <span class="chip chip-neutral">Initial Access</span>
           <span class="chip chip-neutral">Confidence LOW</span>
         </div>
         
-          <h3><a href="https://www.bleepingcomputer.com/news/security/tycoon2fa-phishing-platform-returns-after-recent-police-disruption/" target="_blank" rel="noopener noreferrer">Tycoon2FA phishing platform returns after recent police disruption</a></h3>
+          <h3><a href="https://www.bleepingcomputer.com/news/security/yanluowang-ransomware-access-broker-gets-81-months-in-prison/" target="_blank" rel="noopener noreferrer">Yanluowang ransomware access broker gets 81 months in prison</a></h3>
         
-        <p class="hook">The rapid resurgence of the Tycoon2FA phishing platform poses an immediate threat to organizations relying on two-factor authentication.</p>
+        <p class="hook">The sentencing of a key access broker for Yanluowang ransomware highlights ongoing vulnerabilities in initial access pathways for organizations.</p>
         <div class="support-grid">
-          <div class="text-block"><span class="label">Who should care:</span> Security teams and IT departments managing user authentication processes should be particularly concerned.</div>
-          <div class="text-block"><span class="label">Attack path:</span> Attackers can leverage the Tycoon2FA platform to create convincing phishing campaigns that trick users into providing their authentication codes.</div>
+          <div class="text-block"><span class="label">Who should care:</span> IT security teams and incident response units in organizations that could be targeted by ransomware.</div>
+          <div class="text-block"><span class="label">Attack path:</span> Attackers gain leverage by purchasing access to compromised systems from brokers, allowing them to deploy ransomware more effectively.</div>
         </div>
         <div class="text-block"><span class="label">Why this matters now:</span> Useful context for teams tracking where attacker pressure is building.</div>
-        <div class="text-block"><span class="label">In plain English:</span> Tycoon2FA phishing platform is back in operation, targeting users of two-factor authentication systems.</div>
+        <div class="text-block"><span class="label">In plain English:</span> A Russian national was sentenced for facilitating ransomware attacks, emphasizing the need for stronger defenses against initial access threats.</div>
         
           <div class="tags">
             
-              <span>phishing</span>
+              <span>ransomware</span>
             
-              <span>2fa</span>
+              <span>cve</span>
             
-              <span>security</span>
+              <span>cloud</span>
             
           </div>
         
         <ul class="story-list">
           
-            <li>The Tycoon2FA phishing-as-a-service platform, which was disrupted by law enforcement on March 4, has resumed its activities. Reports indicate that it has quickly returned to its previous levels of operation, indicating a robust recovery.</li>
+            <li>A Russian national was sentenced to 81 months in prison after pleading guilty to acting as an initial access broker for Yanluowang ransomware. This individual provided access to compromised networks, enabling ransomware attacks that have impacted various organizations.</li>
           
-            <li>This resurgence highlights the persistent threat of phishing attacks that exploit two-factor authentication, potentially leading to unauthorized access to sensitive accounts. Organizations must be vigilant as attackers may leverage this platform to bypass security measures.</li>
+            <li>The role of access brokers in ransomware operations underscores the importance of securing entry points into networks. Organizations must be vigilant as these brokers can facilitate significant financial losses and operational disruptions.</li>
           
-            <li>Attackers can leverage the Tycoon2FA platform to create convincing phishing campaigns that trick users into providing their authentication codes.</li>
+            <li>Attackers gain leverage by purchasing access to compromised systems from brokers, allowing them to deploy ransomware more effectively.</li>
           
-            <li>Watch next: Monitor for any new phishing campaigns linked to Tycoon2FA and updates from law enforcement regarding their ongoing efforts.</li>
+            <li>Watch next: Monitor for any updates on further arrests or actions against ransomware groups and their affiliates.</li>
           
         </ul>
 
@@ -573,9 +571,9 @@
             <div class="label">Key terms</div>
             <ul class="list">
             
-              <li>Phishing - a method of trying to gather personal information using deceptive emails and websites.</li>
+              <li>Initial Access Broker (IAB) - an individual or group that sells access to compromised networks to other cybercriminals.</li>
             
-              <li>Two-Factor Authentication (2FA) - a security process in which the user provides two different authentication factors to verify themselves.</li>
+              <li>Ransomware - malicious software that encrypts files on a victim's system, demanding payment for decryption.</li>
             
             </ul>
           </div>
@@ -585,11 +583,11 @@
           <div class="label">Defender focus</div>
           <ul class="list">
             
-            <li>Implement email filtering to detect and block phishing attempts.</li>
+            <li>Implement network segmentation to limit access to critical systems.</li>
             
-            <li>Enhance user training on recognizing phishing attempts, especially those targeting 2FA.</li>
+            <li>Enhance monitoring of external access points for unusual activity.</li>
             
-            <li>Monitor authentication logs for unusual access patterns that may indicate compromised accounts.</li>
+            <li>Conduct regular vulnerability assessments to identify and remediate weaknesses.</li>
             
           </ul>
         </div>
@@ -598,24 +596,24 @@
           <div class="label">Do now</div>
           <ul class="list">
             
-            <li>Increase monitoring of user authentication attempts.</li>
+            <li>Review and strengthen access controls on critical systems.</li>
             
-            <li>Review and update incident response plans for phishing attacks.</li>
+            <li>Increase monitoring for signs of unauthorized access or lateral movement.</li>
             
-            <li>Communicate with users about the resurgence of phishing threats targeting 2FA.</li>
+            <li>Educate staff on recognizing phishing attempts that may lead to initial access.</li>
             
           </ul>
         </div>
 
-        <div class="text-block"><span class="label">Watch next:</span> Monitor for any new phishing campaigns linked to Tycoon2FA and updates from law enforcement regarding their ongoing efforts.</div>
+        <div class="text-block"><span class="label">Watch next:</span> Monitor for any updates on further arrests or actions against ransomware groups and their affiliates.</div>
 
         <div class="sources">
           <div class="label">Sources</div>
           
             
               <div>
-                <a href="https://www.bleepingcomputer.com/news/security/tycoon2fa-phishing-platform-returns-after-recent-police-disruption/" target="_blank" rel="noopener noreferrer">
-                  BleepingComputer - Tycoon2FA phishing platform returns after recent police disruption
+                <a href="https://www.bleepingcomputer.com/news/security/yanluowang-ransomware-access-broker-gets-81-months-in-prison/" target="_blank" rel="noopener noreferrer">
+                  BleepingComputer - Yanluowang ransomware access broker gets 81 months in prison
                 </a>
               </div>
             
@@ -625,104 +623,7 @@
             
               <article class="card" style="--i: 1;">
         <div class="meta">
-          <span class="chip risk-medium">MEDIUM</span>
-          
-            <span class="chip label-chip">INDUSTRY SIGNAL</span>
-          
-          <span class="chip chip-neutral">Impact</span>
-          <span class="chip chip-neutral">Confidence LOW</span>
-        </div>
-        
-          <h3><a href="https://thehackernews.com/2026/03/us-sentences-russian-hacker-to-675.html" target="_blank" rel="noopener noreferrer">U.S. Sentences Russian Hacker to 6.75 Years for Role in $9M Ransomware Damage</a></h3>
-        
-        <p class="hook">The sentencing of a Russian hacker highlights ongoing vulnerabilities in U.S. organizations to ransomware attacks, emphasizing the need for robust defenses.</p>
-        <div class="support-grid">
-          <div class="text-block"><span class="label">Who should care:</span> IT security teams and incident response units in organizations that handle sensitive data or rely on digital infrastructure.</div>
-          <div class="text-block"><span class="label">Attack path:</span> Attackers like Volkov typically gain leverage by exploiting vulnerabilities in systems or through social engineering tactics to deploy ransomware. Their activities can lead to significant operational disruptions and financial losses.</div>
-        </div>
-        <div class="text-block"><span class="label">Why this matters now:</span> Useful context for teams tracking where attacker pressure is building.</div>
-        <div class="text-block"><span class="label">In plain English:</span> A Russian hacker has been sentenced for his involvement in significant ransomware attacks against U.S. entities.</div>
-        
-          <div class="tags">
-            
-              <span>ransomware</span>
-            
-              <span>cybercrime</span>
-            
-              <span>law enforcement</span>
-            
-          </div>
-        
-        <ul class="story-list">
-          
-            <li>Aleksei Olegovich Volkov, a 26-year-old Russian citizen, was sentenced to 6.75 years in prison for aiding cybercrime groups, including the Yanluowang ransomware crew. His actions contributed to approximately $9 million in damages from numerous ransomware attacks targeting U.S. companies.</li>
-          
-            <li>This case underscores the persistent threat of ransomware and the importance of proactive security measures. Organizations must remain vigilant as the tactics used by cybercriminals continue to evolve, potentially impacting their operations and financial stability.</li>
-          
-            <li>Attackers like Volkov typically gain leverage by exploiting vulnerabilities in systems or through social engineering tactics to deploy ransomware. Their activities can lead to significant operational disruptions and financial losses.</li>
-          
-            <li>Watch next: Monitor for updates on ransomware trends and any new tactics employed by cybercriminals following this sentencing.</li>
-          
-        </ul>
-
-        
-          <div class="glossary">
-            <div class="label">Key terms</div>
-            <ul class="list">
-            
-              <li>Ransomware - a type of malicious software that encrypts files on a victim's system, demanding payment for decryption.</li>
-            
-              <li>Cybercrime - illegal activities conducted via the internet, often involving theft or damage to data and systems.</li>
-            
-            </ul>
-          </div>
-        
-
-        <div>
-          <div class="label">Defender focus</div>
-          <ul class="list">
-            
-            <li>Enhance monitoring for unusual network activity that may indicate ransomware deployment.</li>
-            
-            <li>Implement regular backups and ensure they are isolated from the main network to mitigate potential damage.</li>
-            
-            <li>Conduct vulnerability assessments to identify and remediate weaknesses that could be exploited by ransomware.</li>
-            
-          </ul>
-        </div>
-
-        <div>
-          <div class="label">Do now</div>
-          <ul class="list">
-            
-            <li>Review and strengthen incident response plans to address ransomware threats.</li>
-            
-            <li>Train staff on recognizing phishing attempts that could lead to ransomware infections.</li>
-            
-            <li>Stay informed about emerging ransomware variants and their tactics.</li>
-            
-          </ul>
-        </div>
-
-        <div class="text-block"><span class="label">Watch next:</span> Monitor for updates on ransomware trends and any new tactics employed by cybercriminals following this sentencing.</div>
-
-        <div class="sources">
-          <div class="label">Sources</div>
-          
-            
-              <div>
-                <a href="https://thehackernews.com/2026/03/us-sentences-russian-hacker-to-675.html" target="_blank" rel="noopener noreferrer">
-                  The Hacker News - U.S. Sentences Russian Hacker to 6.75 Years for Role in $9M Ransomware Damage
-                </a>
-              </div>
-            
-          
-        </div>
-      </article>
-            
-              <article class="card" style="--i: 2;">
-        <div class="meta">
-          <span class="chip risk-medium">MEDIUM</span>
+          <span class="chip risk-high">HIGH</span>
           
             <span class="chip label-chip">RESEARCH</span>
           
@@ -730,35 +631,35 @@
           <span class="chip chip-neutral">Confidence LOW</span>
         </div>
         
-          <h3><a href="https://thehackernews.com/2026/03/weekly-recap-cicd-backdoor-fbi-buys.html" target="_blank" rel="noopener noreferrer">⚡ Weekly Recap: CI/CD Backdoor, FBI Buys Location Data, WhatsApp Ditches Numbers & More</a></h3>
+          <h3><a href="https://thehackernews.com/2026/03/ghost-campaign-uses-7-npm-packages-to.html" target="_blank" rel="noopener noreferrer">Ghost Campaign Uses 7 npm Packages to Steal Crypto Wallets and Credentials</a></h3>
         
-        <p class="hook">The ongoing vulnerabilities in CI/CD systems highlight a critical risk to software supply chains, demanding immediate attention from development teams.</p>
+        <p class="hook">The discovery of malicious npm packages targeting cryptocurrency wallets poses a significant risk to developers and users in the crypto space, making immediate vigilance essential.</p>
         <div class="support-grid">
-          <div class="text-block"><span class="label">Who should care:</span> Development and DevOps teams, as well as organizations utilizing CI/CD pipelines, should be particularly vigilant.</div>
-          <div class="text-block"><span class="label">Attack path:</span> Attackers can gain leverage by exploiting known vulnerabilities in CI/CD tools to inject malicious code into software builds, leading to widespread distribution of compromised applications.</div>
+          <div class="text-block"><span class="label">Who should care:</span> Development teams working with npm packages and organizations involved in cryptocurrency transactions should be particularly vigilant.</div>
+          <div class="text-block"><span class="label">Attack path:</span> Attackers can leverage these malicious npm packages to gain access to sensitive data when developers install them in their projects, leading to unauthorized access to cryptocurrency wallets.</div>
         </div>
         <div class="text-block"><span class="label">Why this matters now:</span> Useful context for teams tracking where attacker pressure is building.</div>
-        <div class="text-block"><span class="label">In plain English:</span> CI/CD systems are under threat from supply chain attacks, which could compromise software integrity.</div>
+        <div class="text-block"><span class="label">In plain English:</span> Malicious npm packages have been found that can steal crypto wallets and sensitive data.</div>
         
           <div class="tags">
             
-              <span>supply chain</span>
-            
-              <span>cicd</span>
-            
               <span>malware</span>
+            
+              <span>npm</span>
+            
+              <span>cryptocurrency</span>
             
           </div>
         
         <ul class="story-list">
           
-            <li>Recent reports indicate that supply chain attacks targeting CI/CD setups are on the rise, with attackers exploiting known vulnerabilities. Additionally, long-abused IoT devices are being shut down, and new malware techniques are emerging.</li>
+            <li>Researchers identified a campaign named 'Ghost' that uses seven malicious npm packages to compromise cryptocurrency wallets and credentials. These packages were published by a user named mikilanjillo and include names like react-performance-suite and ai-fast-auto-trader.</li>
           
-            <li>These vulnerabilities can lead to unauthorized code changes, impacting software integrity and potentially allowing attackers to introduce malicious code into production environments. As organizations increasingly rely on automated deployment processes, the risk of compromised software escalates.</li>
+            <li>The use of npm packages in development environments means that many developers may unknowingly integrate these malicious tools into their applications, leading to potential data breaches and financial loss. The targeting of cryptocurrency wallets specifically highlights the ongoing threat to digital assets.</li>
           
-            <li>Attackers can gain leverage by exploiting known vulnerabilities in CI/CD tools to inject malicious code into software builds, leading to widespread distribution of compromised applications.</li>
+            <li>Attackers can leverage these malicious npm packages to gain access to sensitive data when developers install them in their projects, leading to unauthorized access to cryptocurrency wallets.</li>
           
-            <li>Watch next: Monitor for updates on vulnerability disclosures related to CI/CD tools and any emerging malware tactics.</li>
+            <li>Watch next: Monitor for updates from npm regarding the removal of these packages and any further analysis from cybersecurity researchers.</li>
           
         </ul>
 
@@ -767,9 +668,9 @@
             <div class="label">Key terms</div>
             <ul class="list">
             
-              <li>CI/CD - Continuous Integration/Continuous Deployment, a practice in software development where code changes are automatically tested and deployed.</li>
+              <li>npm - a package manager for JavaScript that allows developers to share and reuse code.</li>
             
-              <li>Supply Chain Attack - A type of cyber attack that targets the less-secure elements of a supply chain to compromise the integrity of a product.</li>
+              <li>malicious package - software that is designed to harm or exploit users' systems.</li>
             
             </ul>
           </div>
@@ -779,11 +680,11 @@
           <div class="label">Defender focus</div>
           <ul class="list">
             
-            <li>Implement monitoring for unusual changes in CI/CD pipelines.</li>
+            <li>Implement monitoring for the use of newly published npm packages in development environments.</li>
             
-            <li>Review and patch known vulnerabilities in CI/CD tools immediately.</li>
+            <li>Review and audit existing npm packages for any known vulnerabilities or malicious behavior.</li>
             
-            <li>Conduct regular security assessments of third-party dependencies used in software development.</li>
+            <li>Educate development teams on the risks associated with third-party packages and how to verify their integrity.</li>
             
           </ul>
         </div>
@@ -792,24 +693,24 @@
           <div class="label">Do now</div>
           <ul class="list">
             
-            <li>Patch vulnerabilities in CI/CD tools without delay.</li>
+            <li>Immediately review and remove any suspicious npm packages from your projects.</li>
             
-            <li>Enhance monitoring of CI/CD processes for unauthorized changes.</li>
+            <li>Conduct a security audit of your development environment to identify potential vulnerabilities.</li>
             
-            <li>Educate development teams on secure coding practices and the importance of supply chain security.</li>
+            <li>Stay updated on cybersecurity reports regarding npm packages and related threats.</li>
             
           </ul>
         </div>
 
-        <div class="text-block"><span class="label">Watch next:</span> Monitor for updates on vulnerability disclosures related to CI/CD tools and any emerging malware tactics.</div>
+        <div class="text-block"><span class="label">Watch next:</span> Monitor for updates from npm regarding the removal of these packages and any further analysis from cybersecurity researchers.</div>
 
         <div class="sources">
           <div class="label">Sources</div>
           
             
               <div>
-                <a href="https://thehackernews.com/2026/03/weekly-recap-cicd-backdoor-fbi-buys.html" target="_blank" rel="noopener noreferrer">
-                  The Hacker News - ⚡ Weekly Recap: CI/CD Backdoor, FBI Buys Location Data, WhatsApp Ditches Numbers & More
+                <a href="https://thehackernews.com/2026/03/ghost-campaign-uses-7-npm-packages-to.html" target="_blank" rel="noopener noreferrer">
+                  The Hacker News - Ghost Campaign Uses 7 npm Packages to Steal Crypto Wallets and Credentials
                 </a>
               </div>
             
