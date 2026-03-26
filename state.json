@@ -1,5 +1,5 @@
 {
-  "last_run_utc": "2026-03-26T08:46:02.588293+00:00",
+  "last_run_utc": "2026-03-26T13:49:18.301571+00:00",
   "processed_urls": [
     "https://www.bleepingcomputer.com/news/security/critical-cisco-sd-wan-bug-exploited-in-zero-day-attacks-since-2023/",
     "https://www.cisa.gov/news-events/alerts/2026/02/25/cisa-and-partners-release-guidance-ongoing-global-exploitation-cisco-sd-wan-systems",
@@ -195,6 +195,8 @@
     "https://www.bleepingcomputer.com/news/security/citrix-urges-admins-to-patch-netscaler-flaws-as-soon-as-possible/",
     "https://www.bleepingcomputer.com/news/security/bubble-ai-app-builder-abused-to-steal-microsoft-account-credentials/",
     "https://www.bleepingcomputer.com/news/security/paid-ai-accounts-are-now-a-hot-underground-commodity/",
-    "https://thehackernews.com/2026/03/leakbase-admin-arrested-in-russia-over.html"
+    "https://thehackernews.com/2026/03/leakbase-admin-arrested-in-russia-over.html",
+    "https://thehackernews.com/2026/03/claude-extension-flaw-enabled-zero.html",
+    "https://thehackernews.com/2026/03/threatsday-bulletin-pqc-push-ai-vuln.html"
   ]
 }
