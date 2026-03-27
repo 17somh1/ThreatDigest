@@ -1,5 +1,5 @@
 {
-  "last_run_utc": "2026-03-26T13:49:18.301571+00:00",
+  "last_run_utc": "2026-03-27T08:43:32.702967+00:00",
   "processed_urls": [
     "https://www.bleepingcomputer.com/news/security/critical-cisco-sd-wan-bug-exploited-in-zero-day-attacks-since-2023/",
     "https://www.cisa.gov/news-events/alerts/2026/02/25/cisa-and-partners-release-guidance-ongoing-global-exploitation-cisco-sd-wan-systems",
@@ -197,6 +197,12 @@
     "https://www.bleepingcomputer.com/news/security/paid-ai-accounts-are-now-a-hot-underground-commodity/",
     "https://thehackernews.com/2026/03/leakbase-admin-arrested-in-russia-over.html",
     "https://thehackernews.com/2026/03/claude-extension-flaw-enabled-zero.html",
-    "https://thehackernews.com/2026/03/threatsday-bulletin-pqc-push-ai-vuln.html"
+    "https://thehackernews.com/2026/03/threatsday-bulletin-pqc-push-ai-vuln.html",
+    "https://www.cisa.gov/news-events/alerts/2026/03/26/cisa-adds-one-known-exploited-vulnerability-catalog",
+    "https://www.bleepingcomputer.com/news/security/cisa-new-langflow-flaw-actively-exploited-to-hijack-ai-workflows/",
+    "https://www.bleepingcomputer.com/news/security/dutch-police-discloses-security-breach-after-phishing-attack/",
+    "https://www.bleepingcomputer.com/news/security/ajax-football-club-hack-exposed-fan-data-enabled-ticket-hijack/",
+    "https://www.bleepingcomputer.com/news/security/tiktok-for-business-accounts-targeted-in-new-phishing-campaign/",
+    "https://www.bleepingcomputer.com/news/security/inside-a-modern-fraud-attack-from-bot-signups-to-account-takeovers/"
   ]
 }
