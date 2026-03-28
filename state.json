@@ -1,5 +1,5 @@
 {
-  "last_run_utc": "2026-03-28T08:32:07.841974+00:00",
+  "last_run_utc": "2026-03-28T13:13:51.907171+00:00",
   "processed_urls": [
     "https://www.bleepingcomputer.com/news/security/critical-cisco-sd-wan-bug-exploited-in-zero-day-attacks-since-2023/",
     "https://www.cisa.gov/news-events/alerts/2026/02/25/cisa-and-partners-release-guidance-ongoing-global-exploitation-cisco-sd-wan-systems",
@@ -212,6 +212,7 @@
     "https://thehackernews.com/2026/03/teampcp-pushes-malicious-telnyx.html",
     "https://www.bleepingcomputer.com/news/security/backdoored-telnyx-pypi-package-pushes-malware-hidden-in-wav-audio/",
     "https://thehackernews.com/2026/03/ta446-deploys-leaked-darksword-ios.html",
-    "https://thehackernews.com/2026/03/open-vsx-bug-let-malicious-vs-code.html"
+    "https://thehackernews.com/2026/03/open-vsx-bug-let-malicious-vs-code.html",
+    "https://thehackernews.com/2026/03/citrix-netscaler-under-active-recon-for.html"
   ]
 }

@@ -378,8 +378,8 @@
         The security news worth your attention, with context and practical takeaways.
       </p>
       <div class="meta-bar">
-        <span>Updated: 2026-03-28 08:32 UTC</span>
-        <span>Stories: 5</span>
+        <span>Updated: 2026-03-28 13:13 UTC</span>
+        <span>Stories: 1</span>
         <span>Recent issues: 14</span>
       </div>
     </header>
@@ -389,7 +389,7 @@
         <section class="one-liner">
           <h2>What Matters Today</h2>
           
-            <p class="text-block">Organizations must urgently address critical vulnerabilities in F5 BIG-IP systems and remain vigilant against malicious software targeting development environments and iOS devices.</p>
+            <p class="text-block">Active reconnaissance on a critical Citrix vulnerability signals an urgent need for IT security teams to bolster defenses against potential data leaks.</p>
           
         </section>
 
@@ -398,11 +398,11 @@
           
             <ul>
               
-              <li>Immediate patching required for newly identified vulnerabilities to prevent remote code execution.</li>
+              <li>Increased attacker focus on exploiting critical vulnerabilities heightens the risk for organizations using Citrix NetScaler.</li>
               
-              <li>Increased risk of compromised development environments due to malicious extensions bypassing security checks.</li>
+              <li>Defenders must prioritize patching and monitoring to mitigate the threat of data leaks from active reconnaissance efforts.</li>
               
-              <li>Heightened attacker activity targeting widely used libraries and platforms indicates a need for proactive defense measures.</li>
+              <li>The urgency of addressing CVE-2026-3055 reflects a broader trend of attackers leveraging known vulnerabilities for significant impact.</li>
               
             </ul>
           
@@ -420,49 +420,41 @@
         <div class="meta">
           <span class="chip risk-high">HIGH</span>
           
-            <span class="chip label-chip">ACTIVE EXPLOITATION</span>
-          
-            <span class="chip label-chip">KEV ADDED</span>
-          
             <span class="chip label-chip">LEGAL POLICY</span>
           
-          <span class="chip chip-neutral">Initial Access</span>
-          <span class="chip chip-neutral">Confidence HIGH</span>
+          <span class="chip chip-neutral">Discovery</span>
+          <span class="chip chip-neutral">Confidence LOW</span>
         </div>
         
-          <h3><a href="https://www.cisa.gov/news-events/alerts/2026/03/27/cisa-adds-one-known-exploited-vulnerability-catalog" target="_blank" rel="noopener noreferrer">CISA Adds One Known Exploited Vulnerability to Catalog</a></h3>
+          <h3><a href="https://thehackernews.com/2026/03/citrix-netscaler-under-active-recon-for.html" target="_blank" rel="noopener noreferrer">Citrix NetScaler Under Active Recon for CVE-2026-3055 (CVSS 9.3) Memory Overread Bug</a></h3>
         
-        <p class="hook">The newly identified CVE-2025-53521 vulnerability in F5 BIG-IP systems poses an immediate risk of remote code execution, making it critical for organizations to act swiftly.</p>
+        <p class="hook">Active reconnaissance on a critical Citrix vulnerability could lead to significant data leaks, making immediate attention essential.</p>
         <div class="support-grid">
-          <div class="text-block"><span class="label">Who should care:</span> IT security teams managing F5 BIG-IP systems and federal agencies under BOD 22-01 should prioritize this issue.</div>
-          <div class="text-block"><span class="label">Attack path:</span> An attacker could exploit this vulnerability to execute arbitrary code on vulnerable F5 BIG-IP devices, potentially gaining control over critical infrastructure.</div>
+          <div class="text-block"><span class="label">Who should care:</span> IT security teams managing Citrix NetScaler environments should prioritize this issue.</div>
+          <div class="text-block"><span class="label">Attack path:</span> An attacker can leverage this vulnerability to perform reconnaissance and potentially extract sensitive data from memory. This could facilitate further attacks or data exfiltration.</div>
         </div>
-        <div class="text-block"><span class="label">Why this matters now:</span> KEV status shortens the acceptable patch window. Multiple sources point to the same operational problem.</div>
-        <div class="text-block"><span class="label">In plain English:</span> CISA has added a serious vulnerability to its catalog that could allow attackers to execute code remotely on F5 BIG-IP systems.</div>
+        <div class="text-block"><span class="label">Why this matters now:</span> Useful context for teams tracking where attacker pressure is building.</div>
+        <div class="text-block"><span class="label">In plain English:</span> Citrix NetScaler is under active attack due to a severe memory overread vulnerability.</div>
         
           <div class="tags">
             
               <span>cve</span>
             
-              <span>f5</span>
+              <span>citrix</span>
             
               <span>vulnerability</span>
-            
-              <span>remote_code_execution</span>
             
           </div>
         
         <ul class="story-list">
           
-            <li>CISA has included CVE-2025-53521, a remote code execution vulnerability affecting F5 BIG-IP, in its Known Exploited Vulnerabilities Catalog due to evidence of active exploitation. This addition highlights the urgency for organizations to address this vulnerability to prevent potential attacks.</li>
+            <li>A critical security flaw, CVE-2026-3055, affecting Citrix NetScaler ADC and NetScaler Gateway has been disclosed. This vulnerability, rated 9.3 on the CVSS scale, involves insufficient input validation that can lead to memory overread.</li>
           
-            <li>This vulnerability is a common target for cybercriminals and can lead to severe consequences, including unauthorized access and control over affected systems. Organizations that fail to remediate this vulnerability risk significant operational disruptions and data breaches.</li>
+            <li>If exploited, this vulnerability could allow attackers to leak sensitive information from affected systems. Organizations using Citrix NetScaler products are at risk of data breaches, which could have severe operational and reputational consequences.</li>
           
-            <li>An attacker could exploit this vulnerability to execute arbitrary code on vulnerable F5 BIG-IP devices, potentially gaining control over critical infrastructure.</li>
+            <li>An attacker can leverage this vulnerability to perform reconnaissance and potentially extract sensitive data from memory. This could facilitate further attacks or data exfiltration.</li>
           
-            <li>Also reported by The Hacker News.</li>
-          
-            <li>Watch next: Monitor for updates from CISA regarding additional vulnerabilities added to the KEV Catalog and any related advisories.</li>
+            <li>Watch next: Monitor for any patches or updates from Citrix addressing this vulnerability.</li>
           
         </ul>
 
@@ -471,13 +463,9 @@
             <div class="label">Key terms</div>
             <ul class="list">
             
-              <li>CVE - Common Vulnerabilities and Exposures, a list of publicly known cybersecurity vulnerabilities.</li>
-            
-              <li>Remote Code Execution - A type of vulnerability that allows an attacker to run arbitrary code on a target system from a remote location.</li>
-            
               <li>CVE - Common Vulnerabilities and Exposures, a list of publicly disclosed cybersecurity vulnerabilities.</li>
             
-              <li>RCE - Remote Code Execution, a type of vulnerability that allows an attacker to execute arbitrary code on a remote machine.</li>
+              <li>CVSS - Common Vulnerability Scoring System, a standard for assessing the severity of security vulnerabilities.</li>
             
             </ul>
           </div>
@@ -487,11 +475,11 @@
           <div class="label">Defender focus</div>
           <ul class="list">
             
-            <li>Ensure all F5 BIG-IP systems are patched against CVE-2025-53521 immediately.</li>
+            <li>Implement monitoring for unusual access patterns to Citrix NetScaler systems.</li>
             
-            <li>Implement network segmentation to limit exposure of vulnerable systems.</li>
+            <li>Review logs for any signs of reconnaissance activity related to CVE-2026-3055.</li>
             
-            <li>Monitor logs for any unusual activity that may indicate exploitation attempts.</li>
+            <li>Prepare to deploy patches or mitigations as soon as they are available from Citrix.</li>
             
           </ul>
         </div>
@@ -500,32 +488,24 @@
           <div class="label">Do now</div>
           <ul class="list">
             
-            <li>Patch F5 BIG-IP systems to mitigate CVE-2025-53521.</li>
+            <li>Assess your Citrix NetScaler deployment for exposure to CVE-2026-3055.</li>
             
-            <li>Review and update incident response plans to address potential exploitation.</li>
+            <li>Enhance logging and monitoring for potential exploitation attempts.</li>
             
-            <li>Conduct a vulnerability assessment to identify other risks in your environment.</li>
+            <li>Stay updated on Citrix's response and apply patches promptly.</li>
             
           </ul>
         </div>
 
-        <div class="text-block"><span class="label">Watch next:</span> Monitor for updates from CISA regarding additional vulnerabilities added to the KEV Catalog and any related advisories.</div>
+        <div class="text-block"><span class="label">Watch next:</span> Monitor for any patches or updates from Citrix addressing this vulnerability.</div>
 
         <div class="sources">
           <div class="label">Sources</div>
           
             
               <div>
-                <a href="https://www.cisa.gov/news-events/alerts/2026/03/27/cisa-adds-one-known-exploited-vulnerability-catalog" target="_blank" rel="noopener noreferrer">
-                  Alerts - CISA Adds One Known Exploited Vulnerability to Catalog
-                </a>
-              </div>
-            
-          
-            
-              <div>
-                <a href="https://thehackernews.com/2026/03/cisa-adds-cve-2025-53521-to-kev-after.html" target="_blank" rel="noopener noreferrer">
-                  The Hacker News - CISA Adds CVE-2025-53521 to KEV After Active F5 BIG-IP APM Exploitation
+                <a href="https://thehackernews.com/2026/03/citrix-netscaler-under-active-recon-for.html" target="_blank" rel="noopener noreferrer">
+                  The Hacker News - Citrix NetScaler Under Active Recon for CVE-2026-3055 (CVSS 9.3) Memory Overread Bug
                 </a>
               </div>
             
@@ -542,302 +522,7 @@
           Priority Watchlist
         </div>
         
-          <div class="grid">
-            
-              <article class="card" style="--i: 0;">
-        <div class="meta">
-          <span class="chip risk-medium">MEDIUM</span>
-          
-            <span class="chip label-chip">PATCH RELEASE</span>
-          
-            <span class="chip label-chip">RESEARCH</span>
-          
-          <span class="chip chip-neutral">Initial Access</span>
-          <span class="chip chip-neutral">Confidence LOW</span>
-        </div>
-        
-          <h3><a href="https://thehackernews.com/2026/03/open-vsx-bug-let-malicious-vs-code.html" target="_blank" rel="noopener noreferrer">Open VSX Bug Let Malicious VS Code Extensions Bypass Pre-Publish Security Checks</a></h3>
-        
-        <p class="hook">Malicious VS Code extensions can now bypass security checks, potentially compromising development environments and workflows.</p>
-        <div class="support-grid">
-          <div class="text-block"><span class="label">Who should care:</span> Development teams using Microsoft Visual Studio Code and relying on Open VSX for extensions should be particularly vigilant.</div>
-          <div class="text-block"><span class="label">Attack path:</span> An attacker could create a malicious VS Code extension that bypasses security checks and is published to the Open VSX registry, allowing it to be installed by unsuspecting users.</div>
-        </div>
-        <div class="text-block"><span class="label">Why this matters now:</span> A live patch or vendor fix gives defenders something concrete to validate.</div>
-        <div class="text-block"><span class="label">In plain English:</span> A bug in Open VSX allowed harmful VS Code extensions to be published without proper security vetting.</div>
-        
-          <div class="tags">
-            
-              <span>cve</span>
-            
-              <span>vs code</span>
-            
-              <span>security</span>
-            
-          </div>
-        
-        <ul class="story-list">
-          
-            <li>Researchers identified a vulnerability in Open VSX's pre-publish scanning process that allowed malicious extensions to pass through security checks. The issue stemmed from a boolean return value that did not differentiate between no scanners being configured and all scanners failing to run. This flaw has since been patched.</li>
-          
-            <li>The ability for malicious extensions to be published can lead to compromised development environments, exposing sensitive code and data. Developers using VS Code may unknowingly install harmful extensions, which could lead to broader security incidents within organizations.</li>
-          
-            <li>An attacker could create a malicious VS Code extension that bypasses security checks and is published to the Open VSX registry, allowing it to be installed by unsuspecting users.</li>
-          
-            <li>Watch next: Monitor for updates from Open VSX regarding any further vulnerabilities or security enhancements.</li>
-          
-        </ul>
-
-        
-          <div class="glossary">
-            <div class="label">Key terms</div>
-            <ul class="list">
-            
-              <li>Open VSX - an open-source marketplace for Visual Studio Code extensions.</li>
-            
-              <li>Malicious Extension - a software add-on designed to harm or exploit users' systems.</li>
-            
-            </ul>
-          </div>
-        
-
-        <div>
-          <div class="label">Defender focus</div>
-          <ul class="list">
-            
-            <li>Implement monitoring for newly published extensions in Open VSX.</li>
-            
-            <li>Review and audit installed VS Code extensions for any that may be unverified or suspicious.</li>
-            
-            <li>Educate developers on the risks of installing extensions from untrusted sources.</li>
-            
-          </ul>
-        </div>
-
-        <div>
-          <div class="label">Do now</div>
-          <ul class="list">
-            
-            <li>Audit your current VS Code extensions for any that may be affected.</li>
-            
-            <li>Ensure that all development teams are aware of the recent vulnerability.</li>
-            
-            <li>Stay updated on Open VSX's security patches and recommendations.</li>
-            
-          </ul>
-        </div>
-
-        <div class="text-block"><span class="label">Watch next:</span> Monitor for updates from Open VSX regarding any further vulnerabilities or security enhancements.</div>
-
-        <div class="sources">
-          <div class="label">Sources</div>
-          
-            
-              <div>
-                <a href="https://thehackernews.com/2026/03/open-vsx-bug-let-malicious-vs-code.html" target="_blank" rel="noopener noreferrer">
-                  The Hacker News - Open VSX Bug Let Malicious VS Code Extensions Bypass Pre-Publish Security Checks
-                </a>
-              </div>
-            
-          
-        </div>
-      </article>
-            
-              <article class="card" style="--i: 1;">
-        <div class="meta">
-          <span class="chip risk-high">HIGH</span>
-          
-            <span class="chip label-chip">INDUSTRY SIGNAL</span>
-          
-          <span class="chip chip-neutral">Initial Access</span>
-          <span class="chip chip-neutral">Confidence LOW</span>
-        </div>
-        
-          <h3><a href="https://thehackernews.com/2026/03/teampcp-pushes-malicious-telnyx.html" target="_blank" rel="noopener noreferrer">TeamPCP Pushes Malicious Telnyx Versions to PyPI, Hides Stealer in WAV Files</a></h3>
-        
-        <p class="hook">The recent compromise of the Telnyx Python package poses a significant risk to developers and organizations relying on this library for sensitive operations.</p>
-        <div class="support-grid">
-          <div class="text-block"><span class="label">Who should care:</span> Development teams using the Telnyx Python package and organizations that integrate it into their applications should be particularly vigilant.</div>
-          <div class="text-block"><span class="label">Attack path:</span> An attacker gains leverage by distributing malicious package versions that appear legitimate, allowing them to harvest credentials from unsuspecting users.</div>
-        </div>
-        <div class="text-block"><span class="label">Why this matters now:</span> Useful context for teams tracking where attacker pressure is building.</div>
-        <div class="text-block"><span class="label">In plain English:</span> Malicious versions of the Telnyx package on PyPI are designed to steal credentials from users.</div>
-        
-          <div class="tags">
-            
-              <span>supply chain</span>
-            
-              <span>malware</span>
-            
-              <span>python</span>
-            
-          </div>
-        
-        <ul class="story-list">
-          
-            <li>TeamPCP has pushed two malicious versions (4.87.1 and 4.87.2) of the Telnyx Python package to the Python Package Index (PyPI). These versions contain hidden credential harvesting capabilities embedded within a .WAV file.</li>
-          
-            <li>This attack exploits the trust developers place in widely used libraries, potentially leading to unauthorized access to sensitive data. Organizations using these compromised versions may face data breaches and compliance issues.</li>
-          
-            <li>An attacker gains leverage by distributing malicious package versions that appear legitimate, allowing them to harvest credentials from unsuspecting users.</li>
-          
-            <li>Watch next: Monitor for updates from PyPI regarding the removal of these malicious packages and any advisories from security vendors.</li>
-          
-        </ul>
-
-        
-          <div class="glossary">
-            <div class="label">Key terms</div>
-            <ul class="list">
-            
-              <li>PyPI - Python Package Index, a repository for Python software packages.</li>
-            
-              <li>Credential Harvesting - the act of stealing user credentials, such as usernames and passwords.</li>
-            
-            </ul>
-          </div>
-        
-
-        <div>
-          <div class="label">Defender focus</div>
-          <ul class="list">
-            
-            <li>Implement monitoring for unusual package installations in development environments.</li>
-            
-            <li>Review and audit dependencies for any use of the Telnyx package.</li>
-            
-            <li>Educate developers on verifying package integrity before installation.</li>
-            
-          </ul>
-        </div>
-
-        <div>
-          <div class="label">Do now</div>
-          <ul class="list">
-            
-            <li>Immediately remove any instances of the malicious Telnyx package from your systems.</li>
-            
-            <li>Update your development environments to use safe versions of the Telnyx package.</li>
-            
-            <li>Conduct a security review to assess any potential data exposure.</li>
-            
-          </ul>
-        </div>
-
-        <div class="text-block"><span class="label">Watch next:</span> Monitor for updates from PyPI regarding the removal of these malicious packages and any advisories from security vendors.</div>
-
-        <div class="sources">
-          <div class="label">Sources</div>
-          
-            
-              <div>
-                <a href="https://thehackernews.com/2026/03/teampcp-pushes-malicious-telnyx.html" target="_blank" rel="noopener noreferrer">
-                  The Hacker News - TeamPCP Pushes Malicious Telnyx Versions to PyPI, Hides Stealer in WAV Files
-                </a>
-              </div>
-            
-          
-        </div>
-      </article>
-            
-              <article class="card" style="--i: 2;">
-        <div class="meta">
-          <span class="chip risk-high">HIGH</span>
-          
-            <span class="chip label-chip">INDUSTRY SIGNAL</span>
-          
-          <span class="chip chip-neutral">Initial Access</span>
-          <span class="chip chip-neutral">Confidence LOW</span>
-        </div>
-        
-          <h3><a href="https://www.bleepingcomputer.com/news/security/backdoored-telnyx-pypi-package-pushes-malware-hidden-in-wav-audio/" target="_blank" rel="noopener noreferrer">Backdoored Telnyx PyPI package pushes malware hidden in WAV audio</a></h3>
-        
-        <p class="hook">The compromise of a widely used Telnyx PyPI package poses immediate risks of credential theft for developers and organizations relying on this software.</p>
-        <div class="support-grid">
-          <div class="text-block"><span class="label">Who should care:</span> Development teams using the Telnyx package or similar Python packages should be particularly vigilant.</div>
-          <div class="text-block"><span class="label">Attack path:</span> Attackers gain leverage by distributing malicious packages through trusted repositories, exploiting developers' reliance on these resources.</div>
-        </div>
-        <div class="text-block"><span class="label">Why this matters now:</span> Useful context for teams tracking where attacker pressure is building.</div>
-        <div class="text-block"><span class="label">In plain English:</span> Malicious versions of a Telnyx package on PyPI deliver malware through WAV files, targeting developers.</div>
-        
-          <div class="tags">
-            
-              <span>malware</span>
-            
-              <span>pypi</span>
-            
-              <span>credential theft</span>
-            
-          </div>
-        
-        <ul class="story-list">
-          
-            <li>The TeamPCP hacking group compromised the Telnyx package on the Python Package Index (PyPI) by uploading backdoored versions. These malicious packages contain credential-stealing malware concealed within WAV audio files.</li>
-          
-            <li>This incident highlights the vulnerabilities in software supply chains, particularly for developers who may unknowingly install compromised packages. The malware's ability to steal credentials can lead to unauthorized access and data breaches, impacting both individual developers and their organizations.</li>
-          
-            <li>Attackers gain leverage by distributing malicious packages through trusted repositories, exploiting developers' reliance on these resources.</li>
-          
-            <li>Watch next: Monitor for updates from Telnyx and PyPI regarding the incident and any patches or mitigations.</li>
-          
-        </ul>
-
-        
-          <div class="glossary">
-            <div class="label">Key terms</div>
-            <ul class="list">
-            
-              <li>PyPI - Python Package Index, a repository for software packages written in Python.</li>
-            
-              <li>Backdoor - a method of bypassing normal authentication or securing unauthorized remote access to a computer.</li>
-            
-            </ul>
-          </div>
-        
-
-        <div>
-          <div class="label">Defender focus</div>
-          <ul class="list">
-            
-            <li>Implement monitoring for unusual package installations in development environments.</li>
-            
-            <li>Review and audit installed packages for integrity and authenticity.</li>
-            
-            <li>Educate developers on verifying package sources and checking for known vulnerabilities.</li>
-            
-          </ul>
-        </div>
-
-        <div>
-          <div class="label">Do now</div>
-          <ul class="list">
-            
-            <li>Immediately review and remove any Telnyx packages installed from PyPI.</li>
-            
-            <li>Implement a process for verifying package integrity before installation.</li>
-            
-            <li>Stay updated on security advisories related to PyPI and the Telnyx package.</li>
-            
-          </ul>
-        </div>
-
-        <div class="text-block"><span class="label">Watch next:</span> Monitor for updates from Telnyx and PyPI regarding the incident and any patches or mitigations.</div>
-
-        <div class="sources">
-          <div class="label">Sources</div>
-          
-            
-              <div>
-                <a href="https://www.bleepingcomputer.com/news/security/backdoored-telnyx-pypi-package-pushes-malware-hidden-in-wav-audio/" target="_blank" rel="noopener noreferrer">
-                  BleepingComputer - Backdoored Telnyx PyPI package pushes malware hidden in WAV audio
-                </a>
-              </div>
-            
-          
-        </div>
-      </article>
-            
-          </div>
+          <p class="empty">No additional top stories.</p>
         
       </section>
 
@@ -847,106 +532,7 @@
           Wider Signal
         </div>
         
-          <div class="grid">
-            
-              <article class="card" style="--i: 0;">
-        <div class="meta">
-          <span class="chip risk-high">HIGH</span>
-          
-            <span class="chip label-chip">INDUSTRY SIGNAL</span>
-          
-          <span class="chip chip-neutral">Initial Access</span>
-          <span class="chip chip-neutral">Confidence LOW</span>
-        </div>
-        
-          <h3><a href="https://thehackernews.com/2026/03/ta446-deploys-leaked-darksword-ios.html" target="_blank" rel="noopener noreferrer">TA446 Deploys Leaked DarkSword iOS Exploit Kit in Targeted Spear-Phishing Campaign</a></h3>
-        
-        <p class="hook">The deployment of the DarkSword exploit kit by TA446 poses a significant threat to iOS users, potentially leading to severe data breaches.</p>
-        <div class="support-grid">
-          <div class="text-block"><span class="label">Who should care:</span> iOS device users, particularly within organizations that handle sensitive data.</div>
-          <div class="text-block"><span class="label">Attack path:</span> Attackers gain leverage by sending spear-phishing emails that contain malicious links or attachments, which, when interacted with, exploit vulnerabilities in iOS devices.</div>
-        </div>
-        <div class="text-block"><span class="label">Why this matters now:</span> Useful context for teams tracking where attacker pressure is building.</div>
-        <div class="text-block"><span class="label">In plain English:</span> TA446 is using a new exploit kit to target iOS devices through spear-phishing emails.</div>
-        
-          <div class="tags">
-            
-              <span>ransomware</span>
-            
-              <span>cve</span>
-            
-              <span>cloud</span>
-            
-          </div>
-        
-        <ul class="story-list">
-          
-            <li>Proofpoint reported that the Russian state-sponsored group TA446 is conducting a targeted email campaign utilizing the DarkSword exploit kit. This kit has recently been leaked and is specifically designed to exploit vulnerabilities in iOS devices.</li>
-          
-            <li>The use of the DarkSword exploit kit can lead to unauthorized access to sensitive information on iOS devices, impacting both personal and organizational data security. Given the group's state-sponsored nature, the potential for widespread targeting increases the urgency for protective measures.</li>
-          
-            <li>Attackers gain leverage by sending spear-phishing emails that contain malicious links or attachments, which, when interacted with, exploit vulnerabilities in iOS devices.</li>
-          
-            <li>Watch next: Monitor for any updates from Apple regarding patches for the vulnerabilities exploited by DarkSword.</li>
-          
-        </ul>
-
-        
-          <div class="glossary">
-            <div class="label">Key terms</div>
-            <ul class="list">
-            
-              <li>Spear-Phishing - a targeted attempt to steal sensitive information such as account credentials or financial information from a specific individual, often for malicious reasons.</li>
-            
-              <li>Exploit Kit - a toolkit used by attackers to exploit vulnerabilities in software applications to deliver malware.</li>
-            
-            </ul>
-          </div>
-        
-
-        <div>
-          <div class="label">Defender focus</div>
-          <ul class="list">
-            
-            <li>Implement email filtering to detect and block spear-phishing attempts.</li>
-            
-            <li>Ensure all iOS devices are updated with the latest security patches.</li>
-            
-            <li>Monitor network traffic for unusual activity that may indicate exploitation attempts.</li>
-            
-          </ul>
-        </div>
-
-        <div>
-          <div class="label">Do now</div>
-          <ul class="list">
-            
-            <li>Update iOS devices immediately to the latest version.</li>
-            
-            <li>Enhance email security measures to filter out potential phishing emails.</li>
-            
-            <li>Educate users on recognizing suspicious emails and links.</li>
-            
-          </ul>
-        </div>
-
-        <div class="text-block"><span class="label">Watch next:</span> Monitor for any updates from Apple regarding patches for the vulnerabilities exploited by DarkSword.</div>
-
-        <div class="sources">
-          <div class="label">Sources</div>
-          
-            
-              <div>
-                <a href="https://thehackernews.com/2026/03/ta446-deploys-leaked-darksword-ios.html" target="_blank" rel="noopener noreferrer">
-                  The Hacker News - TA446 Deploys Leaked DarkSword iOS Exploit Kit in Targeted Spear-Phishing Campaign
-                </a>
-              </div>
-            
-          
-        </div>
-      </article>
-            
-          </div>
+          <p class="empty">No context stories today.</p>
         
       </section>
     </main>
