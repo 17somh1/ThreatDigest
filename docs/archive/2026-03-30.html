@@ -3,7 +3,7 @@
   <head>
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1" />
-    <title>Threat Digest - 2026-03-16</title>
+    <title>Threat Digest - 2026-03-30</title>
     <style>
       @import url("https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,600;9..144,700&family=Space+Grotesk:wght@400;500;600&display=swap");
 
@@ -373,13 +373,13 @@
 
     <header>
       <div class="eyebrow">Daily Threat Briefing</div>
-      <h1>Threat Digest - 2026-03-16</h1>
+      <h1>Threat Digest - 2026-03-30</h1>
       <p class="subtitle">
         The security news worth your attention, with context and practical takeaways.
       </p>
       <div class="meta-bar">
-        <span>Updated: 2026-03-16 13:46 UTC</span>
-        <span>Stories: 1</span>
+        <span>Updated: 2026-03-30 09:05 UTC</span>
+        <span>Stories: 2</span>
         <span>Recent issues: 14</span>
       </div>
     </header>
@@ -389,7 +389,7 @@
         <section class="one-liner">
           <h2>What Matters Today</h2>
           
-            <p class="text-block">IT security teams must urgently patch Windows 11 to mitigate a critical remote code execution vulnerability.</p>
+            <p class="text-block">Attackers are actively exploiting critical vulnerabilities in widely used software, necessitating immediate defensive measures from affected organizations.</p>
           
         </section>
 
@@ -398,11 +398,11 @@
           
             <ul>
               
-              <li>Immediate patching is essential to prevent exploitation of vulnerabilities.</li>
+              <li>Increased exploitation of critical vulnerabilities is putting pressure on IT security teams to patch systems quickly.</li>
               
-              <li>Defenders face increased workload due to the need for rapid deployment of hotfixes.</li>
+              <li>Widespread vulnerabilities in popular plugins highlight the need for proactive security assessments in web applications.</li>
               
-              <li>Attackers are likely to target unpatched systems, increasing risk for organizations.</li>
+              <li>The risk of data breaches is rising as attackers target known flaws in widely deployed software solutions.</li>
               
             </ul>
           
@@ -418,45 +418,43 @@
           <div class="grid">
             <article class="card" style="--i: 0;">
         <div class="meta">
-          <span class="chip risk-medium">MEDIUM</span>
-          
-            <span class="chip label-chip">PATCH RELEASE</span>
+          <span class="chip risk-high">HIGH</span>
           
             <span class="chip label-chip">LEGAL POLICY</span>
           
-          <span class="chip chip-neutral">Execution</span>
+          <span class="chip chip-neutral">Initial Access</span>
           <span class="chip chip-neutral">Confidence LOW</span>
         </div>
         
-          <h3><a href="https://www.bleepingcomputer.com/news/microsoft/microsoft-releases-windows-11-oob-hotpatch-to-fix-rras-rce-flaw/" target="_blank" rel="noopener noreferrer">Microsoft releases Windows 11 OOB hotpatch to fix RRAS RCE flaw</a></h3>
+          <h3><a href="https://www.bleepingcomputer.com/news/security/critical-fortinet-forticlient-ems-flaw-now-exploited-in-attacks/" target="_blank" rel="noopener noreferrer">Critical Fortinet Forticlient EMS flaw now exploited in attacks</a></h3>
         
-        <p class="hook">Immediate patching is critical to prevent potential remote code execution on Windows 11 Enterprise devices.</p>
+        <p class="hook">Active exploitation of a critical vulnerability in Fortinet's FortiClient EMS could lead to unauthorized access and data breaches, making immediate action essential.</p>
         <div class="support-grid">
-          <div class="text-block"><span class="label">Who should care:</span> IT security teams managing Windows 11 Enterprise environments need to act swiftly to apply this update.</div>
-          <div class="text-block"><span class="label">Attack path:</span> An attacker could exploit the RRAS vulnerability to execute malicious code remotely, gaining control over affected systems without user interaction.</div>
+          <div class="text-block"><span class="label">Who should care:</span> IT security teams managing Fortinet products and organizations using FortiClient EMS should be particularly vigilant.</div>
+          <div class="text-block"><span class="label">Attack path:</span> Attackers can leverage this vulnerability to gain unauthorized access to systems running FortiClient EMS, allowing them to execute malicious actions.</div>
         </div>
-        <div class="text-block"><span class="label">Why this matters now:</span> A live patch or vendor fix gives defenders something concrete to validate.</div>
-        <div class="text-block"><span class="label">In plain English:</span> Microsoft has issued an urgent hotpatch for a serious vulnerability in Windows 11 that could allow attackers to execute code remotely.</div>
+        <div class="text-block"><span class="label">Why this matters now:</span> Useful context for teams tracking where attacker pressure is building.</div>
+        <div class="text-block"><span class="label">In plain English:</span> Fortinet's FortiClient EMS is being actively targeted due to a critical vulnerability.</div>
         
           <div class="tags">
             
               <span>cve</span>
             
-              <span>windows</span>
+              <span>fortinet</span>
             
-              <span>hotpatch</span>
+              <span>forticlient</span>
             
           </div>
         
         <ul class="story-list">
           
-            <li>Microsoft released an out-of-band hotpatch to address a remote code execution (RCE) vulnerability in the Routing and Remote Access Service (RRAS) on Windows 11 Enterprise devices. This update is crucial for systems that utilize hotpatch updates instead of the standard Patch Tuesday updates.</li>
+            <li>Threat intelligence reports indicate that attackers are exploiting a critical vulnerability in Fortinet's FortiClient EMS platform. This flaw allows unauthorized access to systems, potentially leading to data breaches and other malicious activities.</li>
           
-            <li>If exploited, this vulnerability could allow attackers to execute arbitrary code on affected systems, potentially leading to data breaches or system compromise. Organizations using Windows 11 Enterprise should prioritize applying this hotpatch to mitigate risks.</li>
+            <li>The exploitation of this vulnerability poses a significant risk to organizations using FortiClient EMS, as it can lead to unauthorized access and compromise sensitive data. Immediate remediation is necessary to prevent potential breaches and maintain security integrity.</li>
           
-            <li>An attacker could exploit the RRAS vulnerability to execute malicious code remotely, gaining control over affected systems without user interaction.</li>
+            <li>Attackers can leverage this vulnerability to gain unauthorized access to systems running FortiClient EMS, allowing them to execute malicious actions.</li>
           
-            <li>Watch next: Monitor for any follow-up patches or advisories from Microsoft regarding additional vulnerabilities in Windows 11.</li>
+            <li>Watch next: Monitor for updates from Fortinet regarding patches or mitigations for this vulnerability.</li>
           
         </ul>
 
@@ -465,9 +463,9 @@
             <div class="label">Key terms</div>
             <ul class="list">
             
-              <li>RCE - Remote Code Execution, a vulnerability that allows an attacker to run arbitrary code on a target system.</li>
+              <li>Vulnerability - a weakness in a system that can be exploited by attackers.</li>
             
-              <li>Hotpatch - An update that applies fixes to a system without requiring a full restart.</li>
+              <li>Exploitation - the act of taking advantage of a vulnerability to gain unauthorized access or cause harm.</li>
             
             </ul>
           </div>
@@ -477,11 +475,11 @@
           <div class="label">Defender focus</div>
           <ul class="list">
             
-            <li>Ensure the hotpatch is deployed across all Windows 11 Enterprise devices.</li>
+            <li>Implement monitoring for unusual access patterns in FortiClient EMS logs.</li>
             
-            <li>Monitor for any unusual network activity that may indicate exploitation attempts.</li>
+            <li>Ensure all FortiClient EMS installations are updated with the latest security patches.</li>
             
-            <li>Review logs for any unauthorized access attempts related to RRAS services.</li>
+            <li>Review and tighten access controls for systems using FortiClient EMS.</li>
             
           </ul>
         </div>
@@ -490,24 +488,24 @@
           <div class="label">Do now</div>
           <ul class="list">
             
-            <li>Immediately apply the Microsoft hotpatch to all affected systems.</li>
+            <li>Patch FortiClient EMS immediately to mitigate the vulnerability.</li>
             
-            <li>Verify that all systems are updated and functioning correctly post-patch.</li>
+            <li>Conduct a security audit of systems using FortiClient EMS.</li>
             
-            <li>Educate the IT team on the implications of the RRAS vulnerability and the importance of timely updates.</li>
+            <li>Educate staff on recognizing potential signs of exploitation.</li>
             
           </ul>
         </div>
 
-        <div class="text-block"><span class="label">Watch next:</span> Monitor for any follow-up patches or advisories from Microsoft regarding additional vulnerabilities in Windows 11.</div>
+        <div class="text-block"><span class="label">Watch next:</span> Monitor for updates from Fortinet regarding patches or mitigations for this vulnerability.</div>
 
         <div class="sources">
           <div class="label">Sources</div>
           
             
               <div>
-                <a href="https://www.bleepingcomputer.com/news/microsoft/microsoft-releases-windows-11-oob-hotpatch-to-fix-rras-rce-flaw/" target="_blank" rel="noopener noreferrer">
-                  BleepingComputer - Microsoft releases Windows 11 OOB hotpatch to fix RRAS RCE flaw
+                <a href="https://www.bleepingcomputer.com/news/security/critical-fortinet-forticlient-ems-flaw-now-exploited-in-attacks/" target="_blank" rel="noopener noreferrer">
+                  BleepingComputer - Critical Fortinet Forticlient EMS flaw now exploited in attacks
                 </a>
               </div>
             
@@ -524,7 +522,106 @@
           Priority Watchlist
         </div>
         
-          <p class="empty">No additional top stories.</p>
+          <div class="grid">
+            
+              <article class="card" style="--i: 0;">
+        <div class="meta">
+          <span class="chip risk-high">HIGH</span>
+          
+            <span class="chip label-chip">LEGAL POLICY</span>
+          
+          <span class="chip chip-neutral">Credential Access</span>
+          <span class="chip chip-neutral">Confidence LOW</span>
+        </div>
+        
+          <h3><a href="https://www.bleepingcomputer.com/news/security/file-read-flaw-in-smart-slider-plugin-impacts-500k-wordpress-sites/" target="_blank" rel="noopener noreferrer">File read flaw in Smart Slider plugin impacts 500K WordPress sites</a></h3>
+        
+        <p class="hook">The Smart Slider plugin vulnerability exposes sensitive files on over 500,000 WordPress sites, potentially leading to data breaches.</p>
+        <div class="support-grid">
+          <div class="text-block"><span class="label">Who should care:</span> WordPress site administrators using the Smart Slider plugin should prioritize this issue.</div>
+          <div class="text-block"><span class="label">Attack path:</span> An attacker could exploit this vulnerability by gaining subscriber-level access and then using it to read sensitive files stored on the server.</div>
+        </div>
+        <div class="text-block"><span class="label">Why this matters now:</span> Useful context for teams tracking where attacker pressure is building.</div>
+        <div class="text-block"><span class="label">In plain English:</span> A flaw in the Smart Slider plugin allows unauthorized access to server files on many WordPress sites.</div>
+        
+          <div class="tags">
+            
+              <span>wordpress</span>
+            
+              <span>vulnerability</span>
+            
+              <span>plugin</span>
+            
+          </div>
+        
+        <ul class="story-list">
+          
+            <li>A vulnerability was discovered in the Smart Slider 3 WordPress plugin that affects over 800,000 websites. This flaw allows subscriber-level users to read arbitrary files on the server, which could include sensitive information.</li>
+          
+            <li>If exploited, this vulnerability could lead to unauthorized access to sensitive data, impacting user privacy and organizational security. The widespread use of the plugin means that many sites are at risk, making it a significant concern for site administrators.</li>
+          
+            <li>An attacker could exploit this vulnerability by gaining subscriber-level access and then using it to read sensitive files stored on the server.</li>
+          
+            <li>Watch next: Monitor for updates from the plugin vendor regarding patches and mitigation strategies.</li>
+          
+        </ul>
+
+        
+          <div class="glossary">
+            <div class="label">Key terms</div>
+            <ul class="list">
+            
+              <li>Vulnerability - a weakness in a system that can be exploited by attackers.</li>
+            
+              <li>Plugin - a piece of software that adds specific features to an existing computer program.</li>
+            
+            </ul>
+          </div>
+        
+
+        <div>
+          <div class="label">Defender focus</div>
+          <ul class="list">
+            
+            <li>Identify and patch the Smart Slider plugin on all affected WordPress sites.</li>
+            
+            <li>Monitor for unusual file access patterns that may indicate exploitation.</li>
+            
+            <li>Review user roles and permissions to limit access to sensitive files.</li>
+            
+          </ul>
+        </div>
+
+        <div>
+          <div class="label">Do now</div>
+          <ul class="list">
+            
+            <li>Immediately update the Smart Slider plugin to the latest version.</li>
+            
+            <li>Audit user roles and permissions on affected WordPress sites.</li>
+            
+            <li>Implement monitoring for unauthorized file access.</li>
+            
+          </ul>
+        </div>
+
+        <div class="text-block"><span class="label">Watch next:</span> Monitor for updates from the plugin vendor regarding patches and mitigation strategies.</div>
+
+        <div class="sources">
+          <div class="label">Sources</div>
+          
+            
+              <div>
+                <a href="https://www.bleepingcomputer.com/news/security/file-read-flaw-in-smart-slider-plugin-impacts-500k-wordpress-sites/" target="_blank" rel="noopener noreferrer">
+                  BleepingComputer - File read flaw in Smart Slider plugin impacts 500K WordPress sites
+                </a>
+              </div>
+            
+          
+        </div>
+      </article>
+            
+          </div>
         
       </section>
 
@@ -543,33 +640,33 @@
       <strong>Recent Issues</strong>
       <div class="archive-list">
         
-        <a href="archive/2026-03-16.html">2026-03-16</a>
+        <a href="archive/2026-03-30.html">2026-03-30</a>
         
-        <a href="archive/2026-03-15.html">2026-03-15</a>
+        <a href="archive/2026-03-29.html">2026-03-29</a>
         
-        <a href="archive/2026-03-14.html">2026-03-14</a>
+        <a href="archive/2026-03-28.html">2026-03-28</a>
         
-        <a href="archive/2026-03-13.html">2026-03-13</a>
+        <a href="archive/2026-03-27.html">2026-03-27</a>
         
-        <a href="archive/2026-03-12.html">2026-03-12</a>
+        <a href="archive/2026-03-26.html">2026-03-26</a>
         
-        <a href="archive/2026-03-11.html">2026-03-11</a>
+        <a href="archive/2026-03-25.html">2026-03-25</a>
         
-        <a href="archive/2026-03-10.html">2026-03-10</a>
+        <a href="archive/2026-03-24.html">2026-03-24</a>
         
-        <a href="archive/2026-03-09.html">2026-03-09</a>
+        <a href="archive/2026-03-23.html">2026-03-23</a>
         
-        <a href="archive/2026-03-08.html">2026-03-08</a>
+        <a href="archive/2026-03-22.html">2026-03-22</a>
         
-        <a href="archive/2026-03-07.html">2026-03-07</a>
+        <a href="archive/2026-03-21.html">2026-03-21</a>
         
-        <a href="archive/2026-03-06.html">2026-03-06</a>
+        <a href="archive/2026-03-20.html">2026-03-20</a>
         
-        <a href="archive/2026-03-05.html">2026-03-05</a>
+        <a href="archive/2026-03-19.html">2026-03-19</a>
         
-        <a href="archive/2026-03-04.html">2026-03-04</a>
+        <a href="archive/2026-03-18.html">2026-03-18</a>
         
-        <a href="archive/2026-03-03.html">2026-03-03</a>
+        <a href="archive/2026-03-17.html">2026-03-17</a>
         
       </div>
     </aside>
