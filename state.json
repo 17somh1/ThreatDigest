@@ -1,5 +1,5 @@
 {
-  "last_run_utc": "2026-03-30T09:05:18.220911+00:00",
+  "last_run_utc": "2026-03-30T13:54:18.440295+00:00",
   "processed_urls": [
     "https://www.bleepingcomputer.com/news/security/critical-cisco-sd-wan-bug-exploited-in-zero-day-attacks-since-2023/",
     "https://www.cisa.gov/news-events/alerts/2026/02/25/cisa-and-partners-release-guidance-ongoing-global-exploitation-cisco-sd-wan-systems",
@@ -215,6 +215,8 @@
     "https://thehackernews.com/2026/03/open-vsx-bug-let-malicious-vs-code.html",
     "https://thehackernews.com/2026/03/citrix-netscaler-under-active-recon-for.html",
     "https://www.bleepingcomputer.com/news/security/critical-fortinet-forticlient-ems-flaw-now-exploited-in-attacks/",
-    "https://www.bleepingcomputer.com/news/security/file-read-flaw-in-smart-slider-plugin-impacts-500k-wordpress-sites/"
+    "https://www.bleepingcomputer.com/news/security/file-read-flaw-in-smart-slider-plugin-impacts-500k-wordpress-sites/",
+    "https://thehackernews.com/2026/03/russian-ctrl-toolkit-delivered-via.html",
+    "https://www.bleepingcomputer.com/news/security/hackers-now-exploit-critical-f5-big-ip-flaw-in-attacks-patch-now/"
   ]
 }
