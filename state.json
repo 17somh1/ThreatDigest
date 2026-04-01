@@ -1,5 +1,5 @@
 {
-  "last_run_utc": "2026-04-01T08:57:02.707833+00:00",
+  "last_run_utc": "2026-04-01T13:57:07.071491+00:00",
   "processed_urls": [
     "https://www.bleepingcomputer.com/news/security/critical-cisco-sd-wan-bug-exploited-in-zero-day-attacks-since-2023/",
     "https://www.cisa.gov/news-events/alerts/2026/02/25/cisa-and-partners-release-guidance-ongoing-global-exploitation-cisco-sd-wan-systems",
@@ -229,6 +229,9 @@
     "https://www.bleepingcomputer.com/news/security/google-drive-ransomware-detection-now-on-by-default-for-paying-users/",
     "https://www.bleepingcomputer.com/news/artificial-intelligence/claude-code-source-code-accidentally-leaked-in-npm-package/",
     "https://thehackernews.com/2026/04/google-attributes-axios-npm-supply.html",
-    "https://thehackernews.com/2026/04/claude-code-tleaked-via-npm-packaging.html"
+    "https://thehackernews.com/2026/04/claude-code-tleaked-via-npm-packaging.html",
+    "https://thehackernews.com/2026/04/new-chrome-zero-day-cve-2026-5281-under.html",
+    "https://www.bleepingcomputer.com/news/security/google-fixes-fourth-chrome-zero-day-exploited-in-attacks-in-2026/",
+    "https://thehackernews.com/2026/04/casbaneiro-phishing-targets-latin.html"
   ]
 }
