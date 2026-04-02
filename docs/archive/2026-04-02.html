@@ -378,8 +378,8 @@
         The security news worth your attention, with context and practical takeaways.
       </p>
       <div class="meta-bar">
-        <span>Updated: 2026-04-02 08:50 UTC</span>
-        <span>Stories: 6</span>
+        <span>Updated: 2026-04-02 13:47 UTC</span>
+        <span>Stories: 1</span>
         <span>Recent issues: 14</span>
       </div>
     </header>
@@ -389,7 +389,7 @@
         <section class="one-liner">
           <h2>What Matters Today</h2>
           
-            <p class="text-block">Organizations must urgently address newly identified vulnerabilities and evolving attack strategies to mitigate high-risk threats.</p>
+            <p class="text-block">A critical vulnerability in Cisco's IMC allows attackers to bypass authentication and gain full admin access, demanding immediate attention from network administrators.</p>
           
         </section>
 
@@ -398,11 +398,11 @@
           
             <ul>
               
-              <li>Active exploitation of known vulnerabilities is increasing pressure on organizations to prioritize patching.</li>
+              <li>Attackers are exploiting authentication weaknesses to escalate privileges rapidly.</li>
               
-              <li>Emerging services like EvilTokens are reshaping phishing tactics, elevating the risk of account hijacking.</li>
+              <li>Defenders face increased pressure to apply patches and validate security measures.</li>
               
-              <li>The use of valid credentials in intrusions signals a shift in attacker behavior that demands immediate defensive adjustments.</li>
+              <li>Network integrity is at risk, necessitating heightened vigilance in Cisco environments.</li>
               
             </ul>
           
@@ -420,43 +420,41 @@
         <div class="meta">
           <span class="chip risk-high">HIGH</span>
           
-            <span class="chip label-chip">ACTIVE EXPLOITATION</span>
+            <span class="chip label-chip">PATCH RELEASE</span>
           
-            <span class="chip label-chip">KEV ADDED</span>
-          
-          <span class="chip chip-neutral">Initial Access</span>
+          <span class="chip chip-neutral">Privilege Escalation</span>
           <span class="chip chip-neutral">Confidence LOW</span>
         </div>
         
-          <h3><a href="https://www.cisa.gov/news-events/alerts/2026/04/01/cisa-adds-one-known-exploited-vulnerability-catalog" target="_blank" rel="noopener noreferrer">CISA Adds One Known Exploited Vulnerability to Catalog</a></h3>
+          <h3><a href="https://www.bleepingcomputer.com/news/security/critical-cisco-imc-auth-bypass-gives-attackers-admin-access/" target="_blank" rel="noopener noreferrer">Critical Cisco IMC auth bypass gives attackers Admin access</a></h3>
         
-        <p class="hook">The addition of CVE-2026-5281 to CISA's KEV Catalog signals an urgent need for organizations to address this actively exploited vulnerability to prevent potential breaches.</p>
+        <p class="hook">The recent authentication bypass vulnerability in Cisco's IMC could allow attackers to gain full administrative access, posing a significant risk to network integrity.</p>
         <div class="support-grid">
-          <div class="text-block"><span class="label">Who should care:</span> Federal Civilian Executive Branch agencies and any organizations using affected Google products should prioritize this vulnerability.</div>
-          <div class="text-block"><span class="label">Attack path:</span> An attacker can exploit this vulnerability to execute arbitrary code, potentially gaining control over affected systems. This could lead to data theft or further infiltration into the network.</div>
+          <div class="text-block"><span class="label">Who should care:</span> Network and system administrators managing Cisco IMC environments should be particularly vigilant.</div>
+          <div class="text-block"><span class="label">Attack path:</span> An attacker can exploit the authentication bypass to gain admin access directly, allowing them to control the IMC and potentially the entire network.</div>
         </div>
-        <div class="text-block"><span class="label">Why this matters now:</span> KEV status shortens the acceptable patch window.</div>
-        <div class="text-block"><span class="label">In plain English:</span> CISA has identified a new critical vulnerability that is currently being exploited, requiring immediate attention from organizations.</div>
+        <div class="text-block"><span class="label">Why this matters now:</span> A live patch or vendor fix gives defenders something concrete to validate.</div>
+        <div class="text-block"><span class="label">In plain English:</span> A critical vulnerability in Cisco's IMC allows unauthorized admin access, requiring immediate attention.</div>
         
           <div class="tags">
             
-              <span>cve</span>
+              <span>cisco</span>
             
               <span>vulnerability</span>
             
-              <span>federal</span>
+              <span>authentication bypass</span>
             
           </div>
         
         <ul class="story-list">
           
-            <li>CISA has added CVE-2026-5281, a Google Dawn Use-After-Free vulnerability, to its Known Exploited Vulnerabilities Catalog due to evidence of active exploitation. This vulnerability is recognized as a common attack vector for cybercriminals.</li>
+            <li>Cisco has released patches for multiple critical vulnerabilities, including an authentication bypass in the Integrated Management Controller (IMC). This flaw enables attackers to gain administrative privileges without proper authentication.</li>
           
-            <li>The exploitation of CVE-2026-5281 poses significant risks, particularly to federal agencies, as it can lead to unauthorized access and data breaches. Organizations that fail to remediate this vulnerability may face severe consequences, including operational disruptions and reputational damage.</li>
+            <li>If exploited, this vulnerability could allow attackers to manipulate network configurations, access sensitive data, and disrupt operations. Organizations using Cisco IMC should prioritize applying the patches to mitigate potential breaches.</li>
           
-            <li>An attacker can exploit this vulnerability to execute arbitrary code, potentially gaining control over affected systems. This could lead to data theft or further infiltration into the network.</li>
+            <li>An attacker can exploit the authentication bypass to gain admin access directly, allowing them to control the IMC and potentially the entire network.</li>
           
-            <li>Watch next: Monitor for updates from CISA regarding additional vulnerabilities added to the KEV Catalog and any recommended remediation timelines.</li>
+            <li>Watch next: Monitor for updates from Cisco regarding any additional vulnerabilities or patches related to IMC.</li>
           
         </ul>
 
@@ -465,9 +463,9 @@
             <div class="label">Key terms</div>
             <ul class="list">
             
-              <li>CVE - Common Vulnerabilities and Exposures, a list of publicly known cybersecurity vulnerabilities.</li>
+              <li>AUTHENTICATION BYPASS - a security flaw that allows unauthorized users to gain access without proper credentials.</li>
             
-              <li>Use-After-Free - A type of vulnerability that occurs when a program continues to use a memory location after it has been freed, potentially allowing attackers to exploit it.</li>
+              <li>ADMIN ACCESS - the highest level of permissions that allows full control over a system or application.</li>
             
             </ul>
           </div>
@@ -477,11 +475,11 @@
           <div class="label">Defender focus</div>
           <ul class="list">
             
-            <li>Implement monitoring for exploitation attempts targeting CVE-2026-5281.</li>
+            <li>Verify that all Cisco IMC systems are updated with the latest patches.</li>
             
-            <li>Ensure timely patching of affected systems to mitigate risks.</li>
+            <li>Monitor logs for any unauthorized access attempts or unusual activities.</li>
             
-            <li>Review and update incident response plans to include scenarios involving this vulnerability.</li>
+            <li>Implement network segmentation to limit access to critical systems.</li>
             
           </ul>
         </div>
@@ -490,24 +488,24 @@
           <div class="label">Do now</div>
           <ul class="list">
             
-            <li>Patch systems affected by CVE-2026-5281 immediately.</li>
+            <li>Immediately apply the latest patches from Cisco.</li>
             
-            <li>Conduct a vulnerability assessment to identify other potential risks.</li>
+            <li>Review access logs for any signs of exploitation.</li>
             
-            <li>Review security policies to ensure compliance with CISA's recommendations.</li>
+            <li>Enhance monitoring around Cisco IMC systems for suspicious activities.</li>
             
           </ul>
         </div>
 
-        <div class="text-block"><span class="label">Watch next:</span> Monitor for updates from CISA regarding additional vulnerabilities added to the KEV Catalog and any recommended remediation timelines.</div>
+        <div class="text-block"><span class="label">Watch next:</span> Monitor for updates from Cisco regarding any additional vulnerabilities or patches related to IMC.</div>
 
         <div class="sources">
           <div class="label">Sources</div>
           
             
               <div>
-                <a href="https://www.cisa.gov/news-events/alerts/2026/04/01/cisa-adds-one-known-exploited-vulnerability-catalog" target="_blank" rel="noopener noreferrer">
-                  Alerts - CISA Adds One Known Exploited Vulnerability to Catalog
+                <a href="https://www.bleepingcomputer.com/news/security/critical-cisco-imc-auth-bypass-gives-attackers-admin-access/" target="_blank" rel="noopener noreferrer">
+                  BleepingComputer - Critical Cisco IMC auth bypass gives attackers Admin access
                 </a>
               </div>
             
@@ -524,302 +522,7 @@
           Priority Watchlist
         </div>
         
-          <div class="grid">
-            
-              <article class="card" style="--i: 0;">
-        <div class="meta">
-          <span class="chip risk-medium">MEDIUM</span>
-          
-            <span class="chip label-chip">ACTIVE EXPLOITATION</span>
-          
-            <span class="chip label-chip">PATCH RELEASE</span>
-          
-          <span class="chip chip-neutral">Initial Access</span>
-          <span class="chip chip-neutral">Confidence LOW</span>
-        </div>
-        
-          <h3><a href="https://www.bleepingcomputer.com/news/security/apple-expands-ios-18-updates-to-more-iphones-to-block-darksword-attacks/" target="_blank" rel="noopener noreferrer">Apple expands iOS 18 updates to more iPhones to block DarkSword attacks</a></h3>
-        
-        <p class="hook">The expansion of iOS 18 updates is critical as it directly mitigates the risk of DarkSword attacks, which are currently being exploited in the wild.</p>
-        <div class="support-grid">
-          <div class="text-block"><span class="label">Who should care:</span> iPhone users, particularly those with older models still running iOS 18, should prioritize these updates.</div>
-          <div class="text-block"><span class="label">Attack path:</span> Attackers leverage the DarkSword exploit kit to gain unauthorized access to iPhones, potentially leading to data theft or device control.</div>
-        </div>
-        <div class="text-block"><span class="label">Why this matters now:</span> Active exploitation makes this an immediate exposure check. A live patch or vendor fix gives defenders something concrete to validate.</div>
-        <div class="text-block"><span class="label">In plain English:</span> Apple is rolling out security updates for more iPhones to protect against the DarkSword exploit kit.</div>
-        
-          <div class="tags">
-            
-              <span>exploit</span>
-            
-              <span>ios</span>
-            
-              <span>security</span>
-            
-          </div>
-        
-        <ul class="story-list">
-          
-            <li>Apple has expanded the availability of iOS 18 security updates to a broader range of iPhones. This update specifically addresses vulnerabilities exploited by the DarkSword exploit kit, which has been actively targeting devices.</li>
-          
-            <li>The DarkSword exploit kit poses a significant threat as it can compromise devices and lead to data breaches. By ensuring more devices receive these updates, Apple is reducing the potential attack surface and protecting user data.</li>
-          
-            <li>Attackers leverage the DarkSword exploit kit to gain unauthorized access to iPhones, potentially leading to data theft or device control.</li>
-          
-            <li>Watch next: Monitor for user reports of successful updates and any emerging vulnerabilities related to the DarkSword exploit kit.</li>
-          
-        </ul>
-
-        
-          <div class="glossary">
-            <div class="label">Key terms</div>
-            <ul class="list">
-            
-              <li>DarkSword - a type of exploit kit used by attackers to compromise devices and exploit vulnerabilities.</li>
-            
-              <li>iOS 18 - the version of Apple's mobile operating system that includes security features and updates.</li>
-            
-            </ul>
-          </div>
-        
-
-        <div>
-          <div class="label">Defender focus</div>
-          <ul class="list">
-            
-            <li>Ensure all iPhones in your environment are updated to the latest iOS 18 version.</li>
-            
-            <li>Monitor for any unusual activity that may indicate exploitation attempts using the DarkSword kit.</li>
-            
-            <li>Educate users on the importance of keeping their devices updated to mitigate risks.</li>
-            
-          </ul>
-        </div>
-
-        <div>
-          <div class="label">Do now</div>
-          <ul class="list">
-            
-            <li>Verify that all iPhones are updated to the latest iOS 18 version.</li>
-            
-            <li>Implement monitoring for any signs of DarkSword exploitation attempts.</li>
-            
-            <li>Communicate the importance of timely updates to all iPhone users.</li>
-            
-          </ul>
-        </div>
-
-        <div class="text-block"><span class="label">Watch next:</span> Monitor for user reports of successful updates and any emerging vulnerabilities related to the DarkSword exploit kit.</div>
-
-        <div class="sources">
-          <div class="label">Sources</div>
-          
-            
-              <div>
-                <a href="https://www.bleepingcomputer.com/news/security/apple-expands-ios-18-updates-to-more-iphones-to-block-darksword-attacks/" target="_blank" rel="noopener noreferrer">
-                  BleepingComputer - Apple expands iOS 18 updates to more iPhones to block DarkSword attacks
-                </a>
-              </div>
-            
-          
-        </div>
-      </article>
-            
-              <article class="card" style="--i: 1;">
-        <div class="meta">
-          <span class="chip risk-high">HIGH</span>
-          
-            <span class="chip label-chip">PATCH RELEASE</span>
-          
-          <span class="chip chip-neutral">Execution</span>
-          <span class="chip chip-neutral">Confidence LOW</span>
-        </div>
-        
-          <h3><a href="https://www.bleepingcomputer.com/news/security/hackers-exploit-trueconf-zero-day-to-push-malicious-software-updates/" target="_blank" rel="noopener noreferrer">Hackers exploit TrueConf zero-day to push malicious software updates</a></h3>
-        
-        <p class="hook">Hackers are exploiting a zero-day vulnerability in TrueConf, potentially compromising sensitive conference communications and data.</p>
-        <div class="support-grid">
-          <div class="text-block"><span class="label">Who should care:</span> IT security teams and organizations using TrueConf for video conferencing should be on high alert.</div>
-          <div class="text-block"><span class="label">Attack path:</span> Attackers gain leverage by exploiting the zero-day vulnerability to push malicious updates, allowing them to execute arbitrary code on user devices.</div>
-        </div>
-        <div class="text-block"><span class="label">Why this matters now:</span> A live patch or vendor fix gives defenders something concrete to validate.</div>
-        <div class="text-block"><span class="label">In plain English:</span> A zero-day vulnerability in TrueConf is being actively exploited to deliver malicious updates to users.</div>
-        
-          <div class="tags">
-            
-              <span>zero day</span>
-            
-              <span>trueconf</span>
-            
-              <span>malware</span>
-            
-          </div>
-        
-        <ul class="story-list">
-          
-            <li>Hackers have targeted TrueConf conference servers by exploiting a zero-day vulnerability that allows them to execute arbitrary files on connected endpoints. This means that any device using TrueConf could be at risk of receiving malicious software updates.</li>
-          
-            <li>The exploitation of this vulnerability could lead to unauthorized access to sensitive information shared during conferences, impacting both organizational security and user privacy. Organizations using TrueConf should be particularly vigilant as the attacks could escalate quickly.</li>
-          
-            <li>Attackers gain leverage by exploiting the zero-day vulnerability to push malicious updates, allowing them to execute arbitrary code on user devices.</li>
-          
-            <li>Watch next: Monitor for any official patches or updates from TrueConf and observe user reports of unusual activity.</li>
-          
-        </ul>
-
-        
-          <div class="glossary">
-            <div class="label">Key terms</div>
-            <ul class="list">
-            
-              <li>Zero-day - a vulnerability that is exploited before the vendor has released a fix.</li>
-            
-              <li>Arbitrary code execution - a type of attack where the attacker can run any code on a target system.</li>
-            
-            </ul>
-          </div>
-        
-
-        <div>
-          <div class="label">Defender focus</div>
-          <ul class="list">
-            
-            <li>Implement network segmentation to limit the impact of potential breaches.</li>
-            
-            <li>Monitor logs for unusual update requests or file executions related to TrueConf.</li>
-            
-            <li>Ensure all TrueConf installations are updated with the latest security patches as soon as they are available.</li>
-            
-          </ul>
-        </div>
-
-        <div>
-          <div class="label">Do now</div>
-          <ul class="list">
-            
-            <li>Immediately assess the current version of TrueConf in use and check for updates.</li>
-            
-            <li>Communicate with users about the potential risks and advise them to avoid using the software until further notice.</li>
-            
-            <li>Prepare to deploy any patches released by TrueConf as soon as they are available.</li>
-            
-          </ul>
-        </div>
-
-        <div class="text-block"><span class="label">Watch next:</span> Monitor for any official patches or updates from TrueConf and observe user reports of unusual activity.</div>
-
-        <div class="sources">
-          <div class="label">Sources</div>
-          
-            
-              <div>
-                <a href="https://www.bleepingcomputer.com/news/security/hackers-exploit-trueconf-zero-day-to-push-malicious-software-updates/" target="_blank" rel="noopener noreferrer">
-                  BleepingComputer - Hackers exploit TrueConf zero-day to push malicious software updates
-                </a>
-              </div>
-            
-          
-        </div>
-      </article>
-            
-              <article class="card" style="--i: 2;">
-        <div class="meta">
-          <span class="chip risk-high">HIGH</span>
-          
-            <span class="chip label-chip">INDUSTRY SIGNAL</span>
-          
-          <span class="chip chip-neutral">Credential Access</span>
-          <span class="chip chip-neutral">Confidence LOW</span>
-        </div>
-        
-          <h3><a href="https://www.bleepingcomputer.com/news/security/new-eviltokens-service-fuels-microsoft-device-code-phishing-attacks/" target="_blank" rel="noopener noreferrer">New EvilTokens service fuels Microsoft device code phishing attacks</a></h3>
-        
-        <p class="hook">The emergence of the EvilTokens service significantly increases the risk of Microsoft account hijacking, which can lead to severe business email compromise incidents.</p>
-        <div class="support-grid">
-          <div class="text-block"><span class="label">Who should care:</span> IT security teams and organizations using Microsoft services are most exposed to this threat.</div>
-          <div class="text-block"><span class="label">Attack path:</span> Attackers can leverage the EvilTokens service to execute phishing campaigns that trick users into providing their Microsoft account credentials via device code prompts.</div>
-        </div>
-        <div class="text-block"><span class="label">Why this matters now:</span> Useful context for teams tracking where attacker pressure is building.</div>
-        <div class="text-block"><span class="label">In plain English:</span> A new phishing tool called EvilTokens targets Microsoft accounts, posing a serious threat to organizations.</div>
-        
-          <div class="tags">
-            
-              <span>phishing</span>
-            
-              <span>microsoft</span>
-            
-              <span>business email compromise</span>
-            
-          </div>
-        
-        <ul class="story-list">
-          
-            <li>A malicious service named EvilTokens has been identified, which specializes in device code phishing attacks against Microsoft accounts. This tool enables attackers to gain unauthorized access to accounts and enhances their capabilities for business email compromise.</li>
-          
-            <li>The ability to hijack Microsoft accounts can lead to unauthorized access to sensitive information and facilitate further attacks within organizations. Given the prevalence of Microsoft services in business environments, this poses a significant risk to data integrity and operational security.</li>
-          
-            <li>Attackers can leverage the EvilTokens service to execute phishing campaigns that trick users into providing their Microsoft account credentials via device code prompts.</li>
-          
-            <li>Watch next: Monitor for any updates from Microsoft regarding mitigations or patches related to this phishing technique.</li>
-          
-        </ul>
-
-        
-          <div class="glossary">
-            <div class="label">Key terms</div>
-            <ul class="list">
-            
-              <li>Device Code Phishing - a method where attackers trick users into entering authentication codes to gain access to their accounts.</li>
-            
-              <li>Business Email Compromise - a type of cybercrime where attackers impersonate a legitimate business to defraud individuals or organizations.</li>
-            
-            </ul>
-          </div>
-        
-
-        <div>
-          <div class="label">Defender focus</div>
-          <ul class="list">
-            
-            <li>Implement monitoring for unusual login attempts to Microsoft accounts.</li>
-            
-            <li>Enhance email filtering to detect and block phishing attempts related to device code prompts.</li>
-            
-            <li>Educate users on recognizing phishing attempts targeting Microsoft accounts.</li>
-            
-          </ul>
-        </div>
-
-        <div>
-          <div class="label">Do now</div>
-          <ul class="list">
-            
-            <li>Increase awareness of the EvilTokens phishing method among users.</li>
-            
-            <li>Review and strengthen authentication measures for Microsoft accounts.</li>
-            
-            <li>Stay updated on Microsoft’s response to this threat.</li>
-            
-          </ul>
-        </div>
-
-        <div class="text-block"><span class="label">Watch next:</span> Monitor for any updates from Microsoft regarding mitigations or patches related to this phishing technique.</div>
-
-        <div class="sources">
-          <div class="label">Sources</div>
-          
-            
-              <div>
-                <a href="https://www.bleepingcomputer.com/news/security/new-eviltokens-service-fuels-microsoft-device-code-phishing-attacks/" target="_blank" rel="noopener noreferrer">
-                  BleepingComputer - New EvilTokens service fuels Microsoft device code phishing attacks
-                </a>
-              </div>
-            
-          
-        </div>
-      </article>
-            
-          </div>
+          <p class="empty">No additional top stories.</p>
         
       </section>
 
@@ -829,203 +532,7 @@
           Wider Signal
         </div>
         
-          <div class="grid">
-            
-              <article class="card" style="--i: 0;">
-        <div class="meta">
-          <span class="chip risk-medium">MEDIUM</span>
-          
-            <span class="chip label-chip">INDUSTRY SIGNAL</span>
-          
-          <span class="chip chip-neutral">Initial Access</span>
-          <span class="chip chip-neutral">Confidence LOW</span>
-        </div>
-        
-          <h3><a href="https://www.bleepingcomputer.com/news/security/routine-access-is-powering-modern-intrusions-a-new-threat-report-finds/" target="_blank" rel="noopener noreferrer">Routine Access Is Powering Modern Intrusions, a New Threat Report Finds</a></h3>
-        
-        <p class="hook">The rise of intrusions using valid credentials highlights a critical shift in attack strategies that organizations must address immediately.</p>
-        <div class="support-grid">
-          <div class="text-block"><span class="label">Who should care:</span> IT security teams, network administrators, and organizations using VPNs or RMM tools are most exposed.</div>
-          <div class="text-block"><span class="label">Attack path:</span> Attackers often gain leverage by exploiting legitimate access methods, such as compromised credentials or misconfigured remote access tools, to infiltrate networks.</div>
-        </div>
-        <div class="text-block"><span class="label">Why this matters now:</span> Useful context for teams tracking where attacker pressure is building.</div>
-        <div class="text-block"><span class="label">In plain English:</span> Modern attacks are increasingly leveraging legitimate access methods, making traditional defenses less effective.</div>
-        
-          <div class="tags">
-            
-              <span>credential theft</span>
-            
-              <span>vpn</span>
-            
-              <span>rmm</span>
-            
-          </div>
-        
-        <ul class="story-list">
-          
-            <li>A new threat report from Blackpoint Cyber reveals that many modern intrusions begin with valid credentials rather than technical exploits. The report emphasizes the role of VPN abuse, remote monitoring and management (RMM) tools, and social engineering in these incidents.</li>
-          
-            <li>This shift means organizations need to reassess their security posture, as traditional defenses may not be sufficient against attacks that exploit legitimate access. The reliance on routine access can lead to significant data breaches and operational disruptions if not properly managed.</li>
-          
-            <li>Attackers often gain leverage by exploiting legitimate access methods, such as compromised credentials or misconfigured remote access tools, to infiltrate networks.</li>
-          
-            <li>Watch next: Monitor for updates from Blackpoint Cyber regarding specific attack vectors and recommendations for mitigation.</li>
-          
-        </ul>
-
-        
-          <div class="glossary">
-            <div class="label">Key terms</div>
-            <ul class="list">
-            
-              <li>VPN - a Virtual Private Network that creates a secure connection over the internet.</li>
-            
-              <li>RMM - Remote Monitoring and Management, tools used to remotely manage and monitor IT systems.</li>
-            
-            </ul>
-          </div>
-        
-
-        <div>
-          <div class="label">Defender focus</div>
-          <ul class="list">
-            
-            <li>Implement multi-factor authentication (MFA) for all remote access methods.</li>
-            
-            <li>Regularly audit and monitor VPN and RMM access logs for unusual activity.</li>
-            
-            <li>Educate staff on social engineering tactics to reduce the risk of credential theft.</li>
-            
-          </ul>
-        </div>
-
-        <div>
-          <div class="label">Do now</div>
-          <ul class="list">
-            
-            <li>Enable multi-factor authentication for all remote access.</li>
-            
-            <li>Conduct an audit of current VPN and RMM configurations.</li>
-            
-            <li>Provide training on recognizing social engineering attempts.</li>
-            
-          </ul>
-        </div>
-
-        <div class="text-block"><span class="label">Watch next:</span> Monitor for updates from Blackpoint Cyber regarding specific attack vectors and recommendations for mitigation.</div>
-
-        <div class="sources">
-          <div class="label">Sources</div>
-          
-            
-              <div>
-                <a href="https://www.bleepingcomputer.com/news/security/routine-access-is-powering-modern-intrusions-a-new-threat-report-finds/" target="_blank" rel="noopener noreferrer">
-                  BleepingComputer - Routine Access Is Powering Modern Intrusions, a New Threat Report Finds
-                </a>
-              </div>
-            
-          
-        </div>
-      </article>
-            
-              <article class="card" style="--i: 1;">
-        <div class="meta">
-          <span class="chip risk-high">HIGH</span>
-          
-            <span class="chip label-chip">INDUSTRY SIGNAL</span>
-          
-          <span class="chip chip-neutral">Initial Access</span>
-          <span class="chip chip-neutral">Confidence LOW</span>
-        </div>
-        
-          <h3><a href="https://thehackernews.com/2026/04/cert-ua-impersonation-campaign-spread.html" target="_blank" rel="noopener noreferrer">CERT-UA Impersonation Campaign Spread AGEWHEEZE Malware to 1 Million Emails</a></h3>
-        
-        <p class="hook">The impersonation of CERT-UA in a phishing campaign highlights a significant threat to organizations relying on trusted communications for cybersecurity updates.</p>
-        <div class="support-grid">
-          <div class="text-block"><span class="label">Who should care:</span> IT security teams and organizations that rely on CERT-UA for cybersecurity guidance are most exposed.</div>
-          <div class="text-block"><span class="label">Attack path:</span> Attackers gain leverage by exploiting the trust associated with CERT-UA, using social engineering to trick recipients into opening the malicious ZIP file.</div>
-        </div>
-        <div class="text-block"><span class="label">Why this matters now:</span> Useful context for teams tracking where attacker pressure is building.</div>
-        <div class="text-block"><span class="label">In plain English:</span> A phishing campaign impersonating Ukraine's CERT-UA has distributed malware to over a million emails.</div>
-        
-          <div class="tags">
-            
-              <span>phishing</span>
-            
-              <span>malware</span>
-            
-              <span>cert ua</span>
-            
-          </div>
-        
-        <ul class="story-list">
-          
-            <li>CERT-UA reported a phishing campaign where attackers impersonated the agency to distribute AGEWHEEZE malware. The campaign targeted over one million emails sent on March 26 and 27, 2026, using a password-protected ZIP file to deliver the malware.</li>
-          
-            <li>This campaign undermines trust in official communications and could lead to widespread malware infections. Organizations that fall victim may experience data breaches, operational disruptions, or financial losses.</li>
-          
-            <li>Attackers gain leverage by exploiting the trust associated with CERT-UA, using social engineering to trick recipients into opening the malicious ZIP file.</li>
-          
-            <li>Watch next: Monitor for updates from CERT-UA regarding the campaign's impact and any emerging indicators of compromise.</li>
-          
-        </ul>
-
-        
-          <div class="glossary">
-            <div class="label">Key terms</div>
-            <ul class="list">
-            
-              <li>Phishing - a method of trying to gather personal information using deceptive emails and websites.</li>
-            
-              <li>Malware - malicious software designed to harm, exploit, or otherwise compromise a computer system.</li>
-            
-            </ul>
-          </div>
-        
-
-        <div>
-          <div class="label">Defender focus</div>
-          <ul class="list">
-            
-            <li>Implement email filtering to detect and block phishing attempts.</li>
-            
-            <li>Monitor for unusual email activity related to CERT-UA communications.</li>
-            
-            <li>Educate users on recognizing phishing emails, especially those claiming to be from trusted sources.</li>
-            
-          </ul>
-        </div>
-
-        <div>
-          <div class="label">Do now</div>
-          <ul class="list">
-            
-            <li>Immediately review email filtering rules to enhance detection of phishing attempts.</li>
-            
-            <li>Conduct a security awareness session focusing on recognizing impersonation tactics.</li>
-            
-            <li>Stay updated on CERT-UA's communications for any further developments.</li>
-            
-          </ul>
-        </div>
-
-        <div class="text-block"><span class="label">Watch next:</span> Monitor for updates from CERT-UA regarding the campaign's impact and any emerging indicators of compromise.</div>
-
-        <div class="sources">
-          <div class="label">Sources</div>
-          
-            
-              <div>
-                <a href="https://thehackernews.com/2026/04/cert-ua-impersonation-campaign-spread.html" target="_blank" rel="noopener noreferrer">
-                  The Hacker News - CERT-UA Impersonation Campaign Spread AGEWHEEZE Malware to 1 Million Emails
-                </a>
-              </div>
-            
-          
-        </div>
-      </article>
-            
-          </div>
+          <p class="empty">No context stories today.</p>
         
       </section>
     </main>
