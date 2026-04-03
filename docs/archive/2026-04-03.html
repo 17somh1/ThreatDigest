@@ -378,8 +378,8 @@
         The security news worth your attention, with context and practical takeaways.
       </p>
       <div class="meta-bar">
-        <span>Updated: 2026-04-03 08:44 UTC</span>
-        <span>Stories: 3</span>
+        <span>Updated: 2026-04-03 13:22 UTC</span>
+        <span>Stories: 1</span>
         <span>Recent issues: 14</span>
       </div>
     </header>
@@ -389,7 +389,7 @@
         <section class="one-liner">
           <h2>What Matters Today</h2>
           
-            <p class="text-block">Organizations must urgently address newly identified vulnerabilities to prevent significant breaches as active exploitation is on the rise.</p>
+            <p class="text-block">The npm supply chain attack on Axios underscores a critical vulnerability in software development that demands immediate attention from development teams.</p>
           
         </section>
 
@@ -398,11 +398,11 @@
           
             <ul>
               
-              <li>Active exploitation of vulnerabilities is increasing pressure on defenders to patch systems quickly.</li>
+              <li>Attackers are increasingly exploiting social engineering tactics to compromise trusted software maintainers.</li>
               
-              <li>Recent vulnerabilities highlight the need for organizations to prioritize remediation efforts to avoid unauthorized access.</li>
+              <li>Development teams must prioritize security in their dependency management practices to mitigate supply chain risks.</li>
               
-              <li>Development teams must remain vigilant as specific exploits target widely used frameworks, indicating a shift in attacker focus.</li>
+              <li>Organizations relying on npm packages face heightened exposure and need to reassess their security protocols.</li>
               
             </ul>
           
@@ -420,43 +420,41 @@
         <div class="meta">
           <span class="chip risk-high">HIGH</span>
           
-            <span class="chip label-chip">ACTIVE EXPLOITATION</span>
+            <span class="chip label-chip">INDUSTRY SIGNAL</span>
           
-            <span class="chip label-chip">KEV ADDED</span>
-          
-          <span class="chip chip-neutral">Execution</span>
+          <span class="chip chip-neutral">Initial Access</span>
           <span class="chip chip-neutral">Confidence LOW</span>
         </div>
         
-          <h3><a href="https://www.cisa.gov/news-events/alerts/2026/04/02/cisa-adds-one-known-exploited-vulnerability-catalog" target="_blank" rel="noopener noreferrer">CISA Adds One Known Exploited Vulnerability to Catalog</a></h3>
+          <h3><a href="https://thehackernews.com/2026/04/unc1069-social-engineering-of-axios.html" target="_blank" rel="noopener noreferrer">UNC1069 Social Engineering of Axios Maintainer Led to npm Supply Chain Attack</a></h3>
         
-        <p class="hook">Active exploitation of a newly identified vulnerability could lead to significant breaches if not addressed immediately.</p>
+        <p class="hook">The recent npm supply chain attack targeting Axios highlights the urgent need for enhanced security measures in software development environments.</p>
         <div class="support-grid">
-          <div class="text-block"><span class="label">Who should care:</span> Federal Civilian Executive Branch agencies and any organizations using TrueConf Client should prioritize remediation efforts.</div>
-          <div class="text-block"><span class="label">Attack path:</span> An attacker can exploit this vulnerability to execute arbitrary code on affected systems, potentially leading to unauthorized access and data compromise.</div>
+          <div class="text-block"><span class="label">Who should care:</span> Development teams using the Axios library and organizations relying on npm packages for their applications are most exposed.</div>
+          <div class="text-block"><span class="label">Attack path:</span> Attackers gained leverage by using social engineering tactics to manipulate the maintainer into compromising the package. This type of attack can lead to the distribution of malicious code through trusted channels.</div>
         </div>
-        <div class="text-block"><span class="label">Why this matters now:</span> KEV status shortens the acceptable patch window.</div>
-        <div class="text-block"><span class="label">In plain English:</span> CISA has added a critical vulnerability to its catalog that is currently being exploited, urging organizations to act quickly.</div>
+        <div class="text-block"><span class="label">Why this matters now:</span> Useful context for teams tracking where attacker pressure is building.</div>
+        <div class="text-block"><span class="label">In plain English:</span> A targeted social engineering attack led to a compromise of the Axios npm package, posing risks to users relying on this library.</div>
         
           <div class="tags">
             
-              <span>cve</span>
+              <span>supply chain</span>
             
-              <span>vulnerability</span>
+              <span>social engineering</span>
             
-              <span>exploitation</span>
+              <span>npm</span>
             
           </div>
         
         <ul class="story-list">
           
-            <li>CISA has included CVE-2026-3502, a vulnerability in TrueConf Client that allows code execution without integrity checks, in its Known Exploited Vulnerabilities Catalog. This addition is based on evidence of active exploitation in the wild.</li>
+            <li>The maintainer of the Axios npm package confirmed that a supply chain compromise occurred due to a social engineering campaign by North Korean threat actors known as UNC1069. The attackers specifically tailored their approach to deceive the maintainer.</li>
           
-            <li>This vulnerability is a common attack vector for cybercriminals, posing serious risks to organizations, especially within the federal sector. Timely remediation is crucial to prevent potential data breaches and maintain network integrity.</li>
+            <li>This incident underscores the vulnerabilities in software supply chains, where attackers can manipulate trusted components to distribute malicious code. Organizations using Axios could inadvertently introduce security risks into their applications, potentially affecting a wide range of users and systems.</li>
           
-            <li>An attacker can exploit this vulnerability to execute arbitrary code on affected systems, potentially leading to unauthorized access and data compromise.</li>
+            <li>Attackers gained leverage by using social engineering tactics to manipulate the maintainer into compromising the package. This type of attack can lead to the distribution of malicious code through trusted channels.</li>
           
-            <li>Watch next: Monitor for updates from CISA regarding additional vulnerabilities added to the KEV Catalog and any related remediation guidance.</li>
+            <li>Watch next: Monitor for updates from the Axios team regarding any patches or security measures implemented in response to this incident.</li>
           
         </ul>
 
@@ -465,9 +463,9 @@
             <div class="label">Key terms</div>
             <ul class="list">
             
-              <li>CVE - Common Vulnerabilities and Exposures, a list of publicly known cybersecurity vulnerabilities.</li>
+              <li>Supply Chain Attack - a type of cyber attack where an attacker targets the less secure elements in a supply chain to compromise a system.</li>
             
-              <li>Integrity Check - A process that ensures data has not been altered or tampered with.</li>
+              <li>Social Engineering - a manipulation technique that exploits human psychology to gain confidential information or access.</li>
             
             </ul>
           </div>
@@ -477,11 +475,11 @@
           <div class="label">Defender focus</div>
           <ul class="list">
             
-            <li>Implement monitoring for any unusual activity related to TrueConf Client installations.</li>
+            <li>Implement monitoring for unauthorized changes to npm packages.</li>
             
-            <li>Ensure that all systems using TrueConf Client are updated to the latest version to mitigate this vulnerability.</li>
+            <li>Review access controls for maintainers of critical libraries.</li>
             
-            <li>Review and enhance vulnerability management practices to prioritize known exploited vulnerabilities.</li>
+            <li>Conduct threat modeling to identify potential social engineering vectors.</li>
             
           </ul>
         </div>
@@ -490,24 +488,24 @@
           <div class="label">Do now</div>
           <ul class="list">
             
-            <li>Patch TrueConf Client immediately to close the vulnerability.</li>
+            <li>Review and update security protocols for package maintainers.</li>
             
-            <li>Conduct a risk assessment to identify systems that may be affected.</li>
+            <li>Educate development teams on recognizing social engineering tactics.</li>
             
-            <li>Review incident response plans to ensure readiness for potential exploitation.</li>
+            <li>Implement multi-factor authentication for critical accounts.</li>
             
           </ul>
         </div>
 
-        <div class="text-block"><span class="label">Watch next:</span> Monitor for updates from CISA regarding additional vulnerabilities added to the KEV Catalog and any related remediation guidance.</div>
+        <div class="text-block"><span class="label">Watch next:</span> Monitor for updates from the Axios team regarding any patches or security measures implemented in response to this incident.</div>
 
         <div class="sources">
           <div class="label">Sources</div>
           
             
               <div>
-                <a href="https://www.cisa.gov/news-events/alerts/2026/04/02/cisa-adds-one-known-exploited-vulnerability-catalog" target="_blank" rel="noopener noreferrer">
-                  Alerts - CISA Adds One Known Exploited Vulnerability to Catalog
+                <a href="https://thehackernews.com/2026/04/unc1069-social-engineering-of-axios.html" target="_blank" rel="noopener noreferrer">
+                  The Hacker News - UNC1069 Social Engineering of Axios Maintainer Led to npm Supply Chain Attack
                 </a>
               </div>
             
@@ -524,205 +522,7 @@
           Priority Watchlist
         </div>
         
-          <div class="grid">
-            
-              <article class="card" style="--i: 0;">
-        <div class="meta">
-          <span class="chip risk-high">HIGH</span>
-          
-            <span class="chip label-chip">PATCH RELEASE</span>
-          
-            <span class="chip label-chip">LEGAL POLICY</span>
-          
-          <span class="chip chip-neutral">Initial Access</span>
-          <span class="chip chip-neutral">Confidence LOW</span>
-        </div>
-        
-          <h3><a href="https://thehackernews.com/2026/04/cisco-patches-98-cvss-imc-and-ssm-flaws.html" target="_blank" rel="noopener noreferrer">Cisco Patches 9.8 CVSS IMC and SSM Flaws Allowing Remote System Compromise</a></h3>
-        
-        <p class="hook">Immediate patching is essential as a critical vulnerability in Cisco's IMC could allow attackers to gain unauthorized access to systems.</p>
-        <div class="support-grid">
-          <div class="text-block"><span class="label">Who should care:</span> IT security teams managing Cisco infrastructure and systems utilizing the Integrated Management Controller.</div>
-          <div class="text-block"><span class="label">Attack path:</span> An attacker could exploit this vulnerability by sending specially crafted requests to the IMC, bypassing authentication mechanisms and gaining elevated access.</div>
-        </div>
-        <div class="text-block"><span class="label">Why this matters now:</span> A live patch or vendor fix gives defenders something concrete to validate.</div>
-        <div class="text-block"><span class="label">In plain English:</span> Cisco has released critical patches for a vulnerability that could let attackers remotely compromise systems.</div>
-        
-          <div class="tags">
-            
-              <span>cve</span>
-            
-              <span>network</span>
-            
-              <span>security</span>
-            
-          </div>
-        
-        <ul class="story-list">
-          
-            <li>Cisco has issued updates to fix a severe vulnerability in the Integrated Management Controller (IMC), identified as CVE-2026-20093, which has a CVSS score of 9.8. This flaw allows unauthenticated remote attackers to bypass authentication and gain elevated privileges on affected systems.</li>
-          
-            <li>If exploited, this vulnerability could lead to unauthorized access and control over critical systems, potentially resulting in data breaches or service disruptions. Organizations using Cisco IMC should prioritize applying these patches to mitigate the risk of exploitation.</li>
-          
-            <li>An attacker could exploit this vulnerability by sending specially crafted requests to the IMC, bypassing authentication mechanisms and gaining elevated access.</li>
-          
-            <li>Watch next: Monitor for updates from Cisco regarding any additional vulnerabilities or patches related to their products.</li>
-          
-        </ul>
-
-        
-          <div class="glossary">
-            <div class="label">Key terms</div>
-            <ul class="list">
-            
-              <li>CVSS - Common Vulnerability Scoring System, a standard for assessing the severity of security vulnerabilities.</li>
-            
-              <li>CVE - Common Vulnerabilities and Exposures, a list of publicly disclosed cybersecurity vulnerabilities.</li>
-            
-            </ul>
-          </div>
-        
-
-        <div>
-          <div class="label">Defender focus</div>
-          <ul class="list">
-            
-            <li>Ensure all Cisco IMC systems are updated with the latest patches immediately.</li>
-            
-            <li>Monitor logs for any unauthorized access attempts targeting IMC systems.</li>
-            
-            <li>Review network segmentation to limit access to critical systems from untrusted networks.</li>
-            
-          </ul>
-        </div>
-
-        <div>
-          <div class="label">Do now</div>
-          <ul class="list">
-            
-            <li>Apply the latest Cisco patches for IMC without delay.</li>
-            
-            <li>Conduct a security audit of systems using Cisco IMC to identify potential exposure.</li>
-            
-            <li>Educate relevant staff on the implications of this vulnerability and the importance of timely patching.</li>
-            
-          </ul>
-        </div>
-
-        <div class="text-block"><span class="label">Watch next:</span> Monitor for updates from Cisco regarding any additional vulnerabilities or patches related to their products.</div>
-
-        <div class="sources">
-          <div class="label">Sources</div>
-          
-            
-              <div>
-                <a href="https://thehackernews.com/2026/04/cisco-patches-98-cvss-imc-and-ssm-flaws.html" target="_blank" rel="noopener noreferrer">
-                  The Hacker News - Cisco Patches 9.8 CVSS IMC and SSM Flaws Allowing Remote System Compromise
-                </a>
-              </div>
-            
-          
-        </div>
-      </article>
-            
-              <article class="card" style="--i: 1;">
-        <div class="meta">
-          <span class="chip risk-high">HIGH</span>
-          
-            <span class="chip label-chip">INDUSTRY SIGNAL</span>
-          
-          <span class="chip chip-neutral">Initial Access</span>
-          <span class="chip chip-neutral">Confidence LOW</span>
-        </div>
-        
-          <h3><a href="https://thehackernews.com/2026/04/hackers-exploit-cve-2025-55182-to.html" target="_blank" rel="noopener noreferrer">Hackers Exploit CVE-2025-55182 to Breach 766 Next.js Hosts, Steal Credentials</a></h3>
-        
-        <p class="hook">The exploitation of CVE-2025-55182 poses a significant risk to organizations using Next.js, potentially leading to severe data breaches.</p>
-        <div class="support-grid">
-          <div class="text-block"><span class="label">Who should care:</span> Development and security teams managing Next.js applications and associated cloud services should be particularly vigilant.</div>
-          <div class="text-block"><span class="label">Attack path:</span> Attackers gain access by exploiting the React2Shell vulnerability, allowing them to harvest credentials stored on compromised hosts.</div>
-        </div>
-        <div class="text-block"><span class="label">Why this matters now:</span> Useful context for teams tracking where attacker pressure is building.</div>
-        <div class="text-block"><span class="label">In plain English:</span> Hackers are using a vulnerability in Next.js to steal sensitive credentials from numerous hosts.</div>
-        
-          <div class="tags">
-            
-              <span>cve</span>
-            
-              <span>nextjs</span>
-            
-              <span>credential theft</span>
-            
-          </div>
-        
-        <ul class="story-list">
-          
-            <li>Hackers have exploited the React2Shell vulnerability, identified as CVE-2025-55182, to breach 766 Next.js hosts. This operation has resulted in the theft of various sensitive credentials, including database credentials, SSH keys, AWS secrets, Stripe API keys, and GitHub tokens.</li>
-          
-            <li>The compromised credentials can lead to unauthorized access to critical systems and data, increasing the risk of further attacks or data leaks. Organizations using Next.js must act quickly to mitigate potential damage and secure their environments.</li>
-          
-            <li>Attackers gain access by exploiting the React2Shell vulnerability, allowing them to harvest credentials stored on compromised hosts.</li>
-          
-            <li>Watch next: Monitor for updates from Cisco Talos regarding the threat cluster and any patches released for CVE-2025-55182.</li>
-          
-        </ul>
-
-        
-          <div class="glossary">
-            <div class="label">Key terms</div>
-            <ul class="list">
-            
-              <li>CVE - Common Vulnerabilities and Exposures, a list of publicly known cybersecurity vulnerabilities.</li>
-            
-              <li>Next.js - A React framework for building server-side rendered applications.</li>
-            
-            </ul>
-          </div>
-        
-
-        <div>
-          <div class="label">Defender focus</div>
-          <ul class="list">
-            
-            <li>Implement monitoring for unusual access patterns to sensitive data.</li>
-            
-            <li>Review and rotate credentials stored in affected environments.</li>
-            
-            <li>Deploy web application firewalls to block exploitation attempts.</li>
-            
-          </ul>
-        </div>
-
-        <div>
-          <div class="label">Do now</div>
-          <ul class="list">
-            
-            <li>Patch all Next.js applications to mitigate CVE-2025-55182 immediately.</li>
-            
-            <li>Conduct a security audit to identify and secure exposed credentials.</li>
-            
-            <li>Educate development teams on secure coding practices to prevent similar vulnerabilities.</li>
-            
-          </ul>
-        </div>
-
-        <div class="text-block"><span class="label">Watch next:</span> Monitor for updates from Cisco Talos regarding the threat cluster and any patches released for CVE-2025-55182.</div>
-
-        <div class="sources">
-          <div class="label">Sources</div>
-          
-            
-              <div>
-                <a href="https://thehackernews.com/2026/04/hackers-exploit-cve-2025-55182-to.html" target="_blank" rel="noopener noreferrer">
-                  The Hacker News - Hackers Exploit CVE-2025-55182 to Breach 766 Next.js Hosts, Steal Credentials
-                </a>
-              </div>
-            
-          
-        </div>
-      </article>
-            
-          </div>
+          <p class="empty">No additional top stories.</p>
         
       </section>
 
