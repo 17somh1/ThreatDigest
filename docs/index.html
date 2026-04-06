@@ -378,8 +378,8 @@
         The security news worth your attention, with context and practical takeaways.
       </p>
       <div class="meta-bar">
-        <span>Updated: 2026-04-06 09:03 UTC</span>
-        <span>Stories: 5</span>
+        <span>Updated: 2026-04-06 13:39 UTC</span>
+        <span>Stories: 2</span>
         <span>Recent issues: 14</span>
       </div>
     </header>
@@ -389,22 +389,14 @@
         <section class="one-liner">
           <h2>What Matters Today</h2>
           
-            <p class="text-block">Today's threat landscape highlights urgent vulnerabilities in FortiClient EMS and Next.js, alongside evolving phishing tactics that demand immediate attention from security teams.</p>
+            <p class="empty">No summary available yet.</p>
           
         </section>
 
         <section class="themes">
           <h2>Patterns To Watch</h2>
           
-            <ul>
-              
-              <li>Immediate patching is critical as active exploitation of vulnerabilities increases defender workload and risk of breaches.</li>
-              
-              <li>Automated credential theft campaigns indicate a shift in attacker tactics, requiring heightened vigilance from development and security teams.</li>
-              
-              <li>The rise of QR code phishing scams signals a need for improved user awareness and security measures in customer communications.</li>
-              
-            </ul>
+            <p class="empty">No themes available yet.</p>
           
         </section>
       </div>
@@ -420,45 +412,41 @@
         <div class="meta">
           <span class="chip risk-high">HIGH</span>
           
-            <span class="chip label-chip">ACTIVE EXPLOITATION</span>
+            <span class="chip label-chip">INDUSTRY SIGNAL</span>
           
-            <span class="chip label-chip">PATCH RELEASE</span>
-          
-            <span class="chip label-chip">LEGAL POLICY</span>
-          
-          <span class="chip chip-neutral">Initial Access</span>
+          <span class="chip chip-neutral">Credential Access</span>
           <span class="chip chip-neutral">Confidence LOW</span>
         </div>
         
-          <h3><a href="https://www.bleepingcomputer.com/news/security/new-fortinet-forticlient-ems-flaw-cve-2026-35616-exploited-in-attacks/" target="_blank" rel="noopener noreferrer">New FortiClient EMS flaw exploited in attacks, emergency patch released</a></h3>
+          <h3><a href="https://thehackernews.com/2026/04/how-litellm-turned-developer-machines.html" target="_blank" rel="noopener noreferrer">How LiteLLM Turned Developer Machines Into Credential Vaults for Attackers</a></h3>
         
-        <p class="hook">Immediate exploitation of a critical vulnerability in FortiClient EMS could lead to unauthorized access and data breaches.</p>
+        <p class="hook">Developer machines are now prime targets for attackers, risking the exposure of sensitive credentials across multiple services.</p>
         <div class="support-grid">
-          <div class="text-block"><span class="label">Who should care:</span> IT security teams managing FortiClient EMS installations should be particularly vigilant.</div>
-          <div class="text-block"><span class="label">Attack path:</span> Attackers can exploit this vulnerability to gain unauthorized access to the EMS, potentially leading to further compromise of connected endpoints.</div>
+          <div class="text-block"><span class="label">Who should care:</span> Development teams and IT security teams managing developer workstations should prioritize this issue.</div>
+          <div class="text-block"><span class="label">Attack path:</span> Attackers gain leverage by exploiting vulnerabilities in the supply chain, allowing them to access sensitive credentials stored on developer machines.</div>
         </div>
-        <div class="text-block"><span class="label">Why this matters now:</span> Active exploitation makes this an immediate exposure check. A live patch or vendor fix gives defenders something concrete to validate.</div>
-        <div class="text-block"><span class="label">In plain English:</span> A critical flaw in FortiClient EMS is being actively exploited, requiring urgent patching.</div>
+        <div class="text-block"><span class="label">Why this matters now:</span> Useful context for teams tracking where attacker pressure is building.</div>
+        <div class="text-block"><span class="label">In plain English:</span> A recent attack highlights the vulnerability of developer workstations to credential theft.</div>
         
           <div class="tags">
             
-              <span>cve</span>
+              <span>supply chain</span>
             
-              <span>fortinet</span>
+              <span>credential theft</span>
             
-              <span>security</span>
+              <span>developer security</span>
             
           </div>
         
         <ul class="story-list">
           
-            <li>Fortinet has identified a critical vulnerability (CVE-2026-35616) in its FortiClient Enterprise Management Server (EMS) that is currently being exploited in the wild. An emergency patch has been released over the weekend to address this issue.</li>
+            <li>In March 2026, the TeamPCP threat actor executed a supply chain attack that compromised developer machines. These machines, which are integral to creating and managing credentials, were turned into credential vaults for attackers.</li>
           
-            <li>If left unpatched, this vulnerability could allow attackers to gain unauthorized access to sensitive systems and data, potentially leading to significant operational disruptions and data loss. Organizations using FortiClient EMS are at immediate risk and should prioritize applying the patch.</li>
+            <li>The compromise of developer workstations can lead to widespread credential theft, impacting multiple services and increasing the risk of further attacks. This incident underscores the need for heightened security measures around developer environments.</li>
           
-            <li>Attackers can exploit this vulnerability to gain unauthorized access to the EMS, potentially leading to further compromise of connected endpoints.</li>
+            <li>Attackers gain leverage by exploiting vulnerabilities in the supply chain, allowing them to access sensitive credentials stored on developer machines.</li>
           
-            <li>Watch next: Monitor for updates from Fortinet regarding any additional vulnerabilities or patches related to this incident.</li>
+            <li>Watch next: Monitor for updates on TeamPCP's activities and any patches released for affected software.</li>
           
         </ul>
 
@@ -467,9 +455,9 @@
             <div class="label">Key terms</div>
             <ul class="list">
             
-              <li>CVE - Common Vulnerabilities and Exposures, a list of publicly disclosed cybersecurity vulnerabilities.</li>
+              <li>Supply Chain Attack - a type of cyber attack that targets the vulnerabilities in the supply chain of software or hardware.</li>
             
-              <li>EMS - Enterprise Management Server, a centralized management solution for endpoint security.</li>
+              <li>Credential Vault - a secure storage location for sensitive information such as usernames and passwords.</li>
             
             </ul>
           </div>
@@ -479,11 +467,11 @@
           <div class="label">Defender focus</div>
           <ul class="list">
             
-            <li>Verify that the emergency patch has been applied across all FortiClient EMS installations.</li>
+            <li>Implement strict access controls on developer machines to limit exposure.</li>
             
-            <li>Monitor logs for any unusual access patterns or unauthorized attempts to connect to the EMS.</li>
+            <li>Regularly audit and monitor credential usage across services.</li>
             
-            <li>Assess the network for any signs of compromise related to this vulnerability.</li>
+            <li>Deploy endpoint detection and response tools to identify suspicious activities on developer workstations.</li>
             
           </ul>
         </div>
@@ -492,24 +480,24 @@
           <div class="label">Do now</div>
           <ul class="list">
             
-            <li>Immediately apply the emergency patch released by Fortinet.</li>
+            <li>Conduct a security assessment of developer workstations immediately.</li>
             
-            <li>Conduct a security audit of systems using FortiClient EMS.</li>
+            <li>Enhance monitoring for unusual credential access patterns.</li>
             
-            <li>Stay informed on any further communications from Fortinet regarding this vulnerability.</li>
+            <li>Educate developers on secure credential management practices.</li>
             
           </ul>
         </div>
 
-        <div class="text-block"><span class="label">Watch next:</span> Monitor for updates from Fortinet regarding any additional vulnerabilities or patches related to this incident.</div>
+        <div class="text-block"><span class="label">Watch next:</span> Monitor for updates on TeamPCP's activities and any patches released for affected software.</div>
 
         <div class="sources">
           <div class="label">Sources</div>
           
             
               <div>
-                <a href="https://www.bleepingcomputer.com/news/security/new-fortinet-forticlient-ems-flaw-cve-2026-35616-exploited-in-attacks/" target="_blank" rel="noopener noreferrer">
-                  BleepingComputer - New FortiClient EMS flaw exploited in attacks, emergency patch released
+                <a href="https://thehackernews.com/2026/04/how-litellm-turned-developer-machines.html" target="_blank" rel="noopener noreferrer">
+                  The Hacker News - How LiteLLM Turned Developer Machines Into Credential Vaults for Attackers
                 </a>
               </div>
             
@@ -534,213 +522,19 @@
           
             <span class="chip label-chip">INDUSTRY SIGNAL</span>
           
-          <span class="chip chip-neutral">Credential Access</span>
+          <span class="chip chip-neutral">Defense Evasion</span>
           <span class="chip chip-neutral">Confidence LOW</span>
         </div>
         
-          <h3><a href="https://www.bleepingcomputer.com/news/security/hackers-exploit-react2shell-in-automated-credential-theft-campaign/" target="_blank" rel="noopener noreferrer">Hackers exploit React2Shell in automated credential theft campaign</a></h3>
+          <h3><a href="https://thehackernews.com/2026/04/qilin-and-warlock-ransomware-use.html" target="_blank" rel="noopener noreferrer">Qilin and Warlock Ransomware Use Vulnerable Drivers to Disable 300+ EDR Tools</a></h3>
         
-        <p class="hook">The exploitation of React2Shell poses a significant threat to organizations using Next.js, risking widespread credential theft.</p>
+        <p class="hook">The use of vulnerable drivers by Qilin and Warlock ransomware to disable over 300 EDR tools poses a significant threat to organizational security, allowing attackers to operate undetected.</p>
         <div class="support-grid">
-          <div class="text-block"><span class="label">Who should care:</span> Development and security teams managing Next.js applications should prioritize this issue.</div>
-          <div class="text-block"><span class="label">Attack path:</span> Attackers exploit the React2Shell vulnerability to inject malicious scripts into Next.js applications, allowing them to capture user credentials as they are entered.</div>
+          <div class="text-block"><span class="label">Who should care:</span> Security teams and IT departments managing endpoint protection solutions should be particularly vigilant.</div>
+          <div class="text-block"><span class="label">Attack path:</span> Attackers gain leverage by exploiting known vulnerabilities in drivers installed on compromised systems, allowing them to disable security measures and maintain persistence.</div>
         </div>
         <div class="text-block"><span class="label">Why this matters now:</span> Useful context for teams tracking where attacker pressure is building.</div>
-        <div class="text-block"><span class="label">In plain English:</span> Hackers are using a vulnerability in Next.js apps to automate credential theft.</div>
-        
-          <div class="tags">
-            
-              <span>credential theft</span>
-            
-              <span>cve</span>
-            
-              <span>next.js</span>
-            
-          </div>
-        
-        <ul class="story-list">
-          
-            <li>Hackers have launched a campaign leveraging the React2Shell vulnerability (CVE-2025-55182) to automate the theft of user credentials from vulnerable Next.js applications. This exploitation allows attackers to gain unauthorized access to sensitive information.</li>
-          
-            <li>The automated nature of this attack increases the scale and speed at which credentials can be stolen, potentially leading to account takeovers and data breaches. Organizations using Next.js must act quickly to mitigate this risk and protect their users.</li>
-          
-            <li>Attackers exploit the React2Shell vulnerability to inject malicious scripts into Next.js applications, allowing them to capture user credentials as they are entered.</li>
-          
-            <li>Watch next: Monitor for updates from Next.js regarding patches or mitigations for CVE-2025-55182.</li>
-          
-        </ul>
-
-        
-          <div class="glossary">
-            <div class="label">Key terms</div>
-            <ul class="list">
-            
-              <li>React2Shell - a vulnerability in Next.js applications that allows attackers to execute malicious code.</li>
-            
-              <li>CVE-2025-55182 - the identifier for the specific vulnerability being exploited.</li>
-            
-            </ul>
-          </div>
-        
-
-        <div>
-          <div class="label">Defender focus</div>
-          <ul class="list">
-            
-            <li>Implement monitoring for unusual authentication attempts from Next.js applications.</li>
-            
-            <li>Review and update security configurations for all Next.js deployments.</li>
-            
-            <li>Deploy web application firewalls to filter out malicious requests targeting the React2Shell vulnerability.</li>
-            
-          </ul>
-        </div>
-
-        <div>
-          <div class="label">Do now</div>
-          <ul class="list">
-            
-            <li>Patch vulnerable Next.js applications immediately.</li>
-            
-            <li>Conduct a security audit of current applications to identify exposure.</li>
-            
-            <li>Educate development teams on secure coding practices to prevent similar vulnerabilities.</li>
-            
-          </ul>
-        </div>
-
-        <div class="text-block"><span class="label">Watch next:</span> Monitor for updates from Next.js regarding patches or mitigations for CVE-2025-55182.</div>
-
-        <div class="sources">
-          <div class="label">Sources</div>
-          
-            
-              <div>
-                <a href="https://www.bleepingcomputer.com/news/security/hackers-exploit-react2shell-in-automated-credential-theft-campaign/" target="_blank" rel="noopener noreferrer">
-                  BleepingComputer - Hackers exploit React2Shell in automated credential theft campaign
-                </a>
-              </div>
-            
-          
-        </div>
-      </article>
-            
-              <article class="card" style="--i: 1;">
-        <div class="meta">
-          <span class="chip risk-medium">MEDIUM</span>
-          
-            <span class="chip label-chip">INDUSTRY SIGNAL</span>
-          
-          <span class="chip chip-neutral">Credential Access</span>
-          <span class="chip chip-neutral">Confidence LOW</span>
-        </div>
-        
-          <h3><a href="https://www.bleepingcomputer.com/news/security/traffic-violation-scams-switch-to-qr-codes-in-new-phishing-texts/" target="_blank" rel="noopener noreferrer">Traffic violation scams switch to QR codes in new phishing texts</a></h3>
-        
-        <p class="hook">The rise of QR code phishing scams poses a significant risk to personal and financial data security, making it crucial for users to remain vigilant.</p>
-        <div class="support-grid">
-          <div class="text-block"><span class="label">Who should care:</span> All teams handling customer communications and payment processing should be aware of this threat.</div>
-          <div class="text-block"><span class="label">Attack path:</span> Attackers gain leverage by exploiting the trust users place in official-looking messages and QR codes, leading them to malicious sites.</div>
-        </div>
-        <div class="text-block"><span class="label">Why this matters now:</span> Useful context for teams tracking where attacker pressure is building.</div>
-        <div class="text-block"><span class="label">In plain English:</span> Scammers are using QR codes in phishing texts to steal personal information and money.</div>
-        
-          <div class="tags">
-            
-              <span>phishing</span>
-            
-              <span>qr code</span>
-            
-              <span>scams</span>
-            
-          </div>
-        
-        <ul class="story-list">
-          
-            <li>Scammers are sending fraudulent text messages that impersonate state courts, claiming recipients have traffic violations. These messages pressure users to scan a QR code that leads to a phishing site demanding a $6.99 payment.</li>
-          
-            <li>This method of phishing is particularly concerning as it leverages QR codes, which many users trust without scrutiny. The potential for identity theft and financial loss increases as users may unknowingly provide sensitive information.</li>
-          
-            <li>Attackers gain leverage by exploiting the trust users place in official-looking messages and QR codes, leading them to malicious sites.</li>
-          
-            <li>Watch next: Monitor for reports of increased phishing attempts using QR codes and any updates from security vendors on mitigation strategies.</li>
-          
-        </ul>
-
-        
-          <div class="glossary">
-            <div class="label">Key terms</div>
-            <ul class="list">
-            
-              <li>QR CODE - a type of matrix barcode that can be scanned by smartphones to access information or websites.</li>
-            
-              <li>PHISHING - a fraudulent attempt to obtain sensitive information by disguising as a trustworthy entity.</li>
-            
-            </ul>
-          </div>
-        
-
-        <div>
-          <div class="label">Defender focus</div>
-          <ul class="list">
-            
-            <li>Implement monitoring for unusual text message patterns targeting users.</li>
-            
-            <li>Educate customer service teams on recognizing and reporting phishing attempts.</li>
-            
-            <li>Enhance email and SMS filtering to block known phishing sources.</li>
-            
-          </ul>
-        </div>
-
-        <div>
-          <div class="label">Do now</div>
-          <ul class="list">
-            
-            <li>Alert users about the new QR code phishing scams.</li>
-            
-            <li>Review and strengthen security measures for customer communications.</li>
-            
-            <li>Stay updated on emerging phishing tactics and adjust defenses accordingly.</li>
-            
-          </ul>
-        </div>
-
-        <div class="text-block"><span class="label">Watch next:</span> Monitor for reports of increased phishing attempts using QR codes and any updates from security vendors on mitigation strategies.</div>
-
-        <div class="sources">
-          <div class="label">Sources</div>
-          
-            
-              <div>
-                <a href="https://www.bleepingcomputer.com/news/security/traffic-violation-scams-switch-to-qr-codes-in-new-phishing-texts/" target="_blank" rel="noopener noreferrer">
-                  BleepingComputer - Traffic violation scams switch to QR codes in new phishing texts
-                </a>
-              </div>
-            
-          
-        </div>
-      </article>
-            
-              <article class="card" style="--i: 2;">
-        <div class="meta">
-          <span class="chip risk-medium">MEDIUM</span>
-          
-            <span class="chip label-chip">INDUSTRY SIGNAL</span>
-          
-          <span class="chip chip-neutral">Impact</span>
-          <span class="chip chip-neutral">Confidence LOW</span>
-        </div>
-        
-          <h3><a href="https://thehackernews.com/2026/04/bka-identifies-revil-leaders-behind-130.html" target="_blank" rel="noopener noreferrer">BKA Identifies REvil Leaders Behind 130 German Ransomware Attacks</a></h3>
-        
-        <p class="hook">The identification of REvil leaders could lead to increased scrutiny and potential disruption of ransomware operations targeting German entities.</p>
-        <div class="support-grid">
-          <div class="text-block"><span class="label">Who should care:</span> Cybersecurity teams and incident response units within organizations operating in Germany are most exposed.</div>
-          <div class="text-block"><span class="label">Attack path:</span> Attackers typically gain access through phishing or exploiting vulnerabilities, then deploy ransomware to encrypt data and demand a ransom.</div>
-        </div>
-        <div class="text-block"><span class="label">Why this matters now:</span> Useful context for teams tracking where attacker pressure is building.</div>
-        <div class="text-block"><span class="label">In plain English:</span> Germany's BKA has identified key figures behind the REvil ransomware group, which may impact ongoing ransomware threats.</div>
+        <div class="text-block"><span class="label">In plain English:</span> Qilin and Warlock ransomware are exploiting vulnerable drivers to disable security tools, increasing the risk of successful attacks.</div>
         
           <div class="tags">
             
@@ -754,13 +548,13 @@
         
         <ul class="story-list">
           
-            <li>Germany's Federal Criminal Police Office (BKA) has revealed the identities of the main actors behind the REvil ransomware operation, which has been linked to 130 attacks in Germany. The group, known for its ransomware-as-a-service model, has been a significant threat since its emergence in 2019.</li>
+            <li>Threat actors linked to Qilin and Warlock ransomware have been observed employing a technique known as bring your own vulnerable driver (BYOVD) to disable endpoint detection and response (EDR) tools. This method has been confirmed to affect more than 300 security solutions, rendering them ineffective against ongoing attacks.</li>
           
-            <li>Understanding the identities of these threat actors may help law enforcement agencies disrupt their operations and reduce the risk of future attacks. Organizations in Germany should remain vigilant as this revelation may provoke retaliatory actions from the group or inspire copycat attacks.</li>
+            <li>The ability to disable EDR tools significantly enhances the attackers' chances of executing their malicious activities without detection. Organizations relying on these security measures may find themselves vulnerable to data breaches and ransomware attacks, leading to potential financial and reputational damage.</li>
           
-            <li>Attackers typically gain access through phishing or exploiting vulnerabilities, then deploy ransomware to encrypt data and demand a ransom.</li>
+            <li>Attackers gain leverage by exploiting known vulnerabilities in drivers installed on compromised systems, allowing them to disable security measures and maintain persistence.</li>
           
-            <li>Watch next: Monitor for any retaliatory actions from REvil or similar groups in response to this identification.</li>
+            <li>Watch next: Monitor for updates from security vendors regarding patches for vulnerable drivers and any emerging indicators of compromise related to Qilin and Warlock ransomware.</li>
           
         </ul>
 
@@ -769,9 +563,9 @@
             <div class="label">Key terms</div>
             <ul class="list">
             
-              <li>Ransomware - a type of malicious software that encrypts a victim's files, demanding payment for decryption.</li>
+              <li>BYOVD - Bring Your Own Vulnerable Driver; a technique where attackers use existing vulnerable drivers on a system to bypass security measures.</li>
             
-              <li>RaaS - Ransomware-as-a-Service, a business model where ransomware is offered as a service to other criminals.</li>
+              <li>EDR - Endpoint Detection and Response; security solutions designed to detect and respond to threats on endpoints.</li>
             
             </ul>
           </div>
@@ -781,11 +575,11 @@
           <div class="label">Defender focus</div>
           <ul class="list">
             
-            <li>Enhance monitoring for ransomware indicators across networks and endpoints.</li>
+            <li>Identify and patch vulnerable drivers in your environment immediately.</li>
             
-            <li>Review and update incident response plans to address potential ransomware scenarios.</li>
+            <li>Enhance monitoring for unusual behavior from EDR tools that may indicate tampering.</li>
             
-            <li>Conduct vulnerability assessments to identify and remediate weaknesses that could be exploited.</li>
+            <li>Review and update incident response plans to account for potential EDR disablement.</li>
             
           </ul>
         </div>
@@ -794,24 +588,24 @@
           <div class="label">Do now</div>
           <ul class="list">
             
-            <li>Increase monitoring for unusual network activity indicative of ransomware deployment.</li>
+            <li>Patch vulnerable drivers as soon as updates are available.</li>
             
-            <li>Ensure backups are up-to-date and securely stored offline.</li>
+            <li>Conduct a thorough review of EDR configurations and logs for signs of tampering.</li>
             
-            <li>Educate staff on recognizing phishing attempts that could lead to ransomware infections.</li>
+            <li>Implement additional monitoring solutions to detect abnormal activities on endpoints.</li>
             
           </ul>
         </div>
 
-        <div class="text-block"><span class="label">Watch next:</span> Monitor for any retaliatory actions from REvil or similar groups in response to this identification.</div>
+        <div class="text-block"><span class="label">Watch next:</span> Monitor for updates from security vendors regarding patches for vulnerable drivers and any emerging indicators of compromise related to Qilin and Warlock ransomware.</div>
 
         <div class="sources">
           <div class="label">Sources</div>
           
             
               <div>
-                <a href="https://thehackernews.com/2026/04/bka-identifies-revil-leaders-behind-130.html" target="_blank" rel="noopener noreferrer">
-                  The Hacker News - BKA Identifies REvil Leaders Behind 130 German Ransomware Attacks
+                <a href="https://thehackernews.com/2026/04/qilin-and-warlock-ransomware-use.html" target="_blank" rel="noopener noreferrer">
+                  The Hacker News - Qilin and Warlock Ransomware Use Vulnerable Drivers to Disable 300+ EDR Tools
                 </a>
               </div>
             
@@ -829,106 +623,7 @@
           Wider Signal
         </div>
         
-          <div class="grid">
-            
-              <article class="card" style="--i: 0;">
-        <div class="meta">
-          <span class="chip risk-medium">MEDIUM</span>
-          
-            <span class="chip label-chip">INDUSTRY SIGNAL</span>
-          
-          <span class="chip chip-neutral">Unknown</span>
-          <span class="chip chip-neutral">Confidence LOW</span>
-        </div>
-        
-          <h3><a href="https://krebsonsecurity.com/2026/04/germany-doxes-unkn-head-of-ru-ransomware-gangs-revil-gandcrab/" target="_blank" rel="noopener noreferrer">Germany Doxes “UNKN,” Head of RU Ransomware Gangs REvil, GandCrab</a></h3>
-        
-        <p class="hook">The identification of 'UNKN,' a key figure in major ransomware operations, could lead to increased scrutiny and potential retaliatory actions from cybercriminals.</p>
-        <div class="support-grid">
-          <div class="text-block"><span class="label">Who should care:</span> Cybersecurity teams, incident response units, and organizations in sectors previously targeted by GandCrab and REvil should be particularly alert.</div>
-          <div class="text-block"><span class="label">Attack path:</span> An attacker could leverage the chaos following this revelation to exploit vulnerabilities in organizations that may be perceived as weak or unprotected. Increased phishing attempts or ransomware attacks could occur as a show of force.</div>
-        </div>
-        <div class="text-block"><span class="label">Why this matters now:</span> Useful context for teams tracking where attacker pressure is building.</div>
-        <div class="text-block"><span class="label">In plain English:</span> German authorities have revealed the identity of a prominent ransomware leader, which may impact ongoing cyber threats.</div>
-        
-          <div class="tags">
-            
-              <span>ransomware</span>
-            
-              <span>cybercrime</span>
-            
-              <span>law enforcement</span>
-            
-          </div>
-        
-        <ul class="story-list">
-          
-            <li>German authorities have publicly identified Daniil Maksimovich Shchukin, known as 'UNKN,' as the head of the ransomware groups GandCrab and REvil. He is linked to over 130 cyber extortion incidents in Germany from 2019 to 2021.</li>
-          
-            <li>This revelation may provoke a response from other cybercriminals, potentially leading to increased attacks as they seek to assert dominance or retaliate. Organizations should remain vigilant as the exposure of key figures can disrupt existing operations but also incite further aggression from affiliates.</li>
-          
-            <li>An attacker could leverage the chaos following this revelation to exploit vulnerabilities in organizations that may be perceived as weak or unprotected. Increased phishing attempts or ransomware attacks could occur as a show of force.</li>
-          
-            <li>Watch next: Monitor for any uptick in ransomware activity or announcements from other cybercriminal groups in response to this identification.</li>
-          
-        </ul>
-
-        
-          <div class="glossary">
-            <div class="label">Key terms</div>
-            <ul class="list">
-            
-              <li>Ransomware - a type of malicious software that encrypts a victim's files, demanding payment for the decryption key.</li>
-            
-              <li>Doxing - the act of publicly revealing private information about an individual, often with malicious intent.</li>
-            
-            </ul>
-          </div>
-        
-
-        <div>
-          <div class="label">Defender focus</div>
-          <ul class="list">
-            
-            <li>Enhance monitoring for unusual network activity that could indicate ransomware deployment.</li>
-            
-            <li>Review and update incident response plans to address potential retaliatory attacks.</li>
-            
-            <li>Conduct threat hunting exercises focused on indicators of compromise associated with GandCrab and REvil.</li>
-            
-          </ul>
-        </div>
-
-        <div>
-          <div class="label">Do now</div>
-          <ul class="list">
-            
-            <li>Increase vigilance in monitoring for ransomware indicators.</li>
-            
-            <li>Review and strengthen endpoint protection measures.</li>
-            
-            <li>Prepare communication strategies for potential incidents related to this exposure.</li>
-            
-          </ul>
-        </div>
-
-        <div class="text-block"><span class="label">Watch next:</span> Monitor for any uptick in ransomware activity or announcements from other cybercriminal groups in response to this identification.</div>
-
-        <div class="sources">
-          <div class="label">Sources</div>
-          
-            
-              <div>
-                <a href="https://krebsonsecurity.com/2026/04/germany-doxes-unkn-head-of-ru-ransomware-gangs-revil-gandcrab/" target="_blank" rel="noopener noreferrer">
-                  Krebs on Security - Germany Doxes “UNKN,” Head of RU Ransomware Gangs REvil, GandCrab
-                </a>
-              </div>
-            
-          
-        </div>
-      </article>
-            
-          </div>
+          <p class="empty">No context stories today.</p>
         
       </section>
     </main>

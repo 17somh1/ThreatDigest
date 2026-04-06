@@ -1,5 +1,5 @@
 {
-  "last_run_utc": "2026-04-06T09:03:15.571503+00:00",
+  "last_run_utc": "2026-04-06T13:39:51.982187+00:00",
   "processed_urls": [
     "https://www.bleepingcomputer.com/news/security/critical-cisco-sd-wan-bug-exploited-in-zero-day-attacks-since-2023/",
     "https://www.cisa.gov/news-events/alerts/2026/02/25/cisa-and-partners-release-guidance-ongoing-global-exploitation-cisco-sd-wan-systems",
@@ -254,6 +254,8 @@
     "https://www.bleepingcomputer.com/news/security/hackers-exploit-react2shell-in-automated-credential-theft-campaign/",
     "https://www.bleepingcomputer.com/news/security/traffic-violation-scams-switch-to-qr-codes-in-new-phishing-texts/",
     "https://thehackernews.com/2026/04/bka-identifies-revil-leaders-behind-130.html",
-    "https://krebsonsecurity.com/2026/04/germany-doxes-unkn-head-of-ru-ransomware-gangs-revil-gandcrab/"
+    "https://krebsonsecurity.com/2026/04/germany-doxes-unkn-head-of-ru-ransomware-gangs-revil-gandcrab/",
+    "https://thehackernews.com/2026/04/how-litellm-turned-developer-machines.html",
+    "https://thehackernews.com/2026/04/qilin-and-warlock-ransomware-use.html"
   ]
 }
