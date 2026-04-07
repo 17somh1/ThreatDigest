@@ -1,5 +1,5 @@
 {
-  "last_run_utc": "2026-04-06T13:39:51.982187+00:00",
+  "last_run_utc": "2026-04-07T08:57:07.949189+00:00",
   "processed_urls": [
     "https://www.bleepingcomputer.com/news/security/critical-cisco-sd-wan-bug-exploited-in-zero-day-attacks-since-2023/",
     "https://www.cisa.gov/news-events/alerts/2026/02/25/cisa-and-partners-release-guidance-ongoing-global-exploitation-cisco-sd-wan-systems",
@@ -256,6 +256,15 @@
     "https://thehackernews.com/2026/04/bka-identifies-revil-leaders-behind-130.html",
     "https://krebsonsecurity.com/2026/04/germany-doxes-unkn-head-of-ru-ransomware-gangs-revil-gandcrab/",
     "https://thehackernews.com/2026/04/how-litellm-turned-developer-machines.html",
-    "https://thehackernews.com/2026/04/qilin-and-warlock-ransomware-use.html"
+    "https://thehackernews.com/2026/04/qilin-and-warlock-ransomware-use.html",
+    "https://www.cisa.gov/news-events/alerts/2026/04/06/cisa-adds-one-known-exploited-vulnerability-catalog",
+    "https://www.bleepingcomputer.com/news/security/cisa-orders-feds-to-patch-fortinet-flaw-exploited-in-attacks-by-friday/",
+    "https://www.bleepingcomputer.com/news/security/disgruntled-researcher-leaks-bluehammer-windows-zero-day-exploit/",
+    "https://www.bleepingcomputer.com/news/security/microsoft-links-medusa-ransomware-affiliate-to-zero-day-attacks/",
+    "https://thehackernews.com/2026/04/china-linked-storm-1175-exploits-zero.html",
+    "https://thehackernews.com/2026/04/weekly-recap-axios-hack-chrome-0-day.html",
+    "https://www.bleepingcomputer.com/news/security/german-authorities-identify-revil-and-gangcrab-ransomware-bosses/",
+    "https://www.bleepingcomputer.com/news/security/why-simple-breach-monitoring-is-no-longer-enough/",
+    "https://thehackernews.com/2026/04/flowise-ai-agent-builder-under-active.html"
   ]
 }
