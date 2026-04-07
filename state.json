@@ -1,5 +1,5 @@
 {
-  "last_run_utc": "2026-04-07T08:57:07.949189+00:00",
+  "last_run_utc": "2026-04-07T13:51:25.267850+00:00",
   "processed_urls": [
     "https://www.bleepingcomputer.com/news/security/critical-cisco-sd-wan-bug-exploited-in-zero-day-attacks-since-2023/",
     "https://www.cisa.gov/news-events/alerts/2026/02/25/cisa-and-partners-release-guidance-ongoing-global-exploitation-cisco-sd-wan-systems",
@@ -265,6 +265,8 @@
     "https://thehackernews.com/2026/04/weekly-recap-axios-hack-chrome-0-day.html",
     "https://www.bleepingcomputer.com/news/security/german-authorities-identify-revil-and-gangcrab-ransomware-bosses/",
     "https://www.bleepingcomputer.com/news/security/why-simple-breach-monitoring-is-no-longer-enough/",
-    "https://thehackernews.com/2026/04/flowise-ai-agent-builder-under-active.html"
+    "https://thehackernews.com/2026/04/flowise-ai-agent-builder-under-active.html",
+    "https://thehackernews.com/2026/04/the-hidden-cost-of-recurring-credential.html",
+    "https://thehackernews.com/2026/04/new-gpubreach-attack-enables-full-cpu.html"
   ]
 }
