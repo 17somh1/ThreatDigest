@@ -1,5 +1,5 @@
 {
-  "last_run_utc": "2026-04-08T08:54:36.358526+00:00",
+  "last_run_utc": "2026-04-08T13:53:59.049286+00:00",
   "processed_urls": [
     "https://www.bleepingcomputer.com/news/security/critical-cisco-sd-wan-bug-exploited-in-zero-day-attacks-since-2023/",
     "https://www.cisa.gov/news-events/alerts/2026/02/25/cisa-and-partners-release-guidance-ongoing-global-exploitation-cisco-sd-wan-systems",
@@ -271,6 +271,7 @@
     "https://www.cisa.gov/news-events/cybersecurity-advisories/aa26-097a",
     "https://www.bleepingcomputer.com/news/security/max-severity-flowise-rce-vulnerability-now-exploited-in-attacks/",
     "https://www.bleepingcomputer.com/news/security/authorities-disrupt-dns-hijacks-used-to-steal-microsoft-365-logins/",
-    "https://thehackernews.com/2026/04/docker-cve-2026-34040-lets-attackers.html"
+    "https://thehackernews.com/2026/04/docker-cve-2026-34040-lets-attackers.html",
+    "https://thehackernews.com/2026/04/anthropics-claude-mythos-finds.html"
   ]
 }
