@@ -378,8 +378,8 @@
         The security news worth your attention, with context and practical takeaways.
       </p>
       <div class="meta-bar">
-        <span>Updated: 2026-04-10 09:03 UTC</span>
-        <span>Stories: 6</span>
+        <span>Updated: 2026-04-10 13:42 UTC</span>
+        <span>Stories: 2</span>
         <span>Recent issues: 14</span>
       </div>
     </header>
@@ -389,7 +389,7 @@
         <section class="one-liner">
           <h2>What Matters Today</h2>
           
-            <p class="text-block">Multiple high-risk incidents highlight increasing vulnerabilities in healthcare and web development sectors, while new phishing threats target executives and malware emerges against NGOs.</p>
+            <p class="text-block">Rapid exploitation of critical vulnerabilities highlights urgent pressure on security teams to address emerging threats.</p>
           
         </section>
 
@@ -398,11 +398,11 @@
           
             <ul>
               
-              <li>Healthcare IT teams face heightened risks as ransomware disrupts critical services, necessitating immediate defensive measures.</li>
+              <li>Attackers are quickly capitalizing on newly disclosed vulnerabilities, indicating a need for faster patching and response strategies.</li>
               
-              <li>Web development teams must remain vigilant against backdoored updates that can compromise sensitive data for a large user base.</li>
+              <li>Supply chain attacks are increasingly targeting widely used software, raising concerns about the integrity of third-party tools.</li>
               
-              <li>Phishing attacks targeting senior executives indicate a shift in attacker focus, increasing pressure on security teams to protect high-value targets.</li>
+              <li>The convergence of RCE flaws and supply chain compromises amplifies the risk landscape, demanding heightened vigilance from development and IT security teams.</li>
               
             </ul>
           
@@ -420,41 +420,43 @@
         <div class="meta">
           <span class="chip risk-high">HIGH</span>
           
-            <span class="chip label-chip">INDUSTRY SIGNAL</span>
+            <span class="chip label-chip">LEGAL POLICY</span>
           
-          <span class="chip chip-neutral">Impact</span>
+            <span class="chip label-chip">RESEARCH</span>
+          
+          <span class="chip chip-neutral">Initial Access</span>
           <span class="chip chip-neutral">Confidence LOW</span>
         </div>
         
-          <h3><a href="https://www.bleepingcomputer.com/news/security/healthcare-it-solutions-provider-chipsoft-hit-by-ransomware-attack/" target="_blank" rel="noopener noreferrer">Healthcare IT solutions provider ChipSoft hit by ransomware attack</a></h3>
+          <h3><a href="https://thehackernews.com/2026/04/marimo-rce-flaw-cve-2026-39987.html" target="_blank" rel="noopener noreferrer">Marimo RCE Flaw CVE-2026-39987 Exploited Within 10 Hours of Disclosure</a></h3>
         
-        <p class="hook">The ransomware attack on ChipSoft disrupts critical healthcare services, risking patient care and data security.</p>
+        <p class="hook">The rapid exploitation of a critical RCE flaw in Marimo poses immediate risks to data integrity and system security.</p>
         <div class="support-grid">
-          <div class="text-block"><span class="label">Who should care:</span> Healthcare IT teams and organizations using ChipSoft's services are most exposed.</div>
-          <div class="text-block"><span class="label">Attack path:</span> Attackers likely gained access through vulnerabilities in ChipSoft's systems, allowing them to deploy ransomware and encrypt critical data.</div>
+          <div class="text-block"><span class="label">Who should care:</span> Development and security teams using Marimo for data science and analysis should prioritize this issue.</div>
+          <div class="text-block"><span class="label">Attack path:</span> Attackers can exploit this vulnerability to run malicious code on affected systems, gaining unauthorized access to sensitive data and resources.</div>
         </div>
-        <div class="text-block"><span class="label">Why this matters now:</span> Sector exposure makes this broader than a one-off incident.</div>
-        <div class="text-block"><span class="label">In plain English:</span> ChipSoft's ransomware attack has taken down essential services for healthcare providers and patients.</div>
+        <div class="text-block"><span class="label">Why this matters now:</span> Useful context for teams tracking where attacker pressure is building.</div>
+        <div class="text-block"><span class="label">In plain English:</span> A serious vulnerability in Marimo has been actively exploited shortly after its disclosure, affecting all versions.</div>
         
           <div class="tags">
             
-              <span>ransomware</span>
+              <span>rce</span>
             
-              <span>healthcare</span>
+              <span>cve</span>
             
-              <span>cybersecurity</span>
+              <span>open source</span>
             
           </div>
         
         <ul class="story-list">
           
-            <li>ChipSoft, a Dutch healthcare IT solutions provider, suffered a ransomware attack that forced the company to take its website and digital services offline. This incident has impacted both patients and healthcare providers who rely on their systems.</li>
+            <li>A critical remote code execution vulnerability, identified as CVE-2026-39987, was disclosed for Marimo, an open-source Python notebook. Within just 10 hours of the announcement, attackers began exploiting this flaw, which has a CVSS score of 9.3, indicating its severity.</li>
           
-            <li>The disruption of healthcare services can lead to delays in patient care and potential data breaches, compromising sensitive health information. As healthcare increasingly relies on digital solutions, such incidents can have severe repercussions on patient trust and operational efficiency.</li>
+            <li>This vulnerability allows attackers to execute arbitrary code without authentication, potentially leading to data breaches or system compromise. Organizations using Marimo are at high risk, especially if they have not yet applied the necessary patches.</li>
           
-            <li>Attackers likely gained access through vulnerabilities in ChipSoft's systems, allowing them to deploy ransomware and encrypt critical data.</li>
+            <li>Attackers can exploit this vulnerability to run malicious code on affected systems, gaining unauthorized access to sensitive data and resources.</li>
           
-            <li>Watch next: Monitor for updates from ChipSoft regarding recovery efforts and any potential data breaches.</li>
+            <li>Watch next: Monitor for updates from Marimo regarding patches and any additional indicators of compromise.</li>
           
         </ul>
 
@@ -463,9 +465,9 @@
             <div class="label">Key terms</div>
             <ul class="list">
             
-              <li>Ransomware - a type of malicious software that encrypts files and demands payment for decryption.</li>
+              <li>RCE - Remote Code Execution, a vulnerability that allows an attacker to run arbitrary code on a target system.</li>
             
-              <li>Healthcare IT - technology and systems used to manage healthcare information and services.</li>
+              <li>CVSS - Common Vulnerability Scoring System, a standard for assessing the severity of security vulnerabilities.</li>
             
             </ul>
           </div>
@@ -475,11 +477,11 @@
           <div class="label">Defender focus</div>
           <ul class="list">
             
-            <li>Monitor network traffic for unusual activity related to ChipSoft services.</li>
+            <li>Implement immediate monitoring for unusual activity on systems running Marimo.</li>
             
-            <li>Ensure backups are secure and not accessible from affected systems.</li>
+            <li>Ensure that all instances of Marimo are updated to the latest version to mitigate the risk.</li>
             
-            <li>Review access logs for any unauthorized access attempts prior to the attack.</li>
+            <li>Review logs for any signs of exploitation attempts since the vulnerability disclosure.</li>
             
           </ul>
         </div>
@@ -488,24 +490,24 @@
           <div class="label">Do now</div>
           <ul class="list">
             
-            <li>Assess the impact on your organization and communicate with affected teams.</li>
+            <li>Patch all instances of Marimo immediately.</li>
             
-            <li>Review and strengthen security measures around healthcare IT systems.</li>
+            <li>Conduct a security audit of systems using Marimo to identify potential exploitation.</li>
             
-            <li>Stay informed on ChipSoft's recovery and any potential vulnerabilities that may arise.</li>
+            <li>Educate relevant teams about the vulnerability and its implications.</li>
             
           </ul>
         </div>
 
-        <div class="text-block"><span class="label">Watch next:</span> Monitor for updates from ChipSoft regarding recovery efforts and any potential data breaches.</div>
+        <div class="text-block"><span class="label">Watch next:</span> Monitor for updates from Marimo regarding patches and any additional indicators of compromise.</div>
 
         <div class="sources">
           <div class="label">Sources</div>
           
             
               <div>
-                <a href="https://www.bleepingcomputer.com/news/security/healthcare-it-solutions-provider-chipsoft-hit-by-ransomware-attack/" target="_blank" rel="noopener noreferrer">
-                  BleepingComputer - Healthcare IT solutions provider ChipSoft hit by ransomware attack
+                <a href="https://thehackernews.com/2026/04/marimo-rce-flaw-cve-2026-39987.html" target="_blank" rel="noopener noreferrer">
+                  The Hacker News - Marimo RCE Flaw CVE-2026-39987 Exploited Within 10 Hours of Disclosure
                 </a>
               </div>
             
@@ -528,251 +530,43 @@
         <div class="meta">
           <span class="chip risk-high">HIGH</span>
           
-            <span class="chip label-chip">PATCH RELEASE</span>
+            <span class="chip label-chip">INDUSTRY SIGNAL</span>
           
           <span class="chip chip-neutral">Initial Access</span>
           <span class="chip chip-neutral">Confidence LOW</span>
         </div>
         
-          <h3><a href="https://thehackernews.com/2026/04/backdoored-smart-slider-3-pro-update.html" target="_blank" rel="noopener noreferrer">Backdoored Smart Slider 3 Pro Update Distributed via Compromised Nextend Servers</a></h3>
+          <h3><a href="https://www.bleepingcomputer.com/news/security/supply-chain-attack-at-cpuid-pushes-malware-with-cpu-z-hwmonitor/" target="_blank" rel="noopener noreferrer">Supply chain attack at CPUID pushes malware with CPU-Z/HWMonitor</a></h3>
         
-        <p class="hook">The distribution of a backdoored update for a widely-used WordPress plugin poses significant risks to over 800,000 installations, potentially compromising sensitive data.</p>
+        <p class="hook">The recent supply chain attack on CPUID compromises the integrity of widely used system monitoring tools, potentially leading to widespread malware infections.</p>
         <div class="support-grid">
-          <div class="text-block"><span class="label">Who should care:</span> Web development teams and site administrators using the Smart Slider 3 Pro plugin should be particularly vigilant.</div>
-          <div class="text-block"><span class="label">Attack path:</span> Attackers exploit the compromised update system to deliver a malicious version of the plugin, allowing them to execute arbitrary code on affected sites.</div>
-        </div>
-        <div class="text-block"><span class="label">Why this matters now:</span> A live patch or vendor fix gives defenders something concrete to validate.</div>
-        <div class="text-block"><span class="label">In plain English:</span> A compromised update for the Smart Slider 3 Pro plugin has been found to contain a backdoor, affecting many WordPress sites.</div>
-        
-          <div class="tags">
-            
-              <span>ransomware</span>
-            
-              <span>cve</span>
-            
-              <span>cloud</span>
-            
-          </div>
-        
-        <ul class="story-list">
-          
-            <li>Threat actors have hijacked the update mechanism for the Smart Slider 3 Pro plugin, distributing a malicious version that includes a backdoor. This incident affects version 3.5.1.35 of the plugin, which is widely used in WordPress and Joomla environments.</li>
-          
-            <li>The backdoor allows attackers to gain unauthorized access to affected sites, potentially leading to data breaches or further exploitation. Given the popularity of the plugin, the scale of impact could be extensive, affecting many businesses and individuals relying on this tool.</li>
-          
-            <li>Attackers exploit the compromised update system to deliver a malicious version of the plugin, allowing them to execute arbitrary code on affected sites.</li>
-          
-            <li>Watch next: Monitor for updates from Patchstack and the Smart Slider team regarding remediation and further vulnerabilities.</li>
-          
-        </ul>
-
-        
-          <div class="glossary">
-            <div class="label">Key terms</div>
-            <ul class="list">
-            
-              <li>Backdoor - a method of bypassing normal authentication to gain remote access to a system.</li>
-            
-              <li>Plugin - a software component that adds specific features to an existing computer program.</li>
-            
-            </ul>
-          </div>
-        
-
-        <div>
-          <div class="label">Defender focus</div>
-          <ul class="list">
-            
-            <li>Implement monitoring for unauthorized changes to plugin files.</li>
-            
-            <li>Review server logs for unusual access patterns related to the Smart Slider 3 Pro plugin.</li>
-            
-            <li>Ensure all installations of the plugin are updated to the latest secure version as soon as it is available.</li>
-            
-          </ul>
-        </div>
-
-        <div>
-          <div class="label">Do now</div>
-          <ul class="list">
-            
-            <li>Immediately check for and remove any unauthorized versions of the Smart Slider 3 Pro plugin.</li>
-            
-            <li>Update the plugin to the latest version once it is confirmed secure.</li>
-            
-            <li>Educate site administrators on the importance of verifying plugin updates from trusted sources.</li>
-            
-          </ul>
-        </div>
-
-        <div class="text-block"><span class="label">Watch next:</span> Monitor for updates from Patchstack and the Smart Slider team regarding remediation and further vulnerabilities.</div>
-
-        <div class="sources">
-          <div class="label">Sources</div>
-          
-            
-              <div>
-                <a href="https://thehackernews.com/2026/04/backdoored-smart-slider-3-pro-update.html" target="_blank" rel="noopener noreferrer">
-                  The Hacker News - Backdoored Smart Slider 3 Pro Update Distributed via Compromised Nextend Servers
-                </a>
-              </div>
-            
-          
-        </div>
-      </article>
-            
-              <article class="card" style="--i: 1;">
-        <div class="meta">
-          <span class="chip risk-medium">MEDIUM</span>
-          
-            <span class="chip label-chip">PATCH RELEASE</span>
-          
-          <span class="chip chip-neutral">Credential Access</span>
-          <span class="chip chip-neutral">Confidence MEDIUM</span>
-        </div>
-        
-          <h3><a href="https://www.bleepingcomputer.com/news/security/google-chrome-adds-infostealer-protection-against-session-cookie-theft/" target="_blank" rel="noopener noreferrer">Google Chrome adds infostealer protection against session cookie theft</a></h3>
-        
-        <p class="hook">The introduction of Device Bound Session Credentials in Chrome is crucial as it directly mitigates the risk of session cookie theft, a common attack vector for infostealers.</p>
-        <div class="support-grid">
-          <div class="text-block"><span class="label">Who should care:</span> Security teams managing Chrome deployments and users handling sensitive data should pay attention.</div>
-          <div class="text-block"><span class="label">Attack path:</span> Attackers typically use infostealer malware to harvest session cookies from compromised systems, allowing them to impersonate users without needing credentials.</div>
-        </div>
-        <div class="text-block"><span class="label">Why this matters now:</span> Multiple sources point to the same operational problem.</div>
-        <div class="text-block"><span class="label">In plain English:</span> Google Chrome has implemented new protections to prevent malware from stealing session cookies.</div>
-        
-          <div class="tags">
-            
-              <span>infostealer</span>
-            
-              <span>chrome</span>
-            
-              <span>security</span>
-            
-              <span>session theft</span>
-            
-          </div>
-        
-        <ul class="story-list">
-          
-            <li>Google has released an update to Chrome (version 146) that includes Device Bound Session Credentials (DBSC) protection. This feature is designed to block malware from accessing session cookies, which are often targeted by infostealers.</li>
-          
-            <li>Session cookies are critical for maintaining user sessions and can be exploited to hijack accounts. By preventing their theft, this update enhances user security and reduces the risk of unauthorized access to sensitive information.</li>
-          
-            <li>Attackers typically use infostealer malware to harvest session cookies from compromised systems, allowing them to impersonate users without needing credentials.</li>
-          
-            <li>Also reported by The Hacker News.</li>
-          
-            <li>Watch next: Monitor for user reports of session hijacking attempts and any updates from Google regarding further enhancements to Chrome's security features.</li>
-          
-        </ul>
-
-        
-          <div class="glossary">
-            <div class="label">Key terms</div>
-            <ul class="list">
-            
-              <li>Device Bound Session Credentials (DBSC) - a security feature that ties session cookies to specific devices, making them harder to steal.</li>
-            
-              <li>Infostealer - a type of malware designed to collect sensitive information from infected systems.</li>
-            
-              <li>Device Bound Session Credentials (DBSC) - a security feature that ties session credentials to a specific device to prevent unauthorized access.</li>
-            
-              <li>Session Theft - a type of attack where an attacker hijacks a user's active session to gain unauthorized access.</li>
-            
-            </ul>
-          </div>
-        
-
-        <div>
-          <div class="label">Defender focus</div>
-          <ul class="list">
-            
-            <li>Ensure that Chrome is updated to version 146 or later across all user devices.</li>
-            
-            <li>Monitor for any unusual account access patterns that may indicate session hijacking attempts.</li>
-            
-            <li>Educate users on the importance of keeping their browsers updated to benefit from the latest security features.</li>
-            
-          </ul>
-        </div>
-
-        <div>
-          <div class="label">Do now</div>
-          <ul class="list">
-            
-            <li>Update Chrome to version 146 immediately.</li>
-            
-            <li>Review and enhance endpoint protection measures against infostealer malware.</li>
-            
-            <li>Conduct a security audit of user accounts for any signs of unauthorized access.</li>
-            
-          </ul>
-        </div>
-
-        <div class="text-block"><span class="label">Watch next:</span> Monitor for user reports of session hijacking attempts and any updates from Google regarding further enhancements to Chrome's security features.</div>
-
-        <div class="sources">
-          <div class="label">Sources</div>
-          
-            
-              <div>
-                <a href="https://www.bleepingcomputer.com/news/security/google-chrome-adds-infostealer-protection-against-session-cookie-theft/" target="_blank" rel="noopener noreferrer">
-                  BleepingComputer - Google Chrome adds infostealer protection against session cookie theft
-                </a>
-              </div>
-            
-          
-            
-              <div>
-                <a href="https://thehackernews.com/2026/04/google-rolls-out-dbsc-in-chrome-146-to.html" target="_blank" rel="noopener noreferrer">
-                  The Hacker News - Google Rolls Out DBSC in Chrome 146 to Block Session Theft on Windows
-                </a>
-              </div>
-            
-          
-        </div>
-      </article>
-            
-              <article class="card" style="--i: 2;">
-        <div class="meta">
-          <span class="chip risk-high">HIGH</span>
-          
-            <span class="chip label-chip">INDUSTRY SIGNAL</span>
-          
-          <span class="chip chip-neutral">Credential Access</span>
-          <span class="chip chip-neutral">Confidence LOW</span>
-        </div>
-        
-          <h3><a href="https://www.bleepingcomputer.com/news/security/new-venom-phishing-attacks-steal-senior-executives-microsoft-logins/" target="_blank" rel="noopener noreferrer">New VENOM phishing attacks steal senior executives' Microsoft logins</a></h3>
-        
-        <p class="hook">The emergence of the VENOM phishing platform poses a significant threat to senior executives, risking sensitive corporate data and financial losses.</p>
-        <div class="support-grid">
-          <div class="text-block"><span class="label">Who should care:</span> CISO, IT security teams, and any organization with C-suite executives using Microsoft services.</div>
-          <div class="text-block"><span class="label">Attack path:</span> Attackers leverage the VENOM platform to create convincing phishing emails that trick executives into providing their Microsoft login credentials.</div>
+          <div class="text-block"><span class="label">Who should care:</span> IT security teams and users of CPU-Z and HWMonitor should be particularly vigilant.</div>
+          <div class="text-block"><span class="label">Attack path:</span> Attackers exploited a vulnerability in the CPUID API to serve malicious files instead of legitimate software. Users who downloaded the compromised tools may unknowingly execute malware on their systems.</div>
         </div>
         <div class="text-block"><span class="label">Why this matters now:</span> Useful context for teams tracking where attacker pressure is building.</div>
-        <div class="text-block"><span class="label">In plain English:</span> New phishing attacks are targeting C-suite executives to steal their Microsoft logins.</div>
+        <div class="text-block"><span class="label">In plain English:</span> Malicious executables were served through official download links for CPU-Z and HWMonitor due to a supply chain compromise.</div>
         
           <div class="tags">
             
-              <span>phishing</span>
+              <span>supply chain</span>
             
-              <span>credential theft</span>
+              <span>malware</span>
             
-              <span>executive security</span>
+              <span>cpu z</span>
+            
+              <span>hwmonitor</span>
             
           </div>
         
         <ul class="story-list">
           
-            <li>Threat actors have launched a phishing campaign using a new platform called VENOM, specifically aimed at stealing Microsoft credentials from senior executives. This platform is categorized as phishing-as-a-service (PhaaS), allowing attackers to easily deploy sophisticated phishing schemes.</li>
+            <li>Hackers accessed an API for the CPUID project and altered the download links on the official website to distribute malware disguised as legitimate software. This incident affects users who downloaded CPU-Z and HWMonitor during the compromise period.</li>
           
-            <li>Compromised executive credentials can lead to unauthorized access to sensitive corporate information, potentially resulting in data breaches and financial repercussions. The targeting of high-level executives increases the likelihood of successful attacks due to their access to critical systems and data.</li>
+            <li>The malware could allow attackers to gain unauthorized access to systems, steal sensitive information, or deploy additional malicious payloads. Given the popularity of these tools, a significant number of users may be at risk, amplifying the potential impact.</li>
           
-            <li>Attackers leverage the VENOM platform to create convincing phishing emails that trick executives into providing their Microsoft login credentials.</li>
+            <li>Attackers exploited a vulnerability in the CPUID API to serve malicious files instead of legitimate software. Users who downloaded the compromised tools may unknowingly execute malware on their systems.</li>
           
-            <li>Watch next: Monitor for reports of increased phishing attempts targeting executives and any updates from Microsoft regarding this threat.</li>
+            <li>Watch next: Monitor for updates from CPUID regarding the incident and any patches or mitigations they release.</li>
           
         </ul>
 
@@ -781,9 +575,9 @@
             <div class="label">Key terms</div>
             <ul class="list">
             
-              <li>PhaaS - Phishing-as-a-Service, a model where attackers provide phishing tools and services to other criminals.</li>
+              <li>Supply Chain Attack - a type of cyber attack where the attacker infiltrates a system through an outside partner or service provider.</li>
             
-              <li>C-suite - Refers to a corporation's most senior executives, such as CEO, CFO, and COO.</li>
+              <li>Malware - malicious software designed to harm, exploit, or otherwise compromise a computer system.</li>
             
             </ul>
           </div>
@@ -793,11 +587,11 @@
           <div class="label">Defender focus</div>
           <ul class="list">
             
-            <li>Implement email filtering to detect and block phishing attempts targeting executives.</li>
+            <li>Verify the integrity of software installations for CPU-Z and HWMonitor.</li>
             
-            <li>Enhance monitoring of login attempts to Microsoft services, especially from unusual locations or devices.</li>
+            <li>Implement endpoint detection to identify any unusual behavior from these applications.</li>
             
-            <li>Educate executives on recognizing phishing attempts and encourage the use of multi-factor authentication.</li>
+            <li>Educate users on the risks of downloading software from compromised sources.</li>
             
           </ul>
         </div>
@@ -806,24 +600,24 @@
           <div class="label">Do now</div>
           <ul class="list">
             
-            <li>Deploy advanced email security solutions to filter phishing emails.</li>
+            <li>Immediately check for and remove any installations of CPU-Z and HWMonitor downloaded during the compromise.</li>
             
-            <li>Conduct a security awareness session specifically for C-suite executives.</li>
+            <li>Update antivirus definitions and run a full system scan on affected machines.</li>
             
-            <li>Review and enforce multi-factor authentication for all executive accounts.</li>
+            <li>Stay informed about CPUID's response and any further developments related to this incident.</li>
             
           </ul>
         </div>
 
-        <div class="text-block"><span class="label">Watch next:</span> Monitor for reports of increased phishing attempts targeting executives and any updates from Microsoft regarding this threat.</div>
+        <div class="text-block"><span class="label">Watch next:</span> Monitor for updates from CPUID regarding the incident and any patches or mitigations they release.</div>
 
         <div class="sources">
           <div class="label">Sources</div>
           
             
               <div>
-                <a href="https://www.bleepingcomputer.com/news/security/new-venom-phishing-attacks-steal-senior-executives-microsoft-logins/" target="_blank" rel="noopener noreferrer">
-                  BleepingComputer - New VENOM phishing attacks steal senior executives' Microsoft logins
+                <a href="https://www.bleepingcomputer.com/news/security/supply-chain-attack-at-cpuid-pushes-malware-with-cpu-z-hwmonitor/" target="_blank" rel="noopener noreferrer">
+                  BleepingComputer - Supply chain attack at CPUID pushes malware with CPU-Z/HWMonitor
                 </a>
               </div>
             
@@ -841,203 +635,7 @@
           Wider Signal
         </div>
         
-          <div class="grid">
-            
-              <article class="card" style="--i: 0;">
-        <div class="meta">
-          <span class="chip risk-high">HIGH</span>
-          
-            <span class="chip label-chip">INDUSTRY SIGNAL</span>
-          
-          <span class="chip chip-neutral">Credential Access</span>
-          <span class="chip chip-neutral">Confidence LOW</span>
-        </div>
-        
-          <h3><a href="https://www.bleepingcomputer.com/news/security/when-attackers-already-have-the-keys-mfa-is-just-another-door-to-open/" target="_blank" rel="noopener noreferrer">When attackers already have the keys, MFA is just another door to open</a></h3>
-        
-        <p class="hook">The effectiveness of multi-factor authentication (MFA) is compromised when attackers possess stolen credentials, increasing the risk of unauthorized access to sensitive systems.</p>
-        <div class="support-grid">
-          <div class="text-block"><span class="label">Who should care:</span> Security teams and IT administrators managing authentication systems should be particularly vigilant.</div>
-          <div class="text-block"><span class="label">Attack path:</span> Attackers can leverage stolen credentials to bypass MFA, gaining unauthorized access to systems that rely on these authentication methods.</div>
-        </div>
-        <div class="text-block"><span class="label">Why this matters now:</span> Useful context for teams tracking where attacker pressure is building.</div>
-        <div class="text-block"><span class="label">In plain English:</span> Stolen credentials can render MFA ineffective, allowing attackers easier access to systems.</div>
-        
-          <div class="tags">
-            
-              <span>authentication</span>
-            
-              <span>mfa</span>
-            
-              <span>credential theft</span>
-            
-          </div>
-        
-        <ul class="story-list">
-          
-            <li>Recent discussions highlight that stolen credentials can undermine MFA systems, making them vulnerable to exploitation. A new token-based biometric authentication method has been proposed to enhance security by verifying the user rather than the session.</li>
-          
-            <li>This situation poses a significant threat as many organizations rely on MFA as a primary security measure. If attackers can bypass MFA, they can gain access to critical systems and data, leading to potential data breaches and financial losses.</li>
-          
-            <li>Attackers can leverage stolen credentials to bypass MFA, gaining unauthorized access to systems that rely on these authentication methods.</li>
-          
-            <li>Watch next: Monitor for updates on the adoption of biometric authentication solutions and any emerging threats targeting MFA systems.</li>
-          
-        </ul>
-
-        
-          <div class="glossary">
-            <div class="label">Key terms</div>
-            <ul class="list">
-            
-              <li>MFA - Multi-Factor Authentication, a security system that requires more than one form of verification to access an account.</li>
-            
-              <li>Biometric Authentication - A security process that uses unique biological characteristics, such as fingerprints or facial recognition, to verify identity.</li>
-            
-            </ul>
-          </div>
-        
-
-        <div>
-          <div class="label">Defender focus</div>
-          <ul class="list">
-            
-            <li>Review logs for unusual access patterns that may indicate credential theft.</li>
-            
-            <li>Implement additional layers of security, such as biometric authentication, to complement existing MFA.</li>
-            
-            <li>Conduct regular audits of authentication systems to identify and mitigate vulnerabilities.</li>
-            
-          </ul>
-        </div>
-
-        <div>
-          <div class="label">Do now</div>
-          <ul class="list">
-            
-            <li>Assess current MFA implementations for vulnerabilities related to credential theft.</li>
-            
-            <li>Explore and test biometric authentication solutions to enhance security.</li>
-            
-            <li>Educate staff on recognizing phishing attempts that could lead to credential theft.</li>
-            
-          </ul>
-        </div>
-
-        <div class="text-block"><span class="label">Watch next:</span> Monitor for updates on the adoption of biometric authentication solutions and any emerging threats targeting MFA systems.</div>
-
-        <div class="sources">
-          <div class="label">Sources</div>
-          
-            
-              <div>
-                <a href="https://www.bleepingcomputer.com/news/security/when-attackers-already-have-the-keys-mfa-is-just-another-door-to-open/" target="_blank" rel="noopener noreferrer">
-                  BleepingComputer - When attackers already have the keys, MFA is just another door to open
-                </a>
-              </div>
-            
-          
-        </div>
-      </article>
-            
-              <article class="card" style="--i: 1;">
-        <div class="meta">
-          <span class="chip risk-high">HIGH</span>
-          
-            <span class="chip label-chip">INDUSTRY SIGNAL</span>
-          
-          <span class="chip chip-neutral">Initial Access</span>
-          <span class="chip chip-neutral">Confidence LOW</span>
-        </div>
-        
-          <h3><a href="https://www.bleepingcomputer.com/news/security/new-lucidrook-malware-used-in-targeted-attacks-on-ngos-universities/" target="_blank" rel="noopener noreferrer">New ‘LucidRook’ malware used in targeted attacks on NGOs, universities</a></h3>
-        
-        <p class="hook">The emergence of LucidRook malware poses a significant threat to NGOs and universities, potentially compromising sensitive data and operations.</p>
-        <div class="support-grid">
-          <div class="text-block"><span class="label">Who should care:</span> IT security teams at NGOs and universities should prioritize monitoring for this threat.</div>
-          <div class="text-block"><span class="label">Attack path:</span> Attackers gain access through spear-phishing emails that deliver the LucidRook malware, allowing them to execute commands and exfiltrate data.</div>
-        </div>
-        <div class="text-block"><span class="label">Why this matters now:</span> Sector exposure makes this broader than a one-off incident.</div>
-        <div class="text-block"><span class="label">In plain English:</span> New malware is targeting NGOs and universities, raising urgent security concerns.</div>
-        
-          <div class="tags">
-            
-              <span>malware</span>
-            
-              <span>spear phishing</span>
-            
-              <span>ngos</span>
-            
-          </div>
-        
-        <ul class="story-list">
-          
-            <li>LucidRook, a Lua-based malware, has been identified in spear-phishing campaigns aimed at non-governmental organizations and universities in Taiwan. The malware is designed to infiltrate systems and exfiltrate data.</li>
-          
-            <li>The targeted nature of these attacks suggests that sensitive information related to humanitarian efforts and academic research could be at risk. Compromised organizations may face operational disruptions and reputational damage.</li>
-          
-            <li>Attackers gain access through spear-phishing emails that deliver the LucidRook malware, allowing them to execute commands and exfiltrate data.</li>
-          
-            <li>Watch next: Monitor for updates on the malware's spread and any indicators of compromise reported by affected organizations.</li>
-          
-        </ul>
-
-        
-          <div class="glossary">
-            <div class="label">Key terms</div>
-            <ul class="list">
-            
-              <li>Spear-phishing - a targeted attempt to steal sensitive information through deceptive emails.</li>
-            
-              <li>Exfiltration - the unauthorized transfer of data from a computer or network.</li>
-            
-            </ul>
-          </div>
-        
-
-        <div>
-          <div class="label">Defender focus</div>
-          <ul class="list">
-            
-            <li>Implement email filtering to detect and block spear-phishing attempts.</li>
-            
-            <li>Conduct a review of current security protocols to ensure they are robust against malware.</li>
-            
-            <li>Monitor network traffic for unusual activity that may indicate malware presence.</li>
-            
-          </ul>
-        </div>
-
-        <div>
-          <div class="label">Do now</div>
-          <ul class="list">
-            
-            <li>Enhance email security measures immediately.</li>
-            
-            <li>Educate staff on recognizing spear-phishing attempts.</li>
-            
-            <li>Review and update incident response plans.</li>
-            
-          </ul>
-        </div>
-
-        <div class="text-block"><span class="label">Watch next:</span> Monitor for updates on the malware's spread and any indicators of compromise reported by affected organizations.</div>
-
-        <div class="sources">
-          <div class="label">Sources</div>
-          
-            
-              <div>
-                <a href="https://www.bleepingcomputer.com/news/security/new-lucidrook-malware-used-in-targeted-attacks-on-ngos-universities/" target="_blank" rel="noopener noreferrer">
-                  BleepingComputer - New ‘LucidRook’ malware used in targeted attacks on NGOs, universities
-                </a>
-              </div>
-            
-          
-        </div>
-      </article>
-            
-          </div>
+          <p class="empty">No context stories today.</p>
         
       </section>
     </main>
