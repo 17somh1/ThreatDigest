@@ -1,5 +1,5 @@
 {
-  "last_run_utc": "2026-04-09T14:04:10.484854+00:00",
+  "last_run_utc": "2026-04-10T09:03:51.980926+00:00",
   "processed_urls": [
     "https://www.bleepingcomputer.com/news/security/critical-cisco-sd-wan-bug-exploited-in-zero-day-attacks-since-2023/",
     "https://www.cisa.gov/news-events/alerts/2026/02/25/cisa-and-partners-release-guidance-ongoing-global-exploitation-cisco-sd-wan-systems",
@@ -281,6 +281,15 @@
     "https://thehackernews.com/2026/04/adobe-reader-zero-day-exploited-via.html",
     "https://www.bleepingcomputer.com/news/security/hackers-exploiting-acrobat-reader-zero-day-flaw-since-december/",
     "https://thehackernews.com/2026/04/threatsday-bulletin-hybrid-p2p-botnet.html",
-    "https://www.bleepingcomputer.com/news/security/webinar-from-noise-to-signal-what-threat-actors-are-targeting-next/"
+    "https://www.bleepingcomputer.com/news/security/webinar-from-noise-to-signal-what-threat-actors-are-targeting-next/",
+    "https://www.bleepingcomputer.com/news/security/new-venom-phishing-attacks-steal-senior-executives-microsoft-logins/",
+    "https://www.bleepingcomputer.com/news/security/when-attackers-already-have-the-keys-mfa-is-just-another-door-to-open/",
+    "https://www.bleepingcomputer.com/news/security/new-lucidrook-malware-used-in-targeted-attacks-on-ngos-universities/",
+    "https://www.bleepingcomputer.com/news/security/healthcare-it-solutions-provider-chipsoft-hit-by-ransomware-attack/",
+    "https://www.bleepingcomputer.com/news/security/google-chrome-adds-infostealer-protection-against-session-cookie-theft/",
+    "https://thehackernews.com/2026/04/google-rolls-out-dbsc-in-chrome-146-to.html",
+    "https://thehackernews.com/2026/04/backdoored-smart-slider-3-pro-update.html",
+    "https://thehackernews.com/2026/04/engagelab-sdk-flaw-exposed-50m-android.html",
+    "https://thehackernews.com/2026/04/uat-10362-targets-taiwanese-ngos-with.html"
   ]
 }
