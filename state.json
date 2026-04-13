@@ -1,5 +1,5 @@
 {
-  "last_run_utc": "2026-04-12T13:19:43.663202+00:00",
+  "last_run_utc": "2026-04-13T09:49:01.036952+00:00",
   "processed_urls": [
     "https://www.bleepingcomputer.com/news/security/critical-cisco-sd-wan-bug-exploited-in-zero-day-attacks-since-2023/",
     "https://www.cisa.gov/news-events/alerts/2026/02/25/cisa-and-partners-release-guidance-ongoing-global-exploitation-cisco-sd-wan-systems",
@@ -294,6 +294,8 @@
     "https://thehackernews.com/2026/04/marimo-rce-flaw-cve-2026-39987.html",
     "https://www.bleepingcomputer.com/news/security/supply-chain-attack-at-cpuid-pushes-malware-with-cpu-z-hwmonitor/",
     "https://www.bleepingcomputer.com/news/security/analysis-of-one-billion-cisa-kev-remediation-records-exposes-limits-of-human-scale-security/",
-    "https://thehackernews.com/2026/04/adobe-patches-actively-exploited.html"
+    "https://thehackernews.com/2026/04/adobe-patches-actively-exploited.html",
+    "https://www.bleepingcomputer.com/news/security/critical-marimo-pre-auth-rce-flaw-now-under-active-exploitation/",
+    "https://thehackernews.com/2026/04/openai-revokes-macos-app-certificate.html"
   ]
 }
