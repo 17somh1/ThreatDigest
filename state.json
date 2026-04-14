@@ -1,5 +1,5 @@
 {
-  "last_run_utc": "2026-04-13T14:01:55.478207+00:00",
+  "last_run_utc": "2026-04-14T09:12:09.082329+00:00",
   "processed_urls": [
     "https://www.bleepingcomputer.com/news/security/critical-cisco-sd-wan-bug-exploited-in-zero-day-attacks-since-2023/",
     "https://www.cisa.gov/news-events/alerts/2026/02/25/cisa-and-partners-release-guidance-ongoing-global-exploitation-cisco-sd-wan-systems",
@@ -297,6 +297,15 @@
     "https://thehackernews.com/2026/04/adobe-patches-actively-exploited.html",
     "https://www.bleepingcomputer.com/news/security/critical-marimo-pre-auth-rce-flaw-now-under-active-exploitation/",
     "https://thehackernews.com/2026/04/openai-revokes-macos-app-certificate.html",
-    "https://thehackernews.com/2026/04/your-mttd-looks-great-your-post-alert.html"
+    "https://thehackernews.com/2026/04/your-mttd-looks-great-your-post-alert.html",
+    "https://www.cisa.gov/news-events/alerts/2026/04/13/cisa-adds-seven-known-exploited-vulnerabilities-catalog",
+    "https://thehackernews.com/2026/04/showdoc-rce-flaw-cve-2025-0520-actively.html",
+    "https://www.bleepingcomputer.com/news/security/adobe-rolls-out-emergency-fix-for-acrobat-reader-zero-day-flaw/",
+    "https://thehackernews.com/2026/04/cisa-adds-6-known-exploited-flaws-in.html",
+    "https://thehackernews.com/2026/04/fbi-and-indonesian-police-dismantle.html",
+    "https://thehackernews.com/2026/04/weekly-recap-fiber-optic-spying-windows.html",
+    "https://www.bleepingcomputer.com/news/security/stolen-rockstar-games-analytics-data-leaked-by-extortion-gang/",
+    "https://www.bleepingcomputer.com/news/security/fbi-takedown-of-w3ll-phishing-service-leads-to-developer-arrest/",
+    "https://www.bleepingcomputer.com/news/security/openai-rotates-macos-certs-after-axios-attack-hit-code-signing-workflow/"
   ]
 }
