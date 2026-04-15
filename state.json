@@ -1,5 +1,5 @@
 {
-  "last_run_utc": "2026-04-15T09:13:23.768795+00:00",
+  "last_run_utc": "2026-04-15T13:57:37.039044+00:00",
   "processed_urls": [
     "https://www.bleepingcomputer.com/news/security/critical-cisco-sd-wan-bug-exploited-in-zero-day-attacks-since-2023/",
     "https://www.cisa.gov/news-events/alerts/2026/02/25/cisa-and-partners-release-guidance-ongoing-global-exploitation-cisco-sd-wan-systems",
@@ -316,6 +316,8 @@
     "https://www.bleepingcomputer.com/news/microsoft/microsoft-april-2026-patch-tuesday-fixes-167-flaws-2-zero-days/",
     "https://www.bleepingcomputer.com/news/microsoft/microsoft-adds-windows-protections-for-malicious-remote-desktop-files/",
     "https://www.bleepingcomputer.com/news/security/mcgraw-hill-confirms-data-breach-following-extortion-threat/",
-    "https://www.bleepingcomputer.com/news/security/5-ways-zero-trust-maximizes-identity-security/"
+    "https://www.bleepingcomputer.com/news/security/5-ways-zero-trust-maximizes-identity-security/",
+    "https://thehackernews.com/2026/04/critical-nginx-ui-vulnerability-cve.html",
+    "https://thehackernews.com/2026/04/april-patch-tuesday-fixes-critical.html"
   ]
 }
