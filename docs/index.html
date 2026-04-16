@@ -378,8 +378,8 @@
         The security news worth your attention, with context and practical takeaways.
       </p>
       <div class="meta-bar">
-        <span>Updated: 2026-04-16 09:12 UTC</span>
-        <span>Stories: 3</span>
+        <span>Updated: 2026-04-16 14:06 UTC</span>
+        <span>Stories: 4</span>
         <span>Recent issues: 14</span>
       </div>
     </header>
@@ -389,7 +389,7 @@
         <section class="one-liner">
           <h2>What Matters Today</h2>
           
-            <p class="text-block">Multiple critical vulnerabilities in widely used software are under active exploitation, demanding immediate attention from IT and security teams.</p>
+            <p class="text-block">Critical vulnerabilities across multiple platforms, including a 0-day in Microsoft Defender and flaws in Cisco's Webex, demand urgent attention from security teams to prevent exploitation.</p>
           
         </section>
 
@@ -398,11 +398,11 @@
           
             <ul>
               
-              <li>Attackers are leveraging known vulnerabilities in popular software to gain unauthorized access, highlighting the need for timely patching.</li>
+              <li>Rising attacker pressure on widely used platforms increases the urgency for immediate patching.</li>
               
-              <li>The rise in exploitation of automation tools indicates a shift in attacker tactics, necessitating enhanced security measures for these platforms.</li>
+              <li>Unmanaged identities pose a significant risk, highlighting the need for better credential management.</li>
               
-              <li>Increased pressure on defenders to monitor and respond to active threats as exploitation trends evolve rapidly.</li>
+              <li>Defenders face increased workload as they must prioritize multiple critical updates across different systems.</li>
               
             </ul>
           
@@ -420,43 +420,41 @@
         <div class="meta">
           <span class="chip risk-high">HIGH</span>
           
-            <span class="chip label-chip">ACTIVE EXPLOITATION</span>
-          
-            <span class="chip label-chip">LEGAL POLICY</span>
+            <span class="chip label-chip">INDUSTRY SIGNAL</span>
           
           <span class="chip chip-neutral">Initial Access</span>
           <span class="chip chip-neutral">Confidence LOW</span>
         </div>
         
-          <h3><a href="https://www.bleepingcomputer.com/news/security/critical-nginx-ui-auth-bypass-flaw-now-actively-exploited-in-the-wild/" target="_blank" rel="noopener noreferrer">Critical Nginx UI auth bypass flaw now actively exploited in the wild</a></h3>
+          <h3><a href="https://thehackernews.com/2026/04/threatsday-bulletin-17-year-old-excel.html" target="_blank" rel="noopener noreferrer">ThreatsDay Bulletin: Defender 0-Day, SonicWall Brute-Force, 17-Year-Old Excel RCE and 15 More Stories</a></h3>
         
-        <p class="hook">The exploitation of a critical Nginx UI vulnerability could lead to unauthorized server access, posing significant risks to data integrity and availability.</p>
+        <p class="hook">Multiple critical vulnerabilities, including a 0-day in Microsoft Defender, pose immediate risks to organizational security and data integrity.</p>
         <div class="support-grid">
-          <div class="text-block"><span class="label">Who should care:</span> DevOps teams and system administrators managing Nginx deployments should prioritize this issue.</div>
-          <div class="text-block"><span class="label">Attack path:</span> Attackers can exploit the vulnerability to bypass authentication and gain full control of the server, leading to potential data theft or service disruption.</div>
+          <div class="text-block"><span class="label">Who should care:</span> Security teams managing Microsoft Defender and SonicWall products should prioritize these vulnerabilities.</div>
+          <div class="text-block"><span class="label">Attack path:</span> Attackers can exploit the Microsoft Defender 0-day to bypass defenses, while brute-force attacks on SonicWall devices can lead to unauthorized access.</div>
         </div>
-        <div class="text-block"><span class="label">Why this matters now:</span> Active exploitation makes this an immediate exposure check.</div>
-        <div class="text-block"><span class="label">In plain English:</span> A serious flaw in Nginx UI is being actively exploited, allowing attackers to take over servers without authentication.</div>
+        <div class="text-block"><span class="label">Why this matters now:</span> Useful context for teams tracking where attacker pressure is building.</div>
+        <div class="text-block"><span class="label">In plain English:</span> Several significant vulnerabilities have been reported, requiring urgent attention from security teams.</div>
         
           <div class="tags">
             
               <span>vulnerability</span>
             
-              <span>nginx</span>
+              <span>0 day</span>
             
-              <span>authentication</span>
+              <span>brute force</span>
             
           </div>
         
         <ul class="story-list">
           
-            <li>A critical vulnerability has been identified in the Nginx UI that supports Model Context Protocol (MCP). This flaw allows attackers to bypass authentication mechanisms, enabling full server takeover.</li>
+            <li>A 0-day vulnerability in Microsoft Defender has been identified, allowing attackers to bypass security measures. Additionally, SonicWall is facing brute-force attacks, and a 17-year-old remote code execution (RCE) vulnerability in Excel is still being exploited.</li>
           
-            <li>The ability to exploit this vulnerability means that attackers can gain unauthorized access to sensitive data and potentially disrupt services. Organizations using Nginx UI are at immediate risk of data breaches and operational downtime.</li>
+            <li>These vulnerabilities can lead to unauthorized access, data breaches, and potential system compromise. Organizations using Microsoft Defender and SonicWall products are particularly at risk, as attackers may exploit these weaknesses to gain footholds in networks.</li>
           
-            <li>Attackers can exploit the vulnerability to bypass authentication and gain full control of the server, leading to potential data theft or service disruption.</li>
+            <li>Attackers can exploit the Microsoft Defender 0-day to bypass defenses, while brute-force attacks on SonicWall devices can lead to unauthorized access.</li>
           
-            <li>Watch next: Monitor for updates from Nginx regarding patches or mitigations for this vulnerability.</li>
+            <li>Watch next: Monitor for patches from Microsoft and SonicWall, as well as any indicators of compromise related to these vulnerabilities.</li>
           
         </ul>
 
@@ -465,9 +463,9 @@
             <div class="label">Key terms</div>
             <ul class="list">
             
-              <li>Nginx - a popular web server software that handles HTTP requests.</li>
+              <li>0-day - a vulnerability that is exploited before the vendor has released a fix.</li>
             
-              <li>Authentication Bypass - a security flaw that allows unauthorized access to a system without proper credentials.</li>
+              <li>RCE - Remote Code Execution, a vulnerability allowing an attacker to run arbitrary code on a remote system.</li>
             
             </ul>
           </div>
@@ -477,11 +475,11 @@
           <div class="label">Defender focus</div>
           <ul class="list">
             
-            <li>Implement monitoring for unusual access patterns to Nginx servers.</li>
+            <li>Implement immediate monitoring for unusual authentication attempts on SonicWall devices.</li>
             
-            <li>Review server configurations to ensure they are not vulnerable to this exploit.</li>
+            <li>Review logs for any signs of exploitation related to the Microsoft Defender vulnerability.</li>
             
-            <li>Prepare to deploy patches as soon as they are released by Nginx.</li>
+            <li>Ensure all systems are updated with the latest security patches as they become available.</li>
             
           </ul>
         </div>
@@ -490,24 +488,24 @@
           <div class="label">Do now</div>
           <ul class="list">
             
-            <li>Assess Nginx deployments for the vulnerability immediately.</li>
+            <li>Patch Microsoft Defender and SonicWall products as soon as updates are released.</li>
             
-            <li>Apply any available patches or mitigations as soon as they are released.</li>
+            <li>Increase monitoring for suspicious activity related to these vulnerabilities.</li>
             
-            <li>Enhance monitoring for unauthorized access attempts on affected servers.</li>
+            <li>Conduct a security audit to identify any systems still vulnerable to the 17-year-old Excel RCE.</li>
             
           </ul>
         </div>
 
-        <div class="text-block"><span class="label">Watch next:</span> Monitor for updates from Nginx regarding patches or mitigations for this vulnerability.</div>
+        <div class="text-block"><span class="label">Watch next:</span> Monitor for patches from Microsoft and SonicWall, as well as any indicators of compromise related to these vulnerabilities.</div>
 
         <div class="sources">
           <div class="label">Sources</div>
           
             
               <div>
-                <a href="https://www.bleepingcomputer.com/news/security/critical-nginx-ui-auth-bypass-flaw-now-actively-exploited-in-the-wild/" target="_blank" rel="noopener noreferrer">
-                  BleepingComputer - Critical Nginx UI auth bypass flaw now actively exploited in the wild
+                <a href="https://thehackernews.com/2026/04/threatsday-bulletin-17-year-old-excel.html" target="_blank" rel="noopener noreferrer">
+                  The Hacker News - ThreatsDay Bulletin: Defender 0-Day, SonicWall Brute-Force, 17-Year-Old Excel RCE and 15 More Stories
                 </a>
               </div>
             
@@ -530,41 +528,43 @@
         <div class="meta">
           <span class="chip risk-high">HIGH</span>
           
-            <span class="chip label-chip">INDUSTRY SIGNAL</span>
+            <span class="chip label-chip">PATCH RELEASE</span>
           
-          <span class="chip chip-neutral">Privilege Escalation</span>
+            <span class="chip label-chip">LEGAL POLICY</span>
+          
+          <span class="chip chip-neutral">Execution</span>
           <span class="chip chip-neutral">Confidence LOW</span>
         </div>
         
-          <h3><a href="https://www.bleepingcomputer.com/news/security/cisa-flags-windows-task-host-vulnerability-as-exploited-in-attacks/" target="_blank" rel="noopener noreferrer">CISA flags Windows Task Host vulnerability as exploited in attacks</a></h3>
+          <h3><a href="https://thehackernews.com/2026/04/cisco-patches-four-critical-identity.html" target="_blank" rel="noopener noreferrer">Cisco Patches Four Critical Identity Services, Webex Flaws Enabling Code Execution</a></h3>
         
-        <p class="hook">Immediate action is required to mitigate a critical Windows vulnerability that could allow attackers to gain full control of affected systems.</p>
+        <p class="hook">Immediate patching is crucial as unaddressed vulnerabilities in Cisco's Identity Services and Webex could allow attackers to execute arbitrary code and impersonate users.</p>
         <div class="support-grid">
-          <div class="text-block"><span class="label">Who should care:</span> IT security teams and system administrators managing Windows environments should prioritize this issue.</div>
-          <div class="text-block"><span class="label">Attack path:</span> An attacker could exploit this vulnerability by executing malicious code that takes advantage of the privilege escalation flaw, gaining SYSTEM privileges and full control over the system.</div>
+          <div class="text-block"><span class="label">Who should care:</span> IT security teams managing Cisco Identity Services and Webex should prioritize these updates.</div>
+          <div class="text-block"><span class="label">Attack path:</span> An attacker could exploit these vulnerabilities to execute arbitrary code, gaining control over the affected services and impersonating users.</div>
         </div>
-        <div class="text-block"><span class="label">Why this matters now:</span> Sector exposure makes this broader than a one-off incident.</div>
-        <div class="text-block"><span class="label">In plain English:</span> CISA has identified a privilege escalation vulnerability in Windows Task Host that is currently being exploited.</div>
+        <div class="text-block"><span class="label">Why this matters now:</span> A live patch or vendor fix gives defenders something concrete to validate.</div>
+        <div class="text-block"><span class="label">In plain English:</span> Cisco has released critical patches for vulnerabilities that could let attackers take control of Identity Services and Webex.</div>
         
           <div class="tags">
             
               <span>cve</span>
             
-              <span>windows</span>
+              <span>webex</span>
             
-              <span>privilege escalation</span>
+              <span>identity services</span>
             
           </div>
         
         <ul class="story-list">
           
-            <li>CISA has issued a warning regarding a vulnerability in Windows Task Host that allows attackers to escalate privileges to SYSTEM level. This vulnerability is actively being exploited in the wild, posing a significant risk to U.S. government agencies and potentially other organizations.</li>
+            <li>Cisco has patched four critical vulnerabilities in its Identity Services and Webex that could lead to arbitrary code execution. One notable flaw, CVE-2026-20184, involves improper certificate validation in single sign-on integration, with a CVSS score of 9.8.</li>
           
-            <li>If exploited, this vulnerability could enable attackers to execute arbitrary code with elevated privileges, compromising the integrity and security of affected systems. Organizations that fail to address this vulnerability may face severe operational disruptions and data breaches.</li>
+            <li>These vulnerabilities could allow attackers to impersonate legitimate users, potentially leading to unauthorized access and data breaches. Organizations using these services must prioritize patching to mitigate the risk of exploitation.</li>
           
-            <li>An attacker could exploit this vulnerability by executing malicious code that takes advantage of the privilege escalation flaw, gaining SYSTEM privileges and full control over the system.</li>
+            <li>An attacker could exploit these vulnerabilities to execute arbitrary code, gaining control over the affected services and impersonating users.</li>
           
-            <li>Watch next: Monitor for updates from CISA and Microsoft regarding patches or additional mitigation strategies.</li>
+            <li>Watch next: Monitor for any reports of exploitation attempts or additional vulnerabilities in Cisco products.</li>
           
         </ul>
 
@@ -573,9 +573,9 @@
             <div class="label">Key terms</div>
             <ul class="list">
             
-              <li>Privilege Escalation - a type of attack where an attacker gains elevated access to resources that are normally protected from the user.</li>
+              <li>CVE - Common Vulnerabilities and Exposures, a list of publicly disclosed cybersecurity vulnerabilities.</li>
             
-              <li>SYSTEM Privileges - the highest level of access in Windows operating systems, allowing complete control over the system.</li>
+              <li>CVSS - Common Vulnerability Scoring System, a standard for assessing the severity of security vulnerabilities.</li>
             
             </ul>
           </div>
@@ -585,11 +585,11 @@
           <div class="label">Defender focus</div>
           <ul class="list">
             
-            <li>Implement monitoring for unusual process behavior related to Windows Task Host.</li>
+            <li>Verify that all Cisco Identity Services and Webex instances are updated with the latest patches.</li>
             
-            <li>Review and apply any available patches or mitigations from Microsoft immediately.</li>
+            <li>Monitor logs for unusual access patterns that may indicate exploitation attempts.</li>
             
-            <li>Conduct an audit of systems to identify any that may be vulnerable to this exploit.</li>
+            <li>Implement network segmentation to limit the impact of potential breaches.</li>
             
           </ul>
         </div>
@@ -598,24 +598,24 @@
           <div class="label">Do now</div>
           <ul class="list">
             
-            <li>Patch affected systems as soon as updates are available.</li>
+            <li>Immediately apply the latest patches from Cisco.</li>
             
-            <li>Increase monitoring for signs of exploitation attempts.</li>
+            <li>Conduct a security audit of user access to Identity Services and Webex.</li>
             
-            <li>Review access controls and permissions for critical systems.</li>
+            <li>Review and update incident response plans to address potential exploitation scenarios.</li>
             
           </ul>
         </div>
 
-        <div class="text-block"><span class="label">Watch next:</span> Monitor for updates from CISA and Microsoft regarding patches or additional mitigation strategies.</div>
+        <div class="text-block"><span class="label">Watch next:</span> Monitor for any reports of exploitation attempts or additional vulnerabilities in Cisco products.</div>
 
         <div class="sources">
           <div class="label">Sources</div>
           
             
               <div>
-                <a href="https://www.bleepingcomputer.com/news/security/cisa-flags-windows-task-host-vulnerability-as-exploited-in-attacks/" target="_blank" rel="noopener noreferrer">
-                  BleepingComputer - CISA flags Windows Task Host vulnerability as exploited in attacks
+                <a href="https://thehackernews.com/2026/04/cisco-patches-four-critical-identity.html" target="_blank" rel="noopener noreferrer">
+                  The Hacker News - Cisco Patches Four Critical Identity Services, Webex Flaws Enabling Code Execution
                 </a>
               </div>
             
@@ -629,39 +629,39 @@
           
             <span class="chip label-chip">INDUSTRY SIGNAL</span>
           
-          <span class="chip chip-neutral">Initial Access</span>
+          <span class="chip chip-neutral">Credential Access</span>
           <span class="chip chip-neutral">Confidence LOW</span>
         </div>
         
-          <h3><a href="https://thehackernews.com/2026/04/n8n-webhooks-abused-since-october-2025.html" target="_blank" rel="noopener noreferrer">n8n Webhooks Abused Since October 2025 to Deliver Malware via Phishing Emails</a></h3>
+          <h3><a href="https://thehackernews.com/2026/04/webinar-find-and-eliminate-orphaned-non.html" target="_blank" rel="noopener noreferrer">[Webinar] Find and Eliminate Orphaned Non-Human Identities in Your Environment</a></h3>
         
-        <p class="hook">The exploitation of n8n webhooks for malware delivery poses a significant threat to organizations relying on automation tools, as it allows attackers to bypass security measures.</p>
+        <p class="hook">Unmanaged non-human identities are a significant vulnerability, leading to 68% of cloud breaches in 2024, making it critical to address this now.</p>
         <div class="support-grid">
-          <div class="text-block"><span class="label">Who should care:</span> Security teams, IT administrators, and users of the n8n platform should be particularly vigilant.</div>
-          <div class="text-block"><span class="label">Attack path:</span> Attackers gain leverage by using n8n's webhooks to automate the sending of phishing emails, which can deliver malware directly to users.</div>
+          <div class="text-block"><span class="label">Who should care:</span> Cloud security teams and IT administrators managing automated credentials and service accounts should be particularly vigilant.</div>
+          <div class="text-block"><span class="label">Attack path:</span> Attackers can exploit forgotten service accounts and API keys to gain unauthorized access to cloud environments, often without detection.</div>
         </div>
         <div class="text-block"><span class="label">Why this matters now:</span> Useful context for teams tracking where attacker pressure is building.</div>
-        <div class="text-block"><span class="label">In plain English:</span> Attackers are using n8n webhooks to send phishing emails that deliver malware, making it crucial for affected teams to enhance their defenses.</div>
+        <div class="text-block"><span class="label">In plain English:</span> Many cloud breaches stem from forgotten service accounts and API keys, highlighting the need for better management of non-human identities.</div>
         
           <div class="tags">
             
-              <span>phishing</span>
+              <span>cloud</span>
             
-              <span>malware</span>
+              <span>identity management</span>
             
-              <span>n8n</span>
+              <span>security</span>
             
           </div>
         
         <ul class="story-list">
           
-            <li>Threat actors have been observed using n8n, an AI workflow automation platform, since October 2025 to conduct phishing campaigns. They exploit n8n's webhooks to send automated emails that deliver malicious payloads or gather device fingerprints.</li>
+            <li>A recent report indicates that compromised service accounts and forgotten API keys were responsible for 68% of cloud breaches in 2024. This issue arises from unmanaged non-human identities, such as service accounts and API tokens, that organizations often overlook.</li>
           
-            <li>This tactic allows attackers to leverage trusted infrastructure, which can evade traditional security filters. Organizations using n8n or similar automation tools may find themselves at increased risk of malware infections and data breaches.</li>
+            <li>The prevalence of these unmanaged identities poses a serious risk to cloud security, as they can be exploited by attackers to gain unauthorized access. Organizations must prioritize the identification and management of these identities to prevent potential breaches and protect sensitive data.</li>
           
-            <li>Attackers gain leverage by using n8n's webhooks to automate the sending of phishing emails, which can deliver malware directly to users.</li>
+            <li>Attackers can exploit forgotten service accounts and API keys to gain unauthorized access to cloud environments, often without detection.</li>
           
-            <li>Watch next: Monitor for updates from n8n regarding security patches or recommendations to mitigate this threat.</li>
+            <li>Watch next: Monitor for updates on best practices for managing non-human identities and any new tools that can assist in this area.</li>
           
         </ul>
 
@@ -670,9 +670,9 @@
             <div class="label">Key terms</div>
             <ul class="list">
             
-              <li>Webhook - a method for one application to send real-time data to another application when a specific event occurs.</li>
+              <li>Non-Human Identities - automated accounts or credentials that are not tied to individual users, such as service accounts and API tokens.</li>
             
-              <li>Phishing - a type of cyber attack where attackers impersonate legitimate organizations to trick individuals into providing sensitive information.</li>
+              <li>API Key - a code passed in by computer programs calling an API to identify the calling program.</li>
             
             </ul>
           </div>
@@ -682,11 +682,11 @@
           <div class="label">Defender focus</div>
           <ul class="list">
             
-            <li>Implement monitoring for unusual webhook activity within n8n.</li>
+            <li>Implement monitoring for unused or orphaned service accounts and API keys.</li>
             
-            <li>Enhance email filtering to detect and block phishing attempts leveraging n8n.</li>
+            <li>Regularly audit non-human identities to ensure they are still necessary and secure.</li>
             
-            <li>Conduct a review of automation tools in use to assess their security configurations.</li>
+            <li>Establish a process for decommissioning identities when projects end or employees leave.</li>
             
           </ul>
         </div>
@@ -695,24 +695,121 @@
           <div class="label">Do now</div>
           <ul class="list">
             
-            <li>Review and update security policies for automation tools like n8n.</li>
+            <li>Conduct an immediate audit of all non-human identities in your cloud environment.</li>
             
-            <li>Train staff to recognize phishing attempts that may come through automated emails.</li>
+            <li>Implement automated tools to manage and monitor service accounts and API keys.</li>
             
-            <li>Implement additional logging and alerting for webhook usage.</li>
+            <li>Establish a policy for regular reviews and decommissioning of unused identities.</li>
             
           </ul>
         </div>
 
-        <div class="text-block"><span class="label">Watch next:</span> Monitor for updates from n8n regarding security patches or recommendations to mitigate this threat.</div>
+        <div class="text-block"><span class="label">Watch next:</span> Monitor for updates on best practices for managing non-human identities and any new tools that can assist in this area.</div>
 
         <div class="sources">
           <div class="label">Sources</div>
           
             
               <div>
-                <a href="https://thehackernews.com/2026/04/n8n-webhooks-abused-since-october-2025.html" target="_blank" rel="noopener noreferrer">
-                  The Hacker News - n8n Webhooks Abused Since October 2025 to Deliver Malware via Phishing Emails
+                <a href="https://thehackernews.com/2026/04/webinar-find-and-eliminate-orphaned-non.html" target="_blank" rel="noopener noreferrer">
+                  The Hacker News - [Webinar] Find and Eliminate Orphaned Non-Human Identities in Your Environment
+                </a>
+              </div>
+            
+          
+        </div>
+      </article>
+            
+              <article class="card" style="--i: 2;">
+        <div class="meta">
+          <span class="chip risk-high">HIGH</span>
+          
+            <span class="chip label-chip">PATCH RELEASE</span>
+          
+            <span class="chip label-chip">LEGAL POLICY</span>
+          
+          <span class="chip chip-neutral">Initial Access</span>
+          <span class="chip chip-neutral">Confidence LOW</span>
+        </div>
+        
+          <h3><a href="https://www.bleepingcomputer.com/news/security/cisco-says-critical-webex-services-flaw-requires-customer-action/" target="_blank" rel="noopener noreferrer">Cisco says critical Webex Services flaw requires customer action</a></h3>
+        
+        <p class="hook">Immediate action is required to mitigate critical vulnerabilities in Cisco's Webex Services, as failure to update could lead to severe security breaches.</p>
+        <div class="support-grid">
+          <div class="text-block"><span class="label">Who should care:</span> IT security teams managing Webex Services and organizations using the platform for remote communication.</div>
+          <div class="text-block"><span class="label">Attack path:</span> An attacker could exploit the improper certificate validation to impersonate legitimate services, potentially intercepting sensitive data or gaining unauthorized access.</div>
+        </div>
+        <div class="text-block"><span class="label">Why this matters now:</span> A live patch or vendor fix gives defenders something concrete to validate.</div>
+        <div class="text-block"><span class="label">In plain English:</span> Cisco has identified critical vulnerabilities in Webex Services that need urgent customer updates.</div>
+        
+          <div class="tags">
+            
+              <span>cve</span>
+            
+              <span>cloud</span>
+            
+          </div>
+        
+        <ul class="story-list">
+          
+            <li>Cisco has released security updates addressing four critical vulnerabilities in their Webex Services platform. One of the key issues involves improper certificate validation, which could allow attackers to exploit the service if not addressed by customers.</li>
+          
+            <li>These vulnerabilities pose a significant risk as they could allow unauthorized access to sensitive communications and data within Webex. Organizations relying on Webex for remote collaboration must act swiftly to protect their information and maintain operational integrity.</li>
+          
+            <li>An attacker could exploit the improper certificate validation to impersonate legitimate services, potentially intercepting sensitive data or gaining unauthorized access.</li>
+          
+            <li>Watch next: Monitor for updates from Cisco regarding any additional vulnerabilities or required actions.</li>
+          
+        </ul>
+
+        
+          <div class="glossary">
+            <div class="label">Key terms</div>
+            <ul class="list">
+            
+              <li>Certificate Validation - the process of verifying that a digital certificate is valid and trustworthy.</li>
+            
+              <li>Vulnerability - a weakness in a system that can be exploited by attackers.</li>
+            
+            </ul>
+          </div>
+        
+
+        <div>
+          <div class="label">Defender focus</div>
+          <ul class="list">
+            
+            <li>Ensure all Webex Services are updated with the latest security patches.</li>
+            
+            <li>Review access logs for any unusual activity that may indicate exploitation attempts.</li>
+            
+            <li>Implement monitoring for any unauthorized access attempts related to Webex.</li>
+            
+          </ul>
+        </div>
+
+        <div>
+          <div class="label">Do now</div>
+          <ul class="list">
+            
+            <li>Update Webex Services immediately to the latest version.</li>
+            
+            <li>Review and validate all certificates used within Webex.</li>
+            
+            <li>Communicate with all users about the importance of these updates.</li>
+            
+          </ul>
+        </div>
+
+        <div class="text-block"><span class="label">Watch next:</span> Monitor for updates from Cisco regarding any additional vulnerabilities or required actions.</div>
+
+        <div class="sources">
+          <div class="label">Sources</div>
+          
+            
+              <div>
+                <a href="https://www.bleepingcomputer.com/news/security/cisco-says-critical-webex-services-flaw-requires-customer-action/" target="_blank" rel="noopener noreferrer">
+                  BleepingComputer - Cisco says critical Webex Services flaw requires customer action
                 </a>
               </div>
             

@@ -1,5 +1,5 @@
 {
-  "last_run_utc": "2026-04-16T09:12:29.002783+00:00",
+  "last_run_utc": "2026-04-16T14:06:49.136334+00:00",
   "processed_urls": [
     "https://www.bleepingcomputer.com/news/security/critical-cisco-sd-wan-bug-exploited-in-zero-day-attacks-since-2023/",
     "https://www.cisa.gov/news-events/alerts/2026/02/25/cisa-and-partners-release-guidance-ongoing-global-exploitation-cisco-sd-wan-systems",
@@ -321,6 +321,10 @@
     "https://thehackernews.com/2026/04/april-patch-tuesday-fixes-critical.html",
     "https://www.bleepingcomputer.com/news/security/critical-nginx-ui-auth-bypass-flaw-now-actively-exploited-in-the-wild/",
     "https://www.bleepingcomputer.com/news/security/cisa-flags-windows-task-host-vulnerability-as-exploited-in-attacks/",
-    "https://thehackernews.com/2026/04/n8n-webhooks-abused-since-october-2025.html"
+    "https://thehackernews.com/2026/04/n8n-webhooks-abused-since-october-2025.html",
+    "https://thehackernews.com/2026/04/threatsday-bulletin-17-year-old-excel.html",
+    "https://thehackernews.com/2026/04/webinar-find-and-eliminate-orphaned-non.html",
+    "https://thehackernews.com/2026/04/cisco-patches-four-critical-identity.html",
+    "https://www.bleepingcomputer.com/news/security/cisco-says-critical-webex-services-flaw-requires-customer-action/"
   ]
 }
