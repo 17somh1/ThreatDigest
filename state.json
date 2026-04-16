@@ -1,5 +1,5 @@
 {
-  "last_run_utc": "2026-04-15T13:57:37.039044+00:00",
+  "last_run_utc": "2026-04-16T09:12:29.002783+00:00",
   "processed_urls": [
     "https://www.bleepingcomputer.com/news/security/critical-cisco-sd-wan-bug-exploited-in-zero-day-attacks-since-2023/",
     "https://www.cisa.gov/news-events/alerts/2026/02/25/cisa-and-partners-release-guidance-ongoing-global-exploitation-cisco-sd-wan-systems",
@@ -318,6 +318,9 @@
     "https://www.bleepingcomputer.com/news/security/mcgraw-hill-confirms-data-breach-following-extortion-threat/",
     "https://www.bleepingcomputer.com/news/security/5-ways-zero-trust-maximizes-identity-security/",
     "https://thehackernews.com/2026/04/critical-nginx-ui-vulnerability-cve.html",
-    "https://thehackernews.com/2026/04/april-patch-tuesday-fixes-critical.html"
+    "https://thehackernews.com/2026/04/april-patch-tuesday-fixes-critical.html",
+    "https://www.bleepingcomputer.com/news/security/critical-nginx-ui-auth-bypass-flaw-now-actively-exploited-in-the-wild/",
+    "https://www.bleepingcomputer.com/news/security/cisa-flags-windows-task-host-vulnerability-as-exploited-in-attacks/",
+    "https://thehackernews.com/2026/04/n8n-webhooks-abused-since-october-2025.html"
   ]
 }
