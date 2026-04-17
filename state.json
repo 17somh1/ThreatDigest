@@ -1,5 +1,5 @@
 {
-  "last_run_utc": "2026-04-16T14:06:49.136334+00:00",
+  "last_run_utc": "2026-04-17T09:10:54.722447+00:00",
   "processed_urls": [
     "https://www.bleepingcomputer.com/news/security/critical-cisco-sd-wan-bug-exploited-in-zero-day-attacks-since-2023/",
     "https://www.cisa.gov/news-events/alerts/2026/02/25/cisa-and-partners-release-guidance-ongoing-global-exploitation-cisco-sd-wan-systems",
@@ -325,6 +325,12 @@
     "https://thehackernews.com/2026/04/threatsday-bulletin-17-year-old-excel.html",
     "https://thehackernews.com/2026/04/webinar-find-and-eliminate-orphaned-non.html",
     "https://thehackernews.com/2026/04/cisco-patches-four-critical-identity.html",
-    "https://www.bleepingcomputer.com/news/security/cisco-says-critical-webex-services-flaw-requires-customer-action/"
+    "https://www.bleepingcomputer.com/news/security/cisco-says-critical-webex-services-flaw-requires-customer-action/",
+    "https://thehackernews.com/2026/04/apache-activemq-cve-2026-34197-added-to.html",
+    "https://www.cisa.gov/news-events/alerts/2026/04/16/cisa-adds-one-known-exploited-vulnerability-catalog",
+    "https://www.bleepingcomputer.com/news/security/recently-leaked-windows-zero-days-now-exploited-in-attacks/",
+    "https://www.bleepingcomputer.com/news/security/new-athr-vishing-platform-uses-ai-voice-agents-for-automated-attacks/",
+    "https://www.bleepingcomputer.com/news/microsoft/new-microsoft-defender-redsun-zero-day-poc-grants-system-privileges/",
+    "https://www.bleepingcomputer.com/news/microsoft/microsoft-warns-of-reboot-loops-affecting-some-domain-controllers/"
   ]
 }
