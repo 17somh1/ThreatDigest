@@ -378,8 +378,8 @@
         The security news worth your attention, with context and practical takeaways.
       </p>
       <div class="meta-bar">
-        <span>Updated: 2026-04-18 08:40 UTC</span>
-        <span>Stories: 2</span>
+        <span>Updated: 2026-04-18 13:21 UTC</span>
+        <span>Stories: 6</span>
         <span>Recent issues: 14</span>
       </div>
     </header>
@@ -389,7 +389,7 @@
         <section class="one-liner">
           <h2>What Matters Today</h2>
           
-            <p class="text-block">Ransomware and botnet threats are evolving, with attackers leveraging advanced techniques to bypass security measures and exploit vulnerabilities.</p>
+            <p class="text-block">Active exploitation of critical vulnerabilities in Apache ActiveMQ and Microsoft Defender highlights urgent patching needs and increased operational risks for IT security teams.</p>
           
         </section>
 
@@ -398,11 +398,11 @@
           
             <ul>
               
-              <li>Ransomware tactics are becoming more sophisticated, increasing the burden on endpoint security defenses.</li>
+              <li>Active exploitation of known vulnerabilities is creating immediate pressure on defenders to prioritize patching and monitoring efforts.</li>
               
-              <li>Exploitation of known vulnerabilities in consumer devices highlights the need for proactive patch management.</li>
+              <li>The emergence of new attack vectors, such as AI-driven vishing platforms, indicates a shift in attacker tactics that security teams must adapt to.</li>
               
-              <li>Emerging DDoS threats from hijacked devices signal a shift in attacker focus towards disrupting network stability.</li>
+              <li>Unpatched vulnerabilities in widely used software are leading to heightened risks of unauthorized access and data breaches, necessitating swift action from IT security teams.</li>
               
             </ul>
           
@@ -420,41 +420,45 @@
         <div class="meta">
           <span class="chip risk-high">HIGH</span>
           
-            <span class="chip label-chip">INDUSTRY SIGNAL</span>
+            <span class="chip label-chip">ACTIVE EXPLOITATION</span>
           
-          <span class="chip chip-neutral">Execution</span>
+            <span class="chip label-chip">KEV ADDED</span>
+          
+            <span class="chip label-chip">LEGAL POLICY</span>
+          
+          <span class="chip chip-neutral">Initial Access</span>
           <span class="chip chip-neutral">Confidence LOW</span>
         </div>
         
-          <h3><a href="https://www.bleepingcomputer.com/news/security/payouts-king-ransomware-uses-qemu-vms-to-bypass-endpoint-security/" target="_blank" rel="noopener noreferrer">Payouts King ransomware uses QEMU VMs to bypass endpoint security</a></h3>
+          <h3><a href="https://thehackernews.com/2026/04/apache-activemq-cve-2026-34197-added-to.html" target="_blank" rel="noopener noreferrer">Apache ActiveMQ CVE-2026-34197 Added to CISA KEV Amid Active Exploitation</a></h3>
         
-        <p class="hook">The Payouts King ransomware's innovative use of QEMU VMs poses a significant threat to endpoint security, making detection and response more challenging.</p>
+        <p class="hook">Active exploitation of a critical vulnerability in Apache ActiveMQ could lead to severe disruptions in messaging services, impacting business operations.</p>
         <div class="support-grid">
-          <div class="text-block"><span class="label">Who should care:</span> IT security teams and organizations with endpoint security solutions should be particularly vigilant.</div>
-          <div class="text-block"><span class="label">Attack path:</span> Attackers gain leverage by deploying QEMU VMs that operate outside the visibility of standard security protocols, allowing them to execute malicious activities without detection.</div>
+          <div class="text-block"><span class="label">Who should care:</span> IT security teams managing Apache ActiveMQ deployments should prioritize this vulnerability.</div>
+          <div class="text-block"><span class="label">Attack path:</span> An attacker can exploit this vulnerability to gain unauthorized access to messaging services, potentially leading to data breaches or service outages.</div>
         </div>
-        <div class="text-block"><span class="label">Why this matters now:</span> Useful context for teams tracking where attacker pressure is building.</div>
-        <div class="text-block"><span class="label">In plain English:</span> A new ransomware variant is using virtual machines to evade security measures.</div>
+        <div class="text-block"><span class="label">Why this matters now:</span> Active exploitation makes this an immediate exposure check. KEV status shortens the acceptable patch window.</div>
+        <div class="text-block"><span class="label">In plain English:</span> A serious flaw in Apache ActiveMQ is being actively exploited, posing risks to organizations using this software.</div>
         
           <div class="tags">
             
-              <span>ransomware</span>
+              <span>cve</span>
             
-              <span>qemu</span>
+              <span>apache</span>
             
-              <span>endpoint security</span>
+              <span>activemq</span>
             
           </div>
         
         <ul class="story-list">
           
-            <li>Payouts King ransomware has been identified using the QEMU emulator to create hidden virtual machines on compromised systems. This technique allows it to establish a reverse SSH backdoor, effectively bypassing traditional endpoint security measures.</li>
+            <li>CVE-2026-34197, a high-severity vulnerability in Apache ActiveMQ Classic, has been disclosed and is currently being exploited in the wild. The U.S. Cybersecurity and Infrastructure Security Agency (CISA) has added this vulnerability to its Known Exploited Vulnerabilities (KEV) catalog.</li>
           
-            <li>This method of operation complicates detection efforts, as the ransomware can operate within a virtual environment that may not be monitored by standard security tools. Organizations relying on conventional endpoint defenses are at increased risk of undetected ransomware activity.</li>
+            <li>Organizations using Apache ActiveMQ could face unauthorized access or service interruptions due to this vulnerability. The CVSS score of 8.8 indicates a high level of severity, making it critical for affected systems to be patched promptly.</li>
           
-            <li>Attackers gain leverage by deploying QEMU VMs that operate outside the visibility of standard security protocols, allowing them to execute malicious activities without detection.</li>
+            <li>An attacker can exploit this vulnerability to gain unauthorized access to messaging services, potentially leading to data breaches or service outages.</li>
           
-            <li>Watch next: Monitor for updates from security vendors regarding enhanced detection capabilities for virtualized environments.</li>
+            <li>Watch next: Monitor for updates from Apache regarding patches or mitigations for CVE-2026-34197.</li>
           
         </ul>
 
@@ -463,9 +467,9 @@
             <div class="label">Key terms</div>
             <ul class="list">
             
-              <li>QEMU - an open-source emulator that allows users to run virtual machines.</li>
+              <li>CVE - Common Vulnerabilities and Exposures, a list of publicly disclosed cybersecurity vulnerabilities.</li>
             
-              <li>Reverse SSH - a method where a compromised system initiates a connection back to an attacker's server, allowing remote access.</li>
+              <li>CVSS - Common Vulnerability Scoring System, a standard for assessing the severity of security vulnerabilities.</li>
             
             </ul>
           </div>
@@ -475,11 +479,11 @@
           <div class="label">Defender focus</div>
           <ul class="list">
             
-            <li>Implement monitoring for unusual processes that may indicate the presence of virtual machines.</li>
+            <li>Implement monitoring for unusual access patterns in Apache ActiveMQ logs.</li>
             
-            <li>Enhance endpoint detection and response (EDR) capabilities to identify hidden processes.</li>
+            <li>Ensure that all instances of ActiveMQ are updated to the latest version as soon as patches are available.</li>
             
-            <li>Review and update incident response plans to account for virtualized threats.</li>
+            <li>Review firewall rules to limit access to ActiveMQ services from untrusted networks.</li>
             
           </ul>
         </div>
@@ -488,24 +492,24 @@
           <div class="label">Do now</div>
           <ul class="list">
             
-            <li>Investigate any alerts related to QEMU or unusual virtual machine activity.</li>
+            <li>Patch Apache ActiveMQ immediately to mitigate the vulnerability.</li>
             
-            <li>Update endpoint security solutions to ensure they can detect and respond to virtualized threats.</li>
+            <li>Conduct an audit of ActiveMQ configurations to ensure they follow security best practices.</li>
             
-            <li>Conduct a security audit to identify potential vulnerabilities in current defenses.</li>
+            <li>Increase monitoring for any suspicious activity related to messaging services.</li>
             
           </ul>
         </div>
 
-        <div class="text-block"><span class="label">Watch next:</span> Monitor for updates from security vendors regarding enhanced detection capabilities for virtualized environments.</div>
+        <div class="text-block"><span class="label">Watch next:</span> Monitor for updates from Apache regarding patches or mitigations for CVE-2026-34197.</div>
 
         <div class="sources">
           <div class="label">Sources</div>
           
             
               <div>
-                <a href="https://www.bleepingcomputer.com/news/security/payouts-king-ransomware-uses-qemu-vms-to-bypass-endpoint-security/" target="_blank" rel="noopener noreferrer">
-                  BleepingComputer - Payouts King ransomware uses QEMU VMs to bypass endpoint security
+                <a href="https://thehackernews.com/2026/04/apache-activemq-cve-2026-34197-added-to.html" target="_blank" rel="noopener noreferrer">
+                  The Hacker News - Apache ActiveMQ CVE-2026-34197 Added to CISA KEV Amid Active Exploitation
                 </a>
               </div>
             
@@ -526,43 +530,53 @@
             
               <article class="card" style="--i: 0;">
         <div class="meta">
-          <span class="chip risk-medium">MEDIUM</span>
+          <span class="chip risk-high">HIGH</span>
+          
+            <span class="chip label-chip">ACTIVE EXPLOITATION</span>
+          
+            <span class="chip label-chip">PATCH RELEASE</span>
           
             <span class="chip label-chip">LEGAL POLICY</span>
           
-          <span class="chip chip-neutral">Initial Access</span>
-          <span class="chip chip-neutral">Confidence LOW</span>
+            <span class="chip label-chip">RESEARCH</span>
+          
+          <span class="chip chip-neutral">Privilege Escalation</span>
+          <span class="chip chip-neutral">Confidence HIGH</span>
         </div>
         
-          <h3><a href="https://thehackernews.com/2026/04/mirai-variant-nexcorium-exploits-cve.html" target="_blank" rel="noopener noreferrer">Mirai Variant Nexcorium Exploits CVE-2024-3721 to Hijack TBK DVRs for DDoS Botnet</a></h3>
+          <h3><a href="https://thehackernews.com/2026/04/three-microsoft-defender-zero-days.html" target="_blank" rel="noopener noreferrer">Three Microsoft Defender Zero-Days Actively Exploited; Two Still Unpatched</a></h3>
         
-        <p class="hook">The exploitation of CVE-2024-3721 poses a risk of widespread DDoS attacks, impacting network stability for affected users.</p>
+        <p class="hook">Immediate action is required as threat actors are exploiting multiple unpatched vulnerabilities in Microsoft Defender, potentially compromising system security.</p>
         <div class="support-grid">
-          <div class="text-block"><span class="label">Who should care:</span> Network security teams managing TBK DVRs and TP-Link routers should prioritize this issue.</div>
-          <div class="text-block"><span class="label">Attack path:</span> Attackers gain leverage by exploiting the command injection vulnerability to gain control over the devices, turning them into part of a botnet for DDoS attacks.</div>
+          <div class="text-block"><span class="label">Who should care:</span> IT security teams managing Microsoft Defender installations should prioritize monitoring and mitigation efforts.</div>
+          <div class="text-block"><span class="label">Attack path:</span> Attackers can exploit these vulnerabilities to escalate privileges, gaining unauthorized access to sensitive system functions and data.</div>
         </div>
-        <div class="text-block"><span class="label">Why this matters now:</span> Useful context for teams tracking where attacker pressure is building.</div>
-        <div class="text-block"><span class="label">In plain English:</span> A new variant of the Mirai botnet is exploiting vulnerabilities in TBK DVRs and TP-Link routers to create a DDoS threat.</div>
+        <div class="text-block"><span class="label">Why this matters now:</span> Active exploitation makes this an immediate exposure check. A live patch or vendor fix gives defenders something concrete to validate.</div>
+        <div class="text-block"><span class="label">In plain English:</span> Three critical vulnerabilities in Microsoft Defender are being actively exploited, with two still unpatched.</div>
         
           <div class="tags">
             
-              <span>ransomware</span>
-            
               <span>cve</span>
             
-              <span>cloud</span>
+              <span>microsoft</span>
+            
+              <span>vulnerability</span>
+            
+              <span>zero day</span>
             
           </div>
         
         <ul class="story-list">
           
-            <li>Threat actors are leveraging a command injection vulnerability (CVE-2024-3721) in TBK DVRs and outdated TP-Link routers to deploy a variant of the Mirai botnet. This vulnerability has a CVSS score of 6.3, indicating a medium level of severity. The findings were reported by Fortinet FortiGuard Labs and Palo Alto Networks Unit 42.</li>
+            <li>Huntress reported that threat actors are leveraging three zero-day vulnerabilities in Microsoft Defender, codenamed BlueHammer, RedSun, and UnDefend. These vulnerabilities allow attackers to gain elevated privileges on compromised systems. The researcher Chaotic Eclipse disclosed these flaws recently.</li>
           
-            <li>If left unaddressed, these compromised devices can be used to launch large-scale DDoS attacks, affecting not only the devices themselves but also the broader network infrastructure. Organizations relying on these devices may experience service disruptions and increased operational costs due to mitigation efforts.</li>
+            <li>The exploitation of these vulnerabilities can lead to significant security breaches, allowing attackers to gain control over systems and access sensitive data. Organizations using Microsoft Defender are at heightened risk until patches are released and applied.</li>
           
-            <li>Attackers gain leverage by exploiting the command injection vulnerability to gain control over the devices, turning them into part of a botnet for DDoS attacks.</li>
+            <li>Attackers can exploit these vulnerabilities to escalate privileges, gaining unauthorized access to sensitive system functions and data.</li>
           
-            <li>Watch next: Monitor for updates from vendors regarding patches for CVE-2024-3721 and any emerging threat intelligence on the Mirai variant.</li>
+            <li>Also reported by BleepingComputer.</li>
+          
+            <li>Watch next: Monitor for updates from Microsoft regarding patches for these vulnerabilities and any related threat intelligence.</li>
           
         </ul>
 
@@ -571,9 +585,13 @@
             <div class="label">Key terms</div>
             <ul class="list">
             
-              <li>CVE-2024-3721 - a specific identifier for a security vulnerability that allows attackers to execute commands on affected devices.</li>
+              <li>Zero-Day - a vulnerability that is exploited before the vendor releases a fix.</li>
             
-              <li>DDoS - Distributed Denial of Service, a type of attack that overwhelms a target's resources, making it unavailable to users.</li>
+              <li>Privilege Escalation - a type of attack where an attacker gains elevated access to resources that are normally protected from the user.</li>
+            
+              <li>ZERO-DAY - a vulnerability that is unknown to the vendor and has no patch available.</li>
+            
+              <li>PROOF-OF-CONCEPT (PoC) - a demonstration that a vulnerability can be exploited.</li>
             
             </ul>
           </div>
@@ -583,11 +601,11 @@
           <div class="label">Defender focus</div>
           <ul class="list">
             
-            <li>Implement network monitoring to detect unusual traffic patterns indicative of DDoS activity.</li>
+            <li>Implement monitoring for unusual authentication attempts in Microsoft Defender.</li>
             
-            <li>Ensure that all TBK DVRs and TP-Link routers are updated with the latest firmware to mitigate the vulnerability.</li>
+            <li>Review logs for any signs of privilege escalation or unauthorized access.</li>
             
-            <li>Review firewall rules to block known malicious IP addresses associated with the Mirai botnet.</li>
+            <li>Ensure that all systems are updated with the latest security patches as soon as they are available.</li>
             
           </ul>
         </div>
@@ -596,24 +614,226 @@
           <div class="label">Do now</div>
           <ul class="list">
             
-            <li>Patch affected TBK DVRs and TP-Link routers immediately.</li>
+            <li>Immediately assess the current version of Microsoft Defender in use and identify if it is affected.</li>
             
-            <li>Increase monitoring for DDoS attack patterns on network traffic.</li>
+            <li>Prepare to apply patches as soon as they are released by Microsoft.</li>
             
-            <li>Educate relevant teams about the risks associated with outdated devices.</li>
+            <li>Enhance monitoring for any suspicious activity related to privilege escalation.</li>
             
           </ul>
         </div>
 
-        <div class="text-block"><span class="label">Watch next:</span> Monitor for updates from vendors regarding patches for CVE-2024-3721 and any emerging threat intelligence on the Mirai variant.</div>
+        <div class="text-block"><span class="label">Watch next:</span> Monitor for updates from Microsoft regarding patches for these vulnerabilities and any related threat intelligence.</div>
 
         <div class="sources">
           <div class="label">Sources</div>
           
             
               <div>
-                <a href="https://thehackernews.com/2026/04/mirai-variant-nexcorium-exploits-cve.html" target="_blank" rel="noopener noreferrer">
-                  The Hacker News - Mirai Variant Nexcorium Exploits CVE-2024-3721 to Hijack TBK DVRs for DDoS Botnet
+                <a href="https://thehackernews.com/2026/04/three-microsoft-defender-zero-days.html" target="_blank" rel="noopener noreferrer">
+                  The Hacker News - Three Microsoft Defender Zero-Days Actively Exploited; Two Still Unpatched
+                </a>
+              </div>
+            
+          
+            
+              <div>
+                <a href="https://www.bleepingcomputer.com/news/microsoft/new-microsoft-defender-redsun-zero-day-poc-grants-system-privileges/" target="_blank" rel="noopener noreferrer">
+                  BleepingComputer - New Microsoft Defender “RedSun” zero-day PoC grants SYSTEM privileges
+                </a>
+              </div>
+            
+          
+        </div>
+      </article>
+            
+              <article class="card" style="--i: 1;">
+        <div class="meta">
+          <span class="chip risk-high">HIGH</span>
+          
+            <span class="chip label-chip">INDUSTRY SIGNAL</span>
+          
+          <span class="chip chip-neutral">Privilege Escalation</span>
+          <span class="chip chip-neutral">Confidence LOW</span>
+        </div>
+        
+          <h3><a href="https://www.bleepingcomputer.com/news/security/recently-leaked-windows-zero-days-now-exploited-in-attacks/" target="_blank" rel="noopener noreferrer">Recently leaked Windows zero-days now exploited in attacks</a></h3>
+        
+        <p class="hook">The exploitation of recently disclosed Windows zero-days poses an immediate threat to systems, potentially allowing attackers to gain full control.</p>
+        <div class="support-grid">
+          <div class="text-block"><span class="label">Who should care:</span> IT security teams managing Windows environments and systems should be particularly vigilant.</div>
+          <div class="text-block"><span class="label">Attack path:</span> Attackers can leverage these vulnerabilities to escalate privileges from a standard user to SYSTEM or administrator, gaining extensive control over the affected systems.</div>
+        </div>
+        <div class="text-block"><span class="label">Why this matters now:</span> Useful context for teams tracking where attacker pressure is building.</div>
+        <div class="text-block"><span class="label">In plain English:</span> Attackers are actively exploiting newly revealed Windows vulnerabilities to escalate privileges.</div>
+        
+          <div class="tags">
+            
+              <span>cve</span>
+            
+              <span>windows</span>
+            
+              <span>zero day</span>
+            
+          </div>
+        
+        <ul class="story-list">
+          
+            <li>Three recently disclosed Windows security vulnerabilities are being actively exploited by threat actors. These vulnerabilities can allow attackers to gain SYSTEM or elevated administrator permissions on affected systems.</li>
+          
+            <li>If exploited, these vulnerabilities can lead to significant breaches, allowing attackers to manipulate systems, steal data, or deploy further malicious payloads. Organizations must prioritize patching these vulnerabilities to prevent unauthorized access.</li>
+          
+            <li>Attackers can leverage these vulnerabilities to escalate privileges from a standard user to SYSTEM or administrator, gaining extensive control over the affected systems.</li>
+          
+            <li>Watch next: Monitor for any updates from Microsoft regarding patches or mitigations for these vulnerabilities.</li>
+          
+        </ul>
+
+        
+          <div class="glossary">
+            <div class="label">Key terms</div>
+            <ul class="list">
+            
+              <li>ZERO-DAY - a vulnerability that is exploited before the vendor has released a fix.</li>
+            
+              <li>SYSTEM PERMISSIONS - the highest level of access on a computer, allowing full control over the system.</li>
+            
+            </ul>
+          </div>
+        
+
+        <div>
+          <div class="label">Defender focus</div>
+          <ul class="list">
+            
+            <li>Implement monitoring for unusual account activities that may indicate privilege escalation attempts.</li>
+            
+            <li>Ensure that all Windows systems are updated with the latest security patches as soon as they are available.</li>
+            
+            <li>Review and tighten access controls to limit the potential impact of any successful exploitation.</li>
+            
+          </ul>
+        </div>
+
+        <div>
+          <div class="label">Do now</div>
+          <ul class="list">
+            
+            <li>Patch all affected Windows systems immediately.</li>
+            
+            <li>Conduct a security audit to identify any systems that may be vulnerable.</li>
+            
+            <li>Increase monitoring for suspicious activities related to user permissions.</li>
+            
+          </ul>
+        </div>
+
+        <div class="text-block"><span class="label">Watch next:</span> Monitor for any updates from Microsoft regarding patches or mitigations for these vulnerabilities.</div>
+
+        <div class="sources">
+          <div class="label">Sources</div>
+          
+            
+              <div>
+                <a href="https://www.bleepingcomputer.com/news/security/recently-leaked-windows-zero-days-now-exploited-in-attacks/" target="_blank" rel="noopener noreferrer">
+                  BleepingComputer - Recently leaked Windows zero-days now exploited in attacks
+                </a>
+              </div>
+            
+          
+        </div>
+      </article>
+            
+              <article class="card" style="--i: 2;">
+        <div class="meta">
+          <span class="chip risk-medium">MEDIUM</span>
+          
+            <span class="chip label-chip">PATCH RELEASE</span>
+          
+          <span class="chip chip-neutral">Unknown</span>
+          <span class="chip chip-neutral">Confidence LOW</span>
+        </div>
+        
+          <h3><a href="https://www.bleepingcomputer.com/news/microsoft/microsoft-warns-of-reboot-loops-affecting-some-domain-controllers/" target="_blank" rel="noopener noreferrer">Microsoft: Some Windows servers enter reboot loops after April patches</a></h3>
+        
+        <p class="hook">The reboot loops affecting Windows domain controllers could disrupt critical services, impacting business operations immediately.</p>
+        <div class="support-grid">
+          <div class="text-block"><span class="label">Who should care:</span> IT operations and system administrators managing Windows domain controllers should be particularly vigilant.</div>
+          <div class="text-block"><span class="label">Attack path:</span> While this issue is not directly an attack vector, attackers could exploit the resulting service outages to gain unauthorized access or disrupt operations further.</div>
+        </div>
+        <div class="text-block"><span class="label">Why this matters now:</span> A live patch or vendor fix gives defenders something concrete to validate.</div>
+        <div class="text-block"><span class="label">In plain English:</span> Some Windows servers are stuck in reboot loops after recent updates, which can halt essential services.</div>
+        
+          <div class="tags">
+            
+              <span>windows</span>
+            
+              <span>update</span>
+            
+              <span>domain controller</span>
+            
+          </div>
+        
+        <ul class="story-list">
+          
+            <li>Microsoft has reported that certain Windows domain controllers are experiencing continuous reboot loops following the installation of April 2026 security updates. This issue has been confirmed by multiple users and is affecting the stability of their systems.</li>
+          
+            <li>The reboot loops can prevent domain controllers from functioning, leading to authentication failures and service outages. This can severely impact organizations relying on these servers for network access and resource management.</li>
+          
+            <li>While this issue is not directly an attack vector, attackers could exploit the resulting service outages to gain unauthorized access or disrupt operations further.</li>
+          
+            <li>Watch next: Monitor for any patches or updates from Microsoft addressing this reboot loop issue.</li>
+          
+        </ul>
+
+        
+          <div class="glossary">
+            <div class="label">Key terms</div>
+            <ul class="list">
+            
+              <li>Domain Controller - a server that manages network security and user access in a Windows environment.</li>
+            
+              <li>Reboot Loop - a situation where a system continuously restarts without completing the boot process.</li>
+            
+            </ul>
+          </div>
+        
+
+        <div>
+          <div class="label">Defender focus</div>
+          <ul class="list">
+            
+            <li>Check the status of Windows domain controllers for signs of reboot loops.</li>
+            
+            <li>Implement monitoring to detect service outages related to authentication failures.</li>
+            
+            <li>Prepare a rollback plan for the April 2026 updates if necessary.</li>
+            
+          </ul>
+        </div>
+
+        <div>
+          <div class="label">Do now</div>
+          <ul class="list">
+            
+            <li>Assess the impact of the reboot loops on your environment immediately.</li>
+            
+            <li>Communicate with affected teams about potential service disruptions.</li>
+            
+            <li>Stay updated on Microsoft's response and apply any necessary fixes as they become available.</li>
+            
+          </ul>
+        </div>
+
+        <div class="text-block"><span class="label">Watch next:</span> Monitor for any patches or updates from Microsoft addressing this reboot loop issue.</div>
+
+        <div class="sources">
+          <div class="label">Sources</div>
+          
+            
+              <div>
+                <a href="https://www.bleepingcomputer.com/news/microsoft/microsoft-warns-of-reboot-loops-affecting-some-domain-controllers/" target="_blank" rel="noopener noreferrer">
+                  BleepingComputer - Microsoft: Some Windows servers enter reboot loops after April patches
                 </a>
               </div>
             
@@ -631,7 +851,207 @@
           Wider Signal
         </div>
         
-          <p class="empty">No context stories today.</p>
+          <div class="grid">
+            
+              <article class="card" style="--i: 0;">
+        <div class="meta">
+          <span class="chip risk-high">HIGH</span>
+          
+            <span class="chip label-chip">ACTIVE EXPLOITATION</span>
+          
+            <span class="chip label-chip">PATCH RELEASE</span>
+          
+            <span class="chip label-chip">LEGAL POLICY</span>
+          
+          <span class="chip chip-neutral">Initial Access</span>
+          <span class="chip chip-neutral">Confidence LOW</span>
+        </div>
+        
+          <h3><a href="https://www.bleepingcomputer.com/news/security/cisa-flags-apache-activemq-flaw-as-actively-exploited-in-attacks/" target="_blank" rel="noopener noreferrer">CISA flags Apache ActiveMQ flaw as actively exploited in attacks</a></h3>
+        
+        <p class="hook">The exploitation of a long-standing Apache ActiveMQ vulnerability poses immediate risks to organizations using this software, potentially leading to unauthorized access and data breaches.</p>
+        <div class="support-grid">
+          <div class="text-block"><span class="label">Who should care:</span> IT security teams managing Apache ActiveMQ installations should prioritize this issue.</div>
+          <div class="text-block"><span class="label">Attack path:</span> Attackers can exploit this vulnerability to gain unauthorized access to systems running Apache ActiveMQ, potentially leading to further compromise within the network.</div>
+        </div>
+        <div class="text-block"><span class="label">Why this matters now:</span> Active exploitation makes this an immediate exposure check. A live patch or vendor fix gives defenders something concrete to validate.</div>
+        <div class="text-block"><span class="label">In plain English:</span> A critical vulnerability in Apache ActiveMQ is being actively exploited, requiring urgent attention from affected organizations.</div>
+        
+          <div class="tags">
+            
+              <span>cve</span>
+            
+              <span>apache</span>
+            
+              <span>active exploitation</span>
+            
+          </div>
+        
+        <ul class="story-list">
+          
+            <li>CISA has issued a warning regarding a high-severity vulnerability in Apache ActiveMQ that has been actively exploited in attacks. This flaw had remained undetected for 13 years before being patched earlier this month.</li>
+          
+            <li>Organizations using Apache ActiveMQ are at risk of unauthorized access and potential data breaches due to this vulnerability. The long exposure time increases the likelihood that attackers have developed methods to exploit it effectively.</li>
+          
+            <li>Attackers can exploit this vulnerability to gain unauthorized access to systems running Apache ActiveMQ, potentially leading to further compromise within the network.</li>
+          
+            <li>Watch next: Monitor for updates from CISA and Apache regarding additional patches or mitigation strategies.</li>
+          
+        </ul>
+
+        
+          <div class="glossary">
+            <div class="label">Key terms</div>
+            <ul class="list">
+            
+              <li>Apache ActiveMQ - an open-source message broker that facilitates communication between applications.</li>
+            
+              <li>CISA - the Cybersecurity and Infrastructure Security Agency, a U.S. government agency focused on protecting the nation's critical infrastructure.</li>
+            
+            </ul>
+          </div>
+        
+
+        <div>
+          <div class="label">Defender focus</div>
+          <ul class="list">
+            
+            <li>Implement monitoring for unusual access patterns in Apache ActiveMQ logs.</li>
+            
+            <li>Ensure that the latest patches are applied to all ActiveMQ instances.</li>
+            
+            <li>Review network segmentation to limit exposure of ActiveMQ to untrusted networks.</li>
+            
+          </ul>
+        </div>
+
+        <div>
+          <div class="label">Do now</div>
+          <ul class="list">
+            
+            <li>Apply the latest security patches for Apache ActiveMQ immediately.</li>
+            
+            <li>Conduct a risk assessment to identify systems affected by this vulnerability.</li>
+            
+            <li>Enhance monitoring for any signs of exploitation or unusual activity related to ActiveMQ.</li>
+            
+          </ul>
+        </div>
+
+        <div class="text-block"><span class="label">Watch next:</span> Monitor for updates from CISA and Apache regarding additional patches or mitigation strategies.</div>
+
+        <div class="sources">
+          <div class="label">Sources</div>
+          
+            
+              <div>
+                <a href="https://www.bleepingcomputer.com/news/security/cisa-flags-apache-activemq-flaw-as-actively-exploited-in-attacks/" target="_blank" rel="noopener noreferrer">
+                  BleepingComputer - CISA flags Apache ActiveMQ flaw as actively exploited in attacks
+                </a>
+              </div>
+            
+          
+        </div>
+      </article>
+            
+              <article class="card" style="--i: 1;">
+        <div class="meta">
+          <span class="chip risk-high">HIGH</span>
+          
+            <span class="chip label-chip">INDUSTRY SIGNAL</span>
+          
+          <span class="chip chip-neutral">Credential Access</span>
+          <span class="chip chip-neutral">Confidence LOW</span>
+        </div>
+        
+          <h3><a href="https://www.bleepingcomputer.com/news/security/new-athr-vishing-platform-uses-ai-voice-agents-for-automated-attacks/" target="_blank" rel="noopener noreferrer">New ATHR vishing platform uses AI voice agents for automated attacks</a></h3>
+        
+        <p class="hook">The emergence of the ATHR vishing platform poses a significant threat to organizations by enabling automated credential theft through AI-driven voice phishing.</p>
+        <div class="support-grid">
+          <div class="text-block"><span class="label">Who should care:</span> Security teams, IT departments, and any organization that handles sensitive user credentials should be particularly concerned.</div>
+          <div class="text-block"><span class="label">Attack path:</span> Attackers can leverage the ATHR platform to automate voice calls that impersonate legitimate entities, tricking users into providing their credentials.</div>
+        </div>
+        <div class="text-block"><span class="label">Why this matters now:</span> Useful context for teams tracking where attacker pressure is building.</div>
+        <div class="text-block"><span class="label">In plain English:</span> A new platform allows attackers to use AI for automated voice phishing, increasing the risk of credential theft.</div>
+        
+          <div class="tags">
+            
+              <span>phishing</span>
+            
+              <span>ai</span>
+            
+              <span>credential theft</span>
+            
+          </div>
+        
+        <ul class="story-list">
+          
+            <li>A new cybercrime platform named ATHR has been identified, which utilizes AI voice agents to conduct automated voice phishing attacks. This platform can harvest user credentials by mimicking human interactions during the social engineering phase.</li>
+          
+            <li>The use of AI in vishing attacks enhances the effectiveness and scalability of credential theft, making it easier for attackers to target a larger number of victims. Organizations must be vigilant as this technology lowers the barrier for entry into sophisticated phishing schemes.</li>
+          
+            <li>Attackers can leverage the ATHR platform to automate voice calls that impersonate legitimate entities, tricking users into providing their credentials.</li>
+          
+            <li>Watch next: Monitor for reports of increased vishing attempts and any updates from security vendors regarding countermeasures.</li>
+          
+        </ul>
+
+        
+          <div class="glossary">
+            <div class="label">Key terms</div>
+            <ul class="list">
+            
+              <li>Vishing - voice phishing, a type of social engineering attack where attackers use phone calls to trick individuals into revealing sensitive information.</li>
+            
+              <li>AI - artificial intelligence, technology that simulates human intelligence processes, such as learning and problem-solving.</li>
+            
+            </ul>
+          </div>
+        
+
+        <div>
+          <div class="label">Defender focus</div>
+          <ul class="list">
+            
+            <li>Implement call verification processes for sensitive transactions.</li>
+            
+            <li>Monitor for unusual call patterns or reports of suspicious calls to employees.</li>
+            
+            <li>Educate employees on recognizing vishing attempts and verifying caller identities.</li>
+            
+          </ul>
+        </div>
+
+        <div>
+          <div class="label">Do now</div>
+          <ul class="list">
+            
+            <li>Enhance call verification protocols immediately.</li>
+            
+            <li>Deploy monitoring tools to detect unusual call activity.</li>
+            
+            <li>Review and update incident response plans to include vishing scenarios.</li>
+            
+          </ul>
+        </div>
+
+        <div class="text-block"><span class="label">Watch next:</span> Monitor for reports of increased vishing attempts and any updates from security vendors regarding countermeasures.</div>
+
+        <div class="sources">
+          <div class="label">Sources</div>
+          
+            
+              <div>
+                <a href="https://www.bleepingcomputer.com/news/security/new-athr-vishing-platform-uses-ai-voice-agents-for-automated-attacks/" target="_blank" rel="noopener noreferrer">
+                  BleepingComputer - New ATHR vishing platform uses AI voice agents for automated attacks
+                </a>
+              </div>
+            
+          
+        </div>
+      </article>
+            
+          </div>
         
       </section>
     </main>
