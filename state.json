@@ -1,5 +1,5 @@
 {
-  "last_run_utc": "2026-04-21T09:19:41.109571+00:00",
+  "last_run_utc": "2026-04-21T14:03:32.634682+00:00",
   "processed_urls": [
     "https://www.bleepingcomputer.com/news/security/critical-cisco-sd-wan-bug-exploited-in-zero-day-attacks-since-2023/",
     "https://www.cisa.gov/news-events/alerts/2026/02/25/cisa-and-partners-release-guidance-ongoing-global-exploitation-cisco-sd-wan-systems",
@@ -346,6 +346,12 @@
     "https://www.cisa.gov/news-events/alerts/2026/04/20/supply-chain-compromise-impacts-axios-node-package-manager",
     "https://thehackernews.com/2026/04/sglang-cve-2026-5760-cvss-98-enables.html",
     "https://www.bleepingcomputer.com/news/security/the-gentlemen-ransomware-now-uses-systembc-for-bot-powered-attacks/",
-    "https://www.bleepingcomputer.com/news/security/the-backup-myth-that-is-putting-businesses-at-risk/"
+    "https://www.bleepingcomputer.com/news/security/the-backup-myth-that-is-putting-businesses-at-risk/",
+    "https://www.bleepingcomputer.com/news/security/cisa-flags-new-sd-wan-flaw-as-actively-exploited-in-attacks/",
+    "https://www.bleepingcomputer.com/news/security/actively-exploited-apache-activemq-flaw-impacts-6-400-servers/",
+    "https://thehackernews.com/2026/04/no-exploit-needed-how-attackers-walk.html",
+    "https://thehackernews.com/2026/04/google-patches-antigravity-ide-flaw.html",
+    "https://www.bleepingcomputer.com/news/security/former-ransomware-negotiator-pleads-guilty-to-blackcat-attacks/",
+    "https://thehackernews.com/2026/04/ngate-campaign-targets-brazil.html"
   ]
 }
