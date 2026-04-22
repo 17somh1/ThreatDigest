@@ -378,8 +378,8 @@
         The security news worth your attention, with context and practical takeaways.
       </p>
       <div class="meta-bar">
-        <span>Updated: 2026-04-22 09:14 UTC</span>
-        <span>Stories: 6</span>
+        <span>Updated: 2026-04-22 14:03 UTC</span>
+        <span>Stories: 3</span>
         <span>Recent issues: 14</span>
       </div>
     </header>
@@ -389,7 +389,7 @@
         <section class="one-liner">
           <h2>What Matters Today</h2>
           
-            <p class="text-block">Multiple critical vulnerabilities across Microsoft SharePoint, ASP.NET, and AI sandbox technologies demand immediate action from IT and development teams to prevent unauthorized access and data breaches.</p>
+            <p class="text-block">Immediate action is needed as critical vulnerabilities in ASP.NET Core and npm packages expose developers to significant risks of unauthorized access.</p>
           
         </section>
 
@@ -398,11 +398,11 @@
           
             <ul>
               
-              <li>High-pressure environment for IT security teams managing Microsoft SharePoint and ASP.NET applications due to newly released patches.</li>
+              <li>Critical vulnerabilities in widely used frameworks increase the urgency for patching and validation by development teams.</li>
               
-              <li>Increased urgency for development teams using the Terrarium sandbox to mitigate risks of root code execution and container escape.</li>
+              <li>Supply chain attacks are evolving, highlighting the need for heightened vigilance among developers using npm packages.</li>
               
-              <li>Ransomware operations are escalating, as evidenced by the significant number of victims linked to SystemBC and the ongoing legal repercussions for involved parties.</li>
+              <li>Shared credentials and cross-application permissions create compounded risks that require proactive security measures.</li>
               
             </ul>
           
@@ -422,37 +422,45 @@
           
             <span class="chip label-chip">PATCH RELEASE</span>
           
-          <span class="chip chip-neutral">Initial Access</span>
+            <span class="chip label-chip">INDUSTRY SIGNAL</span>
+          
+            <span class="chip label-chip">LEGAL POLICY</span>
+          
+            <span class="chip label-chip">RESEARCH</span>
+          
+          <span class="chip chip-neutral">Privilege Escalation</span>
           <span class="chip chip-neutral">Confidence LOW</span>
         </div>
         
-          <h3><a href="https://www.bleepingcomputer.com/news/security/over-1-300-microsoft-sharepoint-servers-vulnerable-to-ongoing-attacks/" target="_blank" rel="noopener noreferrer">Over 1,300 Microsoft SharePoint servers vulnerable to spoofing attacks</a></h3>
+          <h3><a href="https://thehackernews.com/2026/04/microsoft-patches-critical-aspnet-core.html" target="_blank" rel="noopener noreferrer">Microsoft Patches Critical ASP.NET Core CVE-2026-40372 Privilege Escalation Bug</a></h3>
         
-        <p class="hook">The ongoing exploitation of a spoofing vulnerability in over 1,300 unpatched Microsoft SharePoint servers poses a significant risk of unauthorized access and data breaches.</p>
+        <p class="hook">Immediate patching is crucial as a critical privilege escalation vulnerability in ASP.NET Core could allow attackers to gain unauthorized access to sensitive systems.</p>
         <div class="support-grid">
-          <div class="text-block"><span class="label">Who should care:</span> IT security teams managing Microsoft SharePoint environments should be particularly vigilant.</div>
-          <div class="text-block"><span class="label">Attack path:</span> Attackers can exploit the spoofing vulnerability to impersonate legitimate users, gaining access to sensitive information and potentially compromising entire systems.</div>
+          <div class="text-block"><span class="label">Who should care:</span> Development and IT operations teams managing applications built on ASP.NET Core are most exposed.</div>
+          <div class="text-block"><span class="label">Attack path:</span> An attacker could exploit this vulnerability by sending specially crafted requests to an affected ASP.NET Core application, allowing them to gain higher privileges than intended.</div>
         </div>
         <div class="text-block"><span class="label">Why this matters now:</span> A live patch or vendor fix gives defenders something concrete to validate.</div>
-        <div class="text-block"><span class="label">In plain English:</span> Many Microsoft SharePoint servers are still vulnerable to a serious spoofing attack that is actively being exploited.</div>
+        <div class="text-block"><span class="label">In plain English:</span> Microsoft has released urgent patches for a serious vulnerability in ASP.NET Core that could let attackers escalate privileges.</div>
         
           <div class="tags">
             
               <span>cve</span>
             
-              <span>cloud</span>
+              <span>aspnetcore</span>
+            
+              <span>privilege escalation</span>
             
           </div>
         
         <ul class="story-list">
           
-            <li>Over 1,300 Microsoft SharePoint servers have been identified as vulnerable to a spoofing attack due to a zero-day vulnerability. This vulnerability has been actively exploited, allowing attackers to impersonate legitimate users and gain unauthorized access.</li>
+            <li>Microsoft issued out-of-band updates for a critical vulnerability in ASP.NET Core, identified as CVE-2026-40372, which has a CVSS score of 9.1. This flaw allows attackers to escalate privileges, potentially compromising sensitive data and systems.</li>
           
-            <li>The exploitation of this vulnerability can lead to unauthorized data access, potential data breaches, and significant operational disruptions. Organizations using SharePoint should prioritize patching to mitigate the risk of these ongoing attacks.</li>
+            <li>If exploited, this vulnerability could enable attackers to gain elevated access rights, leading to unauthorized actions within affected applications. Organizations using ASP.NET Core should prioritize applying these patches to mitigate the risk of exploitation.</li>
           
-            <li>Attackers can exploit the spoofing vulnerability to impersonate legitimate users, gaining access to sensitive information and potentially compromising entire systems.</li>
+            <li>An attacker could exploit this vulnerability by sending specially crafted requests to an affected ASP.NET Core application, allowing them to gain higher privileges than intended.</li>
           
-            <li>Watch next: Monitor for updates from Microsoft regarding patches and any new indicators of compromise related to this vulnerability.</li>
+            <li>Watch next: Monitor for any follow-up advisories from Microsoft regarding additional vulnerabilities or updates related to ASP.NET Core.</li>
           
         </ul>
 
@@ -461,9 +469,9 @@
             <div class="label">Key terms</div>
             <ul class="list">
             
-              <li>Spoofing - a technique where an attacker impersonates another user or device to gain unauthorized access.</li>
+              <li>CVE - Common Vulnerabilities and Exposures, a list of publicly disclosed cybersecurity vulnerabilities.</li>
             
-              <li>Zero-day - a vulnerability that is exploited before the vendor has released a patch.</li>
+              <li>CVSS - Common Vulnerability Scoring System, a standardized method for rating the severity of security vulnerabilities.</li>
             
             </ul>
           </div>
@@ -473,11 +481,11 @@
           <div class="label">Defender focus</div>
           <ul class="list">
             
-            <li>Identify and prioritize unpatched SharePoint servers within your environment.</li>
+            <li>Ensure all ASP.NET Core applications are updated with the latest patches immediately.</li>
             
-            <li>Implement network segmentation to limit exposure of vulnerable servers.</li>
+            <li>Monitor logs for unusual access patterns that may indicate exploitation attempts.</li>
             
-            <li>Monitor for unusual access patterns that may indicate exploitation attempts.</li>
+            <li>Review application configurations to ensure least privilege access is enforced.</li>
             
           </ul>
         </div>
@@ -486,24 +494,24 @@
           <div class="label">Do now</div>
           <ul class="list">
             
-            <li>Patch all vulnerable SharePoint servers immediately.</li>
+            <li>Apply the latest Microsoft patches for ASP.NET Core immediately.</li>
             
-            <li>Review access logs for signs of unauthorized access.</li>
+            <li>Conduct a risk assessment to identify any systems that may be vulnerable.</li>
             
-            <li>Enhance monitoring for any suspicious activities related to SharePoint.</li>
+            <li>Implement monitoring for any suspicious activity related to ASP.NET Core applications.</li>
             
           </ul>
         </div>
 
-        <div class="text-block"><span class="label">Watch next:</span> Monitor for updates from Microsoft regarding patches and any new indicators of compromise related to this vulnerability.</div>
+        <div class="text-block"><span class="label">Watch next:</span> Monitor for any follow-up advisories from Microsoft regarding additional vulnerabilities or updates related to ASP.NET Core.</div>
 
         <div class="sources">
           <div class="label">Sources</div>
           
             
               <div>
-                <a href="https://www.bleepingcomputer.com/news/security/over-1-300-microsoft-sharepoint-servers-vulnerable-to-ongoing-attacks/" target="_blank" rel="noopener noreferrer">
-                  BleepingComputer - Over 1,300 Microsoft SharePoint servers vulnerable to spoofing attacks
+                <a href="https://thehackernews.com/2026/04/microsoft-patches-critical-aspnet-core.html" target="_blank" rel="noopener noreferrer">
+                  The Hacker News - Microsoft Patches Critical ASP.NET Core CVE-2026-40372 Privilege Escalation Bug
                 </a>
               </div>
             
@@ -526,41 +534,41 @@
         <div class="meta">
           <span class="chip risk-high">HIGH</span>
           
-            <span class="chip label-chip">LEGAL POLICY</span>
+            <span class="chip label-chip">INDUSTRY SIGNAL</span>
           
-          <span class="chip chip-neutral">Execution</span>
+          <span class="chip chip-neutral">Initial Access</span>
           <span class="chip chip-neutral">Confidence LOW</span>
         </div>
         
-          <h3><a href="https://thehackernews.com/2026/04/cohere-ai-terrarium-sandbox-flaw.html" target="_blank" rel="noopener noreferrer">Cohere AI Terrarium Sandbox Flaw Enables Root Code Execution, Container Escape</a></h3>
+          <h3><a href="https://www.bleepingcomputer.com/news/security/new-npm-supply-chain-attack-self-spreads-to-steal-auth-tokens/" target="_blank" rel="noopener noreferrer">New npm supply-chain attack self-spreads to steal auth tokens</a></h3>
         
-        <p class="hook">A critical flaw in the Terrarium sandbox could allow attackers to execute arbitrary code with root privileges, posing a significant risk to systems using this technology.</p>
+        <p class="hook">This npm supply chain attack poses a significant threat to developers by potentially compromising authentication tokens, which can lead to unauthorized access to critical systems.</p>
         <div class="support-grid">
-          <div class="text-block"><span class="label">Who should care:</span> Development teams using the Terrarium sandbox for AI applications and any environments relying on this technology should prioritize addressing this vulnerability.</div>
-          <div class="text-block"><span class="label">Attack path:</span> An attacker could exploit the flaw by crafting a malicious payload that leverages the JavaScript prototype chain to execute arbitrary code outside the sandbox. This could lead to unauthorized access and control over the host system.</div>
+          <div class="text-block"><span class="label">Who should care:</span> Development teams using npm packages and organizations that rely on Node.js applications should be particularly vigilant.</div>
+          <div class="text-block"><span class="label">Attack path:</span> Attackers compromise developer accounts to publish malicious packages that steal authentication tokens when installed by unsuspecting users.</div>
         </div>
         <div class="text-block"><span class="label">Why this matters now:</span> Useful context for teams tracking where attacker pressure is building.</div>
-        <div class="text-block"><span class="label">In plain English:</span> A serious vulnerability in the Terrarium sandbox could let attackers gain full control of affected systems.</div>
+        <div class="text-block"><span class="label">In plain English:</span> A new attack on npm is stealing developer credentials and spreading through compromised packages.</div>
         
           <div class="tags">
             
-              <span>cve</span>
+              <span>supply chain</span>
             
-              <span>sandbox</span>
+              <span>npm</span>
             
-              <span>python</span>
+              <span>credential theft</span>
             
           </div>
         
         <ul class="story-list">
           
-            <li>A vulnerability identified as CVE-2026-5752 has been disclosed in the Terrarium sandbox, which is used for executing Python code securely. This flaw allows for arbitrary code execution through a JavaScript prototype chain traversal, enabling attackers to escape the sandbox and execute code with root privileges.</li>
+            <li>A supply chain attack has been identified within the npm ecosystem, where malicious packages are being published from compromised developer accounts. These packages are designed to steal authentication tokens from users who install them, allowing attackers to gain unauthorized access to various systems.</li>
           
-            <li>Exploitation of this vulnerability could lead to complete system compromise, allowing attackers to manipulate or steal sensitive data. Organizations using Terrarium for AI applications or other Python-based projects are particularly at risk, as the flaw undermines the security model intended to isolate code execution.</li>
+            <li>The attack can lead to widespread credential theft, affecting not only individual developers but also organizations that rely on npm packages for their applications. If attackers gain access to sensitive systems, they could exploit vulnerabilities, leading to data breaches or service disruptions.</li>
           
-            <li>An attacker could exploit the flaw by crafting a malicious payload that leverages the JavaScript prototype chain to execute arbitrary code outside the sandbox. This could lead to unauthorized access and control over the host system.</li>
+            <li>Attackers compromise developer accounts to publish malicious packages that steal authentication tokens when installed by unsuspecting users.</li>
           
-            <li>Watch next: Monitor for updates from Cohere AI regarding patches or mitigations for this vulnerability.</li>
+            <li>Watch next: Monitor for updates from npm regarding compromised accounts and any new security measures they implement.</li>
           
         </ul>
 
@@ -569,9 +577,9 @@
             <div class="label">Key terms</div>
             <ul class="list">
             
-              <li>CVE - Common Vulnerabilities and Exposures, a list of publicly disclosed cybersecurity vulnerabilities.</li>
+              <li>Supply Chain Attack - a type of cyber attack that targets the supply chain of software, compromising the integrity of software components.</li>
             
-              <li>CVSS - Common Vulnerability Scoring System, a standardized method for rating the severity of security vulnerabilities.</li>
+              <li>Authentication Token - a piece of data that verifies a user's identity and grants access to systems.</li>
             
             </ul>
           </div>
@@ -581,11 +589,11 @@
           <div class="label">Defender focus</div>
           <ul class="list">
             
-            <li>Implement monitoring for unusual activity in systems using the Terrarium sandbox.</li>
+            <li>Implement monitoring for unusual package installations within your development environments.</li>
             
-            <li>Review and apply any available patches or updates from the vendor immediately.</li>
+            <li>Review and audit npm package dependencies for any recent changes or suspicious activity.</li>
             
-            <li>Conduct a risk assessment to identify and mitigate potential impacts on critical applications.</li>
+            <li>Educate developers on verifying package integrity and recognizing signs of compromised accounts.</li>
             
           </ul>
         </div>
@@ -594,24 +602,24 @@
           <div class="label">Do now</div>
           <ul class="list">
             
-            <li>Patch the Terrarium sandbox as soon as updates are available.</li>
+            <li>Immediately review npm package dependencies for potential vulnerabilities.</li>
             
-            <li>Audit systems for any signs of exploitation or unauthorized access.</li>
+            <li>Enhance authentication measures for developer accounts, including multi-factor authentication.</li>
             
-            <li>Review security configurations to ensure proper isolation of code execution environments.</li>
+            <li>Stay updated on npm's communications regarding this attack and adjust security protocols accordingly.</li>
             
           </ul>
         </div>
 
-        <div class="text-block"><span class="label">Watch next:</span> Monitor for updates from Cohere AI regarding patches or mitigations for this vulnerability.</div>
+        <div class="text-block"><span class="label">Watch next:</span> Monitor for updates from npm regarding compromised accounts and any new security measures they implement.</div>
 
         <div class="sources">
           <div class="label">Sources</div>
           
             
               <div>
-                <a href="https://thehackernews.com/2026/04/cohere-ai-terrarium-sandbox-flaw.html" target="_blank" rel="noopener noreferrer">
-                  The Hacker News - Cohere AI Terrarium Sandbox Flaw Enables Root Code Execution, Container Escape
+                <a href="https://www.bleepingcomputer.com/news/security/new-npm-supply-chain-attack-self-spreads-to-steal-auth-tokens/" target="_blank" rel="noopener noreferrer">
+                  BleepingComputer - New npm supply-chain attack self-spreads to steal auth tokens
                 </a>
               </div>
             
@@ -625,39 +633,39 @@
           
             <span class="chip label-chip">RESEARCH</span>
           
-          <span class="chip chip-neutral">Initial Access</span>
+          <span class="chip chip-neutral">Credential Access</span>
           <span class="chip chip-neutral">Confidence LOW</span>
         </div>
         
-          <h3><a href="https://thehackernews.com/2026/04/systembc-c2-server-reveals-1570-victims.html" target="_blank" rel="noopener noreferrer">SystemBC C2 Server Reveals 1,570+ Victims in The Gentlemen Ransomware Operation</a></h3>
+          <h3><a href="https://thehackernews.com/2026/04/toxic-combinations-when-cross-app.html" target="_blank" rel="noopener noreferrer">Toxic Combinations: When Cross-App Permissions Stack into Risk</a></h3>
         
-        <p class="hook">The discovery of over 1,570 victims linked to the SystemBC C2 server underscores a significant threat from The Gentlemen ransomware operation, necessitating immediate attention.</p>
+        <p class="hook">The exposure of sensitive credentials in Moltbook's database could lead to widespread exploitation of AI agent functionalities, impacting numerous applications relying on these credentials.</p>
         <div class="support-grid">
-          <div class="text-block"><span class="label">Who should care:</span> IT security teams, incident response teams, and organizations using vulnerable systems should be particularly concerned.</div>
-          <div class="text-block"><span class="label">Attack path:</span> Attackers leverage the SystemBC malware to establish SOCKS5 network tunnels, allowing them to control compromised systems remotely and deploy additional payloads.</div>
+          <div class="text-block"><span class="label">Who should care:</span> Development teams and security teams managing applications that integrate with AI services or utilize shared credentials.</div>
+          <div class="text-block"><span class="label">Attack path:</span> An attacker could leverage the exposed API tokens to impersonate legitimate agents, gaining access to sensitive data and functionalities across connected applications.</div>
         </div>
         <div class="text-block"><span class="label">Why this matters now:</span> Useful context for teams tracking where attacker pressure is building.</div>
-        <div class="text-block"><span class="label">In plain English:</span> A command-and-control server has revealed a large botnet of victims targeted by The Gentlemen ransomware group using SystemBC malware.</div>
+        <div class="text-block"><span class="label">In plain English:</span> Moltbook's database leak exposes critical credentials, raising significant security concerns for users and developers.</div>
         
           <div class="tags">
             
-              <span>ransomware</span>
+              <span>credential exposure</span>
             
-              <span>cve</span>
+              <span>api security</span>
             
-              <span>cloud</span>
+              <span>data breach</span>
             
           </div>
         
         <ul class="story-list">
           
-            <li>Research from Check Point has identified a command-and-control server associated with the SystemBC malware, which is part of The Gentlemen ransomware-as-a-service operation. This server has been linked to over 1,570 compromised systems.</li>
+            <li>On January 31, 2026, researchers revealed that Moltbook, a social network for AI agents, had a database vulnerability that left 35,000 email addresses and 1.5 million API tokens exposed. Additionally, private messages within the platform contained plaintext third-party credentials, including OpenAI API keys.</li>
           
-            <li>The scale of the botnet indicates a widespread vulnerability that could lead to further ransomware attacks, potentially impacting critical infrastructure and sensitive data. Organizations must be vigilant as these attacks can disrupt operations and lead to significant financial losses.</li>
+            <li>The leaked API tokens and credentials can be exploited by attackers to gain unauthorized access to various services and applications, potentially leading to data breaches or service disruptions. This incident highlights the risks associated with cross-app permissions and the need for stringent security measures.</li>
           
-            <li>Attackers leverage the SystemBC malware to establish SOCKS5 network tunnels, allowing them to control compromised systems remotely and deploy additional payloads.</li>
+            <li>An attacker could leverage the exposed API tokens to impersonate legitimate agents, gaining access to sensitive data and functionalities across connected applications.</li>
           
-            <li>Watch next: Monitor for updates from Check Point regarding the ongoing investigation and any emerging indicators of compromise.</li>
+            <li>Watch next: Monitor for any reports of unauthorized access or misuse of the exposed credentials in the coming weeks.</li>
           
         </ul>
 
@@ -666,9 +674,9 @@
             <div class="label">Key terms</div>
             <ul class="list">
             
-              <li>SOCKS5 - a protocol that allows clients to connect to servers through a proxy, often used for anonymity.</li>
+              <li>API Token - a unique identifier used to authenticate a user or application to access a service.</li>
             
-              <li>C2 (Command and Control) - a server that allows attackers to remotely control compromised systems.</li>
+              <li>Cross-App Permissions - permissions granted to applications to access data or functionalities from other applications.</li>
             
             </ul>
           </div>
@@ -678,108 +686,11 @@
           <div class="label">Defender focus</div>
           <ul class="list">
             
-            <li>Implement network monitoring to detect unusual outbound traffic patterns indicative of SOCKS5 tunneling.</li>
+            <li>Implement monitoring for unusual API usage patterns that may indicate credential abuse.</li>
             
-            <li>Review logs for signs of SystemBC installation or communication with known C2 servers.</li>
+            <li>Review and revoke any exposed API tokens associated with Moltbook accounts.</li>
             
-            <li>Enhance endpoint protection to block known signatures of SystemBC and related ransomware.</li>
-            
-          </ul>
-        </div>
-
-        <div>
-          <div class="label">Do now</div>
-          <ul class="list">
-            
-            <li>Increase monitoring for unusual network activity.</li>
-            
-            <li>Update threat intelligence feeds to include indicators related to SystemBC.</li>
-            
-            <li>Conduct a security audit to identify and mitigate vulnerabilities in your network.</li>
-            
-          </ul>
-        </div>
-
-        <div class="text-block"><span class="label">Watch next:</span> Monitor for updates from Check Point regarding the ongoing investigation and any emerging indicators of compromise.</div>
-
-        <div class="sources">
-          <div class="label">Sources</div>
-          
-            
-              <div>
-                <a href="https://thehackernews.com/2026/04/systembc-c2-server-reveals-1570-victims.html" target="_blank" rel="noopener noreferrer">
-                  The Hacker News - SystemBC C2 Server Reveals 1,570+ Victims in The Gentlemen Ransomware Operation
-                </a>
-              </div>
-            
-          
-        </div>
-      </article>
-            
-              <article class="card" style="--i: 2;">
-        <div class="meta">
-          <span class="chip risk-medium">MEDIUM</span>
-          
-            <span class="chip label-chip">INDUSTRY SIGNAL</span>
-          
-          <span class="chip chip-neutral">Impact</span>
-          <span class="chip chip-neutral">Confidence LOW</span>
-        </div>
-        
-          <h3><a href="https://thehackernews.com/2026/04/ransomware-negotiator-pleads-guilty-to.html" target="_blank" rel="noopener noreferrer">Ransomware Negotiator Pleads Guilty to Aiding BlackCat Attacks in 2023</a></h3>
-        
-        <p class="hook">The guilty plea of a ransomware negotiator highlights the ongoing threat of organized cybercrime and its impact on U.S. businesses.</p>
-        <div class="support-grid">
-          <div class="text-block"><span class="label">Who should care:</span> Incident response teams and cybersecurity professionals in organizations that could be targeted by ransomware attacks.</div>
-          <div class="text-block"><span class="label">Attack path:</span> Attackers leverage negotiators to manipulate ransom discussions, increasing the likelihood of successful extortion. This can lead to higher financial losses for affected organizations.</div>
-        </div>
-        <div class="text-block"><span class="label">Why this matters now:</span> Useful context for teams tracking where attacker pressure is building.</div>
-        <div class="text-block"><span class="label">In plain English:</span> A ransomware negotiator has admitted to aiding BlackCat attacks, emphasizing the evolving tactics of cybercriminals.</div>
-        
-          <div class="tags">
-            
-              <span>ransomware</span>
-            
-              <span>blackcat</span>
-            
-              <span>cybercrime</span>
-            
-          </div>
-        
-        <ul class="story-list">
-          
-            <li>Angelo Martino, a 41-year-old from Florida, pleaded guilty to facilitating ransomware attacks for the BlackCat group in 2023. His role involved negotiating ransom payments, which enabled the group to secure higher payouts from victims.</li>
-          
-            <li>This case underscores the sophistication of ransomware operations, where negotiators play a crucial role in maximizing profits for attackers. Companies must recognize that the threat landscape is evolving, and the involvement of intermediaries can complicate recovery efforts.</li>
-          
-            <li>Attackers leverage negotiators to manipulate ransom discussions, increasing the likelihood of successful extortion. This can lead to higher financial losses for affected organizations.</li>
-          
-            <li>Watch next: Monitor for updates on the sentencing and any potential repercussions for organizations involved in ransomware negotiations.</li>
-          
-        </ul>
-
-        
-          <div class="glossary">
-            <div class="label">Key terms</div>
-            <ul class="list">
-            
-              <li>Ransomware - a type of malicious software that encrypts a victim's files, demanding payment for decryption.</li>
-            
-              <li>Negotiator - an individual who communicates with victims on behalf of attackers to negotiate ransom payments.</li>
-            
-            </ul>
-          </div>
-        
-
-        <div>
-          <div class="label">Defender focus</div>
-          <ul class="list">
-            
-            <li>Implement monitoring for unusual network traffic patterns that may indicate ransomware activity.</li>
-            
-            <li>Review and strengthen incident response plans to address potential ransom negotiations.</li>
-            
-            <li>Educate teams on the tactics used by ransomware negotiators to better prepare for potential incidents.</li>
+            <li>Enhance security measures for applications that utilize shared credentials to prevent unauthorized access.</li>
             
           </ul>
         </div>
@@ -788,24 +699,24 @@
           <div class="label">Do now</div>
           <ul class="list">
             
-            <li>Enhance monitoring for ransomware indicators in your environment.</li>
+            <li>Immediately revoke any exposed API tokens.</li>
             
-            <li>Conduct a risk assessment to identify vulnerabilities that could be exploited by ransomware.</li>
+            <li>Audit applications for potential misuse of shared credentials.</li>
             
-            <li>Establish clear communication protocols for incident response involving potential ransom situations.</li>
+            <li>Enhance security protocols for managing API access and permissions.</li>
             
           </ul>
         </div>
 
-        <div class="text-block"><span class="label">Watch next:</span> Monitor for updates on the sentencing and any potential repercussions for organizations involved in ransomware negotiations.</div>
+        <div class="text-block"><span class="label">Watch next:</span> Monitor for any reports of unauthorized access or misuse of the exposed credentials in the coming weeks.</div>
 
         <div class="sources">
           <div class="label">Sources</div>
           
             
               <div>
-                <a href="https://thehackernews.com/2026/04/ransomware-negotiator-pleads-guilty-to.html" target="_blank" rel="noopener noreferrer">
-                  The Hacker News - Ransomware Negotiator Pleads Guilty to Aiding BlackCat Attacks in 2023
+                <a href="https://thehackernews.com/2026/04/toxic-combinations-when-cross-app.html" target="_blank" rel="noopener noreferrer">
+                  The Hacker News - Toxic Combinations: When Cross-App Permissions Stack into Risk
                 </a>
               </div>
             
@@ -823,205 +734,7 @@
           Wider Signal
         </div>
         
-          <div class="grid">
-            
-              <article class="card" style="--i: 0;">
-        <div class="meta">
-          <span class="chip risk-high">HIGH</span>
-          
-            <span class="chip label-chip">PATCH RELEASE</span>
-          
-            <span class="chip label-chip">LEGAL POLICY</span>
-          
-          <span class="chip chip-neutral">Privilege Escalation</span>
-          <span class="chip chip-neutral">Confidence LOW</span>
-        </div>
-        
-          <h3><a href="https://www.bleepingcomputer.com/news/microsoft/microsoft-releases-emergency-security-updates-for-critical-aspnet-flaw/" target="_blank" rel="noopener noreferrer">Microsoft releases emergency patches for critical ASP.NET flaw</a></h3>
-        
-        <p class="hook">Immediate patching is crucial to prevent potential privilege escalation attacks on ASP.NET applications.</p>
-        <div class="support-grid">
-          <div class="text-block"><span class="label">Who should care:</span> Development and IT operations teams managing ASP.NET Core applications are most exposed.</div>
-          <div class="text-block"><span class="label">Attack path:</span> An attacker could exploit this vulnerability to gain elevated privileges, allowing them to perform unauthorized actions within the application environment.</div>
-        </div>
-        <div class="text-block"><span class="label">Why this matters now:</span> A live patch or vendor fix gives defenders something concrete to validate.</div>
-        <div class="text-block"><span class="label">In plain English:</span> Microsoft has issued urgent patches for a critical vulnerability in ASP.NET Core that could allow attackers to escalate privileges.</div>
-        
-          <div class="tags">
-            
-              <span>cve</span>
-            
-              <span>patch</span>
-            
-              <span>security</span>
-            
-          </div>
-        
-        <ul class="story-list">
-          
-            <li>Microsoft released out-of-band security updates to address a critical privilege escalation vulnerability in ASP.NET Core. This flaw could allow attackers to gain elevated access to systems running affected versions of the software.</li>
-          
-            <li>If exploited, this vulnerability could enable attackers to execute unauthorized commands or access sensitive data, significantly impacting application security. Organizations using ASP.NET Core should prioritize applying these patches to mitigate the risk of exploitation.</li>
-          
-            <li>An attacker could exploit this vulnerability to gain elevated privileges, allowing them to perform unauthorized actions within the application environment.</li>
-          
-            <li>Watch next: Monitor for any reports of exploitation attempts or additional patches from Microsoft.</li>
-          
-        </ul>
-
-        
-          <div class="glossary">
-            <div class="label">Key terms</div>
-            <ul class="list">
-            
-              <li>ASP.NET Core - a framework for building web applications and services using .NET.</li>
-            
-              <li>Privilege Escalation - a type of attack where a user gains elevated access to resources that are normally protected from the user.</li>
-            
-            </ul>
-          </div>
-        
-
-        <div>
-          <div class="label">Defender focus</div>
-          <ul class="list">
-            
-            <li>Verify that all ASP.NET Core applications are updated with the latest security patches.</li>
-            
-            <li>Monitor logs for unusual access patterns that may indicate exploitation attempts.</li>
-            
-            <li>Review application permissions to ensure least privilege access is enforced.</li>
-            
-          </ul>
-        </div>
-
-        <div>
-          <div class="label">Do now</div>
-          <ul class="list">
-            
-            <li>Apply the emergency patches released by Microsoft immediately.</li>
-            
-            <li>Conduct a security assessment of ASP.NET Core applications for potential vulnerabilities.</li>
-            
-            <li>Educate development teams on the importance of timely patch management.</li>
-            
-          </ul>
-        </div>
-
-        <div class="text-block"><span class="label">Watch next:</span> Monitor for any reports of exploitation attempts or additional patches from Microsoft.</div>
-
-        <div class="sources">
-          <div class="label">Sources</div>
-          
-            
-              <div>
-                <a href="https://www.bleepingcomputer.com/news/microsoft/microsoft-releases-emergency-security-updates-for-critical-aspnet-flaw/" target="_blank" rel="noopener noreferrer">
-                  BleepingComputer - Microsoft releases emergency patches for critical ASP.NET flaw
-                </a>
-              </div>
-            
-          
-        </div>
-      </article>
-            
-              <article class="card" style="--i: 1;">
-        <div class="meta">
-          <span class="chip risk-medium">MEDIUM</span>
-          
-            <span class="chip label-chip">INDUSTRY SIGNAL</span>
-          
-          <span class="chip chip-neutral">Credential Access</span>
-          <span class="chip chip-neutral">Confidence LOW</span>
-        </div>
-        
-          <h3><a href="https://krebsonsecurity.com/2026/04/scattered-spider-member-tylerb-pleads-guilty/" target="_blank" rel="noopener noreferrer">‘Scattered Spider’ Member ‘Tylerb’ Pleads Guilty</a></h3>
-        
-        <p class="hook">The guilty plea of a key member of the Scattered Spider group highlights ongoing vulnerabilities in tech companies that could lead to significant financial losses.</p>
-        <div class="support-grid">
-          <div class="text-block"><span class="label">Who should care:</span> Security teams at technology companies and cryptocurrency platforms should be particularly vigilant.</div>
-          <div class="text-block"><span class="label">Attack path:</span> Attackers used text-message phishing to gain access to sensitive information, allowing them to compromise accounts and steal funds. This method can be replicated against other targets.</div>
-        </div>
-        <div class="text-block"><span class="label">Why this matters now:</span> Useful context for teams tracking where attacker pressure is building.</div>
-        <div class="text-block"><span class="label">In plain English:</span> A member of the Scattered Spider cybercrime group has pleaded guilty to serious charges related to phishing attacks on major tech firms.</div>
-        
-          <div class="tags">
-            
-              <span>phishing</span>
-            
-              <span>cybercrime</span>
-            
-              <span>cryptocurrency</span>
-            
-          </div>
-        
-        <ul class="story-list">
-          
-            <li>Tyler Robert Buchanan, a 24-year-old British national, pleaded guilty to wire fraud conspiracy and aggravated identity theft. His actions were part of a series of text-message phishing attacks in the summer of 2022, targeting at least a dozen major technology companies.</li>
-          
-            <li>The attacks led to the theft of tens of millions of dollars in cryptocurrency, exposing weaknesses in security practices among large tech firms. This case underscores the need for enhanced security measures to prevent similar breaches in the future.</li>
-          
-            <li>Attackers used text-message phishing to gain access to sensitive information, allowing them to compromise accounts and steal funds. This method can be replicated against other targets.</li>
-          
-            <li>Watch next: Monitor for updates on security measures implemented by affected companies and any further legal actions against Scattered Spider members.</li>
-          
-        </ul>
-
-        
-          <div class="glossary">
-            <div class="label">Key terms</div>
-            <ul class="list">
-            
-              <li>Phishing - a method of trying to gather personal information using deceptive emails or messages.</li>
-            
-              <li>Wire Fraud - a crime involving the use of electronic communications to commit fraud.</li>
-            
-            </ul>
-          </div>
-        
-
-        <div>
-          <div class="label">Defender focus</div>
-          <ul class="list">
-            
-            <li>Implement multi-factor authentication to reduce the risk of unauthorized access.</li>
-            
-            <li>Conduct a review of current phishing detection capabilities and enhance them as needed.</li>
-            
-            <li>Educate employees about recognizing phishing attempts, especially through text messages.</li>
-            
-          </ul>
-        </div>
-
-        <div>
-          <div class="label">Do now</div>
-          <ul class="list">
-            
-            <li>Enhance phishing detection systems immediately.</li>
-            
-            <li>Review and strengthen account security protocols.</li>
-            
-            <li>Stay informed about ongoing legal developments related to Scattered Spider.</li>
-            
-          </ul>
-        </div>
-
-        <div class="text-block"><span class="label">Watch next:</span> Monitor for updates on security measures implemented by affected companies and any further legal actions against Scattered Spider members.</div>
-
-        <div class="sources">
-          <div class="label">Sources</div>
-          
-            
-              <div>
-                <a href="https://krebsonsecurity.com/2026/04/scattered-spider-member-tylerb-pleads-guilty/" target="_blank" rel="noopener noreferrer">
-                  Krebs on Security - ‘Scattered Spider’ Member ‘Tylerb’ Pleads Guilty
-                </a>
-              </div>
-            
-          
-        </div>
-      </article>
-            
-          </div>
+          <p class="empty">No context stories today.</p>
         
       </section>
     </main>
