@@ -1,5 +1,5 @@
 {
-  "last_run_utc": "2026-04-21T14:03:32.634682+00:00",
+  "last_run_utc": "2026-04-22T09:14:26.204577+00:00",
   "processed_urls": [
     "https://www.bleepingcomputer.com/news/security/critical-cisco-sd-wan-bug-exploited-in-zero-day-attacks-since-2023/",
     "https://www.cisa.gov/news-events/alerts/2026/02/25/cisa-and-partners-release-guidance-ongoing-global-exploitation-cisco-sd-wan-systems",
@@ -352,6 +352,13 @@
     "https://thehackernews.com/2026/04/no-exploit-needed-how-attackers-walk.html",
     "https://thehackernews.com/2026/04/google-patches-antigravity-ide-flaw.html",
     "https://www.bleepingcomputer.com/news/security/former-ransomware-negotiator-pleads-guilty-to-blackcat-attacks/",
-    "https://thehackernews.com/2026/04/ngate-campaign-targets-brazil.html"
+    "https://thehackernews.com/2026/04/ngate-campaign-targets-brazil.html",
+    "https://www.bleepingcomputer.com/news/security/over-1-300-microsoft-sharepoint-servers-vulnerable-to-ongoing-attacks/",
+    "https://www.bleepingcomputer.com/news/microsoft/microsoft-releases-emergency-security-updates-for-critical-aspnet-flaw/",
+    "https://thehackernews.com/2026/04/cohere-ai-terrarium-sandbox-flaw.html",
+    "https://thehackernews.com/2026/04/systembc-c2-server-reveals-1570-victims.html",
+    "https://thehackernews.com/2026/04/22-bridgebreak-flaws-expose-20000.html",
+    "https://thehackernews.com/2026/04/ransomware-negotiator-pleads-guilty-to.html",
+    "https://krebsonsecurity.com/2026/04/scattered-spider-member-tylerb-pleads-guilty/"
   ]
 }
