@@ -1,5 +1,5 @@
 {
-  "last_run_utc": "2026-04-23T09:21:05.488233+00:00",
+  "last_run_utc": "2026-04-23T14:04:59.375151+00:00",
   "processed_urls": [
     "https://www.bleepingcomputer.com/news/security/critical-cisco-sd-wan-bug-exploited-in-zero-day-attacks-since-2023/",
     "https://www.cisa.gov/news-events/alerts/2026/02/25/cisa-and-partners-release-guidance-ongoing-global-exploitation-cisco-sd-wan-systems",
@@ -368,6 +368,9 @@
     "https://www.bleepingcomputer.com/news/security/new-mirai-campaign-exploits-rce-flaw-in-eol-d-link-routers/",
     "https://www.bleepingcomputer.com/news/security/kyber-ransomware-gang-toys-with-post-quantum-encryption-on-windows/",
     "https://thehackernews.com/2026/04/malicious-kics-docker-images-and-vs.html",
-    "https://thehackernews.com/2026/04/self-propagating-supply-chain-worm.html"
+    "https://thehackernews.com/2026/04/self-propagating-supply-chain-worm.html",
+    "https://www.cisa.gov/news-events/cybersecurity-advisories/aa26-113a",
+    "https://www.bleepingcomputer.com/news/security/cisa-orders-feds-to-patch-microsoft-defender-flaw-exploited-in-zero-day-attacks/",
+    "https://thehackernews.com/2026/04/project-glasswing-proved-ai-can-find.html"
   ]
 }
