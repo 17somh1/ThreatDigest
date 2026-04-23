@@ -1,5 +1,5 @@
 {
-  "last_run_utc": "2026-04-22T14:03:21.018969+00:00",
+  "last_run_utc": "2026-04-23T09:21:05.488233+00:00",
   "processed_urls": [
     "https://www.bleepingcomputer.com/news/security/critical-cisco-sd-wan-bug-exploited-in-zero-day-attacks-since-2023/",
     "https://www.cisa.gov/news-events/alerts/2026/02/25/cisa-and-partners-release-guidance-ongoing-global-exploitation-cisco-sd-wan-systems",
@@ -362,6 +362,12 @@
     "https://krebsonsecurity.com/2026/04/scattered-spider-member-tylerb-pleads-guilty/",
     "https://www.bleepingcomputer.com/news/security/new-npm-supply-chain-attack-self-spreads-to-steal-auth-tokens/",
     "https://thehackernews.com/2026/04/microsoft-patches-critical-aspnet-core.html",
-    "https://thehackernews.com/2026/04/toxic-combinations-when-cross-app.html"
+    "https://thehackernews.com/2026/04/toxic-combinations-when-cross-app.html",
+    "https://www.cisa.gov/news-events/alerts/2026/04/22/cisa-adds-one-known-exploited-vulnerability-catalog",
+    "https://thehackernews.com/2026/04/apple-patches-ios-flaw-that-stored.html",
+    "https://www.bleepingcomputer.com/news/security/new-mirai-campaign-exploits-rce-flaw-in-eol-d-link-routers/",
+    "https://www.bleepingcomputer.com/news/security/kyber-ransomware-gang-toys-with-post-quantum-encryption-on-windows/",
+    "https://thehackernews.com/2026/04/malicious-kics-docker-images-and-vs.html",
+    "https://thehackernews.com/2026/04/self-propagating-supply-chain-worm.html"
   ]
 }
