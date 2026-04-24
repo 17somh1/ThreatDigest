@@ -1,5 +1,5 @@
 {
-  "last_run_utc": "2026-04-24T09:25:27.268170+00:00",
+  "last_run_utc": "2026-04-24T13:58:52.618802+00:00",
   "processed_urls": [
     "https://www.bleepingcomputer.com/news/security/critical-cisco-sd-wan-bug-exploited-in-zero-day-attacks-since-2023/",
     "https://www.cisa.gov/news-events/alerts/2026/02/25/cisa-and-partners-release-guidance-ongoing-global-exploitation-cisco-sd-wan-systems",
@@ -377,6 +377,7 @@
     "https://thehackernews.com/2026/04/threatsday-bulletin-290m-defi-hack.html",
     "https://www.bleepingcomputer.com/news/security/bitwarden-cli-npm-package-compromised-to-steal-developer-credentials/",
     "https://www.bleepingcomputer.com/news/security/trigona-ransomware-attacks-use-custom-exfiltration-tool-to-steal-data/",
-    "https://thehackernews.com/2026/04/bitwarden-cli-compromised-in-ongoing.html"
+    "https://thehackernews.com/2026/04/bitwarden-cli-compromised-in-ongoing.html",
+    "https://www.bleepingcomputer.com/news/microsoft/microsoft-now-lets-admins-uninstall-copilot-on-enterprise-devices/"
   ]
 }
