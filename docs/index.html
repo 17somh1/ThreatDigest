@@ -378,8 +378,8 @@
         The security news worth your attention, with context and practical takeaways.
       </p>
       <div class="meta-bar">
-        <span>Updated: 2026-04-28 10:09 UTC</span>
-        <span>Stories: 6</span>
+        <span>Updated: 2026-04-28 14:35 UTC</span>
+        <span>Stories: 3</span>
         <span>Recent issues: 14</span>
       </div>
     </header>
@@ -389,7 +389,7 @@
         <section class="one-liner">
           <h2>What Matters Today</h2>
           
-            <p class="text-block">Active exploitation of critical vulnerabilities and the resurgence of outdated attack methods highlight urgent pressure points for defenders managing user access and software supply chains.</p>
+            <p class="text-block">Defenders must urgently address critical vulnerabilities and adapt to rapidly evolving attack strategies as new ransomware threats emerge.</p>
           
         </section>
 
@@ -398,11 +398,11 @@
           
             <ul>
               
-              <li>Immediate patching is essential to mitigate active exploitation risks in widely used software.</li>
+              <li>Unpatched vulnerabilities create significant risks, demanding immediate attention from development and security teams.</li>
               
-              <li>Outdated attack techniques are resurfacing, indicating a need for vigilance against familiar threats.</li>
+              <li>The shrinking window for exploiting vulnerabilities requires organizations to enhance their incident response capabilities.</li>
               
-              <li>Phishing attacks targeting mobile users are increasing, emphasizing the importance of securing mobile environments.</li>
+              <li>New ransomware variants are increasingly destructive, necessitating heightened vigilance from IT security teams.</li>
               
             </ul>
           
@@ -418,49 +418,47 @@
           <div class="grid">
             <article class="card" style="--i: 0;">
         <div class="meta">
-          <span class="chip risk-medium">MEDIUM</span>
-          
-            <span class="chip label-chip">ACTIVE EXPLOITATION</span>
-          
-            <span class="chip label-chip">GUIDANCE</span>
+          <span class="chip risk-high">HIGH</span>
           
             <span class="chip label-chip">PATCH RELEASE</span>
           
             <span class="chip label-chip">LEGAL POLICY</span>
           
-          <span class="chip chip-neutral">Initial Access</span>
+            <span class="chip label-chip">RESEARCH</span>
+          
+          <span class="chip chip-neutral">Execution</span>
           <span class="chip chip-neutral">Confidence LOW</span>
         </div>
         
-          <h3><a href="https://thehackernews.com/2026/04/microsoft-confirms-active-exploitation.html" target="_blank" rel="noopener noreferrer">Microsoft Confirms Active Exploitation of Windows Shell CVE-2026-32202</a></h3>
+          <h3><a href="https://thehackernews.com/2026/04/critical-cve-2026-25874-leaves-hugging.html" target="_blank" rel="noopener noreferrer">Critical Unpatched Flaw Leaves Hugging Face LeRobot Open to Unauthenticated RCE</a></h3>
         
-        <p class="hook">Active exploitation of a recently patched Windows Shell vulnerability could lead to unauthorized access to sensitive information, making immediate patching critical.</p>
+        <p class="hook">An unpatched critical vulnerability in Hugging Face's LeRobot could allow attackers to execute arbitrary code remotely, posing significant risks to users and systems relying on this platform.</p>
         <div class="support-grid">
-          <div class="text-block"><span class="label">Who should care:</span> IT security teams managing Windows environments should prioritize this vulnerability.</div>
-          <div class="text-block"><span class="label">Attack path:</span> An attacker could exploit this vulnerability to spoof legitimate processes, gaining unauthorized access to sensitive data.</div>
+          <div class="text-block"><span class="label">Who should care:</span> Development and security teams using Hugging Face's LeRobot should prioritize this issue.</div>
+          <div class="text-block"><span class="label">Attack path:</span> An attacker could exploit the vulnerability by sending specially crafted data to the LeRobot application, allowing them to execute arbitrary code on the server.</div>
         </div>
-        <div class="text-block"><span class="label">Why this matters now:</span> Active exploitation makes this an immediate exposure check. A live patch or vendor fix gives defenders something concrete to validate.</div>
-        <div class="text-block"><span class="label">In plain English:</span> A high-severity vulnerability in Windows Shell is being actively exploited, and users must ensure they have applied the latest patches.</div>
+        <div class="text-block"><span class="label">Why this matters now:</span> A live patch or vendor fix gives defenders something concrete to validate.</div>
+        <div class="text-block"><span class="label">In plain English:</span> A serious flaw in LeRobot could let attackers run malicious code without authentication.</div>
         
           <div class="tags">
             
               <span>cve</span>
             
-              <span>windows</span>
+              <span>open source</span>
             
-              <span>exploitation</span>
+              <span>remote code execution</span>
             
           </div>
         
         <ul class="story-list">
           
-            <li>Microsoft confirmed that CVE-2026-32202, a spoofing vulnerability in Windows Shell, is being actively exploited in the wild. This vulnerability has a CVSS score of 4.3 and was addressed in a recent Patch Tuesday update.</li>
+            <li>Researchers identified a critical vulnerability (CVE-2026-25874) in Hugging Face's LeRobot, an open-source robotics platform. This flaw, with a CVSS score of 9.3, is due to untrusted data deserialization, which can be exploited for remote code execution.</li>
           
-            <li>If left unpatched, this vulnerability could allow attackers to gain access to sensitive information, potentially leading to data breaches or further exploitation. Organizations that rely on Windows systems must prioritize applying the latest security updates to mitigate this risk.</li>
+            <li>If exploited, this vulnerability could allow attackers to take control of systems using LeRobot, potentially leading to data breaches or service disruptions. Given the platform's popularity, the impact could be widespread across various applications and environments.</li>
           
-            <li>An attacker could exploit this vulnerability to spoof legitimate processes, gaining unauthorized access to sensitive data.</li>
+            <li>An attacker could exploit the vulnerability by sending specially crafted data to the LeRobot application, allowing them to execute arbitrary code on the server.</li>
           
-            <li>Watch next: Monitor for any follow-up advisories from Microsoft regarding additional mitigations or related vulnerabilities.</li>
+            <li>Watch next: Monitor for updates from Hugging Face regarding patches or mitigations for this vulnerability.</li>
           
         </ul>
 
@@ -469,9 +467,9 @@
             <div class="label">Key terms</div>
             <ul class="list">
             
-              <li>CVE - Common Vulnerabilities and Exposures, a list of publicly disclosed cybersecurity vulnerabilities.</li>
+              <li>RCE - Remote Code Execution, a type of vulnerability that allows an attacker to run arbitrary code on a target system.</li>
             
-              <li>CVSS - Common Vulnerability Scoring System, a standard for assessing the severity of security vulnerabilities.</li>
+              <li>Deserialization - The process of converting data from a format suitable for storage or transmission back into an object, which can be exploited if the data is not properly validated.</li>
             
             </ul>
           </div>
@@ -481,11 +479,11 @@
           <div class="label">Defender focus</div>
           <ul class="list">
             
-            <li>Ensure all Windows systems are updated with the latest patches to close the vulnerability.</li>
+            <li>Implement monitoring for unusual activity on systems running LeRobot.</li>
             
-            <li>Monitor logs for any unusual access patterns that may indicate exploitation attempts.</li>
+            <li>Review logs for any unauthorized access attempts or anomalies.</li>
             
-            <li>Review security configurations to ensure they are aligned with best practices for Windows environments.</li>
+            <li>Prepare to apply patches or mitigations as soon as they are released by Hugging Face.</li>
             
           </ul>
         </div>
@@ -494,24 +492,24 @@
           <div class="label">Do now</div>
           <ul class="list">
             
-            <li>Immediately apply the latest Windows updates to all affected systems.</li>
+            <li>Assess the use of LeRobot in your environment and identify vulnerable instances.</li>
             
-            <li>Conduct a security audit to identify any systems that may not be fully patched.</li>
+            <li>Implement temporary network segmentation to limit exposure until a patch is available.</li>
             
-            <li>Educate staff on the importance of timely updates and monitoring for suspicious activity.</li>
+            <li>Stay updated on Hugging Face communications for any security advisories.</li>
             
           </ul>
         </div>
 
-        <div class="text-block"><span class="label">Watch next:</span> Monitor for any follow-up advisories from Microsoft regarding additional mitigations or related vulnerabilities.</div>
+        <div class="text-block"><span class="label">Watch next:</span> Monitor for updates from Hugging Face regarding patches or mitigations for this vulnerability.</div>
 
         <div class="sources">
           <div class="label">Sources</div>
           
             
               <div>
-                <a href="https://thehackernews.com/2026/04/microsoft-confirms-active-exploitation.html" target="_blank" rel="noopener noreferrer">
-                  The Hacker News - Microsoft Confirms Active Exploitation of Windows Shell CVE-2026-32202
+                <a href="https://thehackernews.com/2026/04/critical-cve-2026-25874-leaves-hugging.html" target="_blank" rel="noopener noreferrer">
+                  The Hacker News - Critical Unpatched Flaw Leaves Hugging Face LeRobot Open to Unauthenticated RCE
                 </a>
               </div>
             
@@ -532,7 +530,7 @@
             
               <article class="card" style="--i: 0;">
         <div class="meta">
-          <span class="chip risk-medium">MEDIUM</span>
+          <span class="chip risk-high">HIGH</span>
           
             <span class="chip label-chip">PATCH RELEASE</span>
           
@@ -542,35 +540,35 @@
           <span class="chip chip-neutral">Confidence LOW</span>
         </div>
         
-          <h3><a href="https://thehackernews.com/2026/04/weekly-recap-fast16-malware-xchat.html" target="_blank" rel="noopener noreferrer">⚡ Weekly Recap: Fast16 Malware, XChat Launch, Federal Backdoor, AI Employee Tracking & More</a></h3>
+          <h3><a href="https://thehackernews.com/2026/04/after-mythos-new-playbooks-for-zero.html" target="_blank" rel="noopener noreferrer">After Mythos: New Playbooks For a Zero-Window Era</a></h3>
         
-        <p class="hook">The resurgence of outdated attack methods highlights vulnerabilities that could lead to significant data breaches if not addressed promptly.</p>
+        <p class="hook">Organizations face increased risk as the window for exploiting vulnerabilities shrinks, making rapid response essential.</p>
         <div class="support-grid">
-          <div class="text-block"><span class="label">Who should care:</span> IT security teams, software development teams, and organizations relying on third-party services should be particularly vigilant.</div>
-          <div class="text-block"><span class="label">Attack path:</span> Attackers can leverage outdated techniques and tools to bypass security measures, often exploiting trusted software or services to gain access.</div>
+          <div class="text-block"><span class="label">Who should care:</span> Security teams and incident response units across all sectors should prioritize adapting to these new threat dynamics.</div>
+          <div class="text-block"><span class="label">Attack path:</span> Attackers can leverage AI to identify and exploit vulnerabilities faster than organizations can patch them, leading to potential breaches before defenses are updated.</div>
         </div>
         <div class="text-block"><span class="label">Why this matters now:</span> A live patch or vendor fix gives defenders something concrete to validate.</div>
-        <div class="text-block"><span class="label">In plain English:</span> Old attack techniques are re-emerging, posing risks to organizations that haven't updated their defenses.</div>
+        <div class="text-block"><span class="label">In plain English:</span> New AI advancements are reducing the time available to patch vulnerabilities, increasing the urgency for organizations to adapt their security strategies.</div>
         
           <div class="tags">
             
-              <span>malware</span>
+              <span>ai</span>
             
-              <span>supply chain</span>
+              <span>vulnerability</span>
             
-              <span>remote access</span>
+              <span>security</span>
             
           </div>
         
         <ul class="story-list">
           
-            <li>This week saw a recap of various cybersecurity threats, including the Fast16 malware and the launch of XChat, which have raised concerns about supply chain vulnerabilities and the effectiveness of current security measures. Additionally, fake help desks and the abuse of remote tools were reported, indicating a return to familiar tactics that have historically been exploited.</li>
+            <li>Recent developments in AI, particularly Anthropic's Claude Mythos and Project Glasswing, have demonstrated that the time frame for exploiting vulnerabilities is decreasing. This shift means that traditional patching methods may no longer suffice to protect against emerging threats.</li>
           
-            <li>The re-emergence of these tactics suggests that organizations may be underestimating their exposure to threats that were thought to be mitigated. If defenses are not updated, attackers could easily exploit these vulnerabilities, leading to data breaches and operational disruptions.</li>
+            <li>As the exploit window narrows, organizations must enhance their detection and response capabilities to mitigate risks from newly discovered vulnerabilities. Failure to adapt could lead to increased incidents of successful attacks, resulting in data breaches and operational disruptions.</li>
           
-            <li>Attackers can leverage outdated techniques and tools to bypass security measures, often exploiting trusted software or services to gain access.</li>
+            <li>Attackers can leverage AI to identify and exploit vulnerabilities faster than organizations can patch them, leading to potential breaches before defenses are updated.</li>
           
-            <li>Watch next: Monitor for updates from vendors regarding patches for known vulnerabilities and any emerging threats related to the discussed malware.</li>
+            <li>Watch next: Monitor for updates on AI-driven security tools and emerging threat intelligence that may indicate new exploitation techniques.</li>
           
         </ul>
 
@@ -579,9 +577,9 @@
             <div class="label">Key terms</div>
             <ul class="list">
             
-              <li>Fast16 malware - a type of malicious software that can compromise systems and steal data.</li>
+              <li>NDR - Network Detection and Response, a security solution that monitors network traffic for suspicious activity.</li>
             
-              <li>Fake help desks - fraudulent support services that trick users into providing sensitive information.</li>
+              <li>Exploit Window - the period of time between a vulnerability being disclosed and it being patched.</li>
             
             </ul>
           </div>
@@ -591,11 +589,11 @@
           <div class="label">Defender focus</div>
           <ul class="list">
             
-            <li>Implement monitoring for unusual access patterns to trusted applications.</li>
+            <li>Implement enhanced NDR solutions to detect unusual network behavior.</li>
             
-            <li>Review and update security protocols for third-party software integrations.</li>
+            <li>Establish rapid patch management processes to address vulnerabilities as they are disclosed.</li>
             
-            <li>Conduct vulnerability assessments to identify and remediate outdated defenses.</li>
+            <li>Conduct regular threat assessments to identify potential vulnerabilities before they are exploited.</li>
             
           </ul>
         </div>
@@ -604,24 +602,24 @@
           <div class="label">Do now</div>
           <ul class="list">
             
-            <li>Enhance monitoring for known malware signatures and suspicious activity.</li>
+            <li>Evaluate and upgrade NDR capabilities immediately.</li>
             
-            <li>Update security policies to include checks for third-party software vulnerabilities.</li>
+            <li>Develop a rapid response plan for vulnerability disclosures.</li>
             
-            <li>Train staff on recognizing signs of fake help desk interactions.</li>
+            <li>Train security teams on the latest AI-driven threat detection techniques.</li>
             
           </ul>
         </div>
 
-        <div class="text-block"><span class="label">Watch next:</span> Monitor for updates from vendors regarding patches for known vulnerabilities and any emerging threats related to the discussed malware.</div>
+        <div class="text-block"><span class="label">Watch next:</span> Monitor for updates on AI-driven security tools and emerging threat intelligence that may indicate new exploitation techniques.</div>
 
         <div class="sources">
           <div class="label">Sources</div>
           
             
               <div>
-                <a href="https://thehackernews.com/2026/04/weekly-recap-fast16-malware-xchat.html" target="_blank" rel="noopener noreferrer">
-                  The Hacker News - ⚡ Weekly Recap: Fast16 Malware, XChat Launch, Federal Backdoor, AI Employee Tracking & More
+                <a href="https://thehackernews.com/2026/04/after-mythos-new-playbooks-for-zero.html" target="_blank" rel="noopener noreferrer">
+                  The Hacker News - After Mythos: New Playbooks For a Zero-Window Era
                 </a>
               </div>
             
@@ -631,140 +629,43 @@
             
               <article class="card" style="--i: 1;">
         <div class="meta">
-          <span class="chip risk-medium">MEDIUM</span>
-          
-            <span class="chip label-chip">INDUSTRY SIGNAL</span>
-          
-          <span class="chip chip-neutral">Initial Access</span>
-          <span class="chip chip-neutral">Confidence LOW</span>
-        </div>
-        
-          <h3><a href="https://www.bleepingcomputer.com/news/security/canada-arrests-three-for-operating-sms-blaster-device-in-toronto/" target="_blank" rel="noopener noreferrer">Canada arrests three for operating “SMS blaster” device in Toronto</a></h3>
-        
-        <p class="hook">The recent arrest of individuals operating an SMS blaster highlights the ongoing threat of phishing attacks targeting mobile users, which can lead to significant data breaches.</p>
-        <div class="support-grid">
-          <div class="text-block"><span class="label">Who should care:</span> Mobile network operators, cybersecurity teams, and organizations with a mobile workforce should be particularly vigilant.</div>
-          <div class="text-block"><span class="label">Attack path:</span> Attackers can gain leverage by deploying SMS blaster devices to send convincing phishing messages to unsuspecting users in close proximity, increasing the likelihood of successful data theft.</div>
-        </div>
-        <div class="text-block"><span class="label">Why this matters now:</span> Useful context for teams tracking where attacker pressure is building.</div>
-        <div class="text-block"><span class="label">In plain English:</span> Three men were arrested in Canada for using a device that sends phishing texts by mimicking a cellular tower.</div>
-        
-          <div class="tags">
-            
-              <span>phishing</span>
-            
-              <span>sms</span>
-            
-              <span>arrests</span>
-            
-          </div>
-        
-        <ul class="story-list">
-          
-            <li>Canadian authorities arrested three individuals for operating an SMS blaster device in Toronto. This device impersonates a cellular tower to send fraudulent text messages to nearby mobile phones, potentially tricking users into revealing sensitive information.</li>
-          
-            <li>Phishing attacks via SMS, or 'smishing', can compromise personal data and lead to financial losses for individuals and organizations. The ability to send messages from a fake tower increases the effectiveness of these attacks, making it crucial for users to be aware of such threats.</li>
-          
-            <li>Attackers can gain leverage by deploying SMS blaster devices to send convincing phishing messages to unsuspecting users in close proximity, increasing the likelihood of successful data theft.</li>
-          
-            <li>Watch next: Monitor for updates on the legal proceedings against the arrested individuals and any emerging tactics related to SMS phishing.</li>
-          
-        </ul>
-
-        
-          <div class="glossary">
-            <div class="label">Key terms</div>
-            <ul class="list">
-            
-              <li>SMS blaster - a device that mimics a cellular tower to send text messages to nearby phones.</li>
-            
-              <li>Smishing - a type of phishing attack that uses SMS to trick users into providing personal information.</li>
-            
-            </ul>
-          </div>
-        
-
-        <div>
-          <div class="label">Defender focus</div>
-          <ul class="list">
-            
-            <li>Implement monitoring for unusual SMS traffic patterns in your network.</li>
-            
-            <li>Educate users on recognizing suspicious text messages and reporting them.</li>
-            
-            <li>Collaborate with mobile network operators to identify and mitigate the use of unauthorized SMS blaster devices.</li>
-            
-          </ul>
-        </div>
-
-        <div>
-          <div class="label">Do now</div>
-          <ul class="list">
-            
-            <li>Increase user awareness about smishing tactics immediately.</li>
-            
-            <li>Review and enhance mobile security protocols to detect unauthorized SMS traffic.</li>
-            
-            <li>Engage with law enforcement to understand the implications of these arrests on local threats.</li>
-            
-          </ul>
-        </div>
-
-        <div class="text-block"><span class="label">Watch next:</span> Monitor for updates on the legal proceedings against the arrested individuals and any emerging tactics related to SMS phishing.</div>
-
-        <div class="sources">
-          <div class="label">Sources</div>
-          
-            
-              <div>
-                <a href="https://www.bleepingcomputer.com/news/security/canada-arrests-three-for-operating-sms-blaster-device-in-toronto/" target="_blank" rel="noopener noreferrer">
-                  BleepingComputer - Canada arrests three for operating “SMS blaster” device in Toronto
-                </a>
-              </div>
-            
-          
-        </div>
-      </article>
-            
-              <article class="card" style="--i: 2;">
-        <div class="meta">
           <span class="chip risk-high">HIGH</span>
           
-            <span class="chip label-chip">INDUSTRY SIGNAL</span>
+            <span class="chip label-chip">LEGAL POLICY</span>
           
-          <span class="chip chip-neutral">Initial Access</span>
+          <span class="chip chip-neutral">Impact</span>
           <span class="chip chip-neutral">Confidence LOW</span>
         </div>
         
-          <h3><a href="https://thehackernews.com/2026/04/checkmarx-confirms-github-repository.html" target="_blank" rel="noopener noreferrer">Checkmarx Confirms GitHub Repository Data Posted on Dark Web After March 23 Attack</a></h3>
+          <h3><a href="https://thehackernews.com/2026/04/vect-20-ransomware-irreversibly.html" target="_blank" rel="noopener noreferrer">VECT 2.0 Ransomware Irreversibly Destroys Files Over 131KB on Windows, Linux, ESXi</a></h3>
         
-        <p class="hook">The exposure of Checkmarx's GitHub repository data on the dark web poses significant risks to software supply chain integrity and customer trust.</p>
+        <p class="hook">The VECT 2.0 ransomware poses an immediate threat as it irreversibly destroys files over 131KB, leaving no recovery options for victims.</p>
         <div class="support-grid">
-          <div class="text-block"><span class="label">Who should care:</span> Development and security teams using Checkmarx products or relying on its GitHub repositories should be particularly vigilant.</div>
-          <div class="text-block"><span class="label">Attack path:</span> Attackers gained leverage by exploiting vulnerabilities in the supply chain, allowing them to access sensitive repository data. Abuse could manifest as further attacks on customers using compromised code.</div>
+          <div class="text-block"><span class="label">Who should care:</span> IT security teams managing Windows, Linux, and ESXi environments should be particularly vigilant.</div>
+          <div class="text-block"><span class="label">Attack path:</span> Attackers leverage vulnerabilities in systems to deploy VECT 2.0, which then targets large files for deletion rather than encryption.</div>
         </div>
         <div class="text-block"><span class="label">Why this matters now:</span> Useful context for teams tracking where attacker pressure is building.</div>
-        <div class="text-block"><span class="label">In plain English:</span> Checkmarx's GitHub data has been leaked online following a supply chain attack.</div>
+        <div class="text-block"><span class="label">In plain English:</span> VECT 2.0 ransomware permanently deletes large files instead of encrypting them, making recovery impossible.</div>
         
           <div class="tags">
             
-              <span>supply chain</span>
+              <span>ransomware</span>
             
-              <span>data leak</span>
+              <span>wiper</span>
             
-              <span>dark web</span>
+              <span>data loss</span>
             
           </div>
         
         <ul class="story-list">
           
-            <li>Checkmarx confirmed that data from its GitHub repository was posted on the dark web after a supply chain attack on March 23, 2026. The investigation indicates that the cybercriminal group gained access to the repository during this incident.</li>
+            <li>Threat hunters have identified a new variant of ransomware called VECT 2.0 that behaves more like a wiper. It targets files larger than 131KB on Windows, Linux, and ESXi systems, permanently deleting them instead of encrypting them.</li>
           
-            <li>The leaked data could potentially include sensitive information about software development processes and proprietary code, which may be exploited by attackers to compromise customer environments. This incident raises concerns about the security of supply chain practices and the potential for further attacks leveraging the exposed data.</li>
+            <li>This behavior means that once files are targeted, they cannot be recovered, even by the attackers. Organizations relying on these systems for critical data are at significant risk of data loss, which can disrupt operations and lead to financial repercussions.</li>
           
-            <li>Attackers gained leverage by exploiting vulnerabilities in the supply chain, allowing them to access sensitive repository data. Abuse could manifest as further attacks on customers using compromised code.</li>
+            <li>Attackers leverage vulnerabilities in systems to deploy VECT 2.0, which then targets large files for deletion rather than encryption.</li>
           
-            <li>Watch next: Monitor for any updates from Checkmarx regarding the investigation and potential mitigations.</li>
+            <li>Watch next: Monitor for updates from cybersecurity vendors regarding patches or mitigations for vulnerabilities exploited by VECT 2.0.</li>
           
         </ul>
 
@@ -773,9 +674,9 @@
             <div class="label">Key terms</div>
             <ul class="list">
             
-              <li>Supply Chain Attack - a type of cyber attack that targets the vulnerabilities in the supply chain of software development.</li>
+              <li>Ransomware - a type of malicious software that encrypts files, demanding payment for decryption.</li>
             
-              <li>Dark Web - a part of the internet that is not indexed by traditional search engines and is often associated with illegal activities.</li>
+              <li>Wiper - a type of malware designed to permanently delete or corrupt data on a system.</li>
             
             </ul>
           </div>
@@ -785,11 +686,11 @@
           <div class="label">Defender focus</div>
           <ul class="list">
             
-            <li>Review access logs for unusual activity related to Checkmarx repositories.</li>
+            <li>Implement file integrity monitoring to detect unauthorized deletions.</li>
             
-            <li>Implement monitoring for any unauthorized changes in development environments.</li>
+            <li>Ensure regular backups are in place and test recovery procedures.</li>
             
-            <li>Assess the integrity of deployed software that may have originated from the compromised repository.</li>
+            <li>Review and patch systems to close vulnerabilities that could be exploited by VECT 2.0.</li>
             
           </ul>
         </div>
@@ -798,24 +699,24 @@
           <div class="label">Do now</div>
           <ul class="list">
             
-            <li>Investigate the extent of the data leak and its potential impact.</li>
+            <li>Immediately assess and secure all systems running Windows, Linux, and ESXi.</li>
             
-            <li>Notify affected stakeholders about the breach and recommended security measures.</li>
+            <li>Enhance monitoring for unusual file deletion activities.</li>
             
-            <li>Enhance security protocols around repository access and data handling.</li>
+            <li>Educate teams on the risks associated with VECT 2.0 and ensure they are prepared for potential incidents.</li>
             
           </ul>
         </div>
 
-        <div class="text-block"><span class="label">Watch next:</span> Monitor for any updates from Checkmarx regarding the investigation and potential mitigations.</div>
+        <div class="text-block"><span class="label">Watch next:</span> Monitor for updates from cybersecurity vendors regarding patches or mitigations for vulnerabilities exploited by VECT 2.0.</div>
 
         <div class="sources">
           <div class="label">Sources</div>
           
             
               <div>
-                <a href="https://thehackernews.com/2026/04/checkmarx-confirms-github-repository.html" target="_blank" rel="noopener noreferrer">
-                  The Hacker News - Checkmarx Confirms GitHub Repository Data Posted on Dark Web After March 23 Attack
+                <a href="https://thehackernews.com/2026/04/vect-20-ransomware-irreversibly.html" target="_blank" rel="noopener noreferrer">
+                  The Hacker News - VECT 2.0 Ransomware Irreversibly Destroys Files Over 131KB on Windows, Linux, ESXi
                 </a>
               </div>
             
@@ -833,205 +734,7 @@
           Wider Signal
         </div>
         
-          <div class="grid">
-            
-              <article class="card" style="--i: 0;">
-        <div class="meta">
-          <span class="chip risk-high">HIGH</span>
-          
-            <span class="chip label-chip">PATCH RELEASE</span>
-          
-            <span class="chip label-chip">LEGAL POLICY</span>
-          
-          <span class="chip chip-neutral">Privilege Escalation</span>
-          <span class="chip chip-neutral">Confidence LOW</span>
-        </div>
-        
-          <h3><a href="https://thehackernews.com/2026/04/microsoft-patches-entra-id-role-flaw.html" target="_blank" rel="noopener noreferrer">Microsoft Patches Entra ID Role Flaw That Enabled Service Principal Takeover</a></h3>
-        
-        <p class="hook">The recent discovery of a privilege escalation flaw in Microsoft Entra ID could lead to significant identity takeover attacks, impacting organizations relying on AI agents.</p>
-        <div class="support-grid">
-          <div class="text-block"><span class="label">Who should care:</span> IT security teams managing Microsoft Entra ID and organizations utilizing AI agents in their operations should be particularly vigilant.</div>
-          <div class="text-block"><span class="label">Attack path:</span> An attacker could exploit the flaw by leveraging the Agent ID Administrator role to escalate privileges and gain control over AI agent identities, leading to further attacks within the network.</div>
-        </div>
-        <div class="text-block"><span class="label">Why this matters now:</span> A live patch or vendor fix gives defenders something concrete to validate.</div>
-        <div class="text-block"><span class="label">In plain English:</span> A vulnerability in Microsoft Entra ID could allow attackers to gain unauthorized access to critical systems via AI agent roles.</div>
-        
-          <div class="tags">
-            
-              <span>cve</span>
-            
-              <span>cloud</span>
-            
-              <span>identity</span>
-            
-          </div>
-        
-        <ul class="story-list">
-          
-            <li>Microsoft has patched a vulnerability in Entra ID that allowed for privilege escalation through the Agent ID Administrator role. This role is designed for managing AI agents' identities but was found to be exploitable, potentially enabling attackers to take over these identities.</li>
-          
-            <li>If exploited, this flaw could allow attackers to gain elevated privileges, leading to unauthorized access to sensitive data and systems. Organizations using AI agents for critical operations are particularly at risk, as the compromised roles could facilitate broader attacks within their environments.</li>
-          
-            <li>An attacker could exploit the flaw by leveraging the Agent ID Administrator role to escalate privileges and gain control over AI agent identities, leading to further attacks within the network.</li>
-          
-            <li>Watch next: Monitor for any unusual activity related to AI agent roles and stay updated on any additional patches or advisories from Microsoft.</li>
-          
-        </ul>
-
-        
-          <div class="glossary">
-            <div class="label">Key terms</div>
-            <ul class="list">
-            
-              <li>Privilege Escalation - a type of attack where an attacker gains elevated access to resources that are normally protected from the user.</li>
-            
-              <li>Identity Takeover - when an attacker gains control of a user's identity, allowing them to impersonate that user.</li>
-            
-            </ul>
-          </div>
-        
-
-        <div>
-          <div class="label">Defender focus</div>
-          <ul class="list">
-            
-            <li>Review logs for any unauthorized changes to AI agent roles.</li>
-            
-            <li>Implement strict access controls for the Agent ID Administrator role.</li>
-            
-            <li>Conduct a security assessment of systems utilizing AI agents to identify potential vulnerabilities.</li>
-            
-          </ul>
-        </div>
-
-        <div>
-          <div class="label">Do now</div>
-          <ul class="list">
-            
-            <li>Immediately apply the latest Microsoft patch for Entra ID.</li>
-            
-            <li>Audit current roles and permissions related to AI agents.</li>
-            
-            <li>Enhance monitoring for unusual access patterns involving AI agent identities.</li>
-            
-          </ul>
-        </div>
-
-        <div class="text-block"><span class="label">Watch next:</span> Monitor for any unusual activity related to AI agent roles and stay updated on any additional patches or advisories from Microsoft.</div>
-
-        <div class="sources">
-          <div class="label">Sources</div>
-          
-            
-              <div>
-                <a href="https://thehackernews.com/2026/04/microsoft-patches-entra-id-role-flaw.html" target="_blank" rel="noopener noreferrer">
-                  The Hacker News - Microsoft Patches Entra ID Role Flaw That Enabled Service Principal Takeover
-                </a>
-              </div>
-            
-          
-        </div>
-      </article>
-            
-              <article class="card" style="--i: 1;">
-        <div class="meta">
-          <span class="chip risk-medium">MEDIUM</span>
-          
-            <span class="chip label-chip">LEGAL POLICY</span>
-          
-          <span class="chip chip-neutral">Initial Access</span>
-          <span class="chip chip-neutral">Confidence LOW</span>
-        </div>
-        
-          <h3><a href="https://www.bleepingcomputer.com/news/security/robinhood-account-creation-flaw-abused-to-send-phishing-emails/" target="_blank" rel="noopener noreferrer">Robinhood account creation flaw abused to send phishing emails</a></h3>
-        
-        <p class="hook">Threat actors are exploiting a flaw in Robinhood's account creation process to send phishing emails, potentially compromising user accounts.</p>
-        <div class="support-grid">
-          <div class="text-block"><span class="label">Who should care:</span> Security teams and user support teams at Robinhood should prioritize this issue due to its direct impact on user safety.</div>
-          <div class="text-block"><span class="label">Attack path:</span> Attackers gain leverage by exploiting the account creation flaw to send phishing emails that appear legitimate, tricking users into revealing sensitive information.</div>
-        </div>
-        <div class="text-block"><span class="label">Why this matters now:</span> Useful context for teams tracking where attacker pressure is building.</div>
-        <div class="text-block"><span class="label">In plain English:</span> A vulnerability in Robinhood's account setup is being used to send deceptive emails to users.</div>
-        
-          <div class="tags">
-            
-              <span>phishing</span>
-            
-              <span>vulnerability</span>
-            
-              <span>account security</span>
-            
-          </div>
-        
-        <ul class="story-list">
-          
-            <li>A flaw in the account creation process of Robinhood was discovered, allowing attackers to inject phishing messages into legitimate emails sent to users. This manipulation tricks users into believing there is suspicious activity on their accounts, prompting them to take action that could compromise their security.</li>
-          
-            <li>This vulnerability could lead to unauthorized access to user accounts if individuals fall for the phishing attempts. The potential for financial loss and reputational damage to Robinhood is significant, as users may lose trust in the platform's security.</li>
-          
-            <li>Attackers gain leverage by exploiting the account creation flaw to send phishing emails that appear legitimate, tricking users into revealing sensitive information.</li>
-          
-            <li>Watch next: Monitor for updates from Robinhood regarding patches or changes to their account creation process.</li>
-          
-        </ul>
-
-        
-          <div class="glossary">
-            <div class="label">Key terms</div>
-            <ul class="list">
-            
-              <li>Phishing - a type of cyber attack where attackers impersonate legitimate entities to trick individuals into providing sensitive information.</li>
-            
-              <li>Vulnerability - a weakness in a system that can be exploited by attackers to gain unauthorized access or cause harm.</li>
-            
-            </ul>
-          </div>
-        
-
-        <div>
-          <div class="label">Defender focus</div>
-          <ul class="list">
-            
-            <li>Implement monitoring for unusual email patterns originating from Robinhood accounts.</li>
-            
-            <li>Enhance user education on recognizing phishing attempts, particularly those involving account security.</li>
-            
-            <li>Collaborate with Robinhood to understand the technical details of the flaw and any mitigation strategies.</li>
-            
-          </ul>
-        </div>
-
-        <div>
-          <div class="label">Do now</div>
-          <ul class="list">
-            
-            <li>Investigate the extent of the phishing campaign and identify affected users.</li>
-            
-            <li>Alert users about the potential phishing attempts and provide guidance on securing their accounts.</li>
-            
-            <li>Work with Robinhood to ensure they are addressing the vulnerability effectively.</li>
-            
-          </ul>
-        </div>
-
-        <div class="text-block"><span class="label">Watch next:</span> Monitor for updates from Robinhood regarding patches or changes to their account creation process.</div>
-
-        <div class="sources">
-          <div class="label">Sources</div>
-          
-            
-              <div>
-                <a href="https://www.bleepingcomputer.com/news/security/robinhood-account-creation-flaw-abused-to-send-phishing-emails/" target="_blank" rel="noopener noreferrer">
-                  BleepingComputer - Robinhood account creation flaw abused to send phishing emails
-                </a>
-              </div>
-            
-          
-        </div>
-      </article>
-            
-          </div>
+          <p class="empty">No context stories today.</p>
         
       </section>
     </main>
