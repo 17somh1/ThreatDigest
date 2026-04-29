@@ -1,5 +1,5 @@
 {
-  "last_run_utc": "2026-04-28T14:35:43.526613+00:00",
+  "last_run_utc": "2026-04-29T10:00:14.574367+00:00",
   "processed_urls": [
     "https://www.bleepingcomputer.com/news/security/critical-cisco-sd-wan-bug-exploited-in-zero-day-attacks-since-2023/",
     "https://www.cisa.gov/news-events/alerts/2026/02/25/cisa-and-partners-release-guidance-ongoing-global-exploitation-cisco-sd-wan-systems",
@@ -407,6 +407,12 @@
     "https://www.bleepingcomputer.com/news/microsoft/microsoft-asks-iphone-users-to-re-enter-credentials-after-outlook-outage/",
     "https://thehackernews.com/2026/04/critical-cve-2026-25874-leaves-hugging.html",
     "https://thehackernews.com/2026/04/vect-20-ransomware-irreversibly.html",
-    "https://thehackernews.com/2026/04/after-mythos-new-playbooks-for-zero.html"
+    "https://thehackernews.com/2026/04/after-mythos-new-playbooks-for-zero.html",
+    "https://thehackernews.com/2026/04/cisa-adds-actively-exploited.html",
+    "https://www.cisa.gov/news-events/alerts/2026/04/28/cisa-adds-two-known-exploited-vulnerabilities-catalog",
+    "https://thehackernews.com/2026/04/litellm-cve-2026-42208-sql-injection.html",
+    "https://www.bleepingcomputer.com/news/security/broken-vect-20-ransomware-acts-as-a-data-wiper-for-large-files/",
+    "https://www.bleepingcomputer.com/news/security/hackers-are-exploiting-a-critical-litellm-pre-auth-sqli-flaw/",
+    "https://thehackernews.com/2026/04/researchers-discover-critical-github.html"
   ]
 }
