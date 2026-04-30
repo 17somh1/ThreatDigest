@@ -1,5 +1,5 @@
 {
-  "last_run_utc": "2026-04-30T10:01:17.982600+00:00",
+  "last_run_utc": "2026-04-30T14:19:43.446052+00:00",
   "processed_urls": [
     "https://www.bleepingcomputer.com/news/security/critical-cisco-sd-wan-bug-exploited-in-zero-day-attacks-since-2023/",
     "https://www.cisa.gov/news-events/alerts/2026/02/25/cisa-and-partners-release-guidance-ongoing-global-exploitation-cisco-sd-wan-systems",
@@ -421,6 +421,8 @@
     "https://www.bleepingcomputer.com/news/security/cpanel-whm-emergency-update-fixes-critical-auth-bypass-bug/",
     "https://thehackernews.com/2026/04/sap-npm-packages-compromised-by-mini.html",
     "https://www.bleepingcomputer.com/news/security/official-sap-npm-packages-compromised-to-steal-credentials/",
-    "https://thehackernews.com/2026/04/new-linux-copy-fail-vulnerability.html"
+    "https://thehackernews.com/2026/04/new-linux-copy-fail-vulnerability.html",
+    "https://www.bleepingcomputer.com/news/security/critical-cpanel-and-whm-bug-exploited-as-a-zero-day-poc-now-available/",
+    "https://thehackernews.com/2026/04/new-python-backdoor-uses-tunneling.html"
   ]
 }

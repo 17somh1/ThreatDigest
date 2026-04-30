@@ -378,8 +378,8 @@
         The security news worth your attention, with context and practical takeaways.
       </p>
       <div class="meta-bar">
-        <span>Updated: 2026-04-30 10:01 UTC</span>
-        <span>Stories: 4</span>
+        <span>Updated: 2026-04-30 14:19 UTC</span>
+        <span>Stories: 2</span>
         <span>Recent issues: 14</span>
       </div>
     </header>
@@ -389,7 +389,7 @@
         <section class="one-liner">
           <h2>What Matters Today</h2>
           
-            <p class="text-block">Critical vulnerabilities in widely used software highlight urgent access risks for web hosting and development environments.</p>
+            <p class="text-block">Active exploitation of critical vulnerabilities in widely used software and new backdoor threats highlight urgent security gaps for system administrators and IT teams.</p>
           
         </section>
 
@@ -398,11 +398,11 @@
           
             <ul>
               
-              <li>Attackers are exploiting authentication bypass vulnerabilities to gain unauthorized access, increasing pressure on defenders to patch quickly.</li>
+              <li>Immediate need for vulnerability patching in cPanel and WHM installations to prevent server breaches.</li>
               
-              <li>Supply chain attacks are targeting popular development packages, indicating a shift in attacker focus towards credential theft.</li>
+              <li>Increased risk of credential theft due to sophisticated backdoor tactics targeting cloud services.</li>
               
-              <li>New vulnerabilities in major operating systems are enabling unprivileged users to escalate privileges, raising the stakes for system administrators.</li>
+              <li>Heightened pressure on security teams to monitor and respond to emerging threats in real-time.</li>
               
             </ul>
           
@@ -420,41 +420,41 @@
         <div class="meta">
           <span class="chip risk-high">HIGH</span>
           
-            <span class="chip label-chip">PATCH RELEASE</span>
+            <span class="chip label-chip">ACTIVE EXPLOITATION</span>
           
           <span class="chip chip-neutral">Initial Access</span>
           <span class="chip chip-neutral">Confidence LOW</span>
         </div>
         
-          <h3><a href="https://www.bleepingcomputer.com/news/security/cpanel-whm-emergency-update-fixes-critical-auth-bypass-bug/" target="_blank" rel="noopener noreferrer">cPanel, WHM emergency update fixes critical auth bypass bug</a></h3>
+          <h3><a href="https://www.bleepingcomputer.com/news/security/critical-cpanel-and-whm-bug-exploited-as-a-zero-day-poc-now-available/" target="_blank" rel="noopener noreferrer">Critical cPanel and WHM bug exploited as a zero-day, PoC now available</a></h3>
         
-        <p class="hook">A critical authentication bypass vulnerability in cPanel and WHM could allow unauthorized access to server control panels, posing significant risks to web hosting environments.</p>
+        <p class="hook">The exploitation of a critical vulnerability in cPanel and WHM poses immediate risks to server integrity and data security.</p>
         <div class="support-grid">
-          <div class="text-block"><span class="label">Who should care:</span> Web hosting providers and organizations using cPanel and WHM should prioritize this update.</div>
-          <div class="text-block"><span class="label">Attack path:</span> An attacker could exploit this vulnerability to access the control panel directly, bypassing authentication mechanisms entirely. This could lead to unauthorized changes to server configurations or data access.</div>
+          <div class="text-block"><span class="label">Who should care:</span> System administrators and security teams managing cPanel and WHM installations are most exposed.</div>
+          <div class="text-block"><span class="label">Attack path:</span> An attacker can exploit this vulnerability to bypass authentication mechanisms, gaining unauthorized access to the server's administrative functions.</div>
         </div>
-        <div class="text-block"><span class="label">Why this matters now:</span> A live patch or vendor fix gives defenders something concrete to validate.</div>
-        <div class="text-block"><span class="label">In plain English:</span> An urgent update is needed for cPanel and WHM to fix a serious security flaw that could let attackers access sensitive server controls without logging in.</div>
+        <div class="text-block"><span class="label">Why this matters now:</span> Active exploitation makes this an immediate exposure check.</div>
+        <div class="text-block"><span class="label">In plain English:</span> A serious authentication bypass vulnerability in cPanel and WHM is being actively exploited, requiring urgent attention.</div>
         
           <div class="tags">
             
               <span>cve</span>
             
-              <span>web hosting</span>
+              <span>cpanel</span>
             
-              <span>security</span>
+              <span>whm</span>
             
           </div>
         
         <ul class="story-list">
           
-            <li>An emergency update was released for cPanel and WHM to address a critical authentication bypass vulnerability. This flaw affects all versions except the latest, allowing attackers to gain access to the control panel without proper authentication.</li>
+            <li>A critical authentication bypass vulnerability, identified as CVE-2026-41940, has been discovered in cPanel, WHM, and WP Squared. This vulnerability has been actively exploited since late February, with proof-of-concept (PoC) code now publicly available.</li>
           
-            <li>If exploited, this vulnerability could lead to unauthorized control over web hosting environments, potentially resulting in data breaches, service disruptions, or further exploitation of hosted applications. The widespread use of cPanel and WHM means many organizations are at risk if they do not update promptly.</li>
+            <li>If exploited, this vulnerability could allow attackers to gain unauthorized access to servers, potentially leading to data breaches or service disruptions. Organizations using these platforms must act quickly to mitigate risks and protect sensitive information.</li>
           
-            <li>An attacker could exploit this vulnerability to access the control panel directly, bypassing authentication mechanisms entirely. This could lead to unauthorized changes to server configurations or data access.</li>
+            <li>An attacker can exploit this vulnerability to bypass authentication mechanisms, gaining unauthorized access to the server's administrative functions.</li>
           
-            <li>Watch next: Monitor for updates from cPanel regarding the adoption of the latest versions and any reported exploitation attempts.</li>
+            <li>Watch next: Monitor for updates from cPanel regarding patches and any additional indicators of compromise.</li>
           
         </ul>
 
@@ -463,9 +463,9 @@
             <div class="label">Key terms</div>
             <ul class="list">
             
-              <li>AUTHENTICATION BYPASS - a security flaw that allows someone to gain access to a system without proper credentials.</li>
+              <li>CVE - Common Vulnerabilities and Exposures, a list of publicly disclosed cybersecurity vulnerabilities.</li>
             
-              <li>cPanel - a web hosting control panel that provides a graphical interface and automation tools designed to simplify the process of hosting a website.</li>
+              <li>PoC - Proof of Concept, a demonstration that a vulnerability can be exploited.</li>
             
             </ul>
           </div>
@@ -475,11 +475,11 @@
           <div class="label">Defender focus</div>
           <ul class="list">
             
-            <li>Ensure all cPanel and WHM installations are updated to the latest version immediately.</li>
+            <li>Implement monitoring for unusual login attempts on cPanel and WHM.</li>
             
-            <li>Monitor logs for any unauthorized access attempts to control panels.</li>
+            <li>Review server logs for signs of unauthorized access or exploitation attempts.</li>
             
-            <li>Review server configurations for any changes made prior to applying the update.</li>
+            <li>Apply any available patches or mitigations from cPanel as soon as possible.</li>
             
           </ul>
         </div>
@@ -488,24 +488,24 @@
           <div class="label">Do now</div>
           <ul class="list">
             
-            <li>Update cPanel and WHM to the latest version immediately.</li>
+            <li>Immediately assess your cPanel and WHM installations for the vulnerability.</li>
             
-            <li>Audit server access logs for any suspicious activity.</li>
+            <li>Apply patches provided by cPanel to mitigate the risk.</li>
             
-            <li>Implement additional access controls to limit exposure until the update is applied.</li>
+            <li>Increase monitoring for suspicious activity on affected servers.</li>
             
           </ul>
         </div>
 
-        <div class="text-block"><span class="label">Watch next:</span> Monitor for updates from cPanel regarding the adoption of the latest versions and any reported exploitation attempts.</div>
+        <div class="text-block"><span class="label">Watch next:</span> Monitor for updates from cPanel regarding patches and any additional indicators of compromise.</div>
 
         <div class="sources">
           <div class="label">Sources</div>
           
             
               <div>
-                <a href="https://www.bleepingcomputer.com/news/security/cpanel-whm-emergency-update-fixes-critical-auth-bypass-bug/" target="_blank" rel="noopener noreferrer">
-                  BleepingComputer - cPanel, WHM emergency update fixes critical auth bypass bug
+                <a href="https://www.bleepingcomputer.com/news/security/critical-cpanel-and-whm-bug-exploited-as-a-zero-day-poc-now-available/" target="_blank" rel="noopener noreferrer">
+                  BleepingComputer - Critical cPanel and WHM bug exploited as a zero-day, PoC now available
                 </a>
               </div>
             
@@ -528,43 +528,41 @@
         <div class="meta">
           <span class="chip risk-high">HIGH</span>
           
-            <span class="chip label-chip">INDUSTRY SIGNAL</span>
-          
             <span class="chip label-chip">RESEARCH</span>
           
           <span class="chip chip-neutral">Initial Access</span>
           <span class="chip chip-neutral">Confidence LOW</span>
         </div>
         
-          <h3><a href="https://thehackernews.com/2026/04/sap-npm-packages-compromised-by-mini.html" target="_blank" rel="noopener noreferrer">SAP-Related npm Packages Compromised in Credential-Stealing Supply Chain Attack</a></h3>
+          <h3><a href="https://thehackernews.com/2026/04/new-python-backdoor-uses-tunneling.html" target="_blank" rel="noopener noreferrer">New Python Backdoor Uses Tunneling Service to Steal Browser and Cloud Credentials</a></h3>
         
-        <p class="hook">The compromise of SAP-related npm packages poses a significant risk of credential theft, potentially leading to unauthorized access to sensitive systems.</p>
+        <p class="hook">The emergence of the DEEP#DOOR backdoor poses a significant threat to organizations by enabling attackers to steal sensitive credentials and maintain persistent access.</p>
         <div class="support-grid">
-          <div class="text-block"><span class="label">Who should care:</span> Development teams using SAP-related npm packages and organizations relying on SAP for their operations should be particularly vigilant.</div>
-          <div class="text-block"><span class="label">Attack path:</span> Attackers can leverage compromised npm packages to inject malware that captures user credentials during authentication processes. This could allow them to gain unauthorized access to SAP systems.</div>
+          <div class="text-block"><span class="label">Who should care:</span> IT security teams and organizations using Windows environments with web browsers and cloud services should be particularly concerned.</div>
+          <div class="text-block"><span class="label">Attack path:</span> Attackers gain leverage by disabling security controls on Windows systems, allowing them to execute the backdoor and maintain access to sensitive information.</div>
         </div>
         <div class="text-block"><span class="label">Why this matters now:</span> Useful context for teams tracking where attacker pressure is building.</div>
-        <div class="text-block"><span class="label">In plain English:</span> Recent attacks on npm packages related to SAP are stealing credentials, which could allow attackers to access critical systems.</div>
+        <div class="text-block"><span class="label">In plain English:</span> A new Python backdoor can disable security controls and steal credentials from browsers and cloud services.</div>
         
           <div class="tags">
             
-              <span>supply chain</span>
+              <span>backdoor</span>
+            
+              <span>python</span>
             
               <span>credential theft</span>
             
-              <span>npm</span>
-            
           </div>
         
         <ul class="story-list">
           
-            <li>A supply chain attack has targeted SAP-related npm packages, introducing credential-stealing malware. Multiple cybersecurity firms have reported on the campaign, which is named mini Shai-Hulud, indicating a coordinated effort to exploit these packages.</li>
+            <li>Researchers have identified a new backdoor framework named DEEP#DOOR, which is written in Python. It begins its attack by executing a batch script that disables Windows security features and then establishes a persistent connection to the attacker’s server.</li>
           
-            <li>The compromised packages could lead to widespread credential theft, impacting organizations that rely on SAP for critical operations. If attackers gain access, they could manipulate or exfiltrate sensitive data, leading to severe operational disruptions and financial losses.</li>
+            <li>This backdoor can harvest sensitive information such as browser and cloud service credentials, potentially leading to data breaches and unauthorized access to critical systems. Organizations must be vigilant as the backdoor can remain undetected due to its stealthy nature.</li>
           
-            <li>Attackers can leverage compromised npm packages to inject malware that captures user credentials during authentication processes. This could allow them to gain unauthorized access to SAP systems.</li>
+            <li>Attackers gain leverage by disabling security controls on Windows systems, allowing them to execute the backdoor and maintain access to sensitive information.</li>
           
-            <li>Watch next: Monitor for updates from SAP and npm regarding the status of the affected packages and any patches or mitigations released.</li>
+            <li>Watch next: Monitor for any updates from security vendors regarding detection and mitigation strategies for DEEP#DOOR.</li>
           
         </ul>
 
@@ -573,9 +571,9 @@
             <div class="label">Key terms</div>
             <ul class="list">
             
-              <li>npm - a package manager for JavaScript that allows developers to share and reuse code.</li>
+              <li>Backdoor - a method of bypassing normal authentication to gain remote access to a computer.</li>
             
-              <li>credential-stealing malware - malicious software designed to capture usernames and passwords from users.</li>
+              <li>Tunneling - a technique that allows data to be sent securely over a network by encapsulating it within another protocol.</li>
             
             </ul>
           </div>
@@ -585,108 +583,11 @@
           <div class="label">Defender focus</div>
           <ul class="list">
             
-            <li>Implement monitoring for unusual access patterns in SAP systems.</li>
+            <li>Implement monitoring for unusual batch script executions on Windows systems.</li>
             
-            <li>Review and update security policies for npm package usage.</li>
+            <li>Enhance endpoint security to detect and block unauthorized access attempts.</li>
             
-            <li>Conduct an inventory of npm packages in use and assess their security posture.</li>
-            
-          </ul>
-        </div>
-
-        <div>
-          <div class="label">Do now</div>
-          <ul class="list">
-            
-            <li>Immediately review and audit npm packages related to SAP in your environment.</li>
-            
-            <li>Implement additional logging and monitoring for SAP access.</li>
-            
-            <li>Educate development teams on secure coding practices and the risks of using compromised packages.</li>
-            
-          </ul>
-        </div>
-
-        <div class="text-block"><span class="label">Watch next:</span> Monitor for updates from SAP and npm regarding the status of the affected packages and any patches or mitigations released.</div>
-
-        <div class="sources">
-          <div class="label">Sources</div>
-          
-            
-              <div>
-                <a href="https://thehackernews.com/2026/04/sap-npm-packages-compromised-by-mini.html" target="_blank" rel="noopener noreferrer">
-                  The Hacker News - SAP-Related npm Packages Compromised in Credential-Stealing Supply Chain Attack
-                </a>
-              </div>
-            
-          
-        </div>
-      </article>
-            
-              <article class="card" style="--i: 1;">
-        <div class="meta">
-          <span class="chip risk-high">HIGH</span>
-          
-            <span class="chip label-chip">INDUSTRY SIGNAL</span>
-          
-          <span class="chip chip-neutral">Credential Access</span>
-          <span class="chip chip-neutral">Confidence LOW</span>
-        </div>
-        
-          <h3><a href="https://www.bleepingcomputer.com/news/security/official-sap-npm-packages-compromised-to-steal-credentials/" target="_blank" rel="noopener noreferrer">Official SAP npm packages compromised to steal credentials</a></h3>
-        
-        <p class="hook">The compromise of official SAP npm packages poses a significant risk to developers, potentially leading to unauthorized access to sensitive systems.</p>
-        <div class="support-grid">
-          <div class="text-block"><span class="label">Who should care:</span> Development teams using SAP npm packages should be particularly vigilant.</div>
-          <div class="text-block"><span class="label">Attack path:</span> Attackers gain leverage by compromising trusted npm packages, allowing them to distribute malicious code that captures credentials from developers' environments.</div>
-        </div>
-        <div class="text-block"><span class="label">Why this matters now:</span> Useful context for teams tracking where attacker pressure is building.</div>
-        <div class="text-block"><span class="label">In plain English:</span> SAP npm packages were hacked to steal developer credentials.</div>
-        
-          <div class="tags">
-            
-              <span>supply chain</span>
-            
-              <span>npm</span>
-            
-              <span>credentials</span>
-            
-          </div>
-        
-        <ul class="story-list">
-          
-            <li>Multiple official SAP npm packages were compromised in a supply-chain attack attributed to TeamPCP. The attackers aimed to steal credentials and authentication tokens from developers' systems, which could lead to further exploitation.</li>
-          
-            <li>This incident highlights vulnerabilities in the software supply chain, where trusted packages can be weaponized to gain access to sensitive environments. Developers using these packages may unknowingly expose their systems to attackers, increasing the risk of data breaches.</li>
-          
-            <li>Attackers gain leverage by compromising trusted npm packages, allowing them to distribute malicious code that captures credentials from developers' environments.</li>
-          
-            <li>Watch next: Monitor for updates from SAP regarding the integrity of their npm packages and any patches released.</li>
-          
-        </ul>
-
-        
-          <div class="glossary">
-            <div class="label">Key terms</div>
-            <ul class="list">
-            
-              <li>npm - a package manager for JavaScript, allowing developers to share and reuse code.</li>
-            
-              <li>supply-chain attack - a type of cyberattack that targets the supply chain of software to introduce malicious code.</li>
-            
-            </ul>
-          </div>
-        
-
-        <div>
-          <div class="label">Defender focus</div>
-          <ul class="list">
-            
-            <li>Implement monitoring for unusual access patterns in development environments.</li>
-            
-            <li>Review and audit the use of npm packages in your projects for any recent updates or changes.</li>
-            
-            <li>Educate developers on the risks of using compromised packages and encourage the use of package integrity checks.</li>
+            <li>Review and tighten security configurations to prevent disabling of security controls.</li>
             
           </ul>
         </div>
@@ -695,123 +596,24 @@
           <div class="label">Do now</div>
           <ul class="list">
             
-            <li>Immediately review all SAP npm packages in use for potential compromise.</li>
+            <li>Immediately review security logs for any signs of the 'install_obf.bat' script execution.</li>
             
-            <li>Update or replace any affected packages with verified versions.</li>
+            <li>Update endpoint protection solutions to ensure they can detect the DEEP#DOOR backdoor.</li>
             
-            <li>Enhance monitoring for any unauthorized access attempts related to developer accounts.</li>
+            <li>Educate teams on the risks of disabling security features and the importance of maintaining security controls.</li>
             
           </ul>
         </div>
 
-        <div class="text-block"><span class="label">Watch next:</span> Monitor for updates from SAP regarding the integrity of their npm packages and any patches released.</div>
+        <div class="text-block"><span class="label">Watch next:</span> Monitor for any updates from security vendors regarding detection and mitigation strategies for DEEP#DOOR.</div>
 
         <div class="sources">
           <div class="label">Sources</div>
           
             
               <div>
-                <a href="https://www.bleepingcomputer.com/news/security/official-sap-npm-packages-compromised-to-steal-credentials/" target="_blank" rel="noopener noreferrer">
-                  BleepingComputer - Official SAP npm packages compromised to steal credentials
-                </a>
-              </div>
-            
-          
-        </div>
-      </article>
-            
-              <article class="card" style="--i: 2;">
-        <div class="meta">
-          <span class="chip risk-high">HIGH</span>
-          
-            <span class="chip label-chip">LEGAL POLICY</span>
-          
-            <span class="chip label-chip">RESEARCH</span>
-          
-          <span class="chip chip-neutral">Privilege Escalation</span>
-          <span class="chip chip-neutral">Confidence LOW</span>
-        </div>
-        
-          <h3><a href="https://thehackernews.com/2026/04/new-linux-copy-fail-vulnerability.html" target="_blank" rel="noopener noreferrer">New Linux 'Copy Fail' Vulnerability Enables Root Access on Major Distributions</a></h3>
-        
-        <p class="hook">The newly disclosed 'Copy Fail' vulnerability allows unprivileged users to gain root access on major Linux distributions, posing a significant risk to system integrity.</p>
-        <div class="support-grid">
-          <div class="text-block"><span class="label">Who should care:</span> System administrators and security teams managing Linux servers and cloud environments should prioritize this issue.</div>
-          <div class="text-block"><span class="label">Attack path:</span> An attacker with local access can exploit this vulnerability to write controlled data into the page cache, leading to privilege escalation and full system control.</div>
-        </div>
-        <div class="text-block"><span class="label">Why this matters now:</span> Useful context for teams tracking where attacker pressure is building.</div>
-        <div class="text-block"><span class="label">In plain English:</span> A serious Linux vulnerability lets local users escalate their privileges to root, affecting many systems.</div>
-        
-          <div class="tags">
-            
-              <span>linux</span>
-            
-              <span>cve</span>
-            
-              <span>privilege escalation</span>
-            
-          </div>
-        
-        <ul class="story-list">
-          
-            <li>Researchers have identified a local privilege escalation vulnerability in Linux, tracked as CVE-2026-31431, with a CVSS score of 7.8. This flaw, codenamed 'Copy Fail', enables unprivileged users to manipulate the page cache of readable files, potentially gaining root access.</li>
-          
-            <li>If exploited, this vulnerability could allow attackers to execute arbitrary code with root privileges, compromising the entire system. Given the widespread use of Linux in servers and cloud environments, the potential for damage is significant, affecting both data security and operational continuity.</li>
-          
-            <li>An attacker with local access can exploit this vulnerability to write controlled data into the page cache, leading to privilege escalation and full system control.</li>
-          
-            <li>Watch next: Monitor for patches from Linux distribution vendors and any updates on exploitation attempts in the wild.</li>
-          
-        </ul>
-
-        
-          <div class="glossary">
-            <div class="label">Key terms</div>
-            <ul class="list">
-            
-              <li>Local Privilege Escalation (LPE) - a type of vulnerability that allows a user with limited access to gain higher privileges on a system.</li>
-            
-              <li>CVSS - Common Vulnerability Scoring System, a standard for assessing the severity of security vulnerabilities.</li>
-            
-            </ul>
-          </div>
-        
-
-        <div>
-          <div class="label">Defender focus</div>
-          <ul class="list">
-            
-            <li>Implement monitoring for unusual local user activity on Linux systems.</li>
-            
-            <li>Review access controls to limit unprivileged user capabilities.</li>
-            
-            <li>Prepare to deploy patches as soon as they are released by vendors.</li>
-            
-          </ul>
-        </div>
-
-        <div>
-          <div class="label">Do now</div>
-          <ul class="list">
-            
-            <li>Assess your Linux systems for exposure to CVE-2026-31431.</li>
-            
-            <li>Apply patches from your Linux distribution as soon as they are available.</li>
-            
-            <li>Review and tighten user permissions to limit potential exploitation.</li>
-            
-          </ul>
-        </div>
-
-        <div class="text-block"><span class="label">Watch next:</span> Monitor for patches from Linux distribution vendors and any updates on exploitation attempts in the wild.</div>
-
-        <div class="sources">
-          <div class="label">Sources</div>
-          
-            
-              <div>
-                <a href="https://thehackernews.com/2026/04/new-linux-copy-fail-vulnerability.html" target="_blank" rel="noopener noreferrer">
-                  The Hacker News - New Linux 'Copy Fail' Vulnerability Enables Root Access on Major Distributions
+                <a href="https://thehackernews.com/2026/04/new-python-backdoor-uses-tunneling.html" target="_blank" rel="noopener noreferrer">
+                  The Hacker News - New Python Backdoor Uses Tunneling Service to Steal Browser and Cloud Credentials
                 </a>
               </div>
             
