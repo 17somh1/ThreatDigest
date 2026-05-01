@@ -1,5 +1,5 @@
 {
-  "last_run_utc": "2026-05-01T09:28:12.276475+00:00",
+  "last_run_utc": "2026-05-01T13:46:13.574706+00:00",
   "processed_urls": [
     "https://www.bleepingcomputer.com/news/security/critical-cisco-sd-wan-bug-exploited-in-zero-day-attacks-since-2023/",
     "https://www.cisa.gov/news-events/alerts/2026/02/25/cisa-and-partners-release-guidance-ongoing-global-exploitation-cisco-sd-wan-systems",
@@ -427,6 +427,8 @@
     "https://www.cisa.gov/news-events/alerts/2026/04/30/cisa-adds-one-known-exploited-vulnerability-catalog",
     "https://thehackernews.com/2026/04/pytorch-lightning-compromised-in-pypi.html",
     "https://www.bleepingcomputer.com/news/security/us-ransomware-negotiators-get-4-years-in-prison-over-blackcat-attacks/",
-    "https://www.bleepingcomputer.com/news/security/new-bluekit-phishing-service-includes-an-ai-assistant-40-templates/"
+    "https://www.bleepingcomputer.com/news/security/new-bluekit-phishing-service-includes-an-ai-assistant-40-templates/",
+    "https://thehackernews.com/2026/05/two-cybersecurity-professionals-get-4.html",
+    "https://thehackernews.com/2026/05/poisoned-ruby-gems-and-go-modules.html"
   ]
 }
