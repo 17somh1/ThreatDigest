@@ -1,5 +1,5 @@
 {
-  "last_run_utc": "2026-05-04T14:22:46.459318+00:00",
+  "last_run_utc": "2026-05-05T09:57:22.490833+00:00",
   "processed_urls": [
     "https://www.bleepingcomputer.com/news/security/critical-cisco-sd-wan-bug-exploited-in-zero-day-attacks-since-2023/",
     "https://www.cisa.gov/news-events/alerts/2026/02/25/cisa-and-partners-release-guidance-ongoing-global-exploitation-cisco-sd-wan-systems",
@@ -436,6 +436,15 @@
     "https://www.bleepingcomputer.com/news/security/critrical-cpanel-flaw-mass-exploited-in-sorry-ransomware-attacks/",
     "https://www.bleepingcomputer.com/news/security/cisa-says-copy-fail-flaw-now-exploited-to-root-linux-systems/",
     "https://www.bleepingcomputer.com/news/security/moveit-automation-customers-warned-to-patch-critical-auth-bypass-flaw/",
-    "https://thehackernews.com/2026/05/silver-fox-deploys-abcdoor-malware-via.html"
+    "https://thehackernews.com/2026/05/silver-fox-deploys-abcdoor-malware-via.html",
+    "https://thehackernews.com/2026/05/weaver-e-cology-rce-flaw-cve-2026-22679.html",
+    "https://www.bleepingcomputer.com/news/security/weaver-e-cology-critical-bug-exploited-in-attacks-since-march/",
+    "https://thehackernews.com/2026/05/microsoft-details-phishing-campaign.html",
+    "https://thehackernews.com/2026/05/weekly-recap-ai-powered-phishing.html",
+    "https://www.bleepingcomputer.com/news/security/amazon-ses-increasingly-abused-in-phishing-to-evade-detection/",
+    "https://www.bleepingcomputer.com/news/security/backdoored-pytorch-lightning-package-drops-credential-stealer/",
+    "https://thehackernews.com/2026/05/scarcruft-hacks-gaming-platform-to.html",
+    "https://thehackernews.com/2026/05/phishing-campaign-hits-80-orgs-using.html",
+    "https://thehackernews.com/2026/05/progress-patches-critical-moveit.html"
   ]
 }
