@@ -1,5 +1,5 @@
 {
-  "last_run_utc": "2026-05-05T09:57:22.490833+00:00",
+  "last_run_utc": "2026-05-06T10:12:09.517371+00:00",
   "processed_urls": [
     "https://www.bleepingcomputer.com/news/security/critical-cisco-sd-wan-bug-exploited-in-zero-day-attacks-since-2023/",
     "https://www.cisa.gov/news-events/alerts/2026/02/25/cisa-and-partners-release-guidance-ongoing-global-exploitation-cisco-sd-wan-systems",
@@ -445,6 +445,16 @@
     "https://www.bleepingcomputer.com/news/security/backdoored-pytorch-lightning-package-drops-credential-stealer/",
     "https://thehackernews.com/2026/05/scarcruft-hacks-gaming-platform-to.html",
     "https://thehackernews.com/2026/05/phishing-campaign-hits-80-orgs-using.html",
-    "https://thehackernews.com/2026/05/progress-patches-critical-moveit.html"
+    "https://thehackernews.com/2026/05/progress-patches-critical-moveit.html",
+    "https://thehackernews.com/2026/05/palo-alto-pan-os-flaw-under-active.html",
+    "https://www.bleepingcomputer.com/news/security/palo-alto-networks-warns-of-actively-exploited-firewall-zero-day/",
+    "https://thehackernews.com/2026/05/windows-phone-link-exploited-by-cloudz.html",
+    "https://thehackernews.com/2026/05/critical-apache-http2-flaw-cve-2026.html",
+    "https://thehackernews.com/2026/05/metinfo-cms-cve-2026-29014-exploited.html",
+    "https://www.bleepingcomputer.com/news/security/new-stealthy-quasar-linux-malware-targets-software-developers/",
+    "https://www.bleepingcomputer.com/news/security/karakurt-extortion-gang-negotiator-sentenced-to-85-years-in-prison/",
+    "https://www.bleepingcomputer.com/news/security/researchers-report-amazon-ses-abused-in-phishing-to-evade-detection/",
+    "https://thehackernews.com/2026/05/android-apps-get-public-verification.html",
+    "https://thehackernews.com/2026/05/daemon-tools-supply-chain-attack.html"
   ]
 }
