@@ -378,8 +378,8 @@
         The security news worth your attention, with context and practical takeaways.
       </p>
       <div class="meta-bar">
-        <span>Updated: 2026-05-06 10:12 UTC</span>
-        <span>Stories: 6</span>
+        <span>Updated: 2026-05-06 14:35 UTC</span>
+        <span>Stories: 2</span>
         <span>Recent issues: 14</span>
       </div>
     </header>
@@ -389,22 +389,14 @@
         <section class="one-liner">
           <h2>What Matters Today</h2>
           
-            <p class="text-block">Multiple critical vulnerabilities across various platforms are actively exploited, necessitating immediate patching and heightened vigilance from security teams.</p>
+            <p class="empty">No summary available yet.</p>
           
         </section>
 
         <section class="themes">
           <h2>Patterns To Watch</h2>
           
-            <ul>
-              
-              <li>Active exploitation of vulnerabilities increases urgency for immediate patching and validation by defenders.</li>
-              
-              <li>Attacker focus on remote code execution indicates a trend towards exploiting critical infrastructure weaknesses.</li>
-              
-              <li>Emerging malware targeting specific user groups highlights the need for tailored security measures in development environments.</li>
-              
-            </ul>
+            <p class="empty">No themes available yet.</p>
           
         </section>
       </div>
@@ -420,47 +412,43 @@
         <div class="meta">
           <span class="chip risk-high">HIGH</span>
           
-            <span class="chip label-chip">ACTIVE EXPLOITATION</span>
+            <span class="chip label-chip">INDUSTRY SIGNAL</span>
           
-            <span class="chip label-chip">GUIDANCE</span>
-          
-            <span class="chip label-chip">PATCH RELEASE</span>
-          
-            <span class="chip label-chip">LEGAL POLICY</span>
-          
-          <span class="chip chip-neutral">Execution</span>
-          <span class="chip chip-neutral">Confidence LOW</span>
+          <span class="chip chip-neutral">Credential Access</span>
+          <span class="chip chip-neutral">Confidence MEDIUM</span>
         </div>
         
-          <h3><a href="https://thehackernews.com/2026/05/palo-alto-pan-os-flaw-under-active.html" target="_blank" rel="noopener noreferrer">Palo Alto PAN-OS Flaw Under Active Exploitation Enables Remote Code Execution</a></h3>
+          <h3><a href="https://thehackernews.com/2026/05/muddywater-uses-microsoft-teams-to.html" target="_blank" rel="noopener noreferrer">MuddyWater Uses Microsoft Teams to Steal Credentials in False Flag Ransomware Attack</a></h3>
         
-        <p class="hook">The exploitation of a critical vulnerability in Palo Alto's PAN-OS could allow attackers to execute arbitrary code remotely, posing a significant threat to network security.</p>
+        <p class="hook">MuddyWater's use of Microsoft Teams for credential theft highlights a significant threat to organizations relying on this platform for communication.</p>
         <div class="support-grid">
-          <div class="text-block"><span class="label">Who should care:</span> Network security teams and organizations using Palo Alto's PAN-OS should prioritize this issue.</div>
-          <div class="text-block"><span class="label">Attack path:</span> Attackers can exploit this vulnerability to execute arbitrary code on vulnerable systems without authentication, gaining unauthorized access.</div>
+          <div class="text-block"><span class="label">Who should care:</span> IT security teams and organizations using Microsoft Teams for internal communications are most exposed.</div>
+          <div class="text-block"><span class="label">Attack path:</span> Attackers leverage social engineering techniques to trick users into providing their credentials through Microsoft Teams. This can lead to further exploitation of the network.</div>
         </div>
-        <div class="text-block"><span class="label">Why this matters now:</span> Active exploitation makes this an immediate exposure check.</div>
-        <div class="text-block"><span class="label">In plain English:</span> A serious flaw in Palo Alto's PAN-OS is being actively exploited, allowing remote code execution.</div>
+        <div class="text-block"><span class="label">Why this matters now:</span> Multiple sources point to the same operational problem.</div>
+        <div class="text-block"><span class="label">In plain English:</span> An Iranian hacking group is exploiting Microsoft Teams to steal credentials in a ransomware attack.</div>
         
           <div class="tags">
             
+              <span>ransomware</span>
+            
               <span>cve</span>
             
-              <span>network security</span>
-            
-              <span>vulnerability</span>
+              <span>cloud</span>
             
           </div>
         
         <ul class="story-list">
           
-            <li>Palo Alto Networks has issued an advisory regarding a critical buffer overflow vulnerability in its PAN-OS software, identified as CVE-2026-0300. This vulnerability is currently being exploited in the wild, particularly affecting systems with the User-ID Authentication Portal exposed to the internet.</li>
+            <li>The Iranian state-sponsored group MuddyWater has been linked to a ransomware attack that employs social engineering tactics via Microsoft Teams. This operation has been characterized as a 'false flag' to mislead victims about the true nature of the attack.</li>
           
-            <li>If exploited, this vulnerability could allow attackers to gain control over affected systems, potentially leading to data breaches or further network compromise. Organizations using PAN-OS need to act quickly to mitigate risks associated with this vulnerability.</li>
+            <li>Organizations using Microsoft Teams for collaboration are at heightened risk of credential theft, which can lead to unauthorized access and data breaches. The sophistication of the attack underscores the need for vigilance in monitoring communications and user behavior.</li>
           
-            <li>Attackers can exploit this vulnerability to execute arbitrary code on vulnerable systems without authentication, gaining unauthorized access.</li>
+            <li>Attackers leverage social engineering techniques to trick users into providing their credentials through Microsoft Teams. This can lead to further exploitation of the network.</li>
           
-            <li>Watch next: Monitor for updates from Palo Alto Networks regarding patches or mitigations for this vulnerability.</li>
+            <li>Also reported by BleepingComputer.</li>
+          
+            <li>Watch next: Monitor for any updates from Microsoft regarding security patches or advisories related to Teams.</li>
           
         </ul>
 
@@ -469,9 +457,13 @@
             <div class="label">Key terms</div>
             <ul class="list">
             
-              <li>BUFFER OVERFLOW - a programming error that allows an attacker to overwrite the memory of an application, potentially leading to arbitrary code execution.</li>
+              <li>SOCIAL ENGINEERING - manipulation techniques used to trick individuals into divulging confidential information.</li>
             
-              <li>REMOTE CODE EXECUTION - a vulnerability that allows an attacker to run malicious code on a target system from a remote location.</li>
+              <li>FALSE FLAG - an operation designed to mislead by disguising the true source or intent.</li>
+            
+              <li>Chaos ransomware - a type of malware that encrypts files and demands payment for decryption.</li>
+            
+              <li>Social engineering - manipulating individuals into divulging confidential information.</li>
             
             </ul>
           </div>
@@ -481,11 +473,11 @@
           <div class="label">Defender focus</div>
           <ul class="list">
             
-            <li>Implement immediate monitoring for unusual activity on PAN-OS devices.</li>
+            <li>Implement monitoring for unusual login attempts or credential sharing within Microsoft Teams.</li>
             
-            <li>Review firewall rules to limit exposure of the User-ID Authentication Portal.</li>
+            <li>Enhance user training on recognizing social engineering tactics specific to Teams.</li>
             
-            <li>Prepare to deploy patches or mitigations as soon as they are available from Palo Alto.</li>
+            <li>Review and tighten access controls for sensitive information shared via Teams.</li>
             
           </ul>
         </div>
@@ -494,24 +486,32 @@
           <div class="label">Do now</div>
           <ul class="list">
             
-            <li>Assess the exposure of PAN-OS systems to the internet.</li>
+            <li>Increase monitoring of Microsoft Teams for suspicious activity.</li>
             
-            <li>Apply any available patches from Palo Alto Networks immediately.</li>
+            <li>Conduct a security audit of Teams configurations and user permissions.</li>
             
-            <li>Enhance monitoring for signs of exploitation attempts.</li>
+            <li>Prepare incident response plans specifically for credential theft scenarios.</li>
             
           </ul>
         </div>
 
-        <div class="text-block"><span class="label">Watch next:</span> Monitor for updates from Palo Alto Networks regarding patches or mitigations for this vulnerability.</div>
+        <div class="text-block"><span class="label">Watch next:</span> Monitor for any updates from Microsoft regarding security patches or advisories related to Teams.</div>
 
         <div class="sources">
           <div class="label">Sources</div>
           
             
               <div>
-                <a href="https://thehackernews.com/2026/05/palo-alto-pan-os-flaw-under-active.html" target="_blank" rel="noopener noreferrer">
-                  The Hacker News - Palo Alto PAN-OS Flaw Under Active Exploitation Enables Remote Code Execution
+                <a href="https://thehackernews.com/2026/05/muddywater-uses-microsoft-teams-to.html" target="_blank" rel="noopener noreferrer">
+                  The Hacker News - MuddyWater Uses Microsoft Teams to Steal Credentials in False Flag Ransomware Attack
+                </a>
+              </div>
+            
+          
+            
+              <div>
+                <a href="https://www.bleepingcomputer.com/news/security/muddywater-hackers-use-chaos-ransomware-as-a-decoy-in-attacks/" target="_blank" rel="noopener noreferrer">
+                  BleepingComputer - MuddyWater hackers use Chaos ransomware as a decoy in attacks
                 </a>
               </div>
             
@@ -534,140 +534,41 @@
         <div class="meta">
           <span class="chip risk-high">HIGH</span>
           
-            <span class="chip label-chip">PATCH RELEASE</span>
+            <span class="chip label-chip">INDUSTRY SIGNAL</span>
           
-            <span class="chip label-chip">LEGAL POLICY</span>
-          
-          <span class="chip chip-neutral">Execution</span>
+          <span class="chip chip-neutral">Impact</span>
           <span class="chip chip-neutral">Confidence LOW</span>
         </div>
         
-          <h3><a href="https://thehackernews.com/2026/05/critical-apache-http2-flaw-cve-2026.html" target="_blank" rel="noopener noreferrer">Critical Apache HTTP/2 Flaw (CVE-2026-23918) Enables DoS and Potential RCE</a></h3>
+          <h3><a href="https://www.bleepingcomputer.com/news/security/why-ransomware-attacks-succeed-even-when-backups-exist/" target="_blank" rel="noopener noreferrer">Why ransomware attacks succeed even when backups exist</a></h3>
         
-        <p class="hook">The critical Apache HTTP/2 vulnerability could allow attackers to execute arbitrary code, posing a significant risk to web servers globally.</p>
+        <p class="hook">Ransomware attacks are increasingly successful due to targeted destruction of backup systems, jeopardizing recovery options for organizations.</p>
         <div class="support-grid">
-          <div class="text-block"><span class="label">Who should care:</span> Web server administrators and security teams managing Apache HTTP/2 deployments should prioritize this update.</div>
-          <div class="text-block"><span class="label">Attack path:</span> An attacker could exploit the vulnerability by sending specially crafted requests to the server, triggering the double free condition and potentially executing arbitrary code.</div>
-        </div>
-        <div class="text-block"><span class="label">Why this matters now:</span> A live patch or vendor fix gives defenders something concrete to validate.</div>
-        <div class="text-block"><span class="label">In plain English:</span> A severe flaw in Apache HTTP/2 could lead to remote code execution, requiring immediate patching.</div>
-        
-          <div class="tags">
-            
-              <span>cve</span>
-            
-              <span>apache</span>
-            
-              <span>http2</span>
-            
-          </div>
-        
-        <ul class="story-list">
-          
-            <li>The Apache Software Foundation has issued security updates for the HTTP Server to address multiple vulnerabilities, including CVE-2026-23918. This vulnerability has a CVSS score of 8.8 and involves a 'double free' error that may allow remote code execution.</li>
-          
-            <li>If exploited, this vulnerability could allow attackers to take control of affected servers, leading to data breaches or service disruptions. Given the widespread use of Apache HTTP servers, the potential impact is significant for many organizations.</li>
-          
-            <li>An attacker could exploit the vulnerability by sending specially crafted requests to the server, triggering the double free condition and potentially executing arbitrary code.</li>
-          
-            <li>Watch next: Monitor for updates from Apache regarding the effectiveness of the patches and any reported exploits in the wild.</li>
-          
-        </ul>
-
-        
-          <div class="glossary">
-            <div class="label">Key terms</div>
-            <ul class="list">
-            
-              <li>CVE - Common Vulnerabilities and Exposures, a list of publicly disclosed cybersecurity vulnerabilities.</li>
-            
-              <li>RCE - Remote Code Execution, a type of vulnerability that allows an attacker to run arbitrary code on a remote machine.</li>
-            
-            </ul>
-          </div>
-        
-
-        <div>
-          <div class="label">Defender focus</div>
-          <ul class="list">
-            
-            <li>Ensure all Apache HTTP servers are updated with the latest security patches.</li>
-            
-            <li>Monitor logs for unusual request patterns that may indicate exploitation attempts.</li>
-            
-            <li>Review firewall rules to limit access to the server until patches are applied.</li>
-            
-          </ul>
-        </div>
-
-        <div>
-          <div class="label">Do now</div>
-          <ul class="list">
-            
-            <li>Immediately apply the security updates released by Apache.</li>
-            
-            <li>Conduct a vulnerability scan to identify any unpatched servers.</li>
-            
-            <li>Review and enhance monitoring for any signs of exploitation attempts.</li>
-            
-          </ul>
-        </div>
-
-        <div class="text-block"><span class="label">Watch next:</span> Monitor for updates from Apache regarding the effectiveness of the patches and any reported exploits in the wild.</div>
-
-        <div class="sources">
-          <div class="label">Sources</div>
-          
-            
-              <div>
-                <a href="https://thehackernews.com/2026/05/critical-apache-http2-flaw-cve-2026.html" target="_blank" rel="noopener noreferrer">
-                  The Hacker News - Critical Apache HTTP/2 Flaw (CVE-2026-23918) Enables DoS and Potential RCE
-                </a>
-              </div>
-            
-          
-        </div>
-      </article>
-            
-              <article class="card" style="--i: 1;">
-        <div class="meta">
-          <span class="chip risk-high">HIGH</span>
-          
-            <span class="chip label-chip">LEGAL POLICY</span>
-          
-          <span class="chip chip-neutral">Execution</span>
-          <span class="chip chip-neutral">Confidence LOW</span>
-        </div>
-        
-          <h3><a href="https://thehackernews.com/2026/05/metinfo-cms-cve-2026-29014-exploited.html" target="_blank" rel="noopener noreferrer">MetInfo CMS CVE-2026-29014 Exploited for Remote Code Execution Attacks</a></h3>
-        
-        <p class="hook">Immediate exploitation of a critical vulnerability in MetInfo CMS could lead to widespread unauthorized access and control over affected systems.</p>
-        <div class="support-grid">
-          <div class="text-block"><span class="label">Who should care:</span> IT security teams managing web applications using MetInfo CMS should prioritize this issue.</div>
-          <div class="text-block"><span class="label">Attack path:</span> Attackers can leverage the vulnerability to send specially crafted requests that execute arbitrary code on the server without authentication.</div>
+          <div class="text-block"><span class="label">Who should care:</span> IT security teams, data management teams, and organizations relying on backup systems for data recovery should be particularly vigilant.</div>
+          <div class="text-block"><span class="label">Attack path:</span> Attackers gain leverage by first identifying and targeting backup systems, often using techniques to disable or delete backup data before launching the main ransomware attack.</div>
         </div>
         <div class="text-block"><span class="label">Why this matters now:</span> Useful context for teams tracking where attacker pressure is building.</div>
-        <div class="text-block"><span class="label">In plain English:</span> A serious vulnerability in MetInfo CMS is being actively exploited, allowing attackers to execute arbitrary code remotely.</div>
+        <div class="text-block"><span class="label">In plain English:</span> Ransomware is now destroying backups before encryption, making recovery nearly impossible.</div>
         
           <div class="tags">
             
-              <span>cve</span>
+              <span>ransomware</span>
             
-              <span>cms</span>
+              <span>backup</span>
             
-              <span>remote code execution</span>
+              <span>security</span>
             
           </div>
         
         <ul class="story-list">
           
-            <li>Threat actors are exploiting CVE-2026-29014, a critical code injection vulnerability in MetInfo CMS versions 7.9, 8.0, and 8.1. This flaw allows unauthenticated users to execute arbitrary PHP code on the server.</li>
+            <li>Recent insights from Acronis reveal that ransomware attackers are specifically targeting backup systems to eliminate recovery options. This tactic allows them to encrypt primary data without the threat of restoration from backups.</li>
           
-            <li>If exploited, this vulnerability can lead to complete system compromise, allowing attackers to manipulate data, deploy malware, or disrupt services. Organizations using affected versions of MetInfo CMS are at significant risk of data breaches and operational impacts.</li>
+            <li>The ability to restore data from backups is a critical defense against ransomware. If attackers can destroy these backups, organizations face prolonged downtime and significant data loss, leading to severe operational and financial consequences.</li>
           
-            <li>Attackers can leverage the vulnerability to send specially crafted requests that execute arbitrary code on the server without authentication.</li>
+            <li>Attackers gain leverage by first identifying and targeting backup systems, often using techniques to disable or delete backup data before launching the main ransomware attack.</li>
           
-            <li>Watch next: Monitor for updates from MetInfo regarding patches or mitigation strategies.</li>
+            <li>Watch next: Monitor for updates on ransomware tactics and any new security measures from backup solution vendors.</li>
           
         </ul>
 
@@ -676,9 +577,9 @@
             <div class="label">Key terms</div>
             <ul class="list">
             
-              <li>CVE - Common Vulnerabilities and Exposures, a list of publicly disclosed cybersecurity vulnerabilities.</li>
+              <li>Ransomware - a type of malicious software that encrypts files and demands payment for decryption.</li>
             
-              <li>PHP - A popular server-side scripting language used for web development.</li>
+              <li>Backup systems - solutions used to create copies of data to restore in case of data loss or corruption.</li>
             
             </ul>
           </div>
@@ -688,108 +589,11 @@
           <div class="label">Defender focus</div>
           <ul class="list">
             
-            <li>Implement web application firewalls to filter malicious requests targeting MetInfo CMS.</li>
+            <li>Implement monitoring for unauthorized access to backup systems.</li>
             
-            <li>Conduct an inventory of all instances of MetInfo CMS and prioritize patching or upgrading to secure versions.</li>
+            <li>Ensure backup solutions have robust security measures in place, such as access controls and encryption.</li>
             
-            <li>Monitor logs for unusual activity that may indicate exploitation attempts.</li>
-            
-          </ul>
-        </div>
-
-        <div>
-          <div class="label">Do now</div>
-          <ul class="list">
-            
-            <li>Patch all instances of MetInfo CMS to the latest version immediately.</li>
-            
-            <li>Review and harden server configurations to limit exposure.</li>
-            
-            <li>Educate relevant teams about the vulnerability and its potential impact.</li>
-            
-          </ul>
-        </div>
-
-        <div class="text-block"><span class="label">Watch next:</span> Monitor for updates from MetInfo regarding patches or mitigation strategies.</div>
-
-        <div class="sources">
-          <div class="label">Sources</div>
-          
-            
-              <div>
-                <a href="https://thehackernews.com/2026/05/metinfo-cms-cve-2026-29014-exploited.html" target="_blank" rel="noopener noreferrer">
-                  The Hacker News - MetInfo CMS CVE-2026-29014 Exploited for Remote Code Execution Attacks
-                </a>
-              </div>
-            
-          
-        </div>
-      </article>
-            
-              <article class="card" style="--i: 2;">
-        <div class="meta">
-          <span class="chip risk-high">HIGH</span>
-          
-            <span class="chip label-chip">RESEARCH</span>
-          
-          <span class="chip chip-neutral">Credential Access</span>
-          <span class="chip chip-neutral">Confidence LOW</span>
-        </div>
-        
-          <h3><a href="https://thehackernews.com/2026/05/windows-phone-link-exploited-by-cloudz.html" target="_blank" rel="noopener noreferrer">Windows Phone Link Exploited by CloudZ RAT to Steal Credentials and OTPs</a></h3>
-        
-        <p class="hook">The exploitation of a Windows Phone link by CloudZ RAT poses a significant threat to credential security, making immediate awareness crucial.</p>
-        <div class="support-grid">
-          <div class="text-block"><span class="label">Who should care:</span> IT security teams managing Windows Phone devices and applications should prioritize this threat.</div>
-          <div class="text-block"><span class="label">Attack path:</span> Attackers leverage the CloudZ RAT and Pheno plugin to gain unauthorized access to user credentials through malicious links.</div>
-        </div>
-        <div class="text-block"><span class="label">Why this matters now:</span> Useful context for teams tracking where attacker pressure is building.</div>
-        <div class="text-block"><span class="label">In plain English:</span> A new vulnerability in Windows Phone is being exploited by CloudZ RAT to steal user credentials and OTPs.</div>
-        
-          <div class="tags">
-            
-              <span>credential theft</span>
-            
-              <span>cloud</span>
-            
-              <span>windows phone</span>
-            
-          </div>
-        
-        <ul class="story-list">
-          
-            <li>Cybersecurity researchers have revealed that the CloudZ remote access tool (RAT) is being used alongside an undocumented plugin named Pheno to facilitate credential theft. This intrusion targets Windows Phone users, aiming to capture sensitive information such as usernames, passwords, and one-time passwords (OTPs).</li>
-          
-            <li>The ability to steal credentials and OTPs can lead to unauthorized access to sensitive accounts, resulting in potential data breaches and financial loss. Organizations relying on Windows Phone devices should be particularly vigilant as this threat can compromise user security and trust.</li>
-          
-            <li>Attackers leverage the CloudZ RAT and Pheno plugin to gain unauthorized access to user credentials through malicious links.</li>
-          
-            <li>Watch next: Monitor for updates from Microsoft regarding patches or mitigations for this vulnerability.</li>
-          
-        </ul>
-
-        
-          <div class="glossary">
-            <div class="label">Key terms</div>
-            <ul class="list">
-            
-              <li>RAT - Remote Access Tool, software that allows an attacker to control a computer remotely.</li>
-            
-              <li>OTP - One-Time Password, a password that is valid for only one login session or transaction.</li>
-            
-            </ul>
-          </div>
-        
-
-        <div>
-          <div class="label">Defender focus</div>
-          <ul class="list">
-            
-            <li>Implement monitoring for unusual login attempts from Windows Phone devices.</li>
-            
-            <li>Review and restrict access to sensitive applications from affected devices.</li>
-            
-            <li>Educate users on recognizing suspicious links and the importance of secure password practices.</li>
+            <li>Regularly test backup restoration processes to confirm data integrity and availability.</li>
             
           </ul>
         </div>
@@ -798,24 +602,24 @@
           <div class="label">Do now</div>
           <ul class="list">
             
-            <li>Immediately assess the security posture of Windows Phone devices in your environment.</li>
+            <li>Review and enhance security protocols for backup systems immediately.</li>
             
-            <li>Deploy monitoring tools to detect potential RAT activity.</li>
+            <li>Conduct a risk assessment to identify vulnerabilities in backup processes.</li>
             
-            <li>Prepare user communication regarding the risks and safe practices related to credential security.</li>
+            <li>Educate staff on recognizing signs of ransomware attacks targeting backup systems.</li>
             
           </ul>
         </div>
 
-        <div class="text-block"><span class="label">Watch next:</span> Monitor for updates from Microsoft regarding patches or mitigations for this vulnerability.</div>
+        <div class="text-block"><span class="label">Watch next:</span> Monitor for updates on ransomware tactics and any new security measures from backup solution vendors.</div>
 
         <div class="sources">
           <div class="label">Sources</div>
           
             
               <div>
-                <a href="https://thehackernews.com/2026/05/windows-phone-link-exploited-by-cloudz.html" target="_blank" rel="noopener noreferrer">
-                  The Hacker News - Windows Phone Link Exploited by CloudZ RAT to Steal Credentials and OTPs
+                <a href="https://www.bleepingcomputer.com/news/security/why-ransomware-attacks-succeed-even-when-backups-exist/" target="_blank" rel="noopener noreferrer">
+                  BleepingComputer - Why ransomware attacks succeed even when backups exist
                 </a>
               </div>
             
@@ -833,203 +637,7 @@
           Wider Signal
         </div>
         
-          <div class="grid">
-            
-              <article class="card" style="--i: 0;">
-        <div class="meta">
-          <span class="chip risk-high">HIGH</span>
-          
-            <span class="chip label-chip">PATCH RELEASE</span>
-          
-          <span class="chip chip-neutral">Execution</span>
-          <span class="chip chip-neutral">Confidence LOW</span>
-        </div>
-        
-          <h3><a href="https://www.bleepingcomputer.com/news/security/palo-alto-networks-warns-of-actively-exploited-firewall-zero-day/" target="_blank" rel="noopener noreferrer">Palo Alto Networks warns of firewall RCE zero-day exploited in attacks</a></h3>
-        
-        <p class="hook">A critical vulnerability in Palo Alto Networks firewalls is actively being exploited, posing significant risk to network security.</p>
-        <div class="support-grid">
-          <div class="text-block"><span class="label">Who should care:</span> Network security teams managing Palo Alto Networks firewalls should prioritize this issue.</div>
-          <div class="text-block"><span class="label">Attack path:</span> Attackers can leverage this vulnerability to gain remote code execution, potentially allowing them to take control of the firewall and manipulate network traffic.</div>
-        </div>
-        <div class="text-block"><span class="label">Why this matters now:</span> A live patch or vendor fix gives defenders something concrete to validate.</div>
-        <div class="text-block"><span class="label">In plain English:</span> Palo Alto Networks has identified a serious unpatched vulnerability being exploited in their firewalls.</div>
-        
-          <div class="tags">
-            
-              <span>firewall</span>
-            
-              <span>zero day</span>
-            
-              <span>vulnerability</span>
-            
-          </div>
-        
-        <ul class="story-list">
-          
-            <li>Palo Alto Networks reported a zero-day vulnerability in the PAN-OS User-ID Authentication Portal that is currently being exploited in attacks. This vulnerability allows attackers to execute remote code on affected devices.</li>
-          
-            <li>If exploited, this vulnerability could allow unauthorized access to sensitive network resources, leading to potential data breaches or service disruptions. Organizations using affected Palo Alto firewalls must act quickly to mitigate risks.</li>
-          
-            <li>Attackers can leverage this vulnerability to gain remote code execution, potentially allowing them to take control of the firewall and manipulate network traffic.</li>
-          
-            <li>Watch next: Monitor for updates from Palo Alto Networks regarding patches or mitigations for this vulnerability.</li>
-          
-        </ul>
-
-        
-          <div class="glossary">
-            <div class="label">Key terms</div>
-            <ul class="list">
-            
-              <li>RCE - Remote Code Execution, a type of vulnerability that allows an attacker to run arbitrary code on a target system.</li>
-            
-              <li>Zero-day - A security flaw that is exploited before the vendor has released a fix.</li>
-            
-            </ul>
-          </div>
-        
-
-        <div>
-          <div class="label">Defender focus</div>
-          <ul class="list">
-            
-            <li>Implement network segmentation to limit exposure of vulnerable firewalls.</li>
-            
-            <li>Monitor logs for unusual access patterns or unauthorized changes to firewall configurations.</li>
-            
-            <li>Apply any available patches or workarounds from Palo Alto Networks as soon as they are released.</li>
-            
-          </ul>
-        </div>
-
-        <div>
-          <div class="label">Do now</div>
-          <ul class="list">
-            
-            <li>Immediately assess the impact of this vulnerability on your network.</li>
-            
-            <li>Review firewall configurations and access controls to minimize exposure.</li>
-            
-            <li>Stay updated on Palo Alto Networks' communications for any patches or mitigations.</li>
-            
-          </ul>
-        </div>
-
-        <div class="text-block"><span class="label">Watch next:</span> Monitor for updates from Palo Alto Networks regarding patches or mitigations for this vulnerability.</div>
-
-        <div class="sources">
-          <div class="label">Sources</div>
-          
-            
-              <div>
-                <a href="https://www.bleepingcomputer.com/news/security/palo-alto-networks-warns-of-actively-exploited-firewall-zero-day/" target="_blank" rel="noopener noreferrer">
-                  BleepingComputer - Palo Alto Networks warns of firewall RCE zero-day exploited in attacks
-                </a>
-              </div>
-            
-          
-        </div>
-      </article>
-            
-              <article class="card" style="--i: 1;">
-        <div class="meta">
-          <span class="chip risk-high">HIGH</span>
-          
-            <span class="chip label-chip">INDUSTRY SIGNAL</span>
-          
-          <span class="chip chip-neutral">Initial Access</span>
-          <span class="chip chip-neutral">Confidence LOW</span>
-        </div>
-        
-          <h3><a href="https://www.bleepingcomputer.com/news/security/new-stealthy-quasar-linux-malware-targets-software-developers/" target="_blank" rel="noopener noreferrer">New stealthy Quasar Linux malware targets software developers</a></h3>
-        
-        <p class="hook">The emergence of Quasar Linux malware poses a significant threat to software developers, potentially compromising sensitive code and credentials.</p>
-        <div class="support-grid">
-          <div class="text-block"><span class="label">Who should care:</span> Development teams and organizations that utilize Linux environments for software development should be particularly vigilant.</div>
-          <div class="text-block"><span class="label">Attack path:</span> Attackers can gain leverage by deploying the Quasar Linux malware to infiltrate developer systems, allowing them to steal credentials and access sensitive data.</div>
-        </div>
-        <div class="text-block"><span class="label">Why this matters now:</span> Useful context for teams tracking where attacker pressure is building.</div>
-        <div class="text-block"><span class="label">In plain English:</span> A new Linux malware is targeting developers, which could lead to serious security breaches.</div>
-        
-          <div class="tags">
-            
-              <span>malware</span>
-            
-              <span>linux</span>
-            
-              <span>development</span>
-            
-          </div>
-        
-        <ul class="story-list">
-          
-            <li>Quasar Linux (QLNX) is a newly identified malware that combines rootkit, backdoor, and credential-stealing functionalities. It specifically targets systems used by software developers, making it particularly dangerous for organizations that rely on these environments.</li>
-          
-            <li>If successful, this malware can lead to unauthorized access to proprietary code and sensitive information, resulting in potential data breaches and financial losses. The targeting of developers increases the risk of widespread impact across software supply chains.</li>
-          
-            <li>Attackers can gain leverage by deploying the Quasar Linux malware to infiltrate developer systems, allowing them to steal credentials and access sensitive data.</li>
-          
-            <li>Watch next: Monitor for updates from security vendors regarding detection capabilities and any emerging indicators of compromise related to Quasar Linux.</li>
-          
-        </ul>
-
-        
-          <div class="glossary">
-            <div class="label">Key terms</div>
-            <ul class="list">
-            
-              <li>ROOTKIT - a type of malware designed to gain unauthorized root access to a computer system.</li>
-            
-              <li>BACKDOOR - a method of bypassing normal authentication to access a system remotely.</li>
-            
-            </ul>
-          </div>
-        
-
-        <div>
-          <div class="label">Defender focus</div>
-          <ul class="list">
-            
-            <li>Implement monitoring for unusual network activity from developer systems.</li>
-            
-            <li>Enhance endpoint protection to detect and block Quasar Linux signatures.</li>
-            
-            <li>Review access controls and credential management practices for development environments.</li>
-            
-          </ul>
-        </div>
-
-        <div>
-          <div class="label">Do now</div>
-          <ul class="list">
-            
-            <li>Increase monitoring of developer systems for unusual behavior.</li>
-            
-            <li>Update antivirus and endpoint protection solutions to include signatures for Quasar Linux.</li>
-            
-            <li>Educate development teams about the risks and signs of malware infections.</li>
-            
-          </ul>
-        </div>
-
-        <div class="text-block"><span class="label">Watch next:</span> Monitor for updates from security vendors regarding detection capabilities and any emerging indicators of compromise related to Quasar Linux.</div>
-
-        <div class="sources">
-          <div class="label">Sources</div>
-          
-            
-              <div>
-                <a href="https://www.bleepingcomputer.com/news/security/new-stealthy-quasar-linux-malware-targets-software-developers/" target="_blank" rel="noopener noreferrer">
-                  BleepingComputer - New stealthy Quasar Linux malware targets software developers
-                </a>
-              </div>
-            
-          
-        </div>
-      </article>
-            
-          </div>
+          <p class="empty">No context stories today.</p>
         
       </section>
     </main>
