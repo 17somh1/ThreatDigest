@@ -378,8 +378,8 @@
         The security news worth your attention, with context and practical takeaways.
       </p>
       <div class="meta-bar">
-        <span>Updated: 2026-05-07 10:16 UTC</span>
-        <span>Stories: 5</span>
+        <span>Updated: 2026-05-07 14:39 UTC</span>
+        <span>Stories: 3</span>
         <span>Recent issues: 14</span>
       </div>
     </header>
@@ -389,7 +389,7 @@
         <section class="one-liner">
           <h2>What Matters Today</h2>
           
-            <p class="text-block">Organizations using vulnerable software must act quickly to mitigate immediate threats from newly identified exploits and ongoing phishing campaigns.</p>
+            <p class="text-block">Organizations face heightened risk from plaintext passwords and critical zero-day vulnerabilities, demanding immediate attention from security teams.</p>
           
         </section>
 
@@ -398,11 +398,11 @@
           
             <ul>
               
-              <li>Critical vulnerabilities in widely used software libraries are increasing the risk of arbitrary code execution, demanding immediate attention from development teams.</li>
+              <li>The widespread use of plaintext passwords increases vulnerability to attacks, making it essential for organizations to enforce stronger password policies.</li>
               
-              <li>Phishing campaigns exploiting popular platforms indicate a shift in attacker tactics, requiring heightened vigilance from web administrators.</li>
+              <li>Active exploitation of zero-day vulnerabilities in widely used firewall systems highlights the urgent need for timely patch management and threat monitoring.</li>
               
-              <li>Newly added vulnerabilities to the KEV Catalog shorten patch windows, increasing pressure on IT security teams to prioritize remediation.</li>
+              <li>State-sponsored attackers are leveraging unpatched vulnerabilities to maintain prolonged access to sensitive networks, indicating a shift in attacker persistence and tactics.</li>
               
             </ul>
           
@@ -420,43 +420,41 @@
         <div class="meta">
           <span class="chip risk-high">HIGH</span>
           
-            <span class="chip label-chip">ACTIVE EXPLOITATION</span>
+            <span class="chip label-chip">PATCH RELEASE</span>
           
-            <span class="chip label-chip">KEV ADDED</span>
-          
-          <span class="chip chip-neutral">Initial Access</span>
+          <span class="chip chip-neutral">Credential Access</span>
           <span class="chip chip-neutral">Confidence LOW</span>
         </div>
         
-          <h3><a href="https://www.cisa.gov/news-events/alerts/2026/05/06/cisa-adds-one-known-exploited-vulnerability-catalog" target="_blank" rel="noopener noreferrer">CISA Adds One Known Exploited Vulnerability to Catalog</a></h3>
+          <h3><a href="https://thehackernews.com/2026/05/threatsday-bulletin-edge-plaintext.html" target="_blank" rel="noopener noreferrer">ThreatsDay Bulletin: Edge Plaintext Passwords, ICS 0-Days, Patch-or-Die Alerts and 25+ New Stories</a></h3>
         
-        <p class="hook">The addition of CVE-2026-0300 to the KEV Catalog signals an immediate threat to organizations using Palo Alto Networks PAN-OS, necessitating swift remediation to prevent exploitation.</p>
+        <p class="hook">The prevalence of plaintext passwords and unpatched vulnerabilities poses a significant risk to organizations, making them easy targets for attackers.</p>
         <div class="support-grid">
-          <div class="text-block"><span class="label">Who should care:</span> IT security teams managing Palo Alto Networks PAN-OS should prioritize this vulnerability.</div>
-          <div class="text-block"><span class="label">Attack path:</span> An attacker could exploit this vulnerability to execute arbitrary code on affected systems, leading to unauthorized access or control.</div>
+          <div class="text-block"><span class="label">Who should care:</span> IT security teams, ICS operators, and organizations relying on cloud services should be particularly vigilant.</div>
+          <div class="text-block"><span class="label">Attack path:</span> Attackers can gain access through unpatched systems and by exploiting plaintext credentials found in insecure applications or shared online.</div>
         </div>
-        <div class="text-block"><span class="label">Why this matters now:</span> KEV status shortens the acceptable patch window.</div>
-        <div class="text-block"><span class="label">In plain English:</span> CISA has identified a new critical vulnerability in Palo Alto Networks PAN-OS that is actively being exploited.</div>
+        <div class="text-block"><span class="label">Why this matters now:</span> A live patch or vendor fix gives defenders something concrete to validate.</div>
+        <div class="text-block"><span class="label">In plain English:</span> Organizations are facing heightened risks from plaintext passwords and unpatched ICS vulnerabilities.</div>
         
           <div class="tags">
             
-              <span>cve</span>
+              <span>ics</span>
             
-              <span>vulnerability</span>
+              <span>0 day</span>
             
-              <span>palo_alto</span>
+              <span>credential theft</span>
             
           </div>
         
         <ul class="story-list">
           
-            <li>CISA has added CVE-2026-0300, an out-of-bounds write vulnerability in Palo Alto Networks PAN-OS, to its Known Exploited Vulnerabilities Catalog. This decision is based on evidence of active exploitation in the wild.</li>
+            <li>Recent reports indicate a surge in the exploitation of plaintext passwords and multiple 0-day vulnerabilities in Industrial Control Systems (ICS). Attackers are leveraging outdated software and insecure practices, leading to increased incidents of data breaches and system compromises.</li>
           
-            <li>This vulnerability is a common attack vector for cybercriminals and poses significant risks to federal networks and potentially to other organizations as well. Timely remediation is crucial to protect against potential breaches and data loss.</li>
+            <li>The exploitation of these vulnerabilities can lead to severe operational disruptions and data loss, particularly in critical infrastructure sectors. Organizations that fail to address these issues risk significant financial and reputational damage.</li>
           
-            <li>An attacker could exploit this vulnerability to execute arbitrary code on affected systems, leading to unauthorized access or control.</li>
+            <li>Attackers can gain access through unpatched systems and by exploiting plaintext credentials found in insecure applications or shared online.</li>
           
-            <li>Watch next: Monitor for updates from CISA regarding additional vulnerabilities added to the KEV Catalog and any specific guidance on remediation.</li>
+            <li>Watch next: Monitor for updates from vendors regarding patches for identified 0-day vulnerabilities and any emerging threat intelligence.</li>
           
         </ul>
 
@@ -465,9 +463,9 @@
             <div class="label">Key terms</div>
             <ul class="list">
             
-              <li>CVE - Common Vulnerabilities and Exposures, a list of publicly known cybersecurity vulnerabilities.</li>
+              <li>0-day - a vulnerability that is exploited before the vendor has released a fix.</li>
             
-              <li>KEV - Known Exploited Vulnerabilities, a catalog of vulnerabilities that are actively being exploited in the wild.</li>
+              <li>plaintext password - a password that is stored or transmitted in an unencrypted format.</li>
             
             </ul>
           </div>
@@ -477,11 +475,11 @@
           <div class="label">Defender focus</div>
           <ul class="list">
             
-            <li>Implement monitoring for any unusual activity on Palo Alto Networks devices.</li>
+            <li>Implement monitoring for unusual access patterns that may indicate credential theft.</li>
             
-            <li>Ensure that all instances of PAN-OS are updated to the latest version to mitigate this vulnerability.</li>
+            <li>Ensure all systems are updated with the latest security patches, especially for ICS.</li>
             
-            <li>Review and enhance firewall rules to limit exposure to potential exploit attempts.</li>
+            <li>Review and secure applications that handle sensitive information to prevent plaintext password exposure.</li>
             
           </ul>
         </div>
@@ -490,24 +488,24 @@
           <div class="label">Do now</div>
           <ul class="list">
             
-            <li>Immediately assess your environment for the presence of PAN-OS and its version.</li>
+            <li>Patch all known vulnerabilities immediately.</li>
             
-            <li>Apply the necessary patches or updates to remediate CVE-2026-0300.</li>
+            <li>Conduct a review of password management practices to eliminate plaintext storage.</li>
             
-            <li>Review incident response plans to prepare for potential exploitation attempts.</li>
+            <li>Enhance monitoring for suspicious activities related to credential access.</li>
             
           </ul>
         </div>
 
-        <div class="text-block"><span class="label">Watch next:</span> Monitor for updates from CISA regarding additional vulnerabilities added to the KEV Catalog and any specific guidance on remediation.</div>
+        <div class="text-block"><span class="label">Watch next:</span> Monitor for updates from vendors regarding patches for identified 0-day vulnerabilities and any emerging threat intelligence.</div>
 
         <div class="sources">
           <div class="label">Sources</div>
           
             
               <div>
-                <a href="https://www.cisa.gov/news-events/alerts/2026/05/06/cisa-adds-one-known-exploited-vulnerability-catalog" target="_blank" rel="noopener noreferrer">
-                  Alerts - CISA Adds One Known Exploited Vulnerability to Catalog
+                <a href="https://thehackernews.com/2026/05/threatsday-bulletin-edge-plaintext.html" target="_blank" rel="noopener noreferrer">
+                  The Hacker News - ThreatsDay Bulletin: Edge Plaintext Passwords, ICS 0-Days, Patch-or-Die Alerts and 25+ New Stories
                 </a>
               </div>
             
@@ -532,39 +530,39 @@
           
             <span class="chip label-chip">INDUSTRY SIGNAL</span>
           
-          <span class="chip chip-neutral">Execution</span>
+          <span class="chip chip-neutral">Initial Access</span>
           <span class="chip chip-neutral">Confidence LOW</span>
         </div>
         
-          <h3><a href="https://thehackernews.com/2026/05/vm2-nodejs-library-vulnerabilities.html" target="_blank" rel="noopener noreferrer">vm2 Node.js Library Vulnerabilities Enable Sandbox Escape and Arbitrary Code Execution</a></h3>
+          <h3><a href="https://www.bleepingcomputer.com/news/security/pan-os-firewall-rce-zero-day-exploited-in-attacks-since-april-9/" target="_blank" rel="noopener noreferrer">Palo Alto Networks firewall zero-day exploited for nearly a month</a></h3>
         
-        <p class="hook">Critical vulnerabilities in the vm2 Node.js library could allow attackers to execute arbitrary code, posing a severe risk to applications relying on this library.</p>
+        <p class="hook">State-sponsored attackers have exploited a critical zero-day vulnerability in Palo Alto Networks firewalls, potentially compromising sensitive networks for weeks.</p>
         <div class="support-grid">
-          <div class="text-block"><span class="label">Who should care:</span> Development teams using the vm2 library in their applications should be particularly vigilant.</div>
-          <div class="text-block"><span class="label">Attack path:</span> An attacker could exploit these vulnerabilities to break out of the sandbox environment, gaining the ability to execute arbitrary code on the host system.</div>
+          <div class="text-block"><span class="label">Who should care:</span> Network security teams and organizations using Palo Alto Networks firewalls should prioritize this issue.</div>
+          <div class="text-block"><span class="label">Attack path:</span> Attackers can exploit the vulnerability to execute arbitrary code on the firewall, potentially allowing them to pivot into the internal network.</div>
         </div>
         <div class="text-block"><span class="label">Why this matters now:</span> Useful context for teams tracking where attacker pressure is building.</div>
-        <div class="text-block"><span class="label">In plain English:</span> The vm2 library has multiple vulnerabilities that can lead to code execution outside of its secure environment.</div>
+        <div class="text-block"><span class="label">In plain English:</span> A serious vulnerability in Palo Alto Networks firewalls has been actively exploited, posing a significant risk to affected organizations.</div>
         
           <div class="tags">
             
               <span>cve</span>
             
-              <span>nodejs</span>
+              <span>firewall</span>
             
-              <span>vm2</span>
+              <span>zero day</span>
             
           </div>
         
         <ul class="story-list">
           
-            <li>A dozen critical vulnerabilities have been identified in the vm2 Node.js library, which is designed to run untrusted JavaScript code in a secure sandbox. These vulnerabilities could allow attackers to escape the sandbox and execute arbitrary code on affected systems.</li>
+            <li>Palo Alto Networks disclosed that a zero-day vulnerability in their PAN-OS firewall has been under active exploitation since April 9, 2026. The vulnerability allows remote code execution, enabling attackers to gain control over affected devices.</li>
           
-            <li>Exploiting these vulnerabilities could lead to unauthorized access and control over applications that utilize the vm2 library, potentially compromising sensitive data and system integrity. Organizations using this library must act quickly to mitigate risks associated with these vulnerabilities.</li>
+            <li>The exploitation of this vulnerability can lead to unauthorized access to sensitive data and critical infrastructure. Organizations using these firewalls are at heightened risk of data breaches and operational disruptions.</li>
           
-            <li>An attacker could exploit these vulnerabilities to break out of the sandbox environment, gaining the ability to execute arbitrary code on the host system.</li>
+            <li>Attackers can exploit the vulnerability to execute arbitrary code on the firewall, potentially allowing them to pivot into the internal network.</li>
           
-            <li>Watch next: Monitor for updates from the vm2 maintainers regarding patches and remediation steps.</li>
+            <li>Watch next: Monitor for updates from Palo Alto Networks regarding patches and mitigation strategies.</li>
           
         </ul>
 
@@ -573,9 +571,9 @@
             <div class="label">Key terms</div>
             <ul class="list">
             
-              <li>vm2 - an open-source library that allows running untrusted JavaScript code in a secure environment.</li>
+              <li>ZERO-DAY - a vulnerability that is exploited before the vendor has released a fix.</li>
             
-              <li>sandbox - a security mechanism that isolates running programs to prevent them from affecting the host system.</li>
+              <li>REMOTE CODE EXECUTION - a type of vulnerability that allows an attacker to run arbitrary code on a target system from a remote location.</li>
             
             </ul>
           </div>
@@ -585,11 +583,11 @@
           <div class="label">Defender focus</div>
           <ul class="list">
             
-            <li>Identify applications using the vm2 library and assess their exposure to these vulnerabilities.</li>
+            <li>Implement immediate monitoring for unusual traffic patterns associated with firewall management.</li>
             
-            <li>Implement monitoring for unusual behavior that may indicate exploitation attempts.</li>
+            <li>Review firewall logs for any unauthorized access attempts or anomalies.</li>
             
-            <li>Prepare to deploy patches or mitigations as soon as they are available from the vm2 maintainers.</li>
+            <li>Ensure that all Palo Alto Networks devices are updated with the latest security patches as soon as they are available.</li>
             
           </ul>
         </div>
@@ -598,24 +596,24 @@
           <div class="label">Do now</div>
           <ul class="list">
             
-            <li>Review and update the vm2 library to the latest version as soon as patches are released.</li>
+            <li>Patch affected Palo Alto Networks firewalls immediately.</li>
             
-            <li>Conduct a risk assessment of applications utilizing vm2 to determine potential impacts.</li>
+            <li>Conduct a security audit of network access logs for the past month.</li>
             
-            <li>Implement additional monitoring for applications using vm2 to detect any signs of exploitation.</li>
+            <li>Enhance network segmentation to limit potential lateral movement.</li>
             
           </ul>
         </div>
 
-        <div class="text-block"><span class="label">Watch next:</span> Monitor for updates from the vm2 maintainers regarding patches and remediation steps.</div>
+        <div class="text-block"><span class="label">Watch next:</span> Monitor for updates from Palo Alto Networks regarding patches and mitigation strategies.</div>
 
         <div class="sources">
           <div class="label">Sources</div>
           
             
               <div>
-                <a href="https://thehackernews.com/2026/05/vm2-nodejs-library-vulnerabilities.html" target="_blank" rel="noopener noreferrer">
-                  The Hacker News - vm2 Node.js Library Vulnerabilities Enable Sandbox Escape and Arbitrary Code Execution
+                <a href="https://www.bleepingcomputer.com/news/security/pan-os-firewall-rce-zero-day-exploited-in-attacks-since-april-9/" target="_blank" rel="noopener noreferrer">
+                  BleepingComputer - Palo Alto Networks firewall zero-day exploited for nearly a month
                 </a>
               </div>
             
@@ -627,140 +625,41 @@
         <div class="meta">
           <span class="chip risk-high">HIGH</span>
           
-            <span class="chip label-chip">INDUSTRY SIGNAL</span>
-          
-          <span class="chip chip-neutral">Credential Access</span>
-          <span class="chip chip-neutral">Confidence LOW</span>
-        </div>
-        
-          <h3><a href="https://www.bleepingcomputer.com/news/security/hackers-abuse-google-ads-for-godaddy-managewp-login-phishing/" target="_blank" rel="noopener noreferrer">Hackers abuse Google ads for GoDaddy ManageWP login phishing</a></h3>
-        
-        <p class="hook">This phishing campaign threatens the security of WordPress websites managed through GoDaddy, potentially leading to widespread credential theft.</p>
-        <div class="support-grid">
-          <div class="text-block"><span class="label">Who should care:</span> Web administrators and security teams managing WordPress sites through GoDaddy's ManageWP service should be particularly vigilant.</div>
-          <div class="text-block"><span class="label">Attack path:</span> Attackers create fake login pages that mimic the legitimate ManageWP interface, capturing user credentials when they attempt to log in. This method leverages the credibility of Google ads to increase the likelihood of user interaction.</div>
-        </div>
-        <div class="text-block"><span class="label">Why this matters now:</span> Useful context for teams tracking where attacker pressure is building.</div>
-        <div class="text-block"><span class="label">In plain English:</span> Hackers are using Google ads to trick users into giving up their ManageWP login credentials.</div>
-        
-          <div class="tags">
-            
-              <span>phishing</span>
-            
-              <span>google ads</span>
-            
-              <span>wordpress</span>
-            
-          </div>
-        
-        <ul class="story-list">
-          
-            <li>A phishing campaign has been identified that uses Google sponsored search results to direct users to fraudulent login pages for GoDaddy's ManageWP service. This tactic exploits the trust users place in Google ads to capture sensitive login information.</li>
-          
-            <li>If attackers gain access to ManageWP accounts, they could compromise multiple WordPress sites, leading to data breaches, defacement, or further phishing attacks. The scale of this attack could impact numerous businesses relying on GoDaddy for website management.</li>
-          
-            <li>Attackers create fake login pages that mimic the legitimate ManageWP interface, capturing user credentials when they attempt to log in. This method leverages the credibility of Google ads to increase the likelihood of user interaction.</li>
-          
-            <li>Watch next: Monitor for updates from GoDaddy regarding any mitigation strategies or user advisories related to this phishing campaign.</li>
-          
-        </ul>
-
-        
-          <div class="glossary">
-            <div class="label">Key terms</div>
-            <ul class="list">
-            
-              <li>PHISHING - a method of trying to gather personal information using deceptive emails and websites.</li>
-            
-              <li>MANAGEWP - a GoDaddy service that allows users to manage multiple WordPress websites from a single dashboard.</li>
-            
-            </ul>
-          </div>
-        
-
-        <div>
-          <div class="label">Defender focus</div>
-          <ul class="list">
-            
-            <li>Implement monitoring for unusual login attempts to ManageWP accounts.</li>
-            
-            <li>Educate users on identifying phishing attempts, especially those involving Google ads.</li>
-            
-            <li>Review and enhance security measures for WordPress sites managed through ManageWP.</li>
-            
-          </ul>
-        </div>
-
-        <div>
-          <div class="label">Do now</div>
-          <ul class="list">
-            
-            <li>Alert users to the phishing campaign and advise caution with Google ads.</li>
-            
-            <li>Encourage users to enable two-factor authentication on their ManageWP accounts.</li>
-            
-            <li>Regularly review access logs for any unauthorized access attempts.</li>
-            
-          </ul>
-        </div>
-
-        <div class="text-block"><span class="label">Watch next:</span> Monitor for updates from GoDaddy regarding any mitigation strategies or user advisories related to this phishing campaign.</div>
-
-        <div class="sources">
-          <div class="label">Sources</div>
-          
-            
-              <div>
-                <a href="https://www.bleepingcomputer.com/news/security/hackers-abuse-google-ads-for-godaddy-managewp-login-phishing/" target="_blank" rel="noopener noreferrer">
-                  BleepingComputer - Hackers abuse Google ads for GoDaddy ManageWP login phishing
-                </a>
-              </div>
-            
-          
-        </div>
-      </article>
-            
-              <article class="card" style="--i: 2;">
-        <div class="meta">
-          <span class="chip risk-medium">MEDIUM</span>
-          
-            <span class="chip label-chip">PATCH RELEASE</span>
-          
             <span class="chip label-chip">LEGAL POLICY</span>
           
-          <span class="chip chip-neutral">Impact</span>
+          <span class="chip chip-neutral">Initial Access</span>
           <span class="chip chip-neutral">Confidence LOW</span>
         </div>
         
-          <h3><a href="https://www.bleepingcomputer.com/news/security/new-cisco-dos-flaw-requires-manual-reboot-to-revive-devices/" target="_blank" rel="noopener noreferrer">New Cisco DoS flaw requires manual reboot to revive devices</a></h3>
+          <h3><a href="https://thehackernews.com/2026/05/pan-os-rce-exploit-under-active-use.html" target="_blank" rel="noopener noreferrer">PAN-OS RCE Exploit Under Active Use Enabling Root Access and Espionage</a></h3>
         
-        <p class="hook">A newly discovered denial-of-service vulnerability in Cisco devices could lead to significant downtime, impacting network operations.</p>
+        <p class="hook">Active exploitation of a critical vulnerability in PAN-OS could lead to unauthorized root access and significant data breaches.</p>
         <div class="support-grid">
-          <div class="text-block"><span class="label">Who should care:</span> Network operations teams using Cisco Crosswork Network Controller and Network Services Orchestrator.</div>
-          <div class="text-block"><span class="label">Attack path:</span> An attacker could exploit the DoS vulnerability to render the affected devices unresponsive, requiring manual reboot for recovery.</div>
+          <div class="text-block"><span class="label">Who should care:</span> IT security teams managing Palo Alto Networks PAN-OS installations should prioritize this issue.</div>
+          <div class="text-block"><span class="label">Attack path:</span> An attacker could exploit this vulnerability to gain unauthorized access without authentication, potentially leading to full system control. This could manifest as unauthorized data access or manipulation.</div>
         </div>
-        <div class="text-block"><span class="label">Why this matters now:</span> A live patch or vendor fix gives defenders something concrete to validate.</div>
-        <div class="text-block"><span class="label">In plain English:</span> Cisco has patched a DoS vulnerability that requires manual intervention to recover affected devices.</div>
+        <div class="text-block"><span class="label">Why this matters now:</span> Useful context for teams tracking where attacker pressure is building.</div>
+        <div class="text-block"><span class="label">In plain English:</span> A serious vulnerability in Palo Alto Networks PAN-OS is being actively targeted, posing a risk of root access for attackers.</div>
         
           <div class="tags">
+            
+              <span>ransomware</span>
             
               <span>cve</span>
             
-              <span>network</span>
-            
-              <span>dos</span>
+              <span>cloud</span>
             
           </div>
         
         <ul class="story-list">
           
-            <li>Cisco released a patch for a denial-of-service (DoS) vulnerability affecting the Crosswork Network Controller and Network Services Orchestrator. Exploiting this flaw can cause the devices to become unresponsive, necessitating a manual reboot for recovery.</li>
+            <li>Palo Alto Networks reported that threat actors have attempted to exploit CVE-2026-0300, a critical buffer overflow vulnerability in the User-ID Authentication Portal of PAN-OS. This vulnerability has a CVSS score of 9.3, indicating its severity. Attempts to exploit this flaw were noted as early as April 9, 2026.</li>
           
-            <li>This vulnerability poses a risk of network outages, which can disrupt services and lead to operational inefficiencies. Organizations relying on these Cisco products should prioritize applying the patch to avoid potential downtime.</li>
+            <li>If successfully exploited, this vulnerability could allow attackers to gain root access to affected systems, leading to potential espionage and data theft. Organizations using PAN-OS are at risk of significant operational disruptions and data breaches, which could have severe financial and reputational consequences.</li>
           
-            <li>An attacker could exploit the DoS vulnerability to render the affected devices unresponsive, requiring manual reboot for recovery.</li>
+            <li>An attacker could exploit this vulnerability to gain unauthorized access without authentication, potentially leading to full system control. This could manifest as unauthorized data access or manipulation.</li>
           
-            <li>Watch next: Monitor for updates from Cisco regarding any additional vulnerabilities or patches related to this issue.</li>
+            <li>Watch next: Monitor for updates from Palo Alto Networks regarding patches or mitigations for CVE-2026-0300.</li>
           
         </ul>
 
@@ -769,9 +668,9 @@
             <div class="label">Key terms</div>
             <ul class="list">
             
-              <li>Denial-of-Service (DoS) - an attack that makes a machine or network resource unavailable to its intended users.</li>
+              <li>CVE - Common Vulnerabilities and Exposures, a list of publicly disclosed cybersecurity vulnerabilities.</li>
             
-              <li>Patch - a software update designed to fix vulnerabilities or improve performance.</li>
+              <li>RCE - Remote Code Execution, a type of vulnerability that allows an attacker to run arbitrary code on a remote system.</li>
             
             </ul>
           </div>
@@ -781,11 +680,11 @@
           <div class="label">Defender focus</div>
           <ul class="list">
             
-            <li>Ensure the latest patches are applied to all Cisco devices in use.</li>
+            <li>Implement monitoring for unusual authentication attempts on PAN-OS systems.</li>
             
-            <li>Monitor network performance for signs of device unresponsiveness.</li>
+            <li>Review and apply any available patches from Palo Alto Networks immediately.</li>
             
-            <li>Establish a manual reboot procedure for affected devices to minimize downtime.</li>
+            <li>Conduct a risk assessment to identify and mitigate potential impacts of this vulnerability.</li>
             
           </ul>
         </div>
@@ -794,24 +693,24 @@
           <div class="label">Do now</div>
           <ul class="list">
             
-            <li>Apply the Cisco patch immediately to affected devices.</li>
+            <li>Patch PAN-OS installations as soon as updates are available.</li>
             
-            <li>Review network monitoring tools for alerts related to device performance.</li>
+            <li>Enhance logging and monitoring for suspicious activities related to PAN-OS.</li>
             
-            <li>Document and test the manual reboot process for affected systems.</li>
+            <li>Prepare incident response plans in case of a successful exploitation.</li>
             
           </ul>
         </div>
 
-        <div class="text-block"><span class="label">Watch next:</span> Monitor for updates from Cisco regarding any additional vulnerabilities or patches related to this issue.</div>
+        <div class="text-block"><span class="label">Watch next:</span> Monitor for updates from Palo Alto Networks regarding patches or mitigations for CVE-2026-0300.</div>
 
         <div class="sources">
           <div class="label">Sources</div>
           
             
               <div>
-                <a href="https://www.bleepingcomputer.com/news/security/new-cisco-dos-flaw-requires-manual-reboot-to-revive-devices/" target="_blank" rel="noopener noreferrer">
-                  BleepingComputer - New Cisco DoS flaw requires manual reboot to revive devices
+                <a href="https://thehackernews.com/2026/05/pan-os-rce-exploit-under-active-use.html" target="_blank" rel="noopener noreferrer">
+                  The Hacker News - PAN-OS RCE Exploit Under Active Use Enabling Root Access and Espionage
                 </a>
               </div>
             
@@ -829,106 +728,7 @@
           Wider Signal
         </div>
         
-          <div class="grid">
-            
-              <article class="card" style="--i: 0;">
-        <div class="meta">
-          <span class="chip risk-medium">MEDIUM</span>
-          
-            <span class="chip label-chip">PATCH RELEASE</span>
-          
-          <span class="chip chip-neutral">Execution</span>
-          <span class="chip chip-neutral">Confidence LOW</span>
-        </div>
-        
-          <h3><a href="https://www.bleepingcomputer.com/news/security/daemon-tools-devs-confirm-breach-release-malware-free-version/" target="_blank" rel="noopener noreferrer">DAEMON Tools devs confirm breach, release malware-free version</a></h3>
-        
-        <p class="hook">The recent supply chain attack on DAEMON Tools could expose users to malware, making immediate updates critical.</p>
-        <div class="support-grid">
-          <div class="text-block"><span class="label">Who should care:</span> IT security teams and users of DAEMON Tools Lite should prioritize this issue.</div>
-          <div class="text-block"><span class="label">Attack path:</span> Attackers exploited vulnerabilities in the software supply chain to insert malicious code into the legitimate application, allowing them to distribute malware to unsuspecting users.</div>
-        </div>
-        <div class="text-block"><span class="label">Why this matters now:</span> Useful context for teams tracking where attacker pressure is building.</div>
-        <div class="text-block"><span class="label">In plain English:</span> DAEMON Tools confirmed a breach where their software was compromised, but a clean version is now available.</div>
-        
-          <div class="tags">
-            
-              <span>supply chain</span>
-            
-              <span>malware</span>
-            
-              <span>software</span>
-            
-          </div>
-        
-        <ul class="story-list">
-          
-            <li>Disc Soft Limited, the developer of DAEMON Tools Lite, confirmed that their software was compromised in a supply chain attack, resulting in a trojanized version being distributed. They have since released a new version that is free of malware.</li>
-          
-            <li>Users who downloaded the compromised version may have unknowingly installed malware, which could lead to data theft or system compromise. Immediate action is required to ensure that all users are running the latest, secure version to mitigate potential risks.</li>
-          
-            <li>Attackers exploited vulnerabilities in the software supply chain to insert malicious code into the legitimate application, allowing them to distribute malware to unsuspecting users.</li>
-          
-            <li>Watch next: Monitor for any reports of malware infections linked to the compromised version and updates from Disc Soft Limited.</li>
-          
-        </ul>
-
-        
-          <div class="glossary">
-            <div class="label">Key terms</div>
-            <ul class="list">
-            
-              <li>Supply Chain Attack - a type of cyber attack where an attacker infiltrates a system through an outside partner or service provider.</li>
-            
-              <li>Trojanized - refers to software that has been modified to include malicious code while appearing legitimate.</li>
-            
-            </ul>
-          </div>
-        
-
-        <div>
-          <div class="label">Defender focus</div>
-          <ul class="list">
-            
-            <li>Verify that all instances of DAEMON Tools Lite in your environment are updated to the latest version.</li>
-            
-            <li>Monitor for unusual network activity that may indicate malware presence.</li>
-            
-            <li>Educate users on the importance of downloading software from official sources.</li>
-            
-          </ul>
-        </div>
-
-        <div>
-          <div class="label">Do now</div>
-          <ul class="list">
-            
-            <li>Immediately update DAEMON Tools Lite to the latest version.</li>
-            
-            <li>Conduct a security audit to check for any signs of compromise.</li>
-            
-            <li>Review and enhance supply chain security measures.</li>
-            
-          </ul>
-        </div>
-
-        <div class="text-block"><span class="label">Watch next:</span> Monitor for any reports of malware infections linked to the compromised version and updates from Disc Soft Limited.</div>
-
-        <div class="sources">
-          <div class="label">Sources</div>
-          
-            
-              <div>
-                <a href="https://www.bleepingcomputer.com/news/security/daemon-tools-devs-confirm-breach-release-malware-free-version/" target="_blank" rel="noopener noreferrer">
-                  BleepingComputer - DAEMON Tools devs confirm breach, release malware-free version
-                </a>
-              </div>
-            
-          
-        </div>
-      </article>
-            
-          </div>
+          <p class="empty">No context stories today.</p>
         
       </section>
     </main>
