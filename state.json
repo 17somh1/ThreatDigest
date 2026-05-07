@@ -1,5 +1,5 @@
 {
-  "last_run_utc": "2026-05-06T14:35:59.937390+00:00",
+  "last_run_utc": "2026-05-07T10:16:59.174103+00:00",
   "processed_urls": [
     "https://www.bleepingcomputer.com/news/security/critical-cisco-sd-wan-bug-exploited-in-zero-day-attacks-since-2023/",
     "https://www.cisa.gov/news-events/alerts/2026/02/25/cisa-and-partners-release-guidance-ongoing-global-exploitation-cisco-sd-wan-systems",
@@ -458,6 +458,11 @@
     "https://thehackernews.com/2026/05/daemon-tools-supply-chain-attack.html",
     "https://thehackernews.com/2026/05/muddywater-uses-microsoft-teams-to.html",
     "https://www.bleepingcomputer.com/news/security/why-ransomware-attacks-succeed-even-when-backups-exist/",
-    "https://www.bleepingcomputer.com/news/security/muddywater-hackers-use-chaos-ransomware-as-a-decoy-in-attacks/"
+    "https://www.bleepingcomputer.com/news/security/muddywater-hackers-use-chaos-ransomware-as-a-decoy-in-attacks/",
+    "https://www.cisa.gov/news-events/alerts/2026/05/06/cisa-adds-one-known-exploited-vulnerability-catalog",
+    "https://www.bleepingcomputer.com/news/security/hackers-abuse-google-ads-for-godaddy-managewp-login-phishing/",
+    "https://www.bleepingcomputer.com/news/security/new-cisco-dos-flaw-requires-manual-reboot-to-revive-devices/",
+    "https://www.bleepingcomputer.com/news/security/daemon-tools-devs-confirm-breach-release-malware-free-version/",
+    "https://thehackernews.com/2026/05/vm2-nodejs-library-vulnerabilities.html"
   ]
 }
