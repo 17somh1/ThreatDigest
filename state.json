@@ -1,5 +1,5 @@
 {
-  "last_run_utc": "2026-05-08T09:10:54.498665+00:00",
+  "last_run_utc": "2026-05-08T14:08:37.032243+00:00",
   "processed_urls": [
     "https://www.bleepingcomputer.com/news/security/critical-cisco-sd-wan-bug-exploited-in-zero-day-attacks-since-2023/",
     "https://www.cisa.gov/news-events/alerts/2026/02/25/cisa-and-partners-release-guidance-ongoing-global-exploitation-cisco-sd-wan-systems",
@@ -473,6 +473,9 @@
     "https://www.bleepingcomputer.com/news/security/ivanti-warns-of-new-epmm-flaw-exploited-in-zero-day-attacks/",
     "https://www.bleepingcomputer.com/news/security/new-linux-dirty-frag-zero-day-with-poc-exploit-gives-root-privileges/",
     "https://www.bleepingcomputer.com/news/security/new-pcpjack-worm-steals-credentials-cleans-teampcp-infections/",
-    "https://thehackernews.com/2026/05/pcpjack-credential-stealer-exploits-5.html"
+    "https://thehackernews.com/2026/05/pcpjack-credential-stealer-exploits-5.html",
+    "https://www.bleepingcomputer.com/news/security/cisa-gives-feds-four-days-to-patch-ivanti-flaw-exploited-as-zero-day/",
+    "https://thehackernews.com/2026/05/quasar-linux-rat-steals-developer.html",
+    "https://thehackernews.com/2026/05/new-linux-pamdoora-backdoor-uses-pam.html"
   ]
 }
