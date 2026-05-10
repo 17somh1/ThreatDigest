@@ -378,8 +378,8 @@
         The security news worth your attention, with context and practical takeaways.
       </p>
       <div class="meta-bar">
-        <span>Updated: 2026-05-10 09:24 UTC</span>
-        <span>Stories: 4</span>
+        <span>Updated: 2026-05-10 13:46 UTC</span>
+        <span>Stories: 1</span>
         <span>Recent issues: 14</span>
       </div>
     </header>
@@ -389,7 +389,7 @@
         <section class="one-liner">
           <h2>What Matters Today</h2>
           
-            <p class="text-block">Federal agencies face immediate pressure to patch critical vulnerabilities as active exploitation risks rise, particularly with new threats targeting software supply chains.</p>
+            <p class="text-block">A critical vulnerability in Ollama poses a high risk of data leaks from over 300,000 servers, demanding urgent attention from IT security teams.</p>
           
         </section>
 
@@ -398,11 +398,11 @@
           
             <ul>
               
-              <li>Heightened urgency for federal agencies to address known vulnerabilities due to active exploitation risks.</li>
+              <li>Increased attacker focus on exploiting server vulnerabilities to access sensitive data.</li>
               
-              <li>Increased attacker focus on exploiting developer credentials, threatening software supply chain integrity.</li>
+              <li>Heightened pressure on defenders to patch critical vulnerabilities quickly to prevent data leaks.</li>
               
-              <li>Defender workload intensifies as multiple critical patches are required in a short timeframe.</li>
+              <li>Growing need for proactive monitoring and response strategies in server management.</li>
               
             </ul>
           
@@ -420,43 +420,43 @@
         <div class="meta">
           <span class="chip risk-high">HIGH</span>
           
-            <span class="chip label-chip">ACTIVE EXPLOITATION</span>
+            <span class="chip label-chip">LEGAL POLICY</span>
           
-            <span class="chip label-chip">KEV ADDED</span>
+            <span class="chip label-chip">RESEARCH</span>
           
-          <span class="chip chip-neutral">Initial Access</span>
+          <span class="chip chip-neutral">Exfiltration</span>
           <span class="chip chip-neutral">Confidence LOW</span>
         </div>
         
-          <h3><a href="https://www.cisa.gov/news-events/alerts/2026/05/08/cisa-adds-one-known-exploited-vulnerability-catalog" target="_blank" rel="noopener noreferrer">CISA Adds One Known Exploited Vulnerability to Catalog</a></h3>
+          <h3><a href="https://thehackernews.com/2026/05/ollama-out-of-bounds-read-vulnerability.html" target="_blank" rel="noopener noreferrer">Ollama Out-of-Bounds Read Vulnerability Allows Remote Process Memory Leak</a></h3>
         
-        <p class="hook">The addition of CVE-2026-42208 to the KEV Catalog indicates an active exploitation risk that could severely impact federal networks if not addressed promptly.</p>
+        <p class="hook">The discovery of a critical vulnerability in Ollama could expose sensitive data from over 300,000 servers, making immediate action essential.</p>
         <div class="support-grid">
-          <div class="text-block"><span class="label">Who should care:</span> Federal Civilian Executive Branch agencies and organizations using BerriAI LiteLLM should prioritize remediation efforts.</div>
-          <div class="text-block"><span class="label">Attack path:</span> An attacker could exploit this SQL injection vulnerability to manipulate database queries, potentially gaining unauthorized access to sensitive data.</div>
+          <div class="text-block"><span class="label">Who should care:</span> IT security teams managing servers running Ollama should prioritize this vulnerability.</div>
+          <div class="text-block"><span class="label">Attack path:</span> An attacker could exploit the out-of-bounds read flaw to access sensitive data in memory without needing authentication.</div>
         </div>
-        <div class="text-block"><span class="label">Why this matters now:</span> KEV status shortens the acceptable patch window.</div>
-        <div class="text-block"><span class="label">In plain English:</span> A new SQL injection vulnerability has been added to the KEV Catalog, requiring immediate attention from affected organizations.</div>
+        <div class="text-block"><span class="label">Why this matters now:</span> Useful context for teams tracking where attacker pressure is building.</div>
+        <div class="text-block"><span class="label">In plain English:</span> A serious vulnerability in Ollama allows attackers to leak process memory, affecting many servers worldwide.</div>
         
           <div class="tags">
             
               <span>cve</span>
             
-              <span>vulnerability</span>
+              <span>security vulnerability</span>
             
-              <span>federal</span>
+              <span>data breach</span>
             
           </div>
         
         <ul class="story-list">
           
-            <li>CISA has added CVE-2026-42208, a SQL Injection vulnerability in BerriAI LiteLLM, to its Known Exploited Vulnerabilities Catalog due to evidence of active exploitation. This vulnerability is a common attack vector for cybercriminals and poses significant risks to federal networks.</li>
+            <li>Researchers identified an out-of-bounds read vulnerability in Ollama, tracked as CVE-2026-7482, with a CVSS score of 9.1. This flaw enables remote, unauthenticated attackers to access the entire process memory of affected systems.</li>
           
-            <li>The presence of this vulnerability in the KEV Catalog means that federal agencies must remediate it to comply with Binding Operational Directive 22-01, which aims to protect networks from known threats. Failure to address this vulnerability could lead to unauthorized access and data breaches.</li>
+            <li>If exploited, this vulnerability could lead to significant data breaches, exposing sensitive information stored in memory. Given the widespread use of Ollama across numerous servers, the potential impact on organizations could be severe.</li>
           
-            <li>An attacker could exploit this SQL injection vulnerability to manipulate database queries, potentially gaining unauthorized access to sensitive data.</li>
+            <li>An attacker could exploit the out-of-bounds read flaw to access sensitive data in memory without needing authentication.</li>
           
-            <li>Watch next: Monitor for updates from CISA regarding additional vulnerabilities added to the KEV Catalog and any remediation guidance.</li>
+            <li>Watch next: Monitor for patches or updates from Ollama and any reports of exploitation attempts.</li>
           
         </ul>
 
@@ -465,7 +465,7 @@
             <div class="label">Key terms</div>
             <ul class="list">
             
-              <li>SQL Injection - a type of attack that allows an attacker to interfere with the queries that an application makes to its database.</li>
+              <li>Out-of-bounds read - a programming error that allows reading data outside the intended memory boundaries, potentially exposing sensitive information.</li>
             
               <li>CVE - Common Vulnerabilities and Exposures, a list of publicly disclosed cybersecurity vulnerabilities.</li>
             
@@ -477,11 +477,11 @@
           <div class="label">Defender focus</div>
           <ul class="list">
             
-            <li>Implement monitoring for unusual database activity that may indicate exploitation attempts.</li>
+            <li>Implement monitoring for unusual memory access patterns on servers running Ollama.</li>
             
-            <li>Ensure that all instances of BerriAI LiteLLM are updated to the latest version to mitigate this vulnerability.</li>
+            <li>Prepare to apply patches as soon as they are released by the vendor.</li>
             
-            <li>Review and enhance input validation mechanisms to prevent SQL injection attacks.</li>
+            <li>Review access logs for any unauthorized access attempts related to Ollama.</li>
             
           </ul>
         </div>
@@ -490,24 +490,24 @@
           <div class="label">Do now</div>
           <ul class="list">
             
-            <li>Patch BerriAI LiteLLM to close the vulnerability immediately.</li>
+            <li>Assess the impact of the vulnerability on your systems running Ollama.</li>
             
-            <li>Conduct a risk assessment to identify potential exposure to this vulnerability.</li>
+            <li>Implement immediate monitoring for any signs of exploitation.</li>
             
-            <li>Review incident response plans to ensure readiness for potential exploitation.</li>
+            <li>Plan for patch deployment as soon as updates are available.</li>
             
           </ul>
         </div>
 
-        <div class="text-block"><span class="label">Watch next:</span> Monitor for updates from CISA regarding additional vulnerabilities added to the KEV Catalog and any remediation guidance.</div>
+        <div class="text-block"><span class="label">Watch next:</span> Monitor for patches or updates from Ollama and any reports of exploitation attempts.</div>
 
         <div class="sources">
           <div class="label">Sources</div>
           
             
               <div>
-                <a href="https://www.cisa.gov/news-events/alerts/2026/05/08/cisa-adds-one-known-exploited-vulnerability-catalog" target="_blank" rel="noopener noreferrer">
-                  Alerts - CISA Adds One Known Exploited Vulnerability to Catalog
+                <a href="https://thehackernews.com/2026/05/ollama-out-of-bounds-read-vulnerability.html" target="_blank" rel="noopener noreferrer">
+                  The Hacker News - Ollama Out-of-Bounds Read Vulnerability Allows Remote Process Memory Leak
                 </a>
               </div>
             
@@ -524,302 +524,7 @@
           Priority Watchlist
         </div>
         
-          <div class="grid">
-            
-              <article class="card" style="--i: 0;">
-        <div class="meta">
-          <span class="chip risk-medium">MEDIUM</span>
-          
-            <span class="chip label-chip">PATCH RELEASE</span>
-          
-          <span class="chip chip-neutral">Privilege Escalation</span>
-          <span class="chip chip-neutral">Confidence LOW</span>
-        </div>
-        
-          <h3><a href="https://thehackernews.com/2026/05/cpanel-whm-patch-3-new-vulnerabilities.html" target="_blank" rel="noopener noreferrer">cPanel, WHM Release Fixes for Three New Vulnerabilities — Patch Now</a></h3>
-        
-        <p class="hook">Immediate patching of cPanel and WHM is crucial to prevent potential privilege escalation and denial-of-service attacks.</p>
-        <div class="support-grid">
-          <div class="text-block"><span class="label">Who should care:</span> System administrators and security teams managing cPanel and WHM installations should prioritize these updates.</div>
-          <div class="text-block"><span class="label">Attack path:</span> An attacker could exploit these vulnerabilities by sending specially crafted requests to the cPanel or WHM interfaces, potentially gaining elevated privileges or causing service interruptions.</div>
-        </div>
-        <div class="text-block"><span class="label">Why this matters now:</span> A live patch or vendor fix gives defenders something concrete to validate.</div>
-        <div class="text-block"><span class="label">In plain English:</span> cPanel and WHM have released patches for three vulnerabilities that could allow attackers to escalate privileges or disrupt services.</div>
-        
-          <div class="tags">
-            
-              <span>cve</span>
-            
-              <span>cpanel</span>
-            
-              <span>whm</span>
-            
-          </div>
-        
-        <ul class="story-list">
-          
-            <li>cPanel has issued updates to address three vulnerabilities in its cPanel and Web Host Manager (WHM) software. These vulnerabilities include issues that could lead to privilege escalation, code execution, and denial-of-service. The vulnerabilities are identified as CVE-2026-29201, among others.</li>
-          
-            <li>If left unpatched, these vulnerabilities could allow attackers to gain unauthorized access to sensitive features or disrupt service availability. Organizations using cPanel and WHM are at risk of significant operational impact and potential data breaches.</li>
-          
-            <li>An attacker could exploit these vulnerabilities by sending specially crafted requests to the cPanel or WHM interfaces, potentially gaining elevated privileges or causing service interruptions.</li>
-          
-            <li>Watch next: Monitor for updates from cPanel regarding any additional vulnerabilities or patches that may arise.</li>
-          
-        </ul>
-
-        
-          <div class="glossary">
-            <div class="label">Key terms</div>
-            <ul class="list">
-            
-              <li>Privilege Escalation - a type of attack where an attacker gains elevated access to resources that are normally protected from the user.</li>
-            
-              <li>Denial-of-Service - an attack that aims to make a service unavailable by overwhelming it with traffic or exploiting vulnerabilities.</li>
-            
-            </ul>
-          </div>
-        
-
-        <div>
-          <div class="label">Defender focus</div>
-          <ul class="list">
-            
-            <li>Ensure all cPanel and WHM installations are updated with the latest patches.</li>
-            
-            <li>Monitor logs for unusual access patterns that may indicate exploitation attempts.</li>
-            
-            <li>Review user permissions and access controls to mitigate potential impacts from privilege escalation.</li>
-            
-          </ul>
-        </div>
-
-        <div>
-          <div class="label">Do now</div>
-          <ul class="list">
-            
-            <li>Patch cPanel and WHM installations immediately.</li>
-            
-            <li>Review and tighten access controls for administrative interfaces.</li>
-            
-            <li>Conduct a security audit to identify any potential exposure due to these vulnerabilities.</li>
-            
-          </ul>
-        </div>
-
-        <div class="text-block"><span class="label">Watch next:</span> Monitor for updates from cPanel regarding any additional vulnerabilities or patches that may arise.</div>
-
-        <div class="sources">
-          <div class="label">Sources</div>
-          
-            
-              <div>
-                <a href="https://thehackernews.com/2026/05/cpanel-whm-patch-3-new-vulnerabilities.html" target="_blank" rel="noopener noreferrer">
-                  The Hacker News - cPanel, WHM Release Fixes for Three New Vulnerabilities — Patch Now
-                </a>
-              </div>
-            
-          
-        </div>
-      </article>
-            
-              <article class="card" style="--i: 1;">
-        <div class="meta">
-          <span class="chip risk-high">HIGH</span>
-          
-            <span class="chip label-chip">PATCH RELEASE</span>
-          
-            <span class="chip label-chip">LEGAL POLICY</span>
-          
-          <span class="chip chip-neutral">Initial Access</span>
-          <span class="chip chip-neutral">Confidence LOW</span>
-        </div>
-        
-          <h3><a href="https://www.bleepingcomputer.com/news/security/cisa-gives-feds-four-days-to-patch-ivanti-flaw-exploited-as-zero-day/" target="_blank" rel="noopener noreferrer">CISA gives feds four days to patch Ivanti flaw exploited as zero-day</a></h3>
-        
-        <p class="hook">Federal agencies must act swiftly to patch a critical vulnerability in Ivanti software to prevent potential exploitation.</p>
-        <div class="support-grid">
-          <div class="text-block"><span class="label">Who should care:</span> Federal IT security teams and those managing Ivanti Endpoint Manager Mobile installations are most exposed.</div>
-          <div class="text-block"><span class="label">Attack path:</span> An attacker can exploit this vulnerability to gain unauthorized access to the affected systems, potentially leading to further network infiltration and data exfiltration.</div>
-        </div>
-        <div class="text-block"><span class="label">Why this matters now:</span> A live patch or vendor fix gives defenders something concrete to validate.</div>
-        <div class="text-block"><span class="label">In plain English:</span> CISA has mandated a four-day deadline for federal agencies to patch a serious Ivanti vulnerability that is currently being exploited.</div>
-        
-          <div class="tags">
-            
-              <span>cve</span>
-            
-              <span>ivanti</span>
-            
-              <span>federal</span>
-            
-          </div>
-        
-        <ul class="story-list">
-          
-            <li>CISA has identified a high-severity vulnerability in Ivanti Endpoint Manager Mobile (EPMM) that is being actively exploited in zero-day attacks. Federal agencies have been given a strict four-day window to apply necessary patches to secure their systems.</li>
-          
-            <li>Failure to patch this vulnerability could lead to unauthorized access and control over sensitive federal networks, potentially compromising national security. The urgency is heightened by the active exploitation of this flaw, which could result in significant data breaches or operational disruptions.</li>
-          
-            <li>An attacker can exploit this vulnerability to gain unauthorized access to the affected systems, potentially leading to further network infiltration and data exfiltration.</li>
-          
-            <li>Watch next: Monitor for updates from CISA regarding the effectiveness of the patch and any additional guidance on mitigating risks.</li>
-          
-        </ul>
-
-        
-          <div class="glossary">
-            <div class="label">Key terms</div>
-            <ul class="list">
-            
-              <li>ZERO-DAY - a vulnerability that is exploited before the vendor has released a fix.</li>
-            
-              <li>PATCH - a software update designed to fix vulnerabilities or improve functionality.</li>
-            
-            </ul>
-          </div>
-        
-
-        <div>
-          <div class="label">Defender focus</div>
-          <ul class="list">
-            
-            <li>Implement immediate monitoring for unusual access patterns in Ivanti systems.</li>
-            
-            <li>Ensure that all federal agencies are aware of the patch deadline and have resources to apply it.</li>
-            
-            <li>Review logs for any signs of exploitation attempts related to the Ivanti vulnerability.</li>
-            
-          </ul>
-        </div>
-
-        <div>
-          <div class="label">Do now</div>
-          <ul class="list">
-            
-            <li>Patch Ivanti Endpoint Manager Mobile immediately.</li>
-            
-            <li>Conduct a risk assessment to identify any systems that may be vulnerable.</li>
-            
-            <li>Increase monitoring for suspicious activity related to Ivanti software.</li>
-            
-          </ul>
-        </div>
-
-        <div class="text-block"><span class="label">Watch next:</span> Monitor for updates from CISA regarding the effectiveness of the patch and any additional guidance on mitigating risks.</div>
-
-        <div class="sources">
-          <div class="label">Sources</div>
-          
-            
-              <div>
-                <a href="https://www.bleepingcomputer.com/news/security/cisa-gives-feds-four-days-to-patch-ivanti-flaw-exploited-as-zero-day/" target="_blank" rel="noopener noreferrer">
-                  BleepingComputer - CISA gives feds four days to patch Ivanti flaw exploited as zero-day
-                </a>
-              </div>
-            
-          
-        </div>
-      </article>
-            
-              <article class="card" style="--i: 2;">
-        <div class="meta">
-          <span class="chip risk-high">HIGH</span>
-          
-            <span class="chip label-chip">INDUSTRY SIGNAL</span>
-          
-          <span class="chip chip-neutral">Credential Access</span>
-          <span class="chip chip-neutral">Confidence LOW</span>
-        </div>
-        
-          <h3><a href="https://thehackernews.com/2026/05/quasar-linux-rat-steals-developer.html" target="_blank" rel="noopener noreferrer">Quasar Linux RAT Steals Developer Credentials for Software Supply Chain Compromise</a></h3>
-        
-        <p class="hook">The Quasar Linux RAT poses a significant threat to software supply chains by targeting developer credentials, which could lead to widespread compromise of software integrity.</p>
-        <div class="support-grid">
-          <div class="text-block"><span class="label">Who should care:</span> Development and DevOps teams, as well as organizations relying on secure software supply chains, should be particularly vigilant.</div>
-          <div class="text-block"><span class="label">Attack path:</span> Attackers can gain access to developer systems through the Quasar Linux RAT, allowing them to harvest credentials and manipulate software development processes.</div>
-        </div>
-        <div class="text-block"><span class="label">Why this matters now:</span> Useful context for teams tracking where attacker pressure is building.</div>
-        <div class="text-block"><span class="label">In plain English:</span> A new Linux malware is stealing developer credentials, risking software supply chain security.</div>
-        
-          <div class="tags">
-            
-              <span>malware</span>
-            
-              <span>linux</span>
-            
-              <span>supply_chain</span>
-            
-          </div>
-        
-        <ul class="story-list">
-          
-            <li>A Linux implant known as Quasar Linux RAT (QLNX) has been discovered, targeting developers' systems to gain unauthorized access. This malware can perform various malicious activities, including credential harvesting and keylogging.</li>
-          
-            <li>The compromise of developer credentials can lead to malicious code being injected into software products, affecting end-users and organizations relying on these applications. This threat highlights the vulnerability of the software supply chain, which is critical for maintaining software integrity.</li>
-          
-            <li>Attackers can gain access to developer systems through the Quasar Linux RAT, allowing them to harvest credentials and manipulate software development processes.</li>
-          
-            <li>Watch next: Monitor for any updates from security vendors regarding detection and mitigation strategies for Quasar Linux RAT.</li>
-          
-        </ul>
-
-        
-          <div class="glossary">
-            <div class="label">Key terms</div>
-            <ul class="list">
-            
-              <li>RAT - Remote Access Trojan, a type of malware that allows an attacker to control a system remotely.</li>
-            
-              <li>Credential Harvesting - The process of stealing user credentials, such as usernames and passwords.</li>
-            
-            </ul>
-          </div>
-        
-
-        <div>
-          <div class="label">Defender focus</div>
-          <ul class="list">
-            
-            <li>Implement monitoring for unusual access patterns in developer environments.</li>
-            
-            <li>Enhance endpoint protection to detect and block the Quasar Linux RAT.</li>
-            
-            <li>Conduct a review of access controls for developer credentials to ensure they are secure.</li>
-            
-          </ul>
-        </div>
-
-        <div>
-          <div class="label">Do now</div>
-          <ul class="list">
-            
-            <li>Increase monitoring of developer systems for signs of compromise.</li>
-            
-            <li>Educate developers on secure coding practices and the risks of credential theft.</li>
-            
-            <li>Review and update incident response plans to address potential supply chain attacks.</li>
-            
-          </ul>
-        </div>
-
-        <div class="text-block"><span class="label">Watch next:</span> Monitor for any updates from security vendors regarding detection and mitigation strategies for Quasar Linux RAT.</div>
-
-        <div class="sources">
-          <div class="label">Sources</div>
-          
-            
-              <div>
-                <a href="https://thehackernews.com/2026/05/quasar-linux-rat-steals-developer.html" target="_blank" rel="noopener noreferrer">
-                  The Hacker News - Quasar Linux RAT Steals Developer Credentials for Software Supply Chain Compromise
-                </a>
-              </div>
-            
-          
-        </div>
-      </article>
-            
-          </div>
+          <p class="empty">No additional top stories.</p>
         
       </section>
 
