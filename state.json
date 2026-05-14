@@ -1,5 +1,5 @@
 {
-  "last_run_utc": "2026-05-14T10:10:24.643313+00:00",
+  "last_run_utc": "2026-05-14T14:32:39.711862+00:00",
   "processed_urls": [
     "https://www.bleepingcomputer.com/news/security/critical-cisco-sd-wan-bug-exploited-in-zero-day-attacks-since-2023/",
     "https://www.cisa.gov/news-events/alerts/2026/02/25/cisa-and-partners-release-guidance-ongoing-global-exploitation-cisco-sd-wan-systems",
@@ -508,6 +508,7 @@
     "https://www.bleepingcomputer.com/news/security/new-critical-exim-mailer-flaw-allows-remote-code-execution/",
     "https://thehackernews.com/2026/05/new-fragnesia-linux-kernel-lpe-grants.html",
     "https://thehackernews.com/2026/05/18-year-old-nginx-rewrite-module-flaw.html",
-    "https://thehackernews.com/2026/05/microsofts-mdash-ai-system-finds-16.html"
+    "https://thehackernews.com/2026/05/microsofts-mdash-ai-system-finds-16.html",
+    "https://thehackernews.com/2026/05/praisonai-cve-2026-44338-auth-bypass.html"
   ]
 }
