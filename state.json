@@ -1,5 +1,5 @@
 {
-  "last_run_utc": "2026-05-15T10:16:42.723190+00:00",
+  "last_run_utc": "2026-05-15T14:27:04.863054+00:00",
   "processed_urls": [
     "https://www.bleepingcomputer.com/news/security/critical-cisco-sd-wan-bug-exploited-in-zero-day-attacks-since-2023/",
     "https://www.cisa.gov/news-events/alerts/2026/02/25/cisa-and-partners-release-guidance-ongoing-global-exploitation-cisco-sd-wan-systems",
@@ -521,6 +521,7 @@
     "https://www.bleepingcomputer.com/news/security/openai-confirms-security-breach-in-tanstack-supply-chain-attack/",
     "https://www.bleepingcomputer.com/news/security/18-year-old-nginx-vulnerability-allows-dos-potential-rce/",
     "https://thehackernews.com/2026/05/ghostwriter-targets-ukrainian.html",
-    "https://www.bleepingcomputer.com/news/microsoft/microsoft-warns-of-exchange-zero-day-flaw-exploited-in-attacks/"
+    "https://www.bleepingcomputer.com/news/microsoft/microsoft-warns-of-exchange-zero-day-flaw-exploited-in-attacks/",
+    "https://thehackernews.com/2026/05/tanstack-supply-chain-attack-hits-two.html"
   ]
 }
