@@ -378,8 +378,8 @@
         The security news worth your attention, with context and practical takeaways.
       </p>
       <div class="meta-bar">
-        <span>Updated: 2026-05-18 11:40 UTC</span>
-        <span>Stories: 6</span>
+        <span>Updated: 2026-05-18 15:51 UTC</span>
+        <span>Stories: 2</span>
         <span>Recent issues: 14</span>
       </div>
     </header>
@@ -389,22 +389,14 @@
         <section class="one-liner">
           <h2>What Matters Today</h2>
           
-            <p class="text-block">Active exploitation of critical vulnerabilities across multiple platforms demands immediate attention from security teams to prevent severe operational impacts.</p>
+            <p class="empty">No summary available yet.</p>
           
         </section>
 
         <section class="themes">
           <h2>Patterns To Watch</h2>
           
-            <ul>
-              
-              <li>Heightened risk from active exploitation of NGINX and Linux vulnerabilities increases defender workload for immediate patching.</li>
-              
-              <li>Emerging zero-day exploits like 'MiniPlasma' and the Pwn2Own contest highlight the growing pressure on organizations to secure their software environments.</li>
-              
-              <li>Targeting of developer workstations signals a shift in attacker focus, necessitating a reassessment of supply chain security measures.</li>
-              
-            </ul>
+            <p class="empty">No themes available yet.</p>
           
         </section>
       </div>
@@ -420,45 +412,41 @@
         <div class="meta">
           <span class="chip risk-high">HIGH</span>
           
-            <span class="chip label-chip">ACTIVE EXPLOITATION</span>
-          
             <span class="chip label-chip">LEGAL POLICY</span>
           
-            <span class="chip label-chip">RESEARCH</span>
-          
-          <span class="chip chip-neutral">Execution</span>
+          <span class="chip chip-neutral">Initial Access</span>
           <span class="chip chip-neutral">Confidence LOW</span>
         </div>
         
-          <h3><a href="https://thehackernews.com/2026/05/nginx-cve-2026-42945-exploited-in-wild.html" target="_blank" rel="noopener noreferrer">NGINX CVE-2026-42945 Exploited in the Wild, Causing Worker Crashes and Possible RCE</a></h3>
+          <h3><a href="https://thehackernews.com/2026/05/weekly-recap-exchange-0-day-npm-worm.html" target="_blank" rel="noopener noreferrer">⚡ Weekly Recap: Exchange 0-Day, npm Worm, Fake AI Repo, Cisco Exploit and More</a></h3>
         
-        <p class="hook">Immediate action is required as a critical vulnerability in NGINX is being actively exploited, potentially leading to remote code execution.</p>
+        <p class="hook">The exploitation of a mail server flaw and compromised npm packages poses immediate risks to cloud security and operational integrity.</p>
         <div class="support-grid">
-          <div class="text-block"><span class="label">Who should care:</span> DevOps teams and system administrators managing NGINX deployments should prioritize this issue.</div>
-          <div class="text-block"><span class="label">Attack path:</span> An attacker can exploit this vulnerability by sending specially crafted requests to the NGINX server, leading to a buffer overflow that may allow for remote code execution.</div>
+          <div class="text-block"><span class="label">Who should care:</span> Development and operations teams using npm packages and organizations utilizing the affected mail server software should prioritize this issue.</div>
+          <div class="text-block"><span class="label">Attack path:</span> Attackers can exploit the mail server flaw to gain initial access and leverage compromised npm packages to introduce malware into applications. This can lead to further exploitation of cloud resources.</div>
         </div>
-        <div class="text-block"><span class="label">Why this matters now:</span> Active exploitation makes this an immediate exposure check.</div>
-        <div class="text-block"><span class="label">In plain English:</span> A severe vulnerability in NGINX is being exploited, risking system crashes and unauthorized access.</div>
+        <div class="text-block"><span class="label">Why this matters now:</span> Useful context for teams tracking where attacker pressure is building.</div>
+        <div class="text-block"><span class="label">In plain English:</span> Multiple vulnerabilities are being actively exploited, threatening cloud environments and software supply chains.</div>
         
           <div class="tags">
             
+              <span>ransomware</span>
+            
               <span>cve</span>
             
-              <span>nginx</span>
-            
-              <span>rce</span>
+              <span>cloud</span>
             
           </div>
         
         <ul class="story-list">
           
-            <li>A vulnerability identified as CVE-2026-42945 has been disclosed, affecting NGINX Plus and NGINX Open. This flaw, a heap buffer overflow in the ngx_http_rewrite_module, impacts versions from 0.6.27 to 1.30.0 and has a CVSS score of 9.2. Reports indicate that it is currently being exploited in the wild.</li>
+            <li>A zero-day vulnerability in a mail server is currently being exploited, allowing attackers to gain unauthorized access. Additionally, a worm targeting npm packages has been identified, which can poison trusted software dependencies. A fake AI model page has also been reported, distributing a credential-stealing malware.</li>
           
-            <li>If exploited, this vulnerability can lead to worker crashes and potentially allow attackers to execute arbitrary code on affected systems. Given the widespread use of NGINX in web services, the impact could be significant, affecting service availability and security.</li>
+            <li>These vulnerabilities can lead to significant data breaches and operational disruptions, especially in cloud environments where a single compromised dependency can grant attackers extensive access. Organizations relying on npm packages are particularly at risk, as poisoned packages can introduce malicious code into production systems.</li>
           
-            <li>An attacker can exploit this vulnerability by sending specially crafted requests to the NGINX server, leading to a buffer overflow that may allow for remote code execution.</li>
+            <li>Attackers can exploit the mail server flaw to gain initial access and leverage compromised npm packages to introduce malware into applications. This can lead to further exploitation of cloud resources.</li>
           
-            <li>Watch next: Monitor for updates from NGINX regarding patches and any further exploitation reports.</li>
+            <li>Watch next: Monitor for updates from vendors regarding patches for the mail server vulnerability and npm package integrity checks.</li>
           
         </ul>
 
@@ -467,9 +455,9 @@
             <div class="label">Key terms</div>
             <ul class="list">
             
-              <li>CVE - Common Vulnerabilities and Exposures, a list of publicly disclosed cybersecurity vulnerabilities.</li>
+              <li>ZERO-DAY - a vulnerability that is exploited before the vendor has released a fix.</li>
             
-              <li>RCE - Remote Code Execution, a type of vulnerability that allows an attacker to run arbitrary code on a remote system.</li>
+              <li>npm - a package manager for JavaScript that allows developers to share and reuse code.</li>
             
             </ul>
           </div>
@@ -479,11 +467,11 @@
           <div class="label">Defender focus</div>
           <ul class="list">
             
-            <li>Implement immediate monitoring for unusual traffic patterns targeting NGINX servers.</li>
+            <li>Implement monitoring for unusual access patterns in mail server logs.</li>
             
-            <li>Review and apply patches for NGINX versions affected by CVE-2026-42945.</li>
+            <li>Conduct a review of npm package dependencies for known vulnerabilities.</li>
             
-            <li>Conduct a risk assessment to identify and mitigate potential impacts on web services.</li>
+            <li>Establish alerts for any unauthorized changes to trusted software repositories.</li>
             
           </ul>
         </div>
@@ -492,24 +480,24 @@
           <div class="label">Do now</div>
           <ul class="list">
             
-            <li>Patch NGINX installations to the latest version immediately.</li>
+            <li>Patch the mail server software immediately.</li>
             
-            <li>Review server logs for any signs of exploitation attempts.</li>
+            <li>Audit and update npm packages to remove any known vulnerabilities.</li>
             
-            <li>Implement additional security measures, such as web application firewalls, to mitigate risks.</li>
+            <li>Educate development teams on the risks of using unverified packages.</li>
             
           </ul>
         </div>
 
-        <div class="text-block"><span class="label">Watch next:</span> Monitor for updates from NGINX regarding patches and any further exploitation reports.</div>
+        <div class="text-block"><span class="label">Watch next:</span> Monitor for updates from vendors regarding patches for the mail server vulnerability and npm package integrity checks.</div>
 
         <div class="sources">
           <div class="label">Sources</div>
           
             
               <div>
-                <a href="https://thehackernews.com/2026/05/nginx-cve-2026-42945-exploited-in-wild.html" target="_blank" rel="noopener noreferrer">
-                  The Hacker News - NGINX CVE-2026-42945 Exploited in the Wild, Causing Worker Crashes and Possible RCE
+                <a href="https://thehackernews.com/2026/05/weekly-recap-exchange-0-day-npm-worm.html" target="_blank" rel="noopener noreferrer">
+                  The Hacker News - ⚡ Weekly Recap: Exchange 0-Day, npm Worm, Fake AI Repo, Cisco Exploit and More
                 </a>
               </div>
             
@@ -532,259 +520,41 @@
         <div class="meta">
           <span class="chip risk-high">HIGH</span>
           
-            <span class="chip label-chip">PATCH RELEASE</span>
-          
-            <span class="chip label-chip">LEGAL POLICY</span>
-          
-            <span class="chip label-chip">RESEARCH</span>
-          
-          <span class="chip chip-neutral">Privilege Escalation</span>
-          <span class="chip chip-neutral">Confidence MEDIUM</span>
-        </div>
-        
-          <h3><a href="https://www.bleepingcomputer.com/news/microsoft/new-windows-miniplasma-zero-day-exploit-gives-system-access-poc-released/" target="_blank" rel="noopener noreferrer">New Windows 'MiniPlasma' zero-day exploit gives SYSTEM access, PoC released</a></h3>
-        
-        <p class="hook">The release of a proof-of-concept exploit for the 'MiniPlasma' zero-day could lead to widespread privilege escalation attacks on Windows systems, making immediate patching essential.</p>
-        <div class="support-grid">
-          <div class="text-block"><span class="label">Who should care:</span> IT security teams managing Windows environments should prioritize this issue.</div>
-          <div class="text-block"><span class="label">Attack path:</span> An attacker can exploit this vulnerability to gain SYSTEM privileges, allowing them to execute arbitrary code with the highest level of access on the target system.</div>
-        </div>
-        <div class="text-block"><span class="label">Why this matters now:</span> A live patch or vendor fix gives defenders something concrete to validate. Multiple sources point to the same operational problem.</div>
-        <div class="text-block"><span class="label">In plain English:</span> A new exploit allows attackers to gain full control of Windows systems, and a proof-of-concept is now publicly available.</div>
-        
-          <div class="tags">
-            
-              <span>cve</span>
-            
-              <span>windows</span>
-            
-              <span>exploit</span>
-            
-              <span>privilege escalation</span>
-            
-          </div>
-        
-        <ul class="story-list">
-          
-            <li>A cybersecurity researcher has disclosed a zero-day vulnerability in Windows, named 'MiniPlasma', which allows attackers to escalate privileges to SYSTEM level on fully patched systems. A proof-of-concept (PoC) exploit has been released, increasing the risk of exploitation in the wild.</li>
-          
-            <li>This vulnerability poses a significant threat as it enables attackers to gain complete control over affected systems, potentially leading to data breaches or further network compromise. Organizations must act quickly to mitigate risks associated with this exploit.</li>
-          
-            <li>An attacker can exploit this vulnerability to gain SYSTEM privileges, allowing them to execute arbitrary code with the highest level of access on the target system.</li>
-          
-            <li>Also reported by The Hacker News.</li>
-          
-            <li>Watch next: Monitor for any updates from Microsoft regarding patches or mitigations for this vulnerability.</li>
-          
-        </ul>
-
-        
-          <div class="glossary">
-            <div class="label">Key terms</div>
-            <ul class="list">
-            
-              <li>ZERO-DAY - a vulnerability that is unknown to the vendor and has no available patch.</li>
-            
-              <li>PROOF-OF-CONCEPT (PoC) - a demonstration that a vulnerability can be exploited.</li>
-            
-              <li>PRIVILEGE ESCALATION - a type of attack that allows a user to gain elevated access to resources that are normally protected from an application or user.</li>
-            
-            </ul>
-          </div>
-        
-
-        <div>
-          <div class="label">Defender focus</div>
-          <ul class="list">
-            
-            <li>Implement monitoring for unusual privilege escalation attempts on Windows systems.</li>
-            
-            <li>Review logs for any signs of exploitation attempts related to the MiniPlasma vulnerability.</li>
-            
-            <li>Prepare to deploy patches as soon as they are released by Microsoft.</li>
-            
-          </ul>
-        </div>
-
-        <div>
-          <div class="label">Do now</div>
-          <ul class="list">
-            
-            <li>Monitor for updates from Microsoft regarding this vulnerability.</li>
-            
-            <li>Assess your Windows systems for exposure to the MiniPlasma exploit.</li>
-            
-            <li>Prepare to apply patches immediately once they are available.</li>
-            
-          </ul>
-        </div>
-
-        <div class="text-block"><span class="label">Watch next:</span> Monitor for any updates from Microsoft regarding patches or mitigations for this vulnerability.</div>
-
-        <div class="sources">
-          <div class="label">Sources</div>
-          
-            
-              <div>
-                <a href="https://www.bleepingcomputer.com/news/microsoft/new-windows-miniplasma-zero-day-exploit-gives-system-access-poc-released/" target="_blank" rel="noopener noreferrer">
-                  BleepingComputer - New Windows 'MiniPlasma' zero-day exploit gives SYSTEM access, PoC released
-                </a>
-              </div>
-            
-          
-            
-              <div>
-                <a href="https://thehackernews.com/2026/05/miniplasma-windows-0-day-enables-system.html" target="_blank" rel="noopener noreferrer">
-                  The Hacker News - MiniPlasma Windows 0-Day Enables SYSTEM Privilege Escalation on Fully Patched Systems
-                </a>
-              </div>
-            
-          
-        </div>
-      </article>
-            
-              <article class="card" style="--i: 1;">
-        <div class="meta">
-          <span class="chip risk-high">HIGH</span>
-          
-            <span class="chip label-chip">PATCH RELEASE</span>
-          
-            <span class="chip label-chip">LEGAL POLICY</span>
-          
-            <span class="chip label-chip">RESEARCH</span>
-          
-          <span class="chip chip-neutral">Execution</span>
-          <span class="chip chip-neutral">Confidence LOW</span>
-        </div>
-        
-          <h3><a href="https://thehackernews.com/2026/05/ivanti-fortinet-sap-vmware-n8n-patch.html" target="_blank" rel="noopener noreferrer">Ivanti, Fortinet, SAP, VMware, n8n Patch RCE, SQL Injection, Privilege Escalation Flaws</a></h3>
-        
-        <p class="hook">Critical vulnerabilities in widely used software could lead to severe data breaches and operational disruptions if not addressed immediately.</p>
-        <div class="support-grid">
-          <div class="text-block"><span class="label">Who should care:</span> IT security teams managing Ivanti, Fortinet, SAP, VMware, and n8n products should prioritize these updates.</div>
-          <div class="text-block"><span class="label">Attack path:</span> An attacker could exploit these vulnerabilities to gain unauthorized access and execute malicious code within affected systems. This could lead to data breaches or further compromise of the network.</div>
-        </div>
-        <div class="text-block"><span class="label">Why this matters now:</span> A live patch or vendor fix gives defenders something concrete to validate.</div>
-        <div class="text-block"><span class="label">In plain English:</span> Multiple vendors have released patches for serious vulnerabilities that could allow attackers to execute arbitrary code.</div>
-        
-          <div class="tags">
-            
-              <span>rce</span>
-            
-              <span>cve</span>
-            
-              <span>patch</span>
-            
-          </div>
-        
-        <ul class="story-list">
-          
-            <li>Ivanti, Fortinet, SAP, VMware, and n8n have issued security updates to address several vulnerabilities, including a critical flaw in Ivanti Xtraction (CVE-2026-8043) with a CVSS score of 9.6. These vulnerabilities could allow attackers to bypass authentication and execute arbitrary code.</li>
-          
-            <li>If exploited, these vulnerabilities could lead to unauthorized access to sensitive data and systems, potentially resulting in significant financial and reputational damage. Organizations using these products must prioritize patching to mitigate the risk of exploitation.</li>
-          
-            <li>An attacker could exploit these vulnerabilities to gain unauthorized access and execute malicious code within affected systems. This could lead to data breaches or further compromise of the network.</li>
-          
-            <li>Watch next: Monitor for updates from vendors regarding any additional vulnerabilities or patches that may be released.</li>
-          
-        </ul>
-
-        
-          <div class="glossary">
-            <div class="label">Key terms</div>
-            <ul class="list">
-            
-              <li>RCE - Remote Code Execution, a vulnerability that allows an attacker to run arbitrary code on a remote system.</li>
-            
-              <li>SQL Injection - A code injection technique that exploits a vulnerability in an application's software by manipulating SQL queries.</li>
-            
-            </ul>
-          </div>
-        
-
-        <div>
-          <div class="label">Defender focus</div>
-          <ul class="list">
-            
-            <li>Verify that all systems running Ivanti, Fortinet, SAP, VMware, and n8n are updated with the latest patches.</li>
-            
-            <li>Implement network segmentation to limit the potential impact of an exploit.</li>
-            
-            <li>Monitor logs for unusual access patterns that may indicate exploitation attempts.</li>
-            
-          </ul>
-        </div>
-
-        <div>
-          <div class="label">Do now</div>
-          <ul class="list">
-            
-            <li>Immediately apply the latest security patches from the affected vendors.</li>
-            
-            <li>Conduct a risk assessment to identify systems at risk of exploitation.</li>
-            
-            <li>Review and enhance monitoring for suspicious activity related to these products.</li>
-            
-          </ul>
-        </div>
-
-        <div class="text-block"><span class="label">Watch next:</span> Monitor for updates from vendors regarding any additional vulnerabilities or patches that may be released.</div>
-
-        <div class="sources">
-          <div class="label">Sources</div>
-          
-            
-              <div>
-                <a href="https://thehackernews.com/2026/05/ivanti-fortinet-sap-vmware-n8n-patch.html" target="_blank" rel="noopener noreferrer">
-                  The Hacker News - Ivanti, Fortinet, SAP, VMware, n8n Patch RCE, SQL Injection, Privilege Escalation Flaws
-                </a>
-              </div>
-            
-          
-        </div>
-      </article>
-            
-              <article class="card" style="--i: 2;">
-        <div class="meta">
-          <span class="chip risk-high">HIGH</span>
-          
-            <span class="chip label-chip">LEGAL POLICY</span>
-          
-            <span class="chip label-chip">RESEARCH</span>
+            <span class="chip label-chip">INDUSTRY SIGNAL</span>
           
           <span class="chip chip-neutral">Initial Access</span>
           <span class="chip chip-neutral">Confidence LOW</span>
         </div>
         
-          <h3><a href="https://www.bleepingcomputer.com/news/security/hackers-earn-1-298-250-for-47-zero-days-at-pwn2own-berlin-2026/" target="_blank" rel="noopener noreferrer">Hackers earn $1,298,250 for 47 zero-days at Pwn2Own Berlin 2026</a></h3>
+          <h3><a href="https://thehackernews.com/2026/05/how-to-reduce-phishing-exposure-before.html" target="_blank" rel="noopener noreferrer">How to Reduce Phishing Exposure Before It Turns into Business Disruption</a></h3>
         
-        <p class="hook">The recent Pwn2Own Berlin contest highlights a significant surge in zero-day vulnerabilities, raising immediate concerns for organizations relying on affected software.</p>
+        <p class="hook">Phishing attacks that bypass security measures can lead to significant business disruptions, making early detection critical.</p>
         <div class="support-grid">
-          <div class="text-block"><span class="label">Who should care:</span> Security teams and IT departments managing software products that were demonstrated at the contest should prioritize their response.</div>
-          <div class="text-block"><span class="label">Attack path:</span> Attackers can exploit these zero-day vulnerabilities to gain unauthorized access to systems or escalate privileges, leading to potential data breaches or system compromises.</div>
+          <div class="text-block"><span class="label">Who should care:</span> SOC teams, IT security personnel, and any organization relying on email communication should prioritize this issue.</div>
+          <div class="text-block"><span class="label">Attack path:</span> Attackers often use sophisticated techniques to craft phishing emails that mimic legitimate communications. Once a user clicks on a malicious link, they can gain access to sensitive information or systems.</div>
         </div>
         <div class="text-block"><span class="label">Why this matters now:</span> Useful context for teams tracking where attacker pressure is building.</div>
-        <div class="text-block"><span class="label">In plain English:</span> Hackers exploited 47 zero-day vulnerabilities at a recent contest, indicating a growing threat landscape.</div>
+        <div class="text-block"><span class="label">In plain English:</span> Phishing emails that appear legitimate can compromise business security, and early detection is essential.</div>
         
           <div class="tags">
             
-              <span>zero day</span>
+              <span>phishing</span>
             
-              <span>pwn2own</span>
+              <span>email security</span>
             
-              <span>vulnerability</span>
+              <span>detection</span>
             
           </div>
         
         <ul class="story-list">
           
-            <li>At the Pwn2Own Berlin 2026 event, security researchers successfully exploited 47 zero-day vulnerabilities, earning a total of $1,298,250 in rewards. This contest showcases the increasing number of undisclosed vulnerabilities that can be leveraged by malicious actors.</li>
+            <li>A recent article discusses the challenges SOC teams face with phishing emails that evade detection. These emails can appear clean but may lead to severe consequences if clicked. The focus is on improving early detection methods to mitigate risks.</li>
           
-            <li>The discovery of multiple zero-day vulnerabilities suggests that many software products may be at risk, potentially exposing organizations to significant security breaches. As these vulnerabilities become public, attackers may quickly develop exploits, making it crucial for organizations to assess their exposure and patch affected systems.</li>
+            <li>Phishing attacks can result in data breaches, financial loss, and reputational damage. Understanding how to detect these threats early can help organizations respond effectively and reduce the potential impact on operations.</li>
           
-            <li>Attackers can exploit these zero-day vulnerabilities to gain unauthorized access to systems or escalate privileges, leading to potential data breaches or system compromises.</li>
+            <li>Attackers often use sophisticated techniques to craft phishing emails that mimic legitimate communications. Once a user clicks on a malicious link, they can gain access to sensitive information or systems.</li>
           
-            <li>Watch next: Monitor for vendor updates and patches related to the vulnerabilities demonstrated at Pwn2Own Berlin.</li>
+            <li>Watch next: Monitor for updates on phishing detection tools and techniques from cybersecurity vendors.</li>
           
         </ul>
 
@@ -793,9 +563,9 @@
             <div class="label">Key terms</div>
             <ul class="list">
             
-              <li>Zero-day - a vulnerability that is unknown to the software vendor and has not yet been patched.</li>
+              <li>Phishing - a type of cyber attack where attackers impersonate legitimate entities to steal sensitive information.</li>
             
-              <li>Pwn2Own - a hacking contest where researchers exploit software vulnerabilities for rewards.</li>
+              <li>Early detection - identifying threats as soon as possible to prevent damage.</li>
             
             </ul>
           </div>
@@ -805,11 +575,11 @@
           <div class="label">Defender focus</div>
           <ul class="list">
             
-            <li>Identify and prioritize patching for software products that were exploited during the contest.</li>
+            <li>Implement advanced email filtering solutions to catch sophisticated phishing attempts.</li>
             
-            <li>Enhance monitoring for unusual activity that may indicate exploitation of these vulnerabilities.</li>
+            <li>Conduct regular phishing simulations to test employee awareness and response.</li>
             
-            <li>Review and update incident response plans to address potential breaches stemming from these zero-days.</li>
+            <li>Establish a rapid response plan for suspected phishing incidents to minimize potential damage.</li>
             
           </ul>
         </div>
@@ -818,24 +588,24 @@
           <div class="label">Do now</div>
           <ul class="list">
             
-            <li>Assess and patch any software known to be vulnerable based on Pwn2Own findings.</li>
+            <li>Enhance email security protocols immediately.</li>
             
-            <li>Implement additional monitoring for systems using affected software.</li>
+            <li>Train staff on recognizing phishing attempts.</li>
             
-            <li>Stay informed on vendor communications regarding patches and updates.</li>
+            <li>Review and update incident response plans for phishing attacks.</li>
             
           </ul>
         </div>
 
-        <div class="text-block"><span class="label">Watch next:</span> Monitor for vendor updates and patches related to the vulnerabilities demonstrated at Pwn2Own Berlin.</div>
+        <div class="text-block"><span class="label">Watch next:</span> Monitor for updates on phishing detection tools and techniques from cybersecurity vendors.</div>
 
         <div class="sources">
           <div class="label">Sources</div>
           
             
               <div>
-                <a href="https://www.bleepingcomputer.com/news/security/hackers-earn-1-298-250-for-47-zero-days-at-pwn2own-berlin-2026/" target="_blank" rel="noopener noreferrer">
-                  BleepingComputer - Hackers earn $1,298,250 for 47 zero-days at Pwn2Own Berlin 2026
+                <a href="https://thehackernews.com/2026/05/how-to-reduce-phishing-exposure-before.html" target="_blank" rel="noopener noreferrer">
+                  The Hacker News - How to Reduce Phishing Exposure Before It Turns into Business Disruption
                 </a>
               </div>
             
@@ -853,205 +623,7 @@
           Wider Signal
         </div>
         
-          <div class="grid">
-            
-              <article class="card" style="--i: 0;">
-        <div class="meta">
-          <span class="chip risk-high">HIGH</span>
-          
-            <span class="chip label-chip">INDUSTRY SIGNAL</span>
-          
-          <span class="chip chip-neutral">Credential Access</span>
-          <span class="chip chip-neutral">Confidence LOW</span>
-        </div>
-        
-          <h3><a href="https://thehackernews.com/2026/05/developer-workstations-are-now-part-of.html" target="_blank" rel="noopener noreferrer">Developer Workstations Are Now Part of the Software Supply Chain</a></h3>
-        
-        <p class="hook">The recent targeting of developer workstations poses a significant risk to software integrity and security, making it crucial for organizations to reassess their supply chain defenses now.</p>
-        <div class="support-grid">
-          <div class="text-block"><span class="label">Who should care:</span> Development teams, DevOps, and security teams managing CI/CD pipelines and software supply chains should be particularly vigilant.</div>
-          <div class="text-block"><span class="label">Attack path:</span> Attackers gain leverage by infiltrating developer environments to steal access credentials, enabling them to manipulate software and systems without detection.</div>
-        </div>
-        <div class="text-block"><span class="label">Why this matters now:</span> Useful context for teams tracking where attacker pressure is building.</div>
-        <div class="text-block"><span class="label">In plain English:</span> Attacks on developer environments are increasing, threatening the security of software supply chains.</div>
-        
-          <div class="tags">
-            
-              <span>supply chain</span>
-            
-              <span>developer security</span>
-            
-              <span>credential theft</span>
-            
-          </div>
-        
-        <ul class="story-list">
-          
-            <li>In a 48-hour period, three separate campaigns targeted npm, PyPI, and Docker Hub, aiming to extract sensitive information such as API keys, cloud credentials, SSH keys, and tokens from developer environments and CI/CD pipelines. These attacks highlight a shift in focus from injecting malicious code to stealing access credentials.</li>
-          
-            <li>The compromise of developer workstations can lead to unauthorized access to critical systems and data, potentially allowing attackers to manipulate software before it reaches production. This not only jeopardizes the integrity of applications but also exposes organizations to compliance risks and reputational damage.</li>
-          
-            <li>Attackers gain leverage by infiltrating developer environments to steal access credentials, enabling them to manipulate software and systems without detection.</li>
-          
-            <li>Watch next: Monitor for any updates from npm, PyPI, and Docker Hub regarding security patches or incidents related to these campaigns.</li>
-          
-        </ul>
-
-        
-          <div class="glossary">
-            <div class="label">Key terms</div>
-            <ul class="list">
-            
-              <li>CI/CD - Continuous Integration/Continuous Deployment, a set of practices that automate the software development process.</li>
-            
-              <li>API Key - A code passed in by computer programs calling an API to identify the calling program.</li>
-            
-            </ul>
-          </div>
-        
-
-        <div>
-          <div class="label">Defender focus</div>
-          <ul class="list">
-            
-            <li>Implement monitoring for unusual access patterns in developer environments.</li>
-            
-            <li>Review and rotate API keys and credentials regularly to minimize exposure.</li>
-            
-            <li>Enhance logging and alerting for CI/CD pipeline activities to detect unauthorized access.</li>
-            
-          </ul>
-        </div>
-
-        <div>
-          <div class="label">Do now</div>
-          <ul class="list">
-            
-            <li>Conduct an immediate audit of developer access credentials.</li>
-            
-            <li>Implement stricter access controls and monitoring for developer workstations.</li>
-            
-            <li>Educate development teams on secure coding practices and credential management.</li>
-            
-          </ul>
-        </div>
-
-        <div class="text-block"><span class="label">Watch next:</span> Monitor for any updates from npm, PyPI, and Docker Hub regarding security patches or incidents related to these campaigns.</div>
-
-        <div class="sources">
-          <div class="label">Sources</div>
-          
-            
-              <div>
-                <a href="https://thehackernews.com/2026/05/developer-workstations-are-now-part-of.html" target="_blank" rel="noopener noreferrer">
-                  The Hacker News - Developer Workstations Are Now Part of the Software Supply Chain
-                </a>
-              </div>
-            
-          
-        </div>
-      </article>
-            
-              <article class="card" style="--i: 1;">
-        <div class="meta">
-          <span class="chip risk-high">HIGH</span>
-          
-            <span class="chip label-chip">PATCH RELEASE</span>
-          
-            <span class="chip label-chip">LEGAL POLICY</span>
-          
-          <span class="chip chip-neutral">Privilege Escalation</span>
-          <span class="chip chip-neutral">Confidence LOW</span>
-        </div>
-        
-          <h3><a href="https://www.bleepingcomputer.com/news/security/exploit-available-for-new-dirtydecrypt-linux-root-escalation-flaw/" target="_blank" rel="noopener noreferrer">Exploit available for new DirtyDecrypt Linux root escalation flaw</a></h3>
-        
-        <p class="hook">The availability of a proof-of-concept exploit for a critical Linux vulnerability poses an immediate risk of unauthorized root access, potentially compromising entire systems.</p>
-        <div class="support-grid">
-          <div class="text-block"><span class="label">Who should care:</span> System administrators and security teams managing Linux servers and applications.</div>
-          <div class="text-block"><span class="label">Attack path:</span> An attacker can leverage the vulnerability to execute code with elevated privileges, gaining root access to the system.</div>
-        </div>
-        <div class="text-block"><span class="label">Why this matters now:</span> A live patch or vendor fix gives defenders something concrete to validate.</div>
-        <div class="text-block"><span class="label">In plain English:</span> A new exploit for a Linux kernel vulnerability could allow attackers to gain root access.</div>
-        
-          <div class="tags">
-            
-              <span>cve</span>
-            
-              <span>linux</span>
-            
-              <span>privilege escalation</span>
-            
-          </div>
-        
-        <ul class="story-list">
-          
-            <li>A local privilege escalation vulnerability in the Linux kernel's rxgk module has been patched, but a proof-of-concept exploit is now publicly available. This flaw allows attackers to escalate privileges to root on affected Linux systems.</li>
-          
-            <li>If exploited, this vulnerability could enable attackers to gain full control over systems, leading to data breaches, service disruptions, or further infiltration into networks. Organizations using affected Linux distributions must act quickly to mitigate risks.</li>
-          
-            <li>An attacker can leverage the vulnerability to execute code with elevated privileges, gaining root access to the system.</li>
-          
-            <li>Watch next: Monitor for updates from Linux distribution vendors regarding patches and mitigation strategies.</li>
-          
-        </ul>
-
-        
-          <div class="glossary">
-            <div class="label">Key terms</div>
-            <ul class="list">
-            
-              <li>Local Privilege Escalation - a type of vulnerability that allows a user to gain elevated access to resources that are normally protected from the user.</li>
-            
-              <li>Proof-of-Concept - a demonstration that a certain concept or theory is feasible, often used in the context of security vulnerabilities.</li>
-            
-            </ul>
-          </div>
-        
-
-        <div>
-          <div class="label">Defender focus</div>
-          <ul class="list">
-            
-            <li>Implement monitoring for unusual privilege escalation attempts on Linux systems.</li>
-            
-            <li>Ensure all Linux systems are updated with the latest security patches.</li>
-            
-            <li>Review access controls and permissions to limit potential damage from exploitation.</li>
-            
-          </ul>
-        </div>
-
-        <div>
-          <div class="label">Do now</div>
-          <ul class="list">
-            
-            <li>Patch affected Linux systems immediately.</li>
-            
-            <li>Review logs for any signs of exploitation attempts.</li>
-            
-            <li>Limit access to critical systems to only necessary personnel.</li>
-            
-          </ul>
-        </div>
-
-        <div class="text-block"><span class="label">Watch next:</span> Monitor for updates from Linux distribution vendors regarding patches and mitigation strategies.</div>
-
-        <div class="sources">
-          <div class="label">Sources</div>
-          
-            
-              <div>
-                <a href="https://www.bleepingcomputer.com/news/security/exploit-available-for-new-dirtydecrypt-linux-root-escalation-flaw/" target="_blank" rel="noopener noreferrer">
-                  BleepingComputer - Exploit available for new DirtyDecrypt Linux root escalation flaw
-                </a>
-              </div>
-            
-          
-        </div>
-      </article>
-            
-          </div>
+          <p class="empty">No context stories today.</p>
         
       </section>
     </main>
