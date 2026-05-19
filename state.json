@@ -1,5 +1,5 @@
 {
-  "last_run_utc": "2026-05-18T15:51:47.123260+00:00",
+  "last_run_utc": "2026-05-19T10:58:05.672144+00:00",
   "processed_urls": [
     "https://www.bleepingcomputer.com/news/security/critical-cisco-sd-wan-bug-exploited-in-zero-day-attacks-since-2023/",
     "https://www.cisa.gov/news-events/alerts/2026/02/25/cisa-and-partners-release-guidance-ongoing-global-exploitation-cisco-sd-wan-systems",
@@ -538,6 +538,12 @@
     "https://www.bleepingcomputer.com/news/security/exploit-available-for-new-dirtydecrypt-linux-root-escalation-flaw/",
     "https://www.bleepingcomputer.com/news/security/tycoon2fa-hijacks-microsoft-365-accounts-via-device-code-phishing/",
     "https://thehackernews.com/2026/05/weekly-recap-exchange-0-day-npm-worm.html",
-    "https://thehackernews.com/2026/05/how-to-reduce-phishing-exposure-before.html"
+    "https://thehackernews.com/2026/05/how-to-reduce-phishing-exposure-before.html",
+    "https://thehackernews.com/2026/05/github-actions-supply-chain-attack.html",
+    "https://krebsonsecurity.com/2026/05/cisa-admin-leaked-aws-govcloud-keys-on-github/",
+    "https://www.bleepingcomputer.com/news/security/interpol-operation-ramz-seizes-53-malware-phishing-servers/",
+    "https://thehackernews.com/2026/05/seppmail-secure-e-mail-gateway.html",
+    "https://thehackernews.com/2026/05/compromised-nx-console-18950-targeted.html",
+    "https://thehackernews.com/2026/05/mini-shai-hulud-pushes-malicious-antv.html"
   ]
 }
