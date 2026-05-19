@@ -378,8 +378,8 @@
         The security news worth your attention, with context and practical takeaways.
       </p>
       <div class="meta-bar">
-        <span>Updated: 2026-05-19 10:58 UTC</span>
-        <span>Stories: 6</span>
+        <span>Updated: 2026-05-19 15:42 UTC</span>
+        <span>Stories: 3</span>
         <span>Recent issues: 14</span>
       </div>
     </header>
@@ -389,7 +389,7 @@
         <section class="one-liner">
           <h2>What Matters Today</h2>
           
-            <p class="text-block">Critical vulnerabilities and supply chain attacks are heightening risks for organizations, particularly in email security and CI/CD processes.</p>
+            <p class="text-block">The release of a critical Linux kernel exploit and the emergence of a new phishing method targeting Microsoft 365 highlight urgent vulnerabilities that could significantly increase defender workloads.</p>
           
         </section>
 
@@ -398,11 +398,11 @@
           
             <ul>
               
-              <li>RCE vulnerabilities in email gateways increase the risk of sensitive data exposure and operational disruption.</li>
+              <li>The availability of a proof-of-concept exploit for a Linux kernel vulnerability raises the risk of local privilege escalation attacks, necessitating immediate action from system administrators.</li>
               
-              <li>Supply chain attacks targeting CI/CD pipelines can lead to widespread credential theft, amplifying the threat landscape.</li>
+              <li>Windows Update failures in restricted networks expose critical systems to unpatched vulnerabilities, increasing the burden on IT teams to ensure security.</li>
               
-              <li>The exposure of sensitive keys by trusted entities highlights the ongoing risks associated with insider threats and operational security.</li>
+              <li>The rise of phishing techniques that bypass multi-factor authentication indicates a shift in attacker tactics, requiring heightened vigilance from IT security teams.</li>
               
             </ul>
           
@@ -420,41 +420,45 @@
         <div class="meta">
           <span class="chip risk-high">HIGH</span>
           
+            <span class="chip label-chip">PATCH RELEASE</span>
+          
             <span class="chip label-chip">INDUSTRY SIGNAL</span>
           
-          <span class="chip chip-neutral">Initial Access</span>
+            <span class="chip label-chip">LEGAL POLICY</span>
+          
+          <span class="chip chip-neutral">Privilege Escalation</span>
           <span class="chip chip-neutral">Confidence LOW</span>
         </div>
         
-          <h3><a href="https://thehackernews.com/2026/05/seppmail-secure-e-mail-gateway.html" target="_blank" rel="noopener noreferrer">SEPPMail Secure E-Mail Gateway Vulnerabilities Enable RCE and Mail Traffic Access</a></h3>
+          <h3><a href="https://thehackernews.com/2026/05/dirtydecrypt-poc-released-for-linux.html" target="_blank" rel="noopener noreferrer">DirtyDecrypt PoC Released for Linux Kernel CVE-2026-31635 LPE Vulnerability</a></h3>
         
-        <p class="hook">Critical vulnerabilities in SEPPMail could allow attackers to execute code remotely and access sensitive email traffic, posing a significant risk to organizational security.</p>
+        <p class="hook">The release of a proof-of-concept exploit for a critical Linux kernel vulnerability could lead to widespread local privilege escalation attacks, making it urgent for organizations to secure their systems.</p>
         <div class="support-grid">
-          <div class="text-block"><span class="label">Who should care:</span> IT security teams managing email security solutions and organizations using SEPPMail.</div>
-          <div class="text-block"><span class="label">Attack path:</span> An attacker could exploit these vulnerabilities to gain remote access to the SEPPMail appliance, allowing them to execute malicious code and read email communications.</div>
+          <div class="text-block"><span class="label">Who should care:</span> System administrators and security teams managing Linux environments should prioritize this issue.</div>
+          <div class="text-block"><span class="label">Attack path:</span> An attacker could leverage this exploit to gain local administrative privileges on a vulnerable system, allowing them to execute arbitrary code with elevated permissions.</div>
         </div>
-        <div class="text-block"><span class="label">Why this matters now:</span> Useful context for teams tracking where attacker pressure is building.</div>
-        <div class="text-block"><span class="label">In plain English:</span> SEPPMail has serious vulnerabilities that could let attackers run code and read emails.</div>
+        <div class="text-block"><span class="label">Why this matters now:</span> A live patch or vendor fix gives defenders something concrete to validate.</div>
+        <div class="text-block"><span class="label">In plain English:</span> A new exploit for a serious Linux kernel vulnerability is now publicly available, increasing the risk of attacks.</div>
         
           <div class="tags">
             
-              <span>ransomware</span>
+              <span>linux</span>
             
               <span>cve</span>
             
-              <span>cloud</span>
+              <span>privilege escalation</span>
             
           </div>
         
         <ul class="story-list">
           
-            <li>SEPPMail Secure E-Mail Gateway has disclosed critical vulnerabilities that could be exploited for remote code execution (RCE) and unauthorized access to email traffic. These flaws could allow attackers to read arbitrary emails from the virtual appliance, potentially compromising sensitive information.</li>
+            <li>A proof-of-concept exploit, named DirtyDecrypt, has been released for a recently patched local privilege escalation vulnerability in the Linux kernel (CVE-2026-31635). This vulnerability was reported by the Zellic and V12 security team on May 9, 2026, and was confirmed as a duplicate of an existing issue.</li>
           
-            <li>The ability to execute code remotely and access email traffic can lead to severe data breaches and internal network compromises. Organizations using SEPPMail must act quickly to mitigate these vulnerabilities to protect their email communications and overall security posture.</li>
+            <li>The availability of this exploit means that attackers can potentially gain elevated privileges on affected systems, which could lead to further compromise or data breaches. Organizations using vulnerable Linux systems need to act quickly to mitigate this risk.</li>
           
-            <li>An attacker could exploit these vulnerabilities to gain remote access to the SEPPMail appliance, allowing them to execute malicious code and read email communications.</li>
+            <li>An attacker could leverage this exploit to gain local administrative privileges on a vulnerable system, allowing them to execute arbitrary code with elevated permissions.</li>
           
-            <li>Watch next: Monitor for patches or updates from SEPPMail and any reports of exploitation in the wild.</li>
+            <li>Watch next: Monitor for any updates from Linux maintainers regarding patches or mitigations for this vulnerability.</li>
           
         </ul>
 
@@ -463,9 +467,9 @@
             <div class="label">Key terms</div>
             <ul class="list">
             
-              <li>Remote Code Execution (RCE) - a vulnerability that allows an attacker to run arbitrary code on a remote system.</li>
+              <li>Local Privilege Escalation (LPE) - a type of security vulnerability that allows an attacker to gain elevated access to resources that are normally protected from the user.</li>
             
-              <li>Email Traffic - the flow of email messages sent and received within an email system.</li>
+              <li>Proof-of-Concept (PoC) - a demonstration that a certain vulnerability can be exploited, often used to show the feasibility of an attack.</li>
             
             </ul>
           </div>
@@ -475,11 +479,11 @@
           <div class="label">Defender focus</div>
           <ul class="list">
             
-            <li>Implement monitoring for unusual email access patterns.</li>
+            <li>Implement immediate monitoring for unusual privilege escalation attempts on Linux systems.</li>
             
-            <li>Review logs for any unauthorized access attempts to the SEPPMail appliance.</li>
+            <li>Review and apply the latest patches for the Linux kernel to mitigate this vulnerability.</li>
             
-            <li>Ensure that all SEPPMail installations are updated with the latest security patches.</li>
+            <li>Conduct a risk assessment to identify and prioritize systems that may be affected by this exploit.</li>
             
           </ul>
         </div>
@@ -488,24 +492,24 @@
           <div class="label">Do now</div>
           <ul class="list">
             
-            <li>Immediately assess the SEPPMail installations for vulnerabilities.</li>
+            <li>Patch all affected Linux systems immediately.</li>
             
-            <li>Apply any available patches or updates from SEPPMail.</li>
+            <li>Monitor logs for any signs of exploitation attempts.</li>
             
-            <li>Review email security policies and incident response plans.</li>
+            <li>Review user permissions and access controls to limit potential damage.</li>
             
           </ul>
         </div>
 
-        <div class="text-block"><span class="label">Watch next:</span> Monitor for patches or updates from SEPPMail and any reports of exploitation in the wild.</div>
+        <div class="text-block"><span class="label">Watch next:</span> Monitor for any updates from Linux maintainers regarding patches or mitigations for this vulnerability.</div>
 
         <div class="sources">
           <div class="label">Sources</div>
           
             
               <div>
-                <a href="https://thehackernews.com/2026/05/seppmail-secure-e-mail-gateway.html" target="_blank" rel="noopener noreferrer">
-                  The Hacker News - SEPPMail Secure E-Mail Gateway Vulnerabilities Enable RCE and Mail Traffic Access
+                <a href="https://thehackernews.com/2026/05/dirtydecrypt-poc-released-for-linux.html" target="_blank" rel="noopener noreferrer">
+                  The Hacker News - DirtyDecrypt PoC Released for Linux Kernel CVE-2026-31635 LPE Vulnerability
                 </a>
               </div>
             
@@ -526,43 +530,43 @@
             
               <article class="card" style="--i: 0;">
         <div class="meta">
-          <span class="chip risk-high">HIGH</span>
+          <span class="chip risk-medium">MEDIUM</span>
           
-            <span class="chip label-chip">INDUSTRY SIGNAL</span>
+            <span class="chip label-chip">PATCH RELEASE</span>
           
-          <span class="chip chip-neutral">Execution</span>
+          <span class="chip chip-neutral">Unknown</span>
           <span class="chip chip-neutral">Confidence LOW</span>
         </div>
         
-          <h3><a href="https://thehackernews.com/2026/05/github-actions-supply-chain-attack.html" target="_blank" rel="noopener noreferrer">Popular GitHub Action Tags Redirected to Imposter Commit to Steal CI/CD Credentials</a></h3>
+          <h3><a href="https://www.bleepingcomputer.com/news/microsoft/microsoft-confirms-patching-issues-in-restricted-windows-networks/" target="_blank" rel="noopener noreferrer">Microsoft confirms patching issues in restricted Windows networks</a></h3>
         
-        <p class="hook">This supply chain attack on GitHub Actions could lead to widespread credential theft, impacting numerous CI/CD pipelines.</p>
+        <p class="hook">Windows Update failures in restricted networks could leave critical systems vulnerable to unpatched security flaws.</p>
         <div class="support-grid">
-          <div class="text-block"><span class="label">Who should care:</span> Development and DevOps teams using GitHub Actions for their CI/CD processes should be particularly vigilant.</div>
-          <div class="text-block"><span class="label">Attack path:</span> Attackers gain leverage by manipulating the GitHub Actions workflow to execute malicious code that captures credentials during the CI/CD process.</div>
+          <div class="text-block"><span class="label">Who should care:</span> IT teams managing Windows systems in restricted network environments should prioritize this issue.</div>
+          <div class="text-block"><span class="label">Attack path:</span> An attacker could exploit unpatched vulnerabilities in systems that fail to receive updates, potentially gaining unauthorized access or executing malicious code.</div>
         </div>
-        <div class="text-block"><span class="label">Why this matters now:</span> Useful context for teams tracking where attacker pressure is building.</div>
-        <div class="text-block"><span class="label">In plain English:</span> Malicious code in a popular GitHub Action is stealing CI/CD credentials.</div>
+        <div class="text-block"><span class="label">Why this matters now:</span> A live patch or vendor fix gives defenders something concrete to validate.</div>
+        <div class="text-block"><span class="label">In plain English:</span> Microsoft has acknowledged issues with Windows Update in restricted environments following recent updates.</div>
         
           <div class="tags">
             
-              <span>supply chain</span>
+              <span>cve</span>
             
-              <span>github</span>
+              <span>windows</span>
             
-              <span>credential theft</span>
+              <span>update</span>
             
           </div>
         
         <ul class="story-list">
           
-            <li>Threat actors compromised the GitHub Actions workflow 'actions-cool/issues-helper' by redirecting all existing tags to an imposter commit. This malicious commit executes code that harvests sensitive credentials and sends them to an attacker-controlled server.</li>
+            <li>Microsoft confirmed that customers operating in restricted network environments may experience failures when attempting to apply Windows updates after installing the January 2026 optional non-security preview updates. This issue could prevent important security patches from being applied.</li>
           
-            <li>The attack targets CI/CD environments, which are critical for software development and deployment. If credentials are stolen, attackers could gain unauthorized access to repositories, potentially leading to further exploitation or data breaches.</li>
+            <li>Failure to apply security updates can expose systems to known vulnerabilities, increasing the risk of exploitation by attackers. Organizations relying on these updates for security may find themselves at greater risk if they cannot resolve the update failures promptly.</li>
           
-            <li>Attackers gain leverage by manipulating the GitHub Actions workflow to execute malicious code that captures credentials during the CI/CD process.</li>
+            <li>An attacker could exploit unpatched vulnerabilities in systems that fail to receive updates, potentially gaining unauthorized access or executing malicious code.</li>
           
-            <li>Watch next: Monitor for updates from GitHub regarding the compromised action and any related security patches.</li>
+            <li>Watch next: Monitor for updates from Microsoft regarding fixes or workarounds for the patching issues.</li>
           
         </ul>
 
@@ -571,9 +575,9 @@
             <div class="label">Key terms</div>
             <ul class="list">
             
-              <li>CI/CD - Continuous Integration/Continuous Deployment, a method to automate software development processes.</li>
+              <li>Windows Update - a service that provides updates for the Windows operating system, including security patches.</li>
             
-              <li>Supply Chain Attack - A type of cyber attack that targets the supply chain of software, compromising the software before it reaches the end user.</li>
+              <li>Restricted network - a network environment with limited internet access, often used for security purposes.</li>
             
             </ul>
           </div>
@@ -583,11 +587,11 @@
           <div class="label">Defender focus</div>
           <ul class="list">
             
-            <li>Implement monitoring for unusual activity in CI/CD environments.</li>
+            <li>Verify the status of Windows updates on critical systems in restricted environments.</li>
             
-            <li>Review and audit the use of third-party GitHub Actions in your workflows.</li>
+            <li>Implement monitoring for any signs of exploitation related to known vulnerabilities.</li>
             
-            <li>Ensure that sensitive credentials are stored securely and not hardcoded in repositories.</li>
+            <li>Prepare to apply any forthcoming patches or workarounds from Microsoft as they become available.</li>
             
           </ul>
         </div>
@@ -596,24 +600,24 @@
           <div class="label">Do now</div>
           <ul class="list">
             
-            <li>Immediately review and update any workflows using the compromised GitHub Action.</li>
+            <li>Assess the impact of the update failures on your systems.</li>
             
-            <li>Rotate credentials that may have been exposed during this attack.</li>
+            <li>Communicate with Microsoft support for guidance on resolving the update issues.</li>
             
-            <li>Stay informed about GitHub's response and any recommended mitigations.</li>
+            <li>Plan for immediate testing of any patches or workarounds once released.</li>
             
           </ul>
         </div>
 
-        <div class="text-block"><span class="label">Watch next:</span> Monitor for updates from GitHub regarding the compromised action and any related security patches.</div>
+        <div class="text-block"><span class="label">Watch next:</span> Monitor for updates from Microsoft regarding fixes or workarounds for the patching issues.</div>
 
         <div class="sources">
           <div class="label">Sources</div>
           
             
               <div>
-                <a href="https://thehackernews.com/2026/05/github-actions-supply-chain-attack.html" target="_blank" rel="noopener noreferrer">
-                  The Hacker News - Popular GitHub Action Tags Redirected to Imposter Commit to Steal CI/CD Credentials
+                <a href="https://www.bleepingcomputer.com/news/microsoft/microsoft-confirms-patching-issues-in-restricted-windows-networks/" target="_blank" rel="noopener noreferrer">
+                  BleepingComputer - Microsoft confirms patching issues in restricted Windows networks
                 </a>
               </div>
             
@@ -631,132 +635,35 @@
           <span class="chip chip-neutral">Confidence LOW</span>
         </div>
         
-          <h3><a href="https://krebsonsecurity.com/2026/05/cisa-admin-leaked-aws-govcloud-keys-on-github/" target="_blank" rel="noopener noreferrer">CISA Admin Leaked AWS GovCloud Keys on Github</a></h3>
+          <h3><a href="https://thehackernews.com/2026/05/the-new-phishing-click-how-oauth.html" target="_blank" rel="noopener noreferrer">The New Phishing Click: How OAuth Consent Bypasses MFA</a></h3>
         
-        <p class="hook">The exposure of AWS GovCloud keys by a CISA contractor poses a significant risk to national security and critical infrastructure.</p>
+        <p class="hook">The emergence of the EvilTokens phishing platform poses a significant threat to organizations using Microsoft 365, potentially bypassing multi-factor authentication (MFA) and leading to unauthorized access.</p>
         <div class="support-grid">
-          <div class="text-block"><span class="label">Who should care:</span> CISA, AWS security teams, and any contractors or partners working with sensitive government data.</div>
-          <div class="text-block"><span class="label">Attack path:</span> An attacker could use the leaked AWS credentials to access and manipulate government cloud resources, leading to data breaches or service disruptions.</div>
-        </div>
-        <div class="text-block"><span class="label">Why this matters now:</span> Sector exposure makes this broader than a one-off incident.</div>
-        <div class="text-block"><span class="label">In plain English:</span> A CISA contractor accidentally leaked sensitive AWS GovCloud credentials on GitHub, risking unauthorized access to critical systems.</div>
-        
-          <div class="tags">
-            
-              <span>cloud</span>
-            
-              <span>data leak</span>
-            
-              <span>government</span>
-            
-          </div>
-        
-        <ul class="story-list">
-          
-            <li>A contractor for CISA published a public GitHub repository containing credentials for several AWS GovCloud accounts and internal CISA systems. This repository included sensitive files detailing CISA's software development processes.</li>
-          
-            <li>The leaked credentials could allow attackers to gain access to sensitive government systems, potentially compromising national security. The detailed internal documentation also provides insights into CISA's operations, which could be exploited for further attacks.</li>
-          
-            <li>An attacker could use the leaked AWS credentials to access and manipulate government cloud resources, leading to data breaches or service disruptions.</li>
-          
-            <li>Watch next: Monitor for any unauthorized access attempts to AWS GovCloud accounts and updates from CISA regarding the incident.</li>
-          
-        </ul>
-
-        
-          <div class="glossary">
-            <div class="label">Key terms</div>
-            <ul class="list">
-            
-              <li>AWS GovCloud - a secure cloud computing environment designed for U.S. government agencies and contractors.</li>
-            
-              <li>GitHub - a platform for version control and collaboration, allowing developers to store and manage their code.</li>
-            
-            </ul>
-          </div>
-        
-
-        <div>
-          <div class="label">Defender focus</div>
-          <ul class="list">
-            
-            <li>Implement monitoring for unusual access patterns in AWS GovCloud accounts.</li>
-            
-            <li>Review and rotate credentials for affected systems immediately.</li>
-            
-            <li>Conduct a security audit of internal documentation to ensure sensitive information is not publicly accessible.</li>
-            
-          </ul>
-        </div>
-
-        <div>
-          <div class="label">Do now</div>
-          <ul class="list">
-            
-            <li>Immediately revoke the exposed AWS credentials.</li>
-            
-            <li>Notify relevant stakeholders about the potential risks.</li>
-            
-            <li>Enhance security training for contractors to prevent future leaks.</li>
-            
-          </ul>
-        </div>
-
-        <div class="text-block"><span class="label">Watch next:</span> Monitor for any unauthorized access attempts to AWS GovCloud accounts and updates from CISA regarding the incident.</div>
-
-        <div class="sources">
-          <div class="label">Sources</div>
-          
-            
-              <div>
-                <a href="https://krebsonsecurity.com/2026/05/cisa-admin-leaked-aws-govcloud-keys-on-github/" target="_blank" rel="noopener noreferrer">
-                  Krebs on Security - CISA Admin Leaked AWS GovCloud Keys on Github
-                </a>
-              </div>
-            
-          
-        </div>
-      </article>
-            
-              <article class="card" style="--i: 2;">
-        <div class="meta">
-          <span class="chip risk-medium">MEDIUM</span>
-          
-            <span class="chip label-chip">INDUSTRY SIGNAL</span>
-          
-          <span class="chip chip-neutral">Command and Control</span>
-          <span class="chip chip-neutral">Confidence LOW</span>
-        </div>
-        
-          <h3><a href="https://www.bleepingcomputer.com/news/security/interpol-operation-ramz-seizes-53-malware-phishing-servers/" target="_blank" rel="noopener noreferrer">INTERPOL ‘Operation Ramz’ seizes 53 malware, phishing servers</a></h3>
-        
-        <p class="hook">The recent seizure of 53 malware and phishing servers by INTERPOL highlights a significant disruption in cybercrime operations, which could temporarily reduce the threat landscape.</p>
-        <div class="support-grid">
-          <div class="text-block"><span class="label">Who should care:</span> Cybersecurity teams, incident response units, and organizations operating in the Middle East and North Africa should be vigilant.</div>
-          <div class="text-block"><span class="label">Attack path:</span> Attackers typically leverage compromised servers to distribute malware or conduct phishing campaigns, gaining access to sensitive information from victims.</div>
+          <div class="text-block"><span class="label">Who should care:</span> IT security teams and administrators managing Microsoft 365 environments are most exposed to this threat.</div>
+          <div class="text-block"><span class="label">Attack path:</span> Attackers leverage OAuth consent screens to deceive users into granting access to their accounts, effectively bypassing traditional MFA protections.</div>
         </div>
         <div class="text-block"><span class="label">Why this matters now:</span> Useful context for teams tracking where attacker pressure is building.</div>
-        <div class="text-block"><span class="label">In plain English:</span> INTERPOL's Operation Ramz led to the arrest of over 200 individuals and the seizure of critical cybercrime infrastructure.</div>
+        <div class="text-block"><span class="label">In plain English:</span> A new phishing service is exploiting OAuth to bypass MFA for Microsoft 365 accounts, affecting hundreds of organizations.</div>
         
           <div class="tags">
-            
-              <span>malware</span>
             
               <span>phishing</span>
             
-              <span>cybercrime</span>
+              <span>oauth</span>
+            
+              <span>mfa</span>
             
           </div>
         
         <ul class="story-list">
           
-            <li>INTERPOL conducted Operation Ramz, targeting cybercriminal activities in the Middle East and North Africa. The operation resulted in the arrest of more than 200 individuals and the seizure of 53 servers used for malware distribution and phishing attacks.</li>
+            <li>In February 2026, a phishing-as-a-service platform named EvilTokens was launched, targeting Microsoft 365 users. Within five weeks, it successfully compromised over 340 organizations across five countries by tricking users into entering codes that appeared to be part of legitimate MFA processes.</li>
           
-            <li>This operation disrupts ongoing cybercrime activities, potentially reducing the volume of phishing and malware incidents in the short term. However, the cybercriminal ecosystem is resilient, and new actors may quickly fill the void left by these arrests.</li>
+            <li>This attack method undermines the security of MFA, which is a critical defense against unauthorized access. Organizations relying on Microsoft 365 must be vigilant, as compromised accounts can lead to data breaches and operational disruptions.</li>
           
-            <li>Attackers typically leverage compromised servers to distribute malware or conduct phishing campaigns, gaining access to sensitive information from victims.</li>
+            <li>Attackers leverage OAuth consent screens to deceive users into granting access to their accounts, effectively bypassing traditional MFA protections.</li>
           
-            <li>Watch next: Monitor for any resurgence of phishing campaigns or malware distribution as cybercriminals adapt to the recent disruptions.</li>
+            <li>Watch next: Monitor for updates from Microsoft regarding security patches or recommendations related to OAuth vulnerabilities.</li>
           
         </ul>
 
@@ -765,9 +672,9 @@
             <div class="label">Key terms</div>
             <ul class="list">
             
-              <li>Malware - software designed to disrupt, damage, or gain unauthorized access to computer systems.</li>
+              <li>OAuth - an open standard for access delegation commonly used for token-based authentication.</li>
             
-              <li>Phishing - a method of trying to gather personal information using deceptive emails and websites.</li>
+              <li>MFA (Multi-Factor Authentication) - a security measure that requires two or more verification methods to gain access to an account.</li>
             
             </ul>
           </div>
@@ -777,11 +684,11 @@
           <div class="label">Defender focus</div>
           <ul class="list">
             
-            <li>Enhance monitoring of email gateways for phishing attempts.</li>
+            <li>Implement monitoring for unusual login attempts from unfamiliar locations.</li>
             
-            <li>Implement threat intelligence feeds to identify emerging malware signatures.</li>
+            <li>Review and restrict OAuth app permissions within Microsoft 365 environments.</li>
             
-            <li>Review and strengthen incident response protocols to quickly address any resurgence in cybercrime activities.</li>
+            <li>Educate users on recognizing phishing attempts that mimic legitimate MFA processes.</li>
             
           </ul>
         </div>
@@ -790,24 +697,24 @@
           <div class="label">Do now</div>
           <ul class="list">
             
-            <li>Increase vigilance in monitoring for phishing attempts.</li>
+            <li>Enhance user training on identifying phishing attempts.</li>
             
-            <li>Update security measures based on the latest threat intelligence.</li>
+            <li>Audit OAuth applications currently authorized in your Microsoft 365 environment.</li>
             
-            <li>Conduct a review of current defenses against malware.</li>
+            <li>Stay updated on threat intelligence regarding phishing tactics targeting MFA.</li>
             
           </ul>
         </div>
 
-        <div class="text-block"><span class="label">Watch next:</span> Monitor for any resurgence of phishing campaigns or malware distribution as cybercriminals adapt to the recent disruptions.</div>
+        <div class="text-block"><span class="label">Watch next:</span> Monitor for updates from Microsoft regarding security patches or recommendations related to OAuth vulnerabilities.</div>
 
         <div class="sources">
           <div class="label">Sources</div>
           
             
               <div>
-                <a href="https://www.bleepingcomputer.com/news/security/interpol-operation-ramz-seizes-53-malware-phishing-servers/" target="_blank" rel="noopener noreferrer">
-                  BleepingComputer - INTERPOL ‘Operation Ramz’ seizes 53 malware, phishing servers
+                <a href="https://thehackernews.com/2026/05/the-new-phishing-click-how-oauth.html" target="_blank" rel="noopener noreferrer">
+                  The Hacker News - The New Phishing Click: How OAuth Consent Bypasses MFA
                 </a>
               </div>
             
@@ -825,203 +732,7 @@
           Wider Signal
         </div>
         
-          <div class="grid">
-            
-              <article class="card" style="--i: 0;">
-        <div class="meta">
-          <span class="chip risk-high">HIGH</span>
-          
-            <span class="chip label-chip">RESEARCH</span>
-          
-          <span class="chip chip-neutral">Credential Access</span>
-          <span class="chip chip-neutral">Confidence LOW</span>
-        </div>
-        
-          <h3><a href="https://thehackernews.com/2026/05/compromised-nx-console-18950-targeted.html" target="_blank" rel="noopener noreferrer">Compromised Nx Console 18.95.0 Targeted VS Code Developers with Credential Stealer</a></h3>
-        
-        <p class="hook">Developers using the compromised Nx Console extension are at immediate risk of credential theft, which could lead to unauthorized access to sensitive systems.</p>
-        <div class="support-grid">
-          <div class="text-block"><span class="label">Who should care:</span> Development teams using the Nx Console extension in their workflows are most exposed.</div>
-          <div class="text-block"><span class="label">Attack path:</span> Attackers can leverage the compromised extension to capture user credentials when developers authenticate to various services.</div>
-        </div>
-        <div class="text-block"><span class="label">Why this matters now:</span> Useful context for teams tracking where attacker pressure is building.</div>
-        <div class="text-block"><span class="label">In plain English:</span> A compromised version of the Nx Console extension for VS Code is stealing user credentials.</div>
-        
-          <div class="tags">
-            
-              <span>credential theft</span>
-            
-              <span>cve</span>
-            
-              <span>development</span>
-            
-          </div>
-        
-        <ul class="story-list">
-          
-            <li>A compromised version of the Nx Console extension (version 18.95.0) was found on the Microsoft Visual Studio Code Marketplace. This extension, used by over 2.2 million installations, has been flagged for containing a credential-stealing malware.</li>
-          
-            <li>The theft of developer credentials can lead to significant security breaches, including unauthorized access to repositories and sensitive data. Given the extension's popularity, the potential impact on numerous projects and organizations is substantial.</li>
-          
-            <li>Attackers can leverage the compromised extension to capture user credentials when developers authenticate to various services.</li>
-          
-            <li>Watch next: Monitor for updates from Microsoft regarding the removal of the compromised extension and any additional security advisories.</li>
-          
-        </ul>
-
-        
-          <div class="glossary">
-            <div class="label">Key terms</div>
-            <ul class="list">
-            
-              <li>CREDENTIAL STEALER - malware designed to capture and transmit user credentials to an attacker.</li>
-            
-              <li>VS CODE - a popular code editor developed by Microsoft used by developers for writing and debugging code.</li>
-            
-            </ul>
-          </div>
-        
-
-        <div>
-          <div class="label">Defender focus</div>
-          <ul class="list">
-            
-            <li>Identify and block the compromised extension in your development environments.</li>
-            
-            <li>Monitor for unusual authentication attempts from developer accounts.</li>
-            
-            <li>Implement multi-factor authentication for developer accounts to mitigate risks.</li>
-            
-          </ul>
-        </div>
-
-        <div>
-          <div class="label">Do now</div>
-          <ul class="list">
-            
-            <li>Immediately remove the Nx Console extension from all development environments.</li>
-            
-            <li>Reset credentials for any accounts accessed using the compromised extension.</li>
-            
-            <li>Review access logs for any suspicious activity related to developer accounts.</li>
-            
-          </ul>
-        </div>
-
-        <div class="text-block"><span class="label">Watch next:</span> Monitor for updates from Microsoft regarding the removal of the compromised extension and any additional security advisories.</div>
-
-        <div class="sources">
-          <div class="label">Sources</div>
-          
-            
-              <div>
-                <a href="https://thehackernews.com/2026/05/compromised-nx-console-18950-targeted.html" target="_blank" rel="noopener noreferrer">
-                  The Hacker News - Compromised Nx Console 18.95.0 Targeted VS Code Developers with Credential Stealer
-                </a>
-              </div>
-            
-          
-        </div>
-      </article>
-            
-              <article class="card" style="--i: 1;">
-        <div class="meta">
-          <span class="chip risk-high">HIGH</span>
-          
-            <span class="chip label-chip">RESEARCH</span>
-          
-          <span class="chip chip-neutral">Execution</span>
-          <span class="chip chip-neutral">Confidence LOW</span>
-        </div>
-        
-          <h3><a href="https://thehackernews.com/2026/05/mini-shai-hulud-pushes-malicious-antv.html" target="_blank" rel="noopener noreferrer">Mini Shai-Hulud Pushes Malicious AntV npm Packages via Compromised Maintainer Account</a></h3>
-        
-        <p class="hook">The compromise of popular npm packages poses a significant risk to applications relying on these libraries, potentially leading to widespread exploitation.</p>
-        <div class="support-grid">
-          <div class="text-block"><span class="label">Who should care:</span> Development teams using npm packages, particularly those utilizing the @antv ecosystem.</div>
-          <div class="text-block"><span class="label">Attack path:</span> Attackers gain leverage by compromising a maintainer account to push malicious updates to widely used packages, which can then be automatically integrated into applications.</div>
-        </div>
-        <div class="text-block"><span class="label">Why this matters now:</span> Useful context for teams tracking where attacker pressure is building.</div>
-        <div class="text-block"><span class="label">In plain English:</span> Malicious code has been injected into popular npm packages, affecting many applications.</div>
-        
-          <div class="tags">
-            
-              <span>supply chain</span>
-            
-              <span>npm</span>
-            
-              <span>malware</span>
-            
-          </div>
-        
-        <ul class="story-list">
-          
-            <li>Researchers identified a supply chain attack targeting npm packages associated with the @antv ecosystem, specifically through a compromised maintainer account. The affected packages include echarts-for-react, which has approximately 1.1 million weekly downloads.</li>
-          
-            <li>This attack can lead to the execution of malicious code in applications that depend on these compromised packages, potentially allowing attackers to gain unauthorized access or control. The widespread use of these libraries increases the likelihood of exploitation across numerous applications.</li>
-          
-            <li>Attackers gain leverage by compromising a maintainer account to push malicious updates to widely used packages, which can then be automatically integrated into applications.</li>
-          
-            <li>Watch next: Monitor for updates from npm regarding the compromised packages and any patches released.</li>
-          
-        </ul>
-
-        
-          <div class="glossary">
-            <div class="label">Key terms</div>
-            <ul class="list">
-            
-              <li>npm - a package manager for JavaScript that allows developers to share and reuse code.</li>
-            
-              <li>supply chain attack - a type of cyber attack where an attacker targets an organization by exploiting vulnerabilities in its supply chain.</li>
-            
-            </ul>
-          </div>
-        
-
-        <div>
-          <div class="label">Defender focus</div>
-          <ul class="list">
-            
-            <li>Implement monitoring for unusual package updates in your development environments.</li>
-            
-            <li>Review and audit dependencies for any recent changes or vulnerabilities.</li>
-            
-            <li>Educate developers on verifying package integrity before integration.</li>
-            
-          </ul>
-        </div>
-
-        <div>
-          <div class="label">Do now</div>
-          <ul class="list">
-            
-            <li>Immediately review and audit all dependencies for the affected packages.</li>
-            
-            <li>Implement alerts for any updates to critical npm packages.</li>
-            
-            <li>Consider using package-lock files to prevent automatic updates without review.</li>
-            
-          </ul>
-        </div>
-
-        <div class="text-block"><span class="label">Watch next:</span> Monitor for updates from npm regarding the compromised packages and any patches released.</div>
-
-        <div class="sources">
-          <div class="label">Sources</div>
-          
-            
-              <div>
-                <a href="https://thehackernews.com/2026/05/mini-shai-hulud-pushes-malicious-antv.html" target="_blank" rel="noopener noreferrer">
-                  The Hacker News - Mini Shai-Hulud Pushes Malicious AntV npm Packages via Compromised Maintainer Account
-                </a>
-              </div>
-            
-          
-        </div>
-      </article>
-            
-          </div>
+          <p class="empty">No context stories today.</p>
         
       </section>
     </main>
