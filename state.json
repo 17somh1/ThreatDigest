@@ -1,5 +1,5 @@
 {
-  "last_run_utc": "2026-05-19T15:42:59.944281+00:00",
+  "last_run_utc": "2026-05-20T10:44:46.305073+00:00",
   "processed_urls": [
     "https://www.bleepingcomputer.com/news/security/critical-cisco-sd-wan-bug-exploited-in-zero-day-attacks-since-2023/",
     "https://www.cisa.gov/news-events/alerts/2026/02/25/cisa-and-partners-release-guidance-ongoing-global-exploitation-cisco-sd-wan-systems",
@@ -547,6 +547,9 @@
     "https://thehackernews.com/2026/05/mini-shai-hulud-pushes-malicious-antv.html",
     "https://thehackernews.com/2026/05/dirtydecrypt-poc-released-for-linux.html",
     "https://www.bleepingcomputer.com/news/microsoft/microsoft-confirms-patching-issues-in-restricted-windows-networks/",
-    "https://thehackernews.com/2026/05/the-new-phishing-click-how-oauth.html"
+    "https://thehackernews.com/2026/05/the-new-phishing-click-how-oauth.html",
+    "https://thehackernews.com/2026/05/microsoft-releases-mitigation-for.html",
+    "https://www.bleepingcomputer.com/news/microsoft/microsoft-shares-mitigation-for-yellowkey-windows-zero-day/",
+    "https://www.bleepingcomputer.com/news/security/cybercrime-service-disrupted-for-abusing-microsoft-platform-to-sign-malware/"
   ]
 }
