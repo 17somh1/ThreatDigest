@@ -1,5 +1,5 @@
 {
-  "last_run_utc": "2026-05-20T15:50:00.203911+00:00",
+  "last_run_utc": "2026-05-21T11:16:23.629729+00:00",
   "processed_urls": [
     "https://www.bleepingcomputer.com/news/security/critical-cisco-sd-wan-bug-exploited-in-zero-day-attacks-since-2023/",
     "https://www.cisa.gov/news-events/alerts/2026/02/25/cisa-and-partners-release-guidance-ongoing-global-exploitation-cisco-sd-wan-systems",
@@ -553,6 +553,11 @@
     "https://www.bleepingcomputer.com/news/security/cybercrime-service-disrupted-for-abusing-microsoft-platform-to-sign-malware/",
     "https://www.bleepingcomputer.com/news/linux/exploit-released-for-new-pintheft-arch-linux-root-escalation-flaw/",
     "https://thehackernews.com/2026/05/microsoft-takes-down-malware-signing.html",
-    "https://thehackernews.com/2026/05/typosquatting-is-no-longer-user-problem.html"
+    "https://thehackernews.com/2026/05/typosquatting-is-no-longer-user-problem.html",
+    "https://www.bleepingcomputer.com/news/security/microsoft-warns-of-new-defender-zero-days-exploited-in-attacks/",
+    "https://www.bleepingcomputer.com/news/security/hackers-bypass-sonicwall-vpn-mfa-due-to-incomplete-patching/",
+    "https://thehackernews.com/2026/05/highly-critical-drupal-core-flaw.html",
+    "https://thehackernews.com/2026/05/when-identity-is-attack-path.html",
+    "https://thehackernews.com/2026/05/9-year-old-linux-kernel-flaw-enables.html"
   ]
 }
