@@ -1,5 +1,5 @@
 {
-  "last_run_utc": "2026-05-22T14:56:27.631855+00:00",
+  "last_run_utc": "2026-05-23T09:45:58.888942+00:00",
   "processed_urls": [
     "https://www.bleepingcomputer.com/news/security/critical-cisco-sd-wan-bug-exploited-in-zero-day-attacks-since-2023/",
     "https://www.cisa.gov/news-events/alerts/2026/02/25/cisa-and-partners-release-guidance-ongoing-global-exploitation-cisco-sd-wan-systems",
@@ -568,6 +568,12 @@
     "https://thehackernews.com/2026/05/cisa-adds-exploited-langflow-and-trend.html",
     "https://thehackernews.com/2026/05/cisco-patches-cvss-100-secure-workload.html",
     "https://www.bleepingcomputer.com/news/security/trend-micro-warns-of-apex-one-zero-day-exploited-in-attacks/",
-    "https://www.bleepingcomputer.com/news/security/ubiquiti-patches-three-max-severity-unifi-os-vulnerabilities/"
+    "https://www.bleepingcomputer.com/news/security/ubiquiti-patches-three-max-severity-unifi-os-vulnerabilities/",
+    "https://thehackernews.com/2026/05/drupal-core-sql-injection-bug-actively.html",
+    "https://www.cisa.gov/news-events/alerts/2026/05/22/cisa-adds-one-known-exploited-vulnerability-catalog",
+    "https://thehackernews.com/2026/05/litespeed-cpanel-plugin-cve-2026-48172.html",
+    "https://krebsonsecurity.com/2026/05/lawmakers-demand-answers-as-cisa-tries-to-contain-data-leak/",
+    "https://thehackernews.com/2026/05/first-vpn-dismantled-in-global-takedown.html",
+    "https://thehackernews.com/2026/05/ghostwriter-targets-ukraine-government.html"
   ]
 }
