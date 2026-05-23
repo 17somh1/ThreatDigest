@@ -378,8 +378,8 @@
         The security news worth your attention, with context and practical takeaways.
       </p>
       <div class="meta-bar">
-        <span>Updated: 2026-05-23 09:45 UTC</span>
-        <span>Stories: 5</span>
+        <span>Updated: 2026-05-23 13:56 UTC</span>
+        <span>Stories: 1</span>
         <span>Recent issues: 14</span>
       </div>
     </header>
@@ -389,7 +389,7 @@
         <section class="one-liner">
           <h2>What Matters Today</h2>
           
-            <p class="text-block">Active exploitation of critical vulnerabilities in Drupal and LiteSpeed highlights urgent patching needs, while ransomware operations face disruption from a major VPN takedown.</p>
+            <p class="text-block">The compromise of Laravel-Lang PHP packages highlights a critical vulnerability that could lead to widespread credential theft in PHP applications.</p>
           
         </section>
 
@@ -398,11 +398,11 @@
           
             <ul>
               
-              <li>Immediate patching is crucial due to active exploitation of known vulnerabilities, increasing defender workload.</li>
+              <li>Increased risk of credential theft due to compromised widely-used packages.</li>
               
-              <li>Attacker behavior shows a shift towards exploiting server management tools for root access, raising risks for system administrators.</li>
+              <li>Development teams must urgently assess their use of Laravel-Lang packages to mitigate potential breaches.</li>
               
-              <li>The dismantling of a VPN used by ransomware groups indicates a potential decrease in attack frequency, but vigilance is still necessary.</li>
+              <li>Attackers are targeting popular libraries to maximize impact and exploit multiple applications simultaneously.</li>
               
             </ul>
           
@@ -420,51 +420,41 @@
         <div class="meta">
           <span class="chip risk-high">HIGH</span>
           
-            <span class="chip label-chip">ACTIVE EXPLOITATION</span>
-          
-            <span class="chip label-chip">KEV ADDED</span>
-          
-            <span class="chip label-chip">PATCH RELEASE</span>
-          
-            <span class="chip label-chip">LEGAL POLICY</span>
+            <span class="chip label-chip">RESEARCH</span>
           
           <span class="chip chip-neutral">Initial Access</span>
-          <span class="chip chip-neutral">Confidence HIGH</span>
+          <span class="chip chip-neutral">Confidence LOW</span>
         </div>
         
-          <h3><a href="https://thehackernews.com/2026/05/drupal-core-sql-injection-bug-actively.html" target="_blank" rel="noopener noreferrer">Drupal Core SQL Injection Bug Actively Exploited, Added to CISA KEV</a></h3>
+          <h3><a href="https://thehackernews.com/2026/05/laravel-lang-php-packages-compromised.html" target="_blank" rel="noopener noreferrer">Laravel-Lang PHP Packages Compromised to Deliver Cross-Platform Credential Stealer</a></h3>
         
-        <p class="hook">Active exploitation of a critical SQL injection vulnerability in Drupal Core could lead to unauthorized access and data breaches, making immediate patching essential.</p>
+        <p class="hook">The compromise of popular Laravel-Lang PHP packages poses a significant risk of credential theft across multiple applications, making immediate action essential.</p>
         <div class="support-grid">
-          <div class="text-block"><span class="label">Who should care:</span> Development and IT teams managing Drupal-based applications should prioritize this update.</div>
-          <div class="text-block"><span class="label">Attack path:</span> An attacker can exploit this vulnerability by sending crafted SQL queries to the Drupal application, allowing them to manipulate the database and extract sensitive information.</div>
+          <div class="text-block"><span class="label">Who should care:</span> Development teams using Laravel-Lang packages and organizations relying on PHP applications should be particularly vigilant.</div>
+          <div class="text-block"><span class="label">Attack path:</span> Attackers exploit the compromised packages to inject malicious code that captures user credentials during authentication processes.</div>
         </div>
-        <div class="text-block"><span class="label">Why this matters now:</span> Active exploitation makes this an immediate exposure check. KEV status shortens the acceptable patch window.</div>
-        <div class="text-block"><span class="label">In plain English:</span> A critical SQL injection flaw in Drupal Core is being actively exploited, and organizations must update their systems promptly.</div>
+        <div class="text-block"><span class="label">Why this matters now:</span> Useful context for teams tracking where attacker pressure is building.</div>
+        <div class="text-block"><span class="label">In plain English:</span> Recent attacks on Laravel-Lang PHP packages could lead to widespread credential theft.</div>
         
           <div class="tags">
             
-              <span>cve</span>
+              <span>supply_chain</span>
             
-              <span>drupal</span>
+              <span>credential_theft</span>
             
-              <span>sql injection</span>
-            
-              <span>vulnerability</span>
+              <span>php</span>
             
           </div>
         
         <ul class="story-list">
           
-            <li>CISA has added CVE-2026-9082, a critical SQL injection vulnerability in Drupal Core, to its Known Exploited Vulnerabilities catalog. This vulnerability affects all supported versions of Drupal Core and has a CVSS score of 6.5, indicating a moderate severity level.</li>
+            <li>Cybersecurity researchers have identified a software supply chain attack targeting Laravel-Lang PHP packages, including laravel-lang/lang and others. These packages have been compromised to deliver a credential-stealing framework.</li>
           
-            <li>The active exploitation of this vulnerability means that attackers can potentially gain unauthorized access to databases, leading to data leaks or manipulation. Organizations using Drupal Core need to prioritize patching to mitigate the risk of exploitation.</li>
+            <li>This attack could allow attackers to harvest sensitive credentials from applications using these compromised packages, potentially leading to unauthorized access and data breaches. The widespread use of these packages in various applications increases the urgency for organizations to assess their exposure.</li>
           
-            <li>An attacker can exploit this vulnerability by sending crafted SQL queries to the Drupal application, allowing them to manipulate the database and extract sensitive information.</li>
+            <li>Attackers exploit the compromised packages to inject malicious code that captures user credentials during authentication processes.</li>
           
-            <li>Also reported by Alerts.</li>
-          
-            <li>Watch next: Monitor for updates from CISA and Drupal regarding further exploitation trends or additional patches.</li>
+            <li>Watch next: Monitor for updates from Laravel-Lang regarding patched versions of affected packages and any further advisories.</li>
           
         </ul>
 
@@ -473,13 +463,9 @@
             <div class="label">Key terms</div>
             <ul class="list">
             
-              <li>SQL Injection - a type of attack where an attacker inserts malicious SQL code into a query to manipulate a database.</li>
+              <li>Software Supply Chain Attack - a type of cyber attack that targets the software supply chain to compromise software before it reaches the end user.</li>
             
-              <li>CVE - Common Vulnerabilities and Exposures, a list of publicly disclosed cybersecurity vulnerabilities.</li>
-            
-              <li>CVE - Common Vulnerabilities and Exposures, a list of publicly known cybersecurity vulnerabilities.</li>
-            
-              <li>SQL Injection - A type of attack that allows an attacker to execute malicious SQL statements to manipulate a database.</li>
+              <li>Credential Stealer - malware designed to capture and transmit user credentials such as usernames and passwords.</li>
             
             </ul>
           </div>
@@ -489,11 +475,11 @@
           <div class="label">Defender focus</div>
           <ul class="list">
             
-            <li>Implement monitoring for unusual database queries that may indicate exploitation attempts.</li>
+            <li>Review and update all Laravel-Lang package dependencies to the latest secure versions.</li>
             
-            <li>Ensure all Drupal installations are updated to the latest version to close this vulnerability.</li>
+            <li>Implement application monitoring to detect unusual authentication activity.</li>
             
-            <li>Review access logs for any unauthorized access patterns related to Drupal applications.</li>
+            <li>Conduct a security audit of applications using the affected packages to identify potential vulnerabilities.</li>
             
           </ul>
         </div>
@@ -502,32 +488,24 @@
           <div class="label">Do now</div>
           <ul class="list">
             
-            <li>Patch all affected Drupal installations immediately.</li>
+            <li>Immediately update all Laravel-Lang packages to the latest versions.</li>
             
-            <li>Review and tighten database access controls.</li>
+            <li>Conduct a security review of applications using these packages.</li>
             
-            <li>Educate development teams on secure coding practices to prevent SQL injection vulnerabilities.</li>
+            <li>Monitor for any signs of unauthorized access or credential misuse.</li>
             
           </ul>
         </div>
 
-        <div class="text-block"><span class="label">Watch next:</span> Monitor for updates from CISA and Drupal regarding further exploitation trends or additional patches.</div>
+        <div class="text-block"><span class="label">Watch next:</span> Monitor for updates from Laravel-Lang regarding patched versions of affected packages and any further advisories.</div>
 
         <div class="sources">
           <div class="label">Sources</div>
           
             
               <div>
-                <a href="https://thehackernews.com/2026/05/drupal-core-sql-injection-bug-actively.html" target="_blank" rel="noopener noreferrer">
-                  The Hacker News - Drupal Core SQL Injection Bug Actively Exploited, Added to CISA KEV
-                </a>
-              </div>
-            
-          
-            
-              <div>
-                <a href="https://www.cisa.gov/news-events/alerts/2026/05/22/cisa-adds-one-known-exploited-vulnerability-catalog" target="_blank" rel="noopener noreferrer">
-                  Alerts - CISA Adds One Known Exploited Vulnerability to Catalog
+                <a href="https://thehackernews.com/2026/05/laravel-lang-php-packages-compromised.html" target="_blank" rel="noopener noreferrer">
+                  The Hacker News - Laravel-Lang PHP Packages Compromised to Deliver Cross-Platform Credential Stealer
                 </a>
               </div>
             
@@ -544,302 +522,7 @@
           Priority Watchlist
         </div>
         
-          <div class="grid">
-            
-              <article class="card" style="--i: 0;">
-        <div class="meta">
-          <span class="chip risk-high">HIGH</span>
-          
-            <span class="chip label-chip">ACTIVE EXPLOITATION</span>
-          
-            <span class="chip label-chip">LEGAL POLICY</span>
-          
-          <span class="chip chip-neutral">Execution</span>
-          <span class="chip chip-neutral">Confidence LOW</span>
-        </div>
-        
-          <h3><a href="https://thehackernews.com/2026/05/litespeed-cpanel-plugin-cve-2026-48172.html" target="_blank" rel="noopener noreferrer">LiteSpeed cPanel Plugin CVE-2026-48172 Exploited to Run Scripts as Root</a></h3>
-        
-        <p class="hook">Immediate exploitation of a critical vulnerability in LiteSpeed's cPanel Plugin could allow attackers to gain root access, posing severe risks to server integrity.</p>
-        <div class="support-grid">
-          <div class="text-block"><span class="label">Who should care:</span> System administrators and security teams managing LiteSpeed servers with cPanel integrations are most exposed.</div>
-          <div class="text-block"><span class="label">Attack path:</span> An attacker can exploit this vulnerability by leveraging a compromised cPanel account or by directly accessing a vulnerable instance to execute malicious scripts.</div>
-        </div>
-        <div class="text-block"><span class="label">Why this matters now:</span> Active exploitation makes this an immediate exposure check.</div>
-        <div class="text-block"><span class="label">In plain English:</span> A critical vulnerability in the LiteSpeed cPanel Plugin is being actively exploited, allowing attackers to run scripts with root privileges.</div>
-        
-          <div class="tags">
-            
-              <span>cve</span>
-            
-              <span>web server</span>
-            
-              <span>exploitation</span>
-            
-          </div>
-        
-        <ul class="story-list">
-          
-            <li>A vulnerability identified as CVE-2026-48172 in the LiteSpeed User-End cPanel Plugin has been found to be actively exploited. This flaw allows attackers to execute arbitrary scripts with elevated permissions due to incorrect privilege assignments.</li>
-          
-            <li>The ability to run scripts as root can lead to full system compromise, data breaches, and service disruptions. Organizations using this plugin must act quickly to mitigate risks and protect their environments.</li>
-          
-            <li>An attacker can exploit this vulnerability by leveraging a compromised cPanel account or by directly accessing a vulnerable instance to execute malicious scripts.</li>
-          
-            <li>Watch next: Monitor for updates from LiteSpeed regarding patches or mitigations for CVE-2026-48172.</li>
-          
-        </ul>
-
-        
-          <div class="glossary">
-            <div class="label">Key terms</div>
-            <ul class="list">
-            
-              <li>CVE - Common Vulnerabilities and Exposures, a list of publicly disclosed cybersecurity vulnerabilities.</li>
-            
-              <li>Privilege Escalation - A type of attack where an attacker gains elevated access to resources that are normally protected from an application or user.</li>
-            
-            </ul>
-          </div>
-        
-
-        <div>
-          <div class="label">Defender focus</div>
-          <ul class="list">
-            
-            <li>Implement monitoring for unusual script executions on LiteSpeed servers.</li>
-            
-            <li>Review access logs for any unauthorized cPanel account activity.</li>
-            
-            <li>Ensure that all LiteSpeed cPanel Plugins are updated to the latest version.</li>
-            
-          </ul>
-        </div>
-
-        <div>
-          <div class="label">Do now</div>
-          <ul class="list">
-            
-            <li>Immediately apply any available patches from LiteSpeed.</li>
-            
-            <li>Audit cPanel user accounts for unauthorized access.</li>
-            
-            <li>Enhance logging and monitoring for script execution activities.</li>
-            
-          </ul>
-        </div>
-
-        <div class="text-block"><span class="label">Watch next:</span> Monitor for updates from LiteSpeed regarding patches or mitigations for CVE-2026-48172.</div>
-
-        <div class="sources">
-          <div class="label">Sources</div>
-          
-            
-              <div>
-                <a href="https://thehackernews.com/2026/05/litespeed-cpanel-plugin-cve-2026-48172.html" target="_blank" rel="noopener noreferrer">
-                  The Hacker News - LiteSpeed cPanel Plugin CVE-2026-48172 Exploited to Run Scripts as Root
-                </a>
-              </div>
-            
-          
-        </div>
-      </article>
-            
-              <article class="card" style="--i: 1;">
-        <div class="meta">
-          <span class="chip risk-medium">MEDIUM</span>
-          
-            <span class="chip label-chip">INDUSTRY SIGNAL</span>
-          
-          <span class="chip chip-neutral">Command and Control</span>
-          <span class="chip chip-neutral">Confidence LOW</span>
-        </div>
-        
-          <h3><a href="https://thehackernews.com/2026/05/first-vpn-dismantled-in-global-takedown.html" target="_blank" rel="noopener noreferrer">First VPN Dismantled in Global Takedown Over Use by 25 Ransomware Groups</a></h3>
-        
-        <p class="hook">The dismantling of a major VPN used by ransomware groups could disrupt their operations and reduce the frequency of attacks.</p>
-        <div class="support-grid">
-          <div class="text-block"><span class="label">Who should care:</span> Cybersecurity teams, incident response units, and organizations that have been targeted by ransomware should pay close attention.</div>
-          <div class="text-block"><span class="label">Attack path:</span> Ransomware groups previously relied on this VPN to mask their activities, making it difficult for law enforcement to trace their operations. With the VPN dismantled, attackers may struggle to operate as effectively.</div>
-        </div>
-        <div class="text-block"><span class="label">Why this matters now:</span> Useful context for teams tracking where attacker pressure is building.</div>
-        <div class="text-block"><span class="label">In plain English:</span> A global operation has taken down a VPN service that was crucial for ransomware groups.</div>
-        
-          <div class="tags">
-            
-              <span>ransomware</span>
-            
-              <span>vpn</span>
-            
-              <span>operation saffron</span>
-            
-          </div>
-        
-        <ul class="story-list">
-          
-            <li>Authorities in Europe and North America have successfully dismantled a VPN service known as First VPN, which was utilized by at least 25 ransomware groups. This operation, named Operation Saffron, was primarily led by France and the Netherlands, with support from other nations.</li>
-          
-            <li>The disruption of this VPN service may hinder the ability of ransomware actors to conceal their identities and locations, potentially leading to a decrease in successful attacks. This could provide organizations with a temporary reprieve from ransomware threats and allow for better tracking of malicious actors.</li>
-          
-            <li>Ransomware groups previously relied on this VPN to mask their activities, making it difficult for law enforcement to trace their operations. With the VPN dismantled, attackers may struggle to operate as effectively.</li>
-          
-            <li>Watch next: Monitor for any retaliatory actions from ransomware groups or shifts to alternative anonymization methods.</li>
-          
-        </ul>
-
-        
-          <div class="glossary">
-            <div class="label">Key terms</div>
-            <ul class="list">
-            
-              <li>VPN - Virtual Private Network, a service that encrypts internet traffic and masks the user's IP address.</li>
-            
-              <li>Ransomware - A type of malicious software that encrypts files on a victim's system, demanding payment for decryption.</li>
-            
-            </ul>
-          </div>
-        
-
-        <div>
-          <div class="label">Defender focus</div>
-          <ul class="list">
-            
-            <li>Enhance monitoring for unusual outbound traffic patterns that may indicate ransomware activity.</li>
-            
-            <li>Review logs for any connections to known ransomware infrastructure.</li>
-            
-            <li>Prepare to respond to potential spikes in ransomware attempts as groups adapt to this disruption.</li>
-            
-          </ul>
-        </div>
-
-        <div>
-          <div class="label">Do now</div>
-          <ul class="list">
-            
-            <li>Increase vigilance in monitoring for ransomware indicators.</li>
-            
-            <li>Update threat intelligence feeds with information on affected ransomware groups.</li>
-            
-            <li>Conduct a review of current security measures to ensure readiness against potential retaliatory attacks.</li>
-            
-          </ul>
-        </div>
-
-        <div class="text-block"><span class="label">Watch next:</span> Monitor for any retaliatory actions from ransomware groups or shifts to alternative anonymization methods.</div>
-
-        <div class="sources">
-          <div class="label">Sources</div>
-          
-            
-              <div>
-                <a href="https://thehackernews.com/2026/05/first-vpn-dismantled-in-global-takedown.html" target="_blank" rel="noopener noreferrer">
-                  The Hacker News - First VPN Dismantled in Global Takedown Over Use by 25 Ransomware Groups
-                </a>
-              </div>
-            
-          
-        </div>
-      </article>
-            
-              <article class="card" style="--i: 2;">
-        <div class="meta">
-          <span class="chip risk-high">HIGH</span>
-          
-            <span class="chip label-chip">INDUSTRY SIGNAL</span>
-          
-          <span class="chip chip-neutral">Initial Access</span>
-          <span class="chip chip-neutral">Confidence LOW</span>
-        </div>
-        
-          <h3><a href="https://thehackernews.com/2026/05/ghostwriter-targets-ukraine-government.html" target="_blank" rel="noopener noreferrer">Ghostwriter Targets Ukraine Government Entities with Prometheus Phishing Malware</a></h3>
-        
-        <p class="hook">The ongoing phishing campaign targeting Ukrainian government entities poses a significant risk to national security and operational integrity.</p>
-        <div class="support-grid">
-          <div class="text-block"><span class="label">Who should care:</span> Ukrainian government IT teams and cybersecurity personnel should prioritize monitoring and response efforts.</div>
-          <div class="text-block"><span class="label">Attack path:</span> Attackers gain leverage by sending phishing emails that appear legitimate, tricking users into revealing credentials or downloading malware.</div>
-        </div>
-        <div class="text-block"><span class="label">Why this matters now:</span> Sector exposure makes this broader than a one-off incident.</div>
-        <div class="text-block"><span class="label">In plain English:</span> Ghostwriter is using phishing emails to compromise Ukrainian government accounts, leveraging a popular online learning platform as bait.</div>
-        
-          <div class="tags">
-            
-              <span>phishing</span>
-            
-              <span>malware</span>
-            
-              <span>government</span>
-            
-          </div>
-        
-        <ul class="story-list">
-          
-            <li>Ghostwriter, a Belarus-aligned threat actor, has been observed targeting Ukrainian government organizations with phishing emails. These emails are designed to lure recipients by referencing Prometheus, a widely used online learning platform in Ukraine. The Computer Emergency Response Team of Ukraine (CERT-UA) has reported these incidents, indicating that compromised accounts are being used to facilitate the attacks.</li>
-          
-            <li>This campaign could lead to unauthorized access to sensitive government information, potentially undermining Ukraine's operational capabilities. The use of a trusted platform as a lure increases the likelihood of successful phishing attempts, making it critical for government entities to enhance their defenses.</li>
-          
-            <li>Attackers gain leverage by sending phishing emails that appear legitimate, tricking users into revealing credentials or downloading malware.</li>
-          
-            <li>Watch next: Monitor for updates from CERT-UA regarding the evolution of this campaign and any new tactics employed by Ghostwriter.</li>
-          
-        </ul>
-
-        
-          <div class="glossary">
-            <div class="label">Key terms</div>
-            <ul class="list">
-            
-              <li>Phishing - a method of attempting to acquire sensitive information by masquerading as a trustworthy entity in electronic communications.</li>
-            
-              <li>Malware - malicious software designed to disrupt, damage, or gain unauthorized access to computer systems.</li>
-            
-            </ul>
-          </div>
-        
-
-        <div>
-          <div class="label">Defender focus</div>
-          <ul class="list">
-            
-            <li>Implement email filtering to detect and block phishing attempts targeting government domains.</li>
-            
-            <li>Conduct a review of user account activity to identify any unauthorized access or suspicious behavior.</li>
-            
-            <li>Enhance user training on recognizing phishing attempts, particularly those leveraging trusted platforms.</li>
-            
-          </ul>
-        </div>
-
-        <div>
-          <div class="label">Do now</div>
-          <ul class="list">
-            
-            <li>Increase monitoring of email traffic for signs of phishing.</li>
-            
-            <li>Alert all government employees about the ongoing phishing campaign.</li>
-            
-            <li>Review and update incident response plans to address potential breaches.</li>
-            
-          </ul>
-        </div>
-
-        <div class="text-block"><span class="label">Watch next:</span> Monitor for updates from CERT-UA regarding the evolution of this campaign and any new tactics employed by Ghostwriter.</div>
-
-        <div class="sources">
-          <div class="label">Sources</div>
-          
-            
-              <div>
-                <a href="https://thehackernews.com/2026/05/ghostwriter-targets-ukraine-government.html" target="_blank" rel="noopener noreferrer">
-                  The Hacker News - Ghostwriter Targets Ukraine Government Entities with Prometheus Phishing Malware
-                </a>
-              </div>
-            
-          
-        </div>
-      </article>
-            
-          </div>
+          <p class="empty">No additional top stories.</p>
         
       </section>
 
@@ -849,108 +532,7 @@
           Wider Signal
         </div>
         
-          <div class="grid">
-            
-              <article class="card" style="--i: 0;">
-        <div class="meta">
-          <span class="chip risk-high">HIGH</span>
-          
-            <span class="chip label-chip">INDUSTRY SIGNAL</span>
-          
-            <span class="chip label-chip">LEGAL POLICY</span>
-          
-          <span class="chip chip-neutral">Credential Access</span>
-          <span class="chip chip-neutral">Confidence LOW</span>
-        </div>
-        
-          <h3><a href="https://krebsonsecurity.com/2026/05/lawmakers-demand-answers-as-cisa-tries-to-contain-data-leak/" target="_blank" rel="noopener noreferrer">Lawmakers Demand Answers as CISA Tries to Contain Data Leak</a></h3>
-        
-        <p class="hook">The exposure of AWS GovCloud keys by a CISA contractor could lead to significant breaches of sensitive government data, impacting national security.</p>
-        <div class="support-grid">
-          <div class="text-block"><span class="label">Who should care:</span> CISA, government agencies using AWS GovCloud, and cybersecurity teams responsible for protecting sensitive data.</div>
-          <div class="text-block"><span class="label">Attack path:</span> An attacker could exploit the leaked AWS keys to gain unauthorized access to government cloud resources, leading to data theft or service disruption.</div>
-        </div>
-        <div class="text-block"><span class="label">Why this matters now:</span> Useful context for teams tracking where attacker pressure is building.</div>
-        <div class="text-block"><span class="label">In plain English:</span> A contractor leaked critical AWS credentials and agency secrets on GitHub, prompting urgent congressional inquiries.</div>
-        
-          <div class="tags">
-            
-              <span>data leak</span>
-            
-              <span>aws</span>
-            
-              <span>cisa</span>
-            
-          </div>
-        
-        <ul class="story-list">
-          
-            <li>A contractor for the U.S. Cybersecurity & Infrastructure Security Agency (CISA) published AWS GovCloud keys and other sensitive information on a public GitHub account. This incident has led to a congressional inquiry as CISA works to contain the breach and invalidate the leaked credentials.</li>
-          
-            <li>The leaked AWS keys could allow unauthorized access to sensitive government resources, potentially compromising national security. The ongoing investigation highlights vulnerabilities in contractor oversight and the need for stronger data protection measures.</li>
-          
-            <li>An attacker could exploit the leaked AWS keys to gain unauthorized access to government cloud resources, leading to data theft or service disruption.</li>
-          
-            <li>Watch next: Monitor for updates from CISA regarding the containment efforts and any potential impacts on government operations.</li>
-          
-        </ul>
-
-        
-          <div class="glossary">
-            <div class="label">Key terms</div>
-            <ul class="list">
-            
-              <li>AWS GovCloud - a secure cloud computing environment designed for U.S. government agencies and contractors.</li>
-            
-              <li>GitHub - a platform for version control and collaboration that allows developers to store and manage code.</li>
-            
-            </ul>
-          </div>
-        
-
-        <div>
-          <div class="label">Defender focus</div>
-          <ul class="list">
-            
-            <li>Implement monitoring for unauthorized access attempts to AWS GovCloud resources.</li>
-            
-            <li>Review and update access controls for sensitive data within your organization.</li>
-            
-            <li>Enhance contractor oversight to prevent similar incidents in the future.</li>
-            
-          </ul>
-        </div>
-
-        <div>
-          <div class="label">Do now</div>
-          <ul class="list">
-            
-            <li>Assess the impact of the leaked credentials on your systems immediately.</li>
-            
-            <li>Review and tighten access controls for any AWS resources.</li>
-            
-            <li>Stay informed on CISA's updates regarding the breach and adjust your security posture accordingly.</li>
-            
-          </ul>
-        </div>
-
-        <div class="text-block"><span class="label">Watch next:</span> Monitor for updates from CISA regarding the containment efforts and any potential impacts on government operations.</div>
-
-        <div class="sources">
-          <div class="label">Sources</div>
-          
-            
-              <div>
-                <a href="https://krebsonsecurity.com/2026/05/lawmakers-demand-answers-as-cisa-tries-to-contain-data-leak/" target="_blank" rel="noopener noreferrer">
-                  Krebs on Security - Lawmakers Demand Answers as CISA Tries to Contain Data Leak
-                </a>
-              </div>
-            
-          
-        </div>
-      </article>
-            
-          </div>
+          <p class="empty">No context stories today.</p>
         
       </section>
     </main>
