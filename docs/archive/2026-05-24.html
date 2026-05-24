@@ -378,8 +378,8 @@
         The security news worth your attention, with context and practical takeaways.
       </p>
       <div class="meta-bar">
-        <span>Updated: 2026-05-24 09:49 UTC</span>
-        <span>Stories: 3</span>
+        <span>Updated: 2026-05-24 13:53 UTC</span>
+        <span>Stories: 6</span>
         <span>Recent issues: 14</span>
       </div>
     </header>
@@ -389,7 +389,7 @@
         <section class="one-liner">
           <h2>What Matters Today</h2>
           
-            <p class="text-block">Developers face heightened risks from supply chain attacks targeting popular package management systems, necessitating immediate security measures.</p>
+            <p class="text-block">Active exploitation of critical vulnerabilities in Drupal and LiteSpeed, alongside supply chain attacks on Laravel packages, highlights urgent risks for development teams and IT operations.</p>
           
         </section>
 
@@ -398,11 +398,11 @@
           
             <ul>
               
-              <li>Supply chain vulnerabilities are being exploited, putting developers at risk of credential theft.</li>
+              <li>Immediate patching is essential due to active exploitation of known vulnerabilities.</li>
               
-              <li>New security features like 2FA in npm are essential but require prompt adoption to mitigate ongoing threats.</li>
+              <li>Supply chain attacks are increasingly targeting trusted code repositories, raising the stakes for development teams.</li>
               
-              <li>Multiple package compromises highlight the need for vigilance among teams using Composer and JavaScript packages.</li>
+              <li>Defenders must enhance monitoring and response capabilities to address the rising pressure from attackers.</li>
               
             </ul>
           
@@ -420,41 +420,47 @@
         <div class="meta">
           <span class="chip risk-high">HIGH</span>
           
-            <span class="chip label-chip">INDUSTRY SIGNAL</span>
+            <span class="chip label-chip">ACTIVE EXPLOITATION</span>
           
-          <span class="chip chip-neutral">Execution</span>
+            <span class="chip label-chip">KEV ADDED</span>
+          
+            <span class="chip label-chip">PATCH RELEASE</span>
+          
+            <span class="chip label-chip">LEGAL POLICY</span>
+          
+          <span class="chip chip-neutral">Initial Access</span>
           <span class="chip chip-neutral">Confidence LOW</span>
         </div>
         
-          <h3><a href="https://www.bleepingcomputer.com/news/security/laravel-lang-packages-hijacked-to-deploy-credential-stealing-malware/" target="_blank" rel="noopener noreferrer">Laravel Lang packages hijacked to deploy credential-stealing malware</a></h3>
+          <h3><a href="https://thehackernews.com/2026/05/drupal-core-sql-injection-bug-actively.html" target="_blank" rel="noopener noreferrer">Drupal Core SQL Injection Bug Actively Exploited, Added to CISA KEV</a></h3>
         
-        <p class="hook">Developers using Laravel Lang packages are at immediate risk of credential theft due to a supply chain attack that has compromised trusted software components.</p>
+        <p class="hook">Active exploitation of a critical SQL injection vulnerability in Drupal Core could lead to unauthorized data access and system compromise.</p>
         <div class="support-grid">
-          <div class="text-block"><span class="label">Who should care:</span> Development teams using Laravel and its associated packages are most exposed to this threat.</div>
-          <div class="text-block"><span class="label">Attack path:</span> Attackers gain leverage by embedding malicious code in widely used packages, which executes during the installation process, allowing them to steal credentials.</div>
+          <div class="text-block"><span class="label">Who should care:</span> Development and IT operations teams managing Drupal-based applications should be particularly vigilant.</div>
+          <div class="text-block"><span class="label">Attack path:</span> An attacker can exploit this vulnerability by sending specially crafted SQL queries to the affected Drupal Core installations, allowing them to manipulate the database and extract sensitive information.</div>
         </div>
-        <div class="text-block"><span class="label">Why this matters now:</span> Useful context for teams tracking where attacker pressure is building.</div>
-        <div class="text-block"><span class="label">In plain English:</span> Malicious code has been injected into Laravel Lang packages, potentially stealing credentials from developers.</div>
+        <div class="text-block"><span class="label">Why this matters now:</span> Active exploitation makes this an immediate exposure check. KEV status shortens the acceptable patch window.</div>
+        <div class="text-block"><span class="label">In plain English:</span> A critical SQL injection vulnerability in Drupal Core is being actively exploited, posing significant risks to affected systems.</div>
         
           <div class="tags">
             
-              <span>supply chain</span>
+              <span>cve</span>
             
-              <span>malware</span>
+              <span>drupal</span>
             
-              <span>laravel</span>
+              <span>sql injection</span>
             
           </div>
         
         <ul class="story-list">
           
-            <li>Attackers hijacked Laravel Lang localization packages by manipulating GitHub version tags to distribute malware through Composer packages. This supply chain attack allows the malware to execute when developers install or update these packages.</li>
+            <li>CISA has added CVE-2026-9082, a critical SQL injection vulnerability in Drupal Core, to its Known Exploited Vulnerabilities catalog. This vulnerability affects all supported versions of Drupal Core and has a CVSS score of 6.5, indicating a moderate to high severity.</li>
           
-            <li>The compromised packages can lead to widespread credential theft, impacting not only individual developers but also the security of applications built on Laravel. If exploited, this could result in unauthorized access to sensitive systems and data.</li>
+            <li>The active exploitation of this vulnerability means that attackers can potentially gain unauthorized access to sensitive data or execute arbitrary SQL commands. Organizations using Drupal Core must prioritize patching to mitigate the risk of data breaches or service disruptions.</li>
           
-            <li>Attackers gain leverage by embedding malicious code in widely used packages, which executes during the installation process, allowing them to steal credentials.</li>
+            <li>An attacker can exploit this vulnerability by sending specially crafted SQL queries to the affected Drupal Core installations, allowing them to manipulate the database and extract sensitive information.</li>
           
-            <li>Watch next: Monitor for updates from Laravel and Composer regarding the integrity of their packages and any patches released.</li>
+            <li>Watch next: Monitor for updates from CISA and Drupal regarding patches and any further exploitation reports.</li>
           
         </ul>
 
@@ -463,9 +469,9 @@
             <div class="label">Key terms</div>
             <ul class="list">
             
-              <li>Supply Chain Attack - a type of cyber attack where an attacker targets the less secure elements of a supply chain to compromise a system.</li>
+              <li>SQL Injection - a type of attack that allows an attacker to interfere with the queries that an application makes to its database.</li>
             
-              <li>Composer - a dependency manager for PHP that allows developers to manage libraries and packages in their projects.</li>
+              <li>CVE - Common Vulnerabilities and Exposures, a list of publicly disclosed cybersecurity vulnerabilities.</li>
             
             </ul>
           </div>
@@ -475,11 +481,11 @@
           <div class="label">Defender focus</div>
           <ul class="list">
             
-            <li>Implement monitoring for unusual network activity from development environments.</li>
+            <li>Implement monitoring for unusual database queries in Drupal applications.</li>
             
-            <li>Review and validate the integrity of installed Laravel packages.</li>
+            <li>Ensure all Drupal installations are updated to the latest version to close this vulnerability.</li>
             
-            <li>Educate developers on the risks of using third-party packages and encourage the use of package verification tools.</li>
+            <li>Review access logs for any signs of exploitation attempts.</li>
             
           </ul>
         </div>
@@ -488,24 +494,24 @@
           <div class="label">Do now</div>
           <ul class="list">
             
-            <li>Immediately audit all Laravel Lang package installations for integrity.</li>
+            <li>Patch all affected Drupal installations immediately.</li>
             
-            <li>Update any affected packages to the latest secure versions.</li>
+            <li>Conduct a security audit to identify any signs of exploitation.</li>
             
-            <li>Implement stricter controls on package installations and updates in development environments.</li>
+            <li>Educate development teams on secure coding practices to prevent SQL injection vulnerabilities.</li>
             
           </ul>
         </div>
 
-        <div class="text-block"><span class="label">Watch next:</span> Monitor for updates from Laravel and Composer regarding the integrity of their packages and any patches released.</div>
+        <div class="text-block"><span class="label">Watch next:</span> Monitor for updates from CISA and Drupal regarding patches and any further exploitation reports.</div>
 
         <div class="sources">
           <div class="label">Sources</div>
           
             
               <div>
-                <a href="https://www.bleepingcomputer.com/news/security/laravel-lang-packages-hijacked-to-deploy-credential-stealing-malware/" target="_blank" rel="noopener noreferrer">
-                  BleepingComputer - Laravel Lang packages hijacked to deploy credential-stealing malware
+                <a href="https://thehackernews.com/2026/05/drupal-core-sql-injection-bug-actively.html" target="_blank" rel="noopener noreferrer">
+                  The Hacker News - Drupal Core SQL Injection Bug Actively Exploited, Added to CISA KEV
                 </a>
               </div>
             
@@ -526,23 +532,328 @@
             
               <article class="card" style="--i: 0;">
         <div class="meta">
-          <span class="chip risk-medium">MEDIUM</span>
+          <span class="chip risk-high">HIGH</span>
           
-            <span class="chip label-chip">PATCH RELEASE</span>
+            <span class="chip label-chip">ACTIVE EXPLOITATION</span>
+          
+            <span class="chip label-chip">LEGAL POLICY</span>
+          
+          <span class="chip chip-neutral">Privilege Escalation</span>
+          <span class="chip chip-neutral">Confidence LOW</span>
+        </div>
+        
+          <h3><a href="https://thehackernews.com/2026/05/litespeed-cpanel-plugin-cve-2026-48172.html" target="_blank" rel="noopener noreferrer">LiteSpeed cPanel Plugin CVE-2026-48172 Exploited to Run Scripts as Root</a></h3>
+        
+        <p class="hook">Immediate exploitation of a critical vulnerability in LiteSpeed's cPanel plugin could allow attackers to gain root access, posing severe risks to affected systems.</p>
+        <div class="support-grid">
+          <div class="text-block"><span class="label">Who should care:</span> System administrators and security teams managing LiteSpeed cPanel installations are most exposed.</div>
+          <div class="text-block"><span class="label">Attack path:</span> An attacker can exploit this vulnerability by leveraging a compromised cPanel account or by directly targeting cPanel users to gain elevated privileges.</div>
+        </div>
+        <div class="text-block"><span class="label">Why this matters now:</span> Active exploitation makes this an immediate exposure check.</div>
+        <div class="text-block"><span class="label">In plain English:</span> A critical vulnerability in the LiteSpeed cPanel plugin is being actively exploited, allowing attackers to run scripts as root.</div>
+        
+          <div class="tags">
+            
+              <span>cve</span>
+            
+              <span>litespeed</span>
+            
+              <span>cpanel</span>
+            
+          </div>
+        
+        <ul class="story-list">
+          
+            <li>A security vulnerability identified as CVE-2026-48172 has been discovered in the LiteSpeed User-End cPanel Plugin. This flaw allows attackers to execute arbitrary scripts with elevated permissions due to incorrect privilege assignment.</li>
+          
+            <li>The ability to run scripts as root can lead to complete system compromise, data theft, or further exploitation of connected systems. Organizations using this plugin must act quickly to mitigate potential damage.</li>
+          
+            <li>An attacker can exploit this vulnerability by leveraging a compromised cPanel account or by directly targeting cPanel users to gain elevated privileges.</li>
+          
+            <li>Watch next: Monitor for updates from LiteSpeed regarding patches or mitigations for CVE-2026-48172.</li>
+          
+        </ul>
+
+        
+          <div class="glossary">
+            <div class="label">Key terms</div>
+            <ul class="list">
+            
+              <li>CVE - Common Vulnerabilities and Exposures, a list of publicly disclosed cybersecurity vulnerabilities.</li>
+            
+              <li>Privilege Escalation - A type of attack where an attacker gains elevated access to resources that are normally protected from an application or user.</li>
+            
+            </ul>
+          </div>
+        
+
+        <div>
+          <div class="label">Defender focus</div>
+          <ul class="list">
+            
+            <li>Implement monitoring for unusual script execution on affected systems.</li>
+            
+            <li>Review access logs for any unauthorized cPanel account activity.</li>
+            
+            <li>Apply any available patches from LiteSpeed immediately.</li>
+            
+          </ul>
+        </div>
+
+        <div>
+          <div class="label">Do now</div>
+          <ul class="list">
+            
+            <li>Patch the LiteSpeed cPanel plugin as soon as possible.</li>
+            
+            <li>Audit user accounts for any unauthorized access or anomalies.</li>
+            
+            <li>Enhance monitoring for potential exploitation attempts.</li>
+            
+          </ul>
+        </div>
+
+        <div class="text-block"><span class="label">Watch next:</span> Monitor for updates from LiteSpeed regarding patches or mitigations for CVE-2026-48172.</div>
+
+        <div class="sources">
+          <div class="label">Sources</div>
+          
+            
+              <div>
+                <a href="https://thehackernews.com/2026/05/litespeed-cpanel-plugin-cve-2026-48172.html" target="_blank" rel="noopener noreferrer">
+                  The Hacker News - LiteSpeed cPanel Plugin CVE-2026-48172 Exploited to Run Scripts as Root
+                </a>
+              </div>
+            
+          
+        </div>
+      </article>
+            
+              <article class="card" style="--i: 1;">
+        <div class="meta">
+          <span class="chip risk-high">HIGH</span>
+          
+            <span class="chip label-chip">INDUSTRY SIGNAL</span>
           
           <span class="chip chip-neutral">Initial Access</span>
           <span class="chip chip-neutral">Confidence LOW</span>
         </div>
         
-          <h3><a href="https://thehackernews.com/2026/05/npm-adds-2fa-gated-publishing-and.html" target="_blank" rel="noopener noreferrer">npm Adds 2FA-Gated Publishing and Package Install Controls Against Supply Chain Attacks</a></h3>
+          <h3><a href="https://www.bleepingcomputer.com/news/security/laravel-lang-packages-hijacked-to-deploy-credential-stealing-malware/" target="_blank" rel="noopener noreferrer">Laravel Lang packages hijacked to deploy credential-stealing malware</a></h3>
         
-        <p class="hook">The introduction of 2FA-gated publishing in npm is a critical step to mitigate supply chain attacks, making it essential for developers to adopt these controls immediately.</p>
+        <p class="hook">Developers using Laravel Lang packages are at immediate risk of credential theft due to a supply chain attack that has compromised trusted code repositories.</p>
         <div class="support-grid">
-          <div class="text-block"><span class="label">Who should care:</span> Development teams using npm for package management should prioritize implementing these new security features.</div>
-          <div class="text-block"><span class="label">Attack path:</span> An attacker could exploit the absence of these controls to publish malicious packages, compromising the integrity of software dependencies.</div>
+          <div class="text-block"><span class="label">Who should care:</span> Development teams using Laravel and its associated packages should be particularly vigilant.</div>
+          <div class="text-block"><span class="label">Attack path:</span> Attackers gain leverage by injecting malicious code into widely used packages, which are then unknowingly installed by developers during their projects.</div>
         </div>
         <div class="text-block"><span class="label">Why this matters now:</span> Useful context for teams tracking where attacker pressure is building.</div>
-        <div class="text-block"><span class="label">In plain English:</span> npm has implemented new security features requiring two-factor authentication for package publishing and installation approval.</div>
+        <div class="text-block"><span class="label">In plain English:</span> Malicious code has been injected into Laravel Lang packages, potentially stealing developer credentials.</div>
+        
+          <div class="tags">
+            
+              <span>supply chain</span>
+            
+              <span>malware</span>
+            
+              <span>laravel</span>
+            
+          </div>
+        
+        <ul class="story-list">
+          
+            <li>Attackers hijacked Laravel Lang localization packages by manipulating GitHub version tags to distribute malware through Composer packages. This has led to the deployment of credential-stealing malware targeting developers who utilize these packages.</li>
+          
+            <li>The compromise of trusted packages can lead to widespread credential theft, impacting not only individual developers but also the integrity of applications built on Laravel. This incident highlights vulnerabilities in the software supply chain that can be exploited to gain unauthorized access to sensitive information.</li>
+          
+            <li>Attackers gain leverage by injecting malicious code into widely used packages, which are then unknowingly installed by developers during their projects.</li>
+          
+            <li>Watch next: Monitor for updates from Laravel regarding the integrity of their packages and any patches released.</li>
+          
+        </ul>
+
+        
+          <div class="glossary">
+            <div class="label">Key terms</div>
+            <ul class="list">
+            
+              <li>Supply Chain Attack - a type of cyber attack where an attacker infiltrates an organization through an outside partner or service provider.</li>
+            
+              <li>Composer - a dependency manager for PHP that allows developers to manage libraries and packages.</li>
+            
+            </ul>
+          </div>
+        
+
+        <div>
+          <div class="label">Defender focus</div>
+          <ul class="list">
+            
+            <li>Implement monitoring for unusual activity in development environments.</li>
+            
+            <li>Review and validate the integrity of installed Laravel packages.</li>
+            
+            <li>Educate developers on verifying package sources before installation.</li>
+            
+          </ul>
+        </div>
+
+        <div>
+          <div class="label">Do now</div>
+          <ul class="list">
+            
+            <li>Immediately audit all Laravel Lang packages in use.</li>
+            
+            <li>Update to the latest secure versions of affected packages.</li>
+            
+            <li>Implement stricter controls on package installations and source verification.</li>
+            
+          </ul>
+        </div>
+
+        <div class="text-block"><span class="label">Watch next:</span> Monitor for updates from Laravel regarding the integrity of their packages and any patches released.</div>
+
+        <div class="sources">
+          <div class="label">Sources</div>
+          
+            
+              <div>
+                <a href="https://www.bleepingcomputer.com/news/security/laravel-lang-packages-hijacked-to-deploy-credential-stealing-malware/" target="_blank" rel="noopener noreferrer">
+                  BleepingComputer - Laravel Lang packages hijacked to deploy credential-stealing malware
+                </a>
+              </div>
+            
+          
+        </div>
+      </article>
+            
+              <article class="card" style="--i: 2;">
+        <div class="meta">
+          <span class="chip risk-high">HIGH</span>
+          
+            <span class="chip label-chip">RESEARCH</span>
+          
+          <span class="chip chip-neutral">Execution</span>
+          <span class="chip chip-neutral">Confidence LOW</span>
+        </div>
+        
+          <h3><a href="https://thehackernews.com/2026/05/laravel-lang-php-packages-compromised.html" target="_blank" rel="noopener noreferrer">Laravel-Lang PHP Packages Compromised to Deliver Cross-Platform Credential Stealer</a></h3>
+        
+        <p class="hook">A recent compromise of Laravel-Lang PHP packages could lead to widespread credential theft, impacting numerous applications relying on these libraries.</p>
+        <div class="support-grid">
+          <div class="text-block"><span class="label">Who should care:</span> Development teams and security teams managing applications that utilize Laravel-Lang PHP packages.</div>
+          <div class="text-block"><span class="label">Attack path:</span> Attackers can leverage the compromised packages to inject malicious code that captures user credentials when applications are executed.</div>
+        </div>
+        <div class="text-block"><span class="label">Why this matters now:</span> Useful context for teams tracking where attacker pressure is building.</div>
+        <div class="text-block"><span class="label">In plain English:</span> Several Laravel-Lang PHP packages have been compromised to distribute a credential-stealing framework.</div>
+        
+          <div class="tags">
+            
+              <span>supply chain</span>
+            
+              <span>credential theft</span>
+            
+              <span>php</span>
+            
+          </div>
+        
+        <ul class="story-list">
+          
+            <li>Cybersecurity researchers have identified a software supply chain attack targeting Laravel-Lang PHP packages. The compromised packages include laravel-lang/lang, laravel-lang/http-statuses, laravel-lang/attributes, and laravel-lang/actions, which are widely used in PHP applications.</li>
+          
+            <li>This attack allows attackers to deploy a credential-stealing framework across applications that utilize these packages, potentially leading to unauthorized access and data breaches. Organizations using these libraries should assess their exposure and take immediate action to mitigate risks.</li>
+          
+            <li>Attackers can leverage the compromised packages to inject malicious code that captures user credentials when applications are executed.</li>
+          
+            <li>Watch next: Monitor for updates from Laravel-Lang regarding the compromised packages and any patches or mitigations they may release.</li>
+          
+        </ul>
+
+        
+          <div class="glossary">
+            <div class="label">Key terms</div>
+            <ul class="list">
+            
+              <li>Supply Chain Attack - a type of cyber attack where an attacker infiltrates a system through an outside partner or service provider.</li>
+            
+              <li>Credential Stealer - malicious software designed to capture usernames and passwords from users.</li>
+            
+            </ul>
+          </div>
+        
+
+        <div>
+          <div class="label">Defender focus</div>
+          <ul class="list">
+            
+            <li>Identify and isolate any applications using the affected Laravel-Lang packages.</li>
+            
+            <li>Implement monitoring for unusual authentication attempts or access patterns.</li>
+            
+            <li>Review and update dependency management practices to ensure the integrity of third-party packages.</li>
+            
+          </ul>
+        </div>
+
+        <div>
+          <div class="label">Do now</div>
+          <ul class="list">
+            
+            <li>Immediately audit your applications for the use of the compromised Laravel-Lang packages.</li>
+            
+            <li>Update or remove affected packages as necessary to prevent exploitation.</li>
+            
+            <li>Enhance logging and monitoring to detect any unauthorized access attempts.</li>
+            
+          </ul>
+        </div>
+
+        <div class="text-block"><span class="label">Watch next:</span> Monitor for updates from Laravel-Lang regarding the compromised packages and any patches or mitigations they may release.</div>
+
+        <div class="sources">
+          <div class="label">Sources</div>
+          
+            
+              <div>
+                <a href="https://thehackernews.com/2026/05/laravel-lang-php-packages-compromised.html" target="_blank" rel="noopener noreferrer">
+                  The Hacker News - Laravel-Lang PHP Packages Compromised to Deliver Cross-Platform Credential Stealer
+                </a>
+              </div>
+            
+          
+        </div>
+      </article>
+            
+          </div>
+        
+      </section>
+
+      <section>
+        <div class="section-title">
+          <span class="pill" style="background: var(--low);"></span>
+          Wider Signal
+        </div>
+        
+          <div class="grid">
+            
+              <article class="card" style="--i: 0;">
+        <div class="meta">
+          <span class="chip risk-medium">MEDIUM</span>
+          
+            <span class="chip label-chip">PATCH RELEASE</span>
+          
+          <span class="chip chip-neutral">Defense Evasion</span>
+          <span class="chip chip-neutral">Confidence LOW</span>
+        </div>
+        
+          <h3><a href="https://thehackernews.com/2026/05/npm-adds-2fa-gated-publishing-and.html" target="_blank" rel="noopener noreferrer">npm Adds 2FA-Gated Publishing and Package Install Controls Against Supply Chain Attacks</a></h3>
+        
+        <p class="hook">The introduction of 2FA for npm package publishing is a critical step in mitigating supply chain attacks that can compromise software integrity.</p>
+        <div class="support-grid">
+          <div class="text-block"><span class="label">Who should care:</span> Development teams using npm for package management and organizations relying on third-party libraries should pay close attention.</div>
+          <div class="text-block"><span class="label">Attack path:</span> An attacker could exploit vulnerabilities in the package publishing process to inject malicious code into widely used libraries. With the new 2FA controls, this path is more difficult as unauthorized access to maintainers' accounts is required.</div>
+        </div>
+        <div class="text-block"><span class="label">Why this matters now:</span> Useful context for teams tracking where attacker pressure is building.</div>
+        <div class="text-block"><span class="label">In plain English:</span> npm now requires two-factor authentication for package publishing, enhancing security against supply chain threats.</div>
         
           <div class="tags">
             
@@ -556,13 +867,13 @@
         
         <ul class="story-list">
           
-            <li>GitHub has rolled out new security controls for npm, allowing package maintainers to approve releases before they are publicly available. This feature, known as staged publishing, requires maintainers to complete a two-factor authentication challenge.</li>
+            <li>GitHub has implemented new security controls for npm, allowing package maintainers to approve releases before they are publicly available. This feature, known as staged publishing, requires maintainers to complete a two-factor authentication challenge to authorize package releases.</li>
           
-            <li>These changes significantly enhance the security of the software supply chain by preventing unauthorized package releases. As supply chain attacks become more prevalent, adopting these measures can protect organizations from potential vulnerabilities introduced through compromised packages.</li>
+            <li>This change significantly reduces the risk of unauthorized package modifications that can lead to supply chain attacks. By ensuring that only verified maintainers can publish updates, the integrity of the software ecosystem is better protected.</li>
           
-            <li>An attacker could exploit the absence of these controls to publish malicious packages, compromising the integrity of software dependencies.</li>
+            <li>An attacker could exploit vulnerabilities in the package publishing process to inject malicious code into widely used libraries. With the new 2FA controls, this path is more difficult as unauthorized access to maintainers' accounts is required.</li>
           
-            <li>Watch next: Monitor for updates on adoption rates of these features and any reported incidents related to npm packages.</li>
+            <li>Watch next: Monitor for any reports of attempted supply chain attacks targeting npm packages and the effectiveness of the new controls.</li>
           
         </ul>
 
@@ -573,7 +884,7 @@
             
               <li>2FA - Two-factor authentication, a security process that requires two different forms of identification.</li>
             
-              <li>Supply Chain Attack - A type of cyber attack that targets the supply chain of software, compromising the integrity of software packages.</li>
+              <li>Supply Chain Attack - A type of cyber attack that targets the supply chain of software, compromising the integrity of software before it reaches the end user.</li>
             
             </ul>
           </div>
@@ -583,11 +894,11 @@
           <div class="label">Defender focus</div>
           <ul class="list">
             
-            <li>Ensure that all npm package maintainers in your organization are using the new 2FA-gated publishing feature.</li>
+            <li>Ensure that all npm package maintainers in your organization have enabled 2FA.</li>
             
-            <li>Review and audit existing npm packages for any unauthorized changes or vulnerabilities.</li>
+            <li>Review access logs for any unusual activity related to package publishing.</li>
             
-            <li>Implement monitoring for any unusual package installation requests that bypass the new approval process.</li>
+            <li>Stay updated on npm security announcements and assess the impact on your software dependencies.</li>
             
           </ul>
         </div>
@@ -596,16 +907,16 @@
           <div class="label">Do now</div>
           <ul class="list">
             
-            <li>Enable 2FA for all npm accounts immediately.</li>
+            <li>Implement 2FA for all npm package maintainers immediately.</li>
             
-            <li>Educate development teams on the importance of staged publishing.</li>
+            <li>Audit current npm packages for vulnerabilities and ensure they are from trusted sources.</li>
             
-            <li>Regularly review package dependencies for security compliance.</li>
+            <li>Educate development teams on the importance of supply chain security.</li>
             
           </ul>
         </div>
 
-        <div class="text-block"><span class="label">Watch next:</span> Monitor for updates on adoption rates of these features and any reported incidents related to npm packages.</div>
+        <div class="text-block"><span class="label">Watch next:</span> Monitor for any reports of attempted supply chain attacks targeting npm packages and the effectiveness of the new controls.</div>
 
         <div class="sources">
           <div class="label">Sources</div>
@@ -633,31 +944,31 @@
         
           <h3><a href="https://thehackernews.com/2026/05/packagist-supply-chain-attack-infects-8.html" target="_blank" rel="noopener noreferrer">Packagist Supply Chain Attack Infects 8 Packages Using GitHub-Hosted Linux Malware</a></h3>
         
-        <p class="hook">This supply chain attack compromises multiple software packages, potentially affecting numerous applications and services relying on them.</p>
+        <p class="hook">This supply chain attack compromises multiple software packages, potentially affecting numerous applications and their users.</p>
         <div class="support-grid">
           <div class="text-block"><span class="label">Who should care:</span> Development teams using Composer and JavaScript packages should be particularly vigilant.</div>
-          <div class="text-block"><span class="label">Attack path:</span> Attackers gain leverage by injecting malicious code into widely used packages, allowing them to execute harmful binaries on compromised systems.</div>
+          <div class="text-block"><span class="label">Attack path:</span> Attackers gain leverage by injecting malicious code into widely used packages, allowing them to execute arbitrary code on systems that utilize these packages.</div>
         </div>
         <div class="text-block"><span class="label">Why this matters now:</span> Useful context for teams tracking where attacker pressure is building.</div>
-        <div class="text-block"><span class="label">In plain English:</span> Eight packages on Packagist were infected with malware, posing a risk to projects using these packages.</div>
+        <div class="text-block"><span class="label">In plain English:</span> Eight packages on Packagist have been infected with malware that targets Linux systems.</div>
         
           <div class="tags">
             
-              <span>supply chain</span>
+              <span>supply_chain</span>
             
               <span>malware</span>
             
-              <span>packagist</span>
+              <span>open_source</span>
             
           </div>
         
         <ul class="story-list">
           
-            <li>A coordinated supply chain attack has infected eight packages on Packagist with malicious code that executes a Linux binary from a GitHub URL. The malware was inserted into the package.json file, not the composer.json, which is atypical for Composer packages.</li>
+            <li>A coordinated supply chain attack has infected eight packages on Packagist, introducing malicious code that executes a Linux binary from a GitHub URL. The malicious code was inserted into package.json files, rather than the expected composer.json, indicating a targeted approach.</li>
           
-            <li>This attack could lead to widespread exploitation of affected applications, as many developers rely on these packages for their projects. The stealthy insertion of malware into package.json increases the risk of undetected infections in JavaScript projects.</li>
+            <li>This attack could lead to widespread exploitation of affected applications, as developers may unknowingly integrate compromised packages into their projects. The use of GitHub-hosted malware raises concerns about the security of open-source software supply chains.</li>
           
-            <li>Attackers gain leverage by injecting malicious code into widely used packages, allowing them to execute harmful binaries on compromised systems.</li>
+            <li>Attackers gain leverage by injecting malicious code into widely used packages, allowing them to execute arbitrary code on systems that utilize these packages.</li>
           
             <li>Watch next: Monitor for updates from Packagist and GitHub regarding the affected packages and any remediation steps.</li>
           
@@ -668,9 +979,9 @@
             <div class="label">Key terms</div>
             <ul class="list">
             
-              <li>Supply Chain Attack - a type of cyber attack where the attacker targets a less secure element in the supply chain to compromise a system.</li>
+              <li>Supply Chain Attack - a type of cyber attack that targets the supply chain of software, compromising the integrity of software packages.</li>
             
-              <li>Malware - malicious software designed to disrupt, damage, or gain unauthorized access to computer systems.</li>
+              <li>Malware - malicious software designed to harm, exploit, or otherwise compromise a computer system.</li>
             
             </ul>
           </div>
@@ -680,11 +991,11 @@
           <div class="label">Defender focus</div>
           <ul class="list">
             
-            <li>Implement monitoring for unusual package updates in development environments.</li>
+            <li>Implement monitoring for the affected packages to detect any unauthorized changes.</li>
             
-            <li>Review and audit the package.json files of projects for unauthorized changes.</li>
+            <li>Review and audit package.json files in your projects for any unexpected dependencies.</li>
             
-            <li>Establish a process for verifying the integrity of packages before use.</li>
+            <li>Educate developers on the risks of supply chain attacks and encourage the use of trusted sources.</li>
             
           </ul>
         </div>
@@ -693,11 +1004,11 @@
           <div class="label">Do now</div>
           <ul class="list">
             
-            <li>Immediately review and audit all projects using affected packages.</li>
+            <li>Immediately assess your projects for the use of the affected packages.</li>
             
-            <li>Update any compromised packages to their latest secure versions.</li>
+            <li>Update or remove any compromised packages from your applications.</li>
             
-            <li>Educate development teams on the risks of supply chain attacks and secure coding practices.</li>
+            <li>Stay informed on the latest security advisories related to this incident.</li>
             
           </ul>
         </div>
@@ -719,16 +1030,6 @@
       </article>
             
           </div>
-        
-      </section>
-
-      <section>
-        <div class="section-title">
-          <span class="pill" style="background: var(--low);"></span>
-          Wider Signal
-        </div>
-        
-          <p class="empty">No context stories today.</p>
         
       </section>
     </main>
