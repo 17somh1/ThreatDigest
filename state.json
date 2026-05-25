@@ -1,5 +1,5 @@
 {
-  "last_run_utc": "2026-05-25T11:47:29.198237+00:00",
+  "last_run_utc": "2026-05-25T15:25:23.012715+00:00",
   "processed_urls": [
     "https://www.bleepingcomputer.com/news/security/critical-cisco-sd-wan-bug-exploited-in-zero-day-attacks-since-2023/",
     "https://www.cisa.gov/news-events/alerts/2026/02/25/cisa-and-partners-release-guidance-ongoing-global-exploitation-cisco-sd-wan-systems",
@@ -580,6 +580,8 @@
     "https://thehackernews.com/2026/05/npm-adds-2fa-gated-publishing-and.html",
     "https://thehackernews.com/2026/05/packagist-supply-chain-attack-infects-8.html",
     "https://www.bleepingcomputer.com/news/security/ghost-cms-sql-injection-flaw-exploited-in-large-scale-clickfix-campaign/",
-    "https://thehackernews.com/2026/05/trapdoor-supply-chain-attack-spreads.html"
+    "https://thehackernews.com/2026/05/trapdoor-supply-chain-attack-spreads.html",
+    "https://thehackernews.com/2026/05/ghost-cms-cve-2026-26980-exploited-to.html",
+    "https://www.bleepingcomputer.com/news/security/fbi-warns-of-kali365-phishing-service-targeting-microsoft-365-accounts/"
   ]
 }
