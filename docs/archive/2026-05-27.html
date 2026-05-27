@@ -378,8 +378,8 @@
         The security news worth your attention, with context and practical takeaways.
       </p>
       <div class="meta-bar">
-        <span>Updated: 2026-05-27 11:32 UTC</span>
-        <span>Stories: 4</span>
+        <span>Updated: 2026-05-27 16:04 UTC</span>
+        <span>Stories: 1</span>
         <span>Recent issues: 14</span>
       </div>
     </header>
@@ -389,7 +389,7 @@
         <section class="one-liner">
           <h2>What Matters Today</h2>
           
-            <p class="text-block">Organizations must urgently patch critical vulnerabilities in cPanel and Gitea to prevent active exploitation and potential data breaches.</p>
+            <p class="text-block">The takedown of GlassWorm's infrastructure lowers the threat of compromised software supply chains, but development teams must remain vigilant against evolving risks.</p>
           
         </section>
 
@@ -398,11 +398,11 @@
           
             <ul>
               
-              <li>Active exploitation of vulnerabilities is increasing pressure on IT security teams to prioritize rapid patching.</li>
+              <li>Disruption of command-and-control infrastructure reduces immediate risk but highlights ongoing vulnerabilities in software development environments.</li>
               
-              <li>Privilege escalation vulnerabilities are a significant attack vector, requiring immediate attention from system administrators.</li>
+              <li>Increased scrutiny on third-party software packages is necessary as attackers adapt to new defenses.</li>
               
-              <li>Development teams must be vigilant about container management security to protect sensitive data from unauthorized access.</li>
+              <li>Development teams face heightened pressure to implement robust security measures to prevent future supply chain attacks.</li>
               
             </ul>
           
@@ -418,45 +418,43 @@
           <div class="grid">
             <article class="card" style="--i: 0;">
         <div class="meta">
-          <span class="chip risk-high">HIGH</span>
+          <span class="chip risk-medium">MEDIUM</span>
           
-            <span class="chip label-chip">ACTIVE EXPLOITATION</span>
+            <span class="chip label-chip">INDUSTRY SIGNAL</span>
           
-            <span class="chip label-chip">KEV ADDED</span>
-          
-          <span class="chip chip-neutral">Privilege Escalation</span>
+          <span class="chip chip-neutral">Initial Access</span>
           <span class="chip chip-neutral">Confidence LOW</span>
         </div>
         
-          <h3><a href="https://www.cisa.gov/news-events/alerts/2026/05/26/cisa-adds-one-known-exploited-vulnerability-catalog" target="_blank" rel="noopener noreferrer">CISA Adds One Known Exploited Vulnerability to Catalog</a></h3>
+          <h3><a href="https://thehackernews.com/2026/05/glassworm-malware-takedown-disrupts.html" target="_blank" rel="noopener noreferrer">GlassWorm Malware Takedown Disrupts Developer Supply Chain Attack Infrastructure</a></h3>
         
-        <p class="hook">The addition of CVE-2026-48172 to the KEV Catalog signals an urgent need for organizations to address a privilege escalation vulnerability that is actively being exploited.</p>
+        <p class="hook">The disruption of GlassWorm's command-and-control infrastructure significantly reduces the risk of compromised software development environments, which could have led to widespread malware distribution.</p>
         <div class="support-grid">
-          <div class="text-block"><span class="label">Who should care:</span> IT security teams and system administrators managing LiteSpeed cPanel installations should be particularly vigilant.</div>
-          <div class="text-block"><span class="label">Attack path:</span> An attacker can exploit this vulnerability to gain elevated privileges within the affected systems, allowing for further malicious activities.</div>
+          <div class="text-block"><span class="label">Who should care:</span> Development teams and organizations that rely on third-party software packages and extensions should be particularly vigilant.</div>
+          <div class="text-block"><span class="label">Attack path:</span> Attackers leveraged malicious packages and extensions to gain access to developer environments, potentially leading to the distribution of malware through legitimate software.</div>
         </div>
-        <div class="text-block"><span class="label">Why this matters now:</span> KEV status shortens the acceptable patch window.</div>
-        <div class="text-block"><span class="label">In plain English:</span> CISA has identified a new critical vulnerability that could allow attackers to gain elevated privileges in systems using the LiteSpeed cPanel Plugin.</div>
+        <div class="text-block"><span class="label">Why this matters now:</span> Useful context for teams tracking where attacker pressure is building.</div>
+        <div class="text-block"><span class="label">In plain English:</span> GlassWorm malware's command-and-control channels have been disrupted, impacting its ability to target software developers.</div>
         
           <div class="tags">
             
-              <span>cve</span>
+              <span>malware</span>
             
-              <span>vulnerability</span>
+              <span>supply chain</span>
             
-              <span>privilege escalation</span>
+              <span>software</span>
             
           </div>
         
         <ul class="story-list">
           
-            <li>CISA has added CVE-2026-48172, a privilege escalation vulnerability in the LiteSpeed cPanel Plugin, to its Known Exploited Vulnerabilities Catalog. This decision is based on evidence of active exploitation in the wild.</li>
+            <li>CrowdStrike, Google, and the Shadowserver Foundation have successfully disrupted all command-and-control channels associated with the GlassWorm malware. This malware has been targeting software developers through malicious packages and extensions since early 2025.</li>
           
-            <li>Privilege escalation vulnerabilities can allow attackers to gain higher access levels within systems, potentially leading to data breaches or system compromises. Organizations, especially those in the federal sector, must prioritize remediation to protect their networks from these active threats.</li>
+            <li>The disruption prevents further exploitation of software development environments, which could have led to the distribution of compromised software to end-users. This is crucial for maintaining the integrity of software supply chains and protecting organizations from potential malware infections.</li>
           
-            <li>An attacker can exploit this vulnerability to gain elevated privileges within the affected systems, allowing for further malicious activities.</li>
+            <li>Attackers leveraged malicious packages and extensions to gain access to developer environments, potentially leading to the distribution of malware through legitimate software.</li>
           
-            <li>Watch next: Monitor for updates from CISA regarding additional vulnerabilities added to the KEV Catalog and any recommended remediation timelines.</li>
+            <li>Watch next: Monitor for any resurgence of GlassWorm or similar malware targeting software development tools and environments.</li>
           
         </ul>
 
@@ -465,9 +463,9 @@
             <div class="label">Key terms</div>
             <ul class="list">
             
-              <li>CVE - Common Vulnerabilities and Exposures, a list of publicly known cybersecurity vulnerabilities.</li>
+              <li>Command-and-Control (C2) - a method used by attackers to maintain communication with compromised systems and control them remotely.</li>
             
-              <li>Privilege Escalation - a type of attack where an attacker gains elevated access to resources that are normally protected from the user.</li>
+              <li>Malicious Packages - software packages that contain harmful code designed to exploit vulnerabilities or compromise systems.</li>
             
             </ul>
           </div>
@@ -477,11 +475,11 @@
           <div class="label">Defender focus</div>
           <ul class="list">
             
-            <li>Implement monitoring for unusual access patterns in systems using LiteSpeed cPanel.</li>
+            <li>Implement monitoring for unusual activity in development environments.</li>
             
-            <li>Review and apply patches for CVE-2026-48172 as soon as possible.</li>
+            <li>Review and validate the integrity of software packages used in development.</li>
             
-            <li>Conduct a vulnerability assessment to identify and remediate other potential vulnerabilities in your environment.</li>
+            <li>Ensure that security measures are in place to detect and block malicious extensions.</li>
             
           </ul>
         </div>
@@ -490,24 +488,24 @@
           <div class="label">Do now</div>
           <ul class="list">
             
-            <li>Patch the LiteSpeed cPanel Plugin immediately to mitigate the vulnerability.</li>
+            <li>Conduct a security audit of all software packages and extensions in use.</li>
             
-            <li>Review access logs for any signs of exploitation attempts.</li>
+            <li>Enhance monitoring for any signs of compromise in development tools.</li>
             
-            <li>Enhance monitoring for privilege escalation activities across your systems.</li>
+            <li>Educate developers on the risks associated with third-party packages and extensions.</li>
             
           </ul>
         </div>
 
-        <div class="text-block"><span class="label">Watch next:</span> Monitor for updates from CISA regarding additional vulnerabilities added to the KEV Catalog and any recommended remediation timelines.</div>
+        <div class="text-block"><span class="label">Watch next:</span> Monitor for any resurgence of GlassWorm or similar malware targeting software development tools and environments.</div>
 
         <div class="sources">
           <div class="label">Sources</div>
           
             
               <div>
-                <a href="https://www.cisa.gov/news-events/alerts/2026/05/26/cisa-adds-one-known-exploited-vulnerability-catalog" target="_blank" rel="noopener noreferrer">
-                  Alerts - CISA Adds One Known Exploited Vulnerability to Catalog
+                <a href="https://thehackernews.com/2026/05/glassworm-malware-takedown-disrupts.html" target="_blank" rel="noopener noreferrer">
+                  The Hacker News - GlassWorm Malware Takedown Disrupts Developer Supply Chain Attack Infrastructure
                 </a>
               </div>
             
@@ -524,306 +522,7 @@
           Priority Watchlist
         </div>
         
-          <div class="grid">
-            
-              <article class="card" style="--i: 0;">
-        <div class="meta">
-          <span class="chip risk-high">HIGH</span>
-          
-            <span class="chip label-chip">ACTIVE EXPLOITATION</span>
-          
-            <span class="chip label-chip">PATCH RELEASE</span>
-          
-            <span class="chip label-chip">LEGAL POLICY</span>
-          
-          <span class="chip chip-neutral">Initial Access</span>
-          <span class="chip chip-neutral">Confidence LOW</span>
-        </div>
-        
-          <h3><a href="https://www.bleepingcomputer.com/news/security/cisa-gives-feds-4-days-to-patch-actively-exploited-cpanel-plugin-flaw/" target="_blank" rel="noopener noreferrer">CISA gives feds 4 days to patch actively exploited cPanel plugin flaw</a></h3>
-        
-        <p class="hook">Federal agencies must act swiftly to patch a critical vulnerability that is currently being exploited, as failure to do so could lead to significant data breaches.</p>
-        <div class="support-grid">
-          <div class="text-block"><span class="label">Who should care:</span> Federal IT security teams and administrators managing cPanel installations should prioritize this patch.</div>
-          <div class="text-block"><span class="label">Attack path:</span> Attackers can exploit this vulnerability to gain unauthorized access to systems running the affected cPanel plugin, potentially leading to data exfiltration or system compromise.</div>
-        </div>
-        <div class="text-block"><span class="label">Why this matters now:</span> Active exploitation makes this an immediate exposure check. A live patch or vendor fix gives defenders something concrete to validate.</div>
-        <div class="text-block"><span class="label">In plain English:</span> CISA has mandated a four-day deadline for federal agencies to patch a critical vulnerability in a cPanel plugin that is under active attack.</div>
-        
-          <div class="tags">
-            
-              <span>cve</span>
-            
-              <span>cpanel</span>
-            
-              <span>federal</span>
-            
-          </div>
-        
-        <ul class="story-list">
-          
-            <li>CISA has identified a critical vulnerability in the LiteSpeed cPanel user-end plugin that is being actively exploited. They have issued a directive for U.S. federal agencies to patch this vulnerability within four days to mitigate potential attacks.</li>
-          
-            <li>If left unpatched, this vulnerability could allow attackers to gain unauthorized access to federal servers, leading to data breaches and potential disruption of services. The urgency is heightened by the active exploitation of this flaw, making immediate action essential.</li>
-          
-            <li>Attackers can exploit this vulnerability to gain unauthorized access to systems running the affected cPanel plugin, potentially leading to data exfiltration or system compromise.</li>
-          
-            <li>Watch next: Monitor for updates from CISA regarding the status of the vulnerability and any additional guidance on mitigation.</li>
-          
-        </ul>
-
-        
-          <div class="glossary">
-            <div class="label">Key terms</div>
-            <ul class="list">
-            
-              <li>CISA - Cybersecurity and Infrastructure Security Agency, a U.S. government agency that provides cybersecurity guidance and support.</li>
-            
-              <li>cPanel - A web hosting control panel that provides a graphical interface for managing web hosting services.</li>
-            
-            </ul>
-          </div>
-        
-
-        <div>
-          <div class="label">Defender focus</div>
-          <ul class="list">
-            
-            <li>Verify that all cPanel installations are updated to the latest version to mitigate this vulnerability.</li>
-            
-            <li>Monitor logs for any unusual access patterns that may indicate exploitation attempts.</li>
-            
-            <li>Implement network segmentation to limit the impact of any potential breaches.</li>
-            
-          </ul>
-        </div>
-
-        <div>
-          <div class="label">Do now</div>
-          <ul class="list">
-            
-            <li>Patch the LiteSpeed cPanel plugin immediately.</li>
-            
-            <li>Review and enhance monitoring for any suspicious activity on affected servers.</li>
-            
-            <li>Prepare incident response plans in case of a successful exploitation.</li>
-            
-          </ul>
-        </div>
-
-        <div class="text-block"><span class="label">Watch next:</span> Monitor for updates from CISA regarding the status of the vulnerability and any additional guidance on mitigation.</div>
-
-        <div class="sources">
-          <div class="label">Sources</div>
-          
-            
-              <div>
-                <a href="https://www.bleepingcomputer.com/news/security/cisa-gives-feds-4-days-to-patch-actively-exploited-cpanel-plugin-flaw/" target="_blank" rel="noopener noreferrer">
-                  BleepingComputer - CISA gives feds 4 days to patch actively exploited cPanel plugin flaw
-                </a>
-              </div>
-            
-          
-        </div>
-      </article>
-            
-              <article class="card" style="--i: 1;">
-        <div class="meta">
-          <span class="chip risk-high">HIGH</span>
-          
-            <span class="chip label-chip">LEGAL POLICY</span>
-          
-            <span class="chip label-chip">RESEARCH</span>
-          
-          <span class="chip chip-neutral">Exfiltration</span>
-          <span class="chip chip-neutral">Confidence LOW</span>
-        </div>
-        
-          <h3><a href="https://thehackernews.com/2026/05/gitea-vulnerability-exposes-private.html" target="_blank" rel="noopener noreferrer">Gitea Vulnerability Exposes Private Container Images without Authentication</a></h3>
-        
-        <p class="hook">The recent Gitea vulnerability allows attackers to access private container images, posing significant risks to sensitive data and intellectual property.</p>
-        <div class="support-grid">
-          <div class="text-block"><span class="label">Who should care:</span> Development and DevOps teams using Gitea for container management should prioritize addressing this vulnerability.</div>
-          <div class="text-block"><span class="label">Attack path:</span> An attacker can exploit this vulnerability by sending requests to the Gitea server to retrieve private container images without needing any credentials.</div>
-        </div>
-        <div class="text-block"><span class="label">Why this matters now:</span> Useful context for teams tracking where attacker pressure is building.</div>
-        <div class="text-block"><span class="label">In plain English:</span> A flaw in Gitea lets unauthorized users pull private container images, affecting all versions before 1.26.2.</div>
-        
-          <div class="tags">
-            
-              <span>cve</span>
-            
-              <span>gitea</span>
-            
-              <span>container</span>
-            
-          </div>
-        
-        <ul class="story-list">
-          
-            <li>Researchers identified a vulnerability in Gitea, an open-source version control platform, that enables unauthenticated attackers to access private container images. This flaw, designated as CVE-2026-27771, impacts all versions prior to 1.26.2.</li>
-          
-            <li>The ability to access private container images without authentication can lead to data breaches, exposing sensitive information and potentially allowing attackers to exploit the contents of those images. Organizations using Gitea for container management must act quickly to mitigate risks associated with this vulnerability.</li>
-          
-            <li>An attacker can exploit this vulnerability by sending requests to the Gitea server to retrieve private container images without needing any credentials.</li>
-          
-            <li>Watch next: Monitor for updates from Gitea regarding patches and security advisories related to this vulnerability.</li>
-          
-        </ul>
-
-        
-          <div class="glossary">
-            <div class="label">Key terms</div>
-            <ul class="list">
-            
-              <li>Gitea - an open-source platform for version control and collaboration on code.</li>
-            
-              <li>Container Image - a lightweight, standalone, executable package that includes everything needed to run a piece of software, including the code, runtime, libraries, and system tools.</li>
-            
-            </ul>
-          </div>
-        
-
-        <div>
-          <div class="label">Defender focus</div>
-          <ul class="list">
-            
-            <li>Implement monitoring for unauthorized access attempts to Gitea deployments.</li>
-            
-            <li>Review access controls and ensure that private container images are not publicly accessible.</li>
-            
-            <li>Apply the latest Gitea updates to mitigate the vulnerability.</li>
-            
-          </ul>
-        </div>
-
-        <div>
-          <div class="label">Do now</div>
-          <ul class="list">
-            
-            <li>Immediately update Gitea to version 1.26.2 or later.</li>
-            
-            <li>Audit current access controls for private container images.</li>
-            
-            <li>Educate relevant teams about the implications of this vulnerability.</li>
-            
-          </ul>
-        </div>
-
-        <div class="text-block"><span class="label">Watch next:</span> Monitor for updates from Gitea regarding patches and security advisories related to this vulnerability.</div>
-
-        <div class="sources">
-          <div class="label">Sources</div>
-          
-            
-              <div>
-                <a href="https://thehackernews.com/2026/05/gitea-vulnerability-exposes-private.html" target="_blank" rel="noopener noreferrer">
-                  The Hacker News - Gitea Vulnerability Exposes Private Container Images without Authentication
-                </a>
-              </div>
-            
-          
-        </div>
-      </article>
-            
-              <article class="card" style="--i: 2;">
-        <div class="meta">
-          <span class="chip risk-high">HIGH</span>
-          
-            <span class="chip label-chip">LEGAL POLICY</span>
-          
-          <span class="chip chip-neutral">Initial Access</span>
-          <span class="chip chip-neutral">Confidence LOW</span>
-        </div>
-        
-          <h3><a href="https://www.bleepingcomputer.com/news/security/knowledgedeliver-flaw-exploited-as-a-zero-day-to-install-web-shells/" target="_blank" rel="noopener noreferrer">KnowledgeDeliver flaw exploited as a zero-day to install web shells</a></h3>
-        
-        <p class="hook">The exploitation of a zero-day vulnerability in KnowledgeDeliver poses immediate risks of unauthorized access and data compromise.</p>
-        <div class="support-grid">
-          <div class="text-block"><span class="label">Who should care:</span> IT security teams managing the KnowledgeDeliver LMS and any organizations utilizing this platform.</div>
-          <div class="text-block"><span class="label">Attack path:</span> Attackers exploit the zero-day vulnerability to gain initial access and then deploy the web shell for persistent control over the server.</div>
-        </div>
-        <div class="text-block"><span class="label">Why this matters now:</span> Useful context for teams tracking where attacker pressure is building.</div>
-        <div class="text-block"><span class="label">In plain English:</span> A critical flaw in KnowledgeDeliver has been exploited to install malicious web shells, allowing attackers to control affected systems.</div>
-        
-          <div class="tags">
-            
-              <span>zero day</span>
-            
-              <span>web shell</span>
-            
-              <span>knowledgedeliver</span>
-            
-          </div>
-        
-        <ul class="story-list">
-          
-            <li>Hackers have taken advantage of a zero-day vulnerability in the KnowledgeDeliver learning management system to deploy the Godzilla web shell. This web shell enables attackers to execute commands remotely on compromised servers.</li>
-          
-            <li>The presence of web shells can lead to significant data breaches, unauthorized access to sensitive information, and potential disruption of services. Organizations using KnowledgeDeliver must act quickly to mitigate risks associated with this vulnerability.</li>
-          
-            <li>Attackers exploit the zero-day vulnerability to gain initial access and then deploy the web shell for persistent control over the server.</li>
-          
-            <li>Watch next: Monitor for any patches or updates from KnowledgeDeliver and watch for signs of web shell activity in your systems.</li>
-          
-        </ul>
-
-        
-          <div class="glossary">
-            <div class="label">Key terms</div>
-            <ul class="list">
-            
-              <li>Zero-day - a vulnerability that is exploited before the vendor releases a fix.</li>
-            
-              <li>Web shell - a script that allows remote control of a web server.</li>
-            
-            </ul>
-          </div>
-        
-
-        <div>
-          <div class="label">Defender focus</div>
-          <ul class="list">
-            
-            <li>Implement monitoring for unusual outbound connections from the KnowledgeDeliver servers.</li>
-            
-            <li>Review logs for any unauthorized access attempts or command executions.</li>
-            
-            <li>Ensure that all systems running KnowledgeDeliver are updated with the latest security patches as soon as they are available.</li>
-            
-          </ul>
-        </div>
-
-        <div>
-          <div class="label">Do now</div>
-          <ul class="list">
-            
-            <li>Immediately assess the exposure of KnowledgeDeliver systems in your environment.</li>
-            
-            <li>Deploy network monitoring tools to detect potential web shell activity.</li>
-            
-            <li>Prepare to apply patches as soon as they are released by the vendor.</li>
-            
-          </ul>
-        </div>
-
-        <div class="text-block"><span class="label">Watch next:</span> Monitor for any patches or updates from KnowledgeDeliver and watch for signs of web shell activity in your systems.</div>
-
-        <div class="sources">
-          <div class="label">Sources</div>
-          
-            
-              <div>
-                <a href="https://www.bleepingcomputer.com/news/security/knowledgedeliver-flaw-exploited-as-a-zero-day-to-install-web-shells/" target="_blank" rel="noopener noreferrer">
-                  BleepingComputer - KnowledgeDeliver flaw exploited as a zero-day to install web shells
-                </a>
-              </div>
-            
-          
-        </div>
-      </article>
-            
-          </div>
+          <p class="empty">No additional top stories.</p>
         
       </section>
 
