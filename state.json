@@ -1,5 +1,5 @@
 {
-  "last_run_utc": "2026-05-26T16:02:22.011423+00:00",
+  "last_run_utc": "2026-05-27T11:32:20.471678+00:00",
   "processed_urls": [
     "https://www.bleepingcomputer.com/news/security/critical-cisco-sd-wan-bug-exploited-in-zero-day-attacks-since-2023/",
     "https://www.cisa.gov/news-events/alerts/2026/02/25/cisa-and-partners-release-guidance-ongoing-global-exploitation-cisco-sd-wan-systems",
@@ -589,6 +589,10 @@
     "https://thehackernews.com/2026/05/microsoft-patches-sharepoint-rce-flaw.html",
     "https://thehackernews.com/2026/05/mfa-prompt-bombing-why-your-second.html",
     "https://thehackernews.com/2026/05/cert-in-mandates-12-hour-patching-for.html",
-    "https://thehackernews.com/2026/05/iranian-hackers-deploy-minifast-and.html"
+    "https://thehackernews.com/2026/05/iranian-hackers-deploy-minifast-and.html",
+    "https://www.cisa.gov/news-events/alerts/2026/05/26/cisa-adds-one-known-exploited-vulnerability-catalog",
+    "https://www.bleepingcomputer.com/news/security/cisa-gives-feds-4-days-to-patch-actively-exploited-cpanel-plugin-flaw/",
+    "https://www.bleepingcomputer.com/news/security/knowledgedeliver-flaw-exploited-as-a-zero-day-to-install-web-shells/",
+    "https://thehackernews.com/2026/05/gitea-vulnerability-exposes-private.html"
   ]
 }
