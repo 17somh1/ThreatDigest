@@ -3,7 +3,7 @@
   <head>
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1" />
-    <title>Threat Digest - 2026-05-27</title>
+    <title>Threat Digest - 2026-05-28</title>
     <style>
       @import url("https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,600;9..144,700&family=Space+Grotesk:wght@400;500;600&display=swap");
 
@@ -373,12 +373,12 @@
 
     <header>
       <div class="eyebrow">Daily Threat Briefing</div>
-      <h1>Threat Digest - 2026-05-27</h1>
+      <h1>Threat Digest - 2026-05-28</h1>
       <p class="subtitle">
         The security news worth your attention, with context and practical takeaways.
       </p>
       <div class="meta-bar">
-        <span>Updated: 2026-05-27 16:04 UTC</span>
+        <span>Updated: 2026-05-28 11:31 UTC</span>
         <span>Stories: 1</span>
         <span>Recent issues: 14</span>
       </div>
@@ -389,7 +389,7 @@
         <section class="one-liner">
           <h2>What Matters Today</h2>
           
-            <p class="text-block">The takedown of GlassWorm's infrastructure lowers the threat of compromised software supply chains, but development teams must remain vigilant against evolving risks.</p>
+            <p class="text-block">CISA's addition of three actively exploited vulnerabilities highlights an urgent need for IT teams to prioritize immediate patching to avoid breaches.</p>
           
         </section>
 
@@ -398,11 +398,11 @@
           
             <ul>
               
-              <li>Disruption of command-and-control infrastructure reduces immediate risk but highlights ongoing vulnerabilities in software development environments.</li>
+              <li>Active exploitation of vulnerabilities increases pressure on defenders to act quickly.</li>
               
-              <li>Increased scrutiny on third-party software packages is necessary as attackers adapt to new defenses.</li>
+              <li>The KEV status significantly reduces the time available for remediation efforts.</li>
               
-              <li>Development teams face heightened pressure to implement robust security measures to prevent future supply chain attacks.</li>
+              <li>Specific software products are now critical focus areas for security teams to mitigate risks.</li>
               
             </ul>
           
@@ -418,43 +418,45 @@
           <div class="grid">
             <article class="card" style="--i: 0;">
         <div class="meta">
-          <span class="chip risk-medium">MEDIUM</span>
+          <span class="chip risk-high">HIGH</span>
           
-            <span class="chip label-chip">INDUSTRY SIGNAL</span>
+            <span class="chip label-chip">ACTIVE EXPLOITATION</span>
+          
+            <span class="chip label-chip">KEV ADDED</span>
           
           <span class="chip chip-neutral">Initial Access</span>
           <span class="chip chip-neutral">Confidence LOW</span>
         </div>
         
-          <h3><a href="https://thehackernews.com/2026/05/glassworm-malware-takedown-disrupts.html" target="_blank" rel="noopener noreferrer">GlassWorm Malware Takedown Disrupts Developer Supply Chain Attack Infrastructure</a></h3>
+          <h3><a href="https://www.cisa.gov/news-events/alerts/2026/05/27/cisa-adds-three-known-exploited-vulnerabilities-catalog" target="_blank" rel="noopener noreferrer">CISA Adds Three Known Exploited Vulnerabilities to Catalog</a></h3>
         
-        <p class="hook">The disruption of GlassWorm's command-and-control infrastructure significantly reduces the risk of compromised software development environments, which could have led to widespread malware distribution.</p>
+        <p class="hook">The addition of three actively exploited vulnerabilities to CISA's KEV Catalog underscores an urgent need for immediate remediation to prevent potential breaches.</p>
         <div class="support-grid">
-          <div class="text-block"><span class="label">Who should care:</span> Development teams and organizations that rely on third-party software packages and extensions should be particularly vigilant.</div>
-          <div class="text-block"><span class="label">Attack path:</span> Attackers leveraged malicious packages and extensions to gain access to developer environments, potentially leading to the distribution of malware through legitimate software.</div>
+          <div class="text-block"><span class="label">Who should care:</span> IT security teams and system administrators managing Daemon Tools Lite, TanStack, and Nx Console should prioritize remediation efforts.</div>
+          <div class="text-block"><span class="label">Attack path:</span> Attackers can exploit these vulnerabilities to execute malicious code, potentially leading to unauthorized access or data breaches. This exploitation can occur through unpatched software in use within the organization.</div>
         </div>
-        <div class="text-block"><span class="label">Why this matters now:</span> Useful context for teams tracking where attacker pressure is building.</div>
-        <div class="text-block"><span class="label">In plain English:</span> GlassWorm malware's command-and-control channels have been disrupted, impacting its ability to target software developers.</div>
+        <div class="text-block"><span class="label">Why this matters now:</span> KEV status shortens the acceptable patch window.</div>
+        <div class="text-block"><span class="label">In plain English:</span> CISA has identified three new vulnerabilities that are currently being exploited, requiring prompt action to secure systems.</div>
         
           <div class="tags">
             
-              <span>malware</span>
+              <span>cve</span>
             
-              <span>supply chain</span>
+              <span>vulnerability</span>
             
-              <span>software</span>
+              <span>exploitation</span>
             
           </div>
         
         <ul class="story-list">
           
-            <li>CrowdStrike, Google, and the Shadowserver Foundation have successfully disrupted all command-and-control channels associated with the GlassWorm malware. This malware has been targeting software developers through malicious packages and extensions since early 2025.</li>
+            <li>CISA has added CVE-2026-8398, CVE-2026-45321, and CVE-2026-48027 to its Known Exploited Vulnerabilities Catalog due to evidence of active exploitation. These vulnerabilities affect Daemon Tools Lite, TanStack, and Nx Console, respectively. The catalog aims to highlight vulnerabilities that pose significant risks to federal networks.</li>
           
-            <li>The disruption prevents further exploitation of software development environments, which could have led to the distribution of compromised software to end-users. This is crucial for maintaining the integrity of software supply chains and protecting organizations from potential malware infections.</li>
+            <li>These vulnerabilities are common attack vectors for cybercriminals, which means that organizations could face serious security incidents if they are not addressed quickly. The Binding Operational Directive mandates federal agencies to remediate these vulnerabilities, but all organizations are encouraged to prioritize their patching efforts to mitigate risks.</li>
           
-            <li>Attackers leveraged malicious packages and extensions to gain access to developer environments, potentially leading to the distribution of malware through legitimate software.</li>
+            <li>Attackers can exploit these vulnerabilities to execute malicious code, potentially leading to unauthorized access or data breaches. This exploitation can occur through unpatched software in use within the organization.</li>
           
-            <li>Watch next: Monitor for any resurgence of GlassWorm or similar malware targeting software development tools and environments.</li>
+            <li>Watch next: Monitor for updates from CISA regarding additional vulnerabilities added to the KEV Catalog and any associated remediation guidance.</li>
           
         </ul>
 
@@ -463,9 +465,9 @@
             <div class="label">Key terms</div>
             <ul class="list">
             
-              <li>Command-and-Control (C2) - a method used by attackers to maintain communication with compromised systems and control them remotely.</li>
+              <li>CVE - Common Vulnerabilities and Exposures, a list of publicly known cybersecurity vulnerabilities.</li>
             
-              <li>Malicious Packages - software packages that contain harmful code designed to exploit vulnerabilities or compromise systems.</li>
+              <li>KEV - Known Exploited Vulnerabilities, a catalog of vulnerabilities that are actively being exploited in the wild.</li>
             
             </ul>
           </div>
@@ -475,11 +477,11 @@
           <div class="label">Defender focus</div>
           <ul class="list">
             
-            <li>Implement monitoring for unusual activity in development environments.</li>
+            <li>Implement immediate patching for the identified vulnerabilities in affected software.</li>
             
-            <li>Review and validate the integrity of software packages used in development.</li>
+            <li>Conduct an inventory of systems using Daemon Tools Lite, TanStack, and Nx Console to assess exposure.</li>
             
-            <li>Ensure that security measures are in place to detect and block malicious extensions.</li>
+            <li>Enhance monitoring for unusual activity that may indicate exploitation attempts.</li>
             
           </ul>
         </div>
@@ -488,24 +490,24 @@
           <div class="label">Do now</div>
           <ul class="list">
             
-            <li>Conduct a security audit of all software packages and extensions in use.</li>
+            <li>Patch the identified vulnerabilities as soon as possible.</li>
             
-            <li>Enhance monitoring for any signs of compromise in development tools.</li>
+            <li>Review and update vulnerability management policies to include KEV Catalog items.</li>
             
-            <li>Educate developers on the risks associated with third-party packages and extensions.</li>
+            <li>Educate relevant teams about the risks associated with these vulnerabilities.</li>
             
           </ul>
         </div>
 
-        <div class="text-block"><span class="label">Watch next:</span> Monitor for any resurgence of GlassWorm or similar malware targeting software development tools and environments.</div>
+        <div class="text-block"><span class="label">Watch next:</span> Monitor for updates from CISA regarding additional vulnerabilities added to the KEV Catalog and any associated remediation guidance.</div>
 
         <div class="sources">
           <div class="label">Sources</div>
           
             
               <div>
-                <a href="https://thehackernews.com/2026/05/glassworm-malware-takedown-disrupts.html" target="_blank" rel="noopener noreferrer">
-                  The Hacker News - GlassWorm Malware Takedown Disrupts Developer Supply Chain Attack Infrastructure
+                <a href="https://www.cisa.gov/news-events/alerts/2026/05/27/cisa-adds-three-known-exploited-vulnerabilities-catalog" target="_blank" rel="noopener noreferrer">
+                  Alerts - CISA Adds Three Known Exploited Vulnerabilities to Catalog
                 </a>
               </div>
             
@@ -541,6 +543,8 @@
       <strong>Recent Issues</strong>
       <div class="archive-list">
         
+        <a href="archive/2026-05-28.html">2026-05-28</a>
+        
         <a href="archive/2026-05-27.html">2026-05-27</a>
         
         <a href="archive/2026-05-26.html">2026-05-26</a>
@@ -566,8 +570,6 @@
         <a href="archive/2026-05-16.html">2026-05-16</a>
         
         <a href="archive/2026-05-15.html">2026-05-15</a>
-        
-        <a href="archive/2026-05-14.html">2026-05-14</a>
         
       </div>
     </aside>
