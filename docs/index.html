@@ -378,8 +378,8 @@
         The security news worth your attention, with context and practical takeaways.
       </p>
       <div class="meta-bar">
-        <span>Updated: 2026-05-29 11:22 UTC</span>
-        <span>Stories: 5</span>
+        <span>Updated: 2026-05-29 16:02 UTC</span>
+        <span>Stories: 2</span>
         <span>Recent issues: 14</span>
       </div>
     </header>
@@ -389,22 +389,14 @@
         <section class="one-liner">
           <h2>What Matters Today</h2>
           
-            <p class="text-block">Supply chain vulnerabilities and critical software flaws are creating immediate risks for developers and IT security teams, necessitating urgent action to protect sensitive data and infrastructure.</p>
+            <p class="empty">No summary available yet.</p>
           
         </section>
 
         <section class="themes">
           <h2>Patterns To Watch</h2>
           
-            <ul>
-              
-              <li>Supply chain compromises are increasingly targeting developer environments, highlighting the need for vigilant security practices.</li>
-              
-              <li>Exploitation of critical software vulnerabilities is leading to credential theft, increasing the urgency for timely patching and monitoring.</li>
-              
-              <li>Emerging malware services are enabling more sophisticated phishing attacks, particularly against mobile users, stressing the importance of user education and app security.</li>
-              
-            </ul>
+            <p class="empty">No themes available yet.</p>
           
         </section>
       </div>
@@ -420,47 +412,41 @@
         <div class="meta">
           <span class="chip risk-high">HIGH</span>
           
-            <span class="chip label-chip">KEV ADDED</span>
-          
-            <span class="chip label-chip">GUIDANCE</span>
-          
-            <span class="chip label-chip">PATCH RELEASE</span>
-          
             <span class="chip label-chip">INDUSTRY SIGNAL</span>
           
           <span class="chip chip-neutral">Initial Access</span>
           <span class="chip chip-neutral">Confidence LOW</span>
         </div>
         
-          <h3><a href="https://www.cisa.gov/news-events/alerts/2026/05/28/supply-chain-compromises-impact-nx-console-and-github-repositories" target="_blank" rel="noopener noreferrer">Supply Chain Compromises Impact Nx Console and GitHub Repositories</a></h3>
+          <h3><a href="https://thehackernews.com/2026/05/attackers-use-llm-agent-for-post.html" target="_blank" rel="noopener noreferrer">Attackers Use LLM Agent for Post-Exploitation After Marimo CVE-2026-39987 Exploit</a></h3>
         
-        <p class="hook">Recent supply chain compromises threaten the integrity of developer environments, risking unauthorized access to critical code repositories.</p>
+        <p class="hook">The exploitation of CVE-2026-39987 allows attackers to leverage advanced AI tools for post-exploitation, increasing the risk of data breaches.</p>
         <div class="support-grid">
-          <div class="text-block"><span class="label">Who should care:</span> Development teams using GitHub and Nx Console, as well as organizations relying on CI/CD pipelines.</div>
-          <div class="text-block"><span class="label">Attack path:</span> Attackers leveraged a compromised developer tool to distribute malicious updates, gaining access to GitHub employee devices and repositories. They also injected malicious workflows into CI/CD processes to extract sensitive information.</div>
+          <div class="text-block"><span class="label">Who should care:</span> Teams managing Marimo products and cloud environments should prioritize monitoring for unusual activities.</div>
+          <div class="text-block"><span class="label">Attack path:</span> Attackers gain leverage by exploiting a known vulnerability to access systems and then use AI tools to automate and enhance their malicious activities.</div>
         </div>
-        <div class="text-block"><span class="label">Why this matters now:</span> KEV status shortens the acceptable patch window. A live patch or vendor fix gives defenders something concrete to validate.</div>
-        <div class="text-block"><span class="label">In plain English:</span> Multiple supply chain attacks have compromised CI/CD pipelines, affecting GitHub and Nx Console users.</div>
+        <div class="text-block"><span class="label">Why this matters now:</span> Useful context for teams tracking where attacker pressure is building.</div>
+        <div class="text-block"><span class="label">In plain English:</span> Attackers are using a newly discovered vulnerability in Marimo to gain access and employ AI for malicious activities.</div>
         
           <div class="tags">
             
-              <span>supply chain</span>
+              <span>ransomware</span>
             
               <span>cve</span>
             
-              <span>ci/cd</span>
+              <span>cloud</span>
             
           </div>
         
         <ul class="story-list">
           
-            <li>CISA reported that threat actors exploited a compromised Nx Console Visual Studio Code extension to gain unauthorized access to GitHub repositories. The malicious extension was distributed via VS Code's automatic update mechanism, affecting systems with Nx Console installed. Additionally, a campaign named 'Megalodon' injected malicious workflows into GitHub Actions to harvest sensitive CI/CD secrets.</li>
+            <li>An unknown threat actor exploited CVE-2026-39987 in a publicly accessible Marimo notebook. After gaining initial access, they utilized a large language model (LLM) agent to perform post-compromise actions, including extracting cloud credentials.</li>
           
-            <li>These incidents highlight vulnerabilities in CI/CD pipelines that can lead to significant data breaches and operational disruptions. Organizations using affected tools may face unauthorized access to sensitive code and credentials, potentially impacting development and deployment processes.</li>
+            <li>The use of AI in post-exploitation increases the sophistication of attacks, making detection and response more challenging. Organizations using Marimo products are at heightened risk of credential theft and subsequent data breaches.</li>
           
-            <li>Attackers leveraged a compromised developer tool to distribute malicious updates, gaining access to GitHub employee devices and repositories. They also injected malicious workflows into CI/CD processes to extract sensitive information.</li>
+            <li>Attackers gain leverage by exploiting a known vulnerability to access systems and then use AI tools to automate and enhance their malicious activities.</li>
           
-            <li>Watch next: Monitor for updates from CISA and GitHub regarding further security advisories and patches related to these incidents.</li>
+            <li>Watch next: Monitor for updates from Marimo regarding patches for CVE-2026-39987 and any related threat intelligence.</li>
           
         </ul>
 
@@ -469,9 +455,9 @@
             <div class="label">Key terms</div>
             <ul class="list">
             
-              <li>CI/CD - Continuous Integration/Continuous Development, a set of practices that enable development teams to deliver code changes more frequently and reliably.</li>
-            
               <li>CVE - Common Vulnerabilities and Exposures, a list of publicly disclosed cybersecurity vulnerabilities.</li>
+            
+              <li>LLM - Large Language Model, a type of AI that can generate human-like text and perform complex tasks.</li>
             
             </ul>
           </div>
@@ -481,11 +467,11 @@
           <div class="label">Defender focus</div>
           <ul class="list">
             
-            <li>Audit CI/CD logs for unauthorized changes and suspicious activity.</li>
+            <li>Implement monitoring for unusual access patterns in Marimo environments.</li>
             
-            <li>Implement monitoring for unusual pull requests and commits from automated accounts.</li>
+            <li>Review logs for any signs of credential extraction or unauthorized access.</li>
             
-            <li>Rotate all credentials and secrets associated with CI/CD pipelines immediately.</li>
+            <li>Ensure that all systems are patched against CVE-2026-39987.</li>
             
           </ul>
         </div>
@@ -494,24 +480,24 @@
           <div class="label">Do now</div>
           <ul class="list">
             
-            <li>Conduct a forensic review of affected developer machines and CI/CD logs.</li>
+            <li>Patch all Marimo systems against CVE-2026-39987 immediately.</li>
             
-            <li>Revert any unauthorized changes made after May 18, 2026.</li>
+            <li>Enhance monitoring for suspicious activities related to cloud credential usage.</li>
             
-            <li>Pin software dependencies to specific trusted versions to prevent malicious updates.</li>
+            <li>Conduct a security audit of systems that may have been exposed.</li>
             
           </ul>
         </div>
 
-        <div class="text-block"><span class="label">Watch next:</span> Monitor for updates from CISA and GitHub regarding further security advisories and patches related to these incidents.</div>
+        <div class="text-block"><span class="label">Watch next:</span> Monitor for updates from Marimo regarding patches for CVE-2026-39987 and any related threat intelligence.</div>
 
         <div class="sources">
           <div class="label">Sources</div>
           
             
               <div>
-                <a href="https://www.cisa.gov/news-events/alerts/2026/05/28/supply-chain-compromises-impact-nx-console-and-github-repositories" target="_blank" rel="noopener noreferrer">
-                  Alerts - Supply Chain Compromises Impact Nx Console and GitHub Repositories
+                <a href="https://thehackernews.com/2026/05/attackers-use-llm-agent-for-post.html" target="_blank" rel="noopener noreferrer">
+                  The Hacker News - Attackers Use LLM Agent for Post-Exploitation After Marimo CVE-2026-39987 Exploit
                 </a>
               </div>
             
@@ -532,239 +518,43 @@
             
               <article class="card" style="--i: 0;">
         <div class="meta">
-          <span class="chip risk-high">HIGH</span>
-          
-            <span class="chip label-chip">LEGAL POLICY</span>
-          
-          <span class="chip chip-neutral">Initial Access</span>
-          <span class="chip chip-neutral">Confidence LOW</span>
-        </div>
-        
-          <h3><a href="https://www.bleepingcomputer.com/news/security/hackers-exploit-forticlient-ems-flaw-to-push-infostealer-malware/" target="_blank" rel="noopener noreferrer">Hackers exploit FortiClient EMS flaw to push infostealer malware</a></h3>
-        
-        <p class="hook">The exploitation of a critical vulnerability in FortiClient EMS could lead to widespread credential theft, impacting organizational security immediately.</p>
-        <div class="support-grid">
-          <div class="text-block"><span class="label">Who should care:</span> IT security teams managing FortiClient EMS should prioritize this issue due to the potential for credential theft.</div>
-          <div class="text-block"><span class="label">Attack path:</span> Attackers can leverage the authentication bypass to gain access to the EMS and deploy the infostealer malware without detection.</div>
-        </div>
-        <div class="text-block"><span class="label">Why this matters now:</span> Useful context for teams tracking where attacker pressure is building.</div>
-        <div class="text-block"><span class="label">In plain English:</span> Hackers are using a flaw in FortiClient EMS to deploy infostealer malware, posing a serious threat to credentials.</div>
-        
-          <div class="tags">
-            
-              <span>cve</span>
-            
-              <span>malware</span>
-            
-              <span>forticlient</span>
-            
-          </div>
-        
-        <ul class="story-list">
-          
-            <li>Hackers are exploiting an authentication bypass vulnerability (CVE-2026-35616) in FortiClient Enterprise Management Server (EMS). This flaw allows attackers to deliver an undocumented credential stealer known as EKZ.</li>
-          
-            <li>The successful deployment of EKZ can lead to unauthorized access to sensitive systems and data, putting organizations at risk of data breaches and financial loss. Given the critical nature of the vulnerability, immediate action is necessary to mitigate potential impacts.</li>
-          
-            <li>Attackers can leverage the authentication bypass to gain access to the EMS and deploy the infostealer malware without detection.</li>
-          
-            <li>Watch next: Monitor for any updates from Fortinet regarding patches or mitigations for CVE-2026-35616.</li>
-          
-        </ul>
-
-        
-          <div class="glossary">
-            <div class="label">Key terms</div>
-            <ul class="list">
-            
-              <li>CVE - Common Vulnerabilities and Exposures, a list of publicly disclosed cybersecurity vulnerabilities.</li>
-            
-              <li>Infostealer - A type of malware designed to steal sensitive information such as usernames and passwords.</li>
-            
-            </ul>
-          </div>
-        
-
-        <div>
-          <div class="label">Defender focus</div>
-          <ul class="list">
-            
-            <li>Implement monitoring for unusual access patterns in FortiClient EMS.</li>
-            
-            <li>Review logs for any unauthorized access attempts or malware signatures.</li>
-            
-            <li>Ensure that all FortiClient EMS instances are updated with the latest security patches.</li>
-            
-          </ul>
-        </div>
-
-        <div>
-          <div class="label">Do now</div>
-          <ul class="list">
-            
-            <li>Patch FortiClient EMS immediately to close the authentication bypass vulnerability.</li>
-            
-            <li>Conduct a security audit to identify any compromised credentials.</li>
-            
-            <li>Enhance monitoring for signs of credential theft or unauthorized access.</li>
-            
-          </ul>
-        </div>
-
-        <div class="text-block"><span class="label">Watch next:</span> Monitor for any updates from Fortinet regarding patches or mitigations for CVE-2026-35616.</div>
-
-        <div class="sources">
-          <div class="label">Sources</div>
-          
-            
-              <div>
-                <a href="https://www.bleepingcomputer.com/news/security/hackers-exploit-forticlient-ems-flaw-to-push-infostealer-malware/" target="_blank" rel="noopener noreferrer">
-                  BleepingComputer - Hackers exploit FortiClient EMS flaw to push infostealer malware
-                </a>
-              </div>
-            
-          
-        </div>
-      </article>
-            
-              <article class="card" style="--i: 1;">
-        <div class="meta">
-          <span class="chip risk-high">HIGH</span>
-          
-            <span class="chip label-chip">PATCH RELEASE</span>
-          
-            <span class="chip label-chip">LEGAL POLICY</span>
-          
-          <span class="chip chip-neutral">Initial Access</span>
-          <span class="chip chip-neutral">Confidence LOW</span>
-        </div>
-        
-          <h3><a href="https://thehackernews.com/2026/05/threat-actors-exploit-critical.html" target="_blank" rel="noopener noreferrer">Threat Actors Exploit Critical FortiClient EMS Flaw to Deploy Credential Stealer</a></h3>
-        
-        <p class="hook">Immediate action is required as threat actors are exploiting a critical vulnerability in FortiClient EMS to deploy credential-stealing malware, risking sensitive data across managed endpoints.</p>
-        <div class="support-grid">
-          <div class="text-block"><span class="label">Who should care:</span> IT security teams managing FortiClient EMS deployments should prioritize this issue.</div>
-          <div class="text-block"><span class="label">Attack path:</span> Attackers leverage the vulnerability in FortiClient EMS to deliver malware disguised as legitimate software, gaining access to user credentials.</div>
-        </div>
-        <div class="text-block"><span class="label">Why this matters now:</span> A live patch or vendor fix gives defenders something concrete to validate.</div>
-        <div class="text-block"><span class="label">In plain English:</span> A serious flaw in FortiClient EMS is being actively exploited to deliver malware that steals credentials.</div>
-        
-          <div class="tags">
-            
-              <span>cve</span>
-            
-              <span>fortinet</span>
-            
-              <span>malware</span>
-            
-          </div>
-        
-        <ul class="story-list">
-          
-            <li>Threat actors are exploiting a critical vulnerability in FortiClient Endpoint Management Server (EMS) to deploy credential-stealing malware. This campaign uses trusted endpoint management infrastructure to deliver malicious payloads across managed endpoints.</li>
-          
-            <li>The exploitation of this flaw can lead to unauthorized access to sensitive information, potentially compromising entire networks. Organizations using FortiClient EMS must act quickly to mitigate risks associated with credential theft and unauthorized access.</li>
-          
-            <li>Attackers leverage the vulnerability in FortiClient EMS to deliver malware disguised as legitimate software, gaining access to user credentials.</li>
-          
-            <li>Watch next: Monitor for updates from Fortinet regarding any further vulnerabilities or patches related to FortiClient EMS.</li>
-          
-        </ul>
-
-        
-          <div class="glossary">
-            <div class="label">Key terms</div>
-            <ul class="list">
-            
-              <li>FortiClient EMS - a management solution for Fortinet's endpoint security products.</li>
-            
-              <li>Credential Stealer - malware designed to capture and transmit user credentials to attackers.</li>
-            
-            </ul>
-          </div>
-        
-
-        <div>
-          <div class="label">Defender focus</div>
-          <ul class="list">
-            
-            <li>Implement monitoring for unusual activity on managed endpoints.</li>
-            
-            <li>Review and apply the latest patches from Fortinet immediately.</li>
-            
-            <li>Conduct a security audit to identify any unauthorized access or anomalies.</li>
-            
-          </ul>
-        </div>
-
-        <div>
-          <div class="label">Do now</div>
-          <ul class="list">
-            
-            <li>Patch FortiClient EMS to the latest version immediately.</li>
-            
-            <li>Review logs for any signs of unauthorized access or malware activity.</li>
-            
-            <li>Educate users about the risks of credential theft and secure their accounts.</li>
-            
-          </ul>
-        </div>
-
-        <div class="text-block"><span class="label">Watch next:</span> Monitor for updates from Fortinet regarding any further vulnerabilities or patches related to FortiClient EMS.</div>
-
-        <div class="sources">
-          <div class="label">Sources</div>
-          
-            
-              <div>
-                <a href="https://thehackernews.com/2026/05/threat-actors-exploit-critical.html" target="_blank" rel="noopener noreferrer">
-                  The Hacker News - Threat Actors Exploit Critical FortiClient EMS Flaw to Deploy Credential Stealer
-                </a>
-              </div>
-            
-          
-        </div>
-      </article>
-            
-              <article class="card" style="--i: 2;">
-        <div class="meta">
-          <span class="chip risk-high">HIGH</span>
+          <span class="chip risk-medium">MEDIUM</span>
           
             <span class="chip label-chip">INDUSTRY SIGNAL</span>
           
-          <span class="chip chip-neutral">Initial Access</span>
+          <span class="chip chip-neutral">Defense Evasion</span>
           <span class="chip chip-neutral">Confidence LOW</span>
         </div>
         
-          <h3><a href="https://www.bleepingcomputer.com/news/security/btmob-android-malware-service-generates-custom-phishing-payloads/" target="_blank" rel="noopener noreferrer">BTMOB Android malware service generates custom phishing payloads</a></h3>
+          <h3><a href="https://www.bleepingcomputer.com/news/security/google-chrome-adds-session-cookie-theft-protection-for-all-users/" target="_blank" rel="noopener noreferrer">Google Chrome adds session cookie theft protection for all users</a></h3>
         
-        <p class="hook">The emergence of BTMOB malware poses a significant threat to Android users, enabling cybercriminals to create targeted phishing attacks with ease.</p>
+        <p class="hook">The rollout of session cookie theft protection in Google Chrome is critical as it directly mitigates the risk of account takeovers, a prevalent threat to user security.</p>
         <div class="support-grid">
-          <div class="text-block"><span class="label">Who should care:</span> Mobile application developers, security teams, and organizations with a significant mobile user base should be particularly vigilant.</div>
-          <div class="text-block"><span class="label">Attack path:</span> Attackers can leverage BTMOB to create personalized phishing messages that exploit user trust, leading to credential theft or malware installation.</div>
+          <div class="text-block"><span class="label">Who should care:</span> All teams managing user accounts and applications that rely on web authentication should be aware of this update.</div>
+          <div class="text-block"><span class="label">Attack path:</span> Attackers typically exploit session cookies to hijack user sessions and gain unauthorized access to accounts. With this new protection, such exploits will be more difficult to execute.</div>
         </div>
         <div class="text-block"><span class="label">Why this matters now:</span> Useful context for teams tracking where attacker pressure is building.</div>
-        <div class="text-block"><span class="label">In plain English:</span> A new Android malware service allows attackers to generate custom phishing payloads, increasing the risk of successful scams.</div>
+        <div class="text-block"><span class="label">In plain English:</span> Google Chrome has introduced a new feature to protect users from session cookie theft, enhancing account security.</div>
         
           <div class="tags">
             
-              <span>malware</span>
+              <span>security</span>
             
-              <span>phishing</span>
+              <span>chrome</span>
             
-              <span>android</span>
+              <span>account takeover</span>
             
           </div>
         
         <ul class="story-list">
           
-            <li>BTMOB is an Android remote access trojan that provides a user-friendly interface for cybercriminals to create tailored phishing payloads. This service simplifies the process of launching attacks, making it accessible even to less technically skilled individuals.</li>
+            <li>Google has announced the general availability of its Device Bound Session Credentials (DBSC) feature in Chrome. This security enhancement aims to prevent session cookie theft, which can lead to unauthorized account access.</li>
           
-            <li>The ability to generate custom phishing payloads means that attackers can craft more convincing scams, potentially leading to higher success rates in stealing sensitive information. This increases the urgency for organizations to bolster their defenses against mobile threats.</li>
+            <li>Session cookie theft is a common attack vector that can result in significant data breaches and unauthorized access to sensitive accounts. By implementing this protection, Google is proactively addressing a major vulnerability that affects millions of users.</li>
           
-            <li>Attackers can leverage BTMOB to create personalized phishing messages that exploit user trust, leading to credential theft or malware installation.</li>
+            <li>Attackers typically exploit session cookies to hijack user sessions and gain unauthorized access to accounts. With this new protection, such exploits will be more difficult to execute.</li>
           
-            <li>Watch next: Monitor for reports of increased phishing attempts targeting Android users and any updates from security vendors regarding mitigation strategies.</li>
+            <li>Watch next: Monitor for user feedback on the effectiveness of the DBSC feature and any related security incidents.</li>
           
         </ul>
 
@@ -773,9 +563,9 @@
             <div class="label">Key terms</div>
             <ul class="list">
             
-              <li>REMOTE ACCESS TROJAN - a type of malware that allows unauthorized access to a device remotely.</li>
+              <li>SESSION COOKIE - a small piece of data stored on the user's computer by the web browser, used to identify the user during a session.</li>
             
-              <li>PHISHING - a fraudulent attempt to obtain sensitive information by disguising as a trustworthy entity.</li>
+              <li>ACCOUNT TAKEOVER - an unauthorized access to a user's account, often leading to data theft or fraud.</li>
             
             </ul>
           </div>
@@ -785,11 +575,11 @@
           <div class="label">Defender focus</div>
           <ul class="list">
             
-            <li>Implement mobile threat detection solutions to identify malicious applications.</li>
+            <li>Ensure that all users are updated to the latest version of Chrome to benefit from the new security feature.</li>
             
-            <li>Enhance monitoring of user behavior for signs of phishing attempts.</li>
+            <li>Monitor for any reports of session hijacking attempts post-rollout to assess the effectiveness of the protection.</li>
             
-            <li>Educate users on recognizing suspicious links and messages.</li>
+            <li>Review application logs for unusual access patterns that may indicate attempts to exploit session cookies.</li>
             
           </ul>
         </div>
@@ -798,24 +588,24 @@
           <div class="label">Do now</div>
           <ul class="list">
             
-            <li>Deploy mobile security solutions to detect and block BTMOB-related threats.</li>
+            <li>Update all Chrome installations to the latest version immediately.</li>
             
-            <li>Increase user awareness training focused on mobile phishing tactics.</li>
+            <li>Educate users about the importance of session security and the new protections in place.</li>
             
-            <li>Regularly update and patch mobile applications to mitigate vulnerabilities.</li>
+            <li>Monitor security advisories for any related vulnerabilities that may arise.</li>
             
           </ul>
         </div>
 
-        <div class="text-block"><span class="label">Watch next:</span> Monitor for reports of increased phishing attempts targeting Android users and any updates from security vendors regarding mitigation strategies.</div>
+        <div class="text-block"><span class="label">Watch next:</span> Monitor for user feedback on the effectiveness of the DBSC feature and any related security incidents.</div>
 
         <div class="sources">
           <div class="label">Sources</div>
           
             
               <div>
-                <a href="https://www.bleepingcomputer.com/news/security/btmob-android-malware-service-generates-custom-phishing-payloads/" target="_blank" rel="noopener noreferrer">
-                  BleepingComputer - BTMOB Android malware service generates custom phishing payloads
+                <a href="https://www.bleepingcomputer.com/news/security/google-chrome-adds-session-cookie-theft-protection-for-all-users/" target="_blank" rel="noopener noreferrer">
+                  BleepingComputer - Google Chrome adds session cookie theft protection for all users
                 </a>
               </div>
             
@@ -833,106 +623,7 @@
           Wider Signal
         </div>
         
-          <div class="grid">
-            
-              <article class="card" style="--i: 0;">
-        <div class="meta">
-          <span class="chip risk-high">HIGH</span>
-          
-            <span class="chip label-chip">RESEARCH</span>
-          
-          <span class="chip chip-neutral">Credential Access</span>
-          <span class="chip chip-neutral">Confidence LOW</span>
-        </div>
-        
-          <h3><a href="https://thehackernews.com/2026/05/malicious-sicoob-nuget-steals-banking.html" target="_blank" rel="noopener noreferrer">Malicious Sicoob NuGet Steals Banking Credentials as npm Packages Target Cloud Secrets</a></h3>
-        
-        <p class="hook">The discovery of a malicious NuGet package targeting Sicoob's banking clients poses a significant risk to sensitive financial data and could lead to unauthorized access to accounts.</p>
-        <div class="support-grid">
-          <div class="text-block"><span class="label">Who should care:</span> Development teams using NuGet packages, especially those integrating with Sicoob's services.</div>
-          <div class="text-block"><span class="label">Attack path:</span> An attacker can leverage the malicious package to gain access to sensitive banking credentials by tricking developers into installing it as part of their software projects.</div>
-        </div>
-        <div class="text-block"><span class="label">Why this matters now:</span> Useful context for teams tracking where attacker pressure is building.</div>
-        <div class="text-block"><span class="label">In plain English:</span> A malicious NuGet package is stealing banking credentials from Sicoob clients.</div>
-        
-          <div class="tags">
-            
-              <span>malware</span>
-            
-              <span>cve</span>
-            
-              <span>cloud</span>
-            
-          </div>
-        
-        <ul class="story-list">
-          
-            <li>Cybersecurity researchers found that versions 2.0.0 through 2.0.4 of a NuGet package named 'Sicoob.Sdk' are designed to exfiltrate client IDs and PFX certificates. This package pretends to be a legitimate software development kit for Sicoob, one of Brazil's largest cooperative financial systems.</li>
-          
-            <li>The exfiltration of PFX certificates and client IDs can lead to unauthorized access to banking accounts, potentially resulting in financial loss for clients. As this package is distributed via NuGet, it may affect numerous developers and organizations using these libraries without awareness of the threat.</li>
-          
-            <li>An attacker can leverage the malicious package to gain access to sensitive banking credentials by tricking developers into installing it as part of their software projects.</li>
-          
-            <li>Watch next: Monitor for updates from Sicoob regarding the integrity of their SDK and any patches released for affected versions.</li>
-          
-        </ul>
-
-        
-          <div class="glossary">
-            <div class="label">Key terms</div>
-            <ul class="list">
-            
-              <li>NuGet - a package manager for .NET developers that allows them to share and consume code libraries.</li>
-            
-              <li>PFX certificate - a file format used to store cryptographic information, including private keys and certificates.</li>
-            
-            </ul>
-          </div>
-        
-
-        <div>
-          <div class="label">Defender focus</div>
-          <ul class="list">
-            
-            <li>Implement monitoring for the use of the Sicoob.Sdk package in development environments.</li>
-            
-            <li>Review and audit any applications that may have integrated this package for potential data exfiltration.</li>
-            
-            <li>Educate developers on verifying the integrity of third-party packages before use.</li>
-            
-          </ul>
-        </div>
-
-        <div>
-          <div class="label">Do now</div>
-          <ul class="list">
-            
-            <li>Immediately remove any instances of the malicious Sicoob.Sdk package from development environments.</li>
-            
-            <li>Conduct a security review of applications that may have used the affected package.</li>
-            
-            <li>Stay updated on Sicoob's communications regarding this incident and any recommended remediation steps.</li>
-            
-          </ul>
-        </div>
-
-        <div class="text-block"><span class="label">Watch next:</span> Monitor for updates from Sicoob regarding the integrity of their SDK and any patches released for affected versions.</div>
-
-        <div class="sources">
-          <div class="label">Sources</div>
-          
-            
-              <div>
-                <a href="https://thehackernews.com/2026/05/malicious-sicoob-nuget-steals-banking.html" target="_blank" rel="noopener noreferrer">
-                  The Hacker News - Malicious Sicoob NuGet Steals Banking Credentials as npm Packages Target Cloud Secrets
-                </a>
-              </div>
-            
-          
-        </div>
-      </article>
-            
-          </div>
+          <p class="empty">No context stories today.</p>
         
       </section>
     </main>
