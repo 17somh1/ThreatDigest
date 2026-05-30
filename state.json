@@ -1,5 +1,5 @@
 {
-  "last_run_utc": "2026-05-29T16:02:50.466716+00:00",
+  "last_run_utc": "2026-05-30T09:53:12.304278+00:00",
   "processed_urls": [
     "https://www.bleepingcomputer.com/news/security/critical-cisco-sd-wan-bug-exploited-in-zero-day-attacks-since-2023/",
     "https://www.cisa.gov/news-events/alerts/2026/02/25/cisa-and-partners-release-guidance-ongoing-global-exploitation-cisco-sd-wan-systems",
@@ -604,6 +604,9 @@
     "https://www.bleepingcomputer.com/news/security/btmob-android-malware-service-generates-custom-phishing-payloads/",
     "https://thehackernews.com/2026/05/malicious-sicoob-nuget-steals-banking.html",
     "https://thehackernews.com/2026/05/attackers-use-llm-agent-for-post.html",
-    "https://www.bleepingcomputer.com/news/security/google-chrome-adds-session-cookie-theft-protection-for-all-users/"
+    "https://www.bleepingcomputer.com/news/security/google-chrome-adds-session-cookie-theft-protection-for-all-users/",
+    "https://www.cisa.gov/news-events/alerts/2026/05/29/cisa-adds-one-known-exploited-vulnerability-catalog",
+    "https://thehackernews.com/2026/05/pan-os-globalprotect-authentication.html",
+    "https://thehackernews.com/2026/05/chatgphish-vulnerability-turns-chatgpt.html"
   ]
 }
