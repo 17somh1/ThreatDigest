@@ -1,5 +1,5 @@
 {
-  "last_run_utc": "2026-05-30T13:59:32.913495+00:00",
+  "last_run_utc": "2026-05-31T10:08:32.526283+00:00",
   "processed_urls": [
     "https://www.bleepingcomputer.com/news/security/critical-cisco-sd-wan-bug-exploited-in-zero-day-attacks-since-2023/",
     "https://www.cisa.gov/news-events/alerts/2026/02/25/cisa-and-partners-release-guidance-ongoing-global-exploitation-cisco-sd-wan-systems",
@@ -607,6 +607,7 @@
     "https://www.bleepingcomputer.com/news/security/google-chrome-adds-session-cookie-theft-protection-for-all-users/",
     "https://www.cisa.gov/news-events/alerts/2026/05/29/cisa-adds-one-known-exploited-vulnerability-catalog",
     "https://thehackernews.com/2026/05/pan-os-globalprotect-authentication.html",
-    "https://thehackernews.com/2026/05/chatgphish-vulnerability-turns-chatgpt.html"
+    "https://thehackernews.com/2026/05/chatgphish-vulnerability-turns-chatgpt.html",
+    "https://www.bleepingcomputer.com/news/security/palo-alto-globalprotect-vpn-auth-bypass-flaw-now-exploited-in-attacks/"
   ]
 }
