@@ -378,8 +378,8 @@
         The security news worth your attention, with context and practical takeaways.
       </p>
       <div class="meta-bar">
-        <span>Updated: 2026-05-31 10:08 UTC</span>
-        <span>Stories: 1</span>
+        <span>Updated: 2026-05-31 14:04 UTC</span>
+        <span>Stories: 3</span>
         <span>Recent issues: 14</span>
       </div>
     </header>
@@ -389,7 +389,7 @@
         <section class="one-liner">
           <h2>What Matters Today</h2>
           
-            <p class="text-block">Attackers are actively exploiting a serious flaw in Palo Alto GlobalProtect VPNs, which could lead to unauthorized access to sensitive corporate data.</p>
+            <p class="text-block">Active exploitation of critical vulnerabilities in PAN-OS and Marimo products highlights an urgent need for enhanced monitoring and response strategies against sophisticated attacks.</p>
           
         </section>
 
@@ -398,11 +398,11 @@
           
             <ul>
               
-              <li>Increased urgency for IT security teams to patch vulnerabilities in VPN systems to prevent unauthorized access.</li>
+              <li>Attackers are leveraging critical vulnerabilities to bypass authentication and gain unauthorized access, increasing the urgency for security teams to patch systems.</li>
               
-              <li>Heightened risk of data breaches as attackers target critical authentication flaws in widely used security tools.</li>
+              <li>The use of advanced AI tools in post-exploitation scenarios indicates a shift in attacker tactics, requiring defenders to adapt their detection and response methods.</li>
               
-              <li>Defender workload will spike as teams scramble to assess and mitigate the impact of this vulnerability across their networks.</li>
+              <li>Phishing risks are evolving as trusted AI-generated content becomes a new vector for attacks, necessitating heightened awareness and protective measures from developers and security teams.</li>
               
             </ul>
           
@@ -420,41 +420,47 @@
         <div class="meta">
           <span class="chip risk-high">HIGH</span>
           
+            <span class="chip label-chip">ACTIVE EXPLOITATION</span>
+          
             <span class="chip label-chip">LEGAL POLICY</span>
           
           <span class="chip chip-neutral">Initial Access</span>
-          <span class="chip chip-neutral">Confidence LOW</span>
+          <span class="chip chip-neutral">Confidence HIGH</span>
         </div>
         
-          <h3><a href="https://www.bleepingcomputer.com/news/security/palo-alto-globalprotect-vpn-auth-bypass-flaw-now-exploited-in-attacks/" target="_blank" rel="noopener noreferrer">Palo Alto GlobalProtect VPN auth bypass flaw now exploited in attacks</a></h3>
+          <h3><a href="https://thehackernews.com/2026/05/pan-os-globalprotect-authentication.html" target="_blank" rel="noopener noreferrer">PAN-OS GlobalProtect Authentication Bypass (CVE-2026-0257) Under Active Exploitation</a></h3>
         
-        <p class="hook">The exploitation of a critical VPN authentication bypass flaw poses immediate risks to corporate networks, potentially allowing unauthorized access to sensitive data.</p>
+        <p class="hook">Active exploitation of a critical authentication bypass vulnerability in PAN-OS could allow attackers to establish unauthorized VPN connections, posing significant risks to network security.</p>
         <div class="support-grid">
-          <div class="text-block"><span class="label">Who should care:</span> IT security teams managing Palo Alto GlobalProtect VPN installations should be particularly vigilant.</div>
-          <div class="text-block"><span class="label">Attack path:</span> An attacker can exploit the authentication bypass flaw to gain unauthorized access to the corporate network without valid credentials. This could lead to further exploitation within the network.</div>
+          <div class="text-block"><span class="label">Who should care:</span> Network security teams managing PAN-OS and Prisma Access should be particularly vigilant.</div>
+          <div class="text-block"><span class="label">Attack path:</span> An attacker can exploit this vulnerability to bypass authentication and establish a VPN connection, gaining access to the internal network. This could lead to further exploitation or data exfiltration.</div>
         </div>
-        <div class="text-block"><span class="label">Why this matters now:</span> Useful context for teams tracking where attacker pressure is building.</div>
-        <div class="text-block"><span class="label">In plain English:</span> Hackers are actively exploiting a serious flaw in Palo Alto's GlobalProtect VPN, which could lead to unauthorized access to corporate systems.</div>
+        <div class="text-block"><span class="label">Why this matters now:</span> Active exploitation makes this an immediate exposure check. Multiple sources point to the same operational problem.</div>
+        <div class="text-block"><span class="label">In plain English:</span> A serious flaw in PAN-OS is being actively exploited, allowing unauthorized VPN access.</div>
         
           <div class="tags">
             
-              <span>vpn</span>
-            
               <span>cve</span>
             
+              <span>vpn</span>
+            
               <span>security</span>
+            
+              <span>palo_alto</span>
             
           </div>
         
         <ul class="story-list">
           
-            <li>Palo Alto Networks has reported that a vulnerability in their GlobalProtect VPN, identified as CVE-2026-0257, is being actively exploited by attackers. This flaw allows for authentication bypass, enabling unauthorized users to gain access to protected networks.</li>
+            <li>Palo Alto Networks has reported that CVE-2026-0257, a medium-severity vulnerability in PAN-OS and Prisma Access, is currently being exploited in the wild. This vulnerability allows attackers to bypass authentication mechanisms, potentially enabling them to create unauthorized VPN connections.</li>
           
-            <li>The ability for attackers to bypass authentication mechanisms can lead to significant data breaches and compromise of sensitive corporate information. Organizations using this VPN solution are at heightened risk, and immediate action is necessary to mitigate potential impacts.</li>
+            <li>If exploited, this vulnerability could allow attackers to gain access to sensitive internal networks, leading to data breaches or further attacks. Organizations using PAN-OS or Prisma Access should prioritize patching this vulnerability to mitigate the risk of unauthorized access.</li>
           
-            <li>An attacker can exploit the authentication bypass flaw to gain unauthorized access to the corporate network without valid credentials. This could lead to further exploitation within the network.</li>
+            <li>An attacker can exploit this vulnerability to bypass authentication and establish a VPN connection, gaining access to the internal network. This could lead to further exploitation or data exfiltration.</li>
           
-            <li>Watch next: Monitor for updates from Palo Alto Networks regarding patches or mitigations for this vulnerability.</li>
+            <li>Also reported by BleepingComputer.</li>
+          
+            <li>Watch next: Monitor for updates from Palo Alto Networks regarding patches and additional guidance on mitigating this vulnerability.</li>
           
         </ul>
 
@@ -463,9 +469,11 @@
             <div class="label">Key terms</div>
             <ul class="list">
             
-              <li>VPN - Virtual Private Network, a service that encrypts your internet connection and hides your IP address.</li>
+              <li>CVE - Common Vulnerabilities and Exposures, a list of publicly disclosed cybersecurity vulnerabilities.</li>
             
-              <li>Authentication Bypass - A security flaw that allows someone to gain access to a system without proper credentials.</li>
+              <li>VPN - Virtual Private Network, a service that creates a secure connection over the internet.</li>
+            
+              <li>VPN - Virtual Private Network, a service that encrypts your internet connection and hides your IP address.</li>
             
             </ul>
           </div>
@@ -475,11 +483,11 @@
           <div class="label">Defender focus</div>
           <ul class="list">
             
-            <li>Implement monitoring for unusual access patterns on the GlobalProtect VPN.</li>
+            <li>Implement monitoring for unusual VPN connection attempts.</li>
             
-            <li>Review logs for unauthorized access attempts and alert on suspicious activities.</li>
+            <li>Review logs for any unauthorized access patterns related to PAN-OS.</li>
             
-            <li>Ensure that all VPN instances are updated with the latest security patches as soon as they are available.</li>
+            <li>Ensure that all systems are updated with the latest security patches from Palo Alto Networks.</li>
             
           </ul>
         </div>
@@ -488,19 +496,27 @@
           <div class="label">Do now</div>
           <ul class="list">
             
-            <li>Immediately assess the impact of CVE-2026-0257 on your network.</li>
+            <li>Patch PAN-OS and Prisma Access immediately to close the vulnerability.</li>
             
-            <li>Apply any available patches from Palo Alto Networks without delay.</li>
+            <li>Review and tighten VPN access controls to limit exposure.</li>
             
-            <li>Enhance monitoring for any unauthorized access attempts on your VPN.</li>
+            <li>Conduct a security audit of network access logs for any signs of exploitation.</li>
             
           </ul>
         </div>
 
-        <div class="text-block"><span class="label">Watch next:</span> Monitor for updates from Palo Alto Networks regarding patches or mitigations for this vulnerability.</div>
+        <div class="text-block"><span class="label">Watch next:</span> Monitor for updates from Palo Alto Networks regarding patches and additional guidance on mitigating this vulnerability.</div>
 
         <div class="sources">
           <div class="label">Sources</div>
+          
+            
+              <div>
+                <a href="https://thehackernews.com/2026/05/pan-os-globalprotect-authentication.html" target="_blank" rel="noopener noreferrer">
+                  The Hacker News - PAN-OS GlobalProtect Authentication Bypass (CVE-2026-0257) Under Active Exploitation
+                </a>
+              </div>
+            
           
             
               <div>
@@ -522,7 +538,203 @@
           Priority Watchlist
         </div>
         
-          <p class="empty">No additional top stories.</p>
+          <div class="grid">
+            
+              <article class="card" style="--i: 0;">
+        <div class="meta">
+          <span class="chip risk-high">HIGH</span>
+          
+            <span class="chip label-chip">INDUSTRY SIGNAL</span>
+          
+          <span class="chip chip-neutral">Initial Access</span>
+          <span class="chip chip-neutral">Confidence LOW</span>
+        </div>
+        
+          <h3><a href="https://thehackernews.com/2026/05/attackers-use-llm-agent-for-post.html" target="_blank" rel="noopener noreferrer">Attackers Use LLM Agent for Post-Exploitation After Marimo CVE-2026-39987 Exploit</a></h3>
+        
+        <p class="hook">The exploitation of CVE-2026-39987 allows attackers to leverage advanced AI tools for post-exploitation, significantly increasing their operational efficiency and threat level.</p>
+        <div class="support-grid">
+          <div class="text-block"><span class="label">Who should care:</span> Teams managing Marimo products and cloud environments should prioritize monitoring and response efforts.</div>
+          <div class="text-block"><span class="label">Attack path:</span> Attackers gain leverage by exploiting the CVE-2026-39987 vulnerability to access systems and then utilize AI tools to automate credential extraction and other malicious activities.</div>
+        </div>
+        <div class="text-block"><span class="label">Why this matters now:</span> Useful context for teams tracking where attacker pressure is building.</div>
+        <div class="text-block"><span class="label">In plain English:</span> Attackers are using a newly discovered vulnerability in Marimo to exploit systems and utilize AI for further malicious actions.</div>
+        
+          <div class="tags">
+            
+              <span>ransomware</span>
+            
+              <span>cve</span>
+            
+              <span>cloud</span>
+            
+          </div>
+        
+        <ul class="story-list">
+          
+            <li>An unknown threat actor exploited a vulnerability in Marimo (CVE-2026-39987) to gain access to a publicly accessible notebook. After initial access, they employed a large language model (LLM) agent to perform post-compromise actions, including credential extraction.</li>
+          
+            <li>The use of AI tools in post-exploitation phases enhances the attacker's ability to automate tasks and evade detection, making it harder for defenders to respond effectively. Organizations using Marimo products are at heightened risk, as the vulnerability is publicly accessible and can be exploited by various threat actors.</li>
+          
+            <li>Attackers gain leverage by exploiting the CVE-2026-39987 vulnerability to access systems and then utilize AI tools to automate credential extraction and other malicious activities.</li>
+          
+            <li>Watch next: Monitor for updates from Marimo regarding patches for CVE-2026-39987 and any emerging threat intelligence related to LLM usage in attacks.</li>
+          
+        </ul>
+
+        
+          <div class="glossary">
+            <div class="label">Key terms</div>
+            <ul class="list">
+            
+              <li>CVE - Common Vulnerabilities and Exposures, a list of publicly disclosed cybersecurity vulnerabilities.</li>
+            
+              <li>LLM - Large Language Model, a type of AI that can generate human-like text and perform complex tasks.</li>
+            
+            </ul>
+          </div>
+        
+
+        <div>
+          <div class="label">Defender focus</div>
+          <ul class="list">
+            
+            <li>Implement monitoring for unusual access patterns in Marimo environments.</li>
+            
+            <li>Review logs for signs of credential extraction or AI tool usage.</li>
+            
+            <li>Ensure that all systems are patched against CVE-2026-39987.</li>
+            
+          </ul>
+        </div>
+
+        <div>
+          <div class="label">Do now</div>
+          <ul class="list">
+            
+            <li>Patch all Marimo systems against CVE-2026-39987 immediately.</li>
+            
+            <li>Enhance monitoring for AI-related activities in your environment.</li>
+            
+            <li>Conduct a security review of cloud credentials and access controls.</li>
+            
+          </ul>
+        </div>
+
+        <div class="text-block"><span class="label">Watch next:</span> Monitor for updates from Marimo regarding patches for CVE-2026-39987 and any emerging threat intelligence related to LLM usage in attacks.</div>
+
+        <div class="sources">
+          <div class="label">Sources</div>
+          
+            
+              <div>
+                <a href="https://thehackernews.com/2026/05/attackers-use-llm-agent-for-post.html" target="_blank" rel="noopener noreferrer">
+                  The Hacker News - Attackers Use LLM Agent for Post-Exploitation After Marimo CVE-2026-39987 Exploit
+                </a>
+              </div>
+            
+          
+        </div>
+      </article>
+            
+              <article class="card" style="--i: 1;">
+        <div class="meta">
+          <span class="chip risk-high">HIGH</span>
+          
+            <span class="chip label-chip">RESEARCH</span>
+          
+          <span class="chip chip-neutral">Execution</span>
+          <span class="chip chip-neutral">Confidence LOW</span>
+        </div>
+        
+          <h3><a href="https://thehackernews.com/2026/05/chatgphish-vulnerability-turns-chatgpt.html" target="_blank" rel="noopener noreferrer">ChatGPhish Vulnerability Turns ChatGPT Web Summaries Into a Phishing Surface</a></h3>
+        
+        <p class="hook">The ChatGPhish vulnerability exposes users to phishing attacks via trusted AI-generated content, making immediate awareness crucial.</p>
+        <div class="support-grid">
+          <div class="text-block"><span class="label">Who should care:</span> Security teams and developers using ChatGPT in their applications should be particularly concerned.</div>
+          <div class="text-block"><span class="label">Attack path:</span> An attacker can manipulate Markdown links in ChatGPT responses to redirect users to malicious sites, effectively leveraging the AI's trust to execute phishing schemes.</div>
+        </div>
+        <div class="text-block"><span class="label">Why this matters now:</span> Useful context for teams tracking where attacker pressure is building.</div>
+        <div class="text-block"><span class="label">In plain English:</span> A vulnerability in ChatGPT allows attackers to exploit Markdown links for phishing.</div>
+        
+          <div class="tags">
+            
+              <span>phishing</span>
+            
+              <span>vulnerability</span>
+            
+              <span>ai</span>
+            
+          </div>
+        
+        <ul class="story-list">
+          
+            <li>Researchers identified a vulnerability in OpenAI's ChatGPT that allows attackers to use Markdown links and images to execute prompt injections. This technique, dubbed ChatGPhish, can lead to phishing attacks by manipulating the AI's responses.</li>
+          
+            <li>This vulnerability can compromise user trust in AI-generated content, leading to potential data breaches and financial loss. Organizations relying on ChatGPT for customer interactions or internal communications must be vigilant to avoid falling victim to these phishing attempts.</li>
+          
+            <li>An attacker can manipulate Markdown links in ChatGPT responses to redirect users to malicious sites, effectively leveraging the AI's trust to execute phishing schemes.</li>
+          
+            <li>Watch next: Monitor for updates from OpenAI regarding patches or mitigations for this vulnerability.</li>
+          
+        </ul>
+
+        
+          <div class="glossary">
+            <div class="label">Key terms</div>
+            <ul class="list">
+            
+              <li>Markdown - a lightweight markup language with plain text formatting syntax used to format text.</li>
+            
+              <li>Prompt Injection - a technique where an attacker manipulates input to an AI model to alter its behavior or output.</li>
+            
+            </ul>
+          </div>
+        
+
+        <div>
+          <div class="label">Defender focus</div>
+          <ul class="list">
+            
+            <li>Implement monitoring for unusual link patterns in ChatGPT outputs.</li>
+            
+            <li>Educate users on verifying links before clicking, especially in AI-generated content.</li>
+            
+            <li>Review and update security policies regarding the use of AI tools in sensitive communications.</li>
+            
+          </ul>
+        </div>
+
+        <div>
+          <div class="label">Do now</div>
+          <ul class="list">
+            
+            <li>Assess the impact of the ChatGPhish vulnerability on your systems immediately.</li>
+            
+            <li>Implement link verification mechanisms for AI-generated content.</li>
+            
+            <li>Stay updated on OpenAI's response and apply any necessary patches.</li>
+            
+          </ul>
+        </div>
+
+        <div class="text-block"><span class="label">Watch next:</span> Monitor for updates from OpenAI regarding patches or mitigations for this vulnerability.</div>
+
+        <div class="sources">
+          <div class="label">Sources</div>
+          
+            
+              <div>
+                <a href="https://thehackernews.com/2026/05/chatgphish-vulnerability-turns-chatgpt.html" target="_blank" rel="noopener noreferrer">
+                  The Hacker News - ChatGPhish Vulnerability Turns ChatGPT Web Summaries Into a Phishing Surface
+                </a>
+              </div>
+            
+          
+        </div>
+      </article>
+            
+          </div>
         
       </section>
 
