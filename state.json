@@ -1,5 +1,5 @@
 {
-  "last_run_utc": "2026-06-01T17:57:42.633350+00:00",
+  "last_run_utc": "2026-06-02T11:59:46.280680+00:00",
   "processed_urls": [
     "https://www.bleepingcomputer.com/news/security/critical-cisco-sd-wan-bug-exploited-in-zero-day-attacks-since-2023/",
     "https://www.cisa.gov/news-events/alerts/2026/02/25/cisa-and-partners-release-guidance-ongoing-global-exploitation-cisco-sd-wan-systems",
@@ -615,6 +615,11 @@
     "https://thehackernews.com/2026/06/openai-codex-authentication-tokens.html",
     "https://thehackernews.com/2026/06/weekly-recap-new-linux-flaw-pan-os.html",
     "https://www.bleepingcomputer.com/news/security/race-against-time-why-faster-vulnerability-alerts-matter/",
-    "https://thehackernews.com/2026/06/china-aligned-groups-ramp-up-attacks.html"
+    "https://thehackernews.com/2026/06/china-aligned-groups-ramp-up-attacks.html",
+    "https://www.bleepingcomputer.com/news/security/google-fixes-one-actively-exploited-android-zero-day-124-flaws/",
+    "https://www.cisa.gov/news-events/alerts/2026/06/01/cisa-adds-one-known-exploited-vulnerability-catalog",
+    "https://thehackernews.com/2026/06/miasma-supply-chain-attack-compromises.html",
+    "https://www.bleepingcomputer.com/news/security/red-hat-npm-packages-compromised-to-steal-developer-credentials/",
+    "https://thehackernews.com/2026/06/pakistan-linked-sidecopy-targets.html"
   ]
 }
