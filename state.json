@@ -1,5 +1,5 @@
 {
-  "last_run_utc": "2026-06-02T16:49:33.794821+00:00",
+  "last_run_utc": "2026-06-03T12:37:50.884719+00:00",
   "processed_urls": [
     "https://www.bleepingcomputer.com/news/security/critical-cisco-sd-wan-bug-exploited-in-zero-day-attacks-since-2023/",
     "https://www.cisa.gov/news-events/alerts/2026/02/25/cisa-and-partners-release-guidance-ongoing-global-exploitation-cisco-sd-wan-systems",
@@ -621,6 +621,16 @@
     "https://thehackernews.com/2026/06/miasma-supply-chain-attack-compromises.html",
     "https://www.bleepingcomputer.com/news/security/red-hat-npm-packages-compromised-to-steal-developer-credentials/",
     "https://thehackernews.com/2026/06/pakistan-linked-sidecopy-targets.html",
-    "https://www.bleepingcomputer.com/news/security/cisa-orders-feds-to-patch-actively-exploited-oracle-weblogic-flaw/"
+    "https://www.bleepingcomputer.com/news/security/cisa-orders-feds-to-patch-actively-exploited-oracle-weblogic-flaw/",
+    "https://www.cisa.gov/news-events/alerts/2026/06/02/cisa-adds-two-known-exploited-vulnerabilities-catalog",
+    "https://thehackernews.com/2026/06/google-june-2026-android-update-patches.html",
+    "https://thehackernews.com/2026/06/oracle-weblogic-cve-2024-21182-added-to.html",
+    "https://thehackernews.com/2026/06/unpatched-windows-search-uri.html",
+    "https://www.bleepingcomputer.com/news/security/acer-warns-of-max-severity-zero-days-affecting-wave-7-routers/",
+    "https://thehackernews.com/2026/06/beyond-zero-day-see-your-network-like.html",
+    "https://www.bleepingcomputer.com/news/security/critical-kirki-flaw-exploited-to-hijack-wordpress-admin-accounts/",
+    "https://www.bleepingcomputer.com/news/security/vs-code-zero-day-lets-hackers-steal-github-tokens-in-one-click/",
+    "https://www.bleepingcomputer.com/news/security/ai-built-ransomware-toolkit-automates-edr-evasion-ad-discovery/",
+    "https://thehackernews.com/2026/06/gamaredon-exploits-winrar-to-deliver.html"
   ]
 }
