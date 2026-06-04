@@ -1,5 +1,5 @@
 {
-  "last_run_utc": "2026-06-04T10:57:24.976760+00:00",
+  "last_run_utc": "2026-06-04T15:35:14.411087+00:00",
   "processed_urls": [
     "https://www.bleepingcomputer.com/news/security/critical-cisco-sd-wan-bug-exploited-in-zero-day-attacks-since-2023/",
     "https://www.cisa.gov/news-events/alerts/2026/02/25/cisa-and-partners-release-guidance-ongoing-global-exploitation-cisco-sd-wan-systems",
@@ -635,6 +635,8 @@
     "https://thehackernews.com/2026/06/cisa-adds-exploited-magento-rce-flaw.html",
     "https://www.cisa.gov/news-events/alerts/2026/06/03/cisa-adds-one-known-exploited-vulnerability-catalog",
     "https://thehackernews.com/2026/06/autonomous-ai-tool-finds-2-year-old-rce.html",
-    "https://www.bleepingcomputer.com/news/security/the-us-sanctions-nobitex-crypto-exchange-used-by-ransomware/"
+    "https://www.bleepingcomputer.com/news/security/the-us-sanctions-nobitex-crypto-exchange-used-by-ransomware/",
+    "https://www.bleepingcomputer.com/news/security/cisco-warns-of-critical-unified-cm-flaw-with-poc-exploit-code/",
+    "https://thehackernews.com/2026/06/china-linked-ta4922-expands-phishing.html"
   ]
 }
