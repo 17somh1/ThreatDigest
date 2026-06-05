@@ -1,5 +1,5 @@
 {
-  "last_run_utc": "2026-06-05T11:20:55.808772+00:00",
+  "last_run_utc": "2026-06-05T15:23:01.640961+00:00",
   "processed_urls": [
     "https://www.bleepingcomputer.com/news/security/critical-cisco-sd-wan-bug-exploited-in-zero-day-attacks-since-2023/",
     "https://www.cisa.gov/news-events/alerts/2026/02/25/cisa-and-partners-release-guidance-ongoing-global-exploitation-cisco-sd-wan-systems",
@@ -641,6 +641,7 @@
     "https://www.bleepingcomputer.com/news/security/new-cisco-sd-wan-flaw-exploited-in-zero-day-attacks-to-gain-root/",
     "https://thehackernews.com/2026/06/hackers-exploit-critical-everest-forms.html",
     "https://thehackernews.com/2026/06/cisco-patches-cve-2026-20230-in-unified.html",
-    "https://www.bleepingcomputer.com/news/security/hola-browser-for-windows-compromised-to-deliver-cryptominer/"
+    "https://www.bleepingcomputer.com/news/security/hola-browser-for-windows-compromised-to-deliver-cryptominer/",
+    "https://www.bleepingcomputer.com/news/security/what-2026-dbir-confirms-attacks-are-living-in-the-browser/"
   ]
 }
