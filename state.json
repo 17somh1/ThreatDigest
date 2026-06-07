@@ -1,5 +1,5 @@
 {
-  "last_run_utc": "2026-06-06T14:01:21.579790+00:00",
+  "last_run_utc": "2026-06-07T10:23:47.234172+00:00",
   "processed_urls": [
     "https://www.bleepingcomputer.com/news/security/critical-cisco-sd-wan-bug-exploited-in-zero-day-attacks-since-2023/",
     "https://www.cisa.gov/news-events/alerts/2026/02/25/cisa-and-partners-release-guidance-ongoing-global-exploitation-cisco-sd-wan-systems",
@@ -650,6 +650,7 @@
     "https://www.bleepingcomputer.com/news/security/cisa-hackers-now-exploit-solarwinds-serv-u-flaw-to-crash-servers/",
     "https://thehackernews.com/2026/06/miasma-worm-hits-73-microsoft-github.html",
     "https://thehackernews.com/2026/06/ironworm-and-new-miasma-worm-variant.html",
-    "https://www.cisa.gov/news-events/alerts/2026/06/05/cisa-adds-one-known-exploited-vulnerability-catalog"
+    "https://www.cisa.gov/news-events/alerts/2026/06/05/cisa-adds-one-known-exploited-vulnerability-catalog",
+    "https://www.bleepingcomputer.com/news/security/critical-everest-forms-pro-flaw-exploited-to-take-over-wordpress-sites/"
   ]
 }
