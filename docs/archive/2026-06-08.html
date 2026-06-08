@@ -3,7 +3,7 @@
   <head>
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1" />
-    <title>Threat Digest - 2026-05-25</title>
+    <title>Threat Digest - 2026-06-08</title>
     <style>
       @import url("https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,600;9..144,700&family=Space+Grotesk:wght@400;500;600&display=swap");
 
@@ -373,13 +373,13 @@
 
     <header>
       <div class="eyebrow">Daily Threat Briefing</div>
-      <h1>Threat Digest - 2026-05-25</h1>
+      <h1>Threat Digest - 2026-06-08</h1>
       <p class="subtitle">
         The security news worth your attention, with context and practical takeaways.
       </p>
       <div class="meta-bar">
-        <span>Updated: 2026-05-25 15:25 UTC</span>
-        <span>Stories: 2</span>
+        <span>Updated: 2026-06-08 12:23 UTC</span>
+        <span>Stories: 1</span>
         <span>Recent issues: 14</span>
       </div>
     </header>
@@ -389,14 +389,22 @@
         <section class="one-liner">
           <h2>What Matters Today</h2>
           
-            <p class="empty">No summary available yet.</p>
+            <p class="text-block">Developers using VS Code need to adapt to a new two-hour delay for extension updates, which aims to reduce the risk of supply chain attacks.</p>
           
         </section>
 
         <section class="themes">
           <h2>Patterns To Watch</h2>
           
-            <p class="empty">No themes available yet.</p>
+            <ul>
+              
+              <li>Increased defender workload as teams must now monitor and validate extension updates more carefully.</li>
+              
+              <li>Attacker behavior may shift as they look for new vulnerabilities during the update delay period.</li>
+              
+              <li>Development teams must prioritize understanding and implementing this change to maintain security.</li>
+              
+            </ul>
           
         </section>
       </div>
@@ -410,43 +418,43 @@
           <div class="grid">
             <article class="card" style="--i: 0;">
         <div class="meta">
-          <span class="chip risk-high">HIGH</span>
+          <span class="chip risk-medium">MEDIUM</span>
           
-            <span class="chip label-chip">LEGAL POLICY</span>
+            <span class="chip label-chip">PATCH RELEASE</span>
           
-          <span class="chip chip-neutral">Initial Access</span>
+          <span class="chip chip-neutral">Unknown</span>
           <span class="chip chip-neutral">Confidence LOW</span>
         </div>
         
-          <h3><a href="https://thehackernews.com/2026/05/ghost-cms-cve-2026-26980-exploited-to.html" target="_blank" rel="noopener noreferrer">Ghost CMS CVE-2026-26980 Exploited to Hijack 700+ Sites for ClickFix Attacks</a></h3>
+          <h3><a href="https://thehackernews.com/2026/06/vs-code-adds-2-hour-extension-auto.html" target="_blank" rel="noopener noreferrer">VS Code Adds 2-Hour Extension Auto-Update Delay to Limit Supply Chain Attacks</a></h3>
         
-        <p class="hook">Over 700 websites are compromised due to a critical vulnerability in Ghost CMS, risking user data and site integrity.</p>
+        <p class="hook">The new two-hour delay for VS Code extension updates aims to mitigate potential supply chain attacks, making it crucial for developers to understand this change.</p>
         <div class="support-grid">
-          <div class="text-block"><span class="label">Who should care:</span> Web development and security teams managing Ghost CMS installations are most exposed.</div>
-          <div class="text-block"><span class="label">Attack path:</span> Attackers gain leverage by exploiting the SQL injection vulnerability to execute arbitrary code, allowing them to manipulate site content and redirect users.</div>
+          <div class="text-block"><span class="label">Who should care:</span> Development teams using Visual Studio Code and its extensions should pay attention to this update.</div>
+          <div class="text-block"><span class="label">Attack path:</span> An attacker could exploit vulnerabilities in newly released extensions before they are updated, potentially injecting malicious code into the development process.</div>
         </div>
-        <div class="text-block"><span class="label">Why this matters now:</span> Useful context for teams tracking where attacker pressure is building.</div>
-        <div class="text-block"><span class="label">In plain English:</span> A serious flaw in Ghost CMS is being actively exploited, allowing attackers to hijack sites for malicious purposes.</div>
+        <div class="text-block"><span class="label">Why this matters now:</span> A live patch or vendor fix gives defenders something concrete to validate.</div>
+        <div class="text-block"><span class="label">In plain English:</span> VS Code now delays automatic extension updates by two hours to enhance security against supply chain threats.</div>
         
           <div class="tags">
             
-              <span>cve</span>
+              <span>supply chain</span>
             
-              <span>ghost cms</span>
+              <span>software</span>
             
-              <span>web security</span>
+              <span>development</span>
             
           </div>
         
         <ul class="story-list">
           
-            <li>Threat actors are exploiting CVE-2026-26980, a critical SQL injection vulnerability in Ghost CMS's Content API. This flaw allows unauthenticated attackers to inject malicious JavaScript code into over 700 websites, facilitating ClickFix attacks.</li>
+            <li>Microsoft has implemented a two-hour delay for automatic updates of extensions in Visual Studio Code. This change is designed to provide an additional layer of protection against software supply chain attacks.</li>
           
-            <li>The exploitation of this vulnerability can lead to significant data breaches and loss of user trust, as compromised sites may serve malicious content. Organizations using Ghost CMS need to act quickly to mitigate risks associated with this vulnerability.</li>
+            <li>Supply chain attacks can compromise development environments and lead to malicious code being executed in production. By delaying updates, developers have a window to identify and mitigate any potential vulnerabilities in new extensions before they are applied.</li>
           
-            <li>Attackers gain leverage by exploiting the SQL injection vulnerability to execute arbitrary code, allowing them to manipulate site content and redirect users.</li>
+            <li>An attacker could exploit vulnerabilities in newly released extensions before they are updated, potentially injecting malicious code into the development process.</li>
           
-            <li>Watch next: Monitor for updates from Ghost CMS regarding patches and any further exploitation reports.</li>
+            <li>Watch next: Monitor for any reports of vulnerabilities in popular VS Code extensions that could be exploited during the update delay.</li>
           
         </ul>
 
@@ -455,9 +463,9 @@
             <div class="label">Key terms</div>
             <ul class="list">
             
-              <li>SQL Injection - a type of attack that allows an attacker to interfere with the queries that an application makes to its database.</li>
+              <li>Supply Chain Attack - a type of cyber attack that targets the vulnerabilities in the supply chain of software, potentially compromising the software before it reaches the end user.</li>
             
-              <li>ClickFix - a type of attack where malicious scripts are injected into websites to manipulate user interactions.</li>
+              <li>Extension - a software add-on that enhances the functionality of an application, in this case, Visual Studio Code.</li>
             
             </ul>
           </div>
@@ -467,11 +475,11 @@
           <div class="label">Defender focus</div>
           <ul class="list">
             
-            <li>Implement web application firewalls to detect and block SQL injection attempts.</li>
+            <li>Monitor for unusual activity related to VS Code extensions during the update window.</li>
             
-            <li>Regularly update Ghost CMS to the latest version to ensure vulnerabilities are patched.</li>
+            <li>Review logs for any unauthorized changes or installations of extensions.</li>
             
-            <li>Conduct a security audit of all websites running Ghost CMS to identify and remediate any exploitation.</li>
+            <li>Ensure that development teams are aware of the new update delay and its implications.</li>
             
           </ul>
         </div>
@@ -480,24 +488,24 @@
           <div class="label">Do now</div>
           <ul class="list">
             
-            <li>Patch Ghost CMS immediately to close the vulnerability.</li>
+            <li>Inform development teams about the new two-hour update delay.</li>
             
-            <li>Monitor web traffic for unusual activity indicative of exploitation.</li>
+            <li>Review and assess the security of currently installed extensions.</li>
             
-            <li>Educate development teams on secure coding practices to prevent similar vulnerabilities.</li>
+            <li>Stay updated on any vulnerabilities reported for VS Code extensions.</li>
             
           </ul>
         </div>
 
-        <div class="text-block"><span class="label">Watch next:</span> Monitor for updates from Ghost CMS regarding patches and any further exploitation reports.</div>
+        <div class="text-block"><span class="label">Watch next:</span> Monitor for any reports of vulnerabilities in popular VS Code extensions that could be exploited during the update delay.</div>
 
         <div class="sources">
           <div class="label">Sources</div>
           
             
               <div>
-                <a href="https://thehackernews.com/2026/05/ghost-cms-cve-2026-26980-exploited-to.html" target="_blank" rel="noopener noreferrer">
-                  The Hacker News - Ghost CMS CVE-2026-26980 Exploited to Hijack 700+ Sites for ClickFix Attacks
+                <a href="https://thehackernews.com/2026/06/vs-code-adds-2-hour-extension-auto.html" target="_blank" rel="noopener noreferrer">
+                  The Hacker News - VS Code Adds 2-Hour Extension Auto-Update Delay to Limit Supply Chain Attacks
                 </a>
               </div>
             
@@ -514,106 +522,7 @@
           Priority Watchlist
         </div>
         
-          <div class="grid">
-            
-              <article class="card" style="--i: 0;">
-        <div class="meta">
-          <span class="chip risk-high">HIGH</span>
-          
-            <span class="chip label-chip">INDUSTRY SIGNAL</span>
-          
-          <span class="chip chip-neutral">Credential Access</span>
-          <span class="chip chip-neutral">Confidence LOW</span>
-        </div>
-        
-          <h3><a href="https://www.bleepingcomputer.com/news/security/fbi-warns-of-kali365-phishing-service-targeting-microsoft-365-accounts/" target="_blank" rel="noopener noreferrer">FBI warns of Kali365 phishing service targeting Microsoft 365 accounts</a></h3>
-        
-        <p class="hook">The rise of the Kali365 phishing service poses an immediate threat to Microsoft 365 accounts, potentially compromising sensitive organizational data.</p>
-        <div class="support-grid">
-          <div class="text-block"><span class="label">Who should care:</span> IT security teams managing Microsoft 365 environments should prioritize this threat.</div>
-          <div class="text-block"><span class="label">Attack path:</span> Attackers can gain access by tricking users into authenticating through the phishing service, allowing them to capture session tokens and bypass MFA protections.</div>
-        </div>
-        <div class="text-block"><span class="label">Why this matters now:</span> Useful context for teams tracking where attacker pressure is building.</div>
-        <div class="text-block"><span class="label">In plain English:</span> A new phishing service is targeting Microsoft 365 accounts, exploiting OAuth to bypass security measures.</div>
-        
-          <div class="tags">
-            
-              <span>phishing</span>
-            
-              <span>microsoft365</span>
-            
-              <span>oauth</span>
-            
-          </div>
-        
-        <ul class="story-list">
-          
-            <li>The FBI has issued a warning about the Kali365 phishing-as-a-service platform that targets Microsoft 365 accounts. This service leverages OAuth device code authentication to steal session tokens, allowing attackers to bypass multi-factor authentication.</li>
-          
-            <li>Organizations using Microsoft 365 are at significant risk of account hijacking, which could lead to data breaches and unauthorized access to sensitive information. The ability to bypass MFA undermines a critical layer of security, making it easier for attackers to compromise accounts.</li>
-          
-            <li>Attackers can gain access by tricking users into authenticating through the phishing service, allowing them to capture session tokens and bypass MFA protections.</li>
-          
-            <li>Watch next: Monitor for any updates from Microsoft regarding countermeasures or patches related to this phishing service.</li>
-          
-        </ul>
-
-        
-          <div class="glossary">
-            <div class="label">Key terms</div>
-            <ul class="list">
-            
-              <li>Phishing - a method of attempting to acquire sensitive information by masquerading as a trustworthy entity in electronic communications.</li>
-            
-              <li>OAuth - an open standard for access delegation commonly used as a way to grant websites or applications limited access to user information without exposing passwords.</li>
-            
-            </ul>
-          </div>
-        
-
-        <div>
-          <div class="label">Defender focus</div>
-          <ul class="list">
-            
-            <li>Implement monitoring for unusual login attempts to Microsoft 365 accounts.</li>
-            
-            <li>Review and enhance MFA configurations to ensure they are robust against bypass techniques.</li>
-            
-            <li>Educate users on recognizing phishing attempts, especially those that exploit OAuth.</li>
-            
-          </ul>
-        </div>
-
-        <div>
-          <div class="label">Do now</div>
-          <ul class="list">
-            
-            <li>Increase monitoring for suspicious activity in Microsoft 365 accounts.</li>
-            
-            <li>Review and strengthen MFA policies to mitigate bypass risks.</li>
-            
-            <li>Conduct a security awareness session focused on phishing tactics.</li>
-            
-          </ul>
-        </div>
-
-        <div class="text-block"><span class="label">Watch next:</span> Monitor for any updates from Microsoft regarding countermeasures or patches related to this phishing service.</div>
-
-        <div class="sources">
-          <div class="label">Sources</div>
-          
-            
-              <div>
-                <a href="https://www.bleepingcomputer.com/news/security/fbi-warns-of-kali365-phishing-service-targeting-microsoft-365-accounts/" target="_blank" rel="noopener noreferrer">
-                  BleepingComputer - FBI warns of Kali365 phishing service targeting Microsoft 365 accounts
-                </a>
-              </div>
-            
-          
-        </div>
-      </article>
-            
-          </div>
+          <p class="empty">No additional top stories.</p>
         
       </section>
 
@@ -632,33 +541,33 @@
       <strong>Recent Issues</strong>
       <div class="archive-list">
         
-        <a href="archive/2026-05-25.html">2026-05-25</a>
+        <a href="archive/2026-06-08.html">2026-06-08</a>
         
-        <a href="archive/2026-05-24.html">2026-05-24</a>
+        <a href="archive/2026-06-07.html">2026-06-07</a>
         
-        <a href="archive/2026-05-23.html">2026-05-23</a>
+        <a href="archive/2026-06-06.html">2026-06-06</a>
         
-        <a href="archive/2026-05-22.html">2026-05-22</a>
+        <a href="archive/2026-06-05.html">2026-06-05</a>
         
-        <a href="archive/2026-05-21.html">2026-05-21</a>
+        <a href="archive/2026-06-04.html">2026-06-04</a>
         
-        <a href="archive/2026-05-20.html">2026-05-20</a>
+        <a href="archive/2026-06-03.html">2026-06-03</a>
         
-        <a href="archive/2026-05-19.html">2026-05-19</a>
+        <a href="archive/2026-06-02.html">2026-06-02</a>
         
-        <a href="archive/2026-05-18.html">2026-05-18</a>
+        <a href="archive/2026-06-01.html">2026-06-01</a>
         
-        <a href="archive/2026-05-17.html">2026-05-17</a>
+        <a href="archive/2026-05-31.html">2026-05-31</a>
         
-        <a href="archive/2026-05-16.html">2026-05-16</a>
+        <a href="archive/2026-05-30.html">2026-05-30</a>
         
-        <a href="archive/2026-05-15.html">2026-05-15</a>
+        <a href="archive/2026-05-29.html">2026-05-29</a>
         
-        <a href="archive/2026-05-14.html">2026-05-14</a>
+        <a href="archive/2026-05-28.html">2026-05-28</a>
         
-        <a href="archive/2026-05-13.html">2026-05-13</a>
+        <a href="archive/2026-05-27.html">2026-05-27</a>
         
-        <a href="archive/2026-05-12.html">2026-05-12</a>
+        <a href="archive/2026-05-26.html">2026-05-26</a>
         
       </div>
     </aside>
