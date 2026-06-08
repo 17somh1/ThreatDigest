@@ -378,8 +378,8 @@
         The security news worth your attention, with context and practical takeaways.
       </p>
       <div class="meta-bar">
-        <span>Updated: 2026-06-08 12:23 UTC</span>
-        <span>Stories: 1</span>
+        <span>Updated: 2026-06-08 16:11 UTC</span>
+        <span>Stories: 4</span>
         <span>Recent issues: 14</span>
       </div>
     </header>
@@ -389,7 +389,7 @@
         <section class="one-liner">
           <h2>What Matters Today</h2>
           
-            <p class="text-block">Developers using VS Code need to adapt to a new two-hour delay for extension updates, which aims to reduce the risk of supply chain attacks.</p>
+            <p class="text-block">Organizations using IKEv1 for VPN connections face immediate threats from active exploitation of a critical vulnerability linked to the Qilin ransomware gang, while AI-driven phishing attacks are overwhelming SOC teams.</p>
           
         </section>
 
@@ -398,11 +398,11 @@
           
             <ul>
               
-              <li>Increased defender workload as teams must now monitor and validate extension updates more carefully.</li>
+              <li>Critical vulnerabilities in legacy VPN protocols are being actively exploited, increasing the urgency for immediate patching.</li>
               
-              <li>Attacker behavior may shift as they look for new vulnerabilities during the update delay period.</li>
+              <li>Ransomware groups are leveraging known flaws to target remote access solutions, highlighting the need for robust security measures.</li>
               
-              <li>Development teams must prioritize understanding and implementing this change to maintain security.</li>
+              <li>The rise of AI-generated phishing attacks is significantly increasing alert volumes, straining SOC resources and response capabilities.</li>
               
             </ul>
           
@@ -418,43 +418,47 @@
           <div class="grid">
             <article class="card" style="--i: 0;">
         <div class="meta">
-          <span class="chip risk-medium">MEDIUM</span>
+          <span class="chip risk-high">HIGH</span>
           
-            <span class="chip label-chip">PATCH RELEASE</span>
+            <span class="chip label-chip">ACTIVE EXPLOITATION</span>
           
-          <span class="chip chip-neutral">Unknown</span>
+            <span class="chip label-chip">KEV ADDED</span>
+          
+            <span class="chip label-chip">LEGAL POLICY</span>
+          
+          <span class="chip chip-neutral">Initial Access</span>
           <span class="chip chip-neutral">Confidence LOW</span>
         </div>
         
-          <h3><a href="https://thehackernews.com/2026/06/vs-code-adds-2-hour-extension-auto.html" target="_blank" rel="noopener noreferrer">VS Code Adds 2-Hour Extension Auto-Update Delay to Limit Supply Chain Attacks</a></h3>
+          <h3><a href="https://thehackernews.com/2026/06/critical-check-point-vpn-flaw-exploited.html" target="_blank" rel="noopener noreferrer">Critical Check Point VPN Flaw Exploited to Bypass Passwords in IKEv1 Setups</a></h3>
         
-        <p class="hook">The new two-hour delay for VS Code extension updates aims to mitigate potential supply chain attacks, making it crucial for developers to understand this change.</p>
+        <p class="hook">Organizations using IKEv1 for VPN connections are at immediate risk of unauthorized access due to a critical vulnerability being actively exploited.</p>
         <div class="support-grid">
-          <div class="text-block"><span class="label">Who should care:</span> Development teams using Visual Studio Code and its extensions should pay attention to this update.</div>
-          <div class="text-block"><span class="label">Attack path:</span> An attacker could exploit vulnerabilities in newly released extensions before they are updated, potentially injecting malicious code into the development process.</div>
+          <div class="text-block"><span class="label">Who should care:</span> IT security teams managing Check Point VPN deployments using IKEv1 should prioritize this issue.</div>
+          <div class="text-block"><span class="label">Attack path:</span> An attacker can exploit this flaw by sending specially crafted requests to the VPN, bypassing the need for valid user credentials. This could lead to unauthorized access to internal resources.</div>
         </div>
-        <div class="text-block"><span class="label">Why this matters now:</span> A live patch or vendor fix gives defenders something concrete to validate.</div>
-        <div class="text-block"><span class="label">In plain English:</span> VS Code now delays automatic extension updates by two hours to enhance security against supply chain threats.</div>
+        <div class="text-block"><span class="label">Why this matters now:</span> KEV status shortens the acceptable patch window.</div>
+        <div class="text-block"><span class="label">In plain English:</span> A serious flaw in Check Point VPNs allows attackers to bypass authentication in IKEv1 setups.</div>
         
           <div class="tags">
             
-              <span>supply chain</span>
+              <span>vpn</span>
             
-              <span>software</span>
+              <span>cve</span>
             
-              <span>development</span>
+              <span>security</span>
             
           </div>
         
         <ul class="story-list">
           
-            <li>Microsoft has implemented a two-hour delay for automatic updates of extensions in Visual Studio Code. This change is designed to provide an additional layer of protection against software supply chain attacks.</li>
+            <li>Check Point has reported active exploitation of a critical vulnerability in their Remote Access and Mobile Access VPNs that utilize the outdated IKEv1 key exchange protocol. This vulnerability, identified as CVE-2026-50751, has a CVSS score of 9.3, indicating severe risk. The flaw involves a logic flow weakness in certificate validation.</li>
           
-            <li>Supply chain attacks can compromise development environments and lead to malicious code being executed in production. By delaying updates, developers have a window to identify and mitigate any potential vulnerabilities in new extensions before they are applied.</li>
+            <li>If exploited, this vulnerability allows unauthenticated attackers to gain access to sensitive systems without needing valid credentials. Given the widespread use of IKEv1 in legacy systems, many organizations may be vulnerable, potentially leading to data breaches or unauthorized actions within their networks.</li>
           
-            <li>An attacker could exploit vulnerabilities in newly released extensions before they are updated, potentially injecting malicious code into the development process.</li>
+            <li>An attacker can exploit this flaw by sending specially crafted requests to the VPN, bypassing the need for valid user credentials. This could lead to unauthorized access to internal resources.</li>
           
-            <li>Watch next: Monitor for any reports of vulnerabilities in popular VS Code extensions that could be exploited during the update delay.</li>
+            <li>Watch next: Monitor for updates from Check Point regarding patches or mitigations for this vulnerability.</li>
           
         </ul>
 
@@ -463,9 +467,9 @@
             <div class="label">Key terms</div>
             <ul class="list">
             
-              <li>Supply Chain Attack - a type of cyber attack that targets the vulnerabilities in the supply chain of software, potentially compromising the software before it reaches the end user.</li>
+              <li>IKEv1 - Internet Key Exchange version 1, a protocol used to set up a secure communication channel.</li>
             
-              <li>Extension - a software add-on that enhances the functionality of an application, in this case, Visual Studio Code.</li>
+              <li>CVE - Common Vulnerabilities and Exposures, a list of publicly disclosed cybersecurity vulnerabilities.</li>
             
             </ul>
           </div>
@@ -475,11 +479,11 @@
           <div class="label">Defender focus</div>
           <ul class="list">
             
-            <li>Monitor for unusual activity related to VS Code extensions during the update window.</li>
+            <li>Identify any VPN configurations using IKEv1 and assess their exposure.</li>
             
-            <li>Review logs for any unauthorized changes or installations of extensions.</li>
+            <li>Implement monitoring for unusual access patterns or authentication failures.</li>
             
-            <li>Ensure that development teams are aware of the new update delay and its implications.</li>
+            <li>Prepare to deploy patches or mitigations as soon as they are available from Check Point.</li>
             
           </ul>
         </div>
@@ -488,24 +492,24 @@
           <div class="label">Do now</div>
           <ul class="list">
             
-            <li>Inform development teams about the new two-hour update delay.</li>
+            <li>Immediately assess and inventory all VPN deployments using IKEv1.</li>
             
-            <li>Review and assess the security of currently installed extensions.</li>
+            <li>Apply any available patches or mitigations from Check Point as soon as they are released.</li>
             
-            <li>Stay updated on any vulnerabilities reported for VS Code extensions.</li>
+            <li>Consider disabling IKEv1 in favor of more secure protocols like IKEv2.</li>
             
           </ul>
         </div>
 
-        <div class="text-block"><span class="label">Watch next:</span> Monitor for any reports of vulnerabilities in popular VS Code extensions that could be exploited during the update delay.</div>
+        <div class="text-block"><span class="label">Watch next:</span> Monitor for updates from Check Point regarding patches or mitigations for this vulnerability.</div>
 
         <div class="sources">
           <div class="label">Sources</div>
           
             
               <div>
-                <a href="https://thehackernews.com/2026/06/vs-code-adds-2-hour-extension-auto.html" target="_blank" rel="noopener noreferrer">
-                  The Hacker News - VS Code Adds 2-Hour Extension Auto-Update Delay to Limit Supply Chain Attacks
+                <a href="https://thehackernews.com/2026/06/critical-check-point-vpn-flaw-exploited.html" target="_blank" rel="noopener noreferrer">
+                  The Hacker News - Critical Check Point VPN Flaw Exploited to Bypass Passwords in IKEv1 Setups
                 </a>
               </div>
             
@@ -522,7 +526,302 @@
           Priority Watchlist
         </div>
         
-          <p class="empty">No additional top stories.</p>
+          <div class="grid">
+            
+              <article class="card" style="--i: 0;">
+        <div class="meta">
+          <span class="chip risk-high">HIGH</span>
+          
+            <span class="chip label-chip">PATCH RELEASE</span>
+          
+            <span class="chip label-chip">LEGAL POLICY</span>
+          
+          <span class="chip chip-neutral">Initial Access</span>
+          <span class="chip chip-neutral">Confidence LOW</span>
+        </div>
+        
+          <h3><a href="https://www.bleepingcomputer.com/news/security/check-point-links-vpn-zero-day-attacks-to-qilin-ransomware-gang/" target="_blank" rel="noopener noreferrer">Check Point links VPN zero-day attacks to Qilin ransomware gang</a></h3>
+        
+        <p class="hook">The exploitation of a critical VPN vulnerability by the Qilin ransomware gang poses immediate risks to organizations relying on remote access solutions.</p>
+        <div class="support-grid">
+          <div class="text-block"><span class="label">Who should care:</span> IT security teams managing VPN infrastructure and remote access solutions should prioritize this issue.</div>
+          <div class="text-block"><span class="label">Attack path:</span> Attackers can exploit the VPN vulnerability to gain unauthorized access to internal networks, facilitating ransomware deployment.</div>
+        </div>
+        <div class="text-block"><span class="label">Why this matters now:</span> A live patch or vendor fix gives defenders something concrete to validate.</div>
+        <div class="text-block"><span class="label">In plain English:</span> A critical flaw in VPN services has been exploited by attackers, necessitating urgent patching.</div>
+        
+          <div class="tags">
+            
+              <span>ransomware</span>
+            
+              <span>cve</span>
+            
+              <span>vpn</span>
+            
+          </div>
+        
+        <ul class="story-list">
+          
+            <li>Check Point reported that a zero-day vulnerability affecting Remote Access VPN and Mobile Access deployments has been actively exploited. Security updates have been released to address this critical flaw.</li>
+          
+            <li>Organizations using these VPN services are at high risk of ransomware attacks, which can lead to data loss and operational disruption. Prompt patching is essential to mitigate potential breaches and protect sensitive information.</li>
+          
+            <li>Attackers can exploit the VPN vulnerability to gain unauthorized access to internal networks, facilitating ransomware deployment.</li>
+          
+            <li>Watch next: Monitor for updates from Check Point regarding the effectiveness of the patches and any emerging threats.</li>
+          
+        </ul>
+
+        
+          <div class="glossary">
+            <div class="label">Key terms</div>
+            <ul class="list">
+            
+              <li>VPN - Virtual Private Network, a service that creates a secure connection over the internet.</li>
+            
+              <li>Zero-day - A vulnerability that is exploited before the vendor has released a fix.</li>
+            
+            </ul>
+          </div>
+        
+
+        <div>
+          <div class="label">Defender focus</div>
+          <ul class="list">
+            
+            <li>Verify that all VPN services are updated with the latest security patches.</li>
+            
+            <li>Monitor network traffic for unusual access patterns that may indicate exploitation.</li>
+            
+            <li>Conduct a risk assessment to identify critical assets that may be exposed.</li>
+            
+          </ul>
+        </div>
+
+        <div>
+          <div class="label">Do now</div>
+          <ul class="list">
+            
+            <li>Immediately apply the security updates released by Check Point.</li>
+            
+            <li>Review access logs for any signs of unauthorized access.</li>
+            
+            <li>Enhance monitoring of VPN connections for suspicious activity.</li>
+            
+          </ul>
+        </div>
+
+        <div class="text-block"><span class="label">Watch next:</span> Monitor for updates from Check Point regarding the effectiveness of the patches and any emerging threats.</div>
+
+        <div class="sources">
+          <div class="label">Sources</div>
+          
+            
+              <div>
+                <a href="https://www.bleepingcomputer.com/news/security/check-point-links-vpn-zero-day-attacks-to-qilin-ransomware-gang/" target="_blank" rel="noopener noreferrer">
+                  BleepingComputer - Check Point links VPN zero-day attacks to Qilin ransomware gang
+                </a>
+              </div>
+            
+          
+        </div>
+      </article>
+            
+              <article class="card" style="--i: 1;">
+        <div class="meta">
+          <span class="chip risk-medium">MEDIUM</span>
+          
+            <span class="chip label-chip">INDUSTRY SIGNAL</span>
+          
+          <span class="chip chip-neutral">Initial Access</span>
+          <span class="chip chip-neutral">Confidence LOW</span>
+        </div>
+        
+          <h3><a href="https://thehackernews.com/2026/06/weekly-recap-instagram-account-hacks.html" target="_blank" rel="noopener noreferrer">⚡ Weekly Recap: Instagram Account Hacks, Android Zero-Day, GitHub Worm and More</a></h3>
+        
+        <p class="hook">Recent account hacks and vulnerabilities highlight ongoing weaknesses in security practices that can lead to significant data breaches.</p>
+        <div class="support-grid">
+          <div class="text-block"><span class="label">Who should care:</span> Development teams, security operations, and anyone managing social media accounts or cloud services should be particularly vigilant.</div>
+          <div class="text-block"><span class="label">Attack path:</span> Attackers can exploit known vulnerabilities in software and services to gain unauthorized access. They may also use social engineering tactics to manipulate users into revealing sensitive information.</div>
+        </div>
+        <div class="text-block"><span class="label">Why this matters now:</span> Useful context for teams tracking where attacker pressure is building.</div>
+        <div class="text-block"><span class="label">In plain English:</span> Multiple security incidents last week demonstrate that basic security flaws continue to be exploited by attackers.</div>
+        
+          <div class="tags">
+            
+              <span>account_hack</span>
+            
+              <span>vulnerability</span>
+            
+              <span>malware</span>
+            
+          </div>
+        
+        <ul class="story-list">
+          
+            <li>Last week saw a series of security incidents, including Instagram account hacks, a zero-day vulnerability in Android, and a worm affecting GitHub repositories. Attackers utilized basic techniques to exploit these vulnerabilities, indicating a lack of robust security measures. Additionally, a chatbot was misled, and a bot token was leaked within malware.</li>
+          
+            <li>These incidents expose critical vulnerabilities that can lead to unauthorized access and data breaches. Organizations must address these basic security flaws to prevent attackers from gaining footholds in their systems. The persistence of these issues suggests that many teams may be overlooking fundamental security practices.</li>
+          
+            <li>Attackers can exploit known vulnerabilities in software and services to gain unauthorized access. They may also use social engineering tactics to manipulate users into revealing sensitive information.</li>
+          
+            <li>Watch next: Monitor for updates from vendors regarding patches for the identified vulnerabilities and any emerging threats related to these incidents.</li>
+          
+        </ul>
+
+        
+          <div class="glossary">
+            <div class="label">Key terms</div>
+            <ul class="list">
+            
+              <li>Zero-Day - a vulnerability that is exploited before the vendor has released a fix.</li>
+            
+              <li>Worm - a type of malware that replicates itself to spread to other computers.</li>
+            
+            </ul>
+          </div>
+        
+
+        <div>
+          <div class="label">Defender focus</div>
+          <ul class="list">
+            
+            <li>Implement monitoring for unusual login attempts on social media accounts.</li>
+            
+            <li>Review and update security configurations for cloud services to mitigate exposure.</li>
+            
+            <li>Conduct a vulnerability assessment to identify and remediate any existing weaknesses.</li>
+            
+          </ul>
+        </div>
+
+        <div>
+          <div class="label">Do now</div>
+          <ul class="list">
+            
+            <li>Patch all known vulnerabilities in your systems immediately.</li>
+            
+            <li>Enhance monitoring for suspicious activities across all platforms.</li>
+            
+            <li>Educate users on recognizing phishing attempts and securing their accounts.</li>
+            
+          </ul>
+        </div>
+
+        <div class="text-block"><span class="label">Watch next:</span> Monitor for updates from vendors regarding patches for the identified vulnerabilities and any emerging threats related to these incidents.</div>
+
+        <div class="sources">
+          <div class="label">Sources</div>
+          
+            
+              <div>
+                <a href="https://thehackernews.com/2026/06/weekly-recap-instagram-account-hacks.html" target="_blank" rel="noopener noreferrer">
+                  The Hacker News - ⚡ Weekly Recap: Instagram Account Hacks, Android Zero-Day, GitHub Worm and More
+                </a>
+              </div>
+            
+          
+        </div>
+      </article>
+            
+              <article class="card" style="--i: 2;">
+        <div class="meta">
+          <span class="chip risk-high">HIGH</span>
+          
+            <span class="chip label-chip">INDUSTRY SIGNAL</span>
+          
+          <span class="chip chip-neutral">Initial Access</span>
+          <span class="chip chip-neutral">Confidence LOW</span>
+        </div>
+        
+          <h3><a href="https://thehackernews.com/2026/06/ai-phishing-is-crushing-socs-with-alert.html" target="_blank" rel="noopener noreferrer">AI Phishing Is Crushing SOCs with Alert Volume: How to Reduce Tier 1 Overload</a></h3>
+        
+        <p class="hook">The surge in AI-generated phishing attacks is overwhelming SOC teams, increasing the risk of credential theft and malware incidents.</p>
+        <div class="support-grid">
+          <div class="text-block"><span class="label">Who should care:</span> SOC teams, particularly Tier 1 analysts, and organizations relying on email communication and online services.</div>
+          <div class="text-block"><span class="label">Attack path:</span> Attackers exploit AI tools to generate realistic phishing content, making it harder for SOC teams to identify and respond to threats quickly. This leads to an increased number of alerts that require manual review.</div>
+        </div>
+        <div class="text-block"><span class="label">Why this matters now:</span> Useful context for teams tracking where attacker pressure is building.</div>
+        <div class="text-block"><span class="label">In plain English:</span> AI is enabling attackers to flood SOCs with sophisticated phishing attempts, complicating threat detection.</div>
+        
+          <div class="tags">
+            
+              <span>phishing</span>
+            
+              <span>ai</span>
+            
+              <span>soc</span>
+            
+          </div>
+        
+        <ul class="story-list">
+          
+            <li>Recent reports indicate that attackers are leveraging AI to create highly convincing phishing emails and fake login pages. This has resulted in a significant increase in alert volume for SOC teams, particularly at the Tier 1 level.</li>
+          
+            <li>As the volume of alerts rises, the likelihood of missing genuine threats increases, which could lead to successful credential theft or malware deployment. The efficiency of SOC operations is at risk, potentially exposing organizations to severe security breaches.</li>
+          
+            <li>Attackers exploit AI tools to generate realistic phishing content, making it harder for SOC teams to identify and respond to threats quickly. This leads to an increased number of alerts that require manual review.</li>
+          
+            <li>Watch next: Monitor for trends in phishing attack techniques and any updates from email security vendors on AI detection capabilities.</li>
+          
+        </ul>
+
+        
+          <div class="glossary">
+            <div class="label">Key terms</div>
+            <ul class="list">
+            
+              <li>Phishing - a type of cyber attack where attackers impersonate legitimate entities to steal sensitive information.</li>
+            
+              <li>AI - artificial intelligence, technology that enables machines to perform tasks that typically require human intelligence.</li>
+            
+            </ul>
+          </div>
+        
+
+        <div>
+          <div class="label">Defender focus</div>
+          <ul class="list">
+            
+            <li>Implement automated filtering to reduce alert volume from known phishing patterns.</li>
+            
+            <li>Enhance training for Tier 1 analysts to quickly identify AI-generated phishing attempts.</li>
+            
+            <li>Utilize threat intelligence to prioritize alerts based on the likelihood of being a genuine threat.</li>
+            
+          </ul>
+        </div>
+
+        <div>
+          <div class="label">Do now</div>
+          <ul class="list">
+            
+            <li>Review and update email filtering rules to catch AI-generated phishing attempts.</li>
+            
+            <li>Increase resources for Tier 1 analysts to manage the alert volume effectively.</li>
+            
+            <li>Engage with vendors for advanced AI detection tools to improve threat identification.</li>
+            
+          </ul>
+        </div>
+
+        <div class="text-block"><span class="label">Watch next:</span> Monitor for trends in phishing attack techniques and any updates from email security vendors on AI detection capabilities.</div>
+
+        <div class="sources">
+          <div class="label">Sources</div>
+          
+            
+              <div>
+                <a href="https://thehackernews.com/2026/06/ai-phishing-is-crushing-socs-with-alert.html" target="_blank" rel="noopener noreferrer">
+                  The Hacker News - AI Phishing Is Crushing SOCs with Alert Volume: How to Reduce Tier 1 Overload
+                </a>
+              </div>
+            
+          
+        </div>
+      </article>
+            
+          </div>
         
       </section>
 
