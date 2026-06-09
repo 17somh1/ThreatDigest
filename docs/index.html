@@ -378,8 +378,8 @@
         The security news worth your attention, with context and practical takeaways.
       </p>
       <div class="meta-bar">
-        <span>Updated: 2026-06-09 10:56 UTC</span>
-        <span>Stories: 6</span>
+        <span>Updated: 2026-06-09 15:24 UTC</span>
+        <span>Stories: 3</span>
         <span>Recent issues: 14</span>
       </div>
     </header>
@@ -389,7 +389,7 @@
         <section class="one-liner">
           <h2>What Matters Today</h2>
           
-            <p class="text-block">Active exploitation of multiple critical vulnerabilities across various platforms demands immediate attention from affected teams to mitigate unauthorized access risks.</p>
+            <p class="text-block">Urgent patching is required for critical vulnerabilities in Chrome and Veeam, while ongoing exploitation of WinRAR by threat actors underscores the need for immediate defensive action.</p>
           
         </section>
 
@@ -398,11 +398,11 @@
           
             <ul>
               
-              <li>Increased pressure on development and IT teams to patch critical vulnerabilities quickly due to active exploitation.</li>
+              <li>Active exploitation of zero-day vulnerabilities increases urgency for immediate patching and validation by defenders.</li>
               
-              <li>Ransomware groups are targeting specific software vulnerabilities, highlighting the need for heightened vigilance in federal IT security.</li>
+              <li>Remote code execution risks in backup solutions highlight the need for heightened vigilance among IT security teams.</li>
               
-              <li>The rise of zero-day vulnerabilities in widely used applications like Chrome and Gogs indicates a growing trend in attacker behavior focused on exploiting unpatched systems.</li>
+              <li>Targeted attacks on specific software by threat actors emphasize the importance of tailored protective measures for affected organizations.</li>
               
             </ul>
           
@@ -422,49 +422,41 @@
           
             <span class="chip label-chip">ACTIVE EXPLOITATION</span>
           
-            <span class="chip label-chip">KEV ADDED</span>
-          
-            <span class="chip label-chip">LEGAL POLICY</span>
+            <span class="chip label-chip">PATCH RELEASE</span>
           
           <span class="chip chip-neutral">Execution</span>
-          <span class="chip chip-neutral">Confidence HIGH</span>
+          <span class="chip chip-neutral">Confidence LOW</span>
         </div>
         
-          <h3><a href="https://thehackernews.com/2026/06/litellm-flaw-cve-2026-42271-exploited.html" target="_blank" rel="noopener noreferrer">LiteLLM Flaw CVE-2026-42271 Exploited in the Wild, Chains to Unauthenticated RCE</a></h3>
+          <h3><a href="https://thehackernews.com/2026/06/chrome-v8-zero-day-cve-2026-11645.html" target="_blank" rel="noopener noreferrer">Chrome V8 Zero-Day CVE-2026-11645 Exploited in the Wild - Patch Now</a></h3>
         
-        <p class="hook">Active exploitation of a critical vulnerability in LiteLLM could lead to unauthorized remote command execution, posing significant risks to affected systems.</p>
+        <p class="hook">Immediate patching is critical as a zero-day vulnerability in Chrome's V8 engine is actively exploited, posing significant risks to users.</p>
         <div class="support-grid">
-          <div class="text-block"><span class="label">Who should care:</span> Teams managing BerriAI LiteLLM deployments and any environments utilizing this software should be particularly vigilant.</div>
-          <div class="text-block"><span class="label">Attack path:</span> An attacker can exploit this vulnerability by sending specially crafted commands to the LiteLLM application, gaining the ability to execute arbitrary code on the server.</div>
+          <div class="text-block"><span class="label">Who should care:</span> All users of Google Chrome, especially those in enterprise environments, should prioritize this update.</div>
+          <div class="text-block"><span class="label">Attack path:</span> Attackers can exploit this vulnerability through malicious web pages or scripts, leading to unauthorized access and control over the user's system.</div>
         </div>
-        <div class="text-block"><span class="label">Why this matters now:</span> Active exploitation makes this an immediate exposure check. KEV status shortens the acceptable patch window.</div>
-        <div class="text-block"><span class="label">In plain English:</span> A serious flaw in LiteLLM is being actively exploited, allowing attackers to execute commands remotely.</div>
+        <div class="text-block"><span class="label">Why this matters now:</span> Active exploitation makes this an immediate exposure check. A live patch or vendor fix gives defenders something concrete to validate.</div>
+        <div class="text-block"><span class="label">In plain English:</span> A serious vulnerability in Chrome's V8 engine is being exploited, and users must update their browsers immediately.</div>
         
           <div class="tags">
             
               <span>cve</span>
             
-              <span>remote code execution</span>
-            
-              <span>litellm</span>
+              <span>chrome</span>
             
               <span>vulnerability</span>
-            
-              <span>exploitation</span>
             
           </div>
         
         <ul class="story-list">
           
-            <li>CISA has identified and added CVE-2026-42271, a command injection vulnerability in BerriAI LiteLLM, to its Known Exploited Vulnerabilities catalog. This vulnerability has a CVSS score of 8.7, indicating high severity, and evidence suggests it is currently being exploited in the wild.</li>
+            <li>Google has identified and patched a high-severity vulnerability, CVE-2026-11645, in the V8 JavaScript engine of Chrome. This vulnerability allows for out-of-bounds memory access, which can be exploited by attackers to execute arbitrary code.</li>
           
-            <li>If exploited, this vulnerability allows attackers to execute arbitrary commands, potentially compromising the integrity and confidentiality of systems using LiteLLM. Organizations using this software should prioritize patching to mitigate the risk of unauthorized access and data breaches.</li>
+            <li>If left unpatched, this vulnerability could allow attackers to take control of affected systems, leading to data breaches or further exploitation. Given the widespread use of Chrome, the potential impact is significant across various environments.</li>
           
-            <li>An attacker can exploit this vulnerability by sending specially crafted commands to the LiteLLM application, gaining the ability to execute arbitrary code on the server.</li>
+            <li>Attackers can exploit this vulnerability through malicious web pages or scripts, leading to unauthorized access and control over the user's system.</li>
           
-            <li>Also reported by Alerts.</li>
-          
-            <li>Watch next: Monitor for updates from BerriAI regarding patches or mitigations for CVE-2026-42271.</li>
+            <li>Watch next: Monitor for updates from Google regarding the effectiveness of the patch and any emerging threats related to this vulnerability.</li>
           
         </ul>
 
@@ -473,13 +465,9 @@
             <div class="label">Key terms</div>
             <ul class="list">
             
-              <li>CVE - Common Vulnerabilities and Exposures, a list of publicly disclosed cybersecurity vulnerabilities.</li>
-            
-              <li>RCE - Remote Code Execution, a type of vulnerability that allows an attacker to execute commands on a remote system.</li>
-            
               <li>CVE - Common Vulnerabilities and Exposures, a list of publicly known cybersecurity vulnerabilities.</li>
             
-              <li>KEV - Known Exploited Vulnerabilities, a catalog of vulnerabilities that are actively being exploited in the wild.</li>
+              <li>V8 - The JavaScript engine developed by Google for Chrome and Node.js, responsible for executing JavaScript code.</li>
             
             </ul>
           </div>
@@ -489,11 +477,11 @@
           <div class="label">Defender focus</div>
           <ul class="list">
             
-            <li>Implement monitoring for unusual command executions on LiteLLM servers.</li>
+            <li>Ensure all Chrome installations are updated to the latest version immediately.</li>
             
-            <li>Review access logs for any unauthorized attempts to exploit this vulnerability.</li>
+            <li>Monitor network traffic for signs of exploitation attempts targeting Chrome users.</li>
             
-            <li>Ensure that all instances of LiteLLM are updated to the latest version as soon as patches are available.</li>
+            <li>Review browser security settings and policies to mitigate potential risks.</li>
             
           </ul>
         </div>
@@ -502,32 +490,24 @@
           <div class="label">Do now</div>
           <ul class="list">
             
-            <li>Immediately assess if LiteLLM is in use within your environment.</li>
+            <li>Update Google Chrome to version 149.0.7827.103 or later immediately.</li>
             
-            <li>Apply any available patches or mitigations as soon as they are released.</li>
+            <li>Inform all users about the importance of this update and provide guidance on how to apply it.</li>
             
-            <li>Increase monitoring for suspicious activity related to LiteLLM deployments.</li>
+            <li>Conduct a review of browser security configurations to enhance protection against future vulnerabilities.</li>
             
           </ul>
         </div>
 
-        <div class="text-block"><span class="label">Watch next:</span> Monitor for updates from BerriAI regarding patches or mitigations for CVE-2026-42271.</div>
+        <div class="text-block"><span class="label">Watch next:</span> Monitor for updates from Google regarding the effectiveness of the patch and any emerging threats related to this vulnerability.</div>
 
         <div class="sources">
           <div class="label">Sources</div>
           
             
               <div>
-                <a href="https://thehackernews.com/2026/06/litellm-flaw-cve-2026-42271-exploited.html" target="_blank" rel="noopener noreferrer">
-                  The Hacker News - LiteLLM Flaw CVE-2026-42271 Exploited in the Wild, Chains to Unauthenticated RCE
-                </a>
-              </div>
-            
-          
-            
-              <div>
-                <a href="https://www.cisa.gov/news-events/alerts/2026/06/08/cisa-adds-two-known-exploited-vulnerabilities-catalog" target="_blank" rel="noopener noreferrer">
-                  Alerts - CISA Adds Two Known Exploited Vulnerabilities to Catalog
+                <a href="https://thehackernews.com/2026/06/chrome-v8-zero-day-cve-2026-11645.html" target="_blank" rel="noopener noreferrer">
+                  The Hacker News - Chrome V8 Zero-Day CVE-2026-11645 Exploited in the Wild - Patch Now
                 </a>
               </div>
             
@@ -550,8 +530,6 @@
         <div class="meta">
           <span class="chip risk-high">HIGH</span>
           
-            <span class="chip label-chip">ACTIVE EXPLOITATION</span>
-          
             <span class="chip label-chip">PATCH RELEASE</span>
           
             <span class="chip label-chip">LEGAL POLICY</span>
@@ -560,35 +538,35 @@
           <span class="chip chip-neutral">Confidence LOW</span>
         </div>
         
-          <h3><a href="https://www.bleepingcomputer.com/news/security/google-patches-fifth-chrome-zero-day-bug-exploited-in-attacks-this-year/" target="_blank" rel="noopener noreferrer">Google patches new Chrome zero-day flaw exploited in the wild</a></h3>
+          <h3><a href="https://www.bleepingcomputer.com/news/security/new-veeam-vulnerability-exposes-backup-servers-to-rce-attacks/" target="_blank" rel="noopener noreferrer">New Veeam vulnerability exposes backup servers to RCE attacks</a></h3>
         
-        <p class="hook">The exploitation of a new Chrome zero-day vulnerability poses immediate risks to users, potentially allowing attackers to execute arbitrary code.</p>
+        <p class="hook">The newly discovered Veeam vulnerability poses a significant risk of remote code execution on backup servers, potentially compromising critical data and systems.</p>
         <div class="support-grid">
-          <div class="text-block"><span class="label">Who should care:</span> All teams using Google Chrome, particularly those in security-sensitive environments.</div>
-          <div class="text-block"><span class="label">Attack path:</span> Attackers can exploit this vulnerability through malicious websites or crafted content, leading to unauthorized code execution on the victim's machine.</div>
+          <div class="text-block"><span class="label">Who should care:</span> IT security teams managing Veeam Backup & Replication environments should be particularly vigilant.</div>
+          <div class="text-block"><span class="label">Attack path:</span> An attacker could exploit the vulnerability to execute arbitrary code on the backup server, potentially leading to unauthorized access to sensitive data and systems.</div>
         </div>
-        <div class="text-block"><span class="label">Why this matters now:</span> Active exploitation makes this an immediate exposure check. A live patch or vendor fix gives defenders something concrete to validate.</div>
-        <div class="text-block"><span class="label">In plain English:</span> Google has patched a critical zero-day flaw in Chrome that is currently being exploited.</div>
+        <div class="text-block"><span class="label">Why this matters now:</span> A live patch or vendor fix gives defenders something concrete to validate.</div>
+        <div class="text-block"><span class="label">In plain English:</span> A critical vulnerability in Veeam's Backup & Replication software allows attackers to execute code remotely on affected servers.</div>
         
           <div class="tags">
             
+              <span>ransomware</span>
+            
               <span>cve</span>
             
-              <span>browser</span>
-            
-              <span>zero day</span>
+              <span>cloud</span>
             
           </div>
         
         <ul class="story-list">
           
-            <li>Google has released emergency updates to address a zero-day vulnerability in Chrome that has been actively exploited in the wild. This marks the fifth zero-day flaw patched in Chrome this year.</li>
+            <li>Veeam has identified a critical security flaw in its Backup & Replication software that can be exploited for remote code execution (RCE) on domain-joined backup servers. Security updates have been released to address this vulnerability.</li>
           
-            <li>The vulnerability allows attackers to execute arbitrary code on affected systems, which could lead to data breaches or further compromise of user environments. Given the frequency of these zero-day patches, users are at heightened risk if they do not update promptly.</li>
+            <li>If exploited, this vulnerability could allow attackers to gain full control over backup servers, leading to data loss or corruption and impacting recovery processes. Organizations relying on Veeam for data protection should prioritize applying the updates to mitigate this risk.</li>
           
-            <li>Attackers can exploit this vulnerability through malicious websites or crafted content, leading to unauthorized code execution on the victim's machine.</li>
+            <li>An attacker could exploit the vulnerability to execute arbitrary code on the backup server, potentially leading to unauthorized access to sensitive data and systems.</li>
           
-            <li>Watch next: Monitor for updates from Google regarding any additional vulnerabilities or patches related to Chrome.</li>
+            <li>Watch next: Monitor for updates from Veeam regarding any additional patches or advisories related to this vulnerability.</li>
           
         </ul>
 
@@ -597,9 +575,9 @@
             <div class="label">Key terms</div>
             <ul class="list">
             
-              <li>ZERO-DAY - a vulnerability that is exploited before the vendor has released a fix.</li>
+              <li>RCE - Remote Code Execution, a type of vulnerability that allows an attacker to run arbitrary code on a target system.</li>
             
-              <li>EXPLOIT - a method used by attackers to take advantage of a vulnerability.</li>
+              <li>Backup & Replication - A software solution by Veeam used for data backup and recovery.</li>
             
             </ul>
           </div>
@@ -609,11 +587,11 @@
           <div class="label">Defender focus</div>
           <ul class="list">
             
-            <li>Ensure all Chrome installations are updated to the latest version immediately.</li>
+            <li>Ensure all Veeam Backup & Replication servers are updated with the latest security patches.</li>
             
-            <li>Monitor for unusual outbound connections that may indicate exploitation.</li>
+            <li>Monitor logs for any unusual access patterns or attempts to exploit the vulnerability.</li>
             
-            <li>Review logs for any signs of unauthorized code execution or unusual browser activity.</li>
+            <li>Review backup integrity and recovery processes to ensure they are not compromised.</li>
             
           </ul>
         </div>
@@ -622,24 +600,24 @@
           <div class="label">Do now</div>
           <ul class="list">
             
-            <li>Update Google Chrome to the latest version immediately.</li>
+            <li>Immediately apply the latest security updates from Veeam.</li>
             
-            <li>Educate users on the importance of not visiting untrusted websites.</li>
+            <li>Conduct a risk assessment to evaluate the impact of potential exploitation.</li>
             
-            <li>Implement monitoring for potential exploitation attempts in your environment.</li>
+            <li>Enhance monitoring of backup server activity for signs of compromise.</li>
             
           </ul>
         </div>
 
-        <div class="text-block"><span class="label">Watch next:</span> Monitor for updates from Google regarding any additional vulnerabilities or patches related to Chrome.</div>
+        <div class="text-block"><span class="label">Watch next:</span> Monitor for updates from Veeam regarding any additional patches or advisories related to this vulnerability.</div>
 
         <div class="sources">
           <div class="label">Sources</div>
           
             
               <div>
-                <a href="https://www.bleepingcomputer.com/news/security/google-patches-fifth-chrome-zero-day-bug-exploited-in-attacks-this-year/" target="_blank" rel="noopener noreferrer">
-                  BleepingComputer - Google patches new Chrome zero-day flaw exploited in the wild
+                <a href="https://www.bleepingcomputer.com/news/security/new-veeam-vulnerability-exposes-backup-servers-to-rce-attacks/" target="_blank" rel="noopener noreferrer">
+                  BleepingComputer - New Veeam vulnerability exposes backup servers to RCE attacks
                 </a>
               </div>
             
@@ -653,39 +631,43 @@
           
             <span class="chip label-chip">PATCH RELEASE</span>
           
+            <span class="chip label-chip">INDUSTRY SIGNAL</span>
+          
+            <span class="chip label-chip">LEGAL POLICY</span>
+          
           <span class="chip chip-neutral">Initial Access</span>
           <span class="chip chip-neutral">Confidence LOW</span>
         </div>
         
-          <h3><a href="https://www.bleepingcomputer.com/news/security/cisa-orders-feds-to-patch-check-point-flaw-exploited-by-ransomware-gangs/" target="_blank" rel="noopener noreferrer">CISA gives feds 3 days to patch Check Point VPN bug exploited as zero-day</a></h3>
+          <h3><a href="https://thehackernews.com/2026/06/winrar-flaw-exploited-by-russia-aligned.html" target="_blank" rel="noopener noreferrer">WinRAR Flaw Exploited by Russia-Aligned Groups to Deploy Stealers in Ukraine</a></h3>
         
-        <p class="hook">Immediate action is required to mitigate a critical vulnerability in Check Point VPNs that is actively being exploited by ransomware groups.</p>
+        <p class="hook">The ongoing exploitation of a known WinRAR vulnerability by Russia-aligned groups poses a significant threat to Ukrainian organizations, highlighting the urgency for immediate protective measures.</p>
         <div class="support-grid">
-          <div class="text-block"><span class="label">Who should care:</span> IT security teams managing Check Point VPN deployments in federal agencies should prioritize this issue.</div>
-          <div class="text-block"><span class="label">Attack path:</span> Attackers exploit the vulnerability to gain unauthorized access to VPN services, allowing them to infiltrate networks and deploy ransomware.</div>
+          <div class="text-block"><span class="label">Who should care:</span> Ukrainian organizations using WinRAR are most exposed to these attacks.</div>
+          <div class="text-block"><span class="label">Attack path:</span> Attackers leverage the path traversal flaw to gain unauthorized access to systems, enabling them to deploy malicious software that steals sensitive information.</div>
         </div>
-        <div class="text-block"><span class="label">Why this matters now:</span> A live patch or vendor fix gives defenders something concrete to validate. Sector exposure makes this broader than a one-off incident.</div>
-        <div class="text-block"><span class="label">In plain English:</span> CISA has mandated a three-day deadline for federal agencies to patch a serious vulnerability in Check Point VPNs being targeted by attackers.</div>
+        <div class="text-block"><span class="label">Why this matters now:</span> A live patch or vendor fix gives defenders something concrete to validate.</div>
+        <div class="text-block"><span class="label">In plain English:</span> Russia-aligned groups are actively exploiting a WinRAR flaw to target Ukraine, despite available patches.</div>
         
           <div class="tags">
-            
-              <span>ransomware</span>
             
               <span>cve</span>
             
-              <span>vpn</span>
+              <span>malware</span>
+            
+              <span>ukraine</span>
             
           </div>
         
         <ul class="story-list">
           
-            <li>CISA has issued an emergency directive for U.S. government agencies to patch a critical vulnerability in Check Point Remote Access VPN and Mobile Access products. This vulnerability is being exploited in zero-day attacks by affiliates of the Qilin ransomware group.</li>
+            <li>Two cyber attack campaigns linked to Russia have been exploiting a security flaw in WinRAR, specifically CVE-2025-8088, which allows for path traversal. This activity has been attributed to groups known as Earth Dahu and SHADOW-EARTH-066. The attacks have been ongoing for nearly a year after patches were released.</li>
           
-            <li>Failure to patch this vulnerability could lead to unauthorized access to sensitive government networks, potentially resulting in data breaches or ransomware attacks. The urgency is heightened by the active exploitation of this flaw in the wild.</li>
+            <li>The exploitation of this vulnerability allows attackers to deploy stealers, potentially leading to data breaches and financial losses for targeted organizations. The persistence of these attacks indicates a sustained threat to Ukrainian cybersecurity, necessitating immediate attention from affected entities.</li>
           
-            <li>Attackers exploit the vulnerability to gain unauthorized access to VPN services, allowing them to infiltrate networks and deploy ransomware.</li>
+            <li>Attackers leverage the path traversal flaw to gain unauthorized access to systems, enabling them to deploy malicious software that steals sensitive information.</li>
           
-            <li>Watch next: Monitor for updates from CISA regarding the effectiveness of the patch and any further exploitation attempts.</li>
+            <li>Watch next: Monitor for any updates from WinRAR regarding additional patches or mitigations related to CVE-2025-8088.</li>
           
         </ul>
 
@@ -694,9 +676,9 @@
             <div class="label">Key terms</div>
             <ul class="list">
             
-              <li>CISA - Cybersecurity and Infrastructure Security Agency, a U.S. government agency responsible for protecting the nation's critical infrastructure.</li>
+              <li>CVE-2025-8088 - a specific identifier for a known security vulnerability in WinRAR that allows unauthorized file access.</li>
             
-              <li>Zero-day - A vulnerability that is exploited by attackers before the vendor has released a fix.</li>
+              <li>Path Traversal - a type of attack that enables an attacker to access files and directories stored outside the intended directory.</li>
             
             </ul>
           </div>
@@ -706,110 +688,11 @@
           <div class="label">Defender focus</div>
           <ul class="list">
             
-            <li>Verify that all Check Point VPN instances are updated with the latest security patches.</li>
+            <li>Implement monitoring for unusual WinRAR activity on endpoints.</li>
             
-            <li>Monitor network traffic for unusual access patterns that may indicate exploitation attempts.</li>
+            <li>Ensure all systems are updated with the latest patches for WinRAR.</li>
             
-            <li>Review logs for any unauthorized access or anomalies related to VPN usage.</li>
-            
-          </ul>
-        </div>
-
-        <div>
-          <div class="label">Do now</div>
-          <ul class="list">
-            
-            <li>Patch Check Point VPNs within the next three days as mandated by CISA.</li>
-            
-            <li>Conduct a risk assessment to identify any potential exposure due to this vulnerability.</li>
-            
-            <li>Increase monitoring of network traffic for signs of exploitation or unauthorized access.</li>
-            
-          </ul>
-        </div>
-
-        <div class="text-block"><span class="label">Watch next:</span> Monitor for updates from CISA regarding the effectiveness of the patch and any further exploitation attempts.</div>
-
-        <div class="sources">
-          <div class="label">Sources</div>
-          
-            
-              <div>
-                <a href="https://www.bleepingcomputer.com/news/security/cisa-orders-feds-to-patch-check-point-flaw-exploited-by-ransomware-gangs/" target="_blank" rel="noopener noreferrer">
-                  BleepingComputer - CISA gives feds 3 days to patch Check Point VPN bug exploited as zero-day
-                </a>
-              </div>
-            
-          
-        </div>
-      </article>
-            
-              <article class="card" style="--i: 2;">
-        <div class="meta">
-          <span class="chip risk-high">HIGH</span>
-          
-            <span class="chip label-chip">PATCH RELEASE</span>
-          
-            <span class="chip label-chip">LEGAL POLICY</span>
-          
-          <span class="chip chip-neutral">Execution</span>
-          <span class="chip chip-neutral">Confidence LOW</span>
-        </div>
-        
-          <h3><a href="https://www.bleepingcomputer.com/news/security/gogs-patches-critical-zero-day-enabling-remote-code-execution/" target="_blank" rel="noopener noreferrer">Gogs patches critical zero-day enabling remote code execution</a></h3>
-        
-        <p class="hook">Immediate action is required to secure Gogs instances against a critical zero-day vulnerability that could lead to unauthorized access to sensitive repositories.</p>
-        <div class="support-grid">
-          <div class="text-block"><span class="label">Who should care:</span> Development and IT teams managing Gogs instances should be particularly vigilant.</div>
-          <div class="text-block"><span class="label">Attack path:</span> An attacker can exploit this vulnerability by sending specially crafted requests to compromised Gogs instances, gaining control over the server and accessing repositories.</div>
-        </div>
-        <div class="text-block"><span class="label">Why this matters now:</span> A live patch or vendor fix gives defenders something concrete to validate.</div>
-        <div class="text-block"><span class="label">In plain English:</span> Gogs has released a patch for a serious vulnerability that allows remote code execution on exposed instances.</div>
-        
-          <div class="tags">
-            
-              <span>zero day</span>
-            
-              <span>remote code execution</span>
-            
-              <span>gogs</span>
-            
-          </div>
-        
-        <ul class="story-list">
-          
-            <li>Gogs has patched a critical zero-day vulnerability that enables remote code execution on Internet-facing instances. This flaw allows attackers to potentially access all repositories, including private ones.</li>
-          
-            <li>If left unpatched, this vulnerability could lead to significant data breaches and unauthorized access to sensitive information. Organizations using Gogs should prioritize applying the patch to mitigate the risk of exploitation.</li>
-          
-            <li>An attacker can exploit this vulnerability by sending specially crafted requests to compromised Gogs instances, gaining control over the server and accessing repositories.</li>
-          
-            <li>Watch next: Monitor for any reports of exploitation attempts or additional patches from Gogs.</li>
-          
-        </ul>
-
-        
-          <div class="glossary">
-            <div class="label">Key terms</div>
-            <ul class="list">
-            
-              <li>Zero-day - a vulnerability that is exploited before the vendor has released a fix.</li>
-            
-              <li>Remote code execution - a type of vulnerability that allows an attacker to run arbitrary code on a remote system.</li>
-            
-            </ul>
-          </div>
-        
-
-        <div>
-          <div class="label">Defender focus</div>
-          <ul class="list">
-            
-            <li>Verify that all Gogs instances are updated with the latest security patches.</li>
-            
-            <li>Monitor logs for unusual access patterns or unauthorized repository access.</li>
-            
-            <li>Implement network segmentation to limit exposure of Gogs instances to the internet.</li>
+            <li>Conduct a review of logs for any signs of exploitation attempts related to CVE-2025-8088.</li>
             
           </ul>
         </div>
@@ -818,24 +701,24 @@
           <div class="label">Do now</div>
           <ul class="list">
             
-            <li>Immediately apply the latest Gogs security patch.</li>
+            <li>Patch all instances of WinRAR immediately.</li>
             
-            <li>Review access logs for any suspicious activity.</li>
+            <li>Increase monitoring for suspicious file access patterns.</li>
             
-            <li>Consider implementing additional security measures, such as firewalls or VPNs, to protect exposed instances.</li>
+            <li>Educate relevant teams on the specifics of CVE-2025-8088 and its implications.</li>
             
           </ul>
         </div>
 
-        <div class="text-block"><span class="label">Watch next:</span> Monitor for any reports of exploitation attempts or additional patches from Gogs.</div>
+        <div class="text-block"><span class="label">Watch next:</span> Monitor for any updates from WinRAR regarding additional patches or mitigations related to CVE-2025-8088.</div>
 
         <div class="sources">
           <div class="label">Sources</div>
           
             
               <div>
-                <a href="https://www.bleepingcomputer.com/news/security/gogs-patches-critical-zero-day-enabling-remote-code-execution/" target="_blank" rel="noopener noreferrer">
-                  BleepingComputer - Gogs patches critical zero-day enabling remote code execution
+                <a href="https://thehackernews.com/2026/06/winrar-flaw-exploited-by-russia-aligned.html" target="_blank" rel="noopener noreferrer">
+                  The Hacker News - WinRAR Flaw Exploited by Russia-Aligned Groups to Deploy Stealers in Ukraine
                 </a>
               </div>
             
@@ -853,207 +736,7 @@
           Wider Signal
         </div>
         
-          <div class="grid">
-            
-              <article class="card" style="--i: 0;">
-        <div class="meta">
-          <span class="chip risk-high">HIGH</span>
-          
-            <span class="chip label-chip">PATCH RELEASE</span>
-          
-            <span class="chip label-chip">LEGAL POLICY</span>
-          
-            <span class="chip label-chip">RESEARCH</span>
-          
-          <span class="chip chip-neutral">Privilege Escalation</span>
-          <span class="chip chip-neutral">Confidence LOW</span>
-        </div>
-        
-          <h3><a href="https://thehackernews.com/2026/06/one-character-linux-kernel-flaw-enables.html" target="_blank" rel="noopener noreferrer">One-Character Linux Kernel Flaw Enables Local Root Access, Exploits Now Public</a></h3>
-        
-        <p class="hook">A newly disclosed Linux kernel vulnerability allows unprivileged users to gain root access, posing immediate risks to containerized environments.</p>
-        <div class="support-grid">
-          <div class="text-block"><span class="label">Who should care:</span> DevOps teams and system administrators managing Linux-based container environments are most exposed.</div>
-          <div class="text-block"><span class="label">Attack path:</span> An attacker with local access can exploit the vulnerability to escalate privileges from a non-privileged user to root, allowing them to execute arbitrary commands and escape container isolation.</div>
-        </div>
-        <div class="text-block"><span class="label">Why this matters now:</span> A live patch or vendor fix gives defenders something concrete to validate.</div>
-        <div class="text-block"><span class="label">In plain English:</span> A critical flaw in the Linux kernel can be exploited by local users to escalate privileges and escape containers.</div>
-        
-          <div class="tags">
-            
-              <span>cve</span>
-            
-              <span>linux</span>
-            
-              <span>container</span>
-            
-          </div>
-        
-        <ul class="story-list">
-          
-            <li>Researchers have published a working exploit for a use-after-free vulnerability in the Linux kernel's nf_tables code, identified as CVE-2026-23111. This flaw allows unprivileged local users to escalate their privileges to root level. The vulnerability was patched on February 5, 2026, but the exploit became public on June 8, 2026.</li>
-          
-            <li>This vulnerability can be exploited by attackers to break out of containerized environments, potentially leading to widespread system compromise. Organizations using Linux containers should prioritize patching to mitigate the risk of unauthorized access and data breaches.</li>
-          
-            <li>An attacker with local access can exploit the vulnerability to escalate privileges from a non-privileged user to root, allowing them to execute arbitrary commands and escape container isolation.</li>
-          
-            <li>Watch next: Monitor for any updates from Linux distributions regarding the application of the patch and any emerging exploit variants.</li>
-          
-        </ul>
-
-        
-          <div class="glossary">
-            <div class="label">Key terms</div>
-            <ul class="list">
-            
-              <li>CVE - Common Vulnerabilities and Exposures, a list of publicly disclosed cybersecurity vulnerabilities.</li>
-            
-              <li>Use-after-free - A type of vulnerability that occurs when a program continues to use memory after it has been freed, potentially allowing for arbitrary code execution.</li>
-            
-            </ul>
-          </div>
-        
-
-        <div>
-          <div class="label">Defender focus</div>
-          <ul class="list">
-            
-            <li>Verify that the patch for CVE-2026-23111 is applied across all Linux systems in use.</li>
-            
-            <li>Monitor logs for unusual access patterns or privilege escalation attempts.</li>
-            
-            <li>Review container configurations to ensure proper isolation and limit access to unprivileged users.</li>
-            
-          </ul>
-        </div>
-
-        <div>
-          <div class="label">Do now</div>
-          <ul class="list">
-            
-            <li>Immediately apply the patch for CVE-2026-23111 to all affected systems.</li>
-            
-            <li>Audit user access levels and permissions in container environments.</li>
-            
-            <li>Implement monitoring for privilege escalation activities.</li>
-            
-          </ul>
-        </div>
-
-        <div class="text-block"><span class="label">Watch next:</span> Monitor for any updates from Linux distributions regarding the application of the patch and any emerging exploit variants.</div>
-
-        <div class="sources">
-          <div class="label">Sources</div>
-          
-            
-              <div>
-                <a href="https://thehackernews.com/2026/06/one-character-linux-kernel-flaw-enables.html" target="_blank" rel="noopener noreferrer">
-                  The Hacker News - One-Character Linux Kernel Flaw Enables Local Root Access, Exploits Now Public
-                </a>
-              </div>
-            
-          
-        </div>
-      </article>
-            
-              <article class="card" style="--i: 1;">
-        <div class="meta">
-          <span class="chip risk-high">HIGH</span>
-          
-            <span class="chip label-chip">PATCH RELEASE</span>
-          
-          <span class="chip chip-neutral">Execution</span>
-          <span class="chip chip-neutral">Confidence LOW</span>
-        </div>
-        
-          <h3><a href="https://thehackernews.com/2026/06/hades-pypi-attack-19-packages-poisoned.html" target="_blank" rel="noopener noreferrer">Hades PyPI Attack: 19 Packages Poisoned to Auto-Run Bun Credential Stealer</a></h3>
-        
-        <p class="hook">The Hades attack on PyPI could lead to widespread credential theft, impacting developers and organizations relying on these packages.</p>
-        <div class="support-grid">
-          <div class="text-block"><span class="label">Who should care:</span> Development teams and organizations using Python packages from PyPI should be particularly vigilant.</div>
-          <div class="text-block"><span class="label">Attack path:</span> An attacker gains leverage by injecting malicious code into widely used packages, which executes upon installation, allowing for credential theft.</div>
-        </div>
-        <div class="text-block"><span class="label">Why this matters now:</span> Useful context for teams tracking where attacker pressure is building.</div>
-        <div class="text-block"><span class="label">In plain English:</span> Nineteen packages on PyPI were compromised to run a credential stealer automatically.</div>
-        
-          <div class="tags">
-            
-              <span>supply chain</span>
-            
-              <span>malware</span>
-            
-              <span>python</span>
-            
-          </div>
-        
-        <ul class="story-list">
-          
-            <li>The Hades attack has introduced 37 malicious artifacts across 19 packages in the Python Package Index (PyPI). These compromised packages include a *-setup.pth file designed to execute automatically when installed, potentially stealing user credentials.</li>
-          
-            <li>This attack targets developers directly, compromising their environments and potentially leading to unauthorized access to sensitive systems. Organizations using these packages may face significant security risks if their developers unknowingly install the malicious versions.</li>
-          
-            <li>An attacker gains leverage by injecting malicious code into widely used packages, which executes upon installation, allowing for credential theft.</li>
-          
-            <li>Watch next: Monitor for updates from PyPI regarding the removal of compromised packages and any new security advisories.</li>
-          
-        </ul>
-
-        
-          <div class="glossary">
-            <div class="label">Key terms</div>
-            <ul class="list">
-            
-              <li>PyPI - Python Package Index, a repository for Python software packages.</li>
-            
-              <li>Credential Stealer - a type of malware designed to capture user credentials such as usernames and passwords.</li>
-            
-            </ul>
-          </div>
-        
-
-        <div>
-          <div class="label">Defender focus</div>
-          <ul class="list">
-            
-            <li>Implement monitoring for package installations in development environments.</li>
-            
-            <li>Review and audit dependencies for any recent updates or changes.</li>
-            
-            <li>Educate developers on verifying package integrity before installation.</li>
-            
-          </ul>
-        </div>
-
-        <div>
-          <div class="label">Do now</div>
-          <ul class="list">
-            
-            <li>Immediately review and audit all Python packages in use.</li>
-            
-            <li>Implement a policy for verifying package sources and integrity.</li>
-            
-            <li>Stay updated on security advisories from PyPI and related communities.</li>
-            
-          </ul>
-        </div>
-
-        <div class="text-block"><span class="label">Watch next:</span> Monitor for updates from PyPI regarding the removal of compromised packages and any new security advisories.</div>
-
-        <div class="sources">
-          <div class="label">Sources</div>
-          
-            
-              <div>
-                <a href="https://thehackernews.com/2026/06/hades-pypi-attack-19-packages-poisoned.html" target="_blank" rel="noopener noreferrer">
-                  The Hacker News - Hades PyPI Attack: 19 Packages Poisoned to Auto-Run Bun Credential Stealer
-                </a>
-              </div>
-            
-          
-        </div>
-      </article>
-            
-          </div>
+          <p class="empty">No context stories today.</p>
         
       </section>
     </main>
