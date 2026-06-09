@@ -1,5 +1,5 @@
 {
-  "last_run_utc": "2026-06-08T16:11:40.733102+00:00",
+  "last_run_utc": "2026-06-09T10:56:20.742565+00:00",
   "processed_urls": [
     "https://www.bleepingcomputer.com/news/security/critical-cisco-sd-wan-bug-exploited-in-zero-day-attacks-since-2023/",
     "https://www.cisa.gov/news-events/alerts/2026/02/25/cisa-and-partners-release-guidance-ongoing-global-exploitation-cisco-sd-wan-systems",
@@ -656,6 +656,15 @@
     "https://www.bleepingcomputer.com/news/security/check-point-links-vpn-zero-day-attacks-to-qilin-ransomware-gang/",
     "https://thehackernews.com/2026/06/critical-check-point-vpn-flaw-exploited.html",
     "https://thehackernews.com/2026/06/ai-phishing-is-crushing-socs-with-alert.html",
-    "https://thehackernews.com/2026/06/weekly-recap-instagram-account-hacks.html"
+    "https://thehackernews.com/2026/06/weekly-recap-instagram-account-hacks.html",
+    "https://thehackernews.com/2026/06/litellm-flaw-cve-2026-42271-exploited.html",
+    "https://www.bleepingcomputer.com/news/security/google-patches-fifth-chrome-zero-day-bug-exploited-in-attacks-this-year/",
+    "https://www.cisa.gov/news-events/alerts/2026/06/08/cisa-adds-two-known-exploited-vulnerabilities-catalog",
+    "https://www.bleepingcomputer.com/news/security/cisa-orders-feds-to-patch-check-point-flaw-exploited-by-ransomware-gangs/",
+    "https://www.bleepingcomputer.com/news/security/gogs-patches-critical-zero-day-enabling-remote-code-execution/",
+    "https://thehackernews.com/2026/06/hades-pypi-attack-19-packages-poisoned.html",
+    "https://thehackernews.com/2026/06/one-character-linux-kernel-flaw-enables.html",
+    "https://www.bleepingcomputer.com/news/security/whatsapp-says-it-disrupted-new-nso-spyware-phishing-attacks/",
+    "https://thehackernews.com/2026/06/meta-blocks-nso-groups-new-whatsapp.html"
   ]
 }
