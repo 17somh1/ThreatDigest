@@ -378,7 +378,7 @@
         The security news worth your attention, with context and practical takeaways.
       </p>
       <div class="meta-bar">
-        <span>Updated: 2026-06-10 11:35 UTC</span>
+        <span>Updated: 2026-06-10 15:58 UTC</span>
         <span>Stories: 6</span>
         <span>Recent issues: 14</span>
       </div>
@@ -389,7 +389,7 @@
         <section class="one-liner">
           <h2>What Matters Today</h2>
           
-            <p class="text-block">Multiple critical vulnerabilities across various platforms require immediate patching to prevent exploitation and maintain system integrity.</p>
+            <p class="text-block">Active exploitation of multiple unpatched vulnerabilities across key platforms demands immediate attention from security teams to prevent severe data breaches.</p>
           
         </section>
 
@@ -398,11 +398,11 @@
           
             <ul>
               
-              <li>Active exploitation of newly identified vulnerabilities increases urgency for patching across federal and private networks.</li>
+              <li>Unpatched vulnerabilities in widely used software are being actively exploited, increasing the urgency for timely patches.</li>
               
-              <li>Zero-day vulnerabilities in widely used software highlight the need for proactive defense measures in Windows environments.</li>
+              <li>Emerging ransomware threats necessitate enhanced defensive measures and vigilance from IT security teams.</li>
               
-              <li>Authenticated users may exploit vulnerabilities in backup systems, emphasizing the importance of securing user permissions.</li>
+              <li>Weak authentication practices are being targeted, highlighting the need for stronger identity verification methods.</li>
               
             </ul>
           
@@ -422,41 +422,43 @@
           
             <span class="chip label-chip">ACTIVE EXPLOITATION</span>
           
-            <span class="chip label-chip">KEV ADDED</span>
+            <span class="chip label-chip">PATCH RELEASE</span>
+          
+            <span class="chip label-chip">LEGAL POLICY</span>
           
           <span class="chip chip-neutral">Initial Access</span>
           <span class="chip chip-neutral">Confidence LOW</span>
         </div>
         
-          <h3><a href="https://www.cisa.gov/news-events/alerts/2026/06/09/cisa-adds-three-known-exploited-vulnerabilities-catalog" target="_blank" rel="noopener noreferrer">CISA Adds Three Known Exploited Vulnerabilities to Catalog</a></h3>
+          <h3><a href="https://thehackernews.com/2026/06/unpatched-langflow-flaw-cve-2026-5027.html" target="_blank" rel="noopener noreferrer">Unpatched Langflow Flaw CVE-2026-5027 Exploited for Unauthenticated RCE</a></h3>
         
-        <p class="hook">Three newly identified vulnerabilities are actively exploited, posing immediate risks to federal and private networks alike.</p>
+        <p class="hook">The exploitation of an unpatched vulnerability in Langflow could lead to significant data breaches and system compromises for organizations using this platform.</p>
         <div class="support-grid">
-          <div class="text-block"><span class="label">Who should care:</span> IT security teams, especially those managing Arista, Google Chromium, and Cisco environments.</div>
-          <div class="text-block"><span class="label">Attack path:</span> Attackers can exploit these vulnerabilities to gain unauthorized access or execute malicious code within affected systems.</div>
+          <div class="text-block"><span class="label">Who should care:</span> Development teams and security teams managing applications built on the Langflow platform should be particularly vigilant.</div>
+          <div class="text-block"><span class="label">Attack path:</span> An attacker can exploit this vulnerability by sending specially crafted requests to the Langflow application, allowing them to execute arbitrary code on the server.</div>
         </div>
-        <div class="text-block"><span class="label">Why this matters now:</span> KEV status shortens the acceptable patch window.</div>
-        <div class="text-block"><span class="label">In plain English:</span> CISA has added three critical vulnerabilities to its catalog that are currently being exploited.</div>
+        <div class="text-block"><span class="label">Why this matters now:</span> Active exploitation makes this an immediate exposure check. A live patch or vendor fix gives defenders something concrete to validate.</div>
+        <div class="text-block"><span class="label">In plain English:</span> A critical flaw in Langflow is being actively exploited, allowing attackers to execute remote code without authentication.</div>
         
           <div class="tags">
             
+              <span>ransomware</span>
+            
               <span>cve</span>
             
-              <span>vulnerability</span>
-            
-              <span>exploitation</span>
+              <span>cloud</span>
             
           </div>
         
         <ul class="story-list">
           
-            <li>CISA has updated its Known Exploited Vulnerabilities (KEV) Catalog to include three new vulnerabilities: CVE-2026-7473, CVE-2026-11645, and CVE-2026-20245. These vulnerabilities affect Arista, Google Chromium, and Cisco products, respectively, and have shown evidence of active exploitation.</li>
+            <li>A high-severity vulnerability, CVE-2026-5027, has been identified in Langflow, a low-code platform for AI applications. This flaw allows for unauthenticated remote code execution through path traversal, enabling attackers to write files to arbitrary locations. Active exploitation of this vulnerability has been confirmed by VulnCheck.</li>
           
-            <li>These vulnerabilities are common attack vectors for cybercriminals, which can lead to unauthorized access, data breaches, or service disruptions. Organizations that do not address these vulnerabilities risk significant operational and reputational damage.</li>
+            <li>Organizations using Langflow are at immediate risk of unauthorized access and potential data loss. The ability for attackers to execute code remotely without authentication could lead to widespread system compromises and data breaches, impacting business operations and customer trust.</li>
           
-            <li>Attackers can exploit these vulnerabilities to gain unauthorized access or execute malicious code within affected systems.</li>
+            <li>An attacker can exploit this vulnerability by sending specially crafted requests to the Langflow application, allowing them to execute arbitrary code on the server.</li>
           
-            <li>Watch next: Monitor for updates from CISA regarding additional vulnerabilities added to the KEV Catalog and any associated remediation guidance.</li>
+            <li>Watch next: Monitor for any patches released by Langflow and updates from security vendors regarding this vulnerability.</li>
           
         </ul>
 
@@ -465,9 +467,9 @@
             <div class="label">Key terms</div>
             <ul class="list">
             
-              <li>CVE - Common Vulnerabilities and Exposures, a list of publicly known cybersecurity vulnerabilities.</li>
+              <li>CVE - Common Vulnerabilities and Exposures, a list of publicly disclosed cybersecurity vulnerabilities.</li>
             
-              <li>KEV - Known Exploited Vulnerabilities, a catalog of vulnerabilities that are actively being exploited in the wild.</li>
+              <li>RCE - Remote Code Execution, a type of vulnerability that allows an attacker to run arbitrary code on a remote machine.</li>
             
             </ul>
           </div>
@@ -477,11 +479,11 @@
           <div class="label">Defender focus</div>
           <ul class="list">
             
-            <li>Prioritize patching or mitigating the three newly identified vulnerabilities in your environment.</li>
+            <li>Implement network monitoring to detect unusual POST requests to Langflow applications.</li>
             
-            <li>Implement network segmentation to limit the impact of potential exploitation.</li>
+            <li>Review logs for any unauthorized file writes or code execution attempts.</li>
             
-            <li>Enhance monitoring for unusual activity related to the affected products.</li>
+            <li>Ensure that all instances of Langflow are updated as soon as a patch is available.</li>
             
           </ul>
         </div>
@@ -490,24 +492,24 @@
           <div class="label">Do now</div>
           <ul class="list">
             
-            <li>Review the KEV Catalog for the newly added vulnerabilities.</li>
+            <li>Immediately assess the exposure of Langflow in your environment.</li>
             
-            <li>Patch affected systems immediately to mitigate risks.</li>
+            <li>Apply any available patches as soon as they are released.</li>
             
-            <li>Conduct a risk assessment to understand potential impacts on your organization.</li>
+            <li>Enhance monitoring for suspicious activity related to Langflow applications.</li>
             
           </ul>
         </div>
 
-        <div class="text-block"><span class="label">Watch next:</span> Monitor for updates from CISA regarding additional vulnerabilities added to the KEV Catalog and any associated remediation guidance.</div>
+        <div class="text-block"><span class="label">Watch next:</span> Monitor for any patches released by Langflow and updates from security vendors regarding this vulnerability.</div>
 
         <div class="sources">
           <div class="label">Sources</div>
           
             
               <div>
-                <a href="https://www.cisa.gov/news-events/alerts/2026/06/09/cisa-adds-three-known-exploited-vulnerabilities-catalog" target="_blank" rel="noopener noreferrer">
-                  Alerts - CISA Adds Three Known Exploited Vulnerabilities to Catalog
+                <a href="https://thehackernews.com/2026/06/unpatched-langflow-flaw-cve-2026-5027.html" target="_blank" rel="noopener noreferrer">
+                  The Hacker News - Unpatched Langflow Flaw CVE-2026-5027 Exploited for Unauthenticated RCE
                 </a>
               </div>
             
@@ -530,170 +532,45 @@
         <div class="meta">
           <span class="chip risk-high">HIGH</span>
           
-            <span class="chip label-chip">PATCH RELEASE</span>
-          
-            <span class="chip label-chip">LEGAL POLICY</span>
-          
-            <span class="chip label-chip">RESEARCH</span>
-          
-          <span class="chip chip-neutral">Privilege Escalation</span>
-          <span class="chip chip-neutral">Confidence MEDIUM</span>
-        </div>
-        
-          <h3><a href="https://www.bleepingcomputer.com/news/microsoft/microsoft-patches-yellowkey-greenplasma-miniplasma-zero-days/" target="_blank" rel="noopener noreferrer">Microsoft patches YellowKey, GreenPlasma, MiniPlasma zero-days</a></h3>
-        
-        <p class="hook">Immediate action is required as Microsoft has patched critical zero-day vulnerabilities that could allow attackers to gain SYSTEM privileges on Windows systems.</p>
-        <div class="support-grid">
-          <div class="text-block"><span class="label">Who should care:</span> IT security teams managing Windows environments and sensitive data storage should be particularly vigilant.</div>
-          <div class="text-block"><span class="label">Attack path:</span> An attacker could exploit these vulnerabilities to escalate privileges and gain unauthorized access to sensitive system functions and data.</div>
-        </div>
-        <div class="text-block"><span class="label">Why this matters now:</span> A live patch or vendor fix gives defenders something concrete to validate. Multiple sources point to the same operational problem.</div>
-        <div class="text-block"><span class="label">In plain English:</span> Microsoft has released patches for serious vulnerabilities that could let attackers access sensitive data and control systems.</div>
-        
-          <div class="tags">
-            
-              <span>cve</span>
-            
-              <span>windows</span>
-            
-              <span>vulnerability</span>
-            
-              <span>microsoft</span>
-            
-              <span>zero day</span>
-            
-              <span>patch</span>
-            
-          </div>
-        
-        <ul class="story-list">
-          
-            <li>Microsoft patched two zero-day vulnerabilities that allow attackers to gain SYSTEM privileges on fully patched Windows systems. A third vulnerability was also addressed, which grants access to BitLocker-protected drives.</li>
-          
-            <li>These vulnerabilities pose a significant risk as they can be exploited to gain full control over affected systems, potentially leading to data breaches or system compromise. Organizations using Windows systems must prioritize applying these patches to mitigate the risk of exploitation.</li>
-          
-            <li>An attacker could exploit these vulnerabilities to escalate privileges and gain unauthorized access to sensitive system functions and data.</li>
-          
-            <li>Also reported by The Hacker News.</li>
-          
-            <li>Watch next: Monitor for any reports of exploitation attempts or additional vulnerabilities related to these patches.</li>
-          
-        </ul>
-
-        
-          <div class="glossary">
-            <div class="label">Key terms</div>
-            <ul class="list">
-            
-              <li>ZERO-DAY - a vulnerability that is exploited before the vendor releases a patch.</li>
-            
-              <li>SYSTEM PRIVILEGES - the highest level of access on a computer, allowing complete control over the system.</li>
-            
-              <li>ZERO-DAY - a vulnerability that is unknown to the vendor and has no patch available.</li>
-            
-              <li>ZERO-DAY - a vulnerability that is exploited before the vendor has released a patch to fix it.</li>
-            
-              <li>PATCH - a software update designed to fix vulnerabilities or improve functionality.</li>
-            
-              <li>RACE CONDITION - a situation where the system's behavior depends on the sequence or timing of uncontrollable events.</li>
-            
-            </ul>
-          </div>
-        
-
-        <div>
-          <div class="label">Defender focus</div>
-          <ul class="list">
-            
-            <li>Ensure all Windows systems are updated with the latest patches immediately.</li>
-            
-            <li>Monitor logs for any unusual access patterns that may indicate exploitation attempts.</li>
-            
-            <li>Review configurations of BitLocker-protected drives to ensure they are secure.</li>
-            
-          </ul>
-        </div>
-
-        <div>
-          <div class="label">Do now</div>
-          <ul class="list">
-            
-            <li>Apply Microsoft patches to all affected systems without delay.</li>
-            
-            <li>Conduct a security audit to identify any systems that may be vulnerable.</li>
-            
-            <li>Educate staff on the importance of timely updates and patch management.</li>
-            
-          </ul>
-        </div>
-
-        <div class="text-block"><span class="label">Watch next:</span> Monitor for any reports of exploitation attempts or additional vulnerabilities related to these patches.</div>
-
-        <div class="sources">
-          <div class="label">Sources</div>
-          
-            
-              <div>
-                <a href="https://www.bleepingcomputer.com/news/microsoft/microsoft-patches-yellowkey-greenplasma-miniplasma-zero-days/" target="_blank" rel="noopener noreferrer">
-                  BleepingComputer - Microsoft patches YellowKey, GreenPlasma, MiniPlasma zero-days
-                </a>
-              </div>
-            
-          
-            
-              <div>
-                <a href="https://thehackernews.com/2026/06/microsoft-defender-rogueplanet-zero-day.html" target="_blank" rel="noopener noreferrer">
-                  The Hacker News - Microsoft Defender RoguePlanet Zero-Day Grants SYSTEM Access on Updated Windows
-                </a>
-              </div>
-            
-          
-        </div>
-      </article>
-            
-              <article class="card" style="--i: 1;">
-        <div class="meta">
-          <span class="chip risk-high">HIGH</span>
-          
-            <span class="chip label-chip">GUIDANCE</span>
+            <span class="chip label-chip">ACTIVE EXPLOITATION</span>
           
             <span class="chip label-chip">PATCH RELEASE</span>
           
-            <span class="chip label-chip">LEGAL POLICY</span>
+            <span class="chip label-chip">INDUSTRY SIGNAL</span>
           
           <span class="chip chip-neutral">Execution</span>
           <span class="chip chip-neutral">Confidence LOW</span>
         </div>
         
-          <h3><a href="https://thehackernews.com/2026/06/veeam-backup-replication-rce-flaw-lets.html" target="_blank" rel="noopener noreferrer">Veeam Backup & Replication RCE Flaw Lets Domain Users Run Remote Code</a></h3>
+          <h3><a href="https://www.bleepingcomputer.com/news/microsoft/microsoft-patches-exchange-server-zero-day-exploited-in-attacks/" target="_blank" rel="noopener noreferrer">Microsoft patches Exchange Server zero-day exploited in attacks</a></h3>
         
-        <p class="hook">A critical vulnerability in Veeam Backup & Replication could allow authenticated users to execute arbitrary code, posing a significant threat to system integrity.</p>
+        <p class="hook">Immediate action is required as a critical vulnerability in Microsoft Exchange Server is being actively exploited, posing a significant risk to user data.</p>
         <div class="support-grid">
-          <div class="text-block"><span class="label">Who should care:</span> IT security teams managing Veeam Backup & Replication environments should prioritize this issue.</div>
-          <div class="text-block"><span class="label">Attack path:</span> An attacker with domain user credentials could leverage this vulnerability to execute malicious code on the Backup Server, gaining control over backup processes.</div>
+          <div class="text-block"><span class="label">Who should care:</span> IT security teams managing Microsoft Exchange Server and organizations using Outlook Web Access should prioritize this patch.</div>
+          <div class="text-block"><span class="label">Attack path:</span> Attackers can exploit this vulnerability by injecting malicious JavaScript into web pages viewed by users, leading to unauthorized actions on behalf of the user.</div>
         </div>
-        <div class="text-block"><span class="label">Why this matters now:</span> A live patch or vendor fix gives defenders something concrete to validate.</div>
-        <div class="text-block"><span class="label">In plain English:</span> Veeam Backup & Replication has a serious flaw that could let domain users run malicious code remotely.</div>
+        <div class="text-block"><span class="label">Why this matters now:</span> Active exploitation makes this an immediate exposure check. A live patch or vendor fix gives defenders something concrete to validate.</div>
+        <div class="text-block"><span class="label">In plain English:</span> Microsoft has released a patch for a serious vulnerability in Exchange Server that is currently being exploited by attackers.</div>
         
           <div class="tags">
             
-              <span>ransomware</span>
-            
               <span>cve</span>
             
-              <span>cloud</span>
+              <span>exchange</span>
+            
+              <span>xss</span>
             
           </div>
         
         <ul class="story-list">
           
-            <li>Veeam released security patches for a critical remote code execution (RCE) vulnerability in its Backup & Replication software, identified as CVE-2026-44963. This flaw has a CVSS score of 9.4, indicating severe risk. The vulnerability allows authenticated domain users to execute arbitrary code on the Backup Server.</li>
+            <li>Microsoft has patched a zero-day vulnerability in Exchange Server that allows attackers to execute arbitrary JavaScript code via cross-site scripting (XSS) attacks. This vulnerability specifically targets users of Outlook Web Access, making it a direct threat to email security.</li>
           
-            <li>If exploited, this vulnerability could lead to unauthorized access and control over backup systems, potentially compromising sensitive data and disrupting business operations. Organizations using Veeam Backup & Replication must act quickly to mitigate this risk and protect their environments.</li>
+            <li>If left unpatched, this vulnerability could allow attackers to gain unauthorized access to sensitive information and potentially compromise entire email accounts. The exploitation of this vulnerability could lead to data breaches and loss of trust in email communications.</li>
           
-            <li>An attacker with domain user credentials could leverage this vulnerability to execute malicious code on the Backup Server, gaining control over backup processes.</li>
+            <li>Attackers can exploit this vulnerability by injecting malicious JavaScript into web pages viewed by users, leading to unauthorized actions on behalf of the user.</li>
           
-            <li>Watch next: Monitor for updates from Veeam regarding the effectiveness of the patches and any emerging exploits.</li>
+            <li>Watch next: Monitor for updates from Microsoft regarding any further vulnerabilities or patches related to Exchange Server.</li>
           
         </ul>
 
@@ -702,108 +579,7 @@
             <div class="label">Key terms</div>
             <ul class="list">
             
-              <li>RCE - Remote Code Execution, a vulnerability that allows an attacker to run arbitrary code on a target system.</li>
-            
-              <li>CVSS - Common Vulnerability Scoring System, a standard for assessing the severity of security vulnerabilities.</li>
-            
-            </ul>
-          </div>
-        
-
-        <div>
-          <div class="label">Defender focus</div>
-          <ul class="list">
-            
-            <li>Implement the latest security patches from Veeam immediately.</li>
-            
-            <li>Monitor logs for unusual activity from authenticated domain users.</li>
-            
-            <li>Review user permissions to limit access to the Backup Server.</li>
-            
-          </ul>
-        </div>
-
-        <div>
-          <div class="label">Do now</div>
-          <ul class="list">
-            
-            <li>Apply the latest Veeam security patches without delay.</li>
-            
-            <li>Conduct a security audit of user permissions related to Backup & Replication.</li>
-            
-            <li>Stay informed on any new advisories or updates from Veeam.</li>
-            
-          </ul>
-        </div>
-
-        <div class="text-block"><span class="label">Watch next:</span> Monitor for updates from Veeam regarding the effectiveness of the patches and any emerging exploits.</div>
-
-        <div class="sources">
-          <div class="label">Sources</div>
-          
-            
-              <div>
-                <a href="https://thehackernews.com/2026/06/veeam-backup-replication-rce-flaw-lets.html" target="_blank" rel="noopener noreferrer">
-                  The Hacker News - Veeam Backup & Replication RCE Flaw Lets Domain Users Run Remote Code
-                </a>
-              </div>
-            
-          
-        </div>
-      </article>
-            
-              <article class="card" style="--i: 2;">
-        <div class="meta">
-          <span class="chip risk-high">HIGH</span>
-          
-            <span class="chip label-chip">PATCH RELEASE</span>
-          
-            <span class="chip label-chip">LEGAL POLICY</span>
-          
-            <span class="chip label-chip">RESEARCH</span>
-          
-          <span class="chip chip-neutral">Initial Access</span>
-          <span class="chip chip-neutral">Confidence LOW</span>
-        </div>
-        
-          <h3><a href="https://thehackernews.com/2026/06/microsoft-patches-record-206-flaws.html" target="_blank" rel="noopener noreferrer">Microsoft Patches Record 206 Flaws, Including Three Zero-Days and Critical RCE Bugs</a></h3>
-        
-        <p class="hook">Immediate patching is essential as Microsoft has disclosed critical vulnerabilities that could allow attackers to execute arbitrary code remotely.</p>
-        <div class="support-grid">
-          <div class="text-block"><span class="label">Who should care:</span> IT security teams managing Microsoft software products and environments should prioritize these updates.</div>
-          <div class="text-block"><span class="label">Attack path:</span> Attackers could exploit these vulnerabilities to execute arbitrary code on vulnerable systems, potentially leading to full system compromise.</div>
-        </div>
-        <div class="text-block"><span class="label">Why this matters now:</span> A live patch or vendor fix gives defenders something concrete to validate.</div>
-        <div class="text-block"><span class="label">In plain English:</span> Microsoft has released patches for 206 vulnerabilities, including critical flaws that need urgent attention.</div>
-        
-          <div class="tags">
-            
-              <span>cve</span>
-            
-              <span>microsoft</span>
-            
-              <span>patching</span>
-            
-          </div>
-        
-        <ul class="story-list">
-          
-            <li>Microsoft has issued a record 206 security patches, addressing multiple vulnerabilities across its software. Among these, three zero-day vulnerabilities were disclosed at the time of the release. The patches include 39 critical and 167 important vulnerabilities.</li>
-          
-            <li>The presence of critical remote code execution (RCE) vulnerabilities means attackers could exploit these flaws to gain control over affected systems. Organizations that fail to apply these patches risk significant data breaches and operational disruptions.</li>
-          
-            <li>Attackers could exploit these vulnerabilities to execute arbitrary code on vulnerable systems, potentially leading to full system compromise.</li>
-          
-            <li>Watch next: Monitor for any reports of exploitation attempts targeting these vulnerabilities in the wild.</li>
-          
-        </ul>
-
-        
-          <div class="glossary">
-            <div class="label">Key terms</div>
-            <ul class="list">
-            
-              <li>RCE - Remote Code Execution, a vulnerability that allows an attacker to run arbitrary code on a target system.</li>
+              <li>XSS - Cross-Site Scripting, a type of security vulnerability that allows attackers to inject malicious scripts into web pages viewed by users.</li>
             
               <li>Zero-Day - A vulnerability that is exploited before the vendor has released a fix.</li>
             
@@ -815,11 +591,11 @@
           <div class="label">Defender focus</div>
           <ul class="list">
             
-            <li>Ensure all Microsoft software is updated with the latest patches immediately.</li>
+            <li>Ensure that the latest patch for Microsoft Exchange Server is applied across all affected systems.</li>
             
-            <li>Monitor logs for any unusual activity that may indicate exploitation attempts.</li>
+            <li>Monitor logs for unusual access patterns or script execution that may indicate exploitation attempts.</li>
             
-            <li>Review and strengthen security configurations to mitigate potential impacts from these vulnerabilities.</li>
+            <li>Educate users on the risks of clicking on untrusted links in emails until the patch is confirmed deployed.</li>
             
           </ul>
         </div>
@@ -828,24 +604,220 @@
           <div class="label">Do now</div>
           <ul class="list">
             
-            <li>Apply all Microsoft patches as soon as possible.</li>
+            <li>Apply the Microsoft patch for Exchange Server immediately.</li>
             
-            <li>Conduct a vulnerability assessment to identify any unpatched systems.</li>
+            <li>Review and update security configurations for Outlook Web Access.</li>
             
-            <li>Educate staff on the importance of timely updates and patch management.</li>
+            <li>Conduct a security audit to identify any potential exploitation of this vulnerability.</li>
             
           </ul>
         </div>
 
-        <div class="text-block"><span class="label">Watch next:</span> Monitor for any reports of exploitation attempts targeting these vulnerabilities in the wild.</div>
+        <div class="text-block"><span class="label">Watch next:</span> Monitor for updates from Microsoft regarding any further vulnerabilities or patches related to Exchange Server.</div>
 
         <div class="sources">
           <div class="label">Sources</div>
           
             
               <div>
-                <a href="https://thehackernews.com/2026/06/microsoft-patches-record-206-flaws.html" target="_blank" rel="noopener noreferrer">
-                  The Hacker News - Microsoft Patches Record 206 Flaws, Including Three Zero-Days and Critical RCE Bugs
+                <a href="https://www.bleepingcomputer.com/news/microsoft/microsoft-patches-exchange-server-zero-day-exploited-in-attacks/" target="_blank" rel="noopener noreferrer">
+                  BleepingComputer - Microsoft patches Exchange Server zero-day exploited in attacks
+                </a>
+              </div>
+            
+          
+        </div>
+      </article>
+            
+              <article class="card" style="--i: 1;">
+        <div class="meta">
+          <span class="chip risk-high">HIGH</span>
+          
+            <span class="chip label-chip">ACTIVE EXPLOITATION</span>
+          
+            <span class="chip label-chip">KEV ADDED</span>
+          
+            <span class="chip label-chip">INDUSTRY SIGNAL</span>
+          
+            <span class="chip label-chip">LEGAL POLICY</span>
+          
+          <span class="chip chip-neutral">Initial Access</span>
+          <span class="chip chip-neutral">Confidence LOW</span>
+        </div>
+        
+          <h3><a href="https://thehackernews.com/2026/06/cisa-adds-cisco-chrome-and-arista-flaws.html" target="_blank" rel="noopener noreferrer">CISA Adds Cisco, Chrome, and Arista Flaws to KEV Catalog Amid Active Exploitation</a></h3>
+        
+        <p class="hook">Active exploitation of critical vulnerabilities in widely used software could lead to severe disruptions in network operations.</p>
+        <div class="support-grid">
+          <div class="text-block"><span class="label">Who should care:</span> Network and security teams managing Cisco, Chrome, and Arista products should prioritize these vulnerabilities.</div>
+          <div class="text-block"><span class="label">Attack path:</span> Attackers can exploit these vulnerabilities to gain unauthorized access to systems or execute malicious code, potentially leading to data breaches or service outages.</div>
+        </div>
+        <div class="text-block"><span class="label">Why this matters now:</span> KEV status shortens the acceptable patch window.</div>
+        <div class="text-block"><span class="label">In plain English:</span> CISA has flagged new vulnerabilities in Cisco, Chrome, and Arista products that are currently being exploited.</div>
+        
+          <div class="tags">
+            
+              <span>cve</span>
+            
+              <span>network</span>
+            
+              <span>exploitation</span>
+            
+          </div>
+        
+        <ul class="story-list">
+          
+            <li>CISA added three vulnerabilities to its Known Exploited Vulnerabilities catalog, indicating they are actively being exploited. The vulnerabilities include CVE-2026-20245 in Cisco Catalyst SD-WAN Manager, which has a CVSS score of 7.8, and others in Chrome and Arista products.</li>
+          
+            <li>These vulnerabilities could allow attackers to gain unauthorized access or disrupt services, impacting organizations that rely on these technologies. The active exploitation means that immediate action is necessary to mitigate potential breaches.</li>
+          
+            <li>Attackers can exploit these vulnerabilities to gain unauthorized access to systems or execute malicious code, potentially leading to data breaches or service outages.</li>
+          
+            <li>Watch next: Monitor for updates from CISA and vendor advisories regarding patches and mitigation strategies.</li>
+          
+        </ul>
+
+        
+          <div class="glossary">
+            <div class="label">Key terms</div>
+            <ul class="list">
+            
+              <li>CVE - Common Vulnerabilities and Exposures, a list of publicly disclosed cybersecurity vulnerabilities.</li>
+            
+              <li>CVSS - Common Vulnerability Scoring System, a standardized method for rating the severity of vulnerabilities.</li>
+            
+            </ul>
+          </div>
+        
+
+        <div>
+          <div class="label">Defender focus</div>
+          <ul class="list">
+            
+            <li>Implement monitoring for unusual access patterns in Cisco and Chrome environments.</li>
+            
+            <li>Ensure that all systems are updated with the latest security patches.</li>
+            
+            <li>Conduct a risk assessment to identify any systems that may be vulnerable to these exploits.</li>
+            
+          </ul>
+        </div>
+
+        <div>
+          <div class="label">Do now</div>
+          <ul class="list">
+            
+            <li>Patch affected systems immediately.</li>
+            
+            <li>Review logs for any signs of exploitation.</li>
+            
+            <li>Communicate with relevant teams about the vulnerabilities and necessary actions.</li>
+            
+          </ul>
+        </div>
+
+        <div class="text-block"><span class="label">Watch next:</span> Monitor for updates from CISA and vendor advisories regarding patches and mitigation strategies.</div>
+
+        <div class="sources">
+          <div class="label">Sources</div>
+          
+            
+              <div>
+                <a href="https://thehackernews.com/2026/06/cisa-adds-cisco-chrome-and-arista-flaws.html" target="_blank" rel="noopener noreferrer">
+                  The Hacker News - CISA Adds Cisco, Chrome, and Arista Flaws to KEV Catalog Amid Active Exploitation
+                </a>
+              </div>
+            
+          
+        </div>
+      </article>
+            
+              <article class="card" style="--i: 2;">
+        <div class="meta">
+          <span class="chip risk-high">HIGH</span>
+          
+            <span class="chip label-chip">INDUSTRY SIGNAL</span>
+          
+          <span class="chip chip-neutral">Initial Access</span>
+          <span class="chip chip-neutral">Confidence LOW</span>
+        </div>
+        
+          <h3><a href="https://krebsonsecurity.com/2026/06/who-runs-the-ransomware-group-the-gentlemen/" target="_blank" rel="noopener noreferrer">Who Runs the Ransomware Group ‘The Gentlemen?’</a></h3>
+        
+        <p class="hook">The emergence of The Gentlemen ransomware group as a leading threat highlights an urgent need for organizations to bolster their defenses against sophisticated cybercriminals.</p>
+        <div class="support-grid">
+          <div class="text-block"><span class="label">Who should care:</span> IT security teams and incident response units across all sectors should be particularly vigilant.</div>
+          <div class="text-block"><span class="label">Attack path:</span> Attackers may gain access through phishing, exploiting vulnerabilities, or leveraging compromised credentials. Once inside, they can deploy ransomware to encrypt files and demand payment.</div>
+        </div>
+        <div class="text-block"><span class="label">Why this matters now:</span> Useful context for teams tracking where attacker pressure is building.</div>
+        <div class="text-block"><span class="label">In plain English:</span> A new ransomware group, The Gentlemen, is rapidly gaining traction and poses a significant threat to organizations due to its aggressive recruitment and high payout model.</div>
+        
+          <div class="tags">
+            
+              <span>ransomware</span>
+            
+          </div>
+        
+        <ul class="story-list">
+          
+            <li>The Gentlemen ransomware group has become the second most active ransomware gang by victim count, leveraging a recruitment strategy that offers affiliates 90% of ransom payments. This aggressive approach has attracted a skilled pool of hackers, increasing the group's operational capabilities.</li>
+          
+            <li>The rapid growth of The Gentlemen indicates a shifting landscape in ransomware threats, with more skilled attackers entering the field. Organizations must be vigilant as this group targets a wide range of industries, potentially leading to significant financial and reputational damage.</li>
+          
+            <li>Attackers may gain access through phishing, exploiting vulnerabilities, or leveraging compromised credentials. Once inside, they can deploy ransomware to encrypt files and demand payment.</li>
+          
+            <li>Watch next: Monitor for any new indicators of compromise associated with The Gentlemen and updates from threat intelligence sources.</li>
+          
+        </ul>
+
+        
+          <div class="glossary">
+            <div class="label">Key terms</div>
+            <ul class="list">
+            
+              <li>Ransomware - a type of malicious software that encrypts files on a victim's system, demanding payment for decryption.</li>
+            
+              <li>Affiliate - an individual or group that partners with a larger organization (in this case, a ransomware group) to carry out attacks in exchange for a share of the profits.</li>
+            
+            </ul>
+          </div>
+        
+
+        <div>
+          <div class="label">Defender focus</div>
+          <ul class="list">
+            
+            <li>Implement monitoring for unusual network activity that could indicate ransomware deployment.</li>
+            
+            <li>Enhance email filtering to reduce the risk of phishing attacks that could lead to initial access.</li>
+            
+            <li>Regularly update and patch systems to close vulnerabilities that could be exploited by ransomware groups.</li>
+            
+          </ul>
+        </div>
+
+        <div>
+          <div class="label">Do now</div>
+          <ul class="list">
+            
+            <li>Increase monitoring for indicators of The Gentlemen's activity.</li>
+            
+            <li>Review and strengthen incident response plans to address ransomware incidents.</li>
+            
+            <li>Conduct vulnerability assessments to identify and remediate potential entry points.</li>
+            
+          </ul>
+        </div>
+
+        <div class="text-block"><span class="label">Watch next:</span> Monitor for any new indicators of compromise associated with The Gentlemen and updates from threat intelligence sources.</div>
+
+        <div class="sources">
+          <div class="label">Sources</div>
+          
+            
+              <div>
+                <a href="https://krebsonsecurity.com/2026/06/who-runs-the-ransomware-group-the-gentlemen/" target="_blank" rel="noopener noreferrer">
+                  Krebs on Security - Who Runs the Ransomware Group ‘The Gentlemen?’
                 </a>
               </div>
             
@@ -873,39 +845,41 @@
           
             <span class="chip label-chip">LEGAL POLICY</span>
           
-          <span class="chip chip-neutral">Privilege Escalation</span>
+            <span class="chip label-chip">RESEARCH</span>
+          
+          <span class="chip chip-neutral">Execution</span>
           <span class="chip chip-neutral">Confidence LOW</span>
         </div>
         
-          <h3><a href="https://www.bleepingcomputer.com/news/security/sap-fixes-critical-flaws-in-netweaver-and-commerce-cloud/" target="_blank" rel="noopener noreferrer">SAP fixes critical flaws in NetWeaver and Commerce Cloud</a></h3>
+          <h3><a href="https://thehackernews.com/2026/06/ivanti-fortinet-and-sap-release-patches.html" target="_blank" rel="noopener noreferrer">Ivanti, Fortinet, and SAP Release Patches for Multiple Critical Vulnerabilities</a></h3>
         
-        <p class="hook">Immediate action is required to mitigate critical vulnerabilities in SAP systems that could lead to severe data breaches.</p>
+        <p class="hook">Immediate action is required to mitigate critical vulnerabilities that could lead to severe data breaches and system compromises.</p>
         <div class="support-grid">
-          <div class="text-block"><span class="label">Who should care:</span> IT security teams managing SAP NetWeaver and Commerce Cloud environments should prioritize these updates.</div>
-          <div class="text-block"><span class="label">Attack path:</span> An attacker could exploit these vulnerabilities to gain elevated privileges or execute arbitrary code within the affected SAP systems.</div>
+          <div class="text-block"><span class="label">Who should care:</span> IT security teams managing Fortinet, Ivanti, and SAP products should prioritize these updates.</div>
+          <div class="text-block"><span class="label">Attack path:</span> An attacker could exploit the command injection vulnerability to execute malicious commands on affected systems, gaining control and potentially accessing sensitive information.</div>
         </div>
         <div class="text-block"><span class="label">Why this matters now:</span> A live patch or vendor fix gives defenders something concrete to validate.</div>
-        <div class="text-block"><span class="label">In plain English:</span> SAP has patched critical vulnerabilities in NetWeaver and Commerce Cloud that could be exploited by attackers.</div>
+        <div class="text-block"><span class="label">In plain English:</span> Fortinet, Ivanti, and SAP have released patches for critical vulnerabilities that could allow attackers to execute arbitrary code.</div>
         
           <div class="tags">
             
+              <span>vulnerability</span>
+            
               <span>cve</span>
             
-              <span>sap</span>
-            
-              <span>security</span>
+              <span>patch</span>
             
           </div>
         
         <ul class="story-list">
           
-            <li>SAP released a security patch package addressing 15 vulnerabilities, including four classified as critical. These flaws affect SAP NetWeaver and SAP Commerce Cloud, which are widely used in enterprise environments.</li>
+            <li>Fortinet, Ivanti, and SAP issued security updates addressing multiple critical vulnerabilities, including a command injection flaw in FortiSandbox tracked as CVE-2026-25089 with a CVSS score of 9.1. This vulnerability could allow attackers to execute arbitrary code remotely.</li>
           
-            <li>Exploitation of these vulnerabilities could allow attackers to gain unauthorized access, potentially leading to data theft or system compromise. Organizations using these SAP products must prioritize patching to avoid significant operational and reputational damage.</li>
+            <li>If left unpatched, these vulnerabilities could be exploited to gain unauthorized access to sensitive systems and data, leading to potential data breaches and operational disruptions. Organizations using these products are at heightened risk of exploitation.</li>
           
-            <li>An attacker could exploit these vulnerabilities to gain elevated privileges or execute arbitrary code within the affected SAP systems.</li>
+            <li>An attacker could exploit the command injection vulnerability to execute malicious commands on affected systems, gaining control and potentially accessing sensitive information.</li>
           
-            <li>Watch next: Monitor for updates from SAP regarding any additional vulnerabilities or patches that may emerge.</li>
+            <li>Watch next: Monitor for updates from vendors regarding any additional vulnerabilities or patches related to these products.</li>
           
         </ul>
 
@@ -914,9 +888,9 @@
             <div class="label">Key terms</div>
             <ul class="list">
             
-              <li>Vulnerability - a weakness in a system that can be exploited by attackers.</li>
+              <li>CVE - Common Vulnerabilities and Exposures, a list of publicly disclosed cybersecurity vulnerabilities.</li>
             
-              <li>Patch - a software update designed to fix vulnerabilities or improve functionality.</li>
+              <li>CVSS - Common Vulnerability Scoring System, a standard for assessing the severity of vulnerabilities.</li>
             
             </ul>
           </div>
@@ -926,11 +900,11 @@
           <div class="label">Defender focus</div>
           <ul class="list">
             
-            <li>Verify that all SAP systems are updated with the latest security patches.</li>
+            <li>Ensure all Fortinet, Ivanti, and SAP systems are updated with the latest patches.</li>
             
-            <li>Conduct vulnerability scans to identify any unpatched systems.</li>
+            <li>Monitor logs for any unusual activity that may indicate exploitation attempts.</li>
             
-            <li>Monitor logs for unusual access patterns that may indicate exploitation attempts.</li>
+            <li>Review configurations to ensure that only necessary services are exposed to the internet.</li>
             
           </ul>
         </div>
@@ -939,24 +913,24 @@
           <div class="label">Do now</div>
           <ul class="list">
             
-            <li>Immediately apply the latest SAP security patches to affected systems.</li>
+            <li>Apply the latest security patches from Fortinet, Ivanti, and SAP immediately.</li>
             
-            <li>Review and update security configurations for SAP NetWeaver and Commerce Cloud.</li>
+            <li>Conduct a risk assessment to identify systems affected by these vulnerabilities.</li>
             
-            <li>Educate relevant personnel about the importance of timely patch management.</li>
+            <li>Implement monitoring for any signs of exploitation attempts in your environment.</li>
             
           </ul>
         </div>
 
-        <div class="text-block"><span class="label">Watch next:</span> Monitor for updates from SAP regarding any additional vulnerabilities or patches that may emerge.</div>
+        <div class="text-block"><span class="label">Watch next:</span> Monitor for updates from vendors regarding any additional vulnerabilities or patches related to these products.</div>
 
         <div class="sources">
           <div class="label">Sources</div>
           
             
               <div>
-                <a href="https://www.bleepingcomputer.com/news/security/sap-fixes-critical-flaws-in-netweaver-and-commerce-cloud/" target="_blank" rel="noopener noreferrer">
-                  BleepingComputer - SAP fixes critical flaws in NetWeaver and Commerce Cloud
+                <a href="https://thehackernews.com/2026/06/ivanti-fortinet-and-sap-release-patches.html" target="_blank" rel="noopener noreferrer">
+                  The Hacker News - Ivanti, Fortinet, and SAP Release Patches for Multiple Critical Vulnerabilities
                 </a>
               </div>
             
@@ -966,43 +940,43 @@
             
               <article class="card" style="--i: 1;">
         <div class="meta">
-          <span class="chip risk-high">HIGH</span>
+          <span class="chip risk-medium">MEDIUM</span>
           
-            <span class="chip label-chip">RESEARCH</span>
+            <span class="chip label-chip">GUIDANCE</span>
           
-          <span class="chip chip-neutral">Execution</span>
+          <span class="chip chip-neutral">Credential Access</span>
           <span class="chip chip-neutral">Confidence LOW</span>
         </div>
         
-          <h3><a href="https://thehackernews.com/2026/06/six-proto6-vulnerabilities-in.html" target="_blank" rel="noopener noreferrer">Six Proto6 Vulnerabilities in protobuf.js Expose Node.js Apps to RCE and DoS</a></h3>
+          <h3><a href="https://www.bleepingcomputer.com/news/security/the-5-best-practices-for-secure-identity-verification/" target="_blank" rel="noopener noreferrer">The 5 Best Practices for Secure Identity Verification</a></h3>
         
-        <p class="hook">Exploiting vulnerabilities in protobuf.js could lead to remote code execution and service disruptions in Node.js applications, making immediate patching essential.</p>
+        <p class="hook">Weak authentication methods are being exploited, leading to unauthorized access and potential data breaches.</p>
         <div class="support-grid">
-          <div class="text-block"><span class="label">Who should care:</span> Development teams using Node.js and applications that rely on protobuf.js should prioritize addressing these vulnerabilities.</div>
-          <div class="text-block"><span class="label">Attack path:</span> An attacker could leverage a malicious protobuf schema or payload to execute arbitrary code or crash the application, gaining control or disrupting services.</div>
+          <div class="text-block"><span class="label">Who should care:</span> Security teams, IT departments, and any organization relying on identity verification for access control.</div>
+          <div class="text-block"><span class="label">Attack path:</span> Attackers exploit weak authentication methods to gain unauthorized access, often using phishing or social engineering techniques to manipulate users or support staff.</div>
         </div>
         <div class="text-block"><span class="label">Why this matters now:</span> Useful context for teams tracking where attacker pressure is building.</div>
-        <div class="text-block"><span class="label">In plain English:</span> Six vulnerabilities in protobuf.js could allow attackers to execute code remotely or crash applications.</div>
+        <div class="text-block"><span class="label">In plain English:</span> Attackers are using various tactics to bypass weak identity verification methods, making strong authentication practices essential now.</div>
         
           <div class="tags">
             
-              <span>vulnerabilities</span>
+              <span>identity verification</span>
             
-              <span>protobuf.js</span>
+              <span>authentication</span>
             
-              <span>node.js</span>
+              <span>phishing</span>
             
           </div>
         
         <ul class="story-list">
           
-            <li>Researchers identified six vulnerabilities in protobuf.js, a library used in JavaScript and TypeScript applications. These vulnerabilities can be exploited through malicious protobuf schemas or crafted payloads, potentially leading to remote code execution (RCE) and denial-of-service (DoS) attacks.</li>
+            <li>Recent reports indicate a rise in attacks targeting identity verification processes, including phishing, MFA fatigue, and social engineering at service desks. Specops Software has outlined five best practices to enhance identity verification and access security.</li>
           
-            <li>If exploited, these vulnerabilities could allow attackers to take control of affected Node.js applications or disrupt their availability. Given the widespread use of protobuf.js in various applications, the potential impact on business operations and data security is significant.</li>
+            <li>The increasing sophistication of attacks on identity verification can lead to unauthorized access to sensitive data and systems. Organizations that fail to adopt stronger authentication practices risk significant security breaches and potential financial losses.</li>
           
-            <li>An attacker could leverage a malicious protobuf schema or payload to execute arbitrary code or crash the application, gaining control or disrupting services.</li>
+            <li>Attackers exploit weak authentication methods to gain unauthorized access, often using phishing or social engineering techniques to manipulate users or support staff.</li>
           
-            <li>Watch next: Monitor for updates from the protobuf.js maintainers regarding patches and mitigation strategies.</li>
+            <li>Watch next: Monitor for updates on identity verification best practices and any emerging threats targeting authentication systems.</li>
           
         </ul>
 
@@ -1011,9 +985,9 @@
             <div class="label">Key terms</div>
             <ul class="list">
             
-              <li>RCE - Remote Code Execution, a vulnerability that allows an attacker to run arbitrary code on a target system.</li>
+              <li>MFA - Multi-Factor Authentication, a security process that requires two or more verification methods.</li>
             
-              <li>DoS - Denial of Service, an attack that aims to make a service unavailable to its intended users.</li>
+              <li>Phishing - A method of trying to gather personal information using deceptive emails or websites.</li>
             
             </ul>
           </div>
@@ -1023,11 +997,11 @@
           <div class="label">Defender focus</div>
           <ul class="list">
             
-            <li>Implement monitoring for unusual application behavior that may indicate exploitation attempts.</li>
+            <li>Implement stronger MFA solutions across all access points.</li>
             
-            <li>Ensure that all instances of protobuf.js are updated to the latest version as soon as patches are available.</li>
+            <li>Regularly review and update identity verification processes to align with best practices.</li>
             
-            <li>Review application logs for any signs of exploitation or abnormal payloads being processed.</li>
+            <li>Conduct simulations of phishing and social engineering attacks to test employee awareness.</li>
             
           </ul>
         </div>
@@ -1036,24 +1010,24 @@
           <div class="label">Do now</div>
           <ul class="list">
             
-            <li>Patch protobuf.js to the latest version immediately.</li>
+            <li>Review current authentication methods and identify weaknesses.</li>
             
-            <li>Conduct a security review of applications using protobuf.js.</li>
+            <li>Implement the recommended best practices for identity verification immediately.</li>
             
-            <li>Educate development teams on secure coding practices related to protobuf schemas.</li>
+            <li>Train staff on recognizing phishing attempts and social engineering tactics.</li>
             
           </ul>
         </div>
 
-        <div class="text-block"><span class="label">Watch next:</span> Monitor for updates from the protobuf.js maintainers regarding patches and mitigation strategies.</div>
+        <div class="text-block"><span class="label">Watch next:</span> Monitor for updates on identity verification best practices and any emerging threats targeting authentication systems.</div>
 
         <div class="sources">
           <div class="label">Sources</div>
           
             
               <div>
-                <a href="https://thehackernews.com/2026/06/six-proto6-vulnerabilities-in.html" target="_blank" rel="noopener noreferrer">
-                  The Hacker News - Six Proto6 Vulnerabilities in protobuf.js Expose Node.js Apps to RCE and DoS
+                <a href="https://www.bleepingcomputer.com/news/security/the-5-best-practices-for-secure-identity-verification/" target="_blank" rel="noopener noreferrer">
+                  BleepingComputer - The 5 Best Practices for Secure Identity Verification
                 </a>
               </div>
             
