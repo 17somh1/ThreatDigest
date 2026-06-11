@@ -1,5 +1,5 @@
 {
-  "last_run_utc": "2026-06-10T15:58:17.986805+00:00",
+  "last_run_utc": "2026-06-11T12:05:27.860875+00:00",
   "processed_urls": [
     "https://www.bleepingcomputer.com/news/security/critical-cisco-sd-wan-bug-exploited-in-zero-day-attacks-since-2023/",
     "https://www.cisa.gov/news-events/alerts/2026/02/25/cisa-and-partners-release-guidance-ongoing-global-exploitation-cisco-sd-wan-systems",
@@ -689,6 +689,11 @@
     "https://thehackernews.com/2026/06/cisa-adds-cisco-chrome-and-arista-flaws.html",
     "https://thehackernews.com/2026/06/ivanti-fortinet-and-sap-release-patches.html",
     "https://www.bleepingcomputer.com/news/security/the-5-best-practices-for-secure-identity-verification/",
-    "https://krebsonsecurity.com/2026/06/who-runs-the-ransomware-group-the-gentlemen/"
+    "https://krebsonsecurity.com/2026/06/who-runs-the-ransomware-group-the-gentlemen/",
+    "https://www.bleepingcomputer.com/news/security/max-severity-ivanti-sentry-vulnerability-now-exploited-in-attacks/",
+    "https://www.bleepingcomputer.com/news/security/path-traversal-flaw-in-ai-dev-platform-langflow-exploited-in-attacks/",
+    "https://www.bleepingcomputer.com/news/security/the-miasma-worm-source-code-briefly-leaked-on-github/",
+    "https://thehackernews.com/2026/06/oceanlotus-hits-vietnam-investors-with.html",
+    "https://thehackernews.com/2026/06/github-to-disable-npm-install-scripts.html"
   ]
 }
