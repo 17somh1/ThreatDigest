@@ -1,5 +1,5 @@
 {
-  "last_run_utc": "2026-06-13T10:23:48.640249+00:00",
+  "last_run_utc": "2026-06-13T14:18:59.450847+00:00",
   "processed_urls": [
     "https://www.bleepingcomputer.com/news/security/critical-cisco-sd-wan-bug-exploited-in-zero-day-attacks-since-2023/",
     "https://www.cisa.gov/news-events/alerts/2026/02/25/cisa-and-partners-release-guidance-ongoing-global-exploitation-cisco-sd-wan-systems",
@@ -710,6 +710,7 @@
     "https://www.bleepingcomputer.com/news/security/over-400-arch-linux-packages-compromised-to-push-rootkit-infostealer/",
     "https://thehackernews.com/2026/06/over-400-arch-linux-aur-packages.html",
     "https://thehackernews.com/2026/06/google-sues-chinese-smishing-network.html",
-    "https://www.bleepingcomputer.com/news/security/ukrainian-national-pleads-guilty-to-role-in-conti-ransomware-operation/"
+    "https://www.bleepingcomputer.com/news/security/ukrainian-national-pleads-guilty-to-role-in-conti-ransomware-operation/",
+    "https://thehackernews.com/2026/06/critical-splunk-enterprise-flaw-lets.html"
   ]
 }

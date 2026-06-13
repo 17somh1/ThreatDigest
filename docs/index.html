@@ -378,8 +378,8 @@
         The security news worth your attention, with context and practical takeaways.
       </p>
       <div class="meta-bar">
-        <span>Updated: 2026-06-13 10:23 UTC</span>
-        <span>Stories: 4</span>
+        <span>Updated: 2026-06-13 14:18 UTC</span>
+        <span>Stories: 1</span>
         <span>Recent issues: 14</span>
       </div>
     </header>
@@ -389,7 +389,7 @@
         <section class="one-liner">
           <h2>What Matters Today</h2>
           
-            <p class="text-block">Critical vulnerabilities and advanced attack methods are escalating risks for federal agencies and organizations, necessitating immediate action and heightened awareness.</p>
+            <p class="text-block">A critical vulnerability in Splunk Enterprise allows attackers to execute code without authentication, demanding immediate attention from security teams.</p>
           
         </section>
 
@@ -398,11 +398,11 @@
           
             <ul>
               
-              <li>Federal agencies must prioritize patching critical vulnerabilities to prevent total asset control by attackers.</li>
+              <li>Attackers are increasingly exploiting authentication bypass vulnerabilities to gain unauthorized access.</li>
               
-              <li>The compromise of software packages highlights the need for robust supply chain security to protect user credentials.</li>
+              <li>Defenders face heightened pressure to quickly implement patches to mitigate risks from newly discovered flaws.</li>
               
-              <li>The integration of AI in phishing tactics indicates a shift towards more sophisticated and targeted cyber threats.</li>
+              <li>The urgency of real-time patching highlights the need for proactive vulnerability management in enterprise environments.</li>
               
             </ul>
           
@@ -420,47 +420,43 @@
         <div class="meta">
           <span class="chip risk-high">HIGH</span>
           
-            <span class="chip label-chip">ACTIVE EXPLOITATION</span>
-          
-            <span class="chip label-chip">KEV ADDED</span>
-          
-            <span class="chip label-chip">GUIDANCE</span>
-          
             <span class="chip label-chip">PATCH RELEASE</span>
           
-          <span class="chip chip-neutral">Initial Access</span>
+            <span class="chip label-chip">LEGAL POLICY</span>
+          
+          <span class="chip chip-neutral">Execution</span>
           <span class="chip chip-neutral">Confidence LOW</span>
         </div>
         
-          <h3><a href="https://www.cisa.gov/news-events/alerts/2026/06/12/cisa-adds-one-known-exploited-vulnerability-catalog" target="_blank" rel="noopener noreferrer">CISA Adds One Known Exploited Vulnerability to Catalog</a></h3>
+          <h3><a href="https://thehackernews.com/2026/06/critical-splunk-enterprise-flaw-lets.html" target="_blank" rel="noopener noreferrer">Critical Splunk Enterprise Flaw Lets Attackers Run Code Without Authentication</a></h3>
         
-        <p class="hook">The addition of CVE-2026-35273 to CISA's KEV catalog signals an urgent need for federal agencies to address a critical vulnerability that could lead to total asset control by attackers.</p>
+        <p class="hook">Attackers can exploit a critical flaw in Splunk Enterprise to execute code without authentication, posing a severe risk to data integrity and system security.</p>
         <div class="support-grid">
-          <div class="text-block"><span class="label">Who should care:</span> Federal agencies and organizations using Oracle PeopleSoft should prioritize addressing this vulnerability.</div>
-          <div class="text-block"><span class="label">Attack path:</span> An attacker can exploit this vulnerability to gain unauthorized access to critical functions within Oracle PeopleSoft, potentially leading to system compromise.</div>
+          <div class="text-block"><span class="label">Who should care:</span> IT security teams managing Splunk Enterprise deployments should prioritize this vulnerability.</div>
+          <div class="text-block"><span class="label">Attack path:</span> An attacker could exploit this vulnerability by sending crafted requests to the Splunk server, allowing them to execute arbitrary commands without needing valid credentials.</div>
         </div>
-        <div class="text-block"><span class="label">Why this matters now:</span> KEV status shortens the acceptable patch window. A live patch or vendor fix gives defenders something concrete to validate.</div>
-        <div class="text-block"><span class="label">In plain English:</span> CISA has identified a new critical vulnerability in Oracle PeopleSoft that is actively being exploited, requiring immediate attention from affected organizations.</div>
+        <div class="text-block"><span class="label">Why this matters now:</span> A live patch or vendor fix gives defenders something concrete to validate.</div>
+        <div class="text-block"><span class="label">In plain English:</span> A critical vulnerability in Splunk Enterprise allows unauthenticated code execution, requiring immediate patching.</div>
         
           <div class="tags">
             
               <span>cve</span>
             
-              <span>oracle</span>
+              <span>splunk</span>
             
-              <span>federal</span>
+              <span>security</span>
             
           </div>
         
         <ul class="story-list">
           
-            <li>CISA has added CVE-2026-35273, a vulnerability in Oracle PeopleSoft Enterprise PeopleTools, to its Known Exploited Vulnerabilities catalog due to evidence of active exploitation. This vulnerability allows attackers to bypass authentication for critical functions, posing significant risks.</li>
+            <li>Splunk has issued security updates for a critical vulnerability in Splunk Enterprise, tracked as CVE-2026-20253, which has a CVSS score of 9.8. This flaw affects versions below 10.2.4 and 10.0.7, enabling unauthenticated users to perform file operations and execute arbitrary code.</li>
           
-            <li>The vulnerability can lead to total control of affected systems, making it a prime target for malicious actors. Federal agencies are mandated to prioritize remediation of such vulnerabilities, but the risk extends to all organizations using the affected software.</li>
+            <li>The ability for unauthenticated users to execute code can lead to data breaches, system compromise, and significant operational disruptions. Organizations using affected versions are at immediate risk and must prioritize applying the security updates to mitigate potential exploitation.</li>
           
-            <li>An attacker can exploit this vulnerability to gain unauthorized access to critical functions within Oracle PeopleSoft, potentially leading to system compromise.</li>
+            <li>An attacker could exploit this vulnerability by sending crafted requests to the Splunk server, allowing them to execute arbitrary commands without needing valid credentials.</li>
           
-            <li>Watch next: Monitor for updates from CISA regarding additional vulnerabilities added to the KEV catalog and any related remediation guidance.</li>
+            <li>Watch next: Monitor for updates from Splunk regarding any further vulnerabilities or patches related to this issue.</li>
           
         </ul>
 
@@ -471,7 +467,7 @@
             
               <li>CVE - Common Vulnerabilities and Exposures, a list of publicly disclosed cybersecurity vulnerabilities.</li>
             
-              <li>KEV - Known Exploited Vulnerabilities, a catalog maintained by CISA that lists vulnerabilities currently being exploited in the wild.</li>
+              <li>CVSS - Common Vulnerability Scoring System, a standardized method for rating the severity of security vulnerabilities.</li>
             
             </ul>
           </div>
@@ -481,11 +477,11 @@
           <div class="label">Defender focus</div>
           <ul class="list">
             
-            <li>Implement immediate monitoring for any signs of exploitation attempts against Oracle PeopleSoft systems.</li>
+            <li>Verify that all instances of Splunk Enterprise are updated to the latest versions.</li>
             
-            <li>Ensure that all instances of Oracle PeopleSoft are updated with the latest security patches as soon as they are available.</li>
+            <li>Monitor logs for any unauthorized access attempts or unusual file operations.</li>
             
-            <li>Review access logs for unusual activity that may indicate an attempted or successful exploitation of this vulnerability.</li>
+            <li>Implement network segmentation to limit access to Splunk servers from untrusted sources.</li>
             
           </ul>
         </div>
@@ -494,24 +490,24 @@
           <div class="label">Do now</div>
           <ul class="list">
             
-            <li>Patch Oracle PeopleSoft systems immediately to mitigate the vulnerability.</li>
+            <li>Immediately apply the security updates provided by Splunk.</li>
             
-            <li>Conduct a risk assessment to identify any exposed assets that may be affected.</li>
+            <li>Conduct a security audit of your Splunk instances to identify any potential exploitation.</li>
             
-            <li>Establish a monitoring process for any indicators of compromise related to this vulnerability.</li>
+            <li>Review and enhance access controls to Splunk servers to limit exposure.</li>
             
           </ul>
         </div>
 
-        <div class="text-block"><span class="label">Watch next:</span> Monitor for updates from CISA regarding additional vulnerabilities added to the KEV catalog and any related remediation guidance.</div>
+        <div class="text-block"><span class="label">Watch next:</span> Monitor for updates from Splunk regarding any further vulnerabilities or patches related to this issue.</div>
 
         <div class="sources">
           <div class="label">Sources</div>
           
             
               <div>
-                <a href="https://www.cisa.gov/news-events/alerts/2026/06/12/cisa-adds-one-known-exploited-vulnerability-catalog" target="_blank" rel="noopener noreferrer">
-                  Alerts - CISA Adds One Known Exploited Vulnerability to Catalog
+                <a href="https://thehackernews.com/2026/06/critical-splunk-enterprise-flaw-lets.html" target="_blank" rel="noopener noreferrer">
+                  The Hacker News - Critical Splunk Enterprise Flaw Lets Attackers Run Code Without Authentication
                 </a>
               </div>
             
@@ -528,314 +524,7 @@
           Priority Watchlist
         </div>
         
-          <div class="grid">
-            
-              <article class="card" style="--i: 0;">
-        <div class="meta">
-          <span class="chip risk-high">HIGH</span>
-          
-            <span class="chip label-chip">INDUSTRY SIGNAL</span>
-          
-          <span class="chip chip-neutral">Initial Access</span>
-          <span class="chip chip-neutral">Confidence MEDIUM</span>
-        </div>
-        
-          <h3><a href="https://www.bleepingcomputer.com/news/security/over-400-arch-linux-packages-compromised-to-push-rootkit-infostealer/" target="_blank" rel="noopener noreferrer">Over 400 Arch Linux packages compromised to push rootkit, infostealer</a></h3>
-        
-        <p class="hook">The compromise of over 400 Arch Linux packages poses a significant risk to user credentials and system integrity, making immediate action essential.</p>
-        <div class="support-grid">
-          <div class="text-block"><span class="label">Who should care:</span> Development and security teams using Arch Linux, as well as any users of the affected packages.</div>
-          <div class="text-block"><span class="label">Attack path:</span> Attackers gain leverage by compromising trusted packages in the AUR, allowing them to distribute malware directly to users. Abuse may manifest as unauthorized access to user accounts and sensitive information.</div>
-        </div>
-        <div class="text-block"><span class="label">Why this matters now:</span> Multiple sources point to the same operational problem.</div>
-        <div class="text-block"><span class="label">In plain English:</span> Over 400 Arch Linux packages have been found to distribute malware that steals credentials.</div>
-        
-          <div class="tags">
-            
-              <span>malware</span>
-            
-              <span>linux</span>
-            
-              <span>security</span>
-            
-          </div>
-        
-        <ul class="story-list">
-          
-            <li>More than 400 packages in the Arch User Repository (AUR) were compromised to distribute a Linux rootkit and infostealer malware. This malware targets user credentials and access tokens, potentially allowing attackers to gain unauthorized access to systems.</li>
-          
-            <li>The widespread nature of this compromise means that many users may unknowingly install malicious software, leading to credential theft and further exploitation. Organizations using Arch Linux should be particularly vigilant as the malware can facilitate unauthorized access to sensitive data and systems.</li>
-          
-            <li>Attackers gain leverage by compromising trusted packages in the AUR, allowing them to distribute malware directly to users. Abuse may manifest as unauthorized access to user accounts and sensitive information.</li>
-          
-            <li>Also reported by The Hacker News.</li>
-          
-            <li>Watch next: Monitor for updates from Arch Linux regarding the compromised packages and any remediation steps.</li>
-          
-        </ul>
-
-        
-          <div class="glossary">
-            <div class="label">Key terms</div>
-            <ul class="list">
-            
-              <li>Arch User Repository (AUR) - a community-driven repository for Arch Linux users to share and install packages.</li>
-            
-              <li>Rootkit - a type of malware designed to gain unauthorized access to a computer while hiding its presence.</li>
-            
-              <li>AUR - Arch User Repository, a community-driven repository for Arch Linux packages.</li>
-            
-              <li>eBPF - Extended Berkeley Packet Filter, a technology that allows running sandboxed programs in the Linux kernel.</li>
-            
-            </ul>
-          </div>
-        
-
-        <div>
-          <div class="label">Defender focus</div>
-          <ul class="list">
-            
-            <li>Identify and remove any compromised packages from systems.</li>
-            
-            <li>Monitor for unusual account activity that may indicate credential theft.</li>
-            
-            <li>Implement stricter controls on package installations from unverified sources.</li>
-            
-          </ul>
-        </div>
-
-        <div>
-          <div class="label">Do now</div>
-          <ul class="list">
-            
-            <li>Immediately audit installed packages for any from the AUR.</li>
-            
-            <li>Update systems to remove any compromised software.</li>
-            
-            <li>Educate users on the risks of installing packages from unverified sources.</li>
-            
-          </ul>
-        </div>
-
-        <div class="text-block"><span class="label">Watch next:</span> Monitor for updates from Arch Linux regarding the compromised packages and any remediation steps.</div>
-
-        <div class="sources">
-          <div class="label">Sources</div>
-          
-            
-              <div>
-                <a href="https://www.bleepingcomputer.com/news/security/over-400-arch-linux-packages-compromised-to-push-rootkit-infostealer/" target="_blank" rel="noopener noreferrer">
-                  BleepingComputer - Over 400 Arch Linux packages compromised to push rootkit, infostealer
-                </a>
-              </div>
-            
-          
-            
-              <div>
-                <a href="https://thehackernews.com/2026/06/over-400-arch-linux-aur-packages.html" target="_blank" rel="noopener noreferrer">
-                  The Hacker News - Over 400 Arch Linux AUR Packages Hijacked to Deploy Infostealer and eBPF Rootkit
-                </a>
-              </div>
-            
-          
-        </div>
-      </article>
-            
-              <article class="card" style="--i: 1;">
-        <div class="meta">
-          <span class="chip risk-high">HIGH</span>
-          
-            <span class="chip label-chip">INDUSTRY SIGNAL</span>
-          
-          <span class="chip chip-neutral">Credential Access</span>
-          <span class="chip chip-neutral">Confidence LOW</span>
-        </div>
-        
-          <h3><a href="https://thehackernews.com/2026/06/google-sues-chinese-smishing-network.html" target="_blank" rel="noopener noreferrer">Google Sues Chinese Smishing Network Accused of Using Gemini AI in Phishing</a></h3>
-        
-        <p class="hook">The use of advanced AI in phishing attacks poses a significant threat to personal and organizational security, making immediate awareness crucial.</p>
-        <div class="support-grid">
-          <div class="text-block"><span class="label">Who should care:</span> Security teams, IT departments, and organizations handling sensitive customer data are most exposed.</div>
-          <div class="text-block"><span class="label">Attack path:</span> Attackers utilize AI to craft convincing phishing messages that can bypass traditional security measures, increasing the likelihood of user engagement.</div>
-        </div>
-        <div class="text-block"><span class="label">Why this matters now:</span> Useful context for teams tracking where attacker pressure is building.</div>
-        <div class="text-block"><span class="label">In plain English:</span> Google is suing a Chinese network for using AI to enhance phishing attacks against Americans.</div>
-        
-          <div class="tags">
-            
-              <span>phishing</span>
-            
-              <span>ai</span>
-            
-              <span>legal</span>
-            
-          </div>
-        
-        <ul class="story-list">
-          
-            <li>Google has filed a lawsuit against a Chinese cybercrime network accused of leveraging its Gemini AI to send phishing text messages. This network is linked to a phishing-as-a-service (PhaaS) toolkit named Outsider, which facilitates these malicious activities.</li>
-          
-            <li>The integration of AI into phishing schemes increases their effectiveness, making it harder for individuals and organizations to detect and defend against such attacks. As these tactics evolve, the potential for widespread data breaches and financial loss escalates.</li>
-          
-            <li>Attackers utilize AI to craft convincing phishing messages that can bypass traditional security measures, increasing the likelihood of user engagement.</li>
-          
-            <li>Watch next: Monitor for updates on legal outcomes and any new phishing techniques emerging from this network.</li>
-          
-        </ul>
-
-        
-          <div class="glossary">
-            <div class="label">Key terms</div>
-            <ul class="list">
-            
-              <li>Smishing - a type of phishing attack conducted via SMS text messages.</li>
-            
-              <li>Phishing-as-a-Service (PhaaS) - a business model where attackers offer phishing tools and services to other criminals.</li>
-            
-            </ul>
-          </div>
-        
-
-        <div>
-          <div class="label">Defender focus</div>
-          <ul class="list">
-            
-            <li>Implement advanced filtering for SMS messages to detect potential smishing attempts.</li>
-            
-            <li>Enhance user training on recognizing suspicious text messages.</li>
-            
-            <li>Monitor for unusual login attempts from accounts that may have been targeted.</li>
-            
-          </ul>
-        </div>
-
-        <div>
-          <div class="label">Do now</div>
-          <ul class="list">
-            
-            <li>Increase monitoring for phishing attempts using AI techniques.</li>
-            
-            <li>Review and update incident response plans to address potential AI-driven attacks.</li>
-            
-            <li>Engage with users to reinforce awareness of smishing risks.</li>
-            
-          </ul>
-        </div>
-
-        <div class="text-block"><span class="label">Watch next:</span> Monitor for updates on legal outcomes and any new phishing techniques emerging from this network.</div>
-
-        <div class="sources">
-          <div class="label">Sources</div>
-          
-            
-              <div>
-                <a href="https://thehackernews.com/2026/06/google-sues-chinese-smishing-network.html" target="_blank" rel="noopener noreferrer">
-                  The Hacker News - Google Sues Chinese Smishing Network Accused of Using Gemini AI in Phishing
-                </a>
-              </div>
-            
-          
-        </div>
-      </article>
-            
-              <article class="card" style="--i: 2;">
-        <div class="meta">
-          <span class="chip risk-medium">MEDIUM</span>
-          
-            <span class="chip label-chip">INDUSTRY SIGNAL</span>
-          
-          <span class="chip chip-neutral">Initial Access</span>
-          <span class="chip chip-neutral">Confidence LOW</span>
-        </div>
-        
-          <h3><a href="https://www.bleepingcomputer.com/news/security/ukrainian-national-pleads-guilty-to-role-in-conti-ransomware-operation/" target="_blank" rel="noopener noreferrer">Ukrainian national pleads guilty to role in Conti ransomware operation</a></h3>
-        
-        <p class="hook">The guilty plea of a key player in the Conti ransomware operation highlights ongoing threats to organizations from sophisticated cybercriminal groups.</p>
-        <div class="support-grid">
-          <div class="text-block"><span class="label">Who should care:</span> IT security teams and incident response units in organizations that could be targeted by ransomware attacks.</div>
-          <div class="text-block"><span class="label">Attack path:</span> Attackers typically gain access through phishing or exploiting vulnerabilities, then deploy ransomware to encrypt files and demand payment.</div>
-        </div>
-        <div class="text-block"><span class="label">Why this matters now:</span> Useful context for teams tracking where attacker pressure is building.</div>
-        <div class="text-block"><span class="label">In plain English:</span> A Ukrainian man has admitted to his involvement in the Conti ransomware scheme, which poses a continued risk to businesses.</div>
-        
-          <div class="tags">
-            
-              <span>ransomware</span>
-            
-              <span>cve</span>
-            
-              <span>cloud</span>
-            
-          </div>
-        
-        <ul class="story-list">
-          
-            <li>A Ukrainian national has pleaded guilty in a U.S. court to conspiracy charges related to the Conti ransomware operation. This individual was extradited from Ireland and is part of a larger investigation into the notorious ransomware group known for targeting various sectors.</li>
-          
-            <li>The Conti ransomware group has been responsible for significant financial losses and operational disruptions across multiple industries. Their tactics and techniques continue to evolve, making it crucial for organizations to remain vigilant against potential attacks.</li>
-          
-            <li>Attackers typically gain access through phishing or exploiting vulnerabilities, then deploy ransomware to encrypt files and demand payment.</li>
-          
-            <li>Watch next: Monitor for updates on sentencing and any potential further arrests related to the Conti group.</li>
-          
-        </ul>
-
-        
-          <div class="glossary">
-            <div class="label">Key terms</div>
-            <ul class="list">
-            
-              <li>Ransomware - a type of malicious software that encrypts files on a victim's system, demanding payment for decryption.</li>
-            
-              <li>Conspiracy - an agreement between two or more parties to commit an illegal act.</li>
-            
-            </ul>
-          </div>
-        
-
-        <div>
-          <div class="label">Defender focus</div>
-          <ul class="list">
-            
-            <li>Implement monitoring for unusual file access patterns that may indicate ransomware activity.</li>
-            
-            <li>Ensure backups are up-to-date and isolated from the main network to prevent ransomware encryption.</li>
-            
-            <li>Review and strengthen email filtering to reduce the risk of phishing attacks that could lead to initial access.</li>
-            
-          </ul>
-        </div>
-
-        <div>
-          <div class="label">Do now</div>
-          <ul class="list">
-            
-            <li>Enhance endpoint detection and response capabilities to identify ransomware behavior.</li>
-            
-            <li>Conduct a security audit to identify and mitigate vulnerabilities that could be exploited.</li>
-            
-            <li>Train staff on recognizing phishing attempts and suspicious emails.</li>
-            
-          </ul>
-        </div>
-
-        <div class="text-block"><span class="label">Watch next:</span> Monitor for updates on sentencing and any potential further arrests related to the Conti group.</div>
-
-        <div class="sources">
-          <div class="label">Sources</div>
-          
-            
-              <div>
-                <a href="https://www.bleepingcomputer.com/news/security/ukrainian-national-pleads-guilty-to-role-in-conti-ransomware-operation/" target="_blank" rel="noopener noreferrer">
-                  BleepingComputer - Ukrainian national pleads guilty to role in Conti ransomware operation
-                </a>
-              </div>
-            
-          
-        </div>
-      </article>
-            
-          </div>
+          <p class="empty">No additional top stories.</p>
         
       </section>
 
