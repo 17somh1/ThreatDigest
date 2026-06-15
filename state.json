@@ -1,5 +1,5 @@
 {
-  "last_run_utc": "2026-06-14T14:21:43.191069+00:00",
+  "last_run_utc": "2026-06-15T13:48:49.515672+00:00",
   "processed_urls": [
     "https://www.bleepingcomputer.com/news/security/critical-cisco-sd-wan-bug-exploited-in-zero-day-attacks-since-2023/",
     "https://www.cisa.gov/news-events/alerts/2026/02/25/cisa-and-partners-release-guidance-ongoing-global-exploitation-cisco-sd-wan-systems",
@@ -711,6 +711,9 @@
     "https://thehackernews.com/2026/06/over-400-arch-linux-aur-packages.html",
     "https://thehackernews.com/2026/06/google-sues-chinese-smishing-network.html",
     "https://www.bleepingcomputer.com/news/security/ukrainian-national-pleads-guilty-to-role-in-conti-ransomware-operation/",
-    "https://thehackernews.com/2026/06/critical-splunk-enterprise-flaw-lets.html"
+    "https://thehackernews.com/2026/06/critical-splunk-enterprise-flaw-lets.html",
+    "https://thehackernews.com/2026/06/palo-alto-warns-of-active-exploitation.html",
+    "https://www.bleepingcomputer.com/news/security/webinar-how-behavioral-ai-stops-phishing-and-account-takeovers/",
+    "https://www.bleepingcomputer.com/news/security/fbi-disrupts-massive-ai-powered-phishing-service-using-a-million-urls/"
   ]
 }
