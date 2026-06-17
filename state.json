@@ -1,5 +1,5 @@
 {
-  "last_run_utc": "2026-06-17T12:12:54.535499+00:00",
+  "last_run_utc": "2026-06-17T15:56:29.272417+00:00",
   "processed_urls": [
     "https://www.bleepingcomputer.com/news/security/critical-cisco-sd-wan-bug-exploited-in-zero-day-attacks-since-2023/",
     "https://www.cisa.gov/news-events/alerts/2026/02/25/cisa-and-partners-release-guidance-ongoing-global-exploitation-cisco-sd-wan-systems",
@@ -734,6 +734,8 @@
     "https://thehackernews.com/2026/06/google-vertex-ai-sdk-flaw-let-attackers.html",
     "https://www.bleepingcomputer.com/news/microsoft/microsoft-working-on-defender-patch-for-rogueplanet-zero-day/",
     "https://thehackernews.com/2026/06/the-top-10-attack-surface-exposures-in.html",
-    "https://thehackernews.com/2026/06/144-mastra-npm-packages-compromised-via.html"
+    "https://thehackernews.com/2026/06/144-mastra-npm-packages-compromised-via.html",
+    "https://www.bleepingcomputer.com/news/security/fortibleed-leak-exposes-fortinet-vpn-credentials-for-73-000-devices/",
+    "https://www.bleepingcomputer.com/news/security/why-account-takeovers-are-rising-and-how-to-stop-them/"
   ]
 }
