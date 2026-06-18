@@ -378,7 +378,7 @@
         The security news worth your attention, with context and practical takeaways.
       </p>
       <div class="meta-bar">
-        <span>Updated: 2026-06-18 11:46 UTC</span>
+        <span>Updated: 2026-06-18 15:47 UTC</span>
         <span>Stories: 4</span>
         <span>Recent issues: 14</span>
       </div>
@@ -389,7 +389,7 @@
         <section class="one-liner">
           <h2>What Matters Today</h2>
           
-            <p class="text-block">Critical zero-day vulnerabilities in Microsoft Defender and NGINX demand immediate attention from security teams to prevent severe exploitation.</p>
+            <p class="text-block">Attackers are increasingly exploiting trusted platforms like Microsoft Teams and WordPress plugins to hide their activities and spread malware, raising the stakes for defenders.</p>
           
         </section>
 
@@ -398,11 +398,11 @@
           
             <ul>
               
-              <li>Rogue vulnerabilities in widely used software are creating urgent patching pressure on defenders.</li>
+              <li>Increased use of legitimate platforms for command-and-control traffic complicates detection efforts for defenders.</li>
               
-              <li>Emerging attack methods like crypto clippers are leveraging social engineering tactics, increasing the workload for security teams.</li>
+              <li>Compromised update mechanisms in widely-used software can lead to widespread malware deployment, heightening the urgency for site administrators.</li>
               
-              <li>Persistent access techniques used by attackers highlight the need for improved monitoring and response strategies.</li>
+              <li>Emerging ransomware threats are rapidly increasing, necessitating proactive measures from security teams to mitigate risks.</li>
               
             </ul>
           
@@ -420,43 +420,41 @@
         <div class="meta">
           <span class="chip risk-high">HIGH</span>
           
-            <span class="chip label-chip">PATCH RELEASE</span>
+            <span class="chip label-chip">INDUSTRY SIGNAL</span>
           
-            <span class="chip label-chip">LEGAL POLICY</span>
-          
-          <span class="chip chip-neutral">Privilege Escalation</span>
+          <span class="chip chip-neutral">Command and Control</span>
           <span class="chip chip-neutral">Confidence LOW</span>
         </div>
         
-          <h3><a href="https://thehackernews.com/2026/06/microsoft-confirms-rogueplanet-defender_02022423645.html" target="_blank" rel="noopener noreferrer">Microsoft Confirms RoguePlanet Defender Zero-Day, Says Patch is in Development</a></h3>
+          <h3><a href="https://thehackernews.com/2026/06/dragonforce-hackers-abuse-microsoft.html" target="_blank" rel="noopener noreferrer">DragonForce Hackers Abuse Microsoft Teams Relays to Hide Backdoor.Turn C2 Traffic</a></h3>
         
-        <p class="hook">The discovery of a critical zero-day vulnerability in Microsoft Defender could expose systems to severe privilege escalation attacks, making immediate patching essential.</p>
+        <p class="hook">The exploitation of Microsoft Teams for command-and-control traffic poses significant risks to organizations relying on this platform for communication.</p>
         <div class="support-grid">
-          <div class="text-block"><span class="label">Who should care:</span> IT security teams managing Microsoft Defender and any organizations relying on this antivirus solution.</div>
-          <div class="text-block"><span class="label">Attack path:</span> An attacker could exploit this vulnerability to escalate privileges within the system, gaining unauthorized access to sensitive areas of the network.</div>
+          <div class="text-block"><span class="label">Who should care:</span> IT security teams and organizations using Microsoft Teams for internal communications should be particularly vigilant.</div>
+          <div class="text-block"><span class="label">Attack path:</span> Attackers leverage Microsoft Teams' infrastructure to obfuscate their C2 communications, making it difficult for security measures to detect malicious activity.</div>
         </div>
-        <div class="text-block"><span class="label">Why this matters now:</span> A live patch or vendor fix gives defenders something concrete to validate.</div>
-        <div class="text-block"><span class="label">In plain English:</span> Microsoft is developing a patch for a serious vulnerability in Defender that could allow attackers to gain elevated privileges.</div>
+        <div class="text-block"><span class="label">Why this matters now:</span> Useful context for teams tracking where attacker pressure is building.</div>
+        <div class="text-block"><span class="label">In plain English:</span> DragonForce hackers are using Microsoft Teams to hide malicious activity, which could compromise sensitive data.</div>
         
           <div class="tags">
             
+              <span>ransomware</span>
+            
               <span>cve</span>
             
-              <span>microsoft</span>
-            
-              <span>defender</span>
+              <span>cloud</span>
             
           </div>
         
         <ul class="story-list">
           
-            <li>Microsoft has confirmed a zero-day vulnerability in its Defender product, codenamed RoguePlanet, which has been assigned the CVE identifier CVE-2026-50656. This vulnerability is classified as a privilege escalation flaw with a CVSS score of 7.8, indicating its severity.</li>
+            <li>DragonForce ransomware actors have been detected using a custom remote access trojan (RAT) named Backdoor.Turn to mask command-and-control (C2) traffic within Microsoft Teams. This tactic was reported to have targeted a major U.S. services firm, although the company's identity remains undisclosed.</li>
           
-            <li>If exploited, this vulnerability could allow attackers to gain elevated privileges on affected systems, potentially leading to unauthorized access and control over sensitive data. Organizations using Microsoft Defender must prioritize patching to mitigate the risk of exploitation.</li>
+            <li>The use of a widely trusted platform like Microsoft Teams for malicious purposes can lead to undetected data breaches and loss of sensitive information. Organizations may be unaware of the risks associated with their communication tools, making them vulnerable to sophisticated attacks.</li>
           
-            <li>An attacker could exploit this vulnerability to escalate privileges within the system, gaining unauthorized access to sensitive areas of the network.</li>
+            <li>Attackers leverage Microsoft Teams' infrastructure to obfuscate their C2 communications, making it difficult for security measures to detect malicious activity.</li>
           
-            <li>Watch next: Monitor for the release of the patch from Microsoft and any related advisories regarding exploitation attempts.</li>
+            <li>Watch next: Monitor for updates from Microsoft regarding any security patches or advisories related to Teams.</li>
           
         </ul>
 
@@ -465,9 +463,9 @@
             <div class="label">Key terms</div>
             <ul class="list">
             
-              <li>CVE - Common Vulnerabilities and Exposures, a list of publicly disclosed cybersecurity vulnerabilities.</li>
+              <li>RAT - Remote Access Trojan, a type of malware that allows an attacker to control a computer remotely.</li>
             
-              <li>CVSS - Common Vulnerability Scoring System, a standardized method for rating the severity of security vulnerabilities.</li>
+              <li>C2 - Command and Control, a method used by attackers to communicate with compromised systems.</li>
             
             </ul>
           </div>
@@ -477,11 +475,11 @@
           <div class="label">Defender focus</div>
           <ul class="list">
             
-            <li>Implement monitoring for unusual privilege escalation attempts on systems running Microsoft Defender.</li>
+            <li>Implement monitoring for unusual traffic patterns associated with Microsoft Teams.</li>
             
-            <li>Prepare to deploy the patch as soon as it becomes available to mitigate the vulnerability.</li>
+            <li>Review and analyze logs for any unauthorized access attempts or anomalies.</li>
             
-            <li>Review access controls and permissions for users and applications interacting with Defender.</li>
+            <li>Enhance endpoint detection capabilities to identify RAT behaviors.</li>
             
           </ul>
         </div>
@@ -490,24 +488,24 @@
           <div class="label">Do now</div>
           <ul class="list">
             
-            <li>Stay updated on the patch release from Microsoft.</li>
+            <li>Increase monitoring of Microsoft Teams traffic for anomalies.</li>
             
-            <li>Assess current systems for exposure to CVE-2026-50656.</li>
+            <li>Conduct a security audit of communication tools in use.</li>
             
-            <li>Review and tighten privilege settings for users and applications.</li>
+            <li>Educate staff on recognizing signs of compromised accounts.</li>
             
           </ul>
         </div>
 
-        <div class="text-block"><span class="label">Watch next:</span> Monitor for the release of the patch from Microsoft and any related advisories regarding exploitation attempts.</div>
+        <div class="text-block"><span class="label">Watch next:</span> Monitor for updates from Microsoft regarding any security patches or advisories related to Teams.</div>
 
         <div class="sources">
           <div class="label">Sources</div>
           
             
               <div>
-                <a href="https://thehackernews.com/2026/06/microsoft-confirms-rogueplanet-defender_02022423645.html" target="_blank" rel="noopener noreferrer">
-                  The Hacker News - Microsoft Confirms RoguePlanet Defender Zero-Day, Says Patch is in Development
+                <a href="https://thehackernews.com/2026/06/dragonforce-hackers-abuse-microsoft.html" target="_blank" rel="noopener noreferrer">
+                  The Hacker News - DragonForce Hackers Abuse Microsoft Teams Relays to Hide Backdoor.Turn C2 Traffic
                 </a>
               </div>
             
@@ -528,43 +526,43 @@
             
               <article class="card" style="--i: 0;">
         <div class="meta">
-          <span class="chip risk-medium">MEDIUM</span>
+          <span class="chip risk-high">HIGH</span>
           
-            <span class="chip label-chip">RESEARCH</span>
+            <span class="chip label-chip">PATCH RELEASE</span>
           
-          <span class="chip chip-neutral">Initial Access</span>
+          <span class="chip chip-neutral">Execution</span>
           <span class="chip chip-neutral">Confidence LOW</span>
         </div>
         
-          <h3><a href="https://thehackernews.com/2026/06/crypto-clipper-campaign-abuses-fake.html" target="_blank" rel="noopener noreferrer">Crypto Clipper Campaign Abuses Fake Reviews, AI Narrators, and VirusTotal Comments</a></h3>
+          <h3><a href="https://www.bleepingcomputer.com/news/security/shapedplugin-update-flow-hacked-to-infect-wordpress-sites/" target="_blank" rel="noopener noreferrer">ShapedPlugin update flow hacked to infect WordPress sites</a></h3>
         
-        <p class="hook">The rise of a crypto clipper campaign exploiting fake reviews and AI-generated content poses a significant risk to users' financial security.</p>
+        <p class="hook">The compromise of ShapedPlugin's update flow poses a significant risk to WordPress sites, potentially allowing attackers to deploy malicious code widely.</p>
         <div class="support-grid">
-          <div class="text-block"><span class="label">Who should care:</span> Security teams, software developers, and cryptocurrency users are most exposed to this threat.</div>
-          <div class="text-block"><span class="label">Attack path:</span> Attackers leverage social engineering tactics through fake reviews and social media to convince users to download their malware.</div>
+          <div class="text-block"><span class="label">Who should care:</span> WordPress site administrators and security teams managing ShapedPlugin products should be particularly vigilant.</div>
+          <div class="text-block"><span class="label">Attack path:</span> Attackers exploited the update mechanism of ShapedPlugin to inject malicious code into legitimate plugin updates, allowing them to gain control over affected WordPress sites.</div>
         </div>
-        <div class="text-block"><span class="label">Why this matters now:</span> Useful context for teams tracking where attacker pressure is building.</div>
-        <div class="text-block"><span class="label">In plain English:</span> A new crypto clipper campaign is using fake reviews and social media to lure victims into installing malware.</div>
+        <div class="text-block"><span class="label">Why this matters now:</span> A live patch or vendor fix gives defenders something concrete to validate.</div>
+        <div class="text-block"><span class="label">In plain English:</span> ShapedPlugin's official update system was hacked, distributing infected plugins to users.</div>
         
           <div class="tags">
             
+              <span>supply chain</span>
+            
+              <span>wordpress</span>
+            
               <span>malware</span>
-            
-              <span>phishing</span>
-            
-              <span>cryptocurrency</span>
             
           </div>
         
         <ul class="story-list">
           
-            <li>A threat actor has been observed using paid posts on legitimate news sites to promote malicious software, specifically a crypto clipper. This campaign includes a phishing page hosted on WordPress and utilizes fake accounts on platforms like GitHub and SourceForge to distribute the malware.</li>
+            <li>A supply chain attack targeted multiple WordPress plugins from ShapedPlugin, leading to the distribution of compromised updates to paying customers. This incident was confirmed by BleepingComputer, highlighting the vulnerability in the vendor's update mechanism.</li>
           
-            <li>If users fall for these promotions, their cryptocurrency wallets can be compromised, leading to financial losses. The use of AI-generated content and fake reviews makes it harder for users to discern legitimate offers from malicious ones.</li>
+            <li>The infected plugins can allow attackers to execute arbitrary code on compromised WordPress sites, leading to potential data breaches, site defacement, or further exploitation. Given the widespread use of WordPress, many sites could be at risk, affecting businesses and users alike.</li>
           
-            <li>Attackers leverage social engineering tactics through fake reviews and social media to convince users to download their malware.</li>
+            <li>Attackers exploited the update mechanism of ShapedPlugin to inject malicious code into legitimate plugin updates, allowing them to gain control over affected WordPress sites.</li>
           
-            <li>Watch next: Monitor for any updates from Check Point Research regarding the evolution of this campaign.</li>
+            <li>Watch next: Monitor for updates from ShapedPlugin regarding the incident and any patches released to secure their plugins.</li>
           
         </ul>
 
@@ -573,9 +571,9 @@
             <div class="label">Key terms</div>
             <ul class="list">
             
-              <li>Crypto Clipper - a type of malware that intercepts cryptocurrency transactions to redirect funds to the attacker's wallet.</li>
+              <li>Supply Chain Attack - a type of cyber attack where an attacker infiltrates a system through an outside partner or service provider.</li>
             
-              <li>Phishing - a technique used to trick individuals into providing sensitive information by masquerading as a trustworthy entity.</li>
+              <li>Arbitrary Code Execution - a vulnerability that allows an attacker to run any code of their choosing on a target system.</li>
             
             </ul>
           </div>
@@ -585,11 +583,11 @@
           <div class="label">Defender focus</div>
           <ul class="list">
             
-            <li>Implement monitoring for unusual outbound traffic to known malicious domains.</li>
+            <li>Implement monitoring for unusual activity on WordPress sites using ShapedPlugin plugins.</li>
             
-            <li>Review and block access to suspicious posts or links on social media and news sites.</li>
+            <li>Review and audit all installed plugins for integrity and updates from trusted sources.</li>
             
-            <li>Educate users on recognizing fake reviews and phishing attempts related to cryptocurrency.</li>
+            <li>Prepare to respond to potential incidents by establishing a rollback plan for affected sites.</li>
             
           </ul>
         </div>
@@ -598,24 +596,24 @@
           <div class="label">Do now</div>
           <ul class="list">
             
-            <li>Increase monitoring for crypto-related phishing attempts.</li>
+            <li>Immediately assess and update all ShapedPlugin plugins to the latest secure versions.</li>
             
-            <li>Block known malicious domains associated with the campaign.</li>
+            <li>Conduct a security audit of affected WordPress sites to identify any signs of compromise.</li>
             
-            <li>Conduct a security awareness session focused on identifying fake reviews and phishing tactics.</li>
+            <li>Inform users and stakeholders about the potential risks and necessary precautions.</li>
             
           </ul>
         </div>
 
-        <div class="text-block"><span class="label">Watch next:</span> Monitor for any updates from Check Point Research regarding the evolution of this campaign.</div>
+        <div class="text-block"><span class="label">Watch next:</span> Monitor for updates from ShapedPlugin regarding the incident and any patches released to secure their plugins.</div>
 
         <div class="sources">
           <div class="label">Sources</div>
           
             
               <div>
-                <a href="https://thehackernews.com/2026/06/crypto-clipper-campaign-abuses-fake.html" target="_blank" rel="noopener noreferrer">
-                  The Hacker News - Crypto Clipper Campaign Abuses Fake Reviews, AI Narrators, and VirusTotal Comments
+                <a href="https://www.bleepingcomputer.com/news/security/shapedplugin-update-flow-hacked-to-infect-wordpress-sites/" target="_blank" rel="noopener noreferrer">
+                  BleepingComputer - ShapedPlugin update flow hacked to infect WordPress sites
                 </a>
               </div>
             
@@ -631,39 +629,39 @@
           
             <span class="chip label-chip">LEGAL POLICY</span>
           
-          <span class="chip chip-neutral">Execution</span>
+          <span class="chip chip-neutral">Initial Access</span>
           <span class="chip chip-neutral">Confidence LOW</span>
         </div>
         
-          <h3><a href="https://www.bleepingcomputer.com/news/security/f5-issues-out-of-band-patches-for-critical-nginx-vulnerabilities/" target="_blank" rel="noopener noreferrer">F5 issues out-of-band patches for critical NGINX vulnerabilities</a></h3>
+          <h3><a href="https://www.bleepingcomputer.com/news/security/apple-fixes-beats-studio-buds-flaw-that-let-hackers-spy-on-conversations/" target="_blank" rel="noopener noreferrer">Apple fixes Beats Studio Buds flaw that let hackers spy on conversations</a></h3>
         
-        <p class="hook">Immediate patching is essential as critical NGINX vulnerabilities could lead to remote code execution, putting systems at significant risk.</p>
+        <p class="hook">The recent vulnerability in Beats Studio Buds could allow attackers to eavesdrop on private conversations, posing significant privacy risks for users.</p>
         <div class="support-grid">
-          <div class="text-block"><span class="label">Who should care:</span> IT security teams managing NGINX deployments and web applications should be particularly vigilant.</div>
-          <div class="text-block"><span class="label">Attack path:</span> An attacker could exploit these vulnerabilities to execute arbitrary code remotely, gaining unauthorized access to the server.</div>
+          <div class="text-block"><span class="label">Who should care:</span> Users of Beats Studio Buds, particularly in business or sensitive settings, should prioritize applying the security update.</div>
+          <div class="text-block"><span class="label">Attack path:</span> An attacker could exploit the Bluetooth vulnerability to connect to the earbuds and gain unauthorized access to audio streams.</div>
         </div>
         <div class="text-block"><span class="label">Why this matters now:</span> A live patch or vendor fix gives defenders something concrete to validate.</div>
-        <div class="text-block"><span class="label">In plain English:</span> F5 has released urgent patches for critical vulnerabilities in NGINX that could allow attackers to execute malicious code.</div>
+        <div class="text-block"><span class="label">In plain English:</span> A serious flaw in Beats Studio Buds has been patched, which could have let hackers listen in on conversations.</div>
         
           <div class="tags">
             
-              <span>cve</span>
-            
-              <span>nginx</span>
-            
               <span>security</span>
+            
+              <span>vulnerability</span>
+            
+              <span>bluetooth</span>
             
           </div>
         
         <ul class="story-list">
           
-            <li>F5 has issued out-of-band security updates for multiple vulnerabilities in the NGINX web server, including two rated as critical. These flaws could enable attackers to execute arbitrary code on affected systems.</li>
+            <li>Apple has issued security updates to address a high-severity vulnerability in Beats Studio Buds. This flaw allowed attackers within Bluetooth range to potentially intercept audio, enabling them to spy on conversations.</li>
           
-            <li>If left unpatched, these vulnerabilities could be exploited to gain control over web servers, leading to data breaches or service disruptions. Organizations using NGINX should prioritize these updates to mitigate potential attacks.</li>
+            <li>The ability to eavesdrop on conversations can lead to severe privacy breaches and misuse of sensitive information. Users of these earbuds, especially in corporate or sensitive environments, need to be aware of the risks until they apply the update.</li>
           
-            <li>An attacker could exploit these vulnerabilities to execute arbitrary code remotely, gaining unauthorized access to the server.</li>
+            <li>An attacker could exploit the Bluetooth vulnerability to connect to the earbuds and gain unauthorized access to audio streams.</li>
           
-            <li>Watch next: Monitor for updates from F5 regarding any additional vulnerabilities or patches.</li>
+            <li>Watch next: Monitor for reports of any exploitation attempts targeting Beats Studio Buds users.</li>
           
         </ul>
 
@@ -672,9 +670,9 @@
             <div class="label">Key terms</div>
             <ul class="list">
             
-              <li>NGINX - a popular open-source web server software used to serve web content and applications.</li>
+              <li>Bluetooth - a wireless technology standard for exchanging data over short distances.</li>
             
-              <li>Remote Code Execution - a type of vulnerability that allows an attacker to run arbitrary code on a target system from a remote location.</li>
+              <li>Vulnerability - a weakness in a system that can be exploited by attackers.</li>
             
             </ul>
           </div>
@@ -684,11 +682,11 @@
           <div class="label">Defender focus</div>
           <ul class="list">
             
-            <li>Verify that all NGINX instances are updated with the latest patches.</li>
+            <li>Ensure all Beats Studio Buds users are notified to apply the latest security updates.</li>
             
-            <li>Monitor logs for any unusual activity that may indicate exploitation attempts.</li>
+            <li>Monitor for unusual Bluetooth connections in environments where Beats Studio Buds are used.</li>
             
-            <li>Assess the impact of these vulnerabilities on web applications and services.</li>
+            <li>Review access logs for any unauthorized Bluetooth pairing attempts.</li>
             
           </ul>
         </div>
@@ -697,24 +695,24 @@
           <div class="label">Do now</div>
           <ul class="list">
             
-            <li>Immediately apply the latest patches from F5 to all NGINX servers.</li>
+            <li>Immediately apply the latest security updates for Beats Studio Buds.</li>
             
-            <li>Conduct a vulnerability assessment to identify any unpatched systems.</li>
+            <li>Educate users on the importance of updating their devices regularly.</li>
             
-            <li>Review security configurations to ensure they are aligned with best practices.</li>
+            <li>Monitor for any signs of unauthorized access or eavesdropping attempts.</li>
             
           </ul>
         </div>
 
-        <div class="text-block"><span class="label">Watch next:</span> Monitor for updates from F5 regarding any additional vulnerabilities or patches.</div>
+        <div class="text-block"><span class="label">Watch next:</span> Monitor for reports of any exploitation attempts targeting Beats Studio Buds users.</div>
 
         <div class="sources">
           <div class="label">Sources</div>
           
             
               <div>
-                <a href="https://www.bleepingcomputer.com/news/security/f5-issues-out-of-band-patches-for-critical-nginx-vulnerabilities/" target="_blank" rel="noopener noreferrer">
-                  BleepingComputer - F5 issues out-of-band patches for critical NGINX vulnerabilities
+                <a href="https://www.bleepingcomputer.com/news/security/apple-fixes-beats-studio-buds-flaw-that-let-hackers-spy-on-conversations/" target="_blank" rel="noopener noreferrer">
+                  BleepingComputer - Apple fixes Beats Studio Buds flaw that let hackers spy on conversations
                 </a>
               </div>
             
@@ -724,43 +722,43 @@
             
               <article class="card" style="--i: 2;">
         <div class="meta">
-          <span class="chip risk-medium">MEDIUM</span>
+          <span class="chip risk-high">HIGH</span>
           
-            <span class="chip label-chip">INDUSTRY SIGNAL</span>
+            <span class="chip label-chip">RESEARCH</span>
           
-          <span class="chip chip-neutral">Persistence</span>
+          <span class="chip chip-neutral">Impact</span>
           <span class="chip chip-neutral">Confidence LOW</span>
         </div>
         
-          <h3><a href="https://thehackernews.com/2026/06/junior-hacker-used-tailscale-and.html" target="_blank" rel="noopener noreferrer">Junior Hacker Used Tailscale and OpenSSH to Keep Access After His C2 Went Offline</a></h3>
+          <h3><a href="https://thehackernews.com/2026/06/inc-ransomware-claims-830-victims-since.html" target="_blank" rel="noopener noreferrer">INC Ransomware Emerges as Major RaaS Threat in 2026 with 830+ Victims Since 2023</a></h3>
         
-        <p class="hook">This incident highlights the risk of persistent access methods that can bypass traditional command-and-control infrastructures, posing a long-term threat to affected organizations.</p>
+        <p class="hook">The emergence of INC ransomware as a leading RaaS threat poses significant risks to organizations, with over 830 victims reported since 2023.</p>
         <div class="support-grid">
-          <div class="text-block"><span class="label">Who should care:</span> IT security teams and incident response units within small to medium-sized businesses, particularly those in the automotive sector.</div>
-          <div class="text-block"><span class="label">Attack path:</span> The attacker leveraged Tailscale to create a secure network connection that bypassed traditional C2 channels, allowing for undetected re-entry into the compromised system.</div>
+          <div class="text-block"><span class="label">Who should care:</span> IT security teams and incident response units across all sectors should be particularly vigilant.</div>
+          <div class="text-block"><span class="label">Attack path:</span> Attackers leverage the RaaS model to distribute ransomware through affiliates, allowing for widespread deployment and increased impact.</div>
         </div>
         <div class="text-block"><span class="label">Why this matters now:</span> Useful context for teams tracking where attacker pressure is building.</div>
-        <div class="text-block"><span class="label">In plain English:</span> A hacker used Tailscale and OpenSSH to maintain access to a compromised system even after his main control server went offline.</div>
+        <div class="text-block"><span class="label">In plain English:</span> INC ransomware is rapidly growing and has already impacted many organizations since its inception.</div>
         
           <div class="tags">
             
-              <span>backdoor</span>
+              <span>ransomware</span>
             
-              <span>persistent access</span>
+              <span>raas</span>
             
-              <span>tailscale</span>
+              <span>cybercrime</span>
             
           </div>
         
         <ul class="story-list">
           
-            <li>A French-speaking attacker breached a small automotive business, deploying a keylogger to capture sensitive banking and email credentials. Before his command-and-control (C2) server became inactive, he installed OpenSSH and Tailscale on the victim's machine, creating a backdoor for future access.</li>
+            <li>INC ransomware has evolved into a major ransomware-as-a-service (RaaS) operation, claiming at least 830 victims since August 2023. This growth follows the disruption of other ransomware groups like LockBit and BlackCat, which has allowed INC to attract affiliates.</li>
           
-            <li>The use of Tailscale and OpenSSH allows attackers to establish persistent access that is harder to detect and mitigate. This method can enable ongoing data theft and further exploitation of the compromised environment, increasing the potential impact on the organization.</li>
+            <li>The rapid rise of INC ransomware indicates a shift in the cyber threat landscape, making it crucial for organizations to bolster their defenses. With a significant number of victims already affected, the potential for widespread disruption and financial loss is high.</li>
           
-            <li>The attacker leveraged Tailscale to create a secure network connection that bypassed traditional C2 channels, allowing for undetected re-entry into the compromised system.</li>
+            <li>Attackers leverage the RaaS model to distribute ransomware through affiliates, allowing for widespread deployment and increased impact.</li>
           
-            <li>Watch next: Monitor for any unusual outbound connections to Tailscale or OpenSSH services from internal networks.</li>
+            <li>Watch next: Monitor for updates on INC's tactics and any new vulnerabilities that may be exploited by this group.</li>
           
         </ul>
 
@@ -769,9 +767,9 @@
             <div class="label">Key terms</div>
             <ul class="list">
             
-              <li>Tailscale - a tool that creates secure networks between devices, allowing remote access without traditional VPN setups.</li>
+              <li>Ransomware - a type of malicious software that encrypts files and demands payment for their release.</li>
             
-              <li>OpenSSH - a protocol for secure remote login and other secure network services over an insecure network.</li>
+              <li>RaaS - Ransomware-as-a-Service, a business model where ransomware is offered as a service to affiliates who carry out attacks.</li>
             
             </ul>
           </div>
@@ -781,11 +779,11 @@
           <div class="label">Defender focus</div>
           <ul class="list">
             
-            <li>Implement monitoring for Tailscale and OpenSSH usage within your network.</li>
+            <li>Implement enhanced monitoring for unusual file encryption activities.</li>
             
-            <li>Review logs for unauthorized access attempts or unusual outbound connections.</li>
+            <li>Review and strengthen backup policies to ensure data can be restored without paying ransoms.</li>
             
-            <li>Conduct a thorough investigation of any systems that may have been compromised to identify and remove backdoors.</li>
+            <li>Conduct threat hunting exercises to identify potential indicators of INC ransomware activity.</li>
             
           </ul>
         </div>
@@ -794,24 +792,24 @@
           <div class="label">Do now</div>
           <ul class="list">
             
-            <li>Audit your network for unauthorized installations of Tailscale and OpenSSH.</li>
+            <li>Increase network segmentation to limit the spread of ransomware.</li>
             
-            <li>Enhance monitoring for unusual network traffic patterns.</li>
+            <li>Ensure all systems are updated with the latest security patches.</li>
             
-            <li>Educate staff on recognizing signs of compromise and reporting suspicious activity.</li>
+            <li>Educate staff on recognizing phishing attempts that may lead to ransomware infections.</li>
             
           </ul>
         </div>
 
-        <div class="text-block"><span class="label">Watch next:</span> Monitor for any unusual outbound connections to Tailscale or OpenSSH services from internal networks.</div>
+        <div class="text-block"><span class="label">Watch next:</span> Monitor for updates on INC's tactics and any new vulnerabilities that may be exploited by this group.</div>
 
         <div class="sources">
           <div class="label">Sources</div>
           
             
               <div>
-                <a href="https://thehackernews.com/2026/06/junior-hacker-used-tailscale-and.html" target="_blank" rel="noopener noreferrer">
-                  The Hacker News - Junior Hacker Used Tailscale and OpenSSH to Keep Access After His C2 Went Offline
+                <a href="https://thehackernews.com/2026/06/inc-ransomware-claims-830-victims-since.html" target="_blank" rel="noopener noreferrer">
+                  The Hacker News - INC Ransomware Emerges as Major RaaS Threat in 2026 with 830+ Victims Since 2023
                 </a>
               </div>
             

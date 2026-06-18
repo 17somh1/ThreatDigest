@@ -1,5 +1,5 @@
 {
-  "last_run_utc": "2026-06-18T11:46:18.363460+00:00",
+  "last_run_utc": "2026-06-18T15:47:13.814891+00:00",
   "processed_urls": [
     "https://www.bleepingcomputer.com/news/security/critical-cisco-sd-wan-bug-exploited-in-zero-day-attacks-since-2023/",
     "https://www.cisa.gov/news-events/alerts/2026/02/25/cisa-and-partners-release-guidance-ongoing-global-exploitation-cisco-sd-wan-systems",
@@ -740,6 +740,10 @@
     "https://thehackernews.com/2026/06/microsoft-confirms-rogueplanet-defender_02022423645.html",
     "https://www.bleepingcomputer.com/news/security/f5-issues-out-of-band-patches-for-critical-nginx-vulnerabilities/",
     "https://thehackernews.com/2026/06/crypto-clipper-campaign-abuses-fake.html",
-    "https://thehackernews.com/2026/06/junior-hacker-used-tailscale-and.html"
+    "https://thehackernews.com/2026/06/junior-hacker-used-tailscale-and.html",
+    "https://www.bleepingcomputer.com/news/security/shapedplugin-update-flow-hacked-to-infect-wordpress-sites/",
+    "https://www.bleepingcomputer.com/news/security/apple-fixes-beats-studio-buds-flaw-that-let-hackers-spy-on-conversations/",
+    "https://thehackernews.com/2026/06/inc-ransomware-claims-830-victims-since.html",
+    "https://thehackernews.com/2026/06/dragonforce-hackers-abuse-microsoft.html"
   ]
 }
