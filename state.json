@@ -1,5 +1,5 @@
 {
-  "last_run_utc": "2026-06-18T15:47:13.814891+00:00",
+  "last_run_utc": "2026-06-19T12:01:08.730240+00:00",
   "processed_urls": [
     "https://www.bleepingcomputer.com/news/security/critical-cisco-sd-wan-bug-exploited-in-zero-day-attacks-since-2023/",
     "https://www.cisa.gov/news-events/alerts/2026/02/25/cisa-and-partners-release-guidance-ongoing-global-exploitation-cisco-sd-wan-systems",
@@ -744,6 +744,13 @@
     "https://www.bleepingcomputer.com/news/security/shapedplugin-update-flow-hacked-to-infect-wordpress-sites/",
     "https://www.bleepingcomputer.com/news/security/apple-fixes-beats-studio-buds-flaw-that-let-hackers-spy-on-conversations/",
     "https://thehackernews.com/2026/06/inc-ransomware-claims-830-victims-since.html",
-    "https://thehackernews.com/2026/06/dragonforce-hackers-abuse-microsoft.html"
+    "https://thehackernews.com/2026/06/dragonforce-hackers-abuse-microsoft.html",
+    "https://www.bleepingcomputer.com/news/security/cisa-splunk-enterprise-flaw-actively-exploited-patch-by-sunday/",
+    "https://thehackernews.com/2026/06/apple-patches-beats-studio-buds-flaw.html",
+    "https://thehackernews.com/2026/06/f5-patches-two-critical-nginx-open.html",
+    "https://www.bleepingcomputer.com/news/security/cisa-warns-fortinet-users-to-secure-devices-after-fortibleed-leak/",
+    "https://www.bleepingcomputer.com/news/security/gentlemen-ransomware-uses-multiple-edr-killers-to-disable-defenses/",
+    "https://thehackernews.com/2026/06/forget-data-leakage-shadow-ais-real.html",
+    "https://thehackernews.com/2026/06/threatsday-bulletin-claude-chat-abuse.html"
   ]
 }
