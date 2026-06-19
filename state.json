@@ -1,5 +1,5 @@
 {
-  "last_run_utc": "2026-06-19T12:01:08.730240+00:00",
+  "last_run_utc": "2026-06-19T15:36:48.235983+00:00",
   "processed_urls": [
     "https://www.bleepingcomputer.com/news/security/critical-cisco-sd-wan-bug-exploited-in-zero-day-attacks-since-2023/",
     "https://www.cisa.gov/news-events/alerts/2026/02/25/cisa-and-partners-release-guidance-ongoing-global-exploitation-cisco-sd-wan-systems",
@@ -751,6 +751,7 @@
     "https://www.bleepingcomputer.com/news/security/cisa-warns-fortinet-users-to-secure-devices-after-fortibleed-leak/",
     "https://www.bleepingcomputer.com/news/security/gentlemen-ransomware-uses-multiple-edr-killers-to-disable-defenses/",
     "https://thehackernews.com/2026/06/forget-data-leakage-shadow-ais-real.html",
-    "https://thehackernews.com/2026/06/threatsday-bulletin-claude-chat-abuse.html"
+    "https://thehackernews.com/2026/06/threatsday-bulletin-claude-chat-abuse.html",
+    "https://www.bleepingcomputer.com/news/security/webinar-how-attackers-bypass-mfa-and-how-defenders-can-respond/"
   ]
 }
