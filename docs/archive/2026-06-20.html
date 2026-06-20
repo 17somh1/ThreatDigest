@@ -378,8 +378,8 @@
         The security news worth your attention, with context and practical takeaways.
       </p>
       <div class="meta-bar">
-        <span>Updated: 2026-06-20 10:28 UTC</span>
-        <span>Stories: 4</span>
+        <span>Updated: 2026-06-20 14:22 UTC</span>
+        <span>Stories: 1</span>
         <span>Recent issues: 14</span>
       </div>
     </header>
@@ -389,7 +389,7 @@
         <section class="one-liner">
           <h2>What Matters Today</h2>
           
-            <p class="text-block">Attackers are leveraging critical vulnerabilities in widely used plugins and hardware, increasing the pressure on security teams to respond swiftly.</p>
+            <p class="text-block">North Korean hackers have compromised over 140 npm packages, significantly threatening software supply chains and exposing many applications to risk.</p>
           
         </section>
 
@@ -398,11 +398,11 @@
           
             <ul>
               
-              <li>Exploits targeting popular plugins and hardware highlight the need for proactive patch management and vulnerability assessment.</li>
+              <li>Increased pressure on development teams to secure software supply chains against targeted attacks.</li>
               
-              <li>Emerging attack frameworks are compromising established security measures, necessitating a reevaluation of endpoint defense strategies.</li>
+              <li>Heightened risk for organizations relying on third-party npm packages, necessitating immediate review and mitigation strategies.</li>
               
-              <li>New attack vectors, such as AutoJack, emphasize the risks associated with user interaction-less exploits, urging developers to enhance security in web applications.</li>
+              <li>Emerging patterns of state-sponsored actors exploiting popular development tools to maximize impact and reach.</li>
               
             </ul>
           
@@ -418,47 +418,43 @@
           <div class="grid">
             <article class="card" style="--i: 0;">
         <div class="meta">
-          <span class="chip risk-medium">MEDIUM</span>
+          <span class="chip risk-high">HIGH</span>
           
-            <span class="chip label-chip">PATCH RELEASE</span>
+            <span class="chip label-chip">INDUSTRY SIGNAL</span>
           
-            <span class="chip label-chip">LEGAL POLICY</span>
-          
-            <span class="chip label-chip">RESEARCH</span>
-          
-          <span class="chip chip-neutral">Credential Access</span>
+          <span class="chip chip-neutral">Initial Access</span>
           <span class="chip chip-neutral">Confidence LOW</span>
         </div>
         
-          <h3><a href="https://thehackernews.com/2026/06/hackers-exploit-gravity-smtp-wordpress.html" target="_blank" rel="noopener noreferrer">Hackers Exploit Gravity SMTP WordPress Plugin Bug to Expose API Keys</a></h3>
+          <h3><a href="https://www.bleepingcomputer.com/news/security/microsoft-links-mastra-ai-supply-chain-attack-to-north-korean-hackers/" target="_blank" rel="noopener noreferrer">Microsoft links Mastra AI supply chain attack to North Korean hackers</a></h3>
         
-        <p class="hook">The exploitation of a vulnerability in the Gravity SMTP plugin could lead to unauthorized access to sensitive API keys, impacting numerous WordPress sites.</p>
+        <p class="hook">The compromise of over 140 npm packages by North Korean hackers poses a significant threat to software supply chains, potentially impacting countless applications and users.</p>
         <div class="support-grid">
-          <div class="text-block"><span class="label">Who should care:</span> WordPress site administrators and security teams managing sites using the Gravity SMTP plugin.</div>
-          <div class="text-block"><span class="label">Attack path:</span> An attacker can exploit the vulnerability to extract sensitive configuration data without needing authentication, making it easier to compromise affected sites.</div>
+          <div class="text-block"><span class="label">Who should care:</span> Development teams and organizations utilizing npm packages in their applications are most exposed.</div>
+          <div class="text-block"><span class="label">Attack path:</span> Attackers can leverage compromised npm packages to distribute malicious code to users who download and install these packages. This can lead to unauthorized access or data exfiltration.</div>
         </div>
-        <div class="text-block"><span class="label">Why this matters now:</span> A live patch or vendor fix gives defenders something concrete to validate.</div>
-        <div class="text-block"><span class="label">In plain English:</span> Hackers are using a flaw in a popular WordPress plugin to steal sensitive data from websites.</div>
+        <div class="text-block"><span class="label">Why this matters now:</span> Useful context for teams tracking where attacker pressure is building.</div>
+        <div class="text-block"><span class="label">In plain English:</span> North Korean hackers have attacked the Mastra AI supply chain, affecting numerous npm packages.</div>
         
           <div class="tags">
             
-              <span>cve</span>
+              <span>supply chain</span>
             
-              <span>wordpress</span>
+              <span>npm</span>
             
-              <span>plugin</span>
+              <span>north korean</span>
             
           </div>
         
         <ul class="story-list">
           
-            <li>Threat actors are actively exploiting a recently patched vulnerability in the Gravity SMTP WordPress plugin, affecting around 100,000 sites. This flaw, identified as CVE-2026-4020, allows unauthenticated attackers to access sensitive information such as API keys and OAuth tokens.</li>
+            <li>Microsoft has linked a supply chain attack on Mastra AI to the North Korean hacking group known as Sapphire Sleet. This attack compromised more than 140 npm packages, which could lead to widespread vulnerabilities in applications using these packages.</li>
           
-            <li>The exposure of API keys and other sensitive data can lead to further attacks on affected sites, including unauthorized access to third-party services. Organizations using this plugin must act quickly to mitigate potential data breaches and protect their assets.</li>
+            <li>The attack highlights the risks associated with software supply chains, where compromised packages can introduce malware into legitimate applications. Organizations using affected npm packages may face security breaches, data loss, or operational disruptions.</li>
           
-            <li>An attacker can exploit the vulnerability to extract sensitive configuration data without needing authentication, making it easier to compromise affected sites.</li>
+            <li>Attackers can leverage compromised npm packages to distribute malicious code to users who download and install these packages. This can lead to unauthorized access or data exfiltration.</li>
           
-            <li>Watch next: Monitor for updates from plugin developers and any reports of compromised sites using the Gravity SMTP plugin.</li>
+            <li>Watch next: Monitor for updates from Microsoft regarding affected packages and any patches or mitigations they recommend.</li>
           
         </ul>
 
@@ -467,9 +463,9 @@
             <div class="label">Key terms</div>
             <ul class="list">
             
-              <li>CVE - Common Vulnerabilities and Exposures, a list of publicly disclosed cybersecurity vulnerabilities.</li>
+              <li>npm - a package manager for JavaScript that allows developers to share and reuse code.</li>
             
-              <li>API Key - A code passed in by computer programs calling an API to identify the calling program.</li>
+              <li>supply chain attack - a type of cyberattack that targets the supply chain of software to compromise legitimate software products.</li>
             
             </ul>
           </div>
@@ -479,11 +475,11 @@
           <div class="label">Defender focus</div>
           <ul class="list">
             
-            <li>Implement monitoring for unusual API calls from affected sites.</li>
+            <li>Identify and audit all npm packages in use to determine if any are affected by this attack.</li>
             
-            <li>Check for unauthorized access attempts using exposed API keys.</li>
+            <li>Implement monitoring for unusual activity related to the use of npm packages.</li>
             
-            <li>Ensure the Gravity SMTP plugin is updated to the latest version across all WordPress installations.</li>
+            <li>Establish a process for quickly updating or replacing compromised packages.</li>
             
           </ul>
         </div>
@@ -492,24 +488,24 @@
           <div class="label">Do now</div>
           <ul class="list">
             
-            <li>Update the Gravity SMTP plugin to the latest version immediately.</li>
+            <li>Conduct an immediate inventory of npm packages in use.</li>
             
-            <li>Review and rotate API keys and secrets that may have been exposed.</li>
+            <li>Review and apply any security patches provided by Microsoft.</li>
             
-            <li>Conduct a security audit of affected WordPress sites to identify any unauthorized access.</li>
+            <li>Educate development teams on the risks of using third-party packages.</li>
             
           </ul>
         </div>
 
-        <div class="text-block"><span class="label">Watch next:</span> Monitor for updates from plugin developers and any reports of compromised sites using the Gravity SMTP plugin.</div>
+        <div class="text-block"><span class="label">Watch next:</span> Monitor for updates from Microsoft regarding affected packages and any patches or mitigations they recommend.</div>
 
         <div class="sources">
           <div class="label">Sources</div>
           
             
               <div>
-                <a href="https://thehackernews.com/2026/06/hackers-exploit-gravity-smtp-wordpress.html" target="_blank" rel="noopener noreferrer">
-                  The Hacker News - Hackers Exploit Gravity SMTP WordPress Plugin Bug to Expose API Keys
+                <a href="https://www.bleepingcomputer.com/news/security/microsoft-links-mastra-ai-supply-chain-attack-to-north-korean-hackers/" target="_blank" rel="noopener noreferrer">
+                  BleepingComputer - Microsoft links Mastra AI supply chain attack to North Korean hackers
                 </a>
               </div>
             
@@ -526,304 +522,7 @@
           Priority Watchlist
         </div>
         
-          <div class="grid">
-            
-              <article class="card" style="--i: 0;">
-        <div class="meta">
-          <span class="chip risk-high">HIGH</span>
-          
-            <span class="chip label-chip">PATCH RELEASE</span>
-          
-            <span class="chip label-chip">LEGAL POLICY</span>
-          
-            <span class="chip label-chip">RESEARCH</span>
-          
-          <span class="chip chip-neutral">Initial Access</span>
-          <span class="chip chip-neutral">Confidence LOW</span>
-        </div>
-        
-          <h3><a href="https://thehackernews.com/2026/06/unpatchable-usbliter8-exploit-breaks.html" target="_blank" rel="noopener noreferrer">Unpatchable 'usbliter8' Exploit Breaks Apple A12 and A13 SecureROM Boot Chain</a></h3>
-        
-        <p class="hook">The unpatchable usbliter8 exploit poses a significant risk to the integrity of Apple A12 and A13 devices, potentially allowing attackers to execute arbitrary code at the hardware level.</p>
-        <div class="support-grid">
-          <div class="text-block"><span class="label">Who should care:</span> Device security teams and users of Apple A12 and A13 chip-based products should be particularly vigilant.</div>
-          <div class="text-block"><span class="label">Attack path:</span> An attacker would need physical access to the device to exploit the vulnerability, allowing them to execute malicious code directly on the hardware.</div>
-        </div>
-        <div class="text-block"><span class="label">Why this matters now:</span> A live patch or vendor fix gives defenders something concrete to validate.</div>
-        <div class="text-block"><span class="label">In plain English:</span> A new exploit affects Apple A12 and A13 chips, allowing permanent code execution vulnerabilities that cannot be patched.</div>
-        
-          <div class="tags">
-            
-              <span>exploit</span>
-            
-              <span>hardware</span>
-            
-              <span>security</span>
-            
-          </div>
-        
-        <ul class="story-list">
-          
-            <li>Security researchers have disclosed a new exploit named usbliter8 that targets the SecureROM of Apple's A12 and A13 chips. This exploit allows for arbitrary code execution, which is particularly dangerous as it is embedded in the silicon and cannot be patched through software updates.</li>
-          
-            <li>The existence of this exploit means that any device using the affected chips is permanently vulnerable, which could lead to severe security breaches. Attackers could potentially gain control over devices, leading to data theft or unauthorized access to sensitive information.</li>
-          
-            <li>An attacker would need physical access to the device to exploit the vulnerability, allowing them to execute malicious code directly on the hardware.</li>
-          
-            <li>Watch next: Monitor for any updates from Apple regarding mitigation strategies or hardware replacements.</li>
-          
-        </ul>
-
-        
-          <div class="glossary">
-            <div class="label">Key terms</div>
-            <ul class="list">
-            
-              <li>SecureROM - a read-only memory that contains critical boot code for a device, which cannot be modified after manufacturing.</li>
-            
-              <li>Arbitrary Code Execution - the ability for an attacker to run any code of their choosing on a device.</li>
-            
-            </ul>
-          </div>
-        
-
-        <div>
-          <div class="label">Defender focus</div>
-          <ul class="list">
-            
-            <li>Implement strict physical security measures to prevent unauthorized access to devices.</li>
-            
-            <li>Monitor for unusual device behavior that may indicate exploitation.</li>
-            
-            <li>Review and update incident response plans to include scenarios involving hardware-level exploits.</li>
-            
-          </ul>
-        </div>
-
-        <div>
-          <div class="label">Do now</div>
-          <ul class="list">
-            
-            <li>Assess the inventory of devices using A12 and A13 chips.</li>
-            
-            <li>Enhance physical security protocols for sensitive devices.</li>
-            
-            <li>Stay informed on any official guidance from Apple regarding this exploit.</li>
-            
-          </ul>
-        </div>
-
-        <div class="text-block"><span class="label">Watch next:</span> Monitor for any updates from Apple regarding mitigation strategies or hardware replacements.</div>
-
-        <div class="sources">
-          <div class="label">Sources</div>
-          
-            
-              <div>
-                <a href="https://thehackernews.com/2026/06/unpatchable-usbliter8-exploit-breaks.html" target="_blank" rel="noopener noreferrer">
-                  The Hacker News - Unpatchable 'usbliter8' Exploit Breaks Apple A12 and A13 SecureROM Boot Chain
-                </a>
-              </div>
-            
-          
-        </div>
-      </article>
-            
-              <article class="card" style="--i: 1;">
-        <div class="meta">
-          <span class="chip risk-high">HIGH</span>
-          
-            <span class="chip label-chip">INDUSTRY SIGNAL</span>
-          
-          <span class="chip chip-neutral">Initial Access</span>
-          <span class="chip chip-neutral">Confidence LOW</span>
-        </div>
-        
-          <h3><a href="https://thehackernews.com/2026/06/the-gentlemen-raas-uses-gentlekiller.html" target="_blank" rel="noopener noreferrer">The Gentlemen RaaS Uses GentleKiller EDR Framework Targeting 400 Security Processes</a></h3>
-        
-        <p class="hook">The emergence of the GentleKiller EDR framework poses a significant threat to endpoint security, potentially compromising defenses for numerous organizations.</p>
-        <div class="support-grid">
-          <div class="text-block"><span class="label">Who should care:</span> Security teams, incident response teams, and organizations relying on EDR solutions are most exposed.</div>
-          <div class="text-block"><span class="label">Attack path:</span> Attackers can leverage the GentleKiller framework to disable security measures, making it easier to execute ransomware attacks without detection.</div>
-        </div>
-        <div class="text-block"><span class="label">Why this matters now:</span> Useful context for teams tracking where attacker pressure is building.</div>
-        <div class="text-block"><span class="label">In plain English:</span> A new ransomware operation is using advanced tools to disable security measures before launching attacks.</div>
-        
-          <div class="tags">
-            
-              <span>ransomware</span>
-            
-              <span>edr</span>
-            
-              <span>gentlekiller</span>
-            
-          </div>
-        
-        <ul class="story-list">
-          
-            <li>The Gentlemen ransomware-as-a-service (RaaS) operation has developed a suite of tools called GentleKiller that can disable endpoint detection and response (EDR) systems. This framework is being distributed to affiliates, allowing them to impair security processes in targeted environments before deploying ransomware.</li>
-          
-            <li>The ability to disable EDR systems significantly increases the likelihood of successful ransomware attacks, as organizations may be unaware of the breach until it is too late. This could lead to extensive data loss, operational disruption, and financial repercussions for affected organizations.</li>
-          
-            <li>Attackers can leverage the GentleKiller framework to disable security measures, making it easier to execute ransomware attacks without detection.</li>
-          
-            <li>Watch next: Monitor for updates on the Gentlemen RaaS operations and any new developments regarding the GentleKiller framework.</li>
-          
-        </ul>
-
-        
-          <div class="glossary">
-            <div class="label">Key terms</div>
-            <ul class="list">
-            
-              <li>RaaS - Ransomware-as-a-Service, a model where attackers provide ransomware tools to affiliates for a share of the profits.</li>
-            
-              <li>EDR - Endpoint Detection and Response, a cybersecurity technology that monitors and responds to threats on endpoint devices.</li>
-            
-            </ul>
-          </div>
-        
-
-        <div>
-          <div class="label">Defender focus</div>
-          <ul class="list">
-            
-            <li>Implement monitoring for unusual process termination events on endpoints.</li>
-            
-            <li>Review and enhance EDR configurations to ensure they are resilient against known bypass techniques.</li>
-            
-            <li>Conduct threat hunting exercises to identify potential indicators of compromise related to GentleKiller.</li>
-            
-          </ul>
-        </div>
-
-        <div>
-          <div class="label">Do now</div>
-          <ul class="list">
-            
-            <li>Assess current EDR capabilities and identify potential weaknesses.</li>
-            
-            <li>Increase logging and monitoring of endpoint activities to detect anomalies.</li>
-            
-            <li>Stay informed about the latest threat intelligence regarding ransomware operations.</li>
-            
-          </ul>
-        </div>
-
-        <div class="text-block"><span class="label">Watch next:</span> Monitor for updates on the Gentlemen RaaS operations and any new developments regarding the GentleKiller framework.</div>
-
-        <div class="sources">
-          <div class="label">Sources</div>
-          
-            
-              <div>
-                <a href="https://thehackernews.com/2026/06/the-gentlemen-raas-uses-gentlekiller.html" target="_blank" rel="noopener noreferrer">
-                  The Hacker News - The Gentlemen RaaS Uses GentleKiller EDR Framework Targeting 400 Security Processes
-                </a>
-              </div>
-            
-          
-        </div>
-      </article>
-            
-              <article class="card" style="--i: 2;">
-        <div class="meta">
-          <span class="chip risk-high">HIGH</span>
-          
-            <span class="chip label-chip">RESEARCH</span>
-          
-          <span class="chip chip-neutral">Execution</span>
-          <span class="chip chip-neutral">Confidence LOW</span>
-        </div>
-        
-          <h3><a href="https://thehackernews.com/2026/06/autojack-attack-lets-one-web-page.html" target="_blank" rel="noopener noreferrer">AutoJack Attack Lets One Web Page Hijack AI Agent for Host Code Execution</a></h3>
-        
-        <p class="hook">The AutoJack attack poses a significant risk as it allows attackers to execute code on a host machine without user interaction, potentially leading to severe data breaches.</p>
-        <div class="support-grid">
-          <div class="text-block"><span class="label">Who should care:</span> Development and security teams working with AI agents and web applications should prioritize this vulnerability.</div>
-          <div class="text-block"><span class="label">Attack path:</span> An attacker can exploit the AI agent by tricking it into loading a malicious web page, which then executes code on the host machine.</div>
-        </div>
-        <div class="text-block"><span class="label">Why this matters now:</span> Useful context for teams tracking where attacker pressure is building.</div>
-        <div class="text-block"><span class="label">In plain English:</span> A new exploit can hijack AI agents to run malicious code on users' machines without their knowledge.</div>
-        
-          <div class="tags">
-            
-              <span>ransomware</span>
-            
-              <span>cve</span>
-            
-              <span>cloud</span>
-            
-          </div>
-        
-        <ul class="story-list">
-          
-            <li>Microsoft researchers have identified an exploit chain called AutoJack that enables an attacker to leverage an AI browsing agent to execute remote code. By directing the agent to a malicious web page, the attacker's JavaScript can access local services and execute processes on the host machine.</li>
-          
-            <li>This vulnerability allows for remote code execution without requiring user credentials or interaction, making it a potent threat for organizations using AI agents. If exploited, it could lead to unauthorized access to sensitive data and systems.</li>
-          
-            <li>An attacker can exploit the AI agent by tricking it into loading a malicious web page, which then executes code on the host machine.</li>
-          
-            <li>Watch next: Monitor for updates from Microsoft regarding patches or mitigations for this vulnerability.</li>
-          
-        </ul>
-
-        
-          <div class="glossary">
-            <div class="label">Key terms</div>
-            <ul class="list">
-            
-              <li>Remote Code Execution - a type of attack where an attacker can run arbitrary code on a victim's machine.</li>
-            
-              <li>JavaScript - a programming language commonly used in web development that can be executed in web browsers.</li>
-            
-            </ul>
-          </div>
-        
-
-        <div>
-          <div class="label">Defender focus</div>
-          <ul class="list">
-            
-            <li>Implement monitoring for unusual process creation from AI agents.</li>
-            
-            <li>Review web traffic to detect connections to known malicious domains.</li>
-            
-            <li>Ensure that AI agents are updated with the latest security patches.</li>
-            
-          </ul>
-        </div>
-
-        <div>
-          <div class="label">Do now</div>
-          <ul class="list">
-            
-            <li>Assess the use of AI agents in your environment for potential exposure.</li>
-            
-            <li>Apply any available patches from Microsoft as soon as possible.</li>
-            
-            <li>Educate development teams on secure coding practices to mitigate similar vulnerabilities.</li>
-            
-          </ul>
-        </div>
-
-        <div class="text-block"><span class="label">Watch next:</span> Monitor for updates from Microsoft regarding patches or mitigations for this vulnerability.</div>
-
-        <div class="sources">
-          <div class="label">Sources</div>
-          
-            
-              <div>
-                <a href="https://thehackernews.com/2026/06/autojack-attack-lets-one-web-page.html" target="_blank" rel="noopener noreferrer">
-                  The Hacker News - AutoJack Attack Lets One Web Page Hijack AI Agent for Host Code Execution
-                </a>
-              </div>
-            
-          
-        </div>
-      </article>
-            
-          </div>
+          <p class="empty">No additional top stories.</p>
         
       </section>
 
