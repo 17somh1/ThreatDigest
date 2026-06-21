@@ -378,8 +378,8 @@
         The security news worth your attention, with context and practical takeaways.
       </p>
       <div class="meta-bar">
-        <span>Updated: 2026-06-21 11:11 UTC</span>
-        <span>Stories: 1</span>
+        <span>Updated: 2026-06-21 14:27 UTC</span>
+        <span>Stories: 6</span>
         <span>Recent issues: 14</span>
       </div>
     </header>
@@ -389,7 +389,7 @@
         <section class="one-liner">
           <h2>What Matters Today</h2>
           
-            <p class="text-block">The new Prinz Eugen ransomware is a high-risk threat that targets recent files, complicating data recovery efforts for organizations.</p>
+            <p class="text-block">Multiple high-risk vulnerabilities and emerging threats highlight the urgent need for proactive security measures across various platforms and technologies.</p>
           
         </section>
 
@@ -398,11 +398,11 @@
           
             <ul>
               
-              <li>Ransomware tactics are evolving to focus on recent file activity, increasing the urgency for data protection measures.</li>
+              <li>Exploitation of widely used plugins can lead to unauthorized access, emphasizing the need for regular updates and monitoring.</li>
               
-              <li>The lack of a ransom note indicates a shift towards stealthy attacks, making detection and response more challenging for defenders.</li>
+              <li>Ransomware targeting recent files indicates a shift in attacker focus, necessitating enhanced data protection strategies.</li>
               
-              <li>Organizations with frequent file modifications face heightened risk, necessitating enhanced monitoring and backup strategies.</li>
+              <li>Supply chain attacks are on the rise, urging organizations to scrutinize dependencies and ensure secure coding practices.</li>
               
             </ul>
           
@@ -418,39 +418,47 @@
           <div class="grid">
             <article class="card" style="--i: 0;">
         <div class="meta">
-          <span class="chip risk-high">HIGH</span>
+          <span class="chip risk-medium">MEDIUM</span>
           
-            <span class="chip label-chip">INDUSTRY SIGNAL</span>
+            <span class="chip label-chip">PATCH RELEASE</span>
           
-          <span class="chip chip-neutral">Impact</span>
+            <span class="chip label-chip">LEGAL POLICY</span>
+          
+            <span class="chip label-chip">RESEARCH</span>
+          
+          <span class="chip chip-neutral">Credential Access</span>
           <span class="chip chip-neutral">Confidence LOW</span>
         </div>
         
-          <h3><a href="https://www.bleepingcomputer.com/news/security/new-prinz-eugen-ransomware-prioritizes-recent-files-for-encryption/" target="_blank" rel="noopener noreferrer">New Prinz Eugen ransomware prioritizes recent files for encryption</a></h3>
+          <h3><a href="https://thehackernews.com/2026/06/hackers-exploit-gravity-smtp-wordpress.html" target="_blank" rel="noopener noreferrer">Hackers Exploit Gravity SMTP WordPress Plugin Bug to Expose API Keys</a></h3>
         
-        <p class="hook">The emergence of the Prinz Eugen ransomware, which targets recent files without leaving a ransom note, poses a significant threat to data integrity and recovery efforts.</p>
+        <p class="hook">Exploitation of a vulnerability in a widely used WordPress plugin could lead to unauthorized access to sensitive API keys across numerous sites.</p>
         <div class="support-grid">
-          <div class="text-block"><span class="label">Who should care:</span> IT security teams, data recovery specialists, and organizations with high volumes of file modifications should be particularly vigilant.</div>
-          <div class="text-block"><span class="label">Attack path:</span> Attackers likely exploit vulnerabilities to gain initial access and then deploy the ransomware to encrypt files without alerting the user through a ransom note.</div>
+          <div class="text-block"><span class="label">Who should care:</span> WordPress site administrators and security teams managing sites with the Gravity SMTP plugin should be particularly vigilant.</div>
+          <div class="text-block"><span class="label">Attack path:</span> Attackers can exploit the vulnerability to gain access to sensitive data without authentication, making it easier to compromise connected services.</div>
         </div>
-        <div class="text-block"><span class="label">Why this matters now:</span> Useful context for teams tracking where attacker pressure is building.</div>
-        <div class="text-block"><span class="label">In plain English:</span> A new ransomware called Prinz Eugen encrypts recent files and does not provide a ransom note, complicating recovery.</div>
+        <div class="text-block"><span class="label">Why this matters now:</span> A live patch or vendor fix gives defenders something concrete to validate.</div>
+        <div class="text-block"><span class="label">In plain English:</span> Hackers are exploiting a flaw in the Gravity SMTP plugin to access sensitive data on WordPress sites.</div>
         
           <div class="tags">
             
-              <span>ransomware</span>
+              <span>cve</span>
+            
+              <span>wordpress</span>
+            
+              <span>plugin</span>
             
           </div>
         
         <ul class="story-list">
           
-            <li>A new ransomware variant named Prinz Eugen has been identified, which specifically targets recently modified files for encryption. Unlike traditional ransomware, it does not leave a ransom note on the infected systems, making it harder for victims to understand the attack.</li>
+            <li>Threat actors are actively exploiting a recently patched vulnerability in the Gravity SMTP WordPress plugin, affecting approximately 100,000 installations. This vulnerability, identified as CVE-2026-4020, allows unauthenticated attackers to extract sensitive configuration data, including API keys and OAuth tokens.</li>
           
-            <li>The lack of a ransom note can lead to confusion and delays in response, as victims may not realize they have been attacked until it is too late. This ransomware's focus on recent files increases the risk of critical data loss, especially for organizations that frequently update their files.</li>
+            <li>The exposure of API keys and secrets can lead to further attacks, including unauthorized access to other services and data breaches. Organizations using this plugin should prioritize patching to mitigate the risk of data exposure and potential exploitation.</li>
           
-            <li>Attackers likely exploit vulnerabilities to gain initial access and then deploy the ransomware to encrypt files without alerting the user through a ransom note.</li>
+            <li>Attackers can exploit the vulnerability to gain access to sensitive data without authentication, making it easier to compromise connected services.</li>
           
-            <li>Watch next: Monitor for updates on the ransomware's spread and any emerging decryption tools from cybersecurity vendors.</li>
+            <li>Watch next: Monitor for updates from the Gravity SMTP plugin developers and any reports of compromised sites.</li>
           
         </ul>
 
@@ -459,9 +467,9 @@
             <div class="label">Key terms</div>
             <ul class="list">
             
-              <li>Ransomware - a type of malicious software that encrypts files and demands payment for their release.</li>
+              <li>CVE - Common Vulnerabilities and Exposures, a list of publicly disclosed cybersecurity vulnerabilities.</li>
             
-              <li>Encryption - the process of converting data into a coded format to prevent unauthorized access.</li>
+              <li>API Key - A code passed in by computer programs calling an API (Application Programming Interface) to identify the calling program.</li>
             
             </ul>
           </div>
@@ -471,11 +479,11 @@
           <div class="label">Defender focus</div>
           <ul class="list">
             
-            <li>Implement file integrity monitoring to detect unauthorized changes.</li>
+            <li>Implement monitoring for unusual API calls from affected WordPress sites.</li>
             
-            <li>Ensure regular backups are in place and test recovery procedures.</li>
+            <li>Review logs for unauthorized access attempts related to the Gravity SMTP plugin.</li>
             
-            <li>Review and patch vulnerabilities that could be exploited for initial access.</li>
+            <li>Ensure all instances of the Gravity SMTP plugin are updated to the latest version.</li>
             
           </ul>
         </div>
@@ -484,24 +492,24 @@
           <div class="label">Do now</div>
           <ul class="list">
             
-            <li>Enhance monitoring for unusual file modifications.</li>
+            <li>Immediately update the Gravity SMTP plugin to the latest version.</li>
             
-            <li>Conduct a vulnerability assessment to identify potential entry points.</li>
+            <li>Audit your WordPress sites for any exposed API keys or sensitive data.</li>
             
-            <li>Educate staff on recognizing signs of ransomware attacks.</li>
+            <li>Consider implementing additional security measures, such as API key rotation.</li>
             
           </ul>
         </div>
 
-        <div class="text-block"><span class="label">Watch next:</span> Monitor for updates on the ransomware's spread and any emerging decryption tools from cybersecurity vendors.</div>
+        <div class="text-block"><span class="label">Watch next:</span> Monitor for updates from the Gravity SMTP plugin developers and any reports of compromised sites.</div>
 
         <div class="sources">
           <div class="label">Sources</div>
           
             
               <div>
-                <a href="https://www.bleepingcomputer.com/news/security/new-prinz-eugen-ransomware-prioritizes-recent-files-for-encryption/" target="_blank" rel="noopener noreferrer">
-                  BleepingComputer - New Prinz Eugen ransomware prioritizes recent files for encryption
+                <a href="https://thehackernews.com/2026/06/hackers-exploit-gravity-smtp-wordpress.html" target="_blank" rel="noopener noreferrer">
+                  The Hacker News - Hackers Exploit Gravity SMTP WordPress Plugin Bug to Expose API Keys
                 </a>
               </div>
             
@@ -518,7 +526,300 @@
           Priority Watchlist
         </div>
         
-          <p class="empty">No additional top stories.</p>
+          <div class="grid">
+            
+              <article class="card" style="--i: 0;">
+        <div class="meta">
+          <span class="chip risk-high">HIGH</span>
+          
+            <span class="chip label-chip">INDUSTRY SIGNAL</span>
+          
+          <span class="chip chip-neutral">Impact</span>
+          <span class="chip chip-neutral">Confidence LOW</span>
+        </div>
+        
+          <h3><a href="https://www.bleepingcomputer.com/news/security/new-prinz-eugen-ransomware-prioritizes-recent-files-for-encryption/" target="_blank" rel="noopener noreferrer">New Prinz Eugen ransomware prioritizes recent files for encryption</a></h3>
+        
+        <p class="hook">The emergence of the Prinz Eugen ransomware could lead to significant data loss for organizations that fail to protect their recent files.</p>
+        <div class="support-grid">
+          <div class="text-block"><span class="label">Who should care:</span> IT security teams, data management teams, and organizations with critical data that is frequently modified should be particularly vigilant.</div>
+          <div class="text-block"><span class="label">Attack path:</span> Attackers likely gain access through common vectors such as phishing or exploiting vulnerabilities, then deploy the ransomware to encrypt files without alerting the user.</div>
+        </div>
+        <div class="text-block"><span class="label">Why this matters now:</span> Useful context for teams tracking where attacker pressure is building.</div>
+        <div class="text-block"><span class="label">In plain English:</span> A new ransomware called Prinz Eugen targets recently modified files without leaving a ransom note.</div>
+        
+          <div class="tags">
+            
+              <span>ransomware</span>
+            
+          </div>
+        
+        <ul class="story-list">
+          
+            <li>A new ransomware variant named Prinz Eugen has been identified, which specifically prioritizes the encryption of recently modified files. Notably, it does not leave a ransom note on the infected systems, complicating recovery efforts.</li>
+          
+            <li>This ransomware's focus on recent files means that critical and potentially unrecoverable data could be lost if organizations do not have robust backup solutions. The absence of a ransom note may also hinder incident response and recovery processes.</li>
+          
+            <li>Attackers likely gain access through common vectors such as phishing or exploiting vulnerabilities, then deploy the ransomware to encrypt files without alerting the user.</li>
+          
+            <li>Watch next: Monitor for updates on the ransomware's distribution methods and any emerging indicators of compromise.</li>
+          
+        </ul>
+
+        
+          <div class="glossary">
+            <div class="label">Key terms</div>
+            <ul class="list">
+            
+              <li>Ransomware - a type of malicious software that encrypts files on a victim's system, demanding payment for decryption.</li>
+            
+              <li>Backup - a copy of data stored separately to prevent loss in case of data corruption or ransomware attacks.</li>
+            
+            </ul>
+          </div>
+        
+
+        <div>
+          <div class="label">Defender focus</div>
+          <ul class="list">
+            
+            <li>Implement file integrity monitoring to detect unauthorized changes to recent files.</li>
+            
+            <li>Ensure regular backups are in place and test recovery procedures frequently.</li>
+            
+            <li>Review and enhance email filtering and endpoint protection to reduce initial access risks.</li>
+            
+          </ul>
+        </div>
+
+        <div>
+          <div class="label">Do now</div>
+          <ul class="list">
+            
+            <li>Immediately assess and strengthen backup strategies for recent files.</li>
+            
+            <li>Enhance monitoring for unusual file access patterns.</li>
+            
+            <li>Educate teams on recognizing potential phishing attempts that could lead to ransomware deployment.</li>
+            
+          </ul>
+        </div>
+
+        <div class="text-block"><span class="label">Watch next:</span> Monitor for updates on the ransomware's distribution methods and any emerging indicators of compromise.</div>
+
+        <div class="sources">
+          <div class="label">Sources</div>
+          
+            
+              <div>
+                <a href="https://www.bleepingcomputer.com/news/security/new-prinz-eugen-ransomware-prioritizes-recent-files-for-encryption/" target="_blank" rel="noopener noreferrer">
+                  BleepingComputer - New Prinz Eugen ransomware prioritizes recent files for encryption
+                </a>
+              </div>
+            
+          
+        </div>
+      </article>
+            
+              <article class="card" style="--i: 1;">
+        <div class="meta">
+          <span class="chip risk-high">HIGH</span>
+          
+            <span class="chip label-chip">INDUSTRY SIGNAL</span>
+          
+          <span class="chip chip-neutral">Initial Access</span>
+          <span class="chip chip-neutral">Confidence LOW</span>
+        </div>
+        
+          <h3><a href="https://www.bleepingcomputer.com/news/security/microsoft-links-mastra-ai-supply-chain-attack-to-north-korean-hackers/" target="_blank" rel="noopener noreferrer">Microsoft links Mastra AI supply chain attack to North Korean hackers</a></h3>
+        
+        <p class="hook">The compromise of over 140 npm packages by North Korean hackers poses a significant threat to software supply chains, potentially impacting numerous organizations relying on these packages.</p>
+        <div class="support-grid">
+          <div class="text-block"><span class="label">Who should care:</span> Development teams and organizations that utilize npm packages in their software projects should be particularly vigilant.</div>
+          <div class="text-block"><span class="label">Attack path:</span> Attackers can leverage compromised npm packages to distribute malicious code to any software that incorporates these packages, potentially leading to widespread exploitation.</div>
+        </div>
+        <div class="text-block"><span class="label">Why this matters now:</span> Useful context for teams tracking where attacker pressure is building.</div>
+        <div class="text-block"><span class="label">In plain English:</span> North Korean hackers have compromised a large number of npm packages, which could affect many software projects.</div>
+        
+          <div class="tags">
+            
+              <span>supply chain</span>
+            
+              <span>npm</span>
+            
+              <span>north korean hackers</span>
+            
+          </div>
+        
+        <ul class="story-list">
+          
+            <li>Microsoft has linked a supply chain attack involving the Mastra AI platform to the North Korean hacking group Sapphire Sleet. This attack has compromised more than 140 npm packages, which are widely used in software development.</li>
+          
+            <li>The compromised npm packages could introduce vulnerabilities into software projects, allowing attackers to execute malicious code or steal sensitive information. Organizations using these packages may face increased risk of data breaches and operational disruptions.</li>
+          
+            <li>Attackers can leverage compromised npm packages to distribute malicious code to any software that incorporates these packages, potentially leading to widespread exploitation.</li>
+          
+            <li>Watch next: Monitor for updates from Microsoft regarding affected packages and any recommended mitigation strategies.</li>
+          
+        </ul>
+
+        
+          <div class="glossary">
+            <div class="label">Key terms</div>
+            <ul class="list">
+            
+              <li>npm - a package manager for JavaScript that helps developers manage libraries and dependencies in their projects.</li>
+            
+              <li>supply chain attack - a type of cyber attack where the attacker targets the less secure elements in the supply chain to compromise a product or service.</li>
+            
+            </ul>
+          </div>
+        
+
+        <div>
+          <div class="label">Defender focus</div>
+          <ul class="list">
+            
+            <li>Identify and audit all npm packages in use to determine if any are affected by this attack.</li>
+            
+            <li>Implement monitoring for unusual activity related to software builds that utilize these packages.</li>
+            
+            <li>Establish a process for quickly updating or replacing compromised packages.</li>
+            
+          </ul>
+        </div>
+
+        <div>
+          <div class="label">Do now</div>
+          <ul class="list">
+            
+            <li>Audit your npm package dependencies immediately.</li>
+            
+            <li>Update any compromised packages as soon as updates are available.</li>
+            
+            <li>Educate development teams on the risks associated with third-party packages.</li>
+            
+          </ul>
+        </div>
+
+        <div class="text-block"><span class="label">Watch next:</span> Monitor for updates from Microsoft regarding affected packages and any recommended mitigation strategies.</div>
+
+        <div class="sources">
+          <div class="label">Sources</div>
+          
+            
+              <div>
+                <a href="https://www.bleepingcomputer.com/news/security/microsoft-links-mastra-ai-supply-chain-attack-to-north-korean-hackers/" target="_blank" rel="noopener noreferrer">
+                  BleepingComputer - Microsoft links Mastra AI supply chain attack to North Korean hackers
+                </a>
+              </div>
+            
+          
+        </div>
+      </article>
+            
+              <article class="card" style="--i: 2;">
+        <div class="meta">
+          <span class="chip risk-high">HIGH</span>
+          
+            <span class="chip label-chip">PATCH RELEASE</span>
+          
+            <span class="chip label-chip">LEGAL POLICY</span>
+          
+            <span class="chip label-chip">RESEARCH</span>
+          
+          <span class="chip chip-neutral">Initial Access</span>
+          <span class="chip chip-neutral">Confidence LOW</span>
+        </div>
+        
+          <h3><a href="https://thehackernews.com/2026/06/unpatchable-usbliter8-exploit-breaks.html" target="_blank" rel="noopener noreferrer">Unpatchable 'usbliter8' Exploit Breaks Apple A12 and A13 SecureROM Boot Chain</a></h3>
+        
+        <p class="hook">The unpatchable usbliter8 exploit poses a significant risk to the integrity of Apple A12 and A13 devices, potentially allowing attackers to execute arbitrary code at the hardware level.</p>
+        <div class="support-grid">
+          <div class="text-block"><span class="label">Who should care:</span> Apple device security teams and users of devices with A12 and A13 chips should be particularly vigilant.</div>
+          <div class="text-block"><span class="label">Attack path:</span> An attacker would need physical access to the device to exploit this vulnerability, allowing them to execute malicious code directly on the hardware.</div>
+        </div>
+        <div class="text-block"><span class="label">Why this matters now:</span> A live patch or vendor fix gives defenders something concrete to validate.</div>
+        <div class="text-block"><span class="label">In plain English:</span> A new exploit affects Apple A12 and A13 chips, making them vulnerable to permanent code execution without the possibility of a fix.</div>
+        
+          <div class="tags">
+            
+              <span>exploit</span>
+            
+              <span>apple</span>
+            
+              <span>security</span>
+            
+          </div>
+        
+        <ul class="story-list">
+          
+            <li>Researchers have revealed an exploit named usbliter8 that targets the SecureROM of Apple's A12 and A13 chips. This vulnerability allows for arbitrary code execution that cannot be patched through software updates, as the affected code is embedded in the silicon during manufacturing.</li>
+          
+            <li>Devices using A12 and A13 chips will remain vulnerable for their entire lifespan, exposing users to potential exploitation. This could lead to unauthorized access, data breaches, or other malicious activities that compromise device security.</li>
+          
+            <li>An attacker would need physical access to the device to exploit this vulnerability, allowing them to execute malicious code directly on the hardware.</li>
+          
+            <li>Watch next: Monitor for any updates from Apple regarding mitigation strategies or further details on the exploit's implications.</li>
+          
+        </ul>
+
+        
+          <div class="glossary">
+            <div class="label">Key terms</div>
+            <ul class="list">
+            
+              <li>SecureROM - a read-only memory that contains critical boot code for devices, which cannot be modified after manufacturing.</li>
+            
+              <li>Arbitrary Code Execution - the ability for an attacker to run any code of their choice on a device, potentially leading to full control.</li>
+            
+            </ul>
+          </div>
+        
+
+        <div>
+          <div class="label">Defender focus</div>
+          <ul class="list">
+            
+            <li>Implement physical security measures to prevent unauthorized access to devices.</li>
+            
+            <li>Monitor for unusual device behavior that may indicate exploitation.</li>
+            
+            <li>Stay updated on any communications from Apple regarding this vulnerability.</li>
+            
+          </ul>
+        </div>
+
+        <div>
+          <div class="label">Do now</div>
+          <ul class="list">
+            
+            <li>Assess the inventory of devices using A12 and A13 chips.</li>
+            
+            <li>Enhance physical security protocols for sensitive devices.</li>
+            
+            <li>Prepare communication plans for affected users regarding potential risks.</li>
+            
+          </ul>
+        </div>
+
+        <div class="text-block"><span class="label">Watch next:</span> Monitor for any updates from Apple regarding mitigation strategies or further details on the exploit's implications.</div>
+
+        <div class="sources">
+          <div class="label">Sources</div>
+          
+            
+              <div>
+                <a href="https://thehackernews.com/2026/06/unpatchable-usbliter8-exploit-breaks.html" target="_blank" rel="noopener noreferrer">
+                  The Hacker News - Unpatchable 'usbliter8' Exploit Breaks Apple A12 and A13 SecureROM Boot Chain
+                </a>
+              </div>
+            
+          
+        </div>
+      </article>
+            
+          </div>
         
       </section>
 
@@ -528,7 +829,203 @@
           Wider Signal
         </div>
         
-          <p class="empty">No context stories today.</p>
+          <div class="grid">
+            
+              <article class="card" style="--i: 0;">
+        <div class="meta">
+          <span class="chip risk-high">HIGH</span>
+          
+            <span class="chip label-chip">INDUSTRY SIGNAL</span>
+          
+          <span class="chip chip-neutral">Initial Access</span>
+          <span class="chip chip-neutral">Confidence LOW</span>
+        </div>
+        
+          <h3><a href="https://thehackernews.com/2026/06/the-gentlemen-raas-uses-gentlekiller.html" target="_blank" rel="noopener noreferrer">The Gentlemen RaaS Uses GentleKiller EDR Framework Targeting 400 Security Processes</a></h3>
+        
+        <p class="hook">The Gentlemen RaaS is actively undermining security defenses, posing a significant threat to organizations relying on EDR solutions.</p>
+        <div class="support-grid">
+          <div class="text-block"><span class="label">Who should care:</span> Security teams and IT departments managing EDR solutions and endpoint security.</div>
+          <div class="text-block"><span class="label">Attack path:</span> Attackers leverage the GentleKiller framework to disable security measures, creating an opening for ransomware deployment without detection.</div>
+        </div>
+        <div class="text-block"><span class="label">Why this matters now:</span> Useful context for teams tracking where attacker pressure is building.</div>
+        <div class="text-block"><span class="label">In plain English:</span> A ransomware group is using a new framework to disable security tools before launching attacks.</div>
+        
+          <div class="tags">
+            
+              <span>ransomware</span>
+            
+              <span>edr</span>
+            
+              <span>threat</span>
+            
+          </div>
+        
+        <ul class="story-list">
+          
+            <li>The Gentlemen ransomware-as-a-service (RaaS) operation has developed a suite of tools known as GentleKiller, designed to disable endpoint detection and response (EDR) systems. This framework is being distributed to affiliates, allowing them to impair security processes in targeted environments before deploying ransomware.</li>
+          
+            <li>The ability to disable EDR tools significantly increases the likelihood of successful ransomware attacks, as organizations may be unaware of the compromise until it is too late. This poses a direct risk to data integrity and operational continuity for affected businesses.</li>
+          
+            <li>Attackers leverage the GentleKiller framework to disable security measures, creating an opening for ransomware deployment without detection.</li>
+          
+            <li>Watch next: Monitor for updates on the GentleKiller framework and any new tactics employed by the Gentlemen RaaS.</li>
+          
+        </ul>
+
+        
+          <div class="glossary">
+            <div class="label">Key terms</div>
+            <ul class="list">
+            
+              <li>RaaS - Ransomware-as-a-Service, a model where ransomware is offered as a service to affiliates for a share of the profits.</li>
+            
+              <li>EDR - Endpoint Detection and Response, a security solution that monitors and responds to threats on endpoints.</li>
+            
+            </ul>
+          </div>
+        
+
+        <div>
+          <div class="label">Defender focus</div>
+          <ul class="list">
+            
+            <li>Implement monitoring for unusual process termination events on endpoints.</li>
+            
+            <li>Review and enhance EDR configurations to ensure they are not easily bypassed.</li>
+            
+            <li>Conduct threat hunting exercises to identify potential indicators of compromise related to GentleKiller.</li>
+            
+          </ul>
+        </div>
+
+        <div>
+          <div class="label">Do now</div>
+          <ul class="list">
+            
+            <li>Increase vigilance on endpoint security configurations.</li>
+            
+            <li>Deploy additional monitoring tools to detect EDR tampering.</li>
+            
+            <li>Educate teams on the latest tactics used by ransomware groups.</li>
+            
+          </ul>
+        </div>
+
+        <div class="text-block"><span class="label">Watch next:</span> Monitor for updates on the GentleKiller framework and any new tactics employed by the Gentlemen RaaS.</div>
+
+        <div class="sources">
+          <div class="label">Sources</div>
+          
+            
+              <div>
+                <a href="https://thehackernews.com/2026/06/the-gentlemen-raas-uses-gentlekiller.html" target="_blank" rel="noopener noreferrer">
+                  The Hacker News - The Gentlemen RaaS Uses GentleKiller EDR Framework Targeting 400 Security Processes
+                </a>
+              </div>
+            
+          
+        </div>
+      </article>
+            
+              <article class="card" style="--i: 1;">
+        <div class="meta">
+          <span class="chip risk-high">HIGH</span>
+          
+            <span class="chip label-chip">RESEARCH</span>
+          
+          <span class="chip chip-neutral">Execution</span>
+          <span class="chip chip-neutral">Confidence LOW</span>
+        </div>
+        
+          <h3><a href="https://thehackernews.com/2026/06/autojack-attack-lets-one-web-page.html" target="_blank" rel="noopener noreferrer">AutoJack Attack Lets One Web Page Hijack AI Agent for Host Code Execution</a></h3>
+        
+        <p class="hook">The AutoJack attack poses a significant risk as it allows malicious web pages to execute code on AI agents, potentially compromising sensitive systems.</p>
+        <div class="support-grid">
+          <div class="text-block"><span class="label">Who should care:</span> Development teams and security teams managing AI applications and web services are most exposed.</div>
+          <div class="text-block"><span class="label">Attack path:</span> An attacker can exploit the AI agent by tricking it into loading a malicious web page, allowing the execution of arbitrary code on the host machine.</div>
+        </div>
+        <div class="text-block"><span class="label">Why this matters now:</span> Useful context for teams tracking where attacker pressure is building.</div>
+        <div class="text-block"><span class="label">In plain English:</span> A new exploit can hijack AI agents via malicious web pages to run unauthorized code on local machines.</div>
+        
+          <div class="tags">
+            
+              <span>ransomware</span>
+            
+              <span>cve</span>
+            
+              <span>cloud</span>
+            
+          </div>
+        
+        <ul class="story-list">
+          
+            <li>Microsoft researchers disclosed an exploit chain called AutoJack that enables attackers to leverage AI browsing agents for remote code execution. By directing the agent to a malicious web page, the attacker's JavaScript can access privileged local services and execute code without user interaction.</li>
+          
+            <li>This vulnerability could lead to unauthorized access and control over systems that utilize AI agents, potentially exposing sensitive data and critical infrastructure. Organizations using AI-driven tools must be vigilant, as the attack can occur without any user credentials or interaction.</li>
+          
+            <li>An attacker can exploit the AI agent by tricking it into loading a malicious web page, allowing the execution of arbitrary code on the host machine.</li>
+          
+            <li>Watch next: Monitor for updates from Microsoft regarding patches or mitigations for affected AI browsing agents.</li>
+          
+        </ul>
+
+        
+          <div class="glossary">
+            <div class="label">Key terms</div>
+            <ul class="list">
+            
+              <li>AI Agent - a software program that uses artificial intelligence to perform tasks on behalf of a user, such as browsing the web.</li>
+            
+              <li>Remote Code Execution - a type of vulnerability that allows an attacker to run arbitrary code on a target machine from a remote location.</li>
+            
+            </ul>
+          </div>
+        
+
+        <div>
+          <div class="label">Defender focus</div>
+          <ul class="list">
+            
+            <li>Implement web filtering to block access to known malicious domains.</li>
+            
+            <li>Monitor logs for unusual activity from AI agents or unexpected process executions.</li>
+            
+            <li>Review and update security configurations for AI applications to limit access to local services.</li>
+            
+          </ul>
+        </div>
+
+        <div>
+          <div class="label">Do now</div>
+          <ul class="list">
+            
+            <li>Immediately assess the exposure of AI agents in your environment.</li>
+            
+            <li>Apply any available patches or mitigations from vendors.</li>
+            
+            <li>Educate development teams on secure coding practices to prevent similar vulnerabilities.</li>
+            
+          </ul>
+        </div>
+
+        <div class="text-block"><span class="label">Watch next:</span> Monitor for updates from Microsoft regarding patches or mitigations for affected AI browsing agents.</div>
+
+        <div class="sources">
+          <div class="label">Sources</div>
+          
+            
+              <div>
+                <a href="https://thehackernews.com/2026/06/autojack-attack-lets-one-web-page.html" target="_blank" rel="noopener noreferrer">
+                  The Hacker News - AutoJack Attack Lets One Web Page Hijack AI Agent for Host Code Execution
+                </a>
+              </div>
+            
+          
+        </div>
+      </article>
+            
+          </div>
         
       </section>
     </main>
