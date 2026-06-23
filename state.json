@@ -1,5 +1,5 @@
 {
-  "last_run_utc": "2026-06-22T17:09:00.850483+00:00",
+  "last_run_utc": "2026-06-23T10:57:24.356690+00:00",
   "processed_urls": [
     "https://www.bleepingcomputer.com/news/security/critical-cisco-sd-wan-bug-exploited-in-zero-day-attacks-since-2023/",
     "https://www.cisa.gov/news-events/alerts/2026/02/25/cisa-and-partners-release-guidance-ongoing-global-exploitation-cisco-sd-wan-systems",
@@ -762,6 +762,11 @@
     "https://thehackernews.com/2026/06/weekly-recap-browser-bugs-edr-killers.html",
     "https://thehackernews.com/2026/06/interpol-warns-phishing-ransomware-and.html",
     "https://www.bleepingcomputer.com/news/security/a-glimpse-into-the-search-your-target-market-for-stolen-credentials/",
-    "https://thehackernews.com/2026/06/29-year-old-squid-proxy-bug-squidbleed.html"
+    "https://thehackernews.com/2026/06/29-year-old-squid-proxy-bug-squidbleed.html",
+    "https://thehackernews.com/2026/06/shapedplugin-wordpress-pro-plugins.html",
+    "https://www.bleepingcomputer.com/news/security/whatsapp-phishing-attack-uses-fake-business-docs-to-hack-pcs/",
+    "https://www.bleepingcomputer.com/news/security/ffmpeg-fixes-pixelsmash-flaw-in-widely-used-video-decoder/",
+    "https://www.bleepingcomputer.com/news/security/fortibleed-campaign-used-custom-fortigate-sniffer-to-steal-credentials/",
+    "https://thehackernews.com/2026/06/openai-expands-daybreak-with-gpt-55.html"
   ]
 }
