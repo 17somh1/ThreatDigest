@@ -1,5 +1,5 @@
 {
-  "last_run_utc": "2026-06-25T10:36:43.528694+00:00",
+  "last_run_utc": "2026-06-25T14:48:52.871139+00:00",
   "processed_urls": [
     "https://www.bleepingcomputer.com/news/security/critical-cisco-sd-wan-bug-exploited-in-zero-day-attacks-since-2023/",
     "https://www.cisa.gov/news-events/alerts/2026/02/25/cisa-and-partners-release-guidance-ongoing-global-exploitation-cisco-sd-wan-systems",
@@ -785,6 +785,7 @@
     "https://www.bleepingcomputer.com/news/security/mandiant-reveals-how-cisco-sd-wan-zero-day-attacks-gained-root-access/",
     "https://thehackernews.com/2026/06/cisco-catalyst-sd-wan-zero-day-cve-2026.html",
     "https://thehackernews.com/2026/06/amadey-and-stealc-malware-network.html",
-    "https://www.bleepingcomputer.com/news/security/malicious-edge-extension-abuses-native-messaging-as-bridge-to-malware/"
+    "https://www.bleepingcomputer.com/news/security/malicious-edge-extension-abuses-native-messaging-as-bridge-to-malware/",
+    "https://thehackernews.com/2026/06/threatsday-bulletin-smart-tv-proxyware.html"
   ]
 }
