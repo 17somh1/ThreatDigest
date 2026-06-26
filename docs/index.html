@@ -378,8 +378,8 @@
         The security news worth your attention, with context and practical takeaways.
       </p>
       <div class="meta-bar">
-        <span>Updated: 2026-06-26 10:45 UTC</span>
-        <span>Stories: 3</span>
+        <span>Updated: 2026-06-26 14:41 UTC</span>
+        <span>Stories: 4</span>
         <span>Recent issues: 14</span>
       </div>
     </header>
@@ -389,7 +389,7 @@
         <section class="one-liner">
           <h2>What Matters Today</h2>
           
-            <p class="text-block">Phishing attacks are evolving rapidly, targeting specific industries and exploiting popular applications, necessitating immediate defensive action.</p>
+            <p class="text-block">Critical vulnerabilities in widely used software are being actively exploited, demanding immediate attention from security teams to mitigate risks.</p>
           
         </section>
 
@@ -398,11 +398,11 @@
           
             <ul>
               
-              <li>E-commerce platforms are increasingly targeted for phishing, indicating a need for enhanced user education and security measures.</li>
+              <li>Active exploitation of known vulnerabilities is increasing pressure on defenders to patch systems quickly.</li>
               
-              <li>Phishing kits are adapting to bypass traditional defenses, highlighting the urgency for organizations to update their security protocols.</li>
+              <li>Local privilege escalation flaws highlight the need for stricter access controls and monitoring in Linux environments.</li>
               
-              <li>Industry-specific phishing campaigns are on the rise, suggesting that tailored defenses are essential for protecting sensitive data.</li>
+              <li>Supply chain attacks are evolving, necessitating enhanced vigilance in development practices to protect against malicious code injection.</li>
               
             </ul>
           
@@ -418,43 +418,47 @@
           <div class="grid">
             <article class="card" style="--i: 0;">
         <div class="meta">
-          <span class="chip risk-medium">MEDIUM</span>
+          <span class="chip risk-high">HIGH</span>
           
-            <span class="chip label-chip">INDUSTRY SIGNAL</span>
+            <span class="chip label-chip">ACTIVE EXPLOITATION</span>
           
-          <span class="chip chip-neutral">Credential Access</span>
+            <span class="chip label-chip">KEV ADDED</span>
+          
+            <span class="chip label-chip">LEGAL POLICY</span>
+          
+          <span class="chip chip-neutral">Execution</span>
           <span class="chip chip-neutral">Confidence LOW</span>
         </div>
         
-          <h3><a href="https://www.bleepingcomputer.com/news/security/order-tracking-app-shop-abused-to-push-callback-phishing-attacks/" target="_blank" rel="noopener noreferrer">Order-tracking app Shop abused to push callback phishing attacks</a></h3>
+          <h3><a href="https://thehackernews.com/2026/06/cisa-adds-exploited-ptc-windchill-rce.html" target="_blank" rel="noopener noreferrer">CISA Adds Exploited PTC Windchill RCE Flaw to KEV as Web Shell Attacks Continue</a></h3>
         
-        <p class="hook">The abuse of the Shop app for phishing attacks could lead to significant data breaches if users fall victim to these scams.</p>
+        <p class="hook">Active exploitation of a critical vulnerability in PTC Windchill software poses immediate risks to enterprise data management systems.</p>
         <div class="support-grid">
-          <div class="text-block"><span class="label">Who should care:</span> E-commerce teams and customer support departments using the Shop app are most exposed.</div>
-          <div class="text-block"><span class="label">Attack path:</span> Attackers leverage the Shop app's legitimate interface to create a sense of trust, making it easier to deceive users into taking harmful actions.</div>
+          <div class="text-block"><span class="label">Who should care:</span> IT security teams managing PTC Windchill installations should prioritize this issue.</div>
+          <div class="text-block"><span class="label">Attack path:</span> Attackers can exploit this vulnerability to execute arbitrary code on affected systems, allowing them to manipulate or exfiltrate sensitive data.</div>
         </div>
-        <div class="text-block"><span class="label">Why this matters now:</span> Useful context for teams tracking where attacker pressure is building.</div>
-        <div class="text-block"><span class="label">In plain English:</span> Threat actors are using the Shop app to send fake purchase receipts, tricking users into revealing sensitive information.</div>
+        <div class="text-block"><span class="label">Why this matters now:</span> KEV status shortens the acceptable patch window.</div>
+        <div class="text-block"><span class="label">In plain English:</span> CISA has flagged a serious remote code execution flaw in PTC Windchill that is currently being exploited.</div>
         
           <div class="tags">
             
-              <span>phishing</span>
+              <span>rce</span>
             
-              <span>shopify</span>
+              <span>cisa</span>
             
-              <span>e commerce</span>
+              <span>ptc</span>
             
           </div>
         
         <ul class="story-list">
           
-            <li>Threat actors have been exploiting the Shop order-tracking app by inserting fake purchase receipts into users' order histories. This tactic is designed to deceive users into providing personal information or installing malicious software.</li>
+            <li>CISA has added a critical remote code execution vulnerability affecting PTC Windchill PDMlink and FlexPLM to its Known Exploited Vulnerabilities catalog. This decision follows evidence of active exploitation in the wild, indicating that attackers are leveraging this flaw to gain unauthorized access.</li>
           
-            <li>If users are tricked into sharing sensitive data, it could lead to identity theft or unauthorized access to financial accounts. Organizations relying on the Shop app for order tracking should be aware of this tactic to protect their customers.</li>
+            <li>The exploitation of this vulnerability can lead to unauthorized control over enterprise data management systems, potentially resulting in data breaches or operational disruptions. Organizations using PTC Windchill must act quickly to mitigate risks associated with this flaw.</li>
           
-            <li>Attackers leverage the Shop app's legitimate interface to create a sense of trust, making it easier to deceive users into taking harmful actions.</li>
+            <li>Attackers can exploit this vulnerability to execute arbitrary code on affected systems, allowing them to manipulate or exfiltrate sensitive data.</li>
           
-            <li>Watch next: Monitor for reports of increased phishing attempts linked to the Shop app and any updates from Shopify regarding security measures.</li>
+            <li>Watch next: Monitor for updates from CISA regarding patches or mitigations for this vulnerability.</li>
           
         </ul>
 
@@ -463,9 +467,9 @@
             <div class="label">Key terms</div>
             <ul class="list">
             
-              <li>Phishing - a fraudulent attempt to obtain sensitive information by disguising as a trustworthy entity.</li>
+              <li>RCE - Remote Code Execution, a vulnerability that allows an attacker to run arbitrary code on a target system.</li>
             
-              <li>Callback phishing - a type of phishing where victims are prompted to call a number that connects them to the attacker.</li>
+              <li>CISA - Cybersecurity and Infrastructure Security Agency, a U.S. government agency responsible for protecting the nation's critical infrastructure.</li>
             
             </ul>
           </div>
@@ -475,11 +479,11 @@
           <div class="label">Defender focus</div>
           <ul class="list">
             
-            <li>Implement monitoring for unusual activity related to the Shop app in user accounts.</li>
+            <li>Implement immediate monitoring for unusual activity on PTC Windchill systems.</li>
             
-            <li>Educate customer support teams on recognizing signs of phishing attempts.</li>
+            <li>Review logs for signs of exploitation or unauthorized access attempts.</li>
             
-            <li>Set up alerts for users reporting suspicious order activity.</li>
+            <li>Coordinate with PTC for any available patches or mitigation strategies.</li>
             
           </ul>
         </div>
@@ -488,24 +492,24 @@
           <div class="label">Do now</div>
           <ul class="list">
             
-            <li>Alert users about the phishing risks associated with the Shop app.</li>
+            <li>Assess your environment for PTC Windchill installations and their exposure.</li>
             
-            <li>Review and enhance security measures for accounts linked to the Shop app.</li>
+            <li>Apply any available patches or mitigations from PTC immediately.</li>
             
-            <li>Collaborate with Shopify for any necessary security updates or guidance.</li>
+            <li>Enhance monitoring for suspicious activities related to PTC Windchill.</li>
             
           </ul>
         </div>
 
-        <div class="text-block"><span class="label">Watch next:</span> Monitor for reports of increased phishing attempts linked to the Shop app and any updates from Shopify regarding security measures.</div>
+        <div class="text-block"><span class="label">Watch next:</span> Monitor for updates from CISA regarding patches or mitigations for this vulnerability.</div>
 
         <div class="sources">
           <div class="label">Sources</div>
           
             
               <div>
-                <a href="https://www.bleepingcomputer.com/news/security/order-tracking-app-shop-abused-to-push-callback-phishing-attacks/" target="_blank" rel="noopener noreferrer">
-                  BleepingComputer - Order-tracking app Shop abused to push callback phishing attacks
+                <a href="https://thehackernews.com/2026/06/cisa-adds-exploited-ptc-windchill-rce.html" target="_blank" rel="noopener noreferrer">
+                  The Hacker News - CISA Adds Exploited PTC Windchill RCE Flaw to KEV as Web Shell Attacks Continue
                 </a>
               </div>
             
@@ -528,41 +532,47 @@
         <div class="meta">
           <span class="chip risk-high">HIGH</span>
           
-            <span class="chip label-chip">INDUSTRY SIGNAL</span>
+            <span class="chip label-chip">PATCH RELEASE</span>
           
-          <span class="chip chip-neutral">Credential Access</span>
+            <span class="chip label-chip">LEGAL POLICY</span>
+          
+            <span class="chip label-chip">RESEARCH</span>
+          
+          <span class="chip chip-neutral">Privilege Escalation</span>
           <span class="chip chip-neutral">Confidence LOW</span>
         </div>
         
-          <h3><a href="https://www.bleepingcomputer.com/news/security/bluekit-phishing-kit-adopts-browser-in-the-middle-for-login-theft/" target="_blank" rel="noopener noreferrer">Bluekit phishing kit adopts browser-in-the-middle for login theft</a></h3>
+          <h3><a href="https://thehackernews.com/2026/06/new-dirtyclone-linux-kernel-flaw-lets.html" target="_blank" rel="noopener noreferrer">New DirtyClone Linux Kernel Flaw Lets Local Users Gain Root via Cloned Packets</a></h3>
         
-        <p class="hook">The evolution of the Bluekit phishing kit poses an immediate threat to user credentials across multiple platforms, making it crucial for organizations to bolster their defenses now.</p>
+        <p class="hook">Local users can exploit a critical Linux kernel flaw to gain root access, posing significant risks to system integrity.</p>
         <div class="support-grid">
-          <div class="text-block"><span class="label">Who should care:</span> Security teams, IT departments, and any organization utilizing web-based login systems should be vigilant.</div>
-          <div class="text-block"><span class="label">Attack path:</span> Attackers can leverage the browser-in-the-middle technique to intercept user credentials during the login process, making it difficult for users to detect the compromise.</div>
+          <div class="text-block"><span class="label">Who should care:</span> System administrators and security teams managing Linux environments should prioritize this issue.</div>
+          <div class="text-block"><span class="label">Attack path:</span> An attacker with local access can send specially crafted cloned packets to exploit the vulnerability, leading to privilege escalation.</div>
         </div>
-        <div class="text-block"><span class="label">Why this matters now:</span> Useful context for teams tracking where attacker pressure is building.</div>
-        <div class="text-block"><span class="label">In plain English:</span> A new version of the Bluekit phishing kit is using advanced techniques to steal login information.</div>
+        <div class="text-block"><span class="label">Why this matters now:</span> A live patch or vendor fix gives defenders something concrete to validate.</div>
+        <div class="text-block"><span class="label">In plain English:</span> A new Linux kernel vulnerability allows local users to escalate privileges to root, which could compromise entire systems.</div>
         
           <div class="tags">
             
-              <span>phishing</span>
+              <span>linux</span>
             
-              <span>credential theft</span>
+              <span>cve</span>
             
-              <span>browser in the middle</span>
+              <span>privilege escalation</span>
+            
+              <span>exploit</span>
             
           </div>
         
         <ul class="story-list">
           
-            <li>The Bluekit phishing kit has introduced browser-in-the-middle capabilities, allowing attackers to intercept and capture login credentials more effectively. Nearly 70 new hostnames associated with this kit have been identified in the past week, indicating a rapid expansion of its infrastructure.</li>
+            <li>A vulnerability in the Linux kernel, tracked as CVE-2026-43503, has been identified that allows local users to exploit cloned network packets to corrupt file-backed memory. This flaw has a CVSS score of 8.8, indicating high severity. A working exploit was publicly demonstrated by JFrog Security Research on June 25, 2026.</li>
           
-            <li>This development enhances the effectiveness of phishing attacks, increasing the likelihood of successful credential theft. Organizations that rely on web-based authentication are particularly vulnerable, as attackers can now manipulate user sessions in real-time.</li>
+            <li>This vulnerability allows unauthorized users to gain root access, which can lead to full control over affected systems. If exploited, attackers could manipulate system processes, access sensitive data, or deploy further malicious activities. The urgency is heightened due to the availability of a working exploit.</li>
           
-            <li>Attackers can leverage the browser-in-the-middle technique to intercept user credentials during the login process, making it difficult for users to detect the compromise.</li>
+            <li>An attacker with local access can send specially crafted cloned packets to exploit the vulnerability, leading to privilege escalation.</li>
           
-            <li>Watch next: Monitor for any unusual login attempts or alerts from users regarding suspicious activity on their accounts.</li>
+            <li>Watch next: Monitor for updates from Linux distributions regarding patches and any reports of exploitation in the wild.</li>
           
         </ul>
 
@@ -571,9 +581,11 @@
             <div class="label">Key terms</div>
             <ul class="list">
             
-              <li>Phishing - a method of trying to gather personal information using deceptive emails and websites.</li>
+              <li>CVE - Common Vulnerabilities and Exposures, a list of publicly disclosed cybersecurity vulnerabilities.</li>
             
-              <li>Browser-in-the-middle - a technique where an attacker intercepts communication between a user and a website to steal information.</li>
+              <li>CVSS - Common Vulnerability Scoring System, a standardized method for rating the severity of security vulnerabilities.</li>
+            
+              <li>Root Access - The highest level of access on a computer system, allowing full control over all files and commands.</li>
             
             </ul>
           </div>
@@ -583,11 +595,11 @@
           <div class="label">Defender focus</div>
           <ul class="list">
             
-            <li>Implement real-time monitoring for unusual login patterns.</li>
+            <li>Implement monitoring for unusual network packet activity that could indicate exploitation attempts.</li>
             
-            <li>Enhance email filtering to catch phishing attempts before they reach users.</li>
+            <li>Ensure that all Linux systems are updated with the latest security patches as soon as they are available.</li>
             
-            <li>Educate users on recognizing phishing attempts and the importance of two-factor authentication.</li>
+            <li>Review user access controls to limit local user privileges where possible.</li>
             
           </ul>
         </div>
@@ -596,24 +608,24 @@
           <div class="label">Do now</div>
           <ul class="list">
             
-            <li>Increase monitoring of web traffic for signs of phishing activity.</li>
+            <li>Patch affected Linux systems immediately.</li>
             
-            <li>Review and update incident response plans to address potential credential theft.</li>
+            <li>Audit user access levels to minimize potential exploitation.</li>
             
-            <li>Consider deploying advanced authentication methods, such as multi-factor authentication.</li>
+            <li>Monitor for signs of exploitation or unusual behavior in system logs.</li>
             
           </ul>
         </div>
 
-        <div class="text-block"><span class="label">Watch next:</span> Monitor for any unusual login attempts or alerts from users regarding suspicious activity on their accounts.</div>
+        <div class="text-block"><span class="label">Watch next:</span> Monitor for updates from Linux distributions regarding patches and any reports of exploitation in the wild.</div>
 
         <div class="sources">
           <div class="label">Sources</div>
           
             
               <div>
-                <a href="https://www.bleepingcomputer.com/news/security/bluekit-phishing-kit-adopts-browser-in-the-middle-for-login-theft/" target="_blank" rel="noopener noreferrer">
-                  BleepingComputer - Bluekit phishing kit adopts browser-in-the-middle for login theft
+                <a href="https://thehackernews.com/2026/06/new-dirtyclone-linux-kernel-flaw-lets.html" target="_blank" rel="noopener noreferrer">
+                  The Hacker News - New DirtyClone Linux Kernel Flaw Lets Local Users Gain Root via Cloned Packets
                 </a>
               </div>
             
@@ -623,43 +635,43 @@
             
               <article class="card" style="--i: 1;">
         <div class="meta">
-          <span class="chip risk-medium">MEDIUM</span>
+          <span class="chip risk-high">HIGH</span>
           
-            <span class="chip label-chip">INDUSTRY SIGNAL</span>
+            <span class="chip label-chip">PATCH RELEASE</span>
           
-          <span class="chip chip-neutral">Initial Access</span>
+            <span class="chip label-chip">LEGAL POLICY</span>
+          
+          <span class="chip chip-neutral">Execution</span>
           <span class="chip chip-neutral">Confidence LOW</span>
         </div>
         
-          <h3><a href="https://thehackernews.com/2026/06/microsoft-warns-of-photo-zip-phishing.html" target="_blank" rel="noopener noreferrer">Microsoft Warns of Photo ZIP Phishing Campaign Targeting Hotels with Node.js Implant</a></h3>
+          <h3><a href="https://thehackernews.com/2026/06/amazon-q-developer-flaw-could-let.html" target="_blank" rel="noopener noreferrer">Amazon Q Developer Flaw Could Let Malicious Repos Run Code via MCP Configs</a></h3>
         
-        <p class="hook">Hotels are being targeted by a sophisticated phishing campaign that could compromise sensitive customer data and operational systems.</p>
+        <p class="hook">A critical flaw in Amazon Q Developer could allow attackers to execute malicious code and steal sensitive cloud credentials, posing a significant risk to developers' environments.</p>
         <div class="support-grid">
-          <div class="text-block"><span class="label">Who should care:</span> Hotel IT teams and cybersecurity personnel should be particularly vigilant.</div>
-          <div class="text-block"><span class="label">Attack path:</span> Attackers gain leverage by tricking hotel staff into opening malicious ZIP files, which then deploy the Node.js implant to access internal systems.</div>
+          <div class="text-block"><span class="label">Who should care:</span> Development teams using Amazon Q Developer and organizations relying on cloud services should be particularly vigilant.</div>
+          <div class="text-block"><span class="label">Attack path:</span> An attacker could create a malicious repository that, when opened by a developer, would execute code and extract cloud credentials without the developer's knowledge.</div>
         </div>
-        <div class="text-block"><span class="label">Why this matters now:</span> Useful context for teams tracking where attacker pressure is building.</div>
-        <div class="text-block"><span class="label">In plain English:</span> A phishing campaign using photo-themed ZIP files is targeting hotels to deploy a Node.js implant.</div>
+        <div class="text-block"><span class="label">Why this matters now:</span> A live patch or vendor fix gives defenders something concrete to validate.</div>
+        <div class="text-block"><span class="label">In plain English:</span> A vulnerability in Amazon Q Developer has been patched, but it previously allowed malicious repositories to run code and access cloud credentials.</div>
         
           <div class="tags">
             
-              <span>phishing</span>
+              <span>cve</span>
             
-              <span>node.js</span>
-            
-              <span>hospitality</span>
+              <span>cloud</span>
             
           </div>
         
         <ul class="story-list">
           
-            <li>Since April 2026, a phishing campaign has been actively targeting hotel and hospitality organizations in Europe and Asia. The attackers use ZIP files disguised as photos to deliver a Node.js implant, which can infiltrate front-desk machines.</li>
+            <li>A high-severity vulnerability was discovered in Amazon Q Developer, tracked as CVE-2026-12957, which allowed malicious repositories to execute commands through Model Context Protocol (MCP) configurations. Developers who opened these repositories and trusted the workspace were at risk of having their cloud credentials stolen. Amazon has since released a patch to address this issue.</li>
           
-            <li>If successful, this campaign could lead to unauthorized access to customer information and operational disruptions in hotel services. The lack of attribution to a known threat actor raises concerns about the potential for widespread impact across the hospitality sector.</li>
+            <li>This vulnerability could have led to unauthorized access to sensitive cloud resources, potentially compromising entire development environments. The ease of exploitation highlights the need for vigilance among developers using Amazon Q, as the attack path was straightforward and could be executed with minimal technical skill.</li>
           
-            <li>Attackers gain leverage by tricking hotel staff into opening malicious ZIP files, which then deploy the Node.js implant to access internal systems.</li>
+            <li>An attacker could create a malicious repository that, when opened by a developer, would execute code and extract cloud credentials without the developer's knowledge.</li>
           
-            <li>Watch next: Monitor for updates from Microsoft regarding the threat actor's identity and any emerging indicators of compromise.</li>
+            <li>Watch next: Monitor for any further updates from Amazon regarding additional patches or related vulnerabilities.</li>
           
         </ul>
 
@@ -668,9 +680,9 @@
             <div class="label">Key terms</div>
             <ul class="list">
             
-              <li>Phishing - a method of trying to gather personal information using deceptive emails and websites.</li>
+              <li>CVE - Common Vulnerabilities and Exposures, a list of publicly disclosed cybersecurity vulnerabilities.</li>
             
-              <li>Node.js - a JavaScript runtime built on Chrome's V8 JavaScript engine, often used for building server-side applications.</li>
+              <li>MCP - Model Context Protocol, a framework used by Amazon's AI coding assistant to manage context in coding tasks.</li>
             
             </ul>
           </div>
@@ -680,11 +692,11 @@
           <div class="label">Defender focus</div>
           <ul class="list">
             
-            <li>Implement email filtering to block malicious attachments.</li>
+            <li>Implement monitoring for unusual access patterns in cloud environments.</li>
             
-            <li>Conduct a review of front-desk systems for unusual activity.</li>
+            <li>Review and restrict permissions for developers to limit exposure.</li>
             
-            <li>Educate staff on recognizing phishing attempts, particularly those involving ZIP files.</li>
+            <li>Ensure all developers are using the latest version of Amazon Q Developer with the patch applied.</li>
             
           </ul>
         </div>
@@ -693,24 +705,123 @@
           <div class="label">Do now</div>
           <ul class="list">
             
-            <li>Enhance email security measures to prevent phishing attempts.</li>
+            <li>Immediately verify that all instances of Amazon Q Developer are updated with the latest patch.</li>
             
-            <li>Monitor network traffic for signs of the Node.js implant.</li>
+            <li>Conduct a security audit of developer environments to check for unauthorized access.</li>
             
-            <li>Prepare incident response protocols for potential breaches.</li>
+            <li>Educate developers on the risks of trusting unknown repositories.</li>
             
           </ul>
         </div>
 
-        <div class="text-block"><span class="label">Watch next:</span> Monitor for updates from Microsoft regarding the threat actor's identity and any emerging indicators of compromise.</div>
+        <div class="text-block"><span class="label">Watch next:</span> Monitor for any further updates from Amazon regarding additional patches or related vulnerabilities.</div>
 
         <div class="sources">
           <div class="label">Sources</div>
           
             
               <div>
-                <a href="https://thehackernews.com/2026/06/microsoft-warns-of-photo-zip-phishing.html" target="_blank" rel="noopener noreferrer">
-                  The Hacker News - Microsoft Warns of Photo ZIP Phishing Campaign Targeting Hotels with Node.js Implant
+                <a href="https://thehackernews.com/2026/06/amazon-q-developer-flaw-could-let.html" target="_blank" rel="noopener noreferrer">
+                  The Hacker News - Amazon Q Developer Flaw Could Let Malicious Repos Run Code via MCP Configs
+                </a>
+              </div>
+            
+          
+        </div>
+      </article>
+            
+              <article class="card" style="--i: 2;">
+        <div class="meta">
+          <span class="chip risk-high">HIGH</span>
+          
+            <span class="chip label-chip">PATCH RELEASE</span>
+          
+            <span class="chip label-chip">RESEARCH</span>
+          
+          <span class="chip chip-neutral">Initial Access</span>
+          <span class="chip chip-neutral">Confidence LOW</span>
+        </div>
+        
+          <h3><a href="https://thehackernews.com/2026/06/miasma-malware-targets-npm-packages-and.html" target="_blank" rel="noopener noreferrer">Miasma Malware Targets npm Packages and GitHub Actions in Supply Chain Attack</a></h3>
+        
+        <p class="hook">The Miasma malware's targeting of npm packages poses immediate risks to software supply chains, potentially compromising numerous applications and services.</p>
+        <div class="support-grid">
+          <div class="text-block"><span class="label">Who should care:</span> Development teams using npm packages and GitHub Actions should be particularly vigilant.</div>
+          <div class="text-block"><span class="label">Attack path:</span> Attackers can leverage compromised npm packages to distribute malware directly to users' environments, exploiting trust in the package ecosystem.</div>
+        </div>
+        <div class="text-block"><span class="label">Why this matters now:</span> Useful context for teams tracking where attacker pressure is building.</div>
+        <div class="text-block"><span class="label">In plain English:</span> Miasma malware is exploiting npm packages and GitHub Actions, threatening software integrity.</div>
+        
+          <div class="tags">
+            
+              <span>malware</span>
+            
+              <span>supply chain</span>
+            
+              <span>npm</span>
+            
+          </div>
+        
+        <ul class="story-list">
+          
+            <li>Researchers have identified Miasma malware targeting malicious npm package releases, specifically affecting LeoPlatform and RStreams. Additionally, it has been observed abusing GitHub Actions workflows and propagating into the Go ecosystem.</li>
+          
+            <li>This attack can lead to widespread vulnerabilities in applications that rely on these npm packages, potentially allowing attackers to execute arbitrary code or manipulate workflows. Organizations using these packages may face significant security risks, including data breaches and service disruptions.</li>
+          
+            <li>Attackers can leverage compromised npm packages to distribute malware directly to users' environments, exploiting trust in the package ecosystem.</li>
+          
+            <li>Watch next: Monitor for updates from npm and GitHub regarding security patches or further incidents related to this malware.</li>
+          
+        </ul>
+
+        
+          <div class="glossary">
+            <div class="label">Key terms</div>
+            <ul class="list">
+            
+              <li>npm - a package manager for JavaScript that allows developers to share and reuse code.</li>
+            
+              <li>GitHub Actions - a CI/CD tool that automates software workflows directly from GitHub.</li>
+            
+            </ul>
+          </div>
+        
+
+        <div>
+          <div class="label">Defender focus</div>
+          <ul class="list">
+            
+            <li>Implement monitoring for unusual activity in npm package installations.</li>
+            
+            <li>Review and audit GitHub Actions workflows for unauthorized changes.</li>
+            
+            <li>Ensure all npm packages are sourced from trusted repositories and are regularly updated.</li>
+            
+          </ul>
+        </div>
+
+        <div>
+          <div class="label">Do now</div>
+          <ul class="list">
+            
+            <li>Audit all npm packages in use for known vulnerabilities.</li>
+            
+            <li>Restrict access to GitHub Actions workflows to trusted contributors only.</li>
+            
+            <li>Stay informed about updates from npm and GitHub regarding this malware.</li>
+            
+          </ul>
+        </div>
+
+        <div class="text-block"><span class="label">Watch next:</span> Monitor for updates from npm and GitHub regarding security patches or further incidents related to this malware.</div>
+
+        <div class="sources">
+          <div class="label">Sources</div>
+          
+            
+              <div>
+                <a href="https://thehackernews.com/2026/06/miasma-malware-targets-npm-packages-and.html" target="_blank" rel="noopener noreferrer">
+                  The Hacker News - Miasma Malware Targets npm Packages and GitHub Actions in Supply Chain Attack
                 </a>
               </div>
             
