@@ -1,5 +1,5 @@
 {
-  "last_run_utc": "2026-06-29T12:25:25.320552+00:00",
+  "last_run_utc": "2026-06-29T16:02:58.758791+00:00",
   "processed_urls": [
     "https://www.bleepingcomputer.com/news/security/critical-cisco-sd-wan-bug-exploited-in-zero-day-attacks-since-2023/",
     "https://www.cisa.gov/news-events/alerts/2026/02/25/cisa-and-partners-release-guidance-ongoing-global-exploitation-cisco-sd-wan-systems",
@@ -802,6 +802,10 @@
     "https://thehackernews.com/2026/06/public-poc-released-for-critical.html",
     "https://thehackernews.com/2026/06/why-post-quantum-cryptography-starts.html",
     "https://thehackernews.com/2026/06/gamaredon-expands-ukraine-attacks-with.html",
-    "https://thehackernews.com/2026/06/microsoft-removes-119-edge-extensions.html"
+    "https://thehackernews.com/2026/06/microsoft-removes-119-edge-extensions.html",
+    "https://www.bleepingcomputer.com/news/security/hackers-exploit-critical-simplehelp-flaw-deploy-new-djinn-infostealer-taskweaver-malware/",
+    "https://www.bleepingcomputer.com/news/security/new-oracle-e-business-suite-flaw-now-exploited-in-attacks/",
+    "https://thehackernews.com/2026/06/weekly-recap-linux-kernel-flaws-ai.html",
+    "https://thehackernews.com/2026/06/236000-dcloud-uni-app-sites-used-in.html"
   ]
 }
