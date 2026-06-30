@@ -1,5 +1,5 @@
 {
-  "last_run_utc": "2026-06-29T16:02:58.758791+00:00",
+  "last_run_utc": "2026-06-30T10:51:06.838487+00:00",
   "processed_urls": [
     "https://www.bleepingcomputer.com/news/security/critical-cisco-sd-wan-bug-exploited-in-zero-day-attacks-since-2023/",
     "https://www.cisa.gov/news-events/alerts/2026/02/25/cisa-and-partners-release-guidance-ongoing-global-exploitation-cisco-sd-wan-systems",
@@ -806,6 +806,15 @@
     "https://www.bleepingcomputer.com/news/security/hackers-exploit-critical-simplehelp-flaw-deploy-new-djinn-infostealer-taskweaver-malware/",
     "https://www.bleepingcomputer.com/news/security/new-oracle-e-business-suite-flaw-now-exploited-in-attacks/",
     "https://thehackernews.com/2026/06/weekly-recap-linux-kernel-flaws-ai.html",
-    "https://thehackernews.com/2026/06/236000-dcloud-uni-app-sites-used-in.html"
+    "https://thehackernews.com/2026/06/236000-dcloud-uni-app-sites-used-in.html",
+    "https://thehackernews.com/2026/06/oracle-e-business-suite-flaw-cve-2026.html",
+    "https://www.bleepingcomputer.com/news/security/cisa-windows-bluehammer-flaw-now-exploited-by-ransomware-gangs/",
+    "https://www.bleepingcomputer.com/news/security/nissan-discloses-employee-data-breach-linked-to-oracle-zero-day-attacks/",
+    "https://thehackernews.com/2026/06/progress-kemp-loadmaster-flaw-could-let.html",
+    "https://thehackernews.com/2026/06/apple-patches-30-ios-macos-safari-flaws.html",
+    "https://www.bleepingcomputer.com/news/security/naic-says-public-data-stolen-in-shinyhunters-peoplesoft-breach/",
+    "https://www.bleepingcomputer.com/news/security/blackfield-ransomware-asks-nidec-corporation-for-2-million-ransom/",
+    "https://www.bleepingcomputer.com/news/microsoft/microsoft-extends-windows-server-2022-hotpatching-until-october-2027/",
+    "https://thehackernews.com/2026/06/new-bioshocking-attack-tricks-ai.html"
   ]
 }
