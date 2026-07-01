@@ -378,8 +378,8 @@
         The security news worth your attention, with context and practical takeaways.
       </p>
       <div class="meta-bar">
-        <span>Updated: 2026-07-01 11:18 UTC</span>
-        <span>Stories: 4</span>
+        <span>Updated: 2026-07-01 14:53 UTC</span>
+        <span>Stories: 3</span>
         <span>Recent issues: 14</span>
       </div>
     </header>
@@ -389,7 +389,7 @@
         <section class="one-liner">
           <h2>What Matters Today</h2>
           
-            <p class="text-block">Attackers are leveraging AI-generated domains and exploiting critical vulnerabilities in AI applications and web services, necessitating immediate action from security teams.</p>
+            <p class="text-block">Active exploitation of critical vulnerabilities in widely used software and the rise of AI-generated ransomware highlight urgent security pressures on IT teams.</p>
           
         </section>
 
@@ -398,11 +398,11 @@
           
             <ul>
               
-              <li>Phantom squatting indicates a shift in phishing tactics, requiring heightened vigilance against AI-generated threats.</li>
+              <li>Critical vulnerabilities are being actively exploited, requiring immediate patching efforts from defenders.</li>
               
-              <li>Exploitation of Langflow vulnerabilities highlights the urgency for securing AI application endpoints to prevent resource hijacking.</li>
+              <li>The integration of threat intelligence tools is becoming essential for timely incident response amid evolving threats.</li>
               
-              <li>Unpatched vulnerabilities in Citrix and Adobe products emphasize the need for rapid response to mitigate risks of service disruption and data breaches.</li>
+              <li>Emerging ransomware tactics leveraging AI and browser capabilities are increasing the risk of data loss for end users.</li>
               
             </ul>
           
@@ -422,41 +422,43 @@
           
             <span class="chip label-chip">ACTIVE EXPLOITATION</span>
           
-            <span class="chip label-chip">RESEARCH</span>
+            <span class="chip label-chip">GUIDANCE</span>
           
-          <span class="chip chip-neutral">Initial Access</span>
+            <span class="chip label-chip">LEGAL POLICY</span>
+          
+          <span class="chip chip-neutral">Execution</span>
           <span class="chip chip-neutral">Confidence LOW</span>
         </div>
         
-          <h3><a href="https://thehackernews.com/2026/07/phantom-squatting-uses-ai-hallucinated.html" target="_blank" rel="noopener noreferrer">Phantom Squatting Uses AI-Hallucinated Domains for Phishing and Malware</a></h3>
+          <h3><a href="https://thehackernews.com/2026/07/latest-progress-kemp-loadmaster-pre.html" target="_blank" rel="noopener noreferrer">Progress Kemp LoadMaster Pre-Auth RCE Flaw Faces Active Exploitation Attempts</a></h3>
         
-        <p class="hook">The rise of phantom squatting poses a significant threat as attackers exploit AI-generated domains for phishing, potentially compromising sensitive data.</p>
+        <p class="hook">Active exploitation of a critical vulnerability in Progress Kemp LoadMaster could lead to severe system compromise, making immediate action essential.</p>
         <div class="support-grid">
-          <div class="text-block"><span class="label">Who should care:</span> Security teams, web application developers, and incident response teams should be particularly vigilant.</div>
-          <div class="text-block"><span class="label">Attack path:</span> Attackers register AI-generated domains before legitimate users can, then create phishing sites that mimic trusted services to harvest credentials.</div>
+          <div class="text-block"><span class="label">Who should care:</span> IT security teams managing Progress Kemp LoadMaster installations should prioritize this issue.</div>
+          <div class="text-block"><span class="label">Attack path:</span> Attackers can leverage this vulnerability to execute arbitrary commands on the server, gaining unauthorized access and control.</div>
         </div>
-        <div class="text-block"><span class="label">Why this matters now:</span> Active exploitation makes this an immediate exposure check.</div>
-        <div class="text-block"><span class="label">In plain English:</span> Attackers are using AI-generated domains to host phishing sites, increasing the risk of data breaches.</div>
+        <div class="text-block"><span class="label">Why this matters now:</span> Useful context for teams tracking where attacker pressure is building.</div>
+        <div class="text-block"><span class="label">In plain English:</span> A serious flaw in Progress Kemp LoadMaster is being actively exploited, posing a significant risk to affected systems.</div>
         
           <div class="tags">
             
-              <span>phishing</span>
+              <span>ransomware</span>
             
-              <span>ai</span>
+              <span>cve</span>
             
-              <span>cybersecurity</span>
+              <span>cloud</span>
             
           </div>
         
         <ul class="story-list">
           
-            <li>Research from Palo Alto Networks' Unit 42 reveals that attackers are purchasing domains created by AI language models, which do not actually exist. These domains are then used to host phishing pages that mislead users into providing sensitive information.</li>
+            <li>A critical security flaw, CVE-2026-8037, has been disclosed in Progress Kemp LoadMaster, with a CVSS score of 9.6. eSentire's Threat Response Unit reported that exploitation attempts are currently underway.</li>
           
-            <li>This tactic allows attackers to catch unsuspecting users who may be directed to these domains by AI tools, leading to potential data breaches and financial loss. Organizations must be vigilant as these domains can bypass traditional security measures.</li>
+            <li>If successfully exploited, this vulnerability allows attackers to execute arbitrary OS commands, potentially leading to full system compromise. Organizations using Progress Kemp LoadMaster must act quickly to mitigate risks associated with this flaw.</li>
           
-            <li>Attackers register AI-generated domains before legitimate users can, then create phishing sites that mimic trusted services to harvest credentials.</li>
+            <li>Attackers can leverage this vulnerability to execute arbitrary commands on the server, gaining unauthorized access and control.</li>
           
-            <li>Watch next: Monitor for reports of increased phishing attempts using AI-generated domains and updates from cybersecurity vendors.</li>
+            <li>Watch next: Monitor for updates from Progress on patches or mitigations related to CVE-2026-8037.</li>
           
         </ul>
 
@@ -465,9 +467,9 @@
             <div class="label">Key terms</div>
             <ul class="list">
             
-              <li>PHANTOM SQUATTING - the practice of registering non-existent domains generated by AI for malicious purposes.</li>
+              <li>CVE - Common Vulnerabilities and Exposures, a list of publicly disclosed cybersecurity vulnerabilities.</li>
             
-              <li>AI-HALLUCINATED DOMAINS - web addresses that are created by AI models but do not correspond to real websites.</li>
+              <li>RCE - Remote Code Execution, a type of vulnerability that allows an attacker to run arbitrary code on a remote system.</li>
             
             </ul>
           </div>
@@ -477,11 +479,11 @@
           <div class="label">Defender focus</div>
           <ul class="list">
             
-            <li>Implement domain monitoring to detect newly registered domains that resemble legitimate ones.</li>
+            <li>Implement network segmentation to limit exposure of LoadMaster devices.</li>
             
-            <li>Enhance email filtering to block communications from suspicious or newly registered domains.</li>
+            <li>Deploy intrusion detection systems to monitor for exploitation attempts.</li>
             
-            <li>Conduct regular security awareness training focused on recognizing phishing attempts.</li>
+            <li>Ensure that all LoadMaster instances are updated with the latest security patches.</li>
             
           </ul>
         </div>
@@ -490,24 +492,24 @@
           <div class="label">Do now</div>
           <ul class="list">
             
-            <li>Increase monitoring for AI-generated domains in your environment.</li>
+            <li>Immediately assess all Progress Kemp LoadMaster instances for exposure.</li>
             
-            <li>Update phishing detection rules to include patterns associated with phantom squatting.</li>
+            <li>Apply any available patches or mitigations from Progress.</li>
             
-            <li>Engage with threat intelligence services to stay informed about emerging tactics.</li>
+            <li>Increase monitoring for unusual activity on affected systems.</li>
             
           </ul>
         </div>
 
-        <div class="text-block"><span class="label">Watch next:</span> Monitor for reports of increased phishing attempts using AI-generated domains and updates from cybersecurity vendors.</div>
+        <div class="text-block"><span class="label">Watch next:</span> Monitor for updates from Progress on patches or mitigations related to CVE-2026-8037.</div>
 
         <div class="sources">
           <div class="label">Sources</div>
           
             
               <div>
-                <a href="https://thehackernews.com/2026/07/phantom-squatting-uses-ai-hallucinated.html" target="_blank" rel="noopener noreferrer">
-                  The Hacker News - Phantom Squatting Uses AI-Hallucinated Domains for Phishing and Malware
+                <a href="https://thehackernews.com/2026/07/latest-progress-kemp-loadmaster-pre.html" target="_blank" rel="noopener noreferrer">
+                  The Hacker News - Progress Kemp LoadMaster Pre-Auth RCE Flaw Faces Active Exploitation Attempts
                 </a>
               </div>
             
@@ -528,23 +530,120 @@
             
               <article class="card" style="--i: 0;">
         <div class="meta">
+          <span class="chip risk-medium">MEDIUM</span>
+          
+            <span class="chip label-chip">RESEARCH</span>
+          
+          <span class="chip chip-neutral">Discovery</span>
+          <span class="chip chip-neutral">Confidence LOW</span>
+        </div>
+        
+          <h3><a href="https://www.bleepingcomputer.com/news/security/turning-indicators-into-intelligence-in-opencti-with-criminal-ip/" target="_blank" rel="noopener noreferrer">Turning Indicators into Intelligence in OpenCTI with Criminal IP</a></h3>
+        
+        <p class="hook">Integrating Criminal IP with OpenCTI enhances threat intelligence, making it crucial for timely incident response.</p>
+        <div class="support-grid">
+          <div class="text-block"><span class="label">Who should care:</span> Security operations teams using OpenCTI and organizations relying on threat intelligence for incident response.</div>
+          <div class="text-block"><span class="label">Attack path:</span> Attackers can leverage enriched threat indicators to identify vulnerable targets and exploit weaknesses more efficiently. The integration provides insights that could lead to more sophisticated attacks if not monitored.</div>
+        </div>
+        <div class="text-block"><span class="label">Why this matters now:</span> Useful context for teams tracking where attacker pressure is building.</div>
+        <div class="text-block"><span class="label">In plain English:</span> New integration improves threat intelligence context in OpenCTI, aiding security teams in identifying risks.</div>
+        
+          <div class="tags">
+            
+              <span>threat intelligence</span>
+            
+              <span>opencti</span>
+            
+              <span>criminal ip</span>
+            
+          </div>
+        
+        <ul class="story-list">
+          
+            <li>Criminal IP has integrated its services with OpenCTI, providing enriched threat indicators that include risk scoring, infrastructure intelligence, and phishing analysis. This integration aims to enhance the contextual understanding of threats faced by organizations.</li>
+          
+            <li>The enriched threat indicators allow security teams to prioritize threats more effectively and respond to incidents with greater accuracy. As cyber threats evolve, having detailed context is essential for mitigating risks and protecting sensitive data.</li>
+          
+            <li>Attackers can leverage enriched threat indicators to identify vulnerable targets and exploit weaknesses more efficiently. The integration provides insights that could lead to more sophisticated attacks if not monitored.</li>
+          
+            <li>Watch next: Monitor for updates on the effectiveness of the integration and any emerging threats that utilize the enriched data.</li>
+          
+        </ul>
+
+        
+          <div class="glossary">
+            <div class="label">Key terms</div>
+            <ul class="list">
+            
+              <li>OpenCTI - an open-source platform for managing and sharing cyber threat intelligence.</li>
+            
+              <li>Criminal IP - a service that provides information on malicious IP addresses and their associated risks.</li>
+            
+            </ul>
+          </div>
+        
+
+        <div>
+          <div class="label">Defender focus</div>
+          <ul class="list">
+            
+            <li>Implement monitoring for new threat indicators provided by Criminal IP.</li>
+            
+            <li>Adjust incident response plans to incorporate enriched threat context.</li>
+            
+            <li>Train analysts on interpreting risk scores and infrastructure intelligence.</li>
+            
+          </ul>
+        </div>
+
+        <div>
+          <div class="label">Do now</div>
+          <ul class="list">
+            
+            <li>Integrate Criminal IP data into your OpenCTI instance immediately.</li>
+            
+            <li>Review and update threat prioritization processes based on new insights.</li>
+            
+            <li>Conduct a training session for analysts on using the enriched threat indicators.</li>
+            
+          </ul>
+        </div>
+
+        <div class="text-block"><span class="label">Watch next:</span> Monitor for updates on the effectiveness of the integration and any emerging threats that utilize the enriched data.</div>
+
+        <div class="sources">
+          <div class="label">Sources</div>
+          
+            
+              <div>
+                <a href="https://www.bleepingcomputer.com/news/security/turning-indicators-into-intelligence-in-opencti-with-criminal-ip/" target="_blank" rel="noopener noreferrer">
+                  BleepingComputer - Turning Indicators into Intelligence in OpenCTI with Criminal IP
+                </a>
+              </div>
+            
+          
+        </div>
+      </article>
+            
+              <article class="card" style="--i: 1;">
+        <div class="meta">
           <span class="chip risk-high">HIGH</span>
           
-            <span class="chip label-chip">INDUSTRY SIGNAL</span>
+            <span class="chip label-chip">RESEARCH</span>
           
           <span class="chip chip-neutral">Execution</span>
           <span class="chip chip-neutral">Confidence LOW</span>
         </div>
         
-          <h3><a href="https://thehackernews.com/2026/06/langflow-rce-exploited-to-deploy-monero.html" target="_blank" rel="noopener noreferrer">Langflow RCE Exploited to Deploy Monero Miner on Exposed AI App Endpoints</a></h3>
+          <h3><a href="https://thehackernews.com/2026/07/ai-generated-browser-ransomware-abuses.html" target="_blank" rel="noopener noreferrer">AI-Generated Browser Ransomware Abuses Chromium API on Windows and Android</a></h3>
         
-        <p class="hook">Threat actors are actively exploiting a critical vulnerability in Langflow, which could lead to unauthorized access and resource hijacking on exposed AI applications.</p>
+        <p class="hook">The emergence of AI-generated ransomware that exploits browser capabilities poses a significant threat to both Windows and Android users, potentially leading to widespread data loss.</p>
         <div class="support-grid">
-          <div class="text-block"><span class="label">Who should care:</span> Development and security teams managing AI applications using Langflow should prioritize this issue.</div>
-          <div class="text-block"><span class="label">Attack path:</span> Attackers gain leverage by exploiting the unauthenticated RCE vulnerability to execute arbitrary code on vulnerable systems, allowing them to install and run cryptocurrency mining software.</div>
+          <div class="text-block"><span class="label">Who should care:</span> IT security teams, browser developers, and users of Windows and Android devices should be particularly vigilant.</div>
+          <div class="text-block"><span class="label">Attack path:</span> Attackers can leverage browser vulnerabilities and AI-generated techniques to deploy ransomware without needing to install traditional malware, making detection more challenging.</div>
         </div>
         <div class="text-block"><span class="label">Why this matters now:</span> Useful context for teams tracking where attacker pressure is building.</div>
-        <div class="text-block"><span class="label">In plain English:</span> A serious vulnerability in Langflow is being used to deploy cryptocurrency miners on vulnerable AI endpoints.</div>
+        <div class="text-block"><span class="label">In plain English:</span> New ransomware uses AI to exploit browser features, affecting users on Windows and Android.</div>
         
           <div class="tags">
             
@@ -558,13 +657,13 @@
         
         <ul class="story-list">
           
-            <li>Threat actors are exploiting CVE-2026-33017, a critical remote code execution vulnerability in Langflow, to deploy Monero cryptocurrency miners. This vulnerability has a CVSS score of 9.3, indicating its severity. The attacks are targeting exposed AI application endpoints, suggesting a focused effort to compromise these systems.</li>
+            <li>Researchers have identified a new type of ransomware that utilizes a DeepSeek AI model to create malware that operates entirely within web browsers on Windows and Android platforms. This malware leverages browser APIs in ways that have not been seen before, making it a novel threat.</li>
           
-            <li>The exploitation of this vulnerability can lead to significant resource drain on affected systems, impacting performance and availability. Additionally, unauthorized cryptocurrency mining can increase operational costs and may indicate further malicious activity within the environment. Organizations using Langflow must act quickly to mitigate potential damage.</li>
+            <li>This development is concerning because it allows ransomware to bypass traditional security measures that focus on standalone applications. Users may be unaware of the threat as it operates within a familiar environment, increasing the risk of infection and data compromise.</li>
           
-            <li>Attackers gain leverage by exploiting the unauthenticated RCE vulnerability to execute arbitrary code on vulnerable systems, allowing them to install and run cryptocurrency mining software.</li>
+            <li>Attackers can leverage browser vulnerabilities and AI-generated techniques to deploy ransomware without needing to install traditional malware, making detection more challenging.</li>
           
-            <li>Watch next: Monitor for updates from Langflow regarding patches or mitigations for CVE-2026-33017.</li>
+            <li>Watch next: Monitor for updates from browser vendors regarding patches or mitigations against this new ransomware technique.</li>
           
         </ul>
 
@@ -573,9 +672,9 @@
             <div class="label">Key terms</div>
             <ul class="list">
             
-              <li>RCE - Remote Code Execution, a vulnerability that allows an attacker to run arbitrary code on a target system.</li>
+              <li>Ransomware - a type of malicious software that encrypts a user's data and demands payment for its release.</li>
             
-              <li>CVSS - Common Vulnerability Scoring System, a standard for assessing the severity of security vulnerabilities.</li>
+              <li>API - Application Programming Interface, a set of rules that allows different software entities to communicate with each other.</li>
             
             </ul>
           </div>
@@ -585,110 +684,11 @@
           <div class="label">Defender focus</div>
           <ul class="list">
             
-            <li>Implement monitoring for unusual CPU usage patterns that may indicate cryptocurrency mining.</li>
+            <li>Implement browser security policies to restrict unauthorized API access.</li>
             
-            <li>Review and restrict access to Langflow endpoints to minimize exposure.</li>
+            <li>Monitor network traffic for unusual patterns that may indicate ransomware activity.</li>
             
-            <li>Apply available patches or mitigations for CVE-2026-33017 as soon as possible.</li>
-            
-          </ul>
-        </div>
-
-        <div>
-          <div class="label">Do now</div>
-          <ul class="list">
-            
-            <li>Patch Langflow to address CVE-2026-33017 immediately.</li>
-            
-            <li>Conduct a security audit of AI application endpoints for exposure.</li>
-            
-            <li>Enhance monitoring for signs of unauthorized code execution.</li>
-            
-          </ul>
-        </div>
-
-        <div class="text-block"><span class="label">Watch next:</span> Monitor for updates from Langflow regarding patches or mitigations for CVE-2026-33017.</div>
-
-        <div class="sources">
-          <div class="label">Sources</div>
-          
-            
-              <div>
-                <a href="https://thehackernews.com/2026/06/langflow-rce-exploited-to-deploy-monero.html" target="_blank" rel="noopener noreferrer">
-                  The Hacker News - Langflow RCE Exploited to Deploy Monero Miner on Exposed AI App Endpoints
-                </a>
-              </div>
-            
-          
-        </div>
-      </article>
-            
-              <article class="card" style="--i: 1;">
-        <div class="meta">
-          <span class="chip risk-high">HIGH</span>
-          
-            <span class="chip label-chip">PATCH RELEASE</span>
-          
-            <span class="chip label-chip">LEGAL POLICY</span>
-          
-          <span class="chip chip-neutral">Exfiltration</span>
-          <span class="chip chip-neutral">Confidence LOW</span>
-        </div>
-        
-          <h3><a href="https://thehackernews.com/2026/07/citrix-patches-six-netscaler-flaws.html" target="_blank" rel="noopener noreferrer">Citrix Patches Six NetScaler Flaws Allowing File Read and Denial-of-Service</a></h3>
-        
-        <p class="hook">Immediate patching is critical as unaddressed vulnerabilities in Citrix NetScaler could lead to severe service disruptions or unauthorized data access.</p>
-        <div class="support-grid">
-          <div class="text-block"><span class="label">Who should care:</span> IT security teams managing Citrix NetScaler products should prioritize these updates.</div>
-          <div class="text-block"><span class="label">Attack path:</span> An attacker could exploit insufficient input validation to read sensitive files or overwhelm the system, leading to service outages.</div>
-        </div>
-        <div class="text-block"><span class="label">Why this matters now:</span> A live patch or vendor fix gives defenders something concrete to validate.</div>
-        <div class="text-block"><span class="label">In plain English:</span> Citrix has released urgent patches for multiple vulnerabilities in NetScaler that could allow attackers to read files or cause service outages.</div>
-        
-          <div class="tags">
-            
-              <span>cve</span>
-            
-              <span>citrix</span>
-            
-              <span>network</span>
-            
-          </div>
-        
-        <ul class="story-list">
-          
-            <li>Citrix released security updates for six vulnerabilities in NetScaler ADC and NetScaler Gateway. These flaws could be exploited to perform arbitrary file reads or trigger denial-of-service conditions.</li>
-          
-            <li>If left unpatched, these vulnerabilities could allow attackers to access sensitive files or disrupt services, impacting business operations. The high CVSS score of 8.8 for one of the vulnerabilities indicates a significant risk level.</li>
-          
-            <li>An attacker could exploit insufficient input validation to read sensitive files or overwhelm the system, leading to service outages.</li>
-          
-            <li>Watch next: Monitor for any reports of exploitation attempts or additional vendor advisories regarding these vulnerabilities.</li>
-          
-        </ul>
-
-        
-          <div class="glossary">
-            <div class="label">Key terms</div>
-            <ul class="list">
-            
-              <li>CVE - Common Vulnerabilities and Exposures, a list of publicly disclosed cybersecurity vulnerabilities.</li>
-            
-              <li>DoS - Denial of Service, an attack that makes a service unavailable to its intended users.</li>
-            
-            </ul>
-          </div>
-        
-
-        <div>
-          <div class="label">Defender focus</div>
-          <ul class="list">
-            
-            <li>Implement monitoring for unusual access patterns to NetScaler systems.</li>
-            
-            <li>Ensure all Citrix NetScaler instances are updated with the latest patches.</li>
-            
-            <li>Review logs for any signs of exploitation attempts related to these vulnerabilities.</li>
+            <li>Regularly update browsers to ensure the latest security patches are applied.</li>
             
           </ul>
         </div>
@@ -697,123 +697,24 @@
           <div class="label">Do now</div>
           <ul class="list">
             
-            <li>Patch all affected Citrix NetScaler systems immediately.</li>
+            <li>Enhance browser security configurations immediately.</li>
             
-            <li>Conduct a risk assessment to identify potential impacts of these vulnerabilities.</li>
+            <li>Educate users on recognizing suspicious browser behavior.</li>
             
-            <li>Increase monitoring for any suspicious activity related to NetScaler services.</li>
+            <li>Review and update incident response plans to include browser-based threats.</li>
             
           </ul>
         </div>
 
-        <div class="text-block"><span class="label">Watch next:</span> Monitor for any reports of exploitation attempts or additional vendor advisories regarding these vulnerabilities.</div>
+        <div class="text-block"><span class="label">Watch next:</span> Monitor for updates from browser vendors regarding patches or mitigations against this new ransomware technique.</div>
 
         <div class="sources">
           <div class="label">Sources</div>
           
             
               <div>
-                <a href="https://thehackernews.com/2026/07/citrix-patches-six-netscaler-flaws.html" target="_blank" rel="noopener noreferrer">
-                  The Hacker News - Citrix Patches Six NetScaler Flaws Allowing File Read and Denial-of-Service
-                </a>
-              </div>
-            
-          
-        </div>
-      </article>
-            
-              <article class="card" style="--i: 2;">
-        <div class="meta">
-          <span class="chip risk-high">HIGH</span>
-          
-            <span class="chip label-chip">PATCH RELEASE</span>
-          
-            <span class="chip label-chip">LEGAL POLICY</span>
-          
-          <span class="chip chip-neutral">Execution</span>
-          <span class="chip chip-neutral">Confidence LOW</span>
-        </div>
-        
-          <h3><a href="https://www.bleepingcomputer.com/news/security/adobe-patches-seven-max-severity-coldfusion-campaign-flaws/" target="_blank" rel="noopener noreferrer">Adobe patches seven max severity ColdFusion, Campaign flaws</a></h3>
-        
-        <p class="hook">Immediate patching is crucial as unaddressed vulnerabilities in Adobe ColdFusion and Campaign could lead to severe data breaches.</p>
-        <div class="support-grid">
-          <div class="text-block"><span class="label">Who should care:</span> Development and marketing teams using Adobe ColdFusion and Campaign Classic are most exposed.</div>
-          <div class="text-block"><span class="label">Attack path:</span> An attacker could exploit these vulnerabilities to execute malicious code on affected systems, potentially leading to unauthorized access and data exfiltration.</div>
-        </div>
-        <div class="text-block"><span class="label">Why this matters now:</span> A live patch or vendor fix gives defenders something concrete to validate.</div>
-        <div class="text-block"><span class="label">In plain English:</span> Adobe has issued critical patches for seven severe vulnerabilities that could be exploited by attackers.</div>
-        
-          <div class="tags">
-            
-              <span>cve</span>
-            
-              <span>adobe</span>
-            
-              <span>coldfusion</span>
-            
-          </div>
-        
-        <ul class="story-list">
-          
-            <li>Adobe released security updates addressing seven maximum-severity vulnerabilities in its ColdFusion and Campaign Classic platforms. These flaws could allow attackers to execute arbitrary code and gain unauthorized access to sensitive data.</li>
-          
-            <li>Exploitation of these vulnerabilities could lead to significant data breaches, impacting customer trust and regulatory compliance. Organizations using these platforms must act quickly to mitigate the risk of exploitation.</li>
-          
-            <li>An attacker could exploit these vulnerabilities to execute malicious code on affected systems, potentially leading to unauthorized access and data exfiltration.</li>
-          
-            <li>Watch next: Monitor for any reports of exploitation attempts or additional vulnerabilities in Adobe products.</li>
-          
-        </ul>
-
-        
-          <div class="glossary">
-            <div class="label">Key terms</div>
-            <ul class="list">
-            
-              <li>ColdFusion - a web application development platform used for building dynamic websites.</li>
-            
-              <li>Campaign Classic - a marketing automation platform for managing customer campaigns.</li>
-            
-            </ul>
-          </div>
-        
-
-        <div>
-          <div class="label">Defender focus</div>
-          <ul class="list">
-            
-            <li>Ensure all instances of ColdFusion and Campaign Classic are updated with the latest patches.</li>
-            
-            <li>Monitor logs for unusual activity that may indicate exploitation attempts.</li>
-            
-            <li>Review access controls and permissions for sensitive data within these platforms.</li>
-            
-          </ul>
-        </div>
-
-        <div>
-          <div class="label">Do now</div>
-          <ul class="list">
-            
-            <li>Immediately apply the latest security patches from Adobe.</li>
-            
-            <li>Conduct a risk assessment to identify any exposed systems.</li>
-            
-            <li>Implement monitoring for any signs of exploitation or unusual behavior.</li>
-            
-          </ul>
-        </div>
-
-        <div class="text-block"><span class="label">Watch next:</span> Monitor for any reports of exploitation attempts or additional vulnerabilities in Adobe products.</div>
-
-        <div class="sources">
-          <div class="label">Sources</div>
-          
-            
-              <div>
-                <a href="https://www.bleepingcomputer.com/news/security/adobe-patches-seven-max-severity-coldfusion-campaign-flaws/" target="_blank" rel="noopener noreferrer">
-                  BleepingComputer - Adobe patches seven max severity ColdFusion, Campaign flaws
+                <a href="https://thehackernews.com/2026/07/ai-generated-browser-ransomware-abuses.html" target="_blank" rel="noopener noreferrer">
+                  The Hacker News - AI-Generated Browser Ransomware Abuses Chromium API on Windows and Android
                 </a>
               </div>
             
