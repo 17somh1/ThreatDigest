@@ -1,5 +1,5 @@
 {
-  "last_run_utc": "2026-07-03T10:28:54.450147+00:00",
+  "last_run_utc": "2026-07-03T14:26:53.816730+00:00",
   "processed_urls": [
     "https://www.bleepingcomputer.com/news/security/critical-cisco-sd-wan-bug-exploited-in-zero-day-attacks-since-2023/",
     "https://www.cisa.gov/news-events/alerts/2026/02/25/cisa-and-partners-release-guidance-ongoing-global-exploitation-cisco-sd-wan-systems",
@@ -837,6 +837,7 @@
     "https://www.bleepingcomputer.com/news/security/cisa-microsoft-sharepoint-rce-flaw-now-actively-exploited/",
     "https://www.bleepingcomputer.com/news/security/cisco-finally-confirms-attackers-exploiting-unified-cm-flaw/",
     "https://thehackernews.com/2026/07/ransomware-groups-turn-to-citrix-bleed.html",
-    "https://thehackernews.com/2026/07/threatsday-ai-compute-hijacking-apple.html"
+    "https://thehackernews.com/2026/07/threatsday-ai-compute-hijacking-apple.html",
+    "https://www.bleepingcomputer.com/news/security/artoken-phaas-exposes-eviltokens-microsoft-365-phishing-toolkit/"
   ]
 }
