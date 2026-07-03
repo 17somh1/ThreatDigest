@@ -3,7 +3,7 @@
   <head>
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1" />
-    <title>Threat Digest - 2026-06-19</title>
+    <title>Threat Digest - 2026-07-03</title>
     <style>
       @import url("https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,600;9..144,700&family=Space+Grotesk:wght@400;500;600&display=swap");
 
@@ -373,13 +373,13 @@
 
     <header>
       <div class="eyebrow">Daily Threat Briefing</div>
-      <h1>Threat Digest - 2026-06-19</h1>
+      <h1>Threat Digest - 2026-07-03</h1>
       <p class="subtitle">
         The security news worth your attention, with context and practical takeaways.
       </p>
       <div class="meta-bar">
-        <span>Updated: 2026-06-19 15:36 UTC</span>
-        <span>Stories: 1</span>
+        <span>Updated: 2026-07-03 10:28 UTC</span>
+        <span>Stories: 2</span>
         <span>Recent issues: 14</span>
       </div>
     </header>
@@ -389,7 +389,7 @@
         <section class="one-liner">
           <h2>What Matters Today</h2>
           
-            <p class="text-block">Attackers are finding new ways to bypass multi-factor authentication, increasing the risk of unauthorized access to corporate accounts.</p>
+            <p class="text-block">Ransomware groups are exploiting a critical Citrix vulnerability, increasing the urgency for organizations to secure their systems against this and other emerging threats.</p>
           
         </section>
 
@@ -398,11 +398,11 @@
           
             <ul>
               
-              <li>Growing sophistication in bypassing security measures like multi-factor authentication indicates a shift in attacker tactics.</li>
+              <li>Ransomware actors are targeting specific software vulnerabilities to gain unauthorized access, indicating a shift towards exploiting known weaknesses in widely used systems.</li>
               
-              <li>Security teams must prioritize enhancing user authentication processes to counteract evolving threats.</li>
+              <li>The rise in AI compute hijacking and email vulnerabilities suggests attackers are diversifying their tactics, increasing the complexity of the threat landscape for defenders.</li>
               
-              <li>Increased pressure on IT departments to adapt quickly to emerging vulnerabilities in access controls.</li>
+              <li>Organizations must prioritize patch management and vulnerability assessments to mitigate risks from both established and emerging attack vectors.</li>
               
             </ul>
           
@@ -418,43 +418,43 @@
           <div class="grid">
             <article class="card" style="--i: 0;">
         <div class="meta">
-          <span class="chip risk-medium">MEDIUM</span>
+          <span class="chip risk-high">HIGH</span>
           
             <span class="chip label-chip">INDUSTRY SIGNAL</span>
           
-          <span class="chip chip-neutral">Credential Access</span>
+          <span class="chip chip-neutral">Initial Access</span>
           <span class="chip chip-neutral">Confidence LOW</span>
         </div>
         
-          <h3><a href="https://www.bleepingcomputer.com/news/security/webinar-how-attackers-bypass-mfa-and-how-defenders-can-respond/" target="_blank" rel="noopener noreferrer">Webinar: How attackers bypass MFA and how defenders can respond</a></h3>
+          <h3><a href="https://thehackernews.com/2026/07/ransomware-groups-turn-to-citrix-bleed.html" target="_blank" rel="noopener noreferrer">Ransomware Groups Turn to Citrix Bleed 2, BYOVD, and Supply Chain Credentials</a></h3>
         
-        <p class="hook">Attackers are increasingly bypassing multi-factor authentication (MFA), putting corporate accounts at risk of unauthorized access.</p>
+        <p class="hook">Ransomware groups are leveraging a critical Citrix vulnerability to gain access, posing immediate risks to organizations using affected systems.</p>
         <div class="support-grid">
-          <div class="text-block"><span class="label">Who should care:</span> Security teams and IT departments managing user authentication and access controls are most exposed.</div>
-          <div class="text-block"><span class="label">Attack path:</span> Attackers exploit vulnerabilities in MFA implementations through sophisticated phishing techniques, gaining access to accounts without traditional password theft.</div>
+          <div class="text-block"><span class="label">Who should care:</span> IT security teams managing Citrix environments and organizations using RMM tools should be particularly vigilant.</div>
+          <div class="text-block"><span class="label">Attack path:</span> Attackers gain leverage by exploiting the Citrix Bleed 2 vulnerability to access systems, then use stolen credentials to move laterally within the network.</div>
         </div>
         <div class="text-block"><span class="label">Why this matters now:</span> Useful context for teams tracking where attacker pressure is building.</div>
-        <div class="text-block"><span class="label">In plain English:</span> Phishing techniques are evolving to undermine MFA, making it crucial for security teams to adapt their defenses.</div>
+        <div class="text-block"><span class="label">In plain English:</span> Anubis ransomware actors are exploiting Citrix Bleed 2 to infiltrate networks, which could lead to significant data breaches.</div>
         
           <div class="tags">
             
-              <span>phishing</span>
+              <span>ransomware</span>
             
-              <span>mfa</span>
+              <span>cve</span>
             
-              <span>security</span>
+              <span>cloud</span>
             
           </div>
         
         <ul class="story-list">
           
-            <li>A recent webinar highlighted how modern phishing attacks, particularly Device Code phishing, can circumvent MFA protections. This allows attackers to gain access to corporate accounts without needing to steal passwords.</li>
+            <li>Threat actors from the Anubis ransomware operation have been observed exploiting the Citrix Bleed 2 vulnerability (CVE-2025-5777) to gain initial access to networks. They utilize legitimate Remote Management and Monitoring (RMM) tools alongside credential theft to facilitate lateral movement within compromised environments.</li>
           
-            <li>The ability to bypass MFA significantly increases the risk of account compromise, potentially leading to data breaches and financial loss. Organizations must enhance their detection and response capabilities to mitigate this evolving threat.</li>
+            <li>The exploitation of Citrix Bleed 2 can lead to unauthorized access to sensitive data and systems, increasing the risk of data breaches and operational disruptions. Organizations that rely on Citrix products without proper patching or monitoring are particularly vulnerable to these attacks.</li>
           
-            <li>Attackers exploit vulnerabilities in MFA implementations through sophisticated phishing techniques, gaining access to accounts without traditional password theft.</li>
+            <li>Attackers gain leverage by exploiting the Citrix Bleed 2 vulnerability to access systems, then use stolen credentials to move laterally within the network.</li>
           
-            <li>Watch next: Monitor for updates on behavioral AI tools that can enhance detection of compromised accounts.</li>
+            <li>Watch next: Monitor for updates from Citrix regarding patches for CVE-2025-5777 and any emerging threat intelligence related to Anubis ransomware.</li>
           
         </ul>
 
@@ -463,9 +463,9 @@
             <div class="label">Key terms</div>
             <ul class="list">
             
-              <li>MFA - Multi-Factor Authentication, a security measure requiring multiple forms of verification to access an account.</li>
+              <li>Citrix Bleed 2 - a vulnerability in Citrix products that allows unauthorized access to systems.</li>
             
-              <li>Device Code Phishing - A phishing technique where attackers trick users into entering authentication codes sent to their devices.</li>
+              <li>RMM (Remote Management and Monitoring) - tools that allow IT teams to manage and monitor systems remotely, which can be exploited by attackers.</li>
             
             </ul>
           </div>
@@ -475,11 +475,11 @@
           <div class="label">Defender focus</div>
           <ul class="list">
             
-            <li>Implement advanced monitoring for unusual login attempts that may indicate MFA bypass.</li>
+            <li>Implement monitoring for unusual RMM tool usage.</li>
             
-            <li>Enhance user training on recognizing phishing attempts, especially those targeting MFA.</li>
+            <li>Ensure all Citrix products are updated with the latest security patches.</li>
             
-            <li>Evaluate and update MFA solutions to ensure they are resilient against current phishing tactics.</li>
+            <li>Review and tighten access controls for credential management.</li>
             
           </ul>
         </div>
@@ -488,24 +488,24 @@
           <div class="label">Do now</div>
           <ul class="list">
             
-            <li>Review and strengthen MFA configurations across all user accounts.</li>
+            <li>Patch Citrix systems immediately to mitigate CVE-2025-5777.</li>
             
-            <li>Deploy behavioral AI tools to improve detection of compromised accounts.</li>
+            <li>Conduct a review of RMM tool configurations and access logs.</li>
             
-            <li>Conduct a security audit to identify vulnerabilities in current authentication processes.</li>
+            <li>Enhance credential management practices to prevent unauthorized access.</li>
             
           </ul>
         </div>
 
-        <div class="text-block"><span class="label">Watch next:</span> Monitor for updates on behavioral AI tools that can enhance detection of compromised accounts.</div>
+        <div class="text-block"><span class="label">Watch next:</span> Monitor for updates from Citrix regarding patches for CVE-2025-5777 and any emerging threat intelligence related to Anubis ransomware.</div>
 
         <div class="sources">
           <div class="label">Sources</div>
           
             
               <div>
-                <a href="https://www.bleepingcomputer.com/news/security/webinar-how-attackers-bypass-mfa-and-how-defenders-can-respond/" target="_blank" rel="noopener noreferrer">
-                  BleepingComputer - Webinar: How attackers bypass MFA and how defenders can respond
+                <a href="https://thehackernews.com/2026/07/ransomware-groups-turn-to-citrix-bleed.html" target="_blank" rel="noopener noreferrer">
+                  The Hacker News - Ransomware Groups Turn to Citrix Bleed 2, BYOVD, and Supply Chain Credentials
                 </a>
               </div>
             
@@ -522,7 +522,106 @@
           Priority Watchlist
         </div>
         
-          <p class="empty">No additional top stories.</p>
+          <div class="grid">
+            
+              <article class="card" style="--i: 0;">
+        <div class="meta">
+          <span class="chip risk-medium">MEDIUM</span>
+          
+            <span class="chip label-chip">LEGAL POLICY</span>
+          
+          <span class="chip chip-neutral">Initial Access</span>
+          <span class="chip chip-neutral">Confidence LOW</span>
+        </div>
+        
+          <h3><a href="https://thehackernews.com/2026/07/threatsday-ai-compute-hijacking-apple.html" target="_blank" rel="noopener noreferrer">ThreatsDay: AI Compute Hijacking, Apple Email Flaw, BlueHammer Ransomware + 14 Stories</a></h3>
+        
+        <p class="hook">Multiple vulnerabilities across various systems highlight a pervasive risk that could lead to significant breaches if not addressed promptly.</p>
+        <div class="support-grid">
+          <div class="text-block"><span class="label">Who should care:</span> IT security teams, software developers, and organizations using AI systems or email services should be particularly vigilant.</div>
+          <div class="text-block"><span class="label">Attack path:</span> An attacker could exploit weak permissions or inadequate checks to gain unauthorized access to sensitive systems or data. This could involve using legitimate tools in unintended ways to bypass security measures.</div>
+        </div>
+        <div class="text-block"><span class="label">Why this matters now:</span> Useful context for teams tracking where attacker pressure is building.</div>
+        <div class="text-block"><span class="label">In plain English:</span> Weaknesses in browsers, AI systems, and email flows expose organizations to potential attacks.</div>
+        
+          <div class="tags">
+            
+              <span>vulnerability</span>
+            
+              <span>ai</span>
+            
+              <span>email</span>
+            
+          </div>
+        
+        <ul class="story-list">
+          
+            <li>Recent reports indicate that various systems, including browsers and AI compute resources, have been found to have vulnerabilities due to weak permissions and inadequate checks. These vulnerabilities allow attackers to exploit small gaps in security. The findings suggest a trend of systemic weaknesses rather than isolated incidents.</li>
+          
+            <li>The presence of these vulnerabilities means that attackers could leverage them to gain unauthorized access or disrupt services. Organizations relying on these systems may face data breaches, operational disruptions, or reputational damage if they do not take immediate action to secure their environments.</li>
+          
+            <li>An attacker could exploit weak permissions or inadequate checks to gain unauthorized access to sensitive systems or data. This could involve using legitimate tools in unintended ways to bypass security measures.</li>
+          
+            <li>Watch next: Monitor for updates from vendors regarding patches or mitigations for the identified vulnerabilities.</li>
+          
+        </ul>
+
+        
+          <div class="glossary">
+            <div class="label">Key terms</div>
+            <ul class="list">
+            
+              <li>Vulnerability - a weakness in a system that can be exploited by an attacker.</li>
+            
+              <li>Permission - the rights granted to users or systems to access resources.</li>
+            
+            </ul>
+          </div>
+        
+
+        <div>
+          <div class="label">Defender focus</div>
+          <ul class="list">
+            
+            <li>Implement monitoring for unusual access patterns in email systems.</li>
+            
+            <li>Review and tighten permissions on AI compute resources.</li>
+            
+            <li>Conduct vulnerability assessments on browsers and related applications.</li>
+            
+          </ul>
+        </div>
+
+        <div>
+          <div class="label">Do now</div>
+          <ul class="list">
+            
+            <li>Conduct a thorough review of system permissions and access controls.</li>
+            
+            <li>Apply available patches and updates to affected systems immediately.</li>
+            
+            <li>Educate teams on recognizing and reporting potential exploitation attempts.</li>
+            
+          </ul>
+        </div>
+
+        <div class="text-block"><span class="label">Watch next:</span> Monitor for updates from vendors regarding patches or mitigations for the identified vulnerabilities.</div>
+
+        <div class="sources">
+          <div class="label">Sources</div>
+          
+            
+              <div>
+                <a href="https://thehackernews.com/2026/07/threatsday-ai-compute-hijacking-apple.html" target="_blank" rel="noopener noreferrer">
+                  The Hacker News - ThreatsDay: AI Compute Hijacking, Apple Email Flaw, BlueHammer Ransomware + 14 Stories
+                </a>
+              </div>
+            
+          
+        </div>
+      </article>
+            
+          </div>
         
       </section>
 
@@ -541,33 +640,33 @@
       <strong>Recent Issues</strong>
       <div class="archive-list">
         
-        <a href="archive/2026-06-19.html">2026-06-19</a>
+        <a href="archive/2026-07-03.html">2026-07-03</a>
         
-        <a href="archive/2026-06-18.html">2026-06-18</a>
+        <a href="archive/2026-07-02.html">2026-07-02</a>
         
-        <a href="archive/2026-06-17.html">2026-06-17</a>
+        <a href="archive/2026-07-01.html">2026-07-01</a>
         
-        <a href="archive/2026-06-16.html">2026-06-16</a>
+        <a href="archive/2026-06-30.html">2026-06-30</a>
         
-        <a href="archive/2026-06-15.html">2026-06-15</a>
+        <a href="archive/2026-06-29.html">2026-06-29</a>
         
-        <a href="archive/2026-06-14.html">2026-06-14</a>
+        <a href="archive/2026-06-28.html">2026-06-28</a>
         
-        <a href="archive/2026-06-13.html">2026-06-13</a>
+        <a href="archive/2026-06-27.html">2026-06-27</a>
         
-        <a href="archive/2026-06-12.html">2026-06-12</a>
+        <a href="archive/2026-06-26.html">2026-06-26</a>
         
-        <a href="archive/2026-06-11.html">2026-06-11</a>
+        <a href="archive/2026-06-25.html">2026-06-25</a>
         
-        <a href="archive/2026-06-10.html">2026-06-10</a>
+        <a href="archive/2026-06-24.html">2026-06-24</a>
         
-        <a href="archive/2026-06-09.html">2026-06-09</a>
+        <a href="archive/2026-06-23.html">2026-06-23</a>
         
-        <a href="archive/2026-06-08.html">2026-06-08</a>
+        <a href="archive/2026-06-22.html">2026-06-22</a>
         
-        <a href="archive/2026-06-07.html">2026-06-07</a>
+        <a href="archive/2026-06-21.html">2026-06-21</a>
         
-        <a href="archive/2026-06-06.html">2026-06-06</a>
+        <a href="archive/2026-06-20.html">2026-06-20</a>
         
       </div>
     </aside>

@@ -3,7 +3,7 @@
   <head>
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1" />
-    <title>Threat Digest - 2026-07-02</title>
+    <title>Threat Digest - 2026-07-03</title>
     <style>
       @import url("https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,600;9..144,700&family=Space+Grotesk:wght@400;500;600&display=swap");
 
@@ -373,12 +373,12 @@
 
     <header>
       <div class="eyebrow">Daily Threat Briefing</div>
-      <h1>Threat Digest - 2026-07-02</h1>
+      <h1>Threat Digest - 2026-07-03</h1>
       <p class="subtitle">
         The security news worth your attention, with context and practical takeaways.
       </p>
       <div class="meta-bar">
-        <span>Updated: 2026-07-02 14:22 UTC</span>
+        <span>Updated: 2026-07-03 10:28 UTC</span>
         <span>Stories: 2</span>
         <span>Recent issues: 14</span>
       </div>
@@ -389,7 +389,7 @@
         <section class="one-liner">
           <h2>What Matters Today</h2>
           
-            <p class="text-block">Active exploitation of critical vulnerabilities in Microsoft SharePoint and Cisco Unified Communications Manager demands immediate attention from IT security teams to prevent unauthorized access and potential data breaches.</p>
+            <p class="text-block">Ransomware groups are exploiting a critical Citrix vulnerability, increasing the urgency for organizations to secure their systems against this and other emerging threats.</p>
           
         </section>
 
@@ -398,11 +398,11 @@
           
             <ul>
               
-              <li>Increased urgency for patching critical vulnerabilities due to active exploitation.</li>
+              <li>Ransomware actors are targeting specific software vulnerabilities to gain unauthorized access, indicating a shift towards exploiting known weaknesses in widely used systems.</li>
               
-              <li>Heightened risk of unauthorized access in communication systems and collaboration tools.</li>
+              <li>The rise in AI compute hijacking and email vulnerabilities suggests attackers are diversifying their tactics, increasing the complexity of the threat landscape for defenders.</li>
               
-              <li>Defender workload spikes as teams must validate and implement immediate fixes.</li>
+              <li>Organizations must prioritize patch management and vulnerability assessments to mitigate risks from both established and emerging attack vectors.</li>
               
             </ul>
           
@@ -420,45 +420,41 @@
         <div class="meta">
           <span class="chip risk-high">HIGH</span>
           
-            <span class="chip label-chip">ACTIVE EXPLOITATION</span>
+            <span class="chip label-chip">INDUSTRY SIGNAL</span>
           
-            <span class="chip label-chip">PATCH RELEASE</span>
-          
-            <span class="chip label-chip">LEGAL POLICY</span>
-          
-          <span class="chip chip-neutral">Execution</span>
+          <span class="chip chip-neutral">Initial Access</span>
           <span class="chip chip-neutral">Confidence LOW</span>
         </div>
         
-          <h3><a href="https://www.bleepingcomputer.com/news/security/cisa-microsoft-sharepoint-rce-flaw-now-actively-exploited/" target="_blank" rel="noopener noreferrer">CISA: Microsoft SharePoint RCE flaw now actively exploited</a></h3>
+          <h3><a href="https://thehackernews.com/2026/07/ransomware-groups-turn-to-citrix-bleed.html" target="_blank" rel="noopener noreferrer">Ransomware Groups Turn to Citrix Bleed 2, BYOVD, and Supply Chain Credentials</a></h3>
         
-        <p class="hook">Active exploitation of a critical SharePoint vulnerability could lead to unauthorized access and data breaches, making immediate action essential.</p>
+        <p class="hook">Ransomware groups are leveraging a critical Citrix vulnerability to gain access, posing immediate risks to organizations using affected systems.</p>
         <div class="support-grid">
-          <div class="text-block"><span class="label">Who should care:</span> IT security teams managing Microsoft SharePoint environments should be particularly vigilant.</div>
-          <div class="text-block"><span class="label">Attack path:</span> Attackers can leverage this vulnerability to execute malicious code on SharePoint servers, gaining unauthorized access to sensitive data and systems.</div>
+          <div class="text-block"><span class="label">Who should care:</span> IT security teams managing Citrix environments and organizations using RMM tools should be particularly vigilant.</div>
+          <div class="text-block"><span class="label">Attack path:</span> Attackers gain leverage by exploiting the Citrix Bleed 2 vulnerability to access systems, then use stolen credentials to move laterally within the network.</div>
         </div>
-        <div class="text-block"><span class="label">Why this matters now:</span> Active exploitation makes this an immediate exposure check. A live patch or vendor fix gives defenders something concrete to validate.</div>
-        <div class="text-block"><span class="label">In plain English:</span> Attackers are exploiting a serious vulnerability in Microsoft SharePoint that could allow them to execute code remotely.</div>
+        <div class="text-block"><span class="label">Why this matters now:</span> Useful context for teams tracking where attacker pressure is building.</div>
+        <div class="text-block"><span class="label">In plain English:</span> Anubis ransomware actors are exploiting Citrix Bleed 2 to infiltrate networks, which could lead to significant data breaches.</div>
         
           <div class="tags">
             
+              <span>ransomware</span>
+            
               <span>cve</span>
             
-              <span>sharepoint</span>
-            
-              <span>rce</span>
+              <span>cloud</span>
             
           </div>
         
         <ul class="story-list">
           
-            <li>CISA has reported that a high-severity remote code execution (RCE) vulnerability in Microsoft SharePoint, which was patched in May, is now being actively exploited by attackers. This flaw allows unauthorized users to execute arbitrary code on affected systems.</li>
+            <li>Threat actors from the Anubis ransomware operation have been observed exploiting the Citrix Bleed 2 vulnerability (CVE-2025-5777) to gain initial access to networks. They utilize legitimate Remote Management and Monitoring (RMM) tools alongside credential theft to facilitate lateral movement within compromised environments.</li>
           
-            <li>If successfully exploited, this vulnerability could allow attackers to gain control over SharePoint servers, potentially leading to data theft or further network compromise. Organizations using SharePoint must prioritize patching to mitigate this risk.</li>
+            <li>The exploitation of Citrix Bleed 2 can lead to unauthorized access to sensitive data and systems, increasing the risk of data breaches and operational disruptions. Organizations that rely on Citrix products without proper patching or monitoring are particularly vulnerable to these attacks.</li>
           
-            <li>Attackers can leverage this vulnerability to execute malicious code on SharePoint servers, gaining unauthorized access to sensitive data and systems.</li>
+            <li>Attackers gain leverage by exploiting the Citrix Bleed 2 vulnerability to access systems, then use stolen credentials to move laterally within the network.</li>
           
-            <li>Watch next: Monitor for updates from Microsoft regarding additional patches or mitigations related to this vulnerability.</li>
+            <li>Watch next: Monitor for updates from Citrix regarding patches for CVE-2025-5777 and any emerging threat intelligence related to Anubis ransomware.</li>
           
         </ul>
 
@@ -467,9 +463,9 @@
             <div class="label">Key terms</div>
             <ul class="list">
             
-              <li>RCE - Remote Code Execution, a type of vulnerability that allows an attacker to run arbitrary code on a target machine.</li>
+              <li>Citrix Bleed 2 - a vulnerability in Citrix products that allows unauthorized access to systems.</li>
             
-              <li>CISA - Cybersecurity and Infrastructure Security Agency, a U.S. government agency that provides guidance on cybersecurity threats.</li>
+              <li>RMM (Remote Management and Monitoring) - tools that allow IT teams to manage and monitor systems remotely, which can be exploited by attackers.</li>
             
             </ul>
           </div>
@@ -479,11 +475,11 @@
           <div class="label">Defender focus</div>
           <ul class="list">
             
-            <li>Implement monitoring for unusual activity on SharePoint servers.</li>
+            <li>Implement monitoring for unusual RMM tool usage.</li>
             
-            <li>Ensure that all SharePoint instances are updated with the latest security patches.</li>
+            <li>Ensure all Citrix products are updated with the latest security patches.</li>
             
-            <li>Review access controls and permissions for SharePoint users to limit potential damage.</li>
+            <li>Review and tighten access controls for credential management.</li>
             
           </ul>
         </div>
@@ -492,24 +488,24 @@
           <div class="label">Do now</div>
           <ul class="list">
             
-            <li>Patch all affected SharePoint installations immediately.</li>
+            <li>Patch Citrix systems immediately to mitigate CVE-2025-5777.</li>
             
-            <li>Conduct a security audit of SharePoint configurations and user permissions.</li>
+            <li>Conduct a review of RMM tool configurations and access logs.</li>
             
-            <li>Stay informed on any new developments or advisories from CISA and Microsoft.</li>
+            <li>Enhance credential management practices to prevent unauthorized access.</li>
             
           </ul>
         </div>
 
-        <div class="text-block"><span class="label">Watch next:</span> Monitor for updates from Microsoft regarding additional patches or mitigations related to this vulnerability.</div>
+        <div class="text-block"><span class="label">Watch next:</span> Monitor for updates from Citrix regarding patches for CVE-2025-5777 and any emerging threat intelligence related to Anubis ransomware.</div>
 
         <div class="sources">
           <div class="label">Sources</div>
           
             
               <div>
-                <a href="https://www.bleepingcomputer.com/news/security/cisa-microsoft-sharepoint-rce-flaw-now-actively-exploited/" target="_blank" rel="noopener noreferrer">
-                  BleepingComputer - CISA: Microsoft SharePoint RCE flaw now actively exploited
+                <a href="https://thehackernews.com/2026/07/ransomware-groups-turn-to-citrix-bleed.html" target="_blank" rel="noopener noreferrer">
+                  The Hacker News - Ransomware Groups Turn to Citrix Bleed 2, BYOVD, and Supply Chain Credentials
                 </a>
               </div>
             
@@ -530,9 +526,7 @@
             
               <article class="card" style="--i: 0;">
         <div class="meta">
-          <span class="chip risk-high">HIGH</span>
-          
-            <span class="chip label-chip">PATCH RELEASE</span>
+          <span class="chip risk-medium">MEDIUM</span>
           
             <span class="chip label-chip">LEGAL POLICY</span>
           
@@ -540,35 +534,35 @@
           <span class="chip chip-neutral">Confidence LOW</span>
         </div>
         
-          <h3><a href="https://www.bleepingcomputer.com/news/security/cisco-finally-confirms-attackers-exploiting-unified-cm-flaw/" target="_blank" rel="noopener noreferrer">Cisco finally confirms attackers exploiting Unified CM flaw</a></h3>
+          <h3><a href="https://thehackernews.com/2026/07/threatsday-ai-compute-hijacking-apple.html" target="_blank" rel="noopener noreferrer">ThreatsDay: AI Compute Hijacking, Apple Email Flaw, BlueHammer Ransomware + 14 Stories</a></h3>
         
-        <p class="hook">The exploitation of a critical vulnerability in Cisco's Unified Communications Manager could lead to unauthorized access and significant disruptions in communication systems.</p>
+        <p class="hook">Multiple vulnerabilities across various systems highlight a pervasive risk that could lead to significant breaches if not addressed promptly.</p>
         <div class="support-grid">
-          <div class="text-block"><span class="label">Who should care:</span> IT and security teams managing Cisco Unified Communications systems are most exposed.</div>
-          <div class="text-block"><span class="label">Attack path:</span> Attackers can gain leverage by exploiting the patched vulnerability to access and manipulate communication data within the Unified CM.</div>
+          <div class="text-block"><span class="label">Who should care:</span> IT security teams, software developers, and organizations using AI systems or email services should be particularly vigilant.</div>
+          <div class="text-block"><span class="label">Attack path:</span> An attacker could exploit weak permissions or inadequate checks to gain unauthorized access to sensitive systems or data. This could involve using legitimate tools in unintended ways to bypass security measures.</div>
         </div>
-        <div class="text-block"><span class="label">Why this matters now:</span> A live patch or vendor fix gives defenders something concrete to validate.</div>
-        <div class="text-block"><span class="label">In plain English:</span> Cisco has confirmed that attackers are actively exploiting a vulnerability in their Unified CM software.</div>
+        <div class="text-block"><span class="label">Why this matters now:</span> Useful context for teams tracking where attacker pressure is building.</div>
+        <div class="text-block"><span class="label">In plain English:</span> Weaknesses in browsers, AI systems, and email flows expose organizations to potential attacks.</div>
         
           <div class="tags">
             
-              <span>cve</span>
+              <span>vulnerability</span>
             
-              <span>unified_cm</span>
+              <span>ai</span>
             
-              <span>cisco</span>
+              <span>email</span>
             
           </div>
         
         <ul class="story-list">
           
-            <li>Cisco has acknowledged that attackers are exploiting a vulnerability in the Unified Communications Manager (Unified CM) that was patched in early June. This flaw allows unauthorized access to the system, potentially compromising sensitive communications.</li>
+            <li>Recent reports indicate that various systems, including browsers and AI compute resources, have been found to have vulnerabilities due to weak permissions and inadequate checks. These vulnerabilities allow attackers to exploit small gaps in security. The findings suggest a trend of systemic weaknesses rather than isolated incidents.</li>
           
-            <li>The exploitation of this vulnerability can lead to severe disruptions in business communications and may expose sensitive information. Organizations using Unified CM should prioritize patching to mitigate risks associated with unauthorized access.</li>
+            <li>The presence of these vulnerabilities means that attackers could leverage them to gain unauthorized access or disrupt services. Organizations relying on these systems may face data breaches, operational disruptions, or reputational damage if they do not take immediate action to secure their environments.</li>
           
-            <li>Attackers can gain leverage by exploiting the patched vulnerability to access and manipulate communication data within the Unified CM.</li>
+            <li>An attacker could exploit weak permissions or inadequate checks to gain unauthorized access to sensitive systems or data. This could involve using legitimate tools in unintended ways to bypass security measures.</li>
           
-            <li>Watch next: Monitor for any updates from Cisco regarding additional patches or mitigations related to this vulnerability.</li>
+            <li>Watch next: Monitor for updates from vendors regarding patches or mitigations for the identified vulnerabilities.</li>
           
         </ul>
 
@@ -577,9 +571,9 @@
             <div class="label">Key terms</div>
             <ul class="list">
             
-              <li>Unified Communications Manager - a software application that manages voice and video communications in an organization.</li>
+              <li>Vulnerability - a weakness in a system that can be exploited by an attacker.</li>
             
-              <li>Vulnerability - a weakness in software that can be exploited by attackers to gain unauthorized access or cause harm.</li>
+              <li>Permission - the rights granted to users or systems to access resources.</li>
             
             </ul>
           </div>
@@ -589,11 +583,11 @@
           <div class="label">Defender focus</div>
           <ul class="list">
             
-            <li>Verify that all instances of Unified CM are updated with the latest security patches.</li>
+            <li>Implement monitoring for unusual access patterns in email systems.</li>
             
-            <li>Monitor network traffic for unusual access patterns related to Unified CM.</li>
+            <li>Review and tighten permissions on AI compute resources.</li>
             
-            <li>Implement strict access controls to limit exposure to the Unified CM system.</li>
+            <li>Conduct vulnerability assessments on browsers and related applications.</li>
             
           </ul>
         </div>
@@ -602,24 +596,24 @@
           <div class="label">Do now</div>
           <ul class="list">
             
-            <li>Immediately apply the latest security patches to Unified CM.</li>
+            <li>Conduct a thorough review of system permissions and access controls.</li>
             
-            <li>Conduct a security audit of the Unified CM configurations.</li>
+            <li>Apply available patches and updates to affected systems immediately.</li>
             
-            <li>Educate relevant staff on the importance of maintaining updated systems.</li>
+            <li>Educate teams on recognizing and reporting potential exploitation attempts.</li>
             
           </ul>
         </div>
 
-        <div class="text-block"><span class="label">Watch next:</span> Monitor for any updates from Cisco regarding additional patches or mitigations related to this vulnerability.</div>
+        <div class="text-block"><span class="label">Watch next:</span> Monitor for updates from vendors regarding patches or mitigations for the identified vulnerabilities.</div>
 
         <div class="sources">
           <div class="label">Sources</div>
           
             
               <div>
-                <a href="https://www.bleepingcomputer.com/news/security/cisco-finally-confirms-attackers-exploiting-unified-cm-flaw/" target="_blank" rel="noopener noreferrer">
-                  BleepingComputer - Cisco finally confirms attackers exploiting Unified CM flaw
+                <a href="https://thehackernews.com/2026/07/threatsday-ai-compute-hijacking-apple.html" target="_blank" rel="noopener noreferrer">
+                  The Hacker News - ThreatsDay: AI Compute Hijacking, Apple Email Flaw, BlueHammer Ransomware + 14 Stories
                 </a>
               </div>
             
@@ -646,6 +640,8 @@
       <strong>Recent Issues</strong>
       <div class="archive-list">
         
+        <a href="archive/2026-07-03.html">2026-07-03</a>
+        
         <a href="archive/2026-07-02.html">2026-07-02</a>
         
         <a href="archive/2026-07-01.html">2026-07-01</a>
@@ -671,8 +667,6 @@
         <a href="archive/2026-06-21.html">2026-06-21</a>
         
         <a href="archive/2026-06-20.html">2026-06-20</a>
-        
-        <a href="archive/2026-06-19.html">2026-06-19</a>
         
       </div>
     </aside>
