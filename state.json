@@ -1,5 +1,5 @@
 {
-  "last_run_utc": "2026-07-05T13:59:11.190310+00:00",
+  "last_run_utc": "2026-07-06T11:57:44.331254+00:00",
   "processed_urls": [
     "https://www.bleepingcomputer.com/news/security/critical-cisco-sd-wan-bug-exploited-in-zero-day-attacks-since-2023/",
     "https://www.cisa.gov/news-events/alerts/2026/02/25/cisa-and-partners-release-guidance-ongoing-global-exploitation-cisco-sd-wan-systems",
@@ -843,6 +843,7 @@
     "https://thehackernews.com/2026/07/unpatched-flaws-disclosed-in-filesystem.html",
     "https://thehackernews.com/2026/07/new-bad-epoll-linux-kernel-flaw-lets.html",
     "https://thehackernews.com/2026/07/us-government-entity-paid-kairos-group.html",
-    "https://www.bleepingcomputer.com/news/security/jadepuffer-ransomware-used-ai-agent-to-automate-entire-attack/"
+    "https://www.bleepingcomputer.com/news/security/jadepuffer-ransomware-used-ai-agent-to-automate-entire-attack/",
+    "https://thehackernews.com/2026/07/opera-gx-flaw-let-malicious-sites-auto.html"
   ]
 }
