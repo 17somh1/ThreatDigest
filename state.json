@@ -1,5 +1,5 @@
 {
-  "last_run_utc": "2026-07-06T15:51:26.658258+00:00",
+  "last_run_utc": "2026-07-07T10:49:36.076367+00:00",
   "processed_urls": [
     "https://www.bleepingcomputer.com/news/security/critical-cisco-sd-wan-bug-exploited-in-zero-day-attacks-since-2023/",
     "https://www.cisa.gov/news-events/alerts/2026/02/25/cisa-and-partners-release-guidance-ongoing-global-exploitation-cisco-sd-wan-systems",
@@ -847,6 +847,13 @@
     "https://thehackernews.com/2026/07/opera-gx-flaw-let-malicious-sites-auto.html",
     "https://www.bleepingcomputer.com/news/security/max-severity-adobe-coldfusion-flaw-now-exploited-in-attacks/",
     "https://thehackernews.com/2026/07/monday-recap-proxy-botnets-browser.html",
-    "https://thehackernews.com/2026/07/suspected-china-nexus-hackers-use-fake.html"
+    "https://thehackernews.com/2026/07/suspected-china-nexus-hackers-use-fake.html",
+    "https://thehackernews.com/2026/07/suspected-china-aligned-hackers-exploit.html",
+    "https://thehackernews.com/2026/07/beyondtrust-patches-critical-auth.html",
+    "https://www.bleepingcomputer.com/news/security/phishing-poses-as-big-brand-job-interview-to-steal-google-accounts/",
+    "https://thehackernews.com/2026/07/threat-actors-probe-gitea-docker-flaw.html",
+    "https://www.bleepingcomputer.com/news/security/beyondtrust-warns-of-critical-flaws-in-remote-access-software/",
+    "https://thehackernews.com/2026/07/certcc-warns-of-hidden-admin-backdoor.html",
+    "https://thehackernews.com/2026/07/16-year-old-linux-kvm-flaw-lets-guest.html"
   ]
 }
