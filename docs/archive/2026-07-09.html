@@ -378,8 +378,8 @@
         The security news worth your attention, with context and practical takeaways.
       </p>
       <div class="meta-bar">
-        <span>Updated: 2026-07-09 10:48 UTC</span>
-        <span>Stories: 6</span>
+        <span>Updated: 2026-07-09 15:28 UTC</span>
+        <span>Stories: 2</span>
         <span>Recent issues: 14</span>
       </div>
     </header>
@@ -389,22 +389,14 @@
         <section class="one-liner">
           <h2>What Matters Today</h2>
           
-            <p class="text-block">Defenders must urgently address critical vulnerabilities in Microsoft Defender and Ubiquiti's UniFi products while remaining vigilant against malicious SDKs in development environments.</p>
+            <p class="empty">No summary available yet.</p>
           
         </section>
 
         <section class="themes">
           <h2>Patterns To Watch</h2>
           
-            <ul>
-              
-              <li>Critical vulnerabilities in widely used security products increase the risk of unauthorized access and system compromise.</li>
-              
-              <li>Malicious packages in development repositories highlight the need for increased scrutiny in software supply chains.</li>
-              
-              <li>AI tools inadvertently triggering security alerts can strain resources and distract from real threats.</li>
-              
-            </ul>
+            <p class="empty">No themes available yet.</p>
           
         </section>
       </div>
@@ -420,41 +412,45 @@
         <div class="meta">
           <span class="chip risk-high">HIGH</span>
           
-            <span class="chip label-chip">PATCH RELEASE</span>
+            <span class="chip label-chip">ACTIVE EXPLOITATION</span>
           
-          <span class="chip chip-neutral">Initial Access</span>
+            <span class="chip label-chip">INDUSTRY SIGNAL</span>
+          
+            <span class="chip label-chip">RESEARCH</span>
+          
+          <span class="chip chip-neutral">Defense Evasion</span>
           <span class="chip chip-neutral">Confidence LOW</span>
         </div>
         
-          <h3><a href="https://www.bleepingcomputer.com/news/microsoft/microsoft-patches-rogueplanet-defender-zero-day-vulnerability/" target="_blank" rel="noopener noreferrer">Microsoft patches RoguePlanet Defender zero-day vulnerability</a></h3>
+          <h3><a href="https://thehackernews.com/2026/07/goddamn-ransomware-uses-poisonx-driver.html" target="_blank" rel="noopener noreferrer">GodDamn Ransomware Uses PoisonX Driver to Disable Endpoint Defenses</a></h3>
         
-        <p class="hook">The recently patched RoguePlanet vulnerability in Microsoft Defender poses a significant risk, as it could allow attackers to bypass security measures and gain unauthorized access to systems.</p>
+        <p class="hook">The emergence of GodDamn ransomware, utilizing the PoisonX driver, poses a significant threat to endpoint security by disabling defenses.</p>
         <div class="support-grid">
-          <div class="text-block"><span class="label">Who should care:</span> IT security teams and organizations using Microsoft Defender are most exposed to this vulnerability.</div>
-          <div class="text-block"><span class="label">Attack path:</span> An attacker could exploit the RoguePlanet vulnerability to bypass Defender's security measures, gaining unauthorized access to the system.</div>
+          <div class="text-block"><span class="label">Who should care:</span> IT security teams and organizations using endpoint protection solutions are most exposed to this threat.</div>
+          <div class="text-block"><span class="label">Attack path:</span> Attackers leverage the PoisonX driver to disable security software, allowing the ransomware to execute and encrypt files without detection.</div>
         </div>
-        <div class="text-block"><span class="label">Why this matters now:</span> A live patch or vendor fix gives defenders something concrete to validate.</div>
-        <div class="text-block"><span class="label">In plain English:</span> Microsoft has fixed a critical vulnerability in Defender that could be exploited by attackers.</div>
+        <div class="text-block"><span class="label">Why this matters now:</span> Active exploitation makes this an immediate exposure check.</div>
+        <div class="text-block"><span class="label">In plain English:</span> A new ransomware called GodDamn is using a kernel driver to bypass security measures, increasing the risk of successful attacks.</div>
         
           <div class="tags">
             
+              <span>ransomware</span>
+            
               <span>cve</span>
             
-              <span>microsoft</span>
-            
-              <span>defender</span>
+              <span>cloud</span>
             
           </div>
         
         <ul class="story-list">
           
-            <li>Microsoft released a security patch for a zero-day vulnerability in Defender, identified as RoguePlanet, following its disclosure after the June 2026 Patch Tuesday. This vulnerability allows for potential bypass of security protocols, increasing the risk of unauthorized access.</li>
+            <li>Cybersecurity researchers identified a new ransomware family named GodDamn that employs the PoisonX kernel driver to disable endpoint security software. This ransomware was first detected in the wild on May 21, 2026, and is believed to be a rebranding of the previously known Beast ransomware.</li>
           
-            <li>If exploited, this vulnerability could lead to significant security breaches, allowing attackers to compromise sensitive data and disrupt operations. Organizations using Microsoft Defender must prioritize applying this patch to mitigate the risk of exploitation.</li>
+            <li>The ability of GodDamn to neutralize security defenses significantly increases the likelihood of successful ransomware attacks, potentially leading to data loss and operational disruption. Organizations relying on traditional endpoint security measures may find themselves vulnerable if they do not adapt to this new threat.</li>
           
-            <li>An attacker could exploit the RoguePlanet vulnerability to bypass Defender's security measures, gaining unauthorized access to the system.</li>
+            <li>Attackers leverage the PoisonX driver to disable security software, allowing the ransomware to execute and encrypt files without detection.</li>
           
-            <li>Watch next: Monitor for reports of exploitation attempts and ensure the patch is applied across all affected systems.</li>
+            <li>Watch next: Monitor for updates from security vendors regarding patches or mitigations for the PoisonX driver.</li>
           
         </ul>
 
@@ -463,9 +459,9 @@
             <div class="label">Key terms</div>
             <ul class="list">
             
-              <li>ZERO-DAY VULNERABILITY - a security flaw that is unknown to the vendor and has not yet been patched.</li>
+              <li>Ransomware - a type of malicious software that encrypts files and demands payment for their release.</li>
             
-              <li>PATCH - a software update designed to fix vulnerabilities or improve functionality.</li>
+              <li>Kernel driver - a program that operates at a low level in the operating system, allowing it to interact directly with hardware and system resources.</li>
             
             </ul>
           </div>
@@ -475,11 +471,11 @@
           <div class="label">Defender focus</div>
           <ul class="list">
             
-            <li>Ensure all systems running Microsoft Defender are updated with the latest security patch.</li>
+            <li>Implement monitoring for unusual driver installations or modifications on endpoints.</li>
             
-            <li>Monitor logs for any unusual access patterns that may indicate exploitation attempts.</li>
+            <li>Review and update endpoint protection configurations to ensure they can detect and respond to new threats.</li>
             
-            <li>Review and enhance security configurations to mitigate potential bypass scenarios.</li>
+            <li>Conduct a risk assessment to identify critical assets that may be targeted by ransomware.</li>
             
           </ul>
         </div>
@@ -488,24 +484,24 @@
           <div class="label">Do now</div>
           <ul class="list">
             
-            <li>Immediately apply the Microsoft Defender patch across all systems.</li>
+            <li>Enhance endpoint security measures to detect and block the PoisonX driver.</li>
             
-            <li>Conduct a security audit to identify any potential vulnerabilities.</li>
+            <li>Conduct a thorough review of existing security policies and procedures.</li>
             
-            <li>Stay informed about any follow-up advisories from Microsoft regarding this vulnerability.</li>
+            <li>Stay informed about emerging ransomware threats and adjust defenses accordingly.</li>
             
           </ul>
         </div>
 
-        <div class="text-block"><span class="label">Watch next:</span> Monitor for reports of exploitation attempts and ensure the patch is applied across all affected systems.</div>
+        <div class="text-block"><span class="label">Watch next:</span> Monitor for updates from security vendors regarding patches or mitigations for the PoisonX driver.</div>
 
         <div class="sources">
           <div class="label">Sources</div>
           
             
               <div>
-                <a href="https://www.bleepingcomputer.com/news/microsoft/microsoft-patches-rogueplanet-defender-zero-day-vulnerability/" target="_blank" rel="noopener noreferrer">
-                  BleepingComputer - Microsoft patches RoguePlanet Defender zero-day vulnerability
+                <a href="https://thehackernews.com/2026/07/goddamn-ransomware-uses-poisonx-driver.html" target="_blank" rel="noopener noreferrer">
+                  The Hacker News - GodDamn Ransomware Uses PoisonX Driver to Disable Endpoint Defenses
                 </a>
               </div>
             
@@ -528,237 +524,41 @@
         <div class="meta">
           <span class="chip risk-high">HIGH</span>
           
-            <span class="chip label-chip">PATCH RELEASE</span>
-          
-            <span class="chip label-chip">LEGAL POLICY</span>
-          
-          <span class="chip chip-neutral">Privilege Escalation</span>
-          <span class="chip chip-neutral">Confidence LOW</span>
-        </div>
-        
-          <h3><a href="https://thehackernews.com/2026/07/ubiquiti-patches-critical-unifi-flaws.html" target="_blank" rel="noopener noreferrer">Ubiquiti Patches Critical UniFi Flaws Across Connect, Talk, Access, Protect, and OS</a></h3>
-        
-        <p class="hook">Immediate action is required to mitigate critical vulnerabilities in Ubiquiti's UniFi products that could allow attackers to gain unauthorized access and execute commands.</p>
-        <div class="support-grid">
-          <div class="text-block"><span class="label">Who should care:</span> IT security teams managing Ubiquiti UniFi products should prioritize these updates.</div>
-          <div class="text-block"><span class="label">Attack path:</span> An attacker could exploit these vulnerabilities to bypass access controls and execute malicious commands on the affected systems.</div>
-        </div>
-        <div class="text-block"><span class="label">Why this matters now:</span> A live patch or vendor fix gives defenders something concrete to validate.</div>
-        <div class="text-block"><span class="label">In plain English:</span> Ubiquiti has released patches for severe security flaws in several UniFi products that need urgent attention.</div>
-        
-          <div class="tags">
-            
-              <span>ransomware</span>
-            
-              <span>cve</span>
-            
-              <span>cloud</span>
-            
-          </div>
-        
-        <ul class="story-list">
-          
-            <li>Ubiquiti has issued updates to fix multiple critical vulnerabilities affecting UniFi Connect, Talk, Access, Protect, and OS. These flaws include CVE-2026-50746, which has a CVSS score of 10.0, indicating a severe risk of privilege escalation and arbitrary command execution.</li>
-          
-            <li>If left unpatched, these vulnerabilities could allow attackers to gain elevated privileges and execute arbitrary commands on affected systems, potentially compromising sensitive data and system integrity. Organizations using these products are at significant risk of exploitation.</li>
-          
-            <li>An attacker could exploit these vulnerabilities to bypass access controls and execute malicious commands on the affected systems.</li>
-          
-            <li>Watch next: Monitor for any reports of exploitation attempts or further advisories from Ubiquiti regarding these vulnerabilities.</li>
-          
-        </ul>
-
-        
-          <div class="glossary">
-            <div class="label">Key terms</div>
-            <ul class="list">
-            
-              <li>CVE - Common Vulnerabilities and Exposures, a list of publicly disclosed cybersecurity vulnerabilities.</li>
-            
-              <li>CVSS - Common Vulnerability Scoring System, a standardized method for rating the severity of security vulnerabilities.</li>
-            
-            </ul>
-          </div>
-        
-
-        <div>
-          <div class="label">Defender focus</div>
-          <ul class="list">
-            
-            <li>Verify that all Ubiquiti UniFi products are updated to the latest versions.</li>
-            
-            <li>Monitor logs for any unusual access patterns or command executions.</li>
-            
-            <li>Implement network segmentation to limit exposure of affected systems.</li>
-            
-          </ul>
-        </div>
-
-        <div>
-          <div class="label">Do now</div>
-          <ul class="list">
-            
-            <li>Immediately apply the latest patches from Ubiquiti.</li>
-            
-            <li>Conduct a security audit of all UniFi products in use.</li>
-            
-            <li>Review and enhance access controls for sensitive systems.</li>
-            
-          </ul>
-        </div>
-
-        <div class="text-block"><span class="label">Watch next:</span> Monitor for any reports of exploitation attempts or further advisories from Ubiquiti regarding these vulnerabilities.</div>
-
-        <div class="sources">
-          <div class="label">Sources</div>
-          
-            
-              <div>
-                <a href="https://thehackernews.com/2026/07/ubiquiti-patches-critical-unifi-flaws.html" target="_blank" rel="noopener noreferrer">
-                  The Hacker News - Ubiquiti Patches Critical UniFi Flaws Across Connect, Talk, Access, Protect, and OS
-                </a>
-              </div>
-            
-          
-        </div>
-      </article>
-            
-              <article class="card" style="--i: 1;">
-        <div class="meta">
-          <span class="chip risk-high">HIGH</span>
-          
             <span class="chip label-chip">INDUSTRY SIGNAL</span>
           
-          <span class="chip chip-neutral">Initial Access</span>
+          <span class="chip chip-neutral">Credential Access</span>
           <span class="chip chip-neutral">Confidence LOW</span>
         </div>
         
-          <h3><a href="https://www.bleepingcomputer.com/news/security/fake-paysafe-skrill-sdks-on-npm-and-pypi-steal-credentials/" target="_blank" rel="noopener noreferrer">Fake Paysafe, Skrill SDKs on NPM and PyPi steal credentials</a></h3>
+          <h3><a href="https://www.bleepingcomputer.com/news/security/new-forg365-phishing-platform-uses-ai-to-target-microsoft-365-accounts/" target="_blank" rel="noopener noreferrer">New Forg365 phishing platform uses AI to target Microsoft 365 accounts</a></h3>
         
-        <p class="hook">Developers using npm and PyPI are at immediate risk of credential theft due to malicious SDKs posing as legitimate payment libraries.</p>
+        <p class="hook">The emergence of the Forg365 phishing platform poses a significant threat to Microsoft 365 accounts, potentially compromising sensitive organizational data.</p>
         <div class="support-grid">
-          <div class="text-block"><span class="label">Who should care:</span> Development teams using npm and PyPI for payment application integrations should be particularly vigilant.</div>
-          <div class="text-block"><span class="label">Attack path:</span> Attackers can gain leverage by distributing malicious packages that appear legitimate, tricking developers into integrating them into their applications.</div>
+          <div class="text-block"><span class="label">Who should care:</span> IT security teams managing Microsoft 365 environments should prioritize monitoring for these phishing attempts.</div>
+          <div class="text-block"><span class="label">Attack path:</span> Attackers leverage AI to generate realistic phishing messages that trick users into providing their credentials, often through compromised devices.</div>
         </div>
         <div class="text-block"><span class="label">Why this matters now:</span> Useful context for teams tracking where attacker pressure is building.</div>
-        <div class="text-block"><span class="label">In plain English:</span> Fake SDKs on popular package managers are stealing user credentials for payment applications.</div>
+        <div class="text-block"><span class="label">In plain English:</span> A new AI-driven phishing service targets Microsoft 365 accounts, increasing the risk of credential theft.</div>
         
           <div class="tags">
             
-              <span>credential theft</span>
+              <span>phishing</span>
             
-              <span>npm</span>
-            
-              <span>pypi</span>
-            
-          </div>
-        
-        <ul class="story-list">
-          
-            <li>Malicious packages masquerading as Paysafe and Skrill SDKs were discovered on npm and PyPI. These packages delivered credential-stealing malware to unsuspecting developers and users.</li>
-          
-            <li>The compromise of payment application credentials can lead to unauthorized transactions and financial loss for users. This incident highlights the vulnerability of widely-used package managers to supply chain attacks.</li>
-          
-            <li>Attackers can gain leverage by distributing malicious packages that appear legitimate, tricking developers into integrating them into their applications.</li>
-          
-            <li>Watch next: Monitor for updates from npm and PyPI regarding the removal of these malicious packages and any additional security measures.</li>
-          
-        </ul>
-
-        
-          <div class="glossary">
-            <div class="label">Key terms</div>
-            <ul class="list">
-            
-              <li>SDK - Software Development Kit, a collection of tools for building applications.</li>
-            
-              <li>Credential Theft - The act of stealing user login information to gain unauthorized access.</li>
-            
-            </ul>
-          </div>
-        
-
-        <div>
-          <div class="label">Defender focus</div>
-          <ul class="list">
-            
-            <li>Implement package integrity checks to verify the authenticity of downloaded SDKs.</li>
-            
-            <li>Monitor for unusual authentication attempts from payment application users.</li>
-            
-            <li>Educate developers on verifying package sources before integration.</li>
-            
-          </ul>
-        </div>
-
-        <div>
-          <div class="label">Do now</div>
-          <ul class="list">
-            
-            <li>Immediately audit your dependencies for any recent installations from npm or PyPI.</li>
-            
-            <li>Remove any suspicious packages and replace them with verified alternatives.</li>
-            
-            <li>Enhance monitoring for any signs of unauthorized access to payment application accounts.</li>
-            
-          </ul>
-        </div>
-
-        <div class="text-block"><span class="label">Watch next:</span> Monitor for updates from npm and PyPI regarding the removal of these malicious packages and any additional security measures.</div>
-
-        <div class="sources">
-          <div class="label">Sources</div>
-          
-            
-              <div>
-                <a href="https://www.bleepingcomputer.com/news/security/fake-paysafe-skrill-sdks-on-npm-and-pypi-steal-credentials/" target="_blank" rel="noopener noreferrer">
-                  BleepingComputer - Fake Paysafe, Skrill SDKs on NPM and PyPi steal credentials
-                </a>
-              </div>
-            
-          
-        </div>
-      </article>
-            
-              <article class="card" style="--i: 2;">
-        <div class="meta">
-          <span class="chip risk-medium">MEDIUM</span>
-          
-            <span class="chip label-chip">INDUSTRY SIGNAL</span>
-          
-          <span class="chip chip-neutral">Discovery</span>
-          <span class="chip chip-neutral">Confidence LOW</span>
-        </div>
-        
-          <h3><a href="https://thehackernews.com/2026/07/ai-coding-agents-found-triggering.html" target="_blank" rel="noopener noreferrer">AI Coding Agents Found Triggering Endpoint Security Rules Built to Catch Attackers</a></h3>
-        
-        <p class="hook">The use of AI coding agents is inadvertently triggering security alerts, which could lead to unnecessary investigations and resource allocation.</p>
-        <div class="support-grid">
-          <div class="text-block"><span class="label">Who should care:</span> Security operations teams and developers utilizing AI coding agents in their environments should be particularly vigilant.</div>
-          <div class="text-block"><span class="label">Attack path:</span> While these AI tools are not malicious, their behavior mimics that of attackers, potentially leading to confusion and misallocation of security resources.</div>
-        </div>
-        <div class="text-block"><span class="label">Why this matters now:</span> Useful context for teams tracking where attacker pressure is building.</div>
-        <div class="text-block"><span class="label">In plain English:</span> AI coding tools are causing endpoint security systems to flag them as potential threats.</div>
-        
-          <div class="tags">
-            
-              <span>endpoint security</span>
+              <span>microsoft365</span>
             
               <span>ai</span>
             
-              <span>false positives</span>
-            
           </div>
         
         <ul class="story-list">
           
-            <li>Sophos analyzed a week of endpoint data and discovered that AI coding agents like Claude Code, Cursor, and OpenAI Codex are activating detection rules designed for human attackers. These agents perform actions that resemble malicious behavior, such as decrypting browser credentials and accessing the Windows credential store.</li>
+            <li>A phishing-as-a-service operation named Forg365 has been identified, utilizing adversary-in-the-middle techniques and AI to create convincing lures for Microsoft 365 users. This platform allows attackers to easily deploy sophisticated phishing campaigns.</li>
           
-            <li>This situation can lead to false positives in security alerts, causing security teams to divert attention and resources to non-malicious activities. It highlights the need for refining detection rules to differentiate between legitimate AI tool usage and actual threats.</li>
+            <li>The use of AI in crafting phishing lures makes these attacks more convincing and harder to detect, increasing the likelihood of successful credential theft. Organizations using Microsoft 365 must be vigilant as compromised accounts can lead to data breaches and unauthorized access to sensitive information.</li>
           
-            <li>While these AI tools are not malicious, their behavior mimics that of attackers, potentially leading to confusion and misallocation of security resources.</li>
+            <li>Attackers leverage AI to generate realistic phishing messages that trick users into providing their credentials, often through compromised devices.</li>
           
-            <li>Watch next: Monitor for updates from Sophos regarding adjustments to detection rules and any emerging patterns in AI tool usage.</li>
+            <li>Watch next: Monitor for reports of increased phishing attempts targeting Microsoft 365 accounts and any updates from Microsoft regarding countermeasures.</li>
           
         </ul>
 
@@ -767,9 +567,9 @@
             <div class="label">Key terms</div>
             <ul class="list">
             
-              <li>AI coding agents - software tools that assist in writing code using artificial intelligence.</li>
+              <li>Phishing - a method of trying to gather personal information using deceptive emails and websites.</li>
             
-              <li>False positives - alerts that indicate a threat where none exists.</li>
+              <li>Adversary-in-the-middle (AiTM) - a type of attack where the attacker intercepts communication between two parties to steal information.</li>
             
             </ul>
           </div>
@@ -779,11 +579,11 @@
           <div class="label">Defender focus</div>
           <ul class="list">
             
-            <li>Review and adjust detection rules to minimize false positives from AI coding agents.</li>
+            <li>Implement email filtering to detect and block phishing attempts.</li>
             
-            <li>Implement logging to track the activities of AI tools in your environment.</li>
+            <li>Enhance user training on recognizing phishing emails, especially those targeting Microsoft 365.</li>
             
-            <li>Communicate with development teams about the potential for alerts triggered by AI tools.</li>
+            <li>Monitor for unusual login attempts or access patterns in Microsoft 365 accounts.</li>
             
           </ul>
         </div>
@@ -792,24 +592,24 @@
           <div class="label">Do now</div>
           <ul class="list">
             
-            <li>Adjust detection rules to reduce false positives from AI coding agents.</li>
+            <li>Increase monitoring for phishing attempts targeting Microsoft 365 accounts.</li>
             
-            <li>Increase monitoring of alerts triggered by these tools.</li>
+            <li>Review and strengthen multi-factor authentication (MFA) policies.</li>
             
-            <li>Educate relevant teams on the behavior of AI coding agents to prevent unnecessary investigations.</li>
+            <li>Educate users on identifying suspicious emails and reporting them.</li>
             
           </ul>
         </div>
 
-        <div class="text-block"><span class="label">Watch next:</span> Monitor for updates from Sophos regarding adjustments to detection rules and any emerging patterns in AI tool usage.</div>
+        <div class="text-block"><span class="label">Watch next:</span> Monitor for reports of increased phishing attempts targeting Microsoft 365 accounts and any updates from Microsoft regarding countermeasures.</div>
 
         <div class="sources">
           <div class="label">Sources</div>
           
             
               <div>
-                <a href="https://thehackernews.com/2026/07/ai-coding-agents-found-triggering.html" target="_blank" rel="noopener noreferrer">
-                  The Hacker News - AI Coding Agents Found Triggering Endpoint Security Rules Built to Catch Attackers
+                <a href="https://www.bleepingcomputer.com/news/security/new-forg365-phishing-platform-uses-ai-to-target-microsoft-365-accounts/" target="_blank" rel="noopener noreferrer">
+                  BleepingComputer - New Forg365 phishing platform uses AI to target Microsoft 365 accounts
                 </a>
               </div>
             
@@ -827,207 +627,7 @@
           Wider Signal
         </div>
         
-          <div class="grid">
-            
-              <article class="card" style="--i: 0;">
-        <div class="meta">
-          <span class="chip risk-high">HIGH</span>
-          
-            <span class="chip label-chip">PATCH RELEASE</span>
-          
-            <span class="chip label-chip">LEGAL POLICY</span>
-          
-          <span class="chip chip-neutral">Privilege Escalation</span>
-          <span class="chip chip-neutral">Confidence LOW</span>
-        </div>
-        
-          <h3><a href="https://thehackernews.com/2026/07/microsoft-patches-rogueplanet-defender.html" target="_blank" rel="noopener noreferrer">Microsoft Patches RoguePlanet Defender Flaw That Can Grant SYSTEM Privileges</a></h3>
-        
-        <p class="hook">Immediate action is required as a critical vulnerability in Microsoft Defender could allow attackers to gain SYSTEM privileges, compromising entire systems.</p>
-        <div class="support-grid">
-          <div class="text-block"><span class="label">Who should care:</span> IT security teams managing Microsoft Defender installations are most exposed to this vulnerability.</div>
-          <div class="text-block"><span class="label">Attack path:</span> An attacker could exploit this flaw to escalate privileges from a lower user level to SYSTEM level, allowing full control over the affected machine.</div>
-        </div>
-        <div class="text-block"><span class="label">Why this matters now:</span> A live patch or vendor fix gives defenders something concrete to validate.</div>
-        <div class="text-block"><span class="label">In plain English:</span> Microsoft has patched a serious vulnerability in Defender that could let attackers escalate privileges.</div>
-        
-          <div class="tags">
-            
-              <span>cve</span>
-            
-              <span>microsoft</span>
-            
-              <span>defender</span>
-            
-          </div>
-        
-        <ul class="story-list">
-          
-            <li>Microsoft released security updates for a vulnerability in its Defender antivirus software, identified as CVE-2026-50656. This flaw, which has a CVSS score of 7.8, allows for privilege escalation via the Microsoft Malware Protection Engine.</li>
-          
-            <li>If exploited, this vulnerability could enable attackers to gain full control over affected systems, leading to potential data breaches or further network compromise. Organizations using Microsoft Defender should prioritize applying the patch to mitigate risks.</li>
-          
-            <li>An attacker could exploit this flaw to escalate privileges from a lower user level to SYSTEM level, allowing full control over the affected machine.</li>
-          
-            <li>Watch next: Monitor for updates from Microsoft regarding any additional patches or advisories related to this vulnerability.</li>
-          
-        </ul>
-
-        
-          <div class="glossary">
-            <div class="label">Key terms</div>
-            <ul class="list">
-            
-              <li>CVE - Common Vulnerabilities and Exposures, a list of publicly disclosed cybersecurity vulnerabilities.</li>
-            
-              <li>Privilege Escalation - A type of attack where an attacker gains elevated access to resources that are normally protected from the user.</li>
-            
-            </ul>
-          </div>
-        
-
-        <div>
-          <div class="label">Defender focus</div>
-          <ul class="list">
-            
-            <li>Ensure all systems running Microsoft Defender are updated with the latest security patches.</li>
-            
-            <li>Monitor logs for unusual activity that may indicate exploitation attempts.</li>
-            
-            <li>Review access controls and permissions to limit potential damage from a successful exploit.</li>
-            
-          </ul>
-        </div>
-
-        <div>
-          <div class="label">Do now</div>
-          <ul class="list">
-            
-            <li>Apply the Microsoft Defender patch immediately.</li>
-            
-            <li>Conduct a security audit to identify any systems that may be vulnerable.</li>
-            
-            <li>Educate staff on the importance of timely updates and patch management.</li>
-            
-          </ul>
-        </div>
-
-        <div class="text-block"><span class="label">Watch next:</span> Monitor for updates from Microsoft regarding any additional patches or advisories related to this vulnerability.</div>
-
-        <div class="sources">
-          <div class="label">Sources</div>
-          
-            
-              <div>
-                <a href="https://thehackernews.com/2026/07/microsoft-patches-rogueplanet-defender.html" target="_blank" rel="noopener noreferrer">
-                  The Hacker News - Microsoft Patches RoguePlanet Defender Flaw That Can Grant SYSTEM Privileges
-                </a>
-              </div>
-            
-          
-        </div>
-      </article>
-            
-              <article class="card" style="--i: 1;">
-        <div class="meta">
-          <span class="chip risk-high">HIGH</span>
-          
-            <span class="chip label-chip">LEGAL POLICY</span>
-          
-            <span class="chip label-chip">RESEARCH</span>
-          
-          <span class="chip chip-neutral">Initial Access</span>
-          <span class="chip chip-neutral">Confidence LOW</span>
-        </div>
-        
-          <h3><a href="https://www.bleepingcomputer.com/news/security/hackers-exploit-roundcube-flaw-to-spy-on-academic-researchers/" target="_blank" rel="noopener noreferrer">Hackers exploit Roundcube flaw to spy on academic researchers</a></h3>
-        
-        <p class="hook">The exploitation of a Roundcube vulnerability poses a significant threat to academic institutions, potentially compromising sensitive research data.</p>
-        <div class="support-grid">
-          <div class="text-block"><span class="label">Who should care:</span> IT security teams at universities and research institutions using Roundcube should be particularly vigilant.</div>
-          <div class="text-block"><span class="label">Attack path:</span> Attackers gain access through unpatched vulnerabilities in Roundcube, allowing them to steal credentials and install persistent malware.</div>
-        </div>
-        <div class="text-block"><span class="label">Why this matters now:</span> Useful context for teams tracking where attacker pressure is building.</div>
-        <div class="text-block"><span class="label">In plain English:</span> Hackers are targeting universities using a flaw in Roundcube to steal credentials and install malware.</div>
-        
-          <div class="tags">
-            
-              <span>cve</span>
-            
-              <span>academic</span>
-            
-              <span>malware</span>
-            
-          </div>
-        
-        <ul class="story-list">
-          
-            <li>A China-linked threat group has been exploiting a vulnerability in Roundcube, an open-source webmail client, to infiltrate servers at U.S. and Canadian universities. This exploitation allows attackers to steal user credentials and deploy backdoor malware.</li>
-          
-            <li>The breach could lead to unauthorized access to sensitive academic research and personal data of researchers. If successful, this could undermine the integrity of academic work and expose institutions to further attacks.</li>
-          
-            <li>Attackers gain access through unpatched vulnerabilities in Roundcube, allowing them to steal credentials and install persistent malware.</li>
-          
-            <li>Watch next: Monitor for updates from Roundcube regarding patches and any new indicators of compromise from affected institutions.</li>
-          
-        </ul>
-
-        
-          <div class="glossary">
-            <div class="label">Key terms</div>
-            <ul class="list">
-            
-              <li>Roundcube - an open-source webmail client used by many organizations for email management.</li>
-            
-              <li>Backdoor - a method of bypassing normal authentication to gain remote access to a system.</li>
-            
-            </ul>
-          </div>
-        
-
-        <div>
-          <div class="label">Defender focus</div>
-          <ul class="list">
-            
-            <li>Implement monitoring for unusual login attempts on Roundcube servers.</li>
-            
-            <li>Ensure all Roundcube installations are updated to the latest version to mitigate vulnerabilities.</li>
-            
-            <li>Review access logs for signs of credential theft or unauthorized access.</li>
-            
-          </ul>
-        </div>
-
-        <div>
-          <div class="label">Do now</div>
-          <ul class="list">
-            
-            <li>Patch Roundcube installations immediately to close the vulnerability.</li>
-            
-            <li>Conduct a security audit of affected systems to identify any signs of compromise.</li>
-            
-            <li>Enhance monitoring for suspicious activities related to user credentials.</li>
-            
-          </ul>
-        </div>
-
-        <div class="text-block"><span class="label">Watch next:</span> Monitor for updates from Roundcube regarding patches and any new indicators of compromise from affected institutions.</div>
-
-        <div class="sources">
-          <div class="label">Sources</div>
-          
-            
-              <div>
-                <a href="https://www.bleepingcomputer.com/news/security/hackers-exploit-roundcube-flaw-to-spy-on-academic-researchers/" target="_blank" rel="noopener noreferrer">
-                  BleepingComputer - Hackers exploit Roundcube flaw to spy on academic researchers
-                </a>
-              </div>
-            
-          
-        </div>
-      </article>
-            
-          </div>
+          <p class="empty">No context stories today.</p>
         
       </section>
     </main>
