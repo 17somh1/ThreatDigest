@@ -378,8 +378,8 @@
         The security news worth your attention, with context and practical takeaways.
       </p>
       <div class="meta-bar">
-        <span>Updated: 2026-07-10 10:47 UTC</span>
-        <span>Stories: 5</span>
+        <span>Updated: 2026-07-10 14:45 UTC</span>
+        <span>Stories: 4</span>
         <span>Recent issues: 14</span>
       </div>
     </header>
@@ -389,7 +389,7 @@
         <section class="one-liner">
           <h2>What Matters Today</h2>
           
-            <p class="text-block">Today's updates highlight increasing legal consequences for ransomware negotiators and the emergence of new threats targeting SharePoint and Windows environments, stressing the need for heightened vigilance among cybersecurity teams.</p>
+            <p class="text-block">Multiple critical vulnerabilities across platforms highlight an urgent need for patching to prevent severe data breaches and service disruptions.</p>
           
         </section>
 
@@ -398,11 +398,11 @@
           
             <ul>
               
-              <li>Legal repercussions for engaging with cybercriminals may deter future negotiations, impacting incident response strategies.</li>
+              <li>Defenders face increased pressure to patch critical vulnerabilities quickly to mitigate risks of credential theft and unauthorized access.</li>
               
-              <li>The rise of vishing groups targeting SharePoint indicates a shift in attacker tactics, necessitating stronger defenses for data protection.</li>
+              <li>Attacker behavior is shifting towards sophisticated phishing tactics targeting widely used services, indicating a need for enhanced user training and awareness.</li>
               
-              <li>The introduction of GigaWiper combines destructive and deceptive tactics, increasing the complexity of threat landscapes for Windows environments.</li>
+              <li>Service availability is at risk due to unpatched flaws that allow remote exploitation, emphasizing the importance of proactive vulnerability management.</li>
               
             </ul>
           
@@ -418,43 +418,47 @@
           <div class="grid">
             <article class="card" style="--i: 0;">
         <div class="meta">
-          <span class="chip risk-medium">MEDIUM</span>
+          <span class="chip risk-high">HIGH</span>
           
-            <span class="chip label-chip">INDUSTRY SIGNAL</span>
+            <span class="chip label-chip">PATCH RELEASE</span>
           
-          <span class="chip chip-neutral">Impact</span>
+            <span class="chip label-chip">LEGAL POLICY</span>
+          
+            <span class="chip label-chip">RESEARCH</span>
+          
+          <span class="chip chip-neutral">Privilege Escalation</span>
           <span class="chip chip-neutral">Confidence LOW</span>
         </div>
         
-          <h3><a href="https://www.bleepingcomputer.com/news/security/us-ransomware-negotiator-gets-4-years-in-prison-for-blackcat-attacks/" target="_blank" rel="noopener noreferrer">Former ransomware negotiator gets 4 years for BlackCat attacks</a></h3>
+          <h3><a href="https://thehackernews.com/2026/07/researcher-details-whatsapp-to-host.html" target="_blank" rel="noopener noreferrer">Researcher Details WhatsApp-to-Host Attack Chain Using Three OpenClaw Flaws</a></h3>
         
-        <p class="hook">The sentencing of a former ransomware negotiator underscores the legal repercussions of engaging with cybercriminals, which could deter future negotiations with attackers.</p>
+        <p class="hook">Exploiting three critical vulnerabilities in OpenClaw could lead to severe credential theft and unauthorized access to host systems, making immediate patching essential.</p>
         <div class="support-grid">
-          <div class="text-block"><span class="label">Who should care:</span> Cybersecurity teams and incident response units within organizations that may face ransomware threats should be particularly vigilant.</div>
-          <div class="text-block"><span class="label">Attack path:</span> Attackers leverage the negotiation process to secure ransom payments, which can embolden them to continue their operations against other targets.</div>
+          <div class="text-block"><span class="label">Who should care:</span> IT security teams managing systems that utilize OpenClaw should prioritize this issue.</div>
+          <div class="text-block"><span class="label">Attack path:</span> An attacker could exploit these vulnerabilities to gain elevated privileges on the host system, allowing them to execute malicious code and access sensitive data.</div>
         </div>
-        <div class="text-block"><span class="label">Why this matters now:</span> Useful context for teams tracking where attacker pressure is building.</div>
-        <div class="text-block"><span class="label">In plain English:</span> A former ransomware negotiator was sentenced to prison for his involvement in BlackCat ransomware attacks against U.S. companies.</div>
+        <div class="text-block"><span class="label">Why this matters now:</span> A live patch or vendor fix gives defenders something concrete to validate.</div>
+        <div class="text-block"><span class="label">In plain English:</span> Three high-severity flaws in OpenClaw could allow attackers to steal credentials and execute arbitrary code.</div>
         
           <div class="tags">
             
-              <span>ransomware</span>
+              <span>cve</span>
             
-              <span>legal</span>
+              <span>openclaw</span>
             
-              <span>cybersecurity</span>
+              <span>vulnerability</span>
             
           </div>
         
         <ul class="story-list">
           
-            <li>A former employee of DigitalMint, a cybersecurity incident response company, was sentenced to 70 months in prison for his role in BlackCat (ALPHV) ransomware attacks. He was involved in negotiating ransom payments with victims, which facilitated the attacks.</li>
+            <li>A researcher has detailed three now-patched vulnerabilities in the OpenClaw AI assistant that could be exploited for credential theft, privilege escalation, and arbitrary code execution. These vulnerabilities have a high CVSS score of 8.8, indicating their severity.</li>
           
-            <li>This case highlights the legal risks associated with negotiating ransoms, potentially influencing how companies approach ransomware incidents. It serves as a warning that engaging with attackers can lead to severe consequences for individuals involved.</li>
+            <li>If these vulnerabilities were exploited, attackers could gain unauthorized access to sensitive information and systems, potentially leading to significant data breaches. Organizations using OpenClaw must ensure they have applied the latest patches to mitigate these risks.</li>
           
-            <li>Attackers leverage the negotiation process to secure ransom payments, which can embolden them to continue their operations against other targets.</li>
+            <li>An attacker could exploit these vulnerabilities to gain elevated privileges on the host system, allowing them to execute malicious code and access sensitive data.</li>
           
-            <li>Watch next: Monitor for any changes in negotiation practices or legal frameworks surrounding ransomware payments in response to this case.</li>
+            <li>Watch next: Monitor for any reports of exploitation attempts against OpenClaw and ensure all systems are updated with the latest security patches.</li>
           
         </ul>
 
@@ -463,9 +467,9 @@
             <div class="label">Key terms</div>
             <ul class="list">
             
-              <li>Ransomware - a type of malicious software that encrypts a victim's data, demanding payment for decryption.</li>
+              <li>CVSS - Common Vulnerability Scoring System, a standard for assessing the severity of security vulnerabilities.</li>
             
-              <li>Negotiator - an individual who communicates with attackers to discuss ransom terms and conditions.</li>
+              <li>Privilege Escalation - A type of attack where an attacker gains elevated access to resources that are normally protected from the user.</li>
             
             </ul>
           </div>
@@ -475,11 +479,11 @@
           <div class="label">Defender focus</div>
           <ul class="list">
             
-            <li>Review incident response protocols to ensure compliance with legal standards.</li>
+            <li>Verify that all instances of OpenClaw are updated to the latest version.</li>
             
-            <li>Assess the organization's stance on negotiating with ransomware attackers.</li>
+            <li>Monitor logs for any unusual access patterns that may indicate exploitation attempts.</li>
             
-            <li>Enhance monitoring for ransomware activity and potential negotiation attempts.</li>
+            <li>Conduct a security assessment to identify any other potential vulnerabilities in the environment.</li>
             
           </ul>
         </div>
@@ -488,24 +492,24 @@
           <div class="label">Do now</div>
           <ul class="list">
             
-            <li>Evaluate and update incident response plans regarding ransomware negotiations.</li>
+            <li>Immediately apply patches for the identified vulnerabilities in OpenClaw.</li>
             
-            <li>Train staff on the legal implications of engaging with cybercriminals.</li>
+            <li>Review access controls and permissions for systems using OpenClaw.</li>
             
-            <li>Stay informed about legal developments related to ransomware and negotiation practices.</li>
+            <li>Educate relevant teams about the nature of these vulnerabilities and the importance of timely updates.</li>
             
           </ul>
         </div>
 
-        <div class="text-block"><span class="label">Watch next:</span> Monitor for any changes in negotiation practices or legal frameworks surrounding ransomware payments in response to this case.</div>
+        <div class="text-block"><span class="label">Watch next:</span> Monitor for any reports of exploitation attempts against OpenClaw and ensure all systems are updated with the latest security patches.</div>
 
         <div class="sources">
           <div class="label">Sources</div>
           
             
               <div>
-                <a href="https://www.bleepingcomputer.com/news/security/us-ransomware-negotiator-gets-4-years-in-prison-for-blackcat-attacks/" target="_blank" rel="noopener noreferrer">
-                  BleepingComputer - Former ransomware negotiator gets 4 years for BlackCat attacks
+                <a href="https://thehackernews.com/2026/07/researcher-details-whatsapp-to-host.html" target="_blank" rel="noopener noreferrer">
+                  The Hacker News - Researcher Details WhatsApp-to-Host Attack Chain Using Three OpenClaw Flaws
                 </a>
               </div>
             
@@ -528,41 +532,43 @@
         <div class="meta">
           <span class="chip risk-high">HIGH</span>
           
-            <span class="chip label-chip">INDUSTRY SIGNAL</span>
+            <span class="chip label-chip">PATCH RELEASE</span>
           
-          <span class="chip chip-neutral">Credential Access</span>
+            <span class="chip label-chip">LEGAL POLICY</span>
+          
+          <span class="chip chip-neutral">Initial Access</span>
           <span class="chip chip-neutral">Confidence LOW</span>
         </div>
         
-          <h3><a href="https://www.bleepingcomputer.com/news/security/new-helix-vishing-group-emerges-in-sharepoint-data-theft-attacks/" target="_blank" rel="noopener noreferrer">New Helix vishing group emerges in SharePoint data theft attacks</a></h3>
+          <h3><a href="https://www.bleepingcomputer.com/news/security/zimbra-urges-customers-to-patch-critical-web-client-xss-flaw/" target="_blank" rel="noopener noreferrer">Zimbra urges customers to patch critical web client XSS flaw</a></h3>
         
-        <p class="hook">The emergence of the Helix vishing group poses a significant threat to organizations using SharePoint, risking sensitive data exposure and operational disruption.</p>
+        <p class="hook">Failure to patch a critical XSS vulnerability in Zimbra's web client could lead to unauthorized access and data breaches.</p>
         <div class="support-grid">
-          <div class="text-block"><span class="label">Who should care:</span> IT security teams managing SharePoint environments and any organization utilizing SharePoint for data storage.</div>
-          <div class="text-block"><span class="label">Attack path:</span> Attackers use vishing to manipulate users into providing sensitive information, which can then be leveraged to bypass MFA and access SharePoint data.</div>
+          <div class="text-block"><span class="label">Who should care:</span> IT security teams managing Zimbra installations and users accessing the Classic Web Client.</div>
+          <div class="text-block"><span class="label">Attack path:</span> An attacker can leverage the XSS vulnerability to inject malicious scripts into the web client, potentially gaining access to user credentials and sensitive data.</div>
         </div>
-        <div class="text-block"><span class="label">Why this matters now:</span> Useful context for teams tracking where attacker pressure is building.</div>
-        <div class="text-block"><span class="label">In plain English:</span> A new group is using voice phishing and MFA abuse to steal data from SharePoint environments.</div>
+        <div class="text-block"><span class="label">Why this matters now:</span> A live patch or vendor fix gives defenders something concrete to validate.</div>
+        <div class="text-block"><span class="label">In plain English:</span> Zimbra has identified a critical XSS flaw in its web client that needs immediate patching.</div>
         
           <div class="tags">
             
-              <span>data theft</span>
+              <span>cve</span>
             
-              <span>vishing</span>
+              <span>web</span>
             
-              <span>sharepoint</span>
+              <span>vulnerability</span>
             
           </div>
         
         <ul class="story-list">
           
-            <li>A new data-extortion group named Helix has been identified, employing tactics such as voice phishing (vishing) and device code phishing to compromise SharePoint environments. They are also abusing multi-factor authentication (MFA) to gain unauthorized access to sensitive data.</li>
+            <li>Zimbra's security team has announced a critical vulnerability affecting the Classic Web Client of the Zimbra Collaboration suite. This flaw allows for cross-site scripting (XSS) attacks, which can be exploited by attackers to execute malicious scripts in the context of a user's session.</li>
           
-            <li>The tactics used by Helix can lead to significant data breaches, exposing sensitive organizational information and potentially leading to financial losses. Organizations relying on SharePoint for data storage and collaboration are particularly vulnerable to these attacks.</li>
+            <li>If exploited, this vulnerability could allow attackers to steal sensitive information, manipulate user sessions, or perform actions on behalf of users without their consent. Given the widespread use of Zimbra for collaboration, the potential impact on data integrity and confidentiality is significant.</li>
           
-            <li>Attackers use vishing to manipulate users into providing sensitive information, which can then be leveraged to bypass MFA and access SharePoint data.</li>
+            <li>An attacker can leverage the XSS vulnerability to inject malicious scripts into the web client, potentially gaining access to user credentials and sensitive data.</li>
           
-            <li>Watch next: Monitor for any updates on Helix's tactics and potential mitigation strategies from security vendors.</li>
+            <li>Watch next: Monitor for updates from Zimbra regarding the patch release and any reported exploitation attempts.</li>
           
         </ul>
 
@@ -571,9 +577,9 @@
             <div class="label">Key terms</div>
             <ul class="list">
             
-              <li>Vishing - a form of phishing that uses phone calls to trick individuals into revealing sensitive information.</li>
+              <li>XSS - Cross-Site Scripting, a vulnerability that allows attackers to inject malicious scripts into web pages viewed by users.</li>
             
-              <li>MFA - multi-factor authentication, a security process that requires multiple forms of verification to access an account.</li>
+              <li>Patch - A software update designed to fix vulnerabilities or improve functionality.</li>
             
             </ul>
           </div>
@@ -583,11 +589,11 @@
           <div class="label">Defender focus</div>
           <ul class="list">
             
-            <li>Implement monitoring for unusual authentication attempts in SharePoint.</li>
+            <li>Implement monitoring for unusual activity in Zimbra web client sessions.</li>
             
-            <li>Educate users on recognizing vishing attempts and the importance of MFA.</li>
+            <li>Ensure that all instances of Zimbra are updated with the latest security patches.</li>
             
-            <li>Review and enhance MFA configurations to ensure they are robust against potential abuse.</li>
+            <li>Review access logs for any signs of exploitation related to the XSS vulnerability.</li>
             
           </ul>
         </div>
@@ -596,24 +602,24 @@
           <div class="label">Do now</div>
           <ul class="list">
             
-            <li>Increase user awareness training focused on vishing tactics.</li>
+            <li>Immediately apply the patch provided by Zimbra once available.</li>
             
-            <li>Audit current MFA implementations for vulnerabilities.</li>
+            <li>Conduct a risk assessment to identify any potential exposure due to this vulnerability.</li>
             
-            <li>Establish a response plan for potential data breaches involving SharePoint.</li>
+            <li>Educate users on the importance of accessing Zimbra through secure connections.</li>
             
           </ul>
         </div>
 
-        <div class="text-block"><span class="label">Watch next:</span> Monitor for any updates on Helix's tactics and potential mitigation strategies from security vendors.</div>
+        <div class="text-block"><span class="label">Watch next:</span> Monitor for updates from Zimbra regarding the patch release and any reported exploitation attempts.</div>
 
         <div class="sources">
           <div class="label">Sources</div>
           
             
               <div>
-                <a href="https://www.bleepingcomputer.com/news/security/new-helix-vishing-group-emerges-in-sharepoint-data-theft-attacks/" target="_blank" rel="noopener noreferrer">
-                  BleepingComputer - New Helix vishing group emerges in SharePoint data theft attacks
+                <a href="https://www.bleepingcomputer.com/news/security/zimbra-urges-customers-to-patch-critical-web-client-xss-flaw/" target="_blank" rel="noopener noreferrer">
+                  BleepingComputer - Zimbra urges customers to patch critical web client XSS flaw
                 </a>
               </div>
             
@@ -623,43 +629,45 @@
             
               <article class="card" style="--i: 1;">
         <div class="meta">
-          <span class="chip risk-medium">MEDIUM</span>
+          <span class="chip risk-high">HIGH</span>
           
-            <span class="chip label-chip">INDUSTRY SIGNAL</span>
+            <span class="chip label-chip">PATCH RELEASE</span>
+          
+            <span class="chip label-chip">LEGAL POLICY</span>
+          
+            <span class="chip label-chip">RESEARCH</span>
           
           <span class="chip chip-neutral">Impact</span>
           <span class="chip chip-neutral">Confidence LOW</span>
         </div>
         
-          <h3><a href="https://thehackernews.com/2026/07/ransomware-negotiator-gets-70-months-in.html" target="_blank" rel="noopener noreferrer">Ransomware Negotiator Gets 70 Months in Prison for Aiding BlackCat Attacks</a></h3>
+          <h3><a href="https://thehackernews.com/2026/07/unpatched-xring-flaw-in-xquic-lets.html" target="_blank" rel="noopener noreferrer">Unpatched XRING Flaw in XQUIC Lets Remote Clients Crash HTTP/3 Servers</a></h3>
         
-        <p class="hook">The sentencing of a ransomware negotiator underscores the legal repercussions of aiding cybercriminals, highlighting the ongoing threat of ransomware attacks.</p>
+        <p class="hook">The unpatched XRING vulnerability in XQUIC allows any remote client to crash HTTP/3 servers, posing a significant risk to service availability.</p>
         <div class="support-grid">
-          <div class="text-block"><span class="label">Who should care:</span> Cybersecurity teams and organizations that may be targeted by ransomware attacks should be particularly vigilant.</div>
-          <div class="text-block"><span class="label">Attack path:</span> Attackers often exploit vulnerabilities in organizations to deploy ransomware, and negotiators can facilitate the extortion process by communicating with victims.</div>
+          <div class="text-block"><span class="label">Who should care:</span> DevOps and security teams managing web services that utilize the XQUIC library should be particularly vigilant.</div>
+          <div class="text-block"><span class="label">Attack path:</span> An attacker can exploit this vulnerability by sending a short burst of valid QPACK traffic to the server, causing it to crash without any special conditions.</div>
         </div>
-        <div class="text-block"><span class="label">Why this matters now:</span> Useful context for teams tracking where attacker pressure is building.</div>
-        <div class="text-block"><span class="label">In plain English:</span> A former ransomware negotiator has been sentenced to 70 months in prison for collaborating with BlackCat ransomware operators.</div>
+        <div class="text-block"><span class="label">Why this matters now:</span> A live patch or vendor fix gives defenders something concrete to validate.</div>
+        <div class="text-block"><span class="label">In plain English:</span> A flaw in Alibaba's XQUIC library lets attackers crash servers with normal traffic, and no patch is available.</div>
         
           <div class="tags">
             
-              <span>ransomware</span>
+              <span>cve</span>
             
-              <span>legal</span>
-            
-              <span>cybersecurity</span>
+              <span>cloud</span>
             
           </div>
         
         <ul class="story-list">
           
-            <li>A 41-year-old former ransomware negotiator was sentenced to 70 months in prison for conspiring with BlackCat ransomware operators. This individual, along with two other cybersecurity professionals, was involved in extorting multiple victims in 2023.</li>
+            <li>A vulnerability, dubbed XRING, was disclosed in Alibaba's XQUIC library, which is used for HTTP/3. This flaw allows remote clients to crash servers by sending a small amount of legitimate traffic without needing authentication.</li>
           
-            <li>This case illustrates the serious legal consequences for individuals who facilitate ransomware operations, which can deter similar activities in the future. The ongoing threat of ransomware remains significant, affecting various sectors and organizations.</li>
+            <li>The ability to crash servers with normal traffic can lead to denial of service, impacting availability for users and potentially causing financial losses. With no patch available, organizations using XQUIC are at immediate risk.</li>
           
-            <li>Attackers often exploit vulnerabilities in organizations to deploy ransomware, and negotiators can facilitate the extortion process by communicating with victims.</li>
+            <li>An attacker can exploit this vulnerability by sending a short burst of valid QPACK traffic to the server, causing it to crash without any special conditions.</li>
           
-            <li>Watch next: Monitor for updates on legal actions against cybercriminals and any changes in ransomware tactics.</li>
+            <li>Watch next: Monitor for any updates from Alibaba regarding a patch or mitigation strategies for the XRING vulnerability.</li>
           
         </ul>
 
@@ -668,9 +676,9 @@
             <div class="label">Key terms</div>
             <ul class="list">
             
-              <li>Ransomware - a type of malicious software that encrypts files on a victim's system, demanding payment for decryption.</li>
+              <li>XQUIC - a library developed by Alibaba for implementing the QUIC protocol and HTTP/3.</li>
             
-              <li>Negotiator - an individual who communicates with victims on behalf of attackers to negotiate ransom payments.</li>
+              <li>QPACK - a compression format used in HTTP/3 to reduce the size of header fields.</li>
             
             </ul>
           </div>
@@ -680,11 +688,11 @@
           <div class="label">Defender focus</div>
           <ul class="list">
             
-            <li>Enhance monitoring for ransomware indicators in network traffic.</li>
+            <li>Implement rate limiting on incoming traffic to mitigate potential abuse.</li>
             
-            <li>Review incident response plans to ensure readiness for potential ransomware attacks.</li>
+            <li>Monitor server logs for unusual traffic patterns that could indicate exploitation attempts.</li>
             
-            <li>Conduct threat hunting exercises focused on ransomware tactics and techniques.</li>
+            <li>Prepare incident response plans to quickly address service outages caused by this vulnerability.</li>
             
           </ul>
         </div>
@@ -693,24 +701,24 @@
           <div class="label">Do now</div>
           <ul class="list">
             
-            <li>Review and update incident response protocols for ransomware incidents.</li>
+            <li>Assess the use of XQUIC in your environment and identify affected services.</li>
             
-            <li>Conduct training sessions for staff on recognizing ransomware threats.</li>
+            <li>Implement immediate traffic monitoring to detect potential exploitation.</li>
             
-            <li>Implement advanced monitoring solutions to detect ransomware activity.</li>
+            <li>Stay updated on vendor communications for any forthcoming patches or workarounds.</li>
             
           </ul>
         </div>
 
-        <div class="text-block"><span class="label">Watch next:</span> Monitor for updates on legal actions against cybercriminals and any changes in ransomware tactics.</div>
+        <div class="text-block"><span class="label">Watch next:</span> Monitor for any updates from Alibaba regarding a patch or mitigation strategies for the XRING vulnerability.</div>
 
         <div class="sources">
           <div class="label">Sources</div>
           
             
               <div>
-                <a href="https://thehackernews.com/2026/07/ransomware-negotiator-gets-70-months-in.html" target="_blank" rel="noopener noreferrer">
-                  The Hacker News - Ransomware Negotiator Gets 70 Months in Prison for Aiding BlackCat Attacks
+                <a href="https://thehackernews.com/2026/07/unpatched-xring-flaw-in-xquic-lets.html" target="_blank" rel="noopener noreferrer">
+                  The Hacker News - Unpatched XRING Flaw in XQUIC Lets Remote Clients Crash HTTP/3 Servers
                 </a>
               </div>
             
@@ -724,39 +732,39 @@
           
             <span class="chip label-chip">INDUSTRY SIGNAL</span>
           
-          <span class="chip chip-neutral">Impact</span>
+          <span class="chip chip-neutral">Credential Access</span>
           <span class="chip chip-neutral">Confidence LOW</span>
         </div>
         
-          <h3><a href="https://thehackernews.com/2026/07/new-gigawiper-windows-backdoor-bundles.html" target="_blank" rel="noopener noreferrer">New GigaWiper Windows Backdoor Bundles Disk Wiping, Fake Ransomware, and Spyware</a></h3>
+          <h3><a href="https://thehackernews.com/2026/07/hackers-use-fake-microsoft-entra.html" target="_blank" rel="noopener noreferrer">Hackers Use Fake Microsoft Entra Passkey Enrollment to Gain Microsoft 365 Access</a></h3>
         
-        <p class="hook">The emergence of GigaWiper poses a significant threat to Windows environments, as it combines destructive capabilities with deceptive ransomware tactics.</p>
+        <p class="hook">Organizations are at immediate risk of data extortion attacks due to a sophisticated phishing campaign targeting Microsoft 365 users.</p>
         <div class="support-grid">
-          <div class="text-block"><span class="label">Who should care:</span> IT security teams managing Windows environments and data recovery operations should prioritize this threat.</div>
-          <div class="text-block"><span class="label">Attack path:</span> Attackers can deploy GigaWiper to gain control over Windows systems, allowing them to execute destructive commands that compromise data integrity.</div>
+          <div class="text-block"><span class="label">Who should care:</span> IT security teams and Microsoft 365 administrators are most exposed to this threat.</div>
+          <div class="text-block"><span class="label">Attack path:</span> Attackers gain leverage by deceiving users into providing access through a fake enrollment process, effectively bypassing traditional security measures.</div>
         </div>
         <div class="text-block"><span class="label">Why this matters now:</span> Useful context for teams tracking where attacker pressure is building.</div>
-        <div class="text-block"><span class="label">In plain English:</span> GigaWiper is a new Windows backdoor that can wipe disks and run fake ransomware, increasing the risk of data loss.</div>
+        <div class="text-block"><span class="label">In plain English:</span> Hackers are tricking Microsoft 365 users into enrolling fake security keys, potentially leading to data breaches.</div>
         
           <div class="tags">
             
-              <span>ransomware</span>
+              <span>phishing</span>
             
-              <span>cve</span>
+              <span>microsoft</span>
             
-              <span>cloud</span>
+              <span>data extortion</span>
             
           </div>
         
         <ul class="story-list">
           
-            <li>Microsoft has analyzed a new backdoor named GigaWiper, which integrates three destructive tools into one package. This malware can wipe entire disks, overwrite Windows drives, or simulate ransomware attacks that scramble files without saving the decryption key.</li>
+            <li>A threat actor has been using voice-based phishing tactics to convince Microsoft 365 users to enroll in a fraudulent Entra passkey. This campaign, attributed to the group O-UNC-066, utilizes a phishing kit that manipulates the legitimate passkey enrollment process.</li>
           
-            <li>The combination of disk-wiping and fake ransomware increases the potential for severe data loss and operational disruption. Organizations using Windows systems should be particularly vigilant, as the malware's capabilities can lead to irreversible damage.</li>
+            <li>If successful, this attack could lead to unauthorized access to sensitive organizational data, resulting in data breaches and potential extortion. The use of voice-based tactics adds a layer of sophistication, making it harder for users to recognize the threat.</li>
           
-            <li>Attackers can deploy GigaWiper to gain control over Windows systems, allowing them to execute destructive commands that compromise data integrity.</li>
+            <li>Attackers gain leverage by deceiving users into providing access through a fake enrollment process, effectively bypassing traditional security measures.</li>
           
-            <li>Watch next: Monitor for updates from Microsoft regarding patches or mitigations for affected systems.</li>
+            <li>Watch next: Monitor for any updates from Microsoft regarding security patches or guidance on this specific phishing tactic.</li>
           
         </ul>
 
@@ -765,9 +773,9 @@
             <div class="label">Key terms</div>
             <ul class="list">
             
-              <li>GigaWiper - a malicious software that can erase data and simulate ransomware attacks.</li>
+              <li>Phishing - a method of trying to gather personal information using deceptive emails and websites.</li>
             
-              <li>Ransomware - a type of malware that encrypts files and demands payment for decryption.</li>
+              <li>Passkey - a type of security credential used to authenticate users without a password.</li>
             
             </ul>
           </div>
@@ -777,11 +785,11 @@
           <div class="label">Defender focus</div>
           <ul class="list">
             
-            <li>Implement monitoring for unusual disk activity or unauthorized file access.</li>
+            <li>Implement monitoring for unusual enrollment requests in Microsoft 365.</li>
             
-            <li>Ensure backups are up-to-date and stored securely offline.</li>
+            <li>Educate users on recognizing voice-based phishing attempts.</li>
             
-            <li>Review and tighten access controls to critical systems to prevent unauthorized execution of malicious commands.</li>
+            <li>Review and enhance existing security protocols around passkey management.</li>
             
           </ul>
         </div>
@@ -790,24 +798,24 @@
           <div class="label">Do now</div>
           <ul class="list">
             
-            <li>Assess and patch any vulnerabilities in Windows systems immediately.</li>
+            <li>Alert all Microsoft 365 users about the phishing campaign.</li>
             
-            <li>Educate staff on recognizing signs of ransomware and suspicious activity.</li>
+            <li>Review and tighten access controls for sensitive data.</li>
             
-            <li>Establish a response plan for potential data loss incidents.</li>
+            <li>Conduct a security audit of current passkey enrollment processes.</li>
             
           </ul>
         </div>
 
-        <div class="text-block"><span class="label">Watch next:</span> Monitor for updates from Microsoft regarding patches or mitigations for affected systems.</div>
+        <div class="text-block"><span class="label">Watch next:</span> Monitor for any updates from Microsoft regarding security patches or guidance on this specific phishing tactic.</div>
 
         <div class="sources">
           <div class="label">Sources</div>
           
             
               <div>
-                <a href="https://thehackernews.com/2026/07/new-gigawiper-windows-backdoor-bundles.html" target="_blank" rel="noopener noreferrer">
-                  The Hacker News - New GigaWiper Windows Backdoor Bundles Disk Wiping, Fake Ransomware, and Spyware
+                <a href="https://thehackernews.com/2026/07/hackers-use-fake-microsoft-entra.html" target="_blank" rel="noopener noreferrer">
+                  The Hacker News - Hackers Use Fake Microsoft Entra Passkey Enrollment to Gain Microsoft 365 Access
                 </a>
               </div>
             
@@ -825,106 +833,7 @@
           Wider Signal
         </div>
         
-          <div class="grid">
-            
-              <article class="card" style="--i: 0;">
-        <div class="meta">
-          <span class="chip risk-medium">MEDIUM</span>
-          
-            <span class="chip label-chip">PATCH RELEASE</span>
-          
-          <span class="chip chip-neutral">Initial Access</span>
-          <span class="chip chip-neutral">Confidence LOW</span>
-        </div>
-        
-          <h3><a href="https://thehackernews.com/2026/07/npm-12-disables-install-scripts-by.html" target="_blank" rel="noopener noreferrer">npm 12 Disables Install Scripts by Default to Reduce Supply Chain Risk</a></h3>
-        
-        <p class="hook">The default disabling of install scripts in npm 12 significantly reduces the risk of supply chain attacks, making it crucial for developers to adapt their workflows immediately.</p>
-        <div class="support-grid">
-          <div class="text-block"><span class="label">Who should care:</span> Development teams using npm for package management should prioritize this update to enhance security.</div>
-          <div class="text-block"><span class="label">Attack path:</span> An attacker could exploit install scripts in npm packages to execute malicious code during installation; disabling these scripts prevents such exploitation.</div>
-        </div>
-        <div class="text-block"><span class="label">Why this matters now:</span> Useful context for teams tracking where attacker pressure is building.</div>
-        <div class="text-block"><span class="label">In plain English:</span> npm 12 now disables install scripts by default, which helps prevent potential supply chain vulnerabilities.</div>
-        
-          <div class="tags">
-            
-              <span>supply chain</span>
-            
-              <span>npm</span>
-            
-              <span>security</span>
-            
-          </div>
-        
-        <ul class="story-list">
-          
-            <li>GitHub released npm version 12, which disables install scripts by default. This change aims to mitigate risks associated with supply chain attacks. Additionally, granular access tokens (GATs) that bypass two-factor authentication (2FA) have been deprecated.</li>
-          
-            <li>By disabling install scripts, npm 12 reduces the attack surface for malicious code execution during package installation. Developers must now explicitly enable scripts, which encourages safer practices and reduces the likelihood of inadvertently executing harmful code.</li>
-          
-            <li>An attacker could exploit install scripts in npm packages to execute malicious code during installation; disabling these scripts prevents such exploitation.</li>
-          
-            <li>Watch next: Monitor for updates from npm regarding user adoption of these new defaults and any emerging vulnerabilities.</li>
-          
-        </ul>
-
-        
-          <div class="glossary">
-            <div class="label">Key terms</div>
-            <ul class="list">
-            
-              <li>Supply Chain Attack - a type of cyber attack where an attacker targets a less secure element in the supply chain to compromise a system.</li>
-            
-              <li>Install Scripts - scripts that run automatically during the installation of software packages, which can be exploited if not properly managed.</li>
-            
-            </ul>
-          </div>
-        
-
-        <div>
-          <div class="label">Defender focus</div>
-          <ul class="list">
-            
-            <li>Review and update package management policies to align with npm 12 changes.</li>
-            
-            <li>Monitor for any attempts to exploit outdated npm versions still using default install scripts.</li>
-            
-            <li>Educate developers on the importance of reviewing and enabling install scripts only when necessary.</li>
-            
-          </ul>
-        </div>
-
-        <div>
-          <div class="label">Do now</div>
-          <ul class="list">
-            
-            <li>Update npm to version 12 across all development environments.</li>
-            
-            <li>Audit existing npm packages for reliance on install scripts.</li>
-            
-            <li>Implement a review process for enabling install scripts in new package installations.</li>
-            
-          </ul>
-        </div>
-
-        <div class="text-block"><span class="label">Watch next:</span> Monitor for updates from npm regarding user adoption of these new defaults and any emerging vulnerabilities.</div>
-
-        <div class="sources">
-          <div class="label">Sources</div>
-          
-            
-              <div>
-                <a href="https://thehackernews.com/2026/07/npm-12-disables-install-scripts-by.html" target="_blank" rel="noopener noreferrer">
-                  The Hacker News - npm 12 Disables Install Scripts by Default to Reduce Supply Chain Risk
-                </a>
-              </div>
-            
-          
-        </div>
-      </article>
-            
-          </div>
+          <p class="empty">No context stories today.</p>
         
       </section>
     </main>
