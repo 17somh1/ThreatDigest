@@ -1,5 +1,5 @@
 {
-  "last_run_utc": "2026-07-09T15:28:36.070724+00:00",
+  "last_run_utc": "2026-07-10T10:47:00.674242+00:00",
   "processed_urls": [
     "https://www.bleepingcomputer.com/news/security/critical-cisco-sd-wan-bug-exploited-in-zero-day-attacks-since-2023/",
     "https://www.cisa.gov/news-events/alerts/2026/02/25/cisa-and-partners-release-guidance-ongoing-global-exploitation-cisco-sd-wan-systems",
@@ -876,6 +876,11 @@
     "https://www.bleepingcomputer.com/news/security/hackers-exploit-roundcube-flaw-to-spy-on-academic-researchers/",
     "https://thehackernews.com/2026/07/ai-coding-agents-found-triggering.html",
     "https://thehackernews.com/2026/07/goddamn-ransomware-uses-poisonx-driver.html",
-    "https://www.bleepingcomputer.com/news/security/new-forg365-phishing-platform-uses-ai-to-target-microsoft-365-accounts/"
+    "https://www.bleepingcomputer.com/news/security/new-forg365-phishing-platform-uses-ai-to-target-microsoft-365-accounts/",
+    "https://www.bleepingcomputer.com/news/security/us-ransomware-negotiator-gets-4-years-in-prison-for-blackcat-attacks/",
+    "https://www.bleepingcomputer.com/news/security/new-helix-vishing-group-emerges-in-sharepoint-data-theft-attacks/",
+    "https://thehackernews.com/2026/07/ransomware-negotiator-gets-70-months-in.html",
+    "https://thehackernews.com/2026/07/new-gigawiper-windows-backdoor-bundles.html",
+    "https://thehackernews.com/2026/07/npm-12-disables-install-scripts-by.html"
   ]
 }
