@@ -1,5 +1,5 @@
 {
-  "last_run_utc": "2026-07-10T14:45:49.384940+00:00",
+  "last_run_utc": "2026-07-11T09:20:44.033667+00:00",
   "processed_urls": [
     "https://www.bleepingcomputer.com/news/security/critical-cisco-sd-wan-bug-exploited-in-zero-day-attacks-since-2023/",
     "https://www.cisa.gov/news-events/alerts/2026/02/25/cisa-and-partners-release-guidance-ongoing-global-exploitation-cisco-sd-wan-systems",
@@ -885,6 +885,8 @@
     "https://thehackernews.com/2026/07/researcher-details-whatsapp-to-host.html",
     "https://www.bleepingcomputer.com/news/security/zimbra-urges-customers-to-patch-critical-web-client-xss-flaw/",
     "https://thehackernews.com/2026/07/unpatched-xring-flaw-in-xquic-lets.html",
-    "https://thehackernews.com/2026/07/hackers-use-fake-microsoft-entra.html"
+    "https://thehackernews.com/2026/07/hackers-use-fake-microsoft-entra.html",
+    "https://www.bleepingcomputer.com/news/security/ryuk-ransomware-member-pleads-guilty-in-the-us-faces-15-years-in-prison/",
+    "https://thehackernews.com/2026/07/laser-attack-resets-tangem-wallet.html"
   ]
 }
