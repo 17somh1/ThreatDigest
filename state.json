@@ -1,5 +1,5 @@
 {
-  "last_run_utc": "2026-07-15T14:00:42.881227+00:00",
+  "last_run_utc": "2026-07-16T10:01:50.312292+00:00",
   "processed_urls": [
     "https://www.bleepingcomputer.com/news/security/critical-cisco-sd-wan-bug-exploited-in-zero-day-attacks-since-2023/",
     "https://www.cisa.gov/news-events/alerts/2026/02/25/cisa-and-partners-release-guidance-ongoing-global-exploitation-cisco-sd-wan-systems",
@@ -911,6 +911,11 @@
     "https://www.bleepingcomputer.com/news/security/lastpass-bitwarden-users-targeted-with-fake-security-alerts/",
     "https://krebsonsecurity.com/2026/07/microsoft-patches-a-record-570-security-flaws/",
     "https://thehackernews.com/2026/07/researcher-drops-new-windows-zero-day.html",
-    "https://thehackernews.com/2026/07/firefox-chrome-adobe-and-vmware-updates.html"
+    "https://thehackernews.com/2026/07/firefox-chrome-adobe-and-vmware-updates.html",
+    "https://www.bleepingcomputer.com/news/security/we-built-a-vulnerability-vending-machine-ai-tokens-in-zero-days-out/",
+    "https://thehackernews.com/2026/07/zoom-patches-critical-windows-flaw-that.html",
+    "https://www.bleepingcomputer.com/news/security/zoom-warns-of-critical-account-takeover-vulnerability/",
+    "https://www.bleepingcomputer.com/news/security/-asyncapi-npm-packages-infected-with-credential-stealing-malware/",
+    "https://thehackernews.com/2026/07/okobot-malware-framework-injects-seed.html"
   ]
 }
