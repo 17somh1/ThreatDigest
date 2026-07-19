@@ -1,5 +1,5 @@
 {
-  "last_run_utc": "2026-07-18T13:39:09.317478+00:00",
+  "last_run_utc": "2026-07-19T09:46:19.487660+00:00",
   "processed_urls": [
     "https://www.bleepingcomputer.com/news/security/critical-cisco-sd-wan-bug-exploited-in-zero-day-attacks-since-2023/",
     "https://www.cisa.gov/news-events/alerts/2026/02/25/cisa-and-partners-release-guidance-ongoing-global-exploitation-cisco-sd-wan-systems",
@@ -929,6 +929,7 @@
     "https://www.bleepingcomputer.com/news/security/new-windows-legacyhive-zero-day-exploit-grants-hackers-admin-access/",
     "https://thehackernews.com/2026/07/armenia-detains-russian-tourist-on-us.html",
     "https://thehackernews.com/2026/07/seven-malicious-vite-npm-packages-use.html",
-    "https://thehackernews.com/2026/07/north-korea-linked-hackers-hide.html"
+    "https://thehackernews.com/2026/07/north-korea-linked-hackers-hide.html",
+    "https://www.bleepingcomputer.com/news/security/wordpress-core-wp2shell-rce-flaws-get-public-exploits-patch-now/"
   ]
 }
