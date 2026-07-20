@@ -1,5 +1,5 @@
 {
-  "last_run_utc": "2026-07-19T13:41:52.335771+00:00",
+  "last_run_utc": "2026-07-20T10:44:28.641264+00:00",
   "processed_urls": [
     "https://www.bleepingcomputer.com/news/security/critical-cisco-sd-wan-bug-exploited-in-zero-day-attacks-since-2023/",
     "https://www.cisa.gov/news-events/alerts/2026/02/25/cisa-and-partners-release-guidance-ongoing-global-exploitation-cisco-sd-wan-systems",
@@ -930,6 +930,12 @@
     "https://thehackernews.com/2026/07/armenia-detains-russian-tourist-on-us.html",
     "https://thehackernews.com/2026/07/seven-malicious-vite-npm-packages-use.html",
     "https://thehackernews.com/2026/07/north-korea-linked-hackers-hide.html",
-    "https://www.bleepingcomputer.com/news/security/wordpress-core-wp2shell-rce-flaws-get-public-exploits-patch-now/"
+    "https://www.bleepingcomputer.com/news/security/wordpress-core-wp2shell-rce-flaws-get-public-exploits-patch-now/",
+    "https://thehackernews.com/2026/07/sonicwall-sma-zero-days-exploited.html",
+    "https://www.bleepingcomputer.com/news/security/critical-servicenow-code-execution-flaw-now-exploited-in-attacks/",
+    "https://thehackernews.com/2026/07/sleepergem-uses-three-malicious.html",
+    "https://thehackernews.com/2026/07/critical-nginx-vulnerability-can-crash.html",
+    "https://thehackernews.com/2026/07/new-7-zip-vulnerability-could-let.html",
+    "https://thehackernews.com/2026/07/worlds-largest-ai-model-repository.html"
   ]
 }
