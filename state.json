@@ -1,5 +1,5 @@
 {
-  "last_run_utc": "2026-07-20T14:25:51.866639+00:00",
+  "last_run_utc": "2026-07-21T10:20:20.132631+00:00",
   "processed_urls": [
     "https://www.bleepingcomputer.com/news/security/critical-cisco-sd-wan-bug-exploited-in-zero-day-attacks-since-2023/",
     "https://www.cisa.gov/news-events/alerts/2026/02/25/cisa-and-partners-release-guidance-ongoing-global-exploitation-cisco-sd-wan-systems",
@@ -939,6 +939,16 @@
     "https://thehackernews.com/2026/07/worlds-largest-ai-model-repository.html",
     "https://thehackernews.com/2026/07/weekly-recap-wordpress-rce-sonicwall-0.html",
     "https://thehackernews.com/2026/07/russian-intelligence-hacks-ip-cameras.html",
-    "https://www.bleepingcomputer.com/news/security/hugging-face-breach-autonomous-ai-agent-system-internal-datasets-credentials/"
+    "https://www.bleepingcomputer.com/news/security/hugging-face-breach-autonomous-ai-agent-system-internal-datasets-credentials/",
+    "https://thehackernews.com/2026/07/critical-servicenow-ai-platform-flaw.html",
+    "https://www.bleepingcomputer.com/news/security/windows-legacyhive-zero-day-flaw-gets-free-unofficial-patches/",
+    "https://www.bleepingcomputer.com/news/security/sonicwall-sma1000-flaws-exploited-as-zero-days-to-push-custom-malware/",
+    "https://www.bleepingcomputer.com/news/security/critical-globalprotect-vpn-bug-now-exploited-in-ransomware-attacks/",
+    "https://www.bleepingcomputer.com/news/security/est-e-lauder-discloses-data-breach-via-oracle-e-business-flaw/",
+    "https://www.bleepingcomputer.com/news/security/cursor-codex-gemini-cli-antigravity-hit-by-sandbox-escapes/",
+    "https://www.bleepingcomputer.com/news/security/jadepuffer-agentic-attacks-now-target-ai-model-data-with-ransomware/",
+    "https://thehackernews.com/2026/07/wordpress-wp2shell-exploitation-grows.html",
+    "https://thehackernews.com/2026/07/new-encforge-ransomware-targets-ai.html",
+    "https://thehackernews.com/2026/07/exposed-server-reveals-ai-assisted.html"
   ]
 }
