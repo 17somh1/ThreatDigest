@@ -378,8 +378,8 @@
         The security news worth your attention, with context and practical takeaways.
       </p>
       <div class="meta-bar">
-        <span>Updated: 2026-07-21 10:20 UTC</span>
-        <span>Stories: 6</span>
+        <span>Updated: 2026-07-21 14:14 UTC</span>
+        <span>Stories: 4</span>
         <span>Recent issues: 14</span>
       </div>
     </header>
@@ -389,7 +389,7 @@
         <section class="one-liner">
           <h2>What Matters Today</h2>
           
-            <p class="text-block">Multiple critical vulnerabilities across various platforms demand immediate attention from IT security teams to prevent unauthorized access and data breaches.</p>
+            <p class="text-block">Organizations must urgently patch critical vulnerabilities in PAN-OS and Zimbra to prevent ransomware and unauthorized access, while also adapting to the rapid pace of N-day vulnerabilities.</p>
           
         </section>
 
@@ -398,11 +398,11 @@
           
             <ul>
               
-              <li>Zero-day vulnerabilities are being actively exploited, requiring urgent patching to mitigate risks.</li>
+              <li>Critical vulnerabilities in widely used systems are being actively exploited, increasing the urgency for immediate patching.</li>
               
-              <li>Increased exploitation of known vulnerabilities in popular platforms like WordPress indicates rising attacker pressure.</li>
+              <li>The rapid emergence of N-day vulnerabilities is outpacing traditional patching cycles, necessitating faster response from defenders.</li>
               
-              <li>Emerging ransomware threats targeting AI infrastructure highlight the need for robust security measures in machine learning environments.</li>
+              <li>Attacks on critical infrastructure are highlighting significant gaps in identity verification processes, demanding enhanced security measures.</li>
               
             </ul>
           
@@ -424,39 +424,39 @@
           
             <span class="chip label-chip">LEGAL POLICY</span>
           
-          <span class="chip chip-neutral">Privilege Escalation</span>
+          <span class="chip chip-neutral">Initial Access</span>
           <span class="chip chip-neutral">Confidence LOW</span>
         </div>
         
-          <h3><a href="https://www.bleepingcomputer.com/news/security/windows-legacyhive-zero-day-flaw-gets-free-unofficial-patches/" target="_blank" rel="noopener noreferrer">Windows LegacyHive zero-day flaw gets free, unofficial patches</a></h3>
+          <h3><a href="https://thehackernews.com/2026/07/qilin-ransomware-attackers-exploit-pan.html" target="_blank" rel="noopener noreferrer">Qilin Ransomware Attackers Exploit PAN-OS Authentication Bypass for Initial Access</a></h3>
         
-        <p class="hook">Immediate action is required as a zero-day vulnerability in Windows could allow attackers to gain elevated privileges, putting systems at significant risk.</p>
+        <p class="hook">The exploitation of a critical vulnerability in PAN-OS for ransomware deployment poses immediate threats to organizations using affected systems.</p>
         <div class="support-grid">
-          <div class="text-block"><span class="label">Who should care:</span> IT security teams managing Windows environments should be particularly vigilant.</div>
-          <div class="text-block"><span class="label">Attack path:</span> An attacker could exploit this vulnerability to gain elevated privileges, enabling them to execute malicious actions with higher system rights.</div>
+          <div class="text-block"><span class="label">Who should care:</span> IT security teams managing Palo Alto Networks products and any organizations utilizing PAN-OS.</div>
+          <div class="text-block"><span class="label">Attack path:</span> Attackers exploit the authentication bypass to gain unauthorized access to the network, allowing them to deploy ransomware payloads.</div>
         </div>
         <div class="text-block"><span class="label">Why this matters now:</span> A live patch or vendor fix gives defenders something concrete to validate.</div>
-        <div class="text-block"><span class="label">In plain English:</span> A serious Windows zero-day flaw has been disclosed, and unofficial patches are available to mitigate the risk.</div>
+        <div class="text-block"><span class="label">In plain English:</span> Qilin ransomware is being deployed through a recently exploited vulnerability in Palo Alto Networks' PAN-OS.</div>
         
           <div class="tags">
             
+              <span>ransomware</span>
+            
               <span>cve</span>
             
-              <span>windows</span>
-            
-              <span>zero day</span>
+              <span>cloud</span>
             
           </div>
         
         <ul class="story-list">
           
-            <li>A zero-day vulnerability in Windows, referred to as LegacyHive, has been disclosed, allowing attackers to escalate privileges on systems. Unofficial patches have been released to address this flaw, but they are not officially supported by Microsoft.</li>
+            <li>Threat actors have been exploiting a high-severity vulnerability in Palo Alto Networks' PAN-OS, specifically CVE-2026-0257, which allows for authentication bypass. This vulnerability has been linked to multiple ransomware attacks involving Qilin ransomware, with investigations revealing intrusions starting in June 2026.</li>
           
-            <li>If exploited, this vulnerability could allow attackers to gain control over affected systems, leading to potential data breaches or further attacks within the network. Organizations using Windows systems should prioritize applying these unofficial patches to mitigate the risk.</li>
+            <li>Organizations using PAN-OS are at risk of ransomware attacks that can lead to data loss and operational disruption. The vulnerability's exploitation allows attackers to gain initial access, making it critical for affected environments to implement mitigations swiftly.</li>
           
-            <li>An attacker could exploit this vulnerability to gain elevated privileges, enabling them to execute malicious actions with higher system rights.</li>
+            <li>Attackers exploit the authentication bypass to gain unauthorized access to the network, allowing them to deploy ransomware payloads.</li>
           
-            <li>Watch next: Monitor for any official patches from Microsoft or further updates on the vulnerability's exploitation.</li>
+            <li>Watch next: Monitor for any updates from Palo Alto Networks regarding patches and advisories related to CVE-2026-0257.</li>
           
         </ul>
 
@@ -465,9 +465,9 @@
             <div class="label">Key terms</div>
             <ul class="list">
             
-              <li>Zero-day - a vulnerability that is exploited before the vendor has released a fix.</li>
+              <li>CVE - Common Vulnerabilities and Exposures, a list of publicly disclosed cybersecurity vulnerabilities.</li>
             
-              <li>Privilege escalation - a type of attack where an attacker gains elevated access to resources that are normally protected from the user.</li>
+              <li>PAN-OS - The operating system used by Palo Alto Networks firewalls and security appliances.</li>
             
             </ul>
           </div>
@@ -477,11 +477,11 @@
           <div class="label">Defender focus</div>
           <ul class="list">
             
-            <li>Implement the unofficial patches immediately to mitigate the vulnerability.</li>
+            <li>Implement monitoring for unusual authentication attempts on PAN-OS devices.</li>
             
-            <li>Monitor logs for unusual account activity that may indicate exploitation attempts.</li>
+            <li>Review logs for signs of exploitation of CVE-2026-0257.</li>
             
-            <li>Review user permissions and access controls to limit potential damage from an exploit.</li>
+            <li>Ensure all PAN-OS systems are updated with the latest security patches.</li>
             
           </ul>
         </div>
@@ -490,24 +490,24 @@
           <div class="label">Do now</div>
           <ul class="list">
             
-            <li>Apply the unofficial patches as soon as possible.</li>
+            <li>Immediately apply the latest security patches for PAN-OS.</li>
             
-            <li>Conduct a risk assessment to identify vulnerable systems.</li>
+            <li>Conduct a security audit of network access controls.</li>
             
-            <li>Prepare to respond to any signs of exploitation.</li>
+            <li>Enhance monitoring for ransomware indicators in the environment.</li>
             
           </ul>
         </div>
 
-        <div class="text-block"><span class="label">Watch next:</span> Monitor for any official patches from Microsoft or further updates on the vulnerability's exploitation.</div>
+        <div class="text-block"><span class="label">Watch next:</span> Monitor for any updates from Palo Alto Networks regarding patches and advisories related to CVE-2026-0257.</div>
 
         <div class="sources">
           <div class="label">Sources</div>
           
             
               <div>
-                <a href="https://www.bleepingcomputer.com/news/security/windows-legacyhive-zero-day-flaw-gets-free-unofficial-patches/" target="_blank" rel="noopener noreferrer">
-                  BleepingComputer - Windows LegacyHive zero-day flaw gets free, unofficial patches
+                <a href="https://thehackernews.com/2026/07/qilin-ransomware-attackers-exploit-pan.html" target="_blank" rel="noopener noreferrer">
+                  The Hacker News - Qilin Ransomware Attackers Exploit PAN-OS Authentication Bypass for Initial Access
                 </a>
               </div>
             
@@ -530,41 +530,41 @@
         <div class="meta">
           <span class="chip risk-high">HIGH</span>
           
-            <span class="chip label-chip">LEGAL POLICY</span>
+            <span class="chip label-chip">PATCH RELEASE</span>
           
-          <span class="chip chip-neutral">Initial Access</span>
+          <span class="chip chip-neutral">Exfiltration</span>
           <span class="chip chip-neutral">Confidence LOW</span>
         </div>
         
-          <h3><a href="https://thehackernews.com/2026/07/wordpress-wp2shell-exploitation-grows.html" target="_blank" rel="noopener noreferrer">WordPress wp2shell Exploitation Grows as Public Exploit Fuels Mass Scanning</a></h3>
+          <h3><a href="https://thehackernews.com/2026/07/n-day-is-becoming-n-hour-patching.html" target="_blank" rel="noopener noreferrer">N-day is Becoming N-Hour. Patching Faster Won't Save You.</a></h3>
         
-        <p class="hook">The exploitation of critical vulnerabilities in WordPress poses an immediate threat to website integrity and data security.</p>
+        <p class="hook">The rapid pace of N-day vulnerabilities means that unpatched systems are increasingly at risk of exploitation, making timely updates critical.</p>
         <div class="support-grid">
-          <div class="text-block"><span class="label">Who should care:</span> Web development teams and organizations using WordPress for their websites are most exposed.</div>
-          <div class="text-block"><span class="label">Attack path:</span> Attackers can leverage these vulnerabilities to execute arbitrary code on the server without authentication, gaining full control over the website.</div>
+          <div class="text-block"><span class="label">Who should care:</span> IT security teams and system administrators managing software updates and vulnerability management processes should be particularly vigilant.</div>
+          <div class="text-block"><span class="label">Attack path:</span> Attackers can monitor vendor patch releases and quickly develop exploits based on the disclosed vulnerabilities, targeting systems that have not yet been updated.</div>
         </div>
-        <div class="text-block"><span class="label">Why this matters now:</span> Useful context for teams tracking where attacker pressure is building.</div>
-        <div class="text-block"><span class="label">In plain English:</span> Attackers are exploiting serious vulnerabilities in WordPress, allowing them to take control of affected sites.</div>
+        <div class="text-block"><span class="label">Why this matters now:</span> A live patch or vendor fix gives defenders something concrete to validate.</div>
+        <div class="text-block"><span class="label">In plain English:</span> Vendors' security patches reveal vulnerabilities that can be exploited quickly by attackers, emphasizing the need for faster patch management.</div>
         
           <div class="tags">
             
-              <span>wordpress</span>
+              <span>vulnerability</span>
             
-              <span>cve</span>
+              <span>patching</span>
             
-              <span>rce</span>
+              <span>exploit</span>
             
           </div>
         
         <ul class="story-list">
           
-            <li>Two critical vulnerabilities in WordPress, identified as CVE-2026-63030 and CVE-2026-60137, have been publicly disclosed and are being actively exploited. These vulnerabilities enable unauthenticated remote code execution, allowing attackers to fully compromise vulnerable websites.</li>
+            <li>A recent article highlights the growing trend of N-day vulnerabilities, where attackers exploit known vulnerabilities shortly after a vendor releases a patch. This creates a narrow window for defenders to secure their systems before they become targets.</li>
           
-            <li>The successful exploitation of these vulnerabilities can lead to unauthorized access, data breaches, and potential defacement of websites. Organizations using WordPress should prioritize patching to prevent exploitation and safeguard their digital assets.</li>
+            <li>The speed at which attackers can exploit these vulnerabilities increases the potential for data breaches and system compromises. Organizations must prioritize patch management to mitigate risks associated with unpatched software.</li>
           
-            <li>Attackers can leverage these vulnerabilities to execute arbitrary code on the server without authentication, gaining full control over the website.</li>
+            <li>Attackers can monitor vendor patch releases and quickly develop exploits based on the disclosed vulnerabilities, targeting systems that have not yet been updated.</li>
           
-            <li>Watch next: Monitor for updates from WordPress regarding patches and any emerging indicators of compromise related to these vulnerabilities.</li>
+            <li>Watch next: Monitor for reports of active exploitation of recently patched vulnerabilities to assess the urgency of your patching processes.</li>
           
         </ul>
 
@@ -573,9 +573,9 @@
             <div class="label">Key terms</div>
             <ul class="list">
             
-              <li>RCE - Remote Code Execution, a vulnerability that allows an attacker to run arbitrary code on a target system.</li>
+              <li>N-day vulnerability - a security flaw that is known and has been patched by the vendor, but systems may still be unpatched and vulnerable.</li>
             
-              <li>CVE - Common Vulnerabilities and Exposures, a list of publicly disclosed cybersecurity vulnerabilities.</li>
+              <li>Patch management - the process of managing updates to software to fix vulnerabilities and improve functionality.</li>
             
             </ul>
           </div>
@@ -585,11 +585,11 @@
           <div class="label">Defender focus</div>
           <ul class="list">
             
-            <li>Implement monitoring for unusual web server activity that may indicate exploitation attempts.</li>
+            <li>Implement automated patch management solutions to reduce the time between patch release and deployment.</li>
             
-            <li>Ensure that all WordPress installations are updated to the latest version to mitigate these vulnerabilities.</li>
+            <li>Conduct regular vulnerability assessments to identify unpatched systems and prioritize them for updates.</li>
             
-            <li>Review server logs for any signs of unauthorized access or exploitation related to these CVEs.</li>
+            <li>Establish a monitoring system for vendor patch announcements to ensure timely awareness of new vulnerabilities.</li>
             
           </ul>
         </div>
@@ -598,24 +598,24 @@
           <div class="label">Do now</div>
           <ul class="list">
             
-            <li>Patch WordPress installations immediately to close the vulnerabilities.</li>
+            <li>Review and update patch management policies to ensure rapid deployment of security updates.</li>
             
-            <li>Conduct a security audit of affected websites to identify any signs of compromise.</li>
+            <li>Conduct an inventory of all systems to identify those that require immediate patching.</li>
             
-            <li>Educate web development teams on the importance of timely updates and vulnerability management.</li>
+            <li>Train staff on the importance of timely updates and the risks associated with unpatched vulnerabilities.</li>
             
           </ul>
         </div>
 
-        <div class="text-block"><span class="label">Watch next:</span> Monitor for updates from WordPress regarding patches and any emerging indicators of compromise related to these vulnerabilities.</div>
+        <div class="text-block"><span class="label">Watch next:</span> Monitor for reports of active exploitation of recently patched vulnerabilities to assess the urgency of your patching processes.</div>
 
         <div class="sources">
           <div class="label">Sources</div>
           
             
               <div>
-                <a href="https://thehackernews.com/2026/07/wordpress-wp2shell-exploitation-grows.html" target="_blank" rel="noopener noreferrer">
-                  The Hacker News - WordPress wp2shell Exploitation Grows as Public Exploit Fuels Mass Scanning
+                <a href="https://thehackernews.com/2026/07/n-day-is-becoming-n-hour-patching.html" target="_blank" rel="noopener noreferrer">
+                  The Hacker News - N-day is Becoming N-Hour. Patching Faster Won't Save You.
                 </a>
               </div>
             
@@ -627,41 +627,41 @@
         <div class="meta">
           <span class="chip risk-high">HIGH</span>
           
-            <span class="chip label-chip">RESEARCH</span>
+            <span class="chip label-chip">INDUSTRY SIGNAL</span>
           
           <span class="chip chip-neutral">Initial Access</span>
           <span class="chip chip-neutral">Confidence LOW</span>
         </div>
         
-          <h3><a href="https://thehackernews.com/2026/07/new-encforge-ransomware-targets-ai.html" target="_blank" rel="noopener noreferrer">New ENCFORGE Ransomware Targets AI Model Files in Langflow RCE Attack</a></h3>
+          <h3><a href="https://www.bleepingcomputer.com/news/security/closing-the-identity-gaps-in-critical-infrastructure-security/" target="_blank" rel="noopener noreferrer">Closing the Identity Gaps in Critical Infrastructure Security</a></h3>
         
-        <p class="hook">The emergence of ENCFORGE ransomware poses a significant threat to AI infrastructure, potentially crippling operations reliant on machine learning models.</p>
+        <p class="hook">The increasing frequency of attacks on critical infrastructure highlights the urgent need for robust identity verification to prevent unauthorized access.</p>
         <div class="support-grid">
-          <div class="text-block"><span class="label">Who should care:</span> AI development teams and organizations utilizing Langflow for machine learning applications are most exposed.</div>
-          <div class="text-block"><span class="label">Attack path:</span> Attackers gain access through vulnerabilities in the Langflow server, deploying ransomware that encrypts critical AI files.</div>
+          <div class="text-block"><span class="label">Who should care:</span> Security teams managing critical infrastructure and IT departments responsible for identity and access management should prioritize this issue.</div>
+          <div class="text-block"><span class="label">Attack path:</span> Attackers often exploit stolen credentials or compromised devices to gain access to critical systems. Without proper identity verification, these attacks can go undetected until significant damage is done.</div>
         </div>
-        <div class="text-block"><span class="label">Why this matters now:</span> Useful context for teams tracking where attacker pressure is building.</div>
-        <div class="text-block"><span class="label">In plain English:</span> A new ransomware called ENCFORGE targets AI model files, which could disrupt critical AI operations.</div>
+        <div class="text-block"><span class="label">Why this matters now:</span> Sector exposure makes this broader than a one-off incident.</div>
+        <div class="text-block"><span class="label">In plain English:</span> Zero Trust principles are essential for securing critical infrastructure against identity-based attacks.</div>
         
           <div class="tags">
             
-              <span>ransomware</span>
+              <span>identity</span>
             
-              <span>ai</span>
+              <span>zero trust</span>
             
-              <span>langflow</span>
+              <span>critical infrastructure</span>
             
           </div>
         
         <ul class="story-list">
           
-            <li>Researchers have identified a new ransomware variant named ENCFORGE, linked to the JADEPUFFER operator, that specifically targets AI model files on compromised Langflow servers. This ransomware encrypts essential components such as model weights and training datasets, making them inaccessible.</li>
+            <li>Recent discussions emphasize that many attacks on critical infrastructure stem from stolen credentials and compromised devices. Specops Software advocates for implementing Zero Trust security models that verify both user identities and device trust. This approach aims to mitigate risks associated with unauthorized access.</li>
           
-            <li>The encryption of AI model files can halt machine learning operations, leading to significant downtime and financial losses for organizations that depend on these models for their services. As AI becomes increasingly integral to business processes, the impact of such ransomware attacks can be profound.</li>
+            <li>Compromised identities can lead to significant disruptions in critical services, affecting public safety and operational continuity. By adopting Zero Trust, organizations can better protect their systems from potential breaches, ensuring that only authenticated users and devices can access sensitive resources.</li>
           
-            <li>Attackers gain access through vulnerabilities in the Langflow server, deploying ransomware that encrypts critical AI files.</li>
+            <li>Attackers often exploit stolen credentials or compromised devices to gain access to critical systems. Without proper identity verification, these attacks can go undetected until significant damage is done.</li>
           
-            <li>Watch next: Monitor for updates on Langflow vulnerabilities and any new indicators of compromise related to ENCFORGE.</li>
+            <li>Watch next: Monitor for updates on Zero Trust implementations and any emerging threats targeting critical infrastructure.</li>
           
         </ul>
 
@@ -670,9 +670,9 @@
             <div class="label">Key terms</div>
             <ul class="list">
             
-              <li>Ransomware - a type of malicious software that encrypts files and demands payment for decryption.</li>
+              <li>Zero Trust - a security model that requires strict identity verification for every person and device trying to access resources, regardless of whether they are inside or outside the network perimeter.</li>
             
-              <li>AI Model Files - files that contain the data and algorithms used to train artificial intelligence systems.</li>
+              <li>Credentials - the information used to verify a user's identity, such as usernames and passwords.</li>
             
             </ul>
           </div>
@@ -682,11 +682,11 @@
           <div class="label">Defender focus</div>
           <ul class="list">
             
-            <li>Implement monitoring for unusual file access patterns on AI model directories.</li>
+            <li>Implement multi-factor authentication for all access points to critical systems.</li>
             
-            <li>Ensure regular backups of AI model files are maintained and tested for recovery.</li>
+            <li>Regularly audit user accounts and device access to identify any anomalies.</li>
             
-            <li>Review and patch any known vulnerabilities in Langflow to prevent initial access.</li>
+            <li>Deploy monitoring tools to detect unauthorized access attempts in real-time.</li>
             
           </ul>
         </div>
@@ -695,24 +695,24 @@
           <div class="label">Do now</div>
           <ul class="list">
             
-            <li>Immediately assess and secure Langflow server configurations.</li>
+            <li>Assess current identity verification processes and identify gaps.</li>
             
-            <li>Deploy file integrity monitoring on AI model directories.</li>
+            <li>Implement Zero Trust principles across critical infrastructure systems.</li>
             
-            <li>Educate teams on the importance of securing AI infrastructure against ransomware.</li>
+            <li>Train staff on the importance of secure credential management.</li>
             
           </ul>
         </div>
 
-        <div class="text-block"><span class="label">Watch next:</span> Monitor for updates on Langflow vulnerabilities and any new indicators of compromise related to ENCFORGE.</div>
+        <div class="text-block"><span class="label">Watch next:</span> Monitor for updates on Zero Trust implementations and any emerging threats targeting critical infrastructure.</div>
 
         <div class="sources">
           <div class="label">Sources</div>
           
             
               <div>
-                <a href="https://thehackernews.com/2026/07/new-encforge-ransomware-targets-ai.html" target="_blank" rel="noopener noreferrer">
-                  The Hacker News - New ENCFORGE Ransomware Targets AI Model Files in Langflow RCE Attack
+                <a href="https://www.bleepingcomputer.com/news/security/closing-the-identity-gaps-in-critical-infrastructure-security/" target="_blank" rel="noopener noreferrer">
+                  BleepingComputer - Closing the Identity Gaps in Critical Infrastructure Security
                 </a>
               </div>
             
@@ -728,37 +728,39 @@
           
             <span class="chip label-chip">LEGAL POLICY</span>
           
-          <span class="chip chip-neutral">Execution</span>
+          <span class="chip chip-neutral">Initial Access</span>
           <span class="chip chip-neutral">Confidence LOW</span>
         </div>
         
-          <h3><a href="https://thehackernews.com/2026/07/critical-servicenow-ai-platform-flaw.html" target="_blank" rel="noopener noreferrer">Critical ServiceNow AI Platform Flaw Exploited for Unauthenticated Code Execution</a></h3>
+          <h3><a href="https://thehackernews.com/2026/07/zimbra-patches-critical-snmp-command.html" target="_blank" rel="noopener noreferrer">Zimbra Patches Critical SNMP Command Injection and Four XSS Vulnerabilities</a></h3>
         
-        <p class="hook">Immediate exploitation of a critical vulnerability in the ServiceNow AI Platform could lead to unauthorized access and significant operational disruption.</p>
+        <p class="hook">Immediate patching is essential to prevent potential exploitation of critical vulnerabilities in Zimbra that could lead to unauthorized access and system compromise.</p>
         <div class="support-grid">
-          <div class="text-block"><span class="label">Who should care:</span> IT security teams and administrators managing the ServiceNow AI Platform are most exposed to this threat.</div>
-          <div class="text-block"><span class="label">Attack path:</span> Attackers can exploit this vulnerability to bypass authentication and execute arbitrary code on affected systems, potentially leading to data breaches or service outages.</div>
+          <div class="text-block"><span class="label">Who should care:</span> IT security teams managing Zimbra deployments and any organizations relying on Zimbra for email and collaboration services.</div>
+          <div class="text-block"><span class="label">Attack path:</span> An attacker could exploit the command injection vulnerability by sending crafted SNMP notifications, gaining the ability to execute commands on the server.</div>
         </div>
         <div class="text-block"><span class="label">Why this matters now:</span> A live patch or vendor fix gives defenders something concrete to validate.</div>
-        <div class="text-block"><span class="label">In plain English:</span> A serious flaw in ServiceNow's AI Platform is being actively exploited, allowing attackers to execute code without authentication.</div>
+        <div class="text-block"><span class="label">In plain English:</span> Zimbra has released critical patches for command injection and XSS vulnerabilities that need urgent attention.</div>
         
           <div class="tags">
             
-              <span>cve</span>
+              <span>vulnerability</span>
             
-              <span>cloud</span>
+              <span>patch</span>
+            
+              <span>zimbra</span>
             
           </div>
         
         <ul class="story-list">
           
-            <li>A critical vulnerability, CVE-2026-6875, has been identified in the ServiceNow AI Platform, with a CVSS score of 9.5. Threat actors are currently exploiting this flaw to execute arbitrary code without authentication.</li>
+            <li>Zimbra has patched multiple security vulnerabilities, including a critical command injection flaw in the SNMP monitoring component. The update, version 10.1.20, addresses a total of nine vulnerabilities, with the command injection issue being the most severe.</li>
           
-            <li>This vulnerability poses a severe risk as it allows unauthorized users to execute potentially harmful code, which could compromise sensitive data and disrupt services. Organizations using the ServiceNow AI Platform must act quickly to mitigate the risk of exploitation.</li>
+            <li>If exploited, these vulnerabilities could allow attackers to execute arbitrary commands on affected systems, leading to unauthorized access and potential data breaches. Organizations using Zimbra should prioritize applying these patches to mitigate the risk of exploitation.</li>
           
-            <li>Attackers can exploit this vulnerability to bypass authentication and execute arbitrary code on affected systems, potentially leading to data breaches or service outages.</li>
+            <li>An attacker could exploit the command injection vulnerability by sending crafted SNMP notifications, gaining the ability to execute commands on the server.</li>
           
-            <li>Watch next: Monitor for updates from ServiceNow regarding patches and any indicators of compromise related to this vulnerability.</li>
+            <li>Watch next: Monitor for any reports of exploitation attempts or additional vulnerabilities related to Zimbra in the coming weeks.</li>
           
         </ul>
 
@@ -767,9 +769,9 @@
             <div class="label">Key terms</div>
             <ul class="list">
             
-              <li>CVE - Common Vulnerabilities and Exposures, a list of publicly disclosed cybersecurity vulnerabilities.</li>
+              <li>SNMP - Simple Network Management Protocol, a protocol used for network management and monitoring.</li>
             
-              <li>CVSS - Common Vulnerability Scoring System, a standardized method for rating the severity of security vulnerabilities.</li>
+              <li>XSS - Cross-Site Scripting, a vulnerability that allows attackers to inject malicious scripts into web pages viewed by users.</li>
             
             </ul>
           </div>
@@ -779,11 +781,11 @@
           <div class="label">Defender focus</div>
           <ul class="list">
             
-            <li>Implement monitoring for unusual code execution patterns on the ServiceNow AI Platform.</li>
+            <li>Ensure all Zimbra installations are updated to version 10.1.20 immediately.</li>
             
-            <li>Ensure that all available patches for CVE-2026-6875 are applied immediately.</li>
+            <li>Monitor logs for any unusual SNMP activity that could indicate exploitation attempts.</li>
             
-            <li>Review access logs for unauthorized access attempts related to the ServiceNow AI Platform.</li>
+            <li>Review access controls and permissions related to SNMP configurations.</li>
             
           </ul>
         </div>
@@ -792,24 +794,24 @@
           <div class="label">Do now</div>
           <ul class="list">
             
-            <li>Apply patches for CVE-2026-6875 without delay.</li>
+            <li>Apply the latest Zimbra patches without delay.</li>
             
-            <li>Increase monitoring for suspicious activity on the ServiceNow AI Platform.</li>
+            <li>Conduct a security audit of SNMP configurations.</li>
             
-            <li>Conduct a risk assessment to understand the potential impact of this vulnerability on your organization.</li>
+            <li>Educate relevant staff on the implications of these vulnerabilities.</li>
             
           </ul>
         </div>
 
-        <div class="text-block"><span class="label">Watch next:</span> Monitor for updates from ServiceNow regarding patches and any indicators of compromise related to this vulnerability.</div>
+        <div class="text-block"><span class="label">Watch next:</span> Monitor for any reports of exploitation attempts or additional vulnerabilities related to Zimbra in the coming weeks.</div>
 
         <div class="sources">
           <div class="label">Sources</div>
           
             
               <div>
-                <a href="https://thehackernews.com/2026/07/critical-servicenow-ai-platform-flaw.html" target="_blank" rel="noopener noreferrer">
-                  The Hacker News - Critical ServiceNow AI Platform Flaw Exploited for Unauthenticated Code Execution
+                <a href="https://thehackernews.com/2026/07/zimbra-patches-critical-snmp-command.html" target="_blank" rel="noopener noreferrer">
+                  The Hacker News - Zimbra Patches Critical SNMP Command Injection and Four XSS Vulnerabilities
                 </a>
               </div>
             
@@ -827,205 +829,7 @@
           Wider Signal
         </div>
         
-          <div class="grid">
-            
-              <article class="card" style="--i: 0;">
-        <div class="meta">
-          <span class="chip risk-high">HIGH</span>
-          
-            <span class="chip label-chip">PATCH RELEASE</span>
-          
-            <span class="chip label-chip">RESEARCH</span>
-          
-          <span class="chip chip-neutral">Execution</span>
-          <span class="chip chip-neutral">Confidence LOW</span>
-        </div>
-        
-          <h3><a href="https://www.bleepingcomputer.com/news/security/cursor-codex-gemini-cli-antigravity-hit-by-sandbox-escapes/" target="_blank" rel="noopener noreferrer">Cursor, Codex, Gemini CLI, Antigravity hit by sandbox escapes</a></h3>
-        
-        <p class="hook">Recent sandbox escape vulnerabilities in multiple AI tools could lead to unauthorized access and data breaches, making immediate patching essential.</p>
-        <div class="support-grid">
-          <div class="text-block"><span class="label">Who should care:</span> Development and security teams using Cursor, Codex, Gemini CLI, and Antigravity should be particularly vigilant.</div>
-          <div class="text-block"><span class="label">Attack path:</span> An attacker could leverage these vulnerabilities to execute malicious code outside the sandbox, gaining access to the host system and sensitive data.</div>
-        </div>
-        <div class="text-block"><span class="label">Why this matters now:</span> A live patch or vendor fix gives defenders something concrete to validate.</div>
-        <div class="text-block"><span class="label">In plain English:</span> Several AI tools have been compromised due to sandbox escape vulnerabilities, requiring urgent attention.</div>
-        
-          <div class="tags">
-            
-              <span>sandbox</span>
-            
-              <span>cve</span>
-            
-              <span>ai</span>
-            
-          </div>
-        
-        <ul class="story-list">
-          
-            <li>Researchers discovered vulnerabilities in Cursor, Codex, Gemini CLI, and Antigravity that allowed sandbox escapes. These vulnerabilities enable the AI agents to write files that are executed by trusted host tools. Multiple CVEs have been identified, and patches have been released, with Google downgrading two findings related to Antigravity.</li>
-          
-            <li>The ability to escape sandboxes poses a significant risk as it can lead to unauthorized access to sensitive systems and data. Organizations using these AI tools must prioritize applying patches to mitigate potential exploitation and protect their environments.</li>
-          
-            <li>An attacker could leverage these vulnerabilities to execute malicious code outside the sandbox, gaining access to the host system and sensitive data.</li>
-          
-            <li>Watch next: Monitor for updates from vendors regarding additional patches or mitigations related to these vulnerabilities.</li>
-          
-        </ul>
-
-        
-          <div class="glossary">
-            <div class="label">Key terms</div>
-            <ul class="list">
-            
-              <li>Sandbox - a security mechanism for running untrusted code in a controlled environment to prevent it from affecting the host system.</li>
-            
-              <li>CVE - Common Vulnerabilities and Exposures, a list of publicly disclosed cybersecurity vulnerabilities.</li>
-            
-            </ul>
-          </div>
-        
-
-        <div>
-          <div class="label">Defender focus</div>
-          <ul class="list">
-            
-            <li>Implement monitoring for unusual file execution patterns from AI tools.</li>
-            
-            <li>Ensure all patches are applied immediately to affected systems.</li>
-            
-            <li>Review access logs for any unauthorized activities related to these tools.</li>
-            
-          </ul>
-        </div>
-
-        <div>
-          <div class="label">Do now</div>
-          <ul class="list">
-            
-            <li>Apply patches to all affected AI tools immediately.</li>
-            
-            <li>Conduct a security review of systems using these tools.</li>
-            
-            <li>Enhance monitoring for potential exploitation attempts.</li>
-            
-          </ul>
-        </div>
-
-        <div class="text-block"><span class="label">Watch next:</span> Monitor for updates from vendors regarding additional patches or mitigations related to these vulnerabilities.</div>
-
-        <div class="sources">
-          <div class="label">Sources</div>
-          
-            
-              <div>
-                <a href="https://www.bleepingcomputer.com/news/security/cursor-codex-gemini-cli-antigravity-hit-by-sandbox-escapes/" target="_blank" rel="noopener noreferrer">
-                  BleepingComputer - Cursor, Codex, Gemini CLI, Antigravity hit by sandbox escapes
-                </a>
-              </div>
-            
-          
-        </div>
-      </article>
-            
-              <article class="card" style="--i: 1;">
-        <div class="meta">
-          <span class="chip risk-high">HIGH</span>
-          
-            <span class="chip label-chip">LEGAL POLICY</span>
-          
-          <span class="chip chip-neutral">Initial Access</span>
-          <span class="chip chip-neutral">Confidence LOW</span>
-        </div>
-        
-          <h3><a href="https://www.bleepingcomputer.com/news/security/sonicwall-sma1000-flaws-exploited-as-zero-days-to-push-custom-malware/" target="_blank" rel="noopener noreferrer">SonicWall SMA1000 flaws exploited as zero-days to push custom malware</a></h3>
-        
-        <p class="hook">The exploitation of SonicWall SMA1000 vulnerabilities poses a significant risk to organizations relying on these VPN appliances, potentially leading to unauthorized access and data breaches.</p>
-        <div class="support-grid">
-          <div class="text-block"><span class="label">Who should care:</span> IT security teams managing SonicWall VPN appliances should prioritize this issue.</div>
-          <div class="text-block"><span class="label">Attack path:</span> Attackers exploit the vulnerabilities to gain access to the VPN appliance, allowing them to install malware that can facilitate further attacks within the network.</div>
-        </div>
-        <div class="text-block"><span class="label">Why this matters now:</span> Useful context for teams tracking where attacker pressure is building.</div>
-        <div class="text-block"><span class="label">In plain English:</span> SonicWall SMA1000 vulnerabilities are being actively exploited to deploy custom malware.</div>
-        
-          <div class="tags">
-            
-              <span>vpn</span>
-            
-              <span>sonicwall</span>
-            
-              <span>zero day</span>
-            
-          </div>
-        
-        <ul class="story-list">
-          
-            <li>Two vulnerabilities in SonicWall SMA1000 were disclosed and have been exploited in zero-day attacks for several weeks. These flaws allowed attackers to install custom malware on affected VPN appliances.</li>
-          
-            <li>Organizations using SonicWall SMA1000 devices are at immediate risk of compromise, which could lead to data theft or further network infiltration. The presence of custom malware indicates a tailored attack that could evade standard defenses.</li>
-          
-            <li>Attackers exploit the vulnerabilities to gain access to the VPN appliance, allowing them to install malware that can facilitate further attacks within the network.</li>
-          
-            <li>Watch next: Monitor for updates from SonicWall regarding patches and any additional indicators of compromise related to these vulnerabilities.</li>
-          
-        </ul>
-
-        
-          <div class="glossary">
-            <div class="label">Key terms</div>
-            <ul class="list">
-            
-              <li>ZERO-DAY - a vulnerability that is exploited before the vendor has released a fix.</li>
-            
-              <li>CUSTOM MALWARE - malicious software specifically designed for a particular attack or target.</li>
-            
-            </ul>
-          </div>
-        
-
-        <div>
-          <div class="label">Defender focus</div>
-          <ul class="list">
-            
-            <li>Implement monitoring for unusual activity on SonicWall SMA1000 devices.</li>
-            
-            <li>Review logs for signs of unauthorized access or malware installation.</li>
-            
-            <li>Ensure that all SonicWall appliances are updated with the latest security patches.</li>
-            
-          </ul>
-        </div>
-
-        <div>
-          <div class="label">Do now</div>
-          <ul class="list">
-            
-            <li>Immediately assess the current version of SonicWall SMA1000 in use and apply any available patches.</li>
-            
-            <li>Conduct a security audit of the network for signs of compromise.</li>
-            
-            <li>Enhance monitoring for unusual outbound traffic that may indicate malware activity.</li>
-            
-          </ul>
-        </div>
-
-        <div class="text-block"><span class="label">Watch next:</span> Monitor for updates from SonicWall regarding patches and any additional indicators of compromise related to these vulnerabilities.</div>
-
-        <div class="sources">
-          <div class="label">Sources</div>
-          
-            
-              <div>
-                <a href="https://www.bleepingcomputer.com/news/security/sonicwall-sma1000-flaws-exploited-as-zero-days-to-push-custom-malware/" target="_blank" rel="noopener noreferrer">
-                  BleepingComputer - SonicWall SMA1000 flaws exploited as zero-days to push custom malware
-                </a>
-              </div>
-            
-          
-        </div>
-      </article>
-            
-          </div>
+          <p class="empty">No context stories today.</p>
         
       </section>
     </main>
