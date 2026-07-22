@@ -1,5 +1,5 @@
 {
-  "last_run_utc": "2026-07-22T10:19:26.628995+00:00",
+  "last_run_utc": "2026-07-22T14:14:59.924758+00:00",
   "processed_urls": [
     "https://www.bleepingcomputer.com/news/security/critical-cisco-sd-wan-bug-exploited-in-zero-day-attacks-since-2023/",
     "https://www.cisa.gov/news-events/alerts/2026/02/25/cisa-and-partners-release-guidance-ongoing-global-exploitation-cisco-sd-wan-systems",
@@ -962,6 +962,8 @@
     "https://www.bleepingcomputer.com/news/security/police-dismantle-kratos-phishing-platform-arrest-developer/",
     "https://thehackernews.com/2026/07/police-dismantle-kratos-phishing-kit.html",
     "https://thehackernews.com/2026/07/aws-kiro-flaw-let-poisoned-web-page.html",
-    "https://thehackernews.com/2026/07/google-launches-gemini-35-flash-cyber.html"
+    "https://thehackernews.com/2026/07/google-launches-gemini-35-flash-cyber.html",
+    "https://www.bleepingcomputer.com/news/security/cisa-orders-feds-to-patch-actively-exploited-langflow-rce-flaw/",
+    "https://thehackernews.com/2026/07/hackers-exploit-windmill-flaw-to-read.html"
   ]
 }
