@@ -1,5 +1,5 @@
 {
-  "last_run_utc": "2026-07-21T14:14:17.370702+00:00",
+  "last_run_utc": "2026-07-22T10:19:26.628995+00:00",
   "processed_urls": [
     "https://www.bleepingcomputer.com/news/security/critical-cisco-sd-wan-bug-exploited-in-zero-day-attacks-since-2023/",
     "https://www.cisa.gov/news-events/alerts/2026/02/25/cisa-and-partners-release-guidance-ongoing-global-exploitation-cisco-sd-wan-systems",
@@ -953,6 +953,15 @@
     "https://thehackernews.com/2026/07/qilin-ransomware-attackers-exploit-pan.html",
     "https://www.bleepingcomputer.com/news/security/closing-the-identity-gaps-in-critical-infrastructure-security/",
     "https://thehackernews.com/2026/07/zimbra-patches-critical-snmp-command.html",
-    "https://thehackernews.com/2026/07/n-day-is-becoming-n-hour-patching.html"
+    "https://thehackernews.com/2026/07/n-day-is-becoming-n-hour-patching.html",
+    "https://www.bleepingcomputer.com/news/security/critical-sharepoint-rce-flaw-exploited-to-steal-machine-keys/",
+    "https://www.bleepingcomputer.com/news/security/anubis-ransomware-claims-coca-cola-fairlife-attack-threatens-data-leak/",
+    "https://www.bleepingcomputer.com/news/security/critical-wp2shell-wordpress-flaws-exploited-to-install-webshells/",
+    "https://thehackernews.com/2026/07/critical-sharepoint-rce-cve-2026-50522.html",
+    "https://www.bleepingcomputer.com/news/security/chick-fil-a-discloses-data-breach-after-credential-stuffing-attacks/",
+    "https://www.bleepingcomputer.com/news/security/police-dismantle-kratos-phishing-platform-arrest-developer/",
+    "https://thehackernews.com/2026/07/police-dismantle-kratos-phishing-kit.html",
+    "https://thehackernews.com/2026/07/aws-kiro-flaw-let-poisoned-web-page.html",
+    "https://thehackernews.com/2026/07/google-launches-gemini-35-flash-cyber.html"
   ]
 }
