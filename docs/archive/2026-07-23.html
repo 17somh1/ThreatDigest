@@ -378,8 +378,8 @@
         The security news worth your attention, with context and practical takeaways.
       </p>
       <div class="meta-bar">
-        <span>Updated: 2026-07-23 10:14 UTC</span>
-        <span>Stories: 6</span>
+        <span>Updated: 2026-07-23 14:23 UTC</span>
+        <span>Stories: 1</span>
         <span>Recent issues: 14</span>
       </div>
     </header>
@@ -389,7 +389,7 @@
         <section class="one-liner">
           <h2>What Matters Today</h2>
           
-            <p class="text-block">Active exploitation of critical vulnerabilities in Check Point's SmartConsole and Adobe Acrobat highlights urgent risks for network security teams and user privacy.</p>
+            <p class="text-block">A critical flaw in the Linux kernel allows local attackers to gain root access, increasing the urgency for system administrators to secure their environments.</p>
           
         </section>
 
@@ -398,11 +398,11 @@
           
             <ul>
               
-              <li>Immediate exposure checks are necessary due to active exploitation of high-risk vulnerabilities.</li>
+              <li>Local privilege escalation vulnerabilities are becoming more common, requiring immediate patching to prevent unauthorized access.</li>
               
-              <li>Defenders face increased pressure to validate patches and mitigate risks from newly discovered malware leveraging common browsers.</li>
+              <li>Increased pressure on system administrators to monitor and secure Linux environments, especially those using the XFS filesystem.</li>
               
-              <li>Ransomware threats are evolving with the integration of new technologies, necessitating proactive security measures.</li>
+              <li>Attackers are actively exploiting kernel vulnerabilities, highlighting the need for robust security practices and timely updates.</li>
               
             </ul>
           
@@ -420,45 +420,41 @@
         <div class="meta">
           <span class="chip risk-high">HIGH</span>
           
-            <span class="chip label-chip">ACTIVE EXPLOITATION</span>
-          
-            <span class="chip label-chip">PATCH RELEASE</span>
-          
             <span class="chip label-chip">LEGAL POLICY</span>
           
-          <span class="chip chip-neutral">Initial Access</span>
+          <span class="chip chip-neutral">Privilege Escalation</span>
           <span class="chip chip-neutral">Confidence LOW</span>
         </div>
         
-          <h3><a href="https://thehackernews.com/2026/07/check-point-patches-exploited.html" target="_blank" rel="noopener noreferrer">Check Point Patches Exploited SmartConsole Flaw Allowing Full Admin Access</a></h3>
+          <h3><a href="https://www.bleepingcomputer.com/news/linux/new-refluxfs-linux-flaw-lets-attackers-gain-root-privileges/" target="_blank" rel="noopener noreferrer">New RefluXFS Linux flaw lets attackers gain root privileges</a></h3>
         
-        <p class="hook">The exploitation of a critical authentication bypass in Check Point's SmartConsole could lead to unauthorized full admin access, posing significant risks to network security.</p>
+        <p class="hook">A critical flaw in the Linux kernel could allow local attackers to gain root access, posing significant risks to system integrity and security.</p>
         <div class="support-grid">
-          <div class="text-block"><span class="label">Who should care:</span> Security teams managing Check Point Security Management and Multi-Domain Management products should prioritize this issue.</div>
-          <div class="text-block"><span class="label">Attack path:</span> An attacker can exploit the authentication bypass to gain unauthorized access to the SmartConsole, allowing them to perform administrative actions without proper credentials.</div>
+          <div class="text-block"><span class="label">Who should care:</span> System administrators and security teams managing Linux servers and applications utilizing the XFS filesystem should be particularly vigilant.</div>
+          <div class="text-block"><span class="label">Attack path:</span> An attacker with local access can exploit this vulnerability to escalate their privileges to root, allowing them to manipulate system files and configurations.</div>
         </div>
-        <div class="text-block"><span class="label">Why this matters now:</span> Active exploitation makes this an immediate exposure check. A live patch or vendor fix gives defenders something concrete to validate.</div>
-        <div class="text-block"><span class="label">In plain English:</span> Check Point has patched a serious vulnerability that is currently being exploited, allowing attackers to gain full administrative control.</div>
+        <div class="text-block"><span class="label">Why this matters now:</span> Useful context for teams tracking where attacker pressure is building.</div>
+        <div class="text-block"><span class="label">In plain English:</span> A vulnerability in the Linux XFS filesystem allows local attackers to escalate privileges to root.</div>
         
           <div class="tags">
             
               <span>cve</span>
             
-              <span>security</span>
+              <span>linux</span>
             
-              <span>check_point</span>
+              <span>privilege escalation</span>
             
           </div>
         
         <ul class="story-list">
           
-            <li>Check Point released security updates to address multiple vulnerabilities, including CVE-2026-16232, which is an authentication bypass affecting the SmartConsole login process. This flaw has been confirmed to be actively exploited in the wild.</li>
+            <li>A race condition vulnerability, identified as CVE-2026-64600, has been discovered in the XFS filesystem of the Linux kernel. This flaw has existed for nine years and enables local attackers to overwrite protected files.</li>
           
-            <li>If exploited, this vulnerability allows attackers to gain full administrative access to Security Management and Multi-Domain Management products, potentially compromising entire networks. Organizations using these products are at immediate risk of unauthorized access and data breaches.</li>
+            <li>Gaining root privileges allows attackers to execute arbitrary code, potentially compromising the entire system. This vulnerability is particularly concerning for environments where Linux systems are used for critical applications or sensitive data processing.</li>
           
-            <li>An attacker can exploit the authentication bypass to gain unauthorized access to the SmartConsole, allowing them to perform administrative actions without proper credentials.</li>
+            <li>An attacker with local access can exploit this vulnerability to escalate their privileges to root, allowing them to manipulate system files and configurations.</li>
           
-            <li>Watch next: Monitor for any updates from Check Point regarding further patches or advisories related to this vulnerability.</li>
+            <li>Watch next: Monitor for patches from Linux distributions addressing CVE-2026-64600 and any reports of exploitation in the wild.</li>
           
         </ul>
 
@@ -469,7 +465,7 @@
             
               <li>CVE - Common Vulnerabilities and Exposures, a list of publicly disclosed cybersecurity vulnerabilities.</li>
             
-              <li>CVSS - Common Vulnerability Scoring System, a standard for assessing the severity of security vulnerabilities.</li>
+              <li>Race Condition - a situation where the system's behavior depends on the sequence or timing of uncontrollable events, leading to unexpected outcomes.</li>
             
             </ul>
           </div>
@@ -479,11 +475,11 @@
           <div class="label">Defender focus</div>
           <ul class="list">
             
-            <li>Implement monitoring for unusual login attempts to SmartConsole.</li>
+            <li>Implement monitoring for unusual file access patterns on Linux systems.</li>
             
-            <li>Review access logs for unauthorized administrative actions.</li>
+            <li>Review user access controls to limit local access to critical systems.</li>
             
-            <li>Ensure all Check Point products are updated with the latest security patches.</li>
+            <li>Prepare to deploy patches as soon as they are released by Linux vendors.</li>
             
           </ul>
         </div>
@@ -492,24 +488,24 @@
           <div class="label">Do now</div>
           <ul class="list">
             
-            <li>Immediately apply the latest security patches from Check Point.</li>
+            <li>Assess and identify systems using the XFS filesystem.</li>
             
-            <li>Conduct a security audit of access logs for any signs of unauthorized access.</li>
+            <li>Apply security patches as soon as they are available.</li>
             
-            <li>Enhance monitoring of administrative actions within Check Point products.</li>
+            <li>Conduct a review of local user permissions and access controls.</li>
             
           </ul>
         </div>
 
-        <div class="text-block"><span class="label">Watch next:</span> Monitor for any updates from Check Point regarding further patches or advisories related to this vulnerability.</div>
+        <div class="text-block"><span class="label">Watch next:</span> Monitor for patches from Linux distributions addressing CVE-2026-64600 and any reports of exploitation in the wild.</div>
 
         <div class="sources">
           <div class="label">Sources</div>
           
             
               <div>
-                <a href="https://thehackernews.com/2026/07/check-point-patches-exploited.html" target="_blank" rel="noopener noreferrer">
-                  The Hacker News - Check Point Patches Exploited SmartConsole Flaw Allowing Full Admin Access
+                <a href="https://www.bleepingcomputer.com/news/linux/new-refluxfs-linux-flaw-lets-attackers-gain-root-privileges/" target="_blank" rel="noopener noreferrer">
+                  BleepingComputer - New RefluXFS Linux flaw lets attackers gain root privileges
                 </a>
               </div>
             
@@ -526,306 +522,7 @@
           Priority Watchlist
         </div>
         
-          <div class="grid">
-            
-              <article class="card" style="--i: 0;">
-        <div class="meta">
-          <span class="chip risk-high">HIGH</span>
-          
-            <span class="chip label-chip">ACTIVE EXPLOITATION</span>
-          
-            <span class="chip label-chip">LEGAL POLICY</span>
-          
-          <span class="chip chip-neutral">Initial Access</span>
-          <span class="chip chip-neutral">Confidence LOW</span>
-        </div>
-        
-          <h3><a href="https://www.bleepingcomputer.com/news/security/check-point-patches-smartconsole-zero-day-exploited-in-attacks/" target="_blank" rel="noopener noreferrer">Check Point warns of SmartConsole zero-day exploited in attacks</a></h3>
-        
-        <p class="hook">The exploitation of a zero-day vulnerability in Check Point's SmartConsole could lead to unauthorized access and control over critical network configurations.</p>
-        <div class="support-grid">
-          <div class="text-block"><span class="label">Who should care:</span> Network security teams and administrators using Check Point's SmartConsole are most exposed.</div>
-          <div class="text-block"><span class="label">Attack path:</span> An attacker can exploit the vulnerability to gain administrative access to the SmartConsole, allowing them to alter configurations and deploy malicious changes.</div>
-        </div>
-        <div class="text-block"><span class="label">Why this matters now:</span> Active exploitation makes this an immediate exposure check.</div>
-        <div class="text-block"><span class="label">In plain English:</span> A serious vulnerability in Check Point's SmartConsole is being actively exploited, posing a risk to network security.</div>
-        
-          <div class="tags">
-            
-              <span>zero day</span>
-            
-              <span>cve</span>
-            
-              <span>check point</span>
-            
-          </div>
-        
-        <ul class="story-list">
-          
-            <li>Check Point Software has patched a zero-day vulnerability in its SmartConsole admin panel, which has been actively exploited in attacks. This flaw allows attackers to gain unauthorized access to the system.</li>
-          
-            <li>If exploited, this vulnerability could enable attackers to manipulate network settings, potentially leading to data breaches or service disruptions. Organizations using Check Point's SmartConsole should prioritize applying the patch to mitigate risks.</li>
-          
-            <li>An attacker can exploit the vulnerability to gain administrative access to the SmartConsole, allowing them to alter configurations and deploy malicious changes.</li>
-          
-            <li>Watch next: Monitor for updates from Check Point regarding any further vulnerabilities or patches related to SmartConsole.</li>
-          
-        </ul>
-
-        
-          <div class="glossary">
-            <div class="label">Key terms</div>
-            <ul class="list">
-            
-              <li>ZERO-DAY - a vulnerability that is exploited before the vendor has released a fix.</li>
-            
-              <li>SMARTCONSOLE - a graphical user interface used for managing Check Point security products.</li>
-            
-            </ul>
-          </div>
-        
-
-        <div>
-          <div class="label">Defender focus</div>
-          <ul class="list">
-            
-            <li>Ensure all instances of SmartConsole are updated with the latest patch.</li>
-            
-            <li>Monitor logs for any unauthorized access attempts to the SmartConsole.</li>
-            
-            <li>Review network configurations for any unauthorized changes post-exploitation.</li>
-            
-          </ul>
-        </div>
-
-        <div>
-          <div class="label">Do now</div>
-          <ul class="list">
-            
-            <li>Immediately apply the patch released by Check Point.</li>
-            
-            <li>Conduct a security audit of your SmartConsole configurations.</li>
-            
-            <li>Educate your team on recognizing signs of unauthorized access.</li>
-            
-          </ul>
-        </div>
-
-        <div class="text-block"><span class="label">Watch next:</span> Monitor for updates from Check Point regarding any further vulnerabilities or patches related to SmartConsole.</div>
-
-        <div class="sources">
-          <div class="label">Sources</div>
-          
-            
-              <div>
-                <a href="https://www.bleepingcomputer.com/news/security/check-point-patches-smartconsole-zero-day-exploited-in-attacks/" target="_blank" rel="noopener noreferrer">
-                  BleepingComputer - Check Point warns of SmartConsole zero-day exploited in attacks
-                </a>
-              </div>
-            
-          
-        </div>
-      </article>
-            
-              <article class="card" style="--i: 1;">
-        <div class="meta">
-          <span class="chip risk-high">HIGH</span>
-          
-            <span class="chip label-chip">PATCH RELEASE</span>
-          
-            <span class="chip label-chip">LEGAL POLICY</span>
-          
-            <span class="chip label-chip">RESEARCH</span>
-          
-          <span class="chip chip-neutral">Credential Access</span>
-          <span class="chip chip-neutral">Confidence LOW</span>
-        </div>
-        
-          <h3><a href="https://thehackernews.com/2026/07/adobe-acrobat-extension-flaw-let.html" target="_blank" rel="noopener noreferrer">Adobe Acrobat Extension Flaw Let Malicious Sites Read WhatsApp Web Data</a></h3>
-        
-        <p class="hook">A recently patched vulnerability in the Adobe Acrobat Chrome extension could allow attackers to silently access WhatsApp Web data, posing significant privacy risks to millions of users.</p>
-        <div class="support-grid">
-          <div class="text-block"><span class="label">Who should care:</span> Teams managing user privacy and security, particularly those supporting applications that integrate with WhatsApp.</div>
-          <div class="text-block"><span class="label">Attack path:</span> An attacker could exploit the vulnerability by tricking users into visiting a malicious site that leverages the flaw in the Adobe Acrobat extension to access WhatsApp Web data.</div>
-        </div>
-        <div class="text-block"><span class="label">Why this matters now:</span> A live patch or vendor fix gives defenders something concrete to validate.</div>
-        <div class="text-block"><span class="label">In plain English:</span> A flaw in the Adobe Acrobat extension could let malicious sites read WhatsApp Web data.</div>
-        
-          <div class="tags">
-            
-              <span>cve</span>
-            
-              <span>privacy</span>
-            
-              <span>browser</span>
-            
-          </div>
-        
-        <ul class="story-list">
-          
-            <li>Cybersecurity researchers have revealed a vulnerability in the Adobe Acrobat Chrome extension, affecting over 314 million users. This flaw, codenamed HermeticReader and tracked as CVE-2026-48294, could allow attackers to hijack WhatsApp data without user consent.</li>
-          
-            <li>The potential for unauthorized access to sensitive messaging data can lead to privacy breaches and identity theft. Given the widespread use of WhatsApp for personal and business communications, the impact could be extensive if exploited.</li>
-          
-            <li>An attacker could exploit the vulnerability by tricking users into visiting a malicious site that leverages the flaw in the Adobe Acrobat extension to access WhatsApp Web data.</li>
-          
-            <li>Watch next: Monitor for any reports of exploitation attempts or user complaints regarding unauthorized access to WhatsApp data.</li>
-          
-        </ul>
-
-        
-          <div class="glossary">
-            <div class="label">Key terms</div>
-            <ul class="list">
-            
-              <li>Vulnerability - a weakness in a system that can be exploited by attackers.</li>
-            
-              <li>CVE - Common Vulnerabilities and Exposures, a list of publicly known cybersecurity vulnerabilities.</li>
-            
-            </ul>
-          </div>
-        
-
-        <div>
-          <div class="label">Defender focus</div>
-          <ul class="list">
-            
-            <li>Monitor for unusual access patterns to WhatsApp Web data.</li>
-            
-            <li>Implement browser extension policies to limit the use of potentially vulnerable extensions.</li>
-            
-            <li>Educate users on the risks of using unverified extensions.</li>
-            
-          </ul>
-        </div>
-
-        <div>
-          <div class="label">Do now</div>
-          <ul class="list">
-            
-            <li>Update the Adobe Acrobat extension to the latest version immediately.</li>
-            
-            <li>Review and restrict browser extensions used within your organization.</li>
-            
-            <li>Conduct a security audit of applications that integrate with WhatsApp.</li>
-            
-          </ul>
-        </div>
-
-        <div class="text-block"><span class="label">Watch next:</span> Monitor for any reports of exploitation attempts or user complaints regarding unauthorized access to WhatsApp data.</div>
-
-        <div class="sources">
-          <div class="label">Sources</div>
-          
-            
-              <div>
-                <a href="https://thehackernews.com/2026/07/adobe-acrobat-extension-flaw-let.html" target="_blank" rel="noopener noreferrer">
-                  The Hacker News - Adobe Acrobat Extension Flaw Let Malicious Sites Read WhatsApp Web Data
-                </a>
-              </div>
-            
-          
-        </div>
-      </article>
-            
-              <article class="card" style="--i: 2;">
-        <div class="meta">
-          <span class="chip risk-high">HIGH</span>
-          
-            <span class="chip label-chip">INDUSTRY SIGNAL</span>
-          
-          <span class="chip chip-neutral">Command and Control</span>
-          <span class="chip chip-neutral">Confidence LOW</span>
-        </div>
-        
-          <h3><a href="https://www.bleepingcomputer.com/news/security/new-msarat-malware-uses-chrome-edge-browsers-to-route-c2-traffic/" target="_blank" rel="noopener noreferrer">New msaRAT malware uses Chrome, Edge browsers to route C2 traffic</a></h3>
-        
-        <p class="hook">The emergence of msaRAT malware poses a significant threat as it leverages widely used browsers to obscure command-and-control traffic, increasing the risk of undetected intrusions.</p>
-        <div class="support-grid">
-          <div class="text-block"><span class="label">Who should care:</span> Security teams managing endpoints and network traffic for organizations using Chrome and Edge browsers should be particularly vigilant.</div>
-          <div class="text-block"><span class="label">Attack path:</span> Attackers can gain leverage by embedding msaRAT in legitimate browser processes, allowing them to communicate with their C2 servers without raising immediate alarms.</div>
-        </div>
-        <div class="text-block"><span class="label">Why this matters now:</span> Useful context for teams tracking where attacker pressure is building.</div>
-        <div class="text-block"><span class="label">In plain English:</span> A new malware called msaRAT is using Chrome and Edge browsers to hide its communication with attackers.</div>
-        
-          <div class="tags">
-            
-              <span>ransomware</span>
-            
-              <span>cve</span>
-            
-              <span>cloud</span>
-            
-          </div>
-        
-        <ul class="story-list">
-          
-            <li>The Chaos ransomware gang has introduced a new backdoor known as msaRAT. This malware routes its command-and-control (C2) traffic through Chrome and Edge browsers, making detection more challenging.</li>
-          
-            <li>By using legitimate browsers for C2 communication, msaRAT can evade traditional security measures, potentially leading to unauthorized access and data breaches. Organizations may find it difficult to identify compromised systems, increasing the risk of prolonged exposure.</li>
-          
-            <li>Attackers can gain leverage by embedding msaRAT in legitimate browser processes, allowing them to communicate with their C2 servers without raising immediate alarms.</li>
-          
-            <li>Watch next: Monitor for updates from browser vendors regarding security patches and any reported incidents involving msaRAT.</li>
-          
-        </ul>
-
-        
-          <div class="glossary">
-            <div class="label">Key terms</div>
-            <ul class="list">
-            
-              <li>C2 - Command and Control, a method used by attackers to communicate with compromised systems.</li>
-            
-              <li>Backdoor - A type of malware that allows unauthorized access to a system while bypassing normal authentication.</li>
-            
-            </ul>
-          </div>
-        
-
-        <div>
-          <div class="label">Defender focus</div>
-          <ul class="list">
-            
-            <li>Implement monitoring for unusual network traffic patterns originating from Chrome and Edge.</li>
-            
-            <li>Review endpoint security logs for signs of msaRAT activity or related indicators.</li>
-            
-            <li>Ensure that browser security settings are configured to limit unauthorized extensions and scripts.</li>
-            
-          </ul>
-        </div>
-
-        <div>
-          <div class="label">Do now</div>
-          <ul class="list">
-            
-            <li>Update browser security settings to enhance protection against unauthorized access.</li>
-            
-            <li>Conduct a thorough review of network traffic for anomalies linked to browser activity.</li>
-            
-            <li>Educate teams on the risks associated with browser-based malware and the importance of vigilance.</li>
-            
-          </ul>
-        </div>
-
-        <div class="text-block"><span class="label">Watch next:</span> Monitor for updates from browser vendors regarding security patches and any reported incidents involving msaRAT.</div>
-
-        <div class="sources">
-          <div class="label">Sources</div>
-          
-            
-              <div>
-                <a href="https://www.bleepingcomputer.com/news/security/new-msarat-malware-uses-chrome-edge-browsers-to-route-c2-traffic/" target="_blank" rel="noopener noreferrer">
-                  BleepingComputer - New msaRAT malware uses Chrome, Edge browsers to route C2 traffic
-                </a>
-              </div>
-            
-          
-        </div>
-      </article>
-            
-          </div>
+          <p class="empty">No additional top stories.</p>
         
       </section>
 
@@ -835,203 +532,7 @@
           Wider Signal
         </div>
         
-          <div class="grid">
-            
-              <article class="card" style="--i: 0;">
-        <div class="meta">
-          <span class="chip risk-high">HIGH</span>
-          
-            <span class="chip label-chip">INDUSTRY SIGNAL</span>
-          
-          <span class="chip chip-neutral">Initial Access</span>
-          <span class="chip chip-neutral">Confidence LOW</span>
-        </div>
-        
-          <h3><a href="https://www.bleepingcomputer.com/news/security/swiss-rail-giant-stadler-rejects-123m-ransom-demand-after-cyberattack/" target="_blank" rel="noopener noreferrer">Swiss rail giant Stadler rejects $12.3M ransom demand after cyberattack</a></h3>
-        
-        <p class="hook">Stadler Rail's refusal to pay a $12.3 million ransom highlights the ongoing threat of ransomware to critical infrastructure.</p>
-        <div class="support-grid">
-          <div class="text-block"><span class="label">Who should care:</span> IT security teams and operational technology departments within critical infrastructure sectors should be particularly vigilant.</div>
-          <div class="text-block"><span class="label">Attack path:</span> The attackers likely gained access through vulnerabilities in the data exchange platform, allowing them to deploy ransomware and demand payment.</div>
-        </div>
-        <div class="text-block"><span class="label">Why this matters now:</span> Useful context for teams tracking where attacker pressure is building.</div>
-        <div class="text-block"><span class="label">In plain English:</span> Stadler Rail was targeted by a ransomware attack that compromised a data exchange platform.</div>
-        
-          <div class="tags">
-            
-              <span>ransomware</span>
-            
-              <span>cve</span>
-            
-              <span>critical infrastructure</span>
-            
-          </div>
-        
-        <ul class="story-list">
-          
-            <li>Stadler Rail, a Swiss rail vehicle manufacturer, was attacked by the Everest ransomware gang, which demanded a ransom of approximately $12.3 million. The breach involved a data exchange platform shared with one of Stadler's suppliers.</li>
-          
-            <li>This incident underscores the vulnerability of critical infrastructure to cyberattacks, which can disrupt operations and compromise sensitive data. The refusal to pay the ransom may lead to further attacks or data leaks, impacting both Stadler and its partners.</li>
-          
-            <li>The attackers likely gained access through vulnerabilities in the data exchange platform, allowing them to deploy ransomware and demand payment.</li>
-          
-            <li>Watch next: Monitor for any data leaks or further communications from the Everest ransomware gang regarding this incident.</li>
-          
-        </ul>
-
-        
-          <div class="glossary">
-            <div class="label">Key terms</div>
-            <ul class="list">
-            
-              <li>Ransomware - a type of malicious software that encrypts files and demands payment for their release.</li>
-            
-              <li>Data exchange platform - a system that allows different organizations to share information securely.</li>
-            
-            </ul>
-          </div>
-        
-
-        <div>
-          <div class="label">Defender focus</div>
-          <ul class="list">
-            
-            <li>Review logs for unusual access patterns to the data exchange platform.</li>
-            
-            <li>Ensure that all software and systems are updated to mitigate known vulnerabilities.</li>
-            
-            <li>Implement network segmentation to limit the impact of potential ransomware spread.</li>
-            
-          </ul>
-        </div>
-
-        <div>
-          <div class="label">Do now</div>
-          <ul class="list">
-            
-            <li>Investigate the breach to understand the attack vector.</li>
-            
-            <li>Enhance monitoring of data exchange platforms for suspicious activity.</li>
-            
-            <li>Prepare incident response plans in case of data leaks or further attacks.</li>
-            
-          </ul>
-        </div>
-
-        <div class="text-block"><span class="label">Watch next:</span> Monitor for any data leaks or further communications from the Everest ransomware gang regarding this incident.</div>
-
-        <div class="sources">
-          <div class="label">Sources</div>
-          
-            
-              <div>
-                <a href="https://www.bleepingcomputer.com/news/security/swiss-rail-giant-stadler-rejects-123m-ransom-demand-after-cyberattack/" target="_blank" rel="noopener noreferrer">
-                  BleepingComputer - Swiss rail giant Stadler rejects $12.3M ransom demand after cyberattack
-                </a>
-              </div>
-            
-          
-        </div>
-      </article>
-            
-              <article class="card" style="--i: 1;">
-        <div class="meta">
-          <span class="chip risk-high">HIGH</span>
-          
-            <span class="chip label-chip">INDUSTRY SIGNAL</span>
-          
-          <span class="chip chip-neutral">Initial Access</span>
-          <span class="chip chip-neutral">Confidence LOW</span>
-        </div>
-        
-          <h3><a href="https://www.bleepingcomputer.com/news/security/how-enterprise-genai-can-amplify-ransomware-risk-and-how-to-contain-it/" target="_blank" rel="noopener noreferrer">How enterprise GenAI can amplify ransomware risk — and how to contain it</a></h3>
-        
-        <p class="hook">The integration of enterprise GenAI could significantly increase ransomware risks, making immediate action essential to protect sensitive data.</p>
-        <div class="support-grid">
-          <div class="text-block"><span class="label">Who should care:</span> Security teams, IT administrators, and product managers overseeing AI implementations are most exposed.</div>
-          <div class="text-block"><span class="label">Attack path:</span> Attackers can exploit excessive permissions granted to AI systems or compromised identities to deploy ransomware more effectively within an organization.</div>
-        </div>
-        <div class="text-block"><span class="label">Why this matters now:</span> Useful context for teams tracking where attacker pressure is building.</div>
-        <div class="text-block"><span class="label">In plain English:</span> Enterprise AI tools may inadvertently facilitate ransomware attacks if not properly secured.</div>
-        
-          <div class="tags">
-            
-              <span>ransomware</span>
-            
-              <span>genai</span>
-            
-              <span>security</span>
-            
-          </div>
-        
-        <ul class="story-list">
-          
-            <li>Recent insights indicate that enterprise GenAI can amplify ransomware risks when AI systems are granted excessive permissions or when identities are compromised. Acronis has highlighted the importance of identity controls and governance in mitigating these risks.</li>
-          
-            <li>If organizations do not implement strict access controls and governance for AI systems, they may become prime targets for ransomware attacks, leading to potential data breaches and operational disruptions. The urgency is heightened as more companies adopt AI technologies without adequate security measures.</li>
-          
-            <li>Attackers can exploit excessive permissions granted to AI systems or compromised identities to deploy ransomware more effectively within an organization.</li>
-          
-            <li>Watch next: Monitor for updates on AI governance frameworks and best practices from security vendors.</li>
-          
-        </ul>
-
-        
-          <div class="glossary">
-            <div class="label">Key terms</div>
-            <ul class="list">
-            
-              <li>GenAI - Generative Artificial Intelligence, a type of AI that can create content or perform tasks based on learned patterns.</li>
-            
-              <li>Ransomware - A type of malicious software that encrypts a victim's data, demanding payment for decryption.</li>
-            
-            </ul>
-          </div>
-        
-
-        <div>
-          <div class="label">Defender focus</div>
-          <ul class="list">
-            
-            <li>Review and tighten permissions for AI systems to ensure least-privilege access.</li>
-            
-            <li>Implement monitoring for unusual access patterns related to AI tools.</li>
-            
-            <li>Conduct a risk assessment of AI deployments to identify potential vulnerabilities.</li>
-            
-          </ul>
-        </div>
-
-        <div>
-          <div class="label">Do now</div>
-          <ul class="list">
-            
-            <li>Audit AI system permissions immediately.</li>
-            
-            <li>Enhance identity governance protocols.</li>
-            
-            <li>Train staff on secure AI practices.</li>
-            
-          </ul>
-        </div>
-
-        <div class="text-block"><span class="label">Watch next:</span> Monitor for updates on AI governance frameworks and best practices from security vendors.</div>
-
-        <div class="sources">
-          <div class="label">Sources</div>
-          
-            
-              <div>
-                <a href="https://www.bleepingcomputer.com/news/security/how-enterprise-genai-can-amplify-ransomware-risk-and-how-to-contain-it/" target="_blank" rel="noopener noreferrer">
-                  BleepingComputer - How enterprise GenAI can amplify ransomware risk — and how to contain it
-                </a>
-              </div>
-            
-          
-        </div>
-      </article>
-            
-          </div>
+          <p class="empty">No context stories today.</p>
         
       </section>
     </main>
