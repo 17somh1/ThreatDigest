@@ -1,5 +1,5 @@
 {
-  "last_run_utc": "2026-07-24T10:10:19.474724+00:00",
+  "last_run_utc": "2026-07-24T14:02:55.212015+00:00",
   "processed_urls": [
     "https://www.bleepingcomputer.com/news/security/critical-cisco-sd-wan-bug-exploited-in-zero-day-attacks-since-2023/",
     "https://www.cisa.gov/news-events/alerts/2026/02/25/cisa-and-partners-release-guidance-ongoing-global-exploitation-cisco-sd-wan-systems",
@@ -980,6 +980,9 @@
     "https://thehackernews.com/2026/07/kimi-k3-agents-found-redis-zero-days.html",
     "https://www.bleepingcomputer.com/news/security/clop-ransomware-targets-windchill-flexplm-in-data-theft-attacks/",
     "https://thehackernews.com/2026/07/nodebb-patches-eight-ai-found-flaws.html",
-    "https://thehackernews.com/2026/07/chaos-ransomware-uses-msarat-to-route.html"
+    "https://thehackernews.com/2026/07/chaos-ransomware-uses-msarat-to-route.html",
+    "https://thehackernews.com/2026/07/chatgpt-agentforger-flaw-could-deploy.html",
+    "https://thehackernews.com/2026/07/bing-images-flaws-let-crafted-svgs-run.html",
+    "https://thehackernews.com/2026/07/golden-chickens-resurfaces-with-four.html"
   ]
 }

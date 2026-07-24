@@ -378,8 +378,8 @@
         The security news worth your attention, with context and practical takeaways.
       </p>
       <div class="meta-bar">
-        <span>Updated: 2026-07-24 10:10 UTC</span>
-        <span>Stories: 5</span>
+        <span>Updated: 2026-07-24 14:02 UTC</span>
+        <span>Stories: 3</span>
         <span>Recent issues: 14</span>
       </div>
     </header>
@@ -389,7 +389,7 @@
         <section class="one-liner">
           <h2>What Matters Today</h2>
           
-            <p class="text-block">Multiple high-risk vulnerabilities and exploitation techniques are emerging, requiring immediate attention from security teams managing affected platforms.</p>
+            <p class="text-block">Multiple high-risk vulnerabilities across major platforms expose organizations to significant command execution and malware deployment threats.</p>
           
         </section>
 
@@ -398,11 +398,11 @@
           
             <ul>
               
-              <li>Unauthorized access risks are escalating due to newly discovered vulnerabilities in community platforms like NodeBB.</li>
+              <li>Attackers are leveraging flaws in widely used services to execute commands, increasing the urgency for patching and monitoring.</li>
               
-              <li>Russian espionage tactics are intensifying, with zero-day exploits targeting widely used email services like Zimbra, increasing the urgency for protective measures.</li>
+              <li>The emergence of new malware families indicates a shift in attacker tactics, demanding heightened vigilance and adaptive defense strategies.</li>
               
-              <li>Ransomware groups are evolving their methods, complicating detection and response efforts, particularly with new obfuscation techniques in command-and-control traffic.</li>
+              <li>Critical vulnerabilities in AI tools highlight the need for robust security measures in emerging technologies to prevent unauthorized access.</li>
               
             </ul>
           
@@ -420,51 +420,41 @@
         <div class="meta">
           <span class="chip risk-high">HIGH</span>
           
-            <span class="chip label-chip">PATCH RELEASE</span>
-          
             <span class="chip label-chip">LEGAL POLICY</span>
           
-            <span class="chip label-chip">RESEARCH</span>
-          
-          <span class="chip chip-neutral">Privilege Escalation</span>
+          <span class="chip chip-neutral">Execution</span>
           <span class="chip chip-neutral">Confidence LOW</span>
         </div>
         
-          <h3><a href="https://thehackernews.com/2026/07/kimi-k3-agents-found-redis-zero-days.html" target="_blank" rel="noopener noreferrer">NodeBB Patches Eight AI-Found Flaws Exposing Admin Access and Private Chats</a></h3>
+          <h3><a href="https://thehackernews.com/2026/07/bing-images-flaws-let-crafted-svgs-run.html" target="_blank" rel="noopener noreferrer">Bing Images Flaws Let Crafted SVGs Run Commands as SYSTEM on Microsoft's Servers</a></h3>
         
-        <p class="hook">NodeBB's recent vulnerabilities could allow unauthorized access to admin functions and private chats, posing a significant risk to user data and platform integrity.</p>
+        <p class="hook">The exploitation of Bing's image processing flaws could allow attackers to execute arbitrary commands on Microsoft's servers, posing a significant risk to data integrity and service availability.</p>
         <div class="support-grid">
-          <div class="text-block"><span class="label">Who should care:</span> NodeBB administrators and security teams managing forums or community platforms should be particularly vigilant.</div>
-          <div class="text-block"><span class="label">Attack path:</span> An attacker could exploit these vulnerabilities to change settings or gain unauthorized access to admin controls, enabling them to manipulate user data.</div>
+          <div class="text-block"><span class="label">Who should care:</span> Development, security, and operations teams working with Bing's image processing services should prioritize this issue.</div>
+          <div class="text-block"><span class="label">Attack path:</span> An attacker could submit a specially crafted SVG file to Bing's image search, leveraging the vulnerability to execute commands with elevated privileges on the underlying servers.</div>
         </div>
-        <div class="text-block"><span class="label">Why this matters now:</span> A live patch or vendor fix gives defenders something concrete to validate.</div>
-        <div class="text-block"><span class="label">In plain English:</span> NodeBB has patched eight critical vulnerabilities that could expose sensitive admin and user information.</div>
+        <div class="text-block"><span class="label">Why this matters now:</span> Useful context for teams tracking where attacker pressure is building.</div>
+        <div class="text-block"><span class="label">In plain English:</span> Bing's image processing has critical vulnerabilities that allow crafted SVG files to run commands with elevated privileges.</div>
         
           <div class="tags">
             
-              <span>redis</span>
-            
-              <span>vulnerability</span>
-            
-              <span>rce</span>
-            
               <span>cve</span>
             
-              <span>nodebb</span>
+              <span>bing</span>
             
-              <span>security</span>
+              <span>image processing</span>
             
           </div>
         
         <ul class="story-list">
           
-            <li>Eight high-severity security flaws in NodeBB were disclosed, all of which were identified by AI-driven pentesting. These vulnerabilities affect all versions prior to 4.14.0, and NodeBB has released patches in version 4.14.2.</li>
+            <li>A crafted SVG file submitted to Bing's image search was able to execute commands as NT AUTHORITY\SYSTEM on Microsoft's production image-processing workers and as root on Linux machines. Testing by XBOW confirmed that this vulnerability affected multiple workers across different hosts and network ranges, indicating a systemic issue within Bing's image processing tier. Microsoft has issued two critical CVEs, CVE-2026-32194 and another, to address these vulnerabilities.</li>
           
-            <li>If exploited, these vulnerabilities could allow attackers to gain admin access and view private conversations, leading to potential data breaches and loss of user trust. Organizations using NodeBB should prioritize updating to the latest version to mitigate these risks.</li>
+            <li>This vulnerability could lead to unauthorized access and control over critical systems, potentially allowing attackers to manipulate data or disrupt services. Given the scale of Bing's infrastructure, successful exploitation could have widespread implications for users and services relying on Bing's image processing capabilities. Immediate remediation is essential to prevent potential exploitation.</li>
           
-            <li>An attacker could exploit these vulnerabilities to change settings or gain unauthorized access to admin controls, enabling them to manipulate user data.</li>
+            <li>An attacker could submit a specially crafted SVG file to Bing's image search, leveraging the vulnerability to execute commands with elevated privileges on the underlying servers.</li>
           
-            <li>Watch next: Monitor for any reports of exploitation attempts against unpatched NodeBB installations.</li>
+            <li>Watch next: Monitor for updates from Microsoft regarding the patching of the identified CVEs and any related security advisories.</li>
           
         </ul>
 
@@ -473,13 +463,9 @@
             <div class="label">Key terms</div>
             <ul class="list">
             
-              <li>RCE - Remote Code Execution, a vulnerability that allows an attacker to run arbitrary code on a remote system.</li>
+              <li>SVG - Scalable Vector Graphics, a file format for vector graphics that can include executable code.</li>
             
-              <li>Zero-Day - A vulnerability that is exploited before the vendor has released a fix.</li>
-            
-              <li>Vulnerability - a weakness in a system that can be exploited by attackers.</li>
-            
-              <li>Patch - a software update designed to fix security flaws.</li>
+              <li>CVE - Common Vulnerabilities and Exposures, a list of publicly disclosed cybersecurity vulnerabilities.</li>
             
             </ul>
           </div>
@@ -489,11 +475,11 @@
           <div class="label">Defender focus</div>
           <ul class="list">
             
-            <li>Ensure all NodeBB installations are updated to version 4.14.2 immediately.</li>
+            <li>Implement monitoring for unusual command executions on Bing's image processing servers.</li>
             
-            <li>Review access logs for any unauthorized admin activities.</li>
+            <li>Review access logs for any unauthorized submissions or command executions related to SVG files.</li>
             
-            <li>Implement monitoring for unusual behavior in user accounts.</li>
+            <li>Ensure that all systems are updated with the latest patches from Microsoft to mitigate the identified vulnerabilities.</li>
             
           </ul>
         </div>
@@ -502,24 +488,24 @@
           <div class="label">Do now</div>
           <ul class="list">
             
-            <li>Update NodeBB to version 4.14.2 without delay.</li>
+            <li>Patch all affected systems immediately with the updates provided by Microsoft.</li>
             
-            <li>Audit user permissions and access controls.</li>
+            <li>Conduct a security audit of the image processing workflows to identify any additional vulnerabilities.</li>
             
-            <li>Educate administrators on recognizing signs of unauthorized access.</li>
+            <li>Enhance monitoring and alerting for any suspicious activity related to SVG file submissions.</li>
             
           </ul>
         </div>
 
-        <div class="text-block"><span class="label">Watch next:</span> Monitor for any reports of exploitation attempts against unpatched NodeBB installations.</div>
+        <div class="text-block"><span class="label">Watch next:</span> Monitor for updates from Microsoft regarding the patching of the identified CVEs and any related security advisories.</div>
 
         <div class="sources">
           <div class="label">Sources</div>
           
             
               <div>
-                <a href="https://thehackernews.com/2026/07/kimi-k3-agents-found-redis-zero-days.html" target="_blank" rel="noopener noreferrer">
-                  The Hacker News - Kimi K3 Agents Found Redis Zero-Days and Built RCE Exploit, Researchers Say
+                <a href="https://thehackernews.com/2026/07/bing-images-flaws-let-crafted-svgs-run.html" target="_blank" rel="noopener noreferrer">
+                  The Hacker News - Bing Images Flaws Let Crafted SVGs Run Commands as SYSTEM on Microsoft's Servers
                 </a>
               </div>
             
@@ -542,41 +528,41 @@
         <div class="meta">
           <span class="chip risk-high">HIGH</span>
           
-            <span class="chip label-chip">LEGAL POLICY</span>
+            <span class="chip label-chip">RESEARCH</span>
           
           <span class="chip chip-neutral">Initial Access</span>
           <span class="chip chip-neutral">Confidence LOW</span>
         </div>
         
-          <h3><a href="https://thehackernews.com/2026/07/russian-espionage-group-exploited.html" target="_blank" rel="noopener noreferrer">Russian Espionage Group Exploited Zimbra Zero-Day to Steal Mail and 2FA Codes</a></h3>
+          <h3><a href="https://thehackernews.com/2026/07/golden-chickens-resurfaces-with-four.html" target="_blank" rel="noopener noreferrer">Golden Chickens Resurfaces With Four New Malware Families and Modular Implants</a></h3>
         
-        <p class="hook">The exploitation of a Zimbra zero-day by a Russian espionage group poses a significant threat to sensitive communications and credentials across Western organizations.</p>
+        <p class="hook">The resurgence of the Golden Chickens malware ecosystem with new variants poses a significant threat to organizations, as attackers continue to evolve their tactics.</p>
         <div class="support-grid">
-          <div class="text-block"><span class="label">Who should care:</span> IT security teams and organizations using Zimbra for email services are most exposed.</div>
-          <div class="text-block"><span class="label">Attack path:</span> Attackers gain leverage by exploiting a zero-day vulnerability in Zimbra, allowing them to access sensitive email communications and authentication codes without user interaction beyond opening an email.</div>
+          <div class="text-block"><span class="label">Who should care:</span> Security teams, incident response teams, and organizations using web applications or cloud services should be particularly concerned.</div>
+          <div class="text-block"><span class="label">Attack path:</span> Attackers can leverage these new malware families to gain initial access through phishing or exploiting vulnerabilities, allowing them to deploy additional payloads or exfiltrate sensitive data.</div>
         </div>
         <div class="text-block"><span class="label">Why this matters now:</span> Useful context for teams tracking where attacker pressure is building.</div>
-        <div class="text-block"><span class="label">In plain English:</span> A Russian espionage group exploited a vulnerability in Zimbra to access emails and two-factor authentication codes.</div>
+        <div class="text-block"><span class="label">In plain English:</span> New malware families from Golden Chickens increase the risk of successful cyberattacks.</div>
         
           <div class="tags">
             
-              <span>espionage</span>
+              <span>malware</span>
             
-              <span>zero day</span>
+              <span>maas</span>
             
-              <span>zimbra</span>
+              <span>cybersecurity</span>
             
           </div>
         
         <ul class="story-list">
           
-            <li>A Russian state-sponsored group exploited a previously unknown vulnerability in Zimbra's webmail client, allowing them to read emails from Western organizations. The attack targeted the last 90 days of emails, the entire email directory, saved passwords, and two-factor authentication recovery codes. The exploitation began simply by opening a malicious message.</li>
+            <li>The Golden Chickens malware-as-a-service ecosystem has re-emerged with four new malware families: TinyEgg, ChonkyChicken, a modularized variant of ChonkyChicken, and a modified web browser credential stealer. This development follows extensive public disclosures about their previous operations.</li>
           
-            <li>This breach allows attackers to gather sensitive information, potentially leading to further compromises within organizations. The ability to access two-factor authentication codes significantly increases the risk of unauthorized access to critical systems. Organizations using Zimbra should be particularly vigilant as the attackers have demonstrated capability and intent to exploit this vulnerability.</li>
+            <li>The introduction of these new malware families indicates that threat actors are adapting and improving their capabilities, which could lead to increased successful breaches. Organizations must be vigilant as these malware families could exploit existing vulnerabilities and lead to data theft or system compromise.</li>
           
-            <li>Attackers gain leverage by exploiting a zero-day vulnerability in Zimbra, allowing them to access sensitive email communications and authentication codes without user interaction beyond opening an email.</li>
+            <li>Attackers can leverage these new malware families to gain initial access through phishing or exploiting vulnerabilities, allowing them to deploy additional payloads or exfiltrate sensitive data.</li>
           
-            <li>Watch next: Monitor for updates from Zimbra regarding patches and any additional indicators of compromise released by cybersecurity agencies.</li>
+            <li>Watch next: Monitor for updates from security vendors regarding detection signatures for these new malware families and any emerging attack patterns.</li>
           
         </ul>
 
@@ -585,9 +571,9 @@
             <div class="label">Key terms</div>
             <ul class="list">
             
-              <li>ZERO-DAY - a vulnerability that is unknown to the vendor and has not been patched.</li>
+              <li>Malware-as-a-Service (MaaS) - a model where attackers provide malware tools to other criminals for a fee.</li>
             
-              <li>TWO-FACTOR AUTHENTICATION - a security process that requires two forms of identification before granting access.</li>
+              <li>Credential Stealer - a type of malware designed to capture usernames and passwords from users.</li>
             
             </ul>
           </div>
@@ -597,11 +583,11 @@
           <div class="label">Defender focus</div>
           <ul class="list">
             
-            <li>Implement monitoring for unusual email access patterns in Zimbra.</li>
+            <li>Implement enhanced monitoring for unusual network activity that may indicate the presence of these new malware families.</li>
             
-            <li>Review logs for any unauthorized access attempts or anomalies.</li>
+            <li>Update endpoint protection solutions to include signatures for TinyEgg and ChonkyChicken variants.</li>
             
-            <li>Ensure that all Zimbra installations are updated with the latest security patches.</li>
+            <li>Conduct a review of web application security to identify and mitigate potential vulnerabilities that could be exploited.</li>
             
           </ul>
         </div>
@@ -610,24 +596,24 @@
           <div class="label">Do now</div>
           <ul class="list">
             
-            <li>Immediately apply any available patches for Zimbra.</li>
+            <li>Increase monitoring for indicators of compromise related to Golden Chickens malware.</li>
             
-            <li>Conduct a security audit of email access logs.</li>
+            <li>Ensure all systems are updated with the latest security patches.</li>
             
-            <li>Enhance monitoring for suspicious email activity.</li>
+            <li>Educate staff on recognizing phishing attempts that may deliver these new malware families.</li>
             
           </ul>
         </div>
 
-        <div class="text-block"><span class="label">Watch next:</span> Monitor for updates from Zimbra regarding patches and any additional indicators of compromise released by cybersecurity agencies.</div>
+        <div class="text-block"><span class="label">Watch next:</span> Monitor for updates from security vendors regarding detection signatures for these new malware families and any emerging attack patterns.</div>
 
         <div class="sources">
           <div class="label">Sources</div>
           
             
               <div>
-                <a href="https://thehackernews.com/2026/07/russian-espionage-group-exploited.html" target="_blank" rel="noopener noreferrer">
-                  The Hacker News - Russian Espionage Group Exploited Zimbra Zero-Day to Steal Mail and 2FA Codes
+                <a href="https://thehackernews.com/2026/07/golden-chickens-resurfaces-with-four.html" target="_blank" rel="noopener noreferrer">
+                  The Hacker News - Golden Chickens Resurfaces With Four New Malware Families and Modular Implants
                 </a>
               </div>
             
@@ -639,140 +625,43 @@
         <div class="meta">
           <span class="chip risk-high">HIGH</span>
           
-            <span class="chip label-chip">PATCH RELEASE</span>
-          
             <span class="chip label-chip">LEGAL POLICY</span>
+          
+            <span class="chip label-chip">RESEARCH</span>
           
           <span class="chip chip-neutral">Initial Access</span>
           <span class="chip chip-neutral">Confidence LOW</span>
         </div>
         
-          <h3><a href="https://www.bleepingcomputer.com/news/security/russian-hackers-exploit-zimbra-zero-click-flaw-for-email-theft/" target="_blank" rel="noopener noreferrer">Russian hackers exploit Zimbra zero-click flaw for email theft</a></h3>
+          <h3><a href="https://thehackernews.com/2026/07/chatgpt-agentforger-flaw-could-deploy.html" target="_blank" rel="noopener noreferrer">ChatGPT AgentForger Flaw Could Deploy Rogue Workspace Agents via a Phishing Link</a></h3>
         
-        <p class="hook">Organizations using Zimbra email servers are at immediate risk of email theft due to a zero-click vulnerability exploited by Russian hackers.</p>
+        <p class="hook">A critical vulnerability in ChatGPT's Workspace Agents could have enabled attackers to deploy rogue AI agents within organizations, posing significant security risks.</p>
         <div class="support-grid">
-          <div class="text-block"><span class="label">Who should care:</span> IT security teams managing Zimbra email servers should prioritize this threat.</div>
-          <div class="text-block"><span class="label">Attack path:</span> Attackers can gain access to email accounts without any user action, leveraging the zero-click vulnerability to bypass security measures.</div>
-        </div>
-        <div class="text-block"><span class="label">Why this matters now:</span> A live patch or vendor fix gives defenders something concrete to validate.</div>
-        <div class="text-block"><span class="label">In plain English:</span> Russian hackers are actively stealing emails from Zimbra servers by exploiting a recently patched vulnerability.</div>
-        
-          <div class="tags">
-            
-              <span>email</span>
-            
-              <span>vulnerability</span>
-            
-              <span>cybersecurity</span>
-            
-          </div>
-        
-        <ul class="story-list">
-          
-            <li>CISA has issued a warning about the Russian state-sponsored group Laundry Bear exploiting a zero-click flaw in Zimbra Collaboration email servers. This vulnerability allows attackers to access email accounts without user interaction, making it particularly dangerous.</li>
-          
-            <li>The exploitation of this vulnerability can lead to significant data breaches, compromising sensitive information and communications. Organizations that rely on Zimbra for email services must act quickly to mitigate the risk of unauthorized access.</li>
-          
-            <li>Attackers can gain access to email accounts without any user action, leveraging the zero-click vulnerability to bypass security measures.</li>
-          
-            <li>Watch next: Monitor for any updates from CISA regarding further vulnerabilities or attacks related to Zimbra.</li>
-          
-        </ul>
-
-        
-          <div class="glossary">
-            <div class="label">Key terms</div>
-            <ul class="list">
-            
-              <li>Zero-click vulnerability - a security flaw that allows an attacker to exploit a system without any interaction from the user.</li>
-            
-              <li>Phishing - a method of attempting to acquire sensitive information by masquerading as a trustworthy entity in electronic communications.</li>
-            
-            </ul>
-          </div>
-        
-
-        <div>
-          <div class="label">Defender focus</div>
-          <ul class="list">
-            
-            <li>Implement monitoring for unusual login attempts on Zimbra accounts.</li>
-            
-            <li>Review and apply the latest security patches for Zimbra servers.</li>
-            
-            <li>Conduct an audit of email access logs to identify any unauthorized access.</li>
-            
-          </ul>
-        </div>
-
-        <div>
-          <div class="label">Do now</div>
-          <ul class="list">
-            
-            <li>Apply the latest security patches for Zimbra immediately.</li>
-            
-            <li>Increase monitoring for suspicious email activity.</li>
-            
-            <li>Educate users about potential phishing attempts related to this threat.</li>
-            
-          </ul>
-        </div>
-
-        <div class="text-block"><span class="label">Watch next:</span> Monitor for any updates from CISA regarding further vulnerabilities or attacks related to Zimbra.</div>
-
-        <div class="sources">
-          <div class="label">Sources</div>
-          
-            
-              <div>
-                <a href="https://www.bleepingcomputer.com/news/security/russian-hackers-exploit-zimbra-zero-click-flaw-for-email-theft/" target="_blank" rel="noopener noreferrer">
-                  BleepingComputer - Russian hackers exploit Zimbra zero-click flaw for email theft
-                </a>
-              </div>
-            
-          
-        </div>
-      </article>
-            
-              <article class="card" style="--i: 2;">
-        <div class="meta">
-          <span class="chip risk-high">HIGH</span>
-          
-            <span class="chip label-chip">INDUSTRY SIGNAL</span>
-          
-          <span class="chip chip-neutral">Exfiltration</span>
-          <span class="chip chip-neutral">Confidence LOW</span>
-        </div>
-        
-          <h3><a href="https://www.bleepingcomputer.com/news/security/clop-ransomware-targets-windchill-flexplm-in-data-theft-attacks/" target="_blank" rel="noopener noreferrer">Clop ransomware targets Windchill, FlexPLM in data theft attacks</a></h3>
-        
-        <p class="hook">The Clop ransomware gang is actively exploiting vulnerabilities in PTC Windchill and FlexPLM, posing a significant threat to sensitive data integrity.</p>
-        <div class="support-grid">
-          <div class="text-block"><span class="label">Who should care:</span> IT security teams managing PTC Windchill and FlexPLM environments should prioritize this threat.</div>
-          <div class="text-block"><span class="label">Attack path:</span> Attackers gain access through vulnerabilities in exposed systems, allowing them to exfiltrate sensitive data before demanding ransom.</div>
+          <div class="text-block"><span class="label">Who should care:</span> Security teams and IT departments using OpenAI's ChatGPT Workspace Agents are most exposed.</div>
+          <div class="text-block"><span class="label">Attack path:</span> An attacker could exploit this vulnerability by sending a phishing link that, when clicked, would create and authorize a rogue AI agent within the victim's environment.</div>
         </div>
         <div class="text-block"><span class="label">Why this matters now:</span> Useful context for teams tracking where attacker pressure is building.</div>
-        <div class="text-block"><span class="label">In plain English:</span> Clop ransomware is targeting PTC Windchill and FlexPLM systems for data theft.</div>
+        <div class="text-block"><span class="label">In plain English:</span> A flaw in ChatGPT's Workspace Agents allowed potential deployment of unauthorized AI agents via phishing links.</div>
         
           <div class="tags">
-            
-              <span>ransomware</span>
             
               <span>cve</span>
             
-              <span>cloud</span>
+              <span>phishing</span>
+            
+              <span>ai</span>
             
           </div>
         
         <ul class="story-list">
           
-            <li>The Clop ransomware group has initiated a campaign focusing on Internet-exposed instances of PTC Windchill and FlexPLM. This attack involves data theft and extortion tactics, which could lead to severe data breaches.</li>
+            <li>Researchers identified a vulnerability in OpenAI's ChatGPT Workspace Agents, dubbed AgentForger, which could let attackers create and deploy AI agents through a single phishing link. OpenAI has addressed this issue as of June 8, 2026.</li>
           
-            <li>Organizations using PTC Windchill and FlexPLM are at risk of losing sensitive data, which can lead to operational disruptions and reputational damage. The potential for extortion increases the urgency for affected teams to secure their systems.</li>
+            <li>This vulnerability could have allowed malicious actors to infiltrate organizations, automate tasks, and manipulate data without detection. The potential for unauthorized AI agents raises concerns about data integrity and operational security.</li>
           
-            <li>Attackers gain access through vulnerabilities in exposed systems, allowing them to exfiltrate sensitive data before demanding ransom.</li>
+            <li>An attacker could exploit this vulnerability by sending a phishing link that, when clicked, would create and authorize a rogue AI agent within the victim's environment.</li>
           
-            <li>Watch next: Monitor for updates from PTC regarding patches or mitigations for Windchill and FlexPLM vulnerabilities.</li>
+            <li>Watch next: Monitor for any updates from OpenAI regarding further patches or related vulnerabilities.</li>
           
         </ul>
 
@@ -781,9 +670,9 @@
             <div class="label">Key terms</div>
             <ul class="list">
             
-              <li>Ransomware - a type of malicious software that encrypts files and demands payment for decryption.</li>
+              <li>Vulnerability - a weakness in a system that can be exploited by attackers.</li>
             
-              <li>Data theft - the unauthorized copying or removal of sensitive information.</li>
+              <li>Phishing - a method of trying to gather personal information using deceptive emails and websites.</li>
             
             </ul>
           </div>
@@ -793,11 +682,11 @@
           <div class="label">Defender focus</div>
           <ul class="list">
             
-            <li>Implement network segmentation to limit exposure of Windchill and FlexPLM instances.</li>
+            <li>Implement email filtering to detect and block phishing attempts.</li>
             
-            <li>Regularly update and patch systems to close vulnerabilities.</li>
+            <li>Review access logs for any unauthorized agent deployments.</li>
             
-            <li>Monitor for unusual outbound traffic that may indicate data exfiltration.</li>
+            <li>Ensure all systems are updated with the latest patches from OpenAI.</li>
             
           </ul>
         </div>
@@ -806,24 +695,24 @@
           <div class="label">Do now</div>
           <ul class="list">
             
-            <li>Immediately assess the exposure of Windchill and FlexPLM systems to the Internet.</li>
+            <li>Immediately review and update security protocols for ChatGPT Workspace Agents.</li>
             
-            <li>Apply any available security patches from PTC without delay.</li>
+            <li>Conduct a security audit to identify any unauthorized AI agents.</li>
             
-            <li>Enhance monitoring for signs of unauthorized access or data exfiltration.</li>
+            <li>Educate staff on recognizing phishing attempts related to AI tools.</li>
             
           </ul>
         </div>
 
-        <div class="text-block"><span class="label">Watch next:</span> Monitor for updates from PTC regarding patches or mitigations for Windchill and FlexPLM vulnerabilities.</div>
+        <div class="text-block"><span class="label">Watch next:</span> Monitor for any updates from OpenAI regarding further patches or related vulnerabilities.</div>
 
         <div class="sources">
           <div class="label">Sources</div>
           
             
               <div>
-                <a href="https://www.bleepingcomputer.com/news/security/clop-ransomware-targets-windchill-flexplm-in-data-theft-attacks/" target="_blank" rel="noopener noreferrer">
-                  BleepingComputer - Clop ransomware targets Windchill, FlexPLM in data theft attacks
+                <a href="https://thehackernews.com/2026/07/chatgpt-agentforger-flaw-could-deploy.html" target="_blank" rel="noopener noreferrer">
+                  The Hacker News - ChatGPT AgentForger Flaw Could Deploy Rogue Workspace Agents via a Phishing Link
                 </a>
               </div>
             
@@ -841,106 +730,7 @@
           Wider Signal
         </div>
         
-          <div class="grid">
-            
-              <article class="card" style="--i: 0;">
-        <div class="meta">
-          <span class="chip risk-high">HIGH</span>
-          
-            <span class="chip label-chip">INDUSTRY SIGNAL</span>
-          
-          <span class="chip chip-neutral">Command and Control</span>
-          <span class="chip chip-neutral">Confidence LOW</span>
-        </div>
-        
-          <h3><a href="https://thehackernews.com/2026/07/chaos-ransomware-uses-msarat-to-route.html" target="_blank" rel="noopener noreferrer">Chaos Ransomware Uses msaRAT to Route C2 Traffic Through Headless Chrome and Edge</a></h3>
-        
-        <p class="hook">Chaos ransomware is leveraging a novel technique to obfuscate its command-and-control traffic, significantly complicating detection and response efforts.</p>
-        <div class="support-grid">
-          <div class="text-block"><span class="label">Who should care:</span> Security teams managing Windows environments and those responsible for endpoint protection should prioritize this threat.</div>
-          <div class="text-block"><span class="label">Attack path:</span> Attackers gain leverage by deploying the msaRAT implant, which manipulates the victim's browser to communicate with C2 servers without raising alarms.</div>
-        </div>
-        <div class="text-block"><span class="label">Why this matters now:</span> Useful context for teams tracking where attacker pressure is building.</div>
-        <div class="text-block"><span class="label">In plain English:</span> Chaos ransomware is using a Rust-based implant to route its control traffic through the victim's own browser, making it harder to detect.</div>
-        
-          <div class="tags">
-            
-              <span>ransomware</span>
-            
-              <span>cve</span>
-            
-              <span>cloud</span>
-            
-          </div>
-        
-        <ul class="story-list">
-          
-            <li>The Chaos ransomware group has been found using a Rust implant named msaRAT to manage command-and-control (C2) communications through headless instances of Chrome and Edge on compromised Windows machines. This technique allows the malware to avoid direct outbound connections, instead communicating locally with the browser.</li>
-          
-            <li>This method of routing C2 traffic through the victim's browser can evade traditional security measures, making it difficult for security teams to identify and mitigate the threat. The use of headless browsers also allows attackers to blend in with legitimate traffic, increasing the risk of successful data exfiltration and system compromise.</li>
-          
-            <li>Attackers gain leverage by deploying the msaRAT implant, which manipulates the victim's browser to communicate with C2 servers without raising alarms.</li>
-          
-            <li>Watch next: Monitor for updates from Cisco Talos regarding the effectiveness of detection methods against this new technique.</li>
-          
-        </ul>
-
-        
-          <div class="glossary">
-            <div class="label">Key terms</div>
-            <ul class="list">
-            
-              <li>C2 - Command and Control, a method used by attackers to maintain communication with compromised systems.</li>
-            
-              <li>Headless Browser - A web browser without a graphical user interface, often used for automated tasks.</li>
-            
-            </ul>
-          </div>
-        
-
-        <div>
-          <div class="label">Defender focus</div>
-          <ul class="list">
-            
-            <li>Implement monitoring for unusual local traffic patterns that may indicate browser-based C2 activity.</li>
-            
-            <li>Enhance endpoint detection capabilities to identify the presence of the msaRAT implant.</li>
-            
-            <li>Review and tighten browser security settings to limit unauthorized access and execution of scripts.</li>
-            
-          </ul>
-        </div>
-
-        <div>
-          <div class="label">Do now</div>
-          <ul class="list">
-            
-            <li>Investigate any recent browser activity on compromised systems for signs of unauthorized access.</li>
-            
-            <li>Update endpoint protection solutions to recognize and block the msaRAT implant.</li>
-            
-            <li>Conduct a security audit of browser configurations and permissions across all endpoints.</li>
-            
-          </ul>
-        </div>
-
-        <div class="text-block"><span class="label">Watch next:</span> Monitor for updates from Cisco Talos regarding the effectiveness of detection methods against this new technique.</div>
-
-        <div class="sources">
-          <div class="label">Sources</div>
-          
-            
-              <div>
-                <a href="https://thehackernews.com/2026/07/chaos-ransomware-uses-msarat-to-route.html" target="_blank" rel="noopener noreferrer">
-                  The Hacker News - Chaos Ransomware Uses msaRAT to Route C2 Traffic Through Headless Chrome and Edge
-                </a>
-              </div>
-            
-          
-        </div>
-      </article>
-            
-          </div>
+          <p class="empty">No context stories today.</p>
         
       </section>
     </main>
