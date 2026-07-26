@@ -1,5 +1,5 @@
 {
-  "last_run_utc": "2026-07-25T13:53:31.765786+00:00",
+  "last_run_utc": "2026-07-26T09:52:55.986594+00:00",
   "processed_urls": [
     "https://www.bleepingcomputer.com/news/security/critical-cisco-sd-wan-bug-exploited-in-zero-day-attacks-since-2023/",
     "https://www.cisa.gov/news-events/alerts/2026/02/25/cisa-and-partners-release-guidance-ongoing-global-exploitation-cisco-sd-wan-systems",
@@ -991,6 +991,7 @@
     "https://thehackernews.com/2026/07/cl0p-affiliates-target-internet-exposed.html",
     "https://thehackernews.com/2026/07/devman-raas-portal-centralizes-payload.html",
     "https://thehackernews.com/2026/07/bluenoroff-zoom-phishing-kit-profiles.html",
-    "https://thehackernews.com/2026/07/certighost-exploit-lets-low-privileged.html"
+    "https://thehackernews.com/2026/07/certighost-exploit-lets-low-privileged.html",
+    "https://www.bleepingcomputer.com/news/security/shinyhunters-data-leaks-fuel-2-000-sextortion-email-scam/"
   ]
 }
