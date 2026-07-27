@@ -3,7 +3,7 @@
   <head>
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1" />
-    <title>Threat Digest - 2026-07-26</title>
+    <title>Threat Digest - 2026-07-27</title>
     <style>
       @import url("https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,600;9..144,700&family=Space+Grotesk:wght@400;500;600&display=swap");
 
@@ -373,13 +373,13 @@
 
     <header>
       <div class="eyebrow">Daily Threat Briefing</div>
-      <h1>Threat Digest - 2026-07-26</h1>
+      <h1>Threat Digest - 2026-07-27</h1>
       <p class="subtitle">
         The security news worth your attention, with context and practical takeaways.
       </p>
       <div class="meta-bar">
-        <span>Updated: 2026-07-26 13:46 UTC</span>
-        <span>Stories: 6</span>
+        <span>Updated: 2026-07-27 11:12 UTC</span>
+        <span>Stories: 1</span>
         <span>Recent issues: 14</span>
       </div>
     </header>
@@ -389,7 +389,7 @@
         <section class="one-liner">
           <h2>What Matters Today</h2>
           
-            <p class="text-block">Attackers are intensifying exploitation of critical vulnerabilities in widely used applications, highlighting urgent patching needs and the evolving nature of phishing threats.</p>
+            <p class="text-block">GitHub and PyPI are implementing time-based defenses to strengthen protection against supply chain attacks, highlighting the growing risk to software integrity.</p>
           
         </section>
 
@@ -398,11 +398,11 @@
           
             <ul>
               
-              <li>High-pressure exploitation of unpatched RCE vulnerabilities in popular Java and PTC applications increases operational risk for development and IT teams.</li>
+              <li>Increased focus on supply chain security indicates rising attacker pressure on software dependencies.</li>
               
-              <li>The shift to real-time account hijacking in phishing schemes indicates a need for immediate vigilance among financial institutions.</li>
+              <li>Development teams must adapt to new defenses, increasing their workload in managing and securing dependencies.</li>
               
-              <li>Data breaches are being weaponized in scams, emphasizing the importance of data protection and incident response for affected organizations.</li>
+              <li>The introduction of time-based defenses signals a shift in how platforms are responding to evolving attack tactics.</li>
               
             </ul>
           
@@ -418,45 +418,43 @@
           <div class="grid">
             <article class="card" style="--i: 0;">
         <div class="meta">
-          <span class="chip risk-high">HIGH</span>
+          <span class="chip risk-medium">MEDIUM</span>
           
-            <span class="chip label-chip">PATCH RELEASE</span>
+            <span class="chip label-chip">INDUSTRY SIGNAL</span>
           
-            <span class="chip label-chip">LEGAL POLICY</span>
-          
-          <span class="chip chip-neutral">Execution</span>
+          <span class="chip chip-neutral">Defense Evasion</span>
           <span class="chip chip-neutral">Confidence LOW</span>
         </div>
         
-          <h3><a href="https://thehackernews.com/2026/07/fastjson-1x-rce-vulnerability-targeted.html" target="_blank" rel="noopener noreferrer">Fastjson 1.x RCE Vulnerability Targeted in Attacks With No Patched Available</a></h3>
+          <h3><a href="https://www.bleepingcomputer.com/news/security/github-pypi-add-time-absed-defenses-against-supply-chain-attacks/" target="_blank" rel="noopener noreferrer">GitHub, PyPI add time-based defenses against supply chain attacks</a></h3>
         
-        <p class="hook">Attackers are exploiting a critical RCE vulnerability in Fastjson that could allow unauthorized code execution in vulnerable applications, posing a significant risk to Java environments.</p>
+        <p class="hook">The introduction of time-based defenses in GitHub and PyPI is crucial as it directly mitigates the risk of supply chain attacks that can compromise software integrity.</p>
         <div class="support-grid">
-          <div class="text-block"><span class="label">Who should care:</span> Development and security teams managing Java applications, particularly those using Spring Boot and Fastjson.</div>
-          <div class="text-block"><span class="label">Attack path:</span> An attacker can send a specially crafted JSON request to execute arbitrary code within the context of the Java process, potentially compromising the entire application.</div>
+          <div class="text-block"><span class="label">Who should care:</span> Development teams using GitHub and PyPI for dependency management should be particularly vigilant.</div>
+          <div class="text-block"><span class="label">Attack path:</span> An attacker could exploit outdated or compromised dependencies if time-based checks are not enforced, allowing malicious code to be injected into legitimate software.</div>
         </div>
-        <div class="text-block"><span class="label">Why this matters now:</span> A live patch or vendor fix gives defenders something concrete to validate.</div>
-        <div class="text-block"><span class="label">In plain English:</span> A serious vulnerability in Fastjson is being actively exploited, and no patch is currently available.</div>
+        <div class="text-block"><span class="label">Why this matters now:</span> Useful context for teams tracking where attacker pressure is building.</div>
+        <div class="text-block"><span class="label">In plain English:</span> GitHub and PyPI have enhanced their security against supply chain attacks with new time-based defenses.</div>
         
           <div class="tags">
             
-              <span>rce</span>
+              <span>supply chain</span>
             
-              <span>cve</span>
+              <span>security</span>
             
-              <span>java</span>
+              <span>dependency management</span>
             
           </div>
         
         <ul class="story-list">
           
-            <li>Security firms ThreatBook and Imperva reported that attackers are targeting a critical flaw in Fastjson, a JSON library for Java, tracked as CVE-2026-16723. This vulnerability allows malicious JSON requests to execute code without authentication in affected Spring Boot applications.</li>
+            <li>GitHub and PyPI have implemented a time-based mechanism in their Dependabot tool to enhance protection against supply chain attacks. This update aims to limit the impact of such attacks by ensuring that dependencies are verified within a specific timeframe.</li>
           
-            <li>The vulnerability has a CVSS score of 9.0, indicating high severity, and can lead to unauthorized access and control over Java applications. With no patch available, organizations using affected versions are at immediate risk of exploitation.</li>
+            <li>Supply chain attacks can lead to widespread vulnerabilities in software applications, affecting numerous users and organizations. By implementing these defenses, GitHub and PyPI are taking proactive steps to safeguard developers and their projects from potential exploitation.</li>
           
-            <li>An attacker can send a specially crafted JSON request to execute arbitrary code within the context of the Java process, potentially compromising the entire application.</li>
+            <li>An attacker could exploit outdated or compromised dependencies if time-based checks are not enforced, allowing malicious code to be injected into legitimate software.</li>
           
-            <li>Watch next: Monitor for updates from Alibaba regarding a patch or mitigation strategies for CVE-2026-16723.</li>
+            <li>Watch next: Monitor for updates from GitHub and PyPI regarding the effectiveness of these new defenses and any related incidents.</li>
           
         </ul>
 
@@ -465,9 +463,9 @@
             <div class="label">Key terms</div>
             <ul class="list">
             
-              <li>RCE - Remote Code Execution, a vulnerability that allows an attacker to run arbitrary code on a remote system.</li>
+              <li>Supply Chain Attack - a type of cyber attack where an attacker targets less-secure elements in the supply chain to compromise a system.</li>
             
-              <li>CVSS - Common Vulnerability Scoring System, a standardized way to assess the severity of vulnerabilities.</li>
+              <li>Dependabot - a tool that helps developers manage and update their software dependencies automatically.</li>
             
             </ul>
           </div>
@@ -477,11 +475,11 @@
           <div class="label">Defender focus</div>
           <ul class="list">
             
-            <li>Implement network segmentation to limit exposure of vulnerable applications.</li>
+            <li>Monitor dependency updates for any signs of exploitation or unusual activity.</li>
             
-            <li>Monitor logs for unusual JSON request patterns that may indicate exploitation attempts.</li>
+            <li>Ensure that the time-based defenses are properly configured in your development environments.</li>
             
-            <li>Review and harden application configurations to reduce the impact of potential attacks.</li>
+            <li>Review existing dependencies for vulnerabilities that may have been overlooked.</li>
             
           </ul>
         </div>
@@ -490,24 +488,24 @@
           <div class="label">Do now</div>
           <ul class="list">
             
-            <li>Assess your applications for the use of Fastjson and Spring Boot.</li>
+            <li>Review and update your dependency management practices to incorporate the new time-based defenses.</li>
             
-            <li>Implement immediate network controls to restrict access to vulnerable services.</li>
+            <li>Conduct a security audit of your current dependencies to identify any potential vulnerabilities.</li>
             
-            <li>Stay updated on vendor communications for any forthcoming patches or mitigations.</li>
+            <li>Stay informed about further updates from GitHub and PyPI regarding supply chain security.</li>
             
           </ul>
         </div>
 
-        <div class="text-block"><span class="label">Watch next:</span> Monitor for updates from Alibaba regarding a patch or mitigation strategies for CVE-2026-16723.</div>
+        <div class="text-block"><span class="label">Watch next:</span> Monitor for updates from GitHub and PyPI regarding the effectiveness of these new defenses and any related incidents.</div>
 
         <div class="sources">
           <div class="label">Sources</div>
           
             
               <div>
-                <a href="https://thehackernews.com/2026/07/fastjson-1x-rce-vulnerability-targeted.html" target="_blank" rel="noopener noreferrer">
-                  The Hacker News - Fastjson 1.x RCE Vulnerability Targeted in Attacks With No Patched Available
+                <a href="https://www.bleepingcomputer.com/news/security/github-pypi-add-time-absed-defenses-against-supply-chain-attacks/" target="_blank" rel="noopener noreferrer">
+                  BleepingComputer - GitHub, PyPI add time-based defenses against supply chain attacks
                 </a>
               </div>
             
@@ -524,306 +522,7 @@
           Priority Watchlist
         </div>
         
-          <div class="grid">
-            
-              <article class="card" style="--i: 0;">
-        <div class="meta">
-          <span class="chip risk-high">HIGH</span>
-          
-            <span class="chip label-chip">PATCH RELEASE</span>
-          
-            <span class="chip label-chip">LEGAL POLICY</span>
-          
-            <span class="chip label-chip">RESEARCH</span>
-          
-          <span class="chip chip-neutral">Execution</span>
-          <span class="chip chip-neutral">Confidence LOW</span>
-        </div>
-        
-          <h3><a href="https://thehackernews.com/2026/07/researcher-publishes-gitlab-rce-poc.html" target="_blank" rel="noopener noreferrer">Researcher Publishes GitLab RCE PoC Letting Authenticated Users Run Commands as Git</a></h3>
-        
-        <p class="hook">A newly published exploit for a GitLab vulnerability allows authenticated users to execute arbitrary commands, posing a significant risk to unpatched servers.</p>
-        <div class="support-grid">
-          <div class="text-block"><span class="label">Who should care:</span> DevOps teams and system administrators managing self-hosted GitLab instances should prioritize this issue.</div>
-          <div class="text-block"><span class="label">Attack path:</span> An attacker can leverage this vulnerability by committing a specially crafted Jupyter notebook to a project, which, when viewed, executes arbitrary commands on the server. This method requires only authenticated access to the repository.</div>
-        </div>
-        <div class="text-block"><span class="label">Why this matters now:</span> A live patch or vendor fix gives defenders something concrete to validate.</div>
-        <div class="text-block"><span class="label">In plain English:</span> A researcher has released proof-of-concept code for a GitLab vulnerability that lets users run commands on unpatched servers.</div>
-        
-          <div class="tags">
-            
-              <span>rce</span>
-            
-              <span>gitlab</span>
-            
-              <span>exploit</span>
-            
-          </div>
-        
-        <ul class="story-list">
-          
-            <li>On July 24, 2026, a security researcher published a proof-of-concept (PoC) exploit for a remote code execution (RCE) vulnerability in GitLab. This flaw affects self-managed GitLab servers running version 18.11.3 that have not been updated since a patch was released on June 10, 2026. The exploit allows any authenticated user with push access to execute commands as the 'git' user.</li>
-          
-            <li>If exploited, this vulnerability could allow unauthorized access and control over sensitive data and operations within affected GitLab instances. Organizations that have not applied the latest updates are at immediate risk of compromise, which could lead to data breaches or service disruptions. The ease of exploitation increases the urgency for affected teams to act.</li>
-          
-            <li>An attacker can leverage this vulnerability by committing a specially crafted Jupyter notebook to a project, which, when viewed, executes arbitrary commands on the server. This method requires only authenticated access to the repository.</li>
-          
-            <li>Watch next: Monitor for any unusual activity in GitLab repositories and ensure all servers are updated to the latest version.</li>
-          
-        </ul>
-
-        
-          <div class="glossary">
-            <div class="label">Key terms</div>
-            <ul class="list">
-            
-              <li>RCE - Remote Code Execution, a vulnerability that allows an attacker to run arbitrary commands on a server.</li>
-            
-              <li>PoC - Proof of Concept, a demonstration that a vulnerability can be exploited.</li>
-            
-            </ul>
-          </div>
-        
-
-        <div>
-          <div class="label">Defender focus</div>
-          <ul class="list">
-            
-            <li>Implement monitoring for unusual commit activity in GitLab repositories.</li>
-            
-            <li>Ensure all self-managed GitLab servers are updated to the latest version immediately.</li>
-            
-            <li>Review access controls for authenticated users to limit potential exploitation.</li>
-            
-          </ul>
-        </div>
-
-        <div>
-          <div class="label">Do now</div>
-          <ul class="list">
-            
-            <li>Update all self-managed GitLab servers to the latest version immediately.</li>
-            
-            <li>Audit user permissions for all authenticated users with push access.</li>
-            
-            <li>Monitor for any suspicious activity related to GitLab repositories.</li>
-            
-          </ul>
-        </div>
-
-        <div class="text-block"><span class="label">Watch next:</span> Monitor for any unusual activity in GitLab repositories and ensure all servers are updated to the latest version.</div>
-
-        <div class="sources">
-          <div class="label">Sources</div>
-          
-            
-              <div>
-                <a href="https://thehackernews.com/2026/07/researcher-publishes-gitlab-rce-poc.html" target="_blank" rel="noopener noreferrer">
-                  The Hacker News - Researcher Publishes GitLab RCE PoC Letting Authenticated Users Run Commands as Git
-                </a>
-              </div>
-            
-          
-        </div>
-      </article>
-            
-              <article class="card" style="--i: 1;">
-        <div class="meta">
-          <span class="chip risk-high">HIGH</span>
-          
-            <span class="chip label-chip">LEGAL POLICY</span>
-          
-            <span class="chip label-chip">RESEARCH</span>
-          
-          <span class="chip chip-neutral">Initial Access</span>
-          <span class="chip chip-neutral">Confidence LOW</span>
-        </div>
-        
-          <h3><a href="https://thehackernews.com/2026/07/cl0p-affiliates-target-internet-exposed.html" target="_blank" rel="noopener noreferrer">Cl0p Affiliates Target Internet-Exposed PTC Windchill and FlexPLM with Unauthenticated RCE</a></h3>
-        
-        <p class="hook">Cl0p affiliates are actively exploiting critical vulnerabilities in widely used PTC applications, posing a significant risk of data breaches and operational disruption.</p>
-        <div class="support-grid">
-          <div class="text-block"><span class="label">Who should care:</span> IT security teams managing PTC Windchill and FlexPLM deployments should prioritize this threat.</div>
-          <div class="text-block"><span class="label">Attack path:</span> Attackers gain leverage by exploiting publicly accessible vulnerabilities, allowing them to execute arbitrary code on affected systems.</div>
-        </div>
-        <div class="text-block"><span class="label">Why this matters now:</span> Useful context for teams tracking where attacker pressure is building.</div>
-        <div class="text-block"><span class="label">In plain English:</span> Cl0p ransomware affiliates are targeting PTC Windchill and FlexPLM systems exposed to the internet, leveraging serious security flaws.</div>
-        
-          <div class="tags">
-            
-              <span>ransomware</span>
-            
-              <span>cve</span>
-            
-              <span>cloud</span>
-            
-          </div>
-        
-        <ul class="story-list">
-          
-            <li>Threat actors associated with the Cl0p ransomware group are exploiting vulnerabilities in PTC Windchill and FlexPLM that are accessible over the internet. They are chaining a pre-authentication information disclosure vulnerability in FlexPLM with a server-side flaw in Windchill to execute remote code.</li>
-          
-            <li>The exploitation of these vulnerabilities can lead to unauthorized access to sensitive data and potential data extortion. Organizations using these applications should be particularly vigilant, as the consequences of a successful attack could include significant financial and reputational damage.</li>
-          
-            <li>Attackers gain leverage by exploiting publicly accessible vulnerabilities, allowing them to execute arbitrary code on affected systems.</li>
-          
-            <li>Watch next: Monitor for updates from PTC regarding patches or mitigations for these vulnerabilities.</li>
-          
-        </ul>
-
-        
-          <div class="glossary">
-            <div class="label">Key terms</div>
-            <ul class="list">
-            
-              <li>RCE - Remote Code Execution, a vulnerability that allows an attacker to run arbitrary code on a target system.</li>
-            
-              <li>WSDL - Web Services Description Language, a format for describing network services.</li>
-            
-            </ul>
-          </div>
-        
-
-        <div>
-          <div class="label">Defender focus</div>
-          <ul class="list">
-            
-            <li>Implement network segmentation to limit exposure of PTC applications to the internet.</li>
-            
-            <li>Deploy web application firewalls to detect and block exploitation attempts.</li>
-            
-            <li>Regularly review and apply security patches for PTC Windchill and FlexPLM.</li>
-            
-          </ul>
-        </div>
-
-        <div>
-          <div class="label">Do now</div>
-          <ul class="list">
-            
-            <li>Immediately assess the exposure of PTC Windchill and FlexPLM systems to the internet.</li>
-            
-            <li>Apply any available patches or mitigations from PTC as soon as possible.</li>
-            
-            <li>Enhance monitoring for unusual activity related to these applications.</li>
-            
-          </ul>
-        </div>
-
-        <div class="text-block"><span class="label">Watch next:</span> Monitor for updates from PTC regarding patches or mitigations for these vulnerabilities.</div>
-
-        <div class="sources">
-          <div class="label">Sources</div>
-          
-            
-              <div>
-                <a href="https://thehackernews.com/2026/07/cl0p-affiliates-target-internet-exposed.html" target="_blank" rel="noopener noreferrer">
-                  The Hacker News - Cl0p Affiliates Target Internet-Exposed PTC Windchill and FlexPLM with Unauthenticated RCE
-                </a>
-              </div>
-            
-          
-        </div>
-      </article>
-            
-              <article class="card" style="--i: 2;">
-        <div class="meta">
-          <span class="chip risk-medium">MEDIUM</span>
-          
-            <span class="chip label-chip">RESEARCH</span>
-          
-          <span class="chip chip-neutral">Credential Access</span>
-          <span class="chip chip-neutral">Confidence LOW</span>
-        </div>
-        
-          <h3><a href="https://thehackernews.com/2026/07/ctm360-research-reveals-how-insurance.html" target="_blank" rel="noopener noreferrer">CTM360 Research Reveals How Insurance Phishing Has Evolved Into Real-Time Account Hijacking</a></h3>
-        
-        <p class="hook">The shift from delayed account compromise to real-time hijacking in insurance phishing poses immediate risks to financial institutions and their customers.</p>
-        <div class="support-grid">
-          <div class="text-block"><span class="label">Who should care:</span> Financial institutions, particularly those offering insurance products, should be particularly vigilant.</div>
-          <div class="text-block"><span class="label">Attack path:</span> Attackers leverage real-time phishing techniques to gain immediate access to user accounts, bypassing traditional delays in credential exploitation.</div>
-        </div>
-        <div class="text-block"><span class="label">Why this matters now:</span> Useful context for teams tracking where attacker pressure is building.</div>
-        <div class="text-block"><span class="label">In plain English:</span> Insurance phishing has evolved to allow attackers to hijack accounts in real-time, increasing the urgency for financial institutions to enhance their defenses.</div>
-        
-          <div class="tags">
-            
-              <span>phishing</span>
-            
-              <span>insurance</span>
-            
-              <span>account hijacking</span>
-            
-          </div>
-        
-        <ul class="story-list">
-          
-            <li>Recent research by CTM360 highlights a significant evolution in phishing tactics targeting insurance companies. Instead of simply collecting credentials for later use, attackers are now executing real-time account hijacking during the phishing process.</li>
-          
-            <li>This change means that victims can lose access to their accounts almost immediately, leading to potential financial losses and reputational damage for institutions. Financial organizations must adapt quickly to these tactics to protect their customers and maintain trust.</li>
-          
-            <li>Attackers leverage real-time phishing techniques to gain immediate access to user accounts, bypassing traditional delays in credential exploitation.</li>
-          
-            <li>Watch next: Monitor for updates on phishing tactics and any new security measures implemented by financial institutions.</li>
-          
-        </ul>
-
-        
-          <div class="glossary">
-            <div class="label">Key terms</div>
-            <ul class="list">
-            
-              <li>Phishing - a fraudulent attempt to obtain sensitive information by disguising as a trustworthy entity.</li>
-            
-              <li>Account Hijacking - unauthorized access to a user's account, often resulting in theft or misuse of information.</li>
-            
-            </ul>
-          </div>
-        
-
-        <div>
-          <div class="label">Defender focus</div>
-          <ul class="list">
-            
-            <li>Implement real-time monitoring for unusual login attempts to detect potential hijacking.</li>
-            
-            <li>Enhance multi-factor authentication (MFA) to add an additional layer of security for user accounts.</li>
-            
-            <li>Conduct regular phishing simulation exercises to prepare staff for evolving phishing tactics.</li>
-            
-          </ul>
-        </div>
-
-        <div>
-          <div class="label">Do now</div>
-          <ul class="list">
-            
-            <li>Review and strengthen email filtering systems to reduce phishing attempts.</li>
-            
-            <li>Educate customers about the latest phishing tactics and how to recognize them.</li>
-            
-            <li>Implement and enforce multi-factor authentication across all user accounts.</li>
-            
-          </ul>
-        </div>
-
-        <div class="text-block"><span class="label">Watch next:</span> Monitor for updates on phishing tactics and any new security measures implemented by financial institutions.</div>
-
-        <div class="sources">
-          <div class="label">Sources</div>
-          
-            
-              <div>
-                <a href="https://thehackernews.com/2026/07/ctm360-research-reveals-how-insurance.html" target="_blank" rel="noopener noreferrer">
-                  The Hacker News - CTM360 Research Reveals How Insurance Phishing Has Evolved Into Real-Time Account Hijacking
-                </a>
-              </div>
-            
-          
-        </div>
-      </article>
-            
-          </div>
+          <p class="empty">No additional top stories.</p>
         
       </section>
 
@@ -833,203 +532,7 @@
           Wider Signal
         </div>
         
-          <div class="grid">
-            
-              <article class="card" style="--i: 0;">
-        <div class="meta">
-          <span class="chip risk-medium">MEDIUM</span>
-          
-            <span class="chip label-chip">INDUSTRY SIGNAL</span>
-          
-          <span class="chip chip-neutral">Unknown</span>
-          <span class="chip chip-neutral">Confidence LOW</span>
-        </div>
-        
-          <h3><a href="https://www.bleepingcomputer.com/news/security/shinyhunters-data-leaks-fuel-2-000-sextortion-email-scam/" target="_blank" rel="noopener noreferrer">ShinyHunters data leaks fuel $2,000 sextortion email scam</a></h3>
-        
-        <p class="hook">The ongoing sextortion scam leveraging ShinyHunters data breaches poses a significant risk to individuals and organizations, as attackers exploit sensitive information to extort money.</p>
-        <div class="support-grid">
-          <div class="text-block"><span class="label">Who should care:</span> IT security teams and individuals whose data may have been compromised in previous breaches should be particularly vigilant.</div>
-          <div class="text-block"><span class="label">Attack path:</span> Attackers gain leverage by using real email addresses and potentially sensitive information from previous breaches to create a sense of urgency and fear in their victims.</div>
-        </div>
-        <div class="text-block"><span class="label">Why this matters now:</span> Useful context for teams tracking where attacker pressure is building.</div>
-        <div class="text-block"><span class="label">In plain English:</span> Sextortion emails are being sent using leaked data from ShinyHunters, demanding $2,000 in Bitcoin.</div>
-        
-          <div class="tags">
-            
-              <span>extortion</span>
-            
-              <span>data breach</span>
-            
-              <span>email scam</span>
-            
-          </div>
-        
-        <ul class="story-list">
-          
-            <li>Threat actors are utilizing email addresses from data breaches associated with the ShinyHunters group to send sextortion emails. These emails threaten recipients with the release of compromising information unless a ransom of $2,000 in Bitcoin is paid.</li>
-          
-            <li>This scam not only targets individuals but can also damage the reputation of organizations if employees are targeted. The use of real data increases the likelihood of recipients taking the threats seriously, leading to potential financial losses.</li>
-          
-            <li>Attackers gain leverage by using real email addresses and potentially sensitive information from previous breaches to create a sense of urgency and fear in their victims.</li>
-          
-            <li>Watch next: Monitor for reports of increased sextortion attempts and any new data leaks from ShinyHunters or similar groups.</li>
-          
-        </ul>
-
-        
-          <div class="glossary">
-            <div class="label">Key terms</div>
-            <ul class="list">
-            
-              <li>Sextortion - a form of blackmail where the attacker threatens to release sensitive information unless a ransom is paid.</li>
-            
-              <li>ShinyHunters - a group known for leaking data from various online services, often for extortion purposes.</li>
-            
-            </ul>
-          </div>
-        
-
-        <div>
-          <div class="label">Defender focus</div>
-          <ul class="list">
-            
-            <li>Implement monitoring for phishing attempts related to sextortion.</li>
-            
-            <li>Alert users about the ongoing sextortion campaign and advise caution with unsolicited emails.</li>
-            
-            <li>Review and enhance data protection measures to prevent future breaches.</li>
-            
-          </ul>
-        </div>
-
-        <div>
-          <div class="label">Do now</div>
-          <ul class="list">
-            
-            <li>Increase awareness among employees about sextortion scams.</li>
-            
-            <li>Review security protocols for handling sensitive data.</li>
-            
-            <li>Prepare a response plan for potential sextortion threats.</li>
-            
-          </ul>
-        </div>
-
-        <div class="text-block"><span class="label">Watch next:</span> Monitor for reports of increased sextortion attempts and any new data leaks from ShinyHunters or similar groups.</div>
-
-        <div class="sources">
-          <div class="label">Sources</div>
-          
-            
-              <div>
-                <a href="https://www.bleepingcomputer.com/news/security/shinyhunters-data-leaks-fuel-2-000-sextortion-email-scam/" target="_blank" rel="noopener noreferrer">
-                  BleepingComputer - ShinyHunters data leaks fuel $2,000 sextortion email scam
-                </a>
-              </div>
-            
-          
-        </div>
-      </article>
-            
-              <article class="card" style="--i: 1;">
-        <div class="meta">
-          <span class="chip risk-medium">MEDIUM</span>
-          
-            <span class="chip label-chip">INDUSTRY SIGNAL</span>
-          
-          <span class="chip chip-neutral">Credential Access</span>
-          <span class="chip chip-neutral">Confidence LOW</span>
-        </div>
-        
-          <h3><a href="https://www.bleepingcomputer.com/news/security/chick-fil-a-data-breach-affects-more-than-13-000-customers/" target="_blank" rel="noopener noreferrer">Chick-fil-A data breach affects more than 13,000 customers</a></h3>
-        
-        <p class="hook">The recent data breach at Chick-fil-A exposes over 13,000 customers to potential identity theft and fraud, highlighting vulnerabilities in account security.</p>
-        <div class="support-grid">
-          <div class="text-block"><span class="label">Who should care:</span> Customer service and IT security teams at Chick-fil-A should prioritize this incident due to its impact on customer accounts.</div>
-          <div class="text-block"><span class="label">Attack path:</span> Attackers utilized credential stuffing techniques, leveraging previously stolen credentials to gain unauthorized access to customer accounts on Chick-fil-A's platforms.</div>
-        </div>
-        <div class="text-block"><span class="label">Why this matters now:</span> Useful context for teams tracking where attacker pressure is building.</div>
-        <div class="text-block"><span class="label">In plain English:</span> Chick-fil-A experienced a data breach affecting more than 13,000 customers due to credential stuffing attacks.</div>
-        
-          <div class="tags">
-            
-              <span>data breach</span>
-            
-              <span>credential stuffing</span>
-            
-              <span>customer security</span>
-            
-          </div>
-        
-        <ul class="story-list">
-          
-            <li>Chick-fil-A confirmed that between June 17 and June 19, over 13,000 customer accounts were compromised through credential stuffing attacks. These attacks exploit users' reused passwords across multiple sites, allowing unauthorized access to accounts.</li>
-          
-            <li>The breach raises concerns about the security of customer data and the potential for identity theft. Affected customers may face unauthorized transactions or misuse of their personal information, which can damage trust in the brand.</li>
-          
-            <li>Attackers utilized credential stuffing techniques, leveraging previously stolen credentials to gain unauthorized access to customer accounts on Chick-fil-A's platforms.</li>
-          
-            <li>Watch next: Monitor for any reports of unauthorized transactions or further security measures implemented by Chick-fil-A.</li>
-          
-        </ul>
-
-        
-          <div class="glossary">
-            <div class="label">Key terms</div>
-            <ul class="list">
-            
-              <li>Credential Stuffing - a type of cyber attack where stolen account credentials are used to gain unauthorized access to user accounts on different platforms.</li>
-            
-              <li>Data Breach - an incident where unauthorized individuals gain access to sensitive, protected, or confidential data.</li>
-            
-            </ul>
-          </div>
-        
-
-        <div>
-          <div class="label">Defender focus</div>
-          <ul class="list">
-            
-            <li>Implement monitoring for unusual login attempts on customer accounts.</li>
-            
-            <li>Review and enhance password policies to encourage unique passwords for accounts.</li>
-            
-            <li>Prepare to assist affected customers with account recovery and fraud prevention measures.</li>
-            
-          </ul>
-        </div>
-
-        <div>
-          <div class="label">Do now</div>
-          <ul class="list">
-            
-            <li>Notify affected customers about the breach and recommend password changes.</li>
-            
-            <li>Enhance security measures on the website and app to prevent future attacks.</li>
-            
-            <li>Conduct a review of current security protocols and implement necessary updates.</li>
-            
-          </ul>
-        </div>
-
-        <div class="text-block"><span class="label">Watch next:</span> Monitor for any reports of unauthorized transactions or further security measures implemented by Chick-fil-A.</div>
-
-        <div class="sources">
-          <div class="label">Sources</div>
-          
-            
-              <div>
-                <a href="https://www.bleepingcomputer.com/news/security/chick-fil-a-data-breach-affects-more-than-13-000-customers/" target="_blank" rel="noopener noreferrer">
-                  BleepingComputer - Chick-fil-A data breach affects more than 13,000 customers
-                </a>
-              </div>
-            
-          
-        </div>
-      </article>
-            
-          </div>
+          <p class="empty">No context stories today.</p>
         
       </section>
     </main>
@@ -1037,6 +540,8 @@
     <aside class="archive">
       <strong>Recent Issues</strong>
       <div class="archive-list">
+        
+        <a href="archive/2026-07-27.html">2026-07-27</a>
         
         <a href="archive/2026-07-26.html">2026-07-26</a>
         
@@ -1063,8 +568,6 @@
         <a href="archive/2026-07-15.html">2026-07-15</a>
         
         <a href="archive/2026-07-14.html">2026-07-14</a>
-        
-        <a href="archive/2026-07-13.html">2026-07-13</a>
         
       </div>
     </aside>
