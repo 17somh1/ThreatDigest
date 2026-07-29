@@ -1,5 +1,5 @@
 {
-  "last_run_utc": "2026-07-29T10:32:38.646648+00:00",
+  "last_run_utc": "2026-07-29T14:25:42.302873+00:00",
   "processed_urls": [
     "https://www.bleepingcomputer.com/news/security/critical-cisco-sd-wan-bug-exploited-in-zero-day-attacks-since-2023/",
     "https://www.cisa.gov/news-events/alerts/2026/02/25/cisa-and-partners-release-guidance-ongoing-global-exploitation-cisco-sd-wan-systems",
@@ -1012,6 +1012,7 @@
     "https://www.bleepingcomputer.com/news/security/openai-models-used-artifactory-zero-days-to-escape-to-the-internet/",
     "https://thehackernews.com/2026/07/new-gitea-rce-lets-repository-writers.html",
     "https://thehackernews.com/2026/07/openai-agent-used-exposed-credentials.html",
-    "https://thehackernews.com/2026/07/tengu-botnet-reboots-compromised-linux.html"
+    "https://thehackernews.com/2026/07/tengu-botnet-reboots-compromised-linux.html",
+    "https://thehackernews.com/2026/07/researchers-show-single-malicious.html"
   ]
 }
