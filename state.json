@@ -1,5 +1,5 @@
 {
-  "last_run_utc": "2026-07-31T10:31:12.600471+00:00",
+  "last_run_utc": "2026-07-31T14:26:17.158067+00:00",
   "processed_urls": [
     "https://www.bleepingcomputer.com/news/security/critical-cisco-sd-wan-bug-exploited-in-zero-day-attacks-since-2023/",
     "https://www.cisa.gov/news-events/alerts/2026/02/25/cisa-and-partners-release-guidance-ongoing-global-exploitation-cisco-sd-wan-systems",
@@ -1028,6 +1028,7 @@
     "https://www.bleepingcomputer.com/news/google/google-says-ai-helped-chrome-fix-1-072-security-bugs-in-two-releases/",
     "https://www.bleepingcomputer.com/news/security/microsoft-teams-vishing-attacks-lead-to-chaos-ransomware-attacks/",
     "https://thehackernews.com/2026/07/threatsday-ai-powered-hacking-370.html",
-    "https://thehackernews.com/2026/07/azure-cosmos-db-flaw-exposed-platform.html"
+    "https://thehackernews.com/2026/07/azure-cosmos-db-flaw-exposed-platform.html",
+    "https://thehackernews.com/2026/07/6-reasons-why-device-code-phishing-is.html"
   ]
 }
