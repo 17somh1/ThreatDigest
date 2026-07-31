@@ -1,5 +1,5 @@
 {
-  "last_run_utc": "2026-07-30T14:25:37.266258+00:00",
+  "last_run_utc": "2026-07-31T10:31:12.600471+00:00",
   "processed_urls": [
     "https://www.bleepingcomputer.com/news/security/critical-cisco-sd-wan-bug-exploited-in-zero-day-attacks-since-2023/",
     "https://www.cisa.gov/news-events/alerts/2026/02/25/cisa-and-partners-release-guidance-ongoing-global-exploitation-cisco-sd-wan-systems",
@@ -1021,6 +1021,13 @@
     "https://thehackernews.com/2026/07/three-critical-vmware-flaws-allow-auth.html",
     "https://thehackernews.com/2026/07/ruflo-mcp-flaw-lets-unauthenticated.html",
     "https://thehackernews.com/2026/07/russian-hackers-exploit-microsoft-owa.html",
-    "https://www.bleepingcomputer.com/news/security/russian-hackers-exploit-exchange-owa-zero-day-for-long-term-mailbox-access/"
+    "https://www.bleepingcomputer.com/news/security/russian-hackers-exploit-exchange-owa-zero-day-for-long-term-mailbox-access/",
+    "https://www.bleepingcomputer.com/news/security/anthropics-claude-breached-3-orgs-uploaded-pypi-malware-during-tests/",
+    "https://www.bleepingcomputer.com/news/security/jetbrains-warns-of-critical-teamcity-remote-code-execution-flaw/",
+    "https://www.bleepingcomputer.com/news/security/amazon-links-debug-chalk-npm-supply-chain-attacks-to-north-korean-hackers/",
+    "https://www.bleepingcomputer.com/news/google/google-says-ai-helped-chrome-fix-1-072-security-bugs-in-two-releases/",
+    "https://www.bleepingcomputer.com/news/security/microsoft-teams-vishing-attacks-lead-to-chaos-ransomware-attacks/",
+    "https://thehackernews.com/2026/07/threatsday-ai-powered-hacking-370.html",
+    "https://thehackernews.com/2026/07/azure-cosmos-db-flaw-exposed-platform.html"
   ]
 }
