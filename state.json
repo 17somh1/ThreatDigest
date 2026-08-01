@@ -1,5 +1,5 @@
 {
-  "last_run_utc": "2026-07-31T14:26:17.158067+00:00",
+  "last_run_utc": "2026-08-01T09:52:11.438491+00:00",
   "processed_urls": [
     "https://www.bleepingcomputer.com/news/security/critical-cisco-sd-wan-bug-exploited-in-zero-day-attacks-since-2023/",
     "https://www.cisa.gov/news-events/alerts/2026/02/25/cisa-and-partners-release-guidance-ongoing-global-exploitation-cisco-sd-wan-systems",
@@ -1029,6 +1029,11 @@
     "https://www.bleepingcomputer.com/news/security/microsoft-teams-vishing-attacks-lead-to-chaos-ransomware-attacks/",
     "https://thehackernews.com/2026/07/threatsday-ai-powered-hacking-370.html",
     "https://thehackernews.com/2026/07/azure-cosmos-db-flaw-exposed-platform.html",
-    "https://thehackernews.com/2026/07/6-reasons-why-device-code-phishing-is.html"
+    "https://thehackernews.com/2026/07/6-reasons-why-device-code-phishing-is.html",
+    "https://thehackernews.com/2026/08/adobe-campaign-classic-cvss-100-flaw.html",
+    "https://www.bleepingcomputer.com/news/security/eset-tracks-rise-in-malicious-ai-skills-and-adaptable-malware/",
+    "https://thehackernews.com/2026/07/hollowframe-loader-deploys-matryoshka.html",
+    "https://thehackernews.com/2026/07/three-recent-chrome-releases-fix-1442.html",
+    "https://thehackernews.com/2026/07/researchers-report-84-flaws-in-4g-and.html"
   ]
 }
