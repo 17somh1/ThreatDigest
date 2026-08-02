@@ -378,8 +378,8 @@
         The security news worth your attention, with context and practical takeaways.
       </p>
       <div class="meta-bar">
-        <span>Updated: 2026-08-02 09:50 UTC</span>
-        <span>Stories: 1</span>
+        <span>Updated: 2026-08-02 13:44 UTC</span>
+        <span>Stories: 4</span>
         <span>Recent issues: 14</span>
       </div>
     </header>
@@ -389,7 +389,7 @@
         <section class="one-liner">
           <h2>What Matters Today</h2>
           
-            <p class="text-block">A critical vulnerability in Rails' Active Storage presents an urgent risk of remote code execution, demanding immediate attention from developers and security teams.</p>
+            <p class="text-block">Critical vulnerabilities in widely used frameworks like Active Storage and Adobe Campaign Classic expose organizations to severe risks, while the rise of malicious AI skills and targeted spear-phishing attacks highlight evolving threats that demand immediate attention.</p>
           
         </section>
 
@@ -398,11 +398,11 @@
           
             <ul>
               
-              <li>Attackers are increasingly targeting widely-used frameworks to exploit vulnerabilities for remote code execution.</li>
+              <li>High-severity vulnerabilities in popular frameworks increase the urgency for patching and validation efforts among development teams.</li>
               
-              <li>Defenders face heightened pressure to apply patches quickly to mitigate risks in production environments.</li>
+              <li>Attackers are leveraging advanced techniques, including AI, to bypass traditional defenses, raising the stakes for security teams.</li>
               
-              <li>Development teams must prioritize security updates to maintain application integrity and prevent potential breaches.</li>
+              <li>Targeted spear-phishing campaigns against specific sectors, like law firms, indicate a shift towards more sophisticated and tailored attack strategies.</li>
               
             </ul>
           
@@ -430,13 +430,13 @@
         
           <h3><a href="https://www.bleepingcomputer.com/news/security/rails-patches-critical-active-storage-flaw-with-rce-potential/" target="_blank" rel="noopener noreferrer">Rails patches critical Active Storage flaw with RCE potential</a></h3>
         
-        <p class="hook">A critical vulnerability in Rails' Active Storage could allow attackers to execute arbitrary code, posing an immediate threat to web applications relying on this framework.</p>
+        <p class="hook">A critical vulnerability in the Active Storage framework could allow attackers to execute arbitrary code, posing severe risks to Rails applications now.</p>
         <div class="support-grid">
-          <div class="text-block"><span class="label">Who should care:</span> Development and security teams managing Ruby on Rails applications should be particularly vigilant.</div>
-          <div class="text-block"><span class="label">Attack path:</span> An attacker could leverage this vulnerability to access sensitive files within the application, potentially leading to RCE if they can manipulate the application environment.</div>
+          <div class="text-block"><span class="label">Who should care:</span> Development and security teams managing Ruby on Rails applications with Active Storage.</div>
+          <div class="text-block"><span class="label">Attack path:</span> An attacker can leverage this vulnerability to read sensitive files and potentially execute malicious code on the server. This could lead to full system compromise if not addressed promptly.</div>
         </div>
         <div class="text-block"><span class="label">Why this matters now:</span> A live patch or vendor fix gives defenders something concrete to validate.</div>
-        <div class="text-block"><span class="label">In plain English:</span> Rails has patched a serious flaw that could let attackers read files and potentially run malicious code.</div>
+        <div class="text-block"><span class="label">In plain English:</span> Rails applications using Active Storage are at risk of remote code execution due to a newly discovered vulnerability.</div>
         
           <div class="tags">
             
@@ -450,13 +450,13 @@
         
         <ul class="story-list">
           
-            <li>A critical vulnerability was discovered in the Active Storage framework of Ruby on Rails, which allows unauthenticated attackers to read arbitrary files. This flaw has the potential to escalate to remote code execution (RCE), enabling attackers to execute malicious code on affected systems.</li>
+            <li>A critical flaw was identified in the Active Storage framework of Ruby on Rails, enabling unauthenticated attackers to read arbitrary files. This vulnerability has the potential to escalate to remote code execution (RCE), which could compromise the entire application.</li>
           
-            <li>If exploited, this vulnerability could lead to severe data breaches or system compromises, affecting the integrity and availability of web applications. Organizations using Rails should prioritize applying the patch to mitigate the risk of exploitation.</li>
+            <li>If exploited, this vulnerability could allow attackers to gain control over Rails applications, leading to data breaches or service disruptions. Organizations using Rails should prioritize patching to mitigate the risk of exploitation.</li>
           
-            <li>An attacker could leverage this vulnerability to access sensitive files within the application, potentially leading to RCE if they can manipulate the application environment.</li>
+            <li>An attacker can leverage this vulnerability to read sensitive files and potentially execute malicious code on the server. This could lead to full system compromise if not addressed promptly.</li>
           
-            <li>Watch next: Monitor for updates from Rails regarding any further vulnerabilities or patches related to Active Storage.</li>
+            <li>Watch next: Monitor for updates from Rails regarding patches and any reported exploitation attempts.</li>
           
         </ul>
 
@@ -477,11 +477,11 @@
           <div class="label">Defender focus</div>
           <ul class="list">
             
-            <li>Ensure all Rails applications are updated with the latest patches immediately.</li>
+            <li>Implement monitoring for unusual file access patterns in Rails applications.</li>
             
-            <li>Review application logs for any unauthorized access attempts related to file reading.</li>
+            <li>Ensure that all Rails applications are updated to the latest version with the security patch.</li>
             
-            <li>Implement file access controls to limit exposure of sensitive files.</li>
+            <li>Review application logs for any signs of exploitation attempts related to Active Storage.</li>
             
           </ul>
         </div>
@@ -490,16 +490,16 @@
           <div class="label">Do now</div>
           <ul class="list">
             
-            <li>Apply the latest Rails patch to all affected applications.</li>
+            <li>Patch all affected Rails applications immediately.</li>
             
-            <li>Conduct a security review of file access permissions in your Rails applications.</li>
+            <li>Conduct a security audit to identify any potential exposure.</li>
             
-            <li>Educate development teams on secure coding practices to prevent similar vulnerabilities.</li>
+            <li>Educate development teams on secure coding practices related to file handling.</li>
             
           </ul>
         </div>
 
-        <div class="text-block"><span class="label">Watch next:</span> Monitor for updates from Rails regarding any further vulnerabilities or patches related to Active Storage.</div>
+        <div class="text-block"><span class="label">Watch next:</span> Monitor for updates from Rails regarding patches and any reported exploitation attempts.</div>
 
         <div class="sources">
           <div class="label">Sources</div>
@@ -524,7 +524,304 @@
           Priority Watchlist
         </div>
         
-          <p class="empty">No additional top stories.</p>
+          <div class="grid">
+            
+              <article class="card" style="--i: 0;">
+        <div class="meta">
+          <span class="chip risk-high">HIGH</span>
+          
+            <span class="chip label-chip">PATCH RELEASE</span>
+          
+            <span class="chip label-chip">LEGAL POLICY</span>
+          
+          <span class="chip chip-neutral">Execution</span>
+          <span class="chip chip-neutral">Confidence LOW</span>
+        </div>
+        
+          <h3><a href="https://thehackernews.com/2026/08/adobe-campaign-classic-cvss-100-flaw.html" target="_blank" rel="noopener noreferrer">Adobe Campaign Classic CVSS 10.0 Flaw Could Run Code Without User Interaction</a></h3>
+        
+        <p class="hook">The critical CVE-2026-48449 vulnerability in Adobe Campaign Classic could allow attackers to execute arbitrary code without user interaction, posing a significant threat to enterprise environments.</p>
+        <div class="support-grid">
+          <div class="text-block"><span class="label">Who should care:</span> IT security teams managing Adobe Campaign Classic and any organizations using this platform should be particularly vigilant.</div>
+          <div class="text-block"><span class="label">Attack path:</span> An attacker could exploit this vulnerability to run malicious code on the server without any user interaction, gaining control over the affected systems.</div>
+        </div>
+        <div class="text-block"><span class="label">Why this matters now:</span> A live patch or vendor fix gives defenders something concrete to validate.</div>
+        <div class="text-block"><span class="label">In plain English:</span> Adobe Campaign Classic has a severe vulnerability that needs immediate attention to prevent potential exploitation.</div>
+        
+          <div class="tags">
+            
+              <span>cve</span>
+            
+              <span>adobe</span>
+            
+              <span>security</span>
+            
+          </div>
+        
+        <ul class="story-list">
+          
+            <li>Adobe released security updates for a critical vulnerability in Campaign Classic, tracked as CVE-2026-48449, which has a CVSS score of 10.0. This flaw allows for arbitrary code execution due to incorrect authorization mechanisms.</li>
+          
+            <li>If exploited, this vulnerability could lead to unauthorized access and control over affected systems, potentially compromising sensitive data and disrupting business operations. Organizations using Adobe Campaign Classic must prioritize patching to mitigate this risk.</li>
+          
+            <li>An attacker could exploit this vulnerability to run malicious code on the server without any user interaction, gaining control over the affected systems.</li>
+          
+            <li>Watch next: Monitor for updates from Adobe regarding the effectiveness of the patches and any reported exploitation attempts.</li>
+          
+        </ul>
+
+        
+          <div class="glossary">
+            <div class="label">Key terms</div>
+            <ul class="list">
+            
+              <li>CVE - Common Vulnerabilities and Exposures, a list of publicly disclosed cybersecurity vulnerabilities.</li>
+            
+              <li>CVSS - Common Vulnerability Scoring System, a standard for assessing the severity of security vulnerabilities.</li>
+            
+            </ul>
+          </div>
+        
+
+        <div>
+          <div class="label">Defender focus</div>
+          <ul class="list">
+            
+            <li>Verify that the latest security updates for Adobe Campaign Classic are applied across all instances.</li>
+            
+            <li>Monitor logs for any unusual activity that may indicate exploitation attempts.</li>
+            
+            <li>Conduct a risk assessment to identify and prioritize systems that may be vulnerable.</li>
+            
+          </ul>
+        </div>
+
+        <div>
+          <div class="label">Do now</div>
+          <ul class="list">
+            
+            <li>Immediately apply the security updates released by Adobe.</li>
+            
+            <li>Review and enhance monitoring for any signs of exploitation.</li>
+            
+            <li>Prepare an incident response plan in case of a successful attack.</li>
+            
+          </ul>
+        </div>
+
+        <div class="text-block"><span class="label">Watch next:</span> Monitor for updates from Adobe regarding the effectiveness of the patches and any reported exploitation attempts.</div>
+
+        <div class="sources">
+          <div class="label">Sources</div>
+          
+            
+              <div>
+                <a href="https://thehackernews.com/2026/08/adobe-campaign-classic-cvss-100-flaw.html" target="_blank" rel="noopener noreferrer">
+                  The Hacker News - Adobe Campaign Classic CVSS 10.0 Flaw Could Run Code Without User Interaction
+                </a>
+              </div>
+            
+          
+        </div>
+      </article>
+            
+              <article class="card" style="--i: 1;">
+        <div class="meta">
+          <span class="chip risk-medium">MEDIUM</span>
+          
+            <span class="chip label-chip">INDUSTRY SIGNAL</span>
+          
+          <span class="chip chip-neutral">Execution</span>
+          <span class="chip chip-neutral">Confidence LOW</span>
+        </div>
+        
+          <h3><a href="https://www.bleepingcomputer.com/news/security/eset-tracks-rise-in-malicious-ai-skills-and-adaptable-malware/" target="_blank" rel="noopener noreferrer">ESET tracks rise in malicious AI skills and adaptable malware</a></h3>
+        
+        <p class="hook">The rise of malicious AI skills poses a significant threat to organizations as attackers leverage advanced techniques to bypass traditional defenses.</p>
+        <div class="support-grid">
+          <div class="text-block"><span class="label">Who should care:</span> Security teams, incident response teams, and organizations using AI technologies should be particularly vigilant.</div>
+          <div class="text-block"><span class="label">Attack path:</span> Attackers can leverage AI to create more sophisticated malware that can adapt to security measures, making it easier to bypass defenses. This could manifest as malware that learns from its environment and modifies its behavior to evade detection.</div>
+        </div>
+        <div class="text-block"><span class="label">Why this matters now:</span> Useful context for teams tracking where attacker pressure is building.</div>
+        <div class="text-block"><span class="label">In plain English:</span> Attackers are increasingly using AI to enhance their malware and exploit user behavior, which could lead to more effective attacks.</div>
+        
+          <div class="tags">
+            
+              <span>malware</span>
+            
+              <span>ai</span>
+            
+              <span>ransomware</span>
+            
+          </div>
+        
+        <ul class="story-list">
+          
+            <li>ESET's latest threat report highlights a surge in malicious AI skills and adaptable malware. This includes AI-assisted malware, ClickFix attacks, and ransomware tools specifically designed to disable security software. The report indicates that attackers are evolving their methods to exploit new technologies and user behaviors.</li>
+          
+            <li>The integration of AI into malware makes it more adaptable and harder to detect, increasing the potential for successful attacks. Organizations may face greater risks of data breaches, financial loss, and operational disruptions as these advanced techniques become more prevalent.</li>
+          
+            <li>Attackers can leverage AI to create more sophisticated malware that can adapt to security measures, making it easier to bypass defenses. This could manifest as malware that learns from its environment and modifies its behavior to evade detection.</li>
+          
+            <li>Watch next: Monitor for updates from ESET and other cybersecurity firms regarding emerging threats and new attack vectors involving AI.</li>
+          
+        </ul>
+
+        
+          <div class="glossary">
+            <div class="label">Key terms</div>
+            <ul class="list">
+            
+              <li>AI-assisted malware - malware that uses artificial intelligence to enhance its capabilities and effectiveness.</li>
+            
+              <li>ClickFix attacks - a type of attack that exploits user interactions with web applications to execute malicious actions.</li>
+            
+            </ul>
+          </div>
+        
+
+        <div>
+          <div class="label">Defender focus</div>
+          <ul class="list">
+            
+            <li>Implement advanced threat detection systems that can identify AI-driven anomalies.</li>
+            
+            <li>Regularly update and patch security software to mitigate vulnerabilities that AI malware may exploit.</li>
+            
+            <li>Conduct threat hunting exercises focused on AI-related attack patterns.</li>
+            
+          </ul>
+        </div>
+
+        <div>
+          <div class="label">Do now</div>
+          <ul class="list">
+            
+            <li>Review and enhance security protocols to address AI-related threats.</li>
+            
+            <li>Train staff on recognizing signs of AI-assisted attacks.</li>
+            
+            <li>Stay informed about the latest developments in AI security threats.</li>
+            
+          </ul>
+        </div>
+
+        <div class="text-block"><span class="label">Watch next:</span> Monitor for updates from ESET and other cybersecurity firms regarding emerging threats and new attack vectors involving AI.</div>
+
+        <div class="sources">
+          <div class="label">Sources</div>
+          
+            
+              <div>
+                <a href="https://www.bleepingcomputer.com/news/security/eset-tracks-rise-in-malicious-ai-skills-and-adaptable-malware/" target="_blank" rel="noopener noreferrer">
+                  BleepingComputer - ESET tracks rise in malicious AI skills and adaptable malware
+                </a>
+              </div>
+            
+          
+        </div>
+      </article>
+            
+              <article class="card" style="--i: 2;">
+        <div class="meta">
+          <span class="chip risk-high">HIGH</span>
+          
+            <span class="chip label-chip">LEGAL POLICY</span>
+          
+            <span class="chip label-chip">RESEARCH</span>
+          
+          <span class="chip chip-neutral">Initial Access</span>
+          <span class="chip chip-neutral">Confidence LOW</span>
+        </div>
+        
+          <h3><a href="https://thehackernews.com/2026/07/hollowframe-loader-deploys-matryoshka.html" target="_blank" rel="noopener noreferrer">HollowFrame Loader Deploys Matryoshka Backdoor in Spear-Phishing Attack on Law Firm</a></h3>
+        
+        <p class="hook">Law firms are at immediate risk from a sophisticated spear-phishing attack that can lead to significant data breaches.</p>
+        <div class="support-grid">
+          <div class="text-block"><span class="label">Who should care:</span> Legal teams and IT security personnel in law firms should be particularly vigilant.</div>
+          <div class="text-block"><span class="label">Attack path:</span> Attackers gain leverage by tricking users into executing malicious files disguised as legitimate documents, allowing them to install backdoors for ongoing access.</div>
+        </div>
+        <div class="text-block"><span class="label">Why this matters now:</span> Useful context for teams tracking where attacker pressure is building.</div>
+        <div class="text-block"><span class="label">In plain English:</span> A new malware loader is being used to target law firms through spear-phishing.</div>
+        
+          <div class="tags">
+            
+              <span>malware</span>
+            
+              <span>spear phishing</span>
+            
+              <span>law_firm</span>
+            
+          </div>
+        
+        <ul class="story-list">
+          
+            <li>Researchers have identified a new Go-based loader called HollowFrame that deploys a Rust-based malware known as Matryoshka. The attack begins with a spear-phishing email containing a link to an encrypted archive, which, when executed, triggers a multi-stage malware installation process.</li>
+          
+            <li>This attack method can lead to unauthorized access to sensitive legal documents and client data, potentially resulting in severe reputational and financial damage for affected firms. The use of sophisticated techniques like encrypted archives and multi-stage payloads indicates a high level of planning and capability from the attackers.</li>
+          
+            <li>Attackers gain leverage by tricking users into executing malicious files disguised as legitimate documents, allowing them to install backdoors for ongoing access.</li>
+          
+            <li>Watch next: Monitor for any updates from cybersecurity vendors regarding new detection methods or patches related to this malware.</li>
+          
+        </ul>
+
+        
+          <div class="glossary">
+            <div class="label">Key terms</div>
+            <ul class="list">
+            
+              <li>Spear-phishing - a targeted attempt to steal sensitive information from a specific individual or organization, often through deceptive emails.</li>
+            
+              <li>Backdoor - a method of bypassing normal authentication to access a system, often used by attackers to maintain access.</li>
+            
+            </ul>
+          </div>
+        
+
+        <div>
+          <div class="label">Defender focus</div>
+          <ul class="list">
+            
+            <li>Implement email filtering to block potential spear-phishing messages.</li>
+            
+            <li>Conduct a review of recent email logs for suspicious activity related to this attack.</li>
+            
+            <li>Ensure endpoint protection solutions are updated to detect and respond to the identified malware.</li>
+            
+          </ul>
+        </div>
+
+        <div>
+          <div class="label">Do now</div>
+          <ul class="list">
+            
+            <li>Enhance email security protocols to prevent spear-phishing attempts.</li>
+            
+            <li>Train staff on recognizing suspicious emails and attachments.</li>
+            
+            <li>Regularly update and patch systems to protect against known vulnerabilities.</li>
+            
+          </ul>
+        </div>
+
+        <div class="text-block"><span class="label">Watch next:</span> Monitor for any updates from cybersecurity vendors regarding new detection methods or patches related to this malware.</div>
+
+        <div class="sources">
+          <div class="label">Sources</div>
+          
+            
+              <div>
+                <a href="https://thehackernews.com/2026/07/hollowframe-loader-deploys-matryoshka.html" target="_blank" rel="noopener noreferrer">
+                  The Hacker News - HollowFrame Loader Deploys Matryoshka Backdoor in Spear-Phishing Attack on Law Firm
+                </a>
+              </div>
+            
+          
+        </div>
+      </article>
+            
+          </div>
         
       </section>
 
