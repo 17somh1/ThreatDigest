@@ -1,5 +1,5 @@
 {
-  "last_run_utc": "2026-08-01T13:45:47.918566+00:00",
+  "last_run_utc": "2026-08-02T09:50:11.255902+00:00",
   "processed_urls": [
     "https://www.bleepingcomputer.com/news/security/critical-cisco-sd-wan-bug-exploited-in-zero-day-attacks-since-2023/",
     "https://www.cisa.gov/news-events/alerts/2026/02/25/cisa-and-partners-release-guidance-ongoing-global-exploitation-cisco-sd-wan-systems",
@@ -1034,6 +1034,7 @@
     "https://www.bleepingcomputer.com/news/security/eset-tracks-rise-in-malicious-ai-skills-and-adaptable-malware/",
     "https://thehackernews.com/2026/07/hollowframe-loader-deploys-matryoshka.html",
     "https://thehackernews.com/2026/07/three-recent-chrome-releases-fix-1442.html",
-    "https://thehackernews.com/2026/07/researchers-report-84-flaws-in-4g-and.html"
+    "https://thehackernews.com/2026/07/researchers-report-84-flaws-in-4g-and.html",
+    "https://www.bleepingcomputer.com/news/security/rails-patches-critical-active-storage-flaw-with-rce-potential/"
   ]
 }
