@@ -1,5 +1,5 @@
 {
-  "last_run_utc": "2026-08-02T13:44:38.255199+00:00",
+  "last_run_utc": "2026-08-03T11:15:07.084253+00:00",
   "processed_urls": [
     "https://www.bleepingcomputer.com/news/security/critical-cisco-sd-wan-bug-exploited-in-zero-day-attacks-since-2023/",
     "https://www.cisa.gov/news-events/alerts/2026/02/25/cisa-and-partners-release-guidance-ongoing-global-exploitation-cisco-sd-wan-systems",
@@ -1035,6 +1035,9 @@
     "https://thehackernews.com/2026/07/hollowframe-loader-deploys-matryoshka.html",
     "https://thehackernews.com/2026/07/three-recent-chrome-releases-fix-1442.html",
     "https://thehackernews.com/2026/07/researchers-report-84-flaws-in-4g-and.html",
-    "https://www.bleepingcomputer.com/news/security/rails-patches-critical-active-storage-flaw-with-rce-potential/"
+    "https://www.bleepingcomputer.com/news/security/rails-patches-critical-active-storage-flaw-with-rce-potential/",
+    "https://thehackernews.com/2026/08/thermo-fisher-patches-flaw-that-could.html",
+    "https://thehackernews.com/2026/08/n-able-says-attackers-take-over-n.html",
+    "https://thehackernews.com/2026/08/hugging-face-diffusers-flaws-could-let.html"
   ]
 }
