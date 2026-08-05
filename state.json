@@ -1,5 +1,5 @@
 {
-  "last_run_utc": "2026-08-04T14:33:45.272156+00:00",
+  "last_run_utc": "2026-08-05T10:28:36.116066+00:00",
   "processed_urls": [
     "https://www.bleepingcomputer.com/news/security/critical-cisco-sd-wan-bug-exploited-in-zero-day-attacks-since-2023/",
     "https://www.cisa.gov/news-events/alerts/2026/02/25/cisa-and-partners-release-guidance-ongoing-global-exploitation-cisco-sd-wan-systems",
@@ -1044,6 +1044,11 @@
     "https://thehackernews.com/2026/08/inc-ransomware-emerges-as-dominant.html",
     "https://thehackernews.com/2026/08/18-malicious-npm-packages-deliver-cross.html",
     "https://thehackernews.com/2026/08/new-cpanel-critical-flaw-could-let.html",
-    "https://thehackernews.com/2026/08/keyv-linked-npm-worm-poisons-hundreds.html"
+    "https://thehackernews.com/2026/08/keyv-linked-npm-worm-poisons-hundreds.html",
+    "https://thehackernews.com/2026/08/cisa-flags-langflow-rce-tomcat-and-n.html",
+    "https://www.bleepingcomputer.com/news/security/phishing-service-spoofs-ringcentral-to-steal-microsoft-365-accounts/",
+    "https://thehackernews.com/2026/08/greatness-phaas-adds-device-code.html",
+    "https://www.bleepingcomputer.com/news/security/tp-link-patches-omada-ztp-flaws-allowing-hackers-to-breach-networks/",
+    "https://thehackernews.com/2026/08/quickfox-supply-chain-attack-delivers.html"
   ]
 }
