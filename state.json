@@ -1,5 +1,5 @@
 {
-  "last_run_utc": "2026-08-06T10:32:28.662583+00:00",
+  "last_run_utc": "2026-08-06T14:29:30.656555+00:00",
   "processed_urls": [
     "https://www.bleepingcomputer.com/news/security/critical-cisco-sd-wan-bug-exploited-in-zero-day-attacks-since-2023/",
     "https://www.cisa.gov/news-events/alerts/2026/02/25/cisa-and-partners-release-guidance-ongoing-global-exploitation-cisco-sd-wan-systems",
@@ -1061,6 +1061,7 @@
     "https://www.bleepingcomputer.com/news/security/ransom-cartel-ransomware-creator-sentenced-to-16-years-in-prison/",
     "https://www.bleepingcomputer.com/news/security/hackers-run-khunt-post-exploitation-toolkit-from-oracle-database/",
     "https://www.bleepingcomputer.com/news/security/coldcard-security-audit-phishing-attack-installs-remote-access-tool/",
-    "https://thehackernews.com/2026/08/ransom-cartel-creator-gets-16-years-in.html"
+    "https://thehackernews.com/2026/08/ransom-cartel-creator-gets-16-years-in.html",
+    "https://thehackernews.com/2026/08/ai-recommendation-poisoning-how-ask-ai.html"
   ]
 }
