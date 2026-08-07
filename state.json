@@ -1,5 +1,5 @@
 {
-  "last_run_utc": "2026-08-07T08:50:13.353305+00:00",
+  "last_run_utc": "2026-08-07T13:20:33.578187+00:00",
   "processed_urls": [
     "https://www.bleepingcomputer.com/news/security/critical-cisco-sd-wan-bug-exploited-in-zero-day-attacks-since-2023/",
     "https://www.cisa.gov/news-events/alerts/2026/02/25/cisa-and-partners-release-guidance-ongoing-global-exploitation-cisco-sd-wan-systems",
@@ -1067,6 +1067,8 @@
     "https://www.bleepingcomputer.com/news/security/swiss-government-sharepoint-breach-compromised-200-accounts/",
     "https://thehackernews.com/2026/08/teampcp-linked-to-redis-attacks-dating.html",
     "https://thehackernews.com/2026/08/new-zapscape-kvm-flaw-could-let.html",
-    "https://thehackernews.com/2026/08/cisco-patches-12-sd-wan-and-ios-xe.html"
+    "https://thehackernews.com/2026/08/cisco-patches-12-sd-wan-and-ios-xe.html",
+    "https://thehackernews.com/2026/08/ai-assisted-http-terminator-finds-novel.html",
+    "https://thehackernews.com/2026/08/microsoft-365-aitm-phishing-hijacks.html"
   ]
 }

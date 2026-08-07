@@ -378,8 +378,8 @@
         The security news worth your attention, with context and practical takeaways.
       </p>
       <div class="meta-bar">
-        <span>Updated: 2026-08-07 08:50 UTC</span>
-        <span>Stories: 5</span>
+        <span>Updated: 2026-08-07 13:20 UTC</span>
+        <span>Stories: 2</span>
         <span>Recent issues: 14</span>
       </div>
     </header>
@@ -389,7 +389,7 @@
         <section class="one-liner">
           <h2>What Matters Today</h2>
           
-            <p class="text-block">Today's threat landscape reveals a surge in targeted attacks on macOS users and critical infrastructure vulnerabilities, necessitating heightened vigilance from security teams.</p>
+            <p class="text-block">Newly identified HTTP desynchronization techniques and a critical Apache vulnerability, alongside a widespread Microsoft 365 phishing campaign, are escalating risks for web applications and financial data security.</p>
           
         </section>
 
@@ -398,11 +398,11 @@
           
             <ul>
               
-              <li>Increased targeting of macOS users for cryptocurrency theft indicates a shift in attacker focus towards high-value digital assets.</li>
+              <li>Increased attacker focus on exploiting web application vulnerabilities, indicating a shift towards more sophisticated techniques.</li>
               
-              <li>The breach of Swiss government accounts underscores systemic vulnerabilities in critical infrastructure, raising alarms about data integrity and national security.</li>
+              <li>Heightened phishing activity targeting Microsoft 365 users suggests a need for enhanced email security measures.</li>
               
-              <li>Long-term tactics from TeamPCP highlight the evolving threat to organizations relying on Redis and software supply chains, emphasizing the need for proactive defenses.</li>
+              <li>Defenders must prioritize patching and monitoring for Apache Traffic Server and Microsoft 365 to mitigate emerging threats.</li>
               
             </ul>
           
@@ -420,41 +420,41 @@
         <div class="meta">
           <span class="chip risk-high">HIGH</span>
           
-            <span class="chip label-chip">INDUSTRY SIGNAL</span>
+            <span class="chip label-chip">RESEARCH</span>
           
           <span class="chip chip-neutral">Initial Access</span>
           <span class="chip chip-neutral">Confidence LOW</span>
         </div>
         
-          <h3><a href="https://www.bleepingcomputer.com/news/security/clickfix-attack-pushes-macos-infostealer-for-crypto-theft-attacks/" target="_blank" rel="noopener noreferrer">ClickFix attack pushes macOS infostealer for crypto theft attacks</a></h3>
+          <h3><a href="https://thehackernews.com/2026/08/ai-assisted-http-terminator-finds-novel.html" target="_blank" rel="noopener noreferrer">AI-Assisted HTTP Terminator Finds Novel HTTP Desync Techniques and Apache Zero-Day</a></h3>
         
-        <p class="hook">The ClickFix attack is actively targeting macOS users, leading to significant cryptocurrency theft and compromised sensitive data.</p>
+        <p class="hook">Newly discovered HTTP desynchronization techniques and an Apache zero-day could lead to significant exploitation risks for web applications.</p>
         <div class="support-grid">
-          <div class="text-block"><span class="label">Who should care:</span> IT security teams managing macOS environments and cryptocurrency platforms should be particularly vigilant.</div>
-          <div class="text-block"><span class="label">Attack path:</span> Attackers gain leverage by exploiting vulnerabilities in macOS systems to deliver the malware, which then extracts sensitive information without user consent.</div>
+          <div class="text-block"><span class="label">Who should care:</span> Web application teams and organizations utilizing Apache Traffic Server are most exposed to these vulnerabilities.</div>
+          <div class="text-block"><span class="label">Attack path:</span> An attacker could exploit these desynchronization techniques to disrupt normal web traffic or gain unauthorized access to sensitive data.</div>
         </div>
         <div class="text-block"><span class="label">Why this matters now:</span> Useful context for teams tracking where attacker pressure is building.</div>
-        <div class="text-block"><span class="label">In plain English:</span> A new malware campaign is stealing crypto assets and sensitive information from macOS users.</div>
+        <div class="text-block"><span class="label">In plain English:</span> Recent findings reveal critical vulnerabilities that could be exploited in web servers, particularly affecting Apache Traffic Server.</div>
         
           <div class="tags">
             
-              <span>ransomware</span>
+              <span>apache</span>
             
-              <span>cve</span>
+              <span>zero day</span>
             
-              <span>cloud</span>
+              <span>http</span>
             
           </div>
         
         <ul class="story-list">
           
-            <li>A Go-based malware is being delivered through ClickFix attacks, specifically targeting macOS systems. This malware is designed to steal cryptocurrency assets, browser-stored passwords, Apple Keychain data, and cached credentials.</li>
+            <li>PortSwigger's AI-assisted HTTP Terminator identified novel HTTP desynchronization techniques after testing 30,000 candidate vectors. Additionally, a zero-day vulnerability in Apache Traffic Server was uncovered during this research.</li>
           
-            <li>The theft of cryptocurrency and sensitive data can lead to financial loss and identity theft for affected users. As more individuals rely on digital currencies, the impact of such attacks can escalate quickly, affecting trust in digital platforms.</li>
+            <li>These vulnerabilities can allow attackers to manipulate web traffic, potentially leading to data breaches or service disruptions. Organizations using Apache Traffic Server should prioritize patching to mitigate these risks.</li>
           
-            <li>Attackers gain leverage by exploiting vulnerabilities in macOS systems to deliver the malware, which then extracts sensitive information without user consent.</li>
+            <li>An attacker could exploit these desynchronization techniques to disrupt normal web traffic or gain unauthorized access to sensitive data.</li>
           
-            <li>Watch next: Monitor for updates on malware variants and any patches released by Apple addressing these vulnerabilities.</li>
+            <li>Watch next: Monitor for updates from Apache regarding patches for the zero-day vulnerability and any related exploit activity.</li>
           
         </ul>
 
@@ -463,9 +463,9 @@
             <div class="label">Key terms</div>
             <ul class="list">
             
-              <li>infostealer - a type of malware designed to collect sensitive information from a victim's device.</li>
+              <li>HTTP desynchronization - a technique that allows attackers to manipulate the state of a web server by sending specially crafted requests.</li>
             
-              <li>ClickFix - a method of delivering malware that exploits specific vulnerabilities in software.</li>
+              <li>Zero-day - a vulnerability that is unknown to the vendor and has no available patch.</li>
             
             </ul>
           </div>
@@ -475,11 +475,11 @@
           <div class="label">Defender focus</div>
           <ul class="list">
             
-            <li>Implement endpoint detection solutions to identify and block the malware.</li>
+            <li>Implement monitoring for unusual HTTP traffic patterns that may indicate exploitation attempts.</li>
             
-            <li>Review and enhance security policies for macOS devices, focusing on browser security.</li>
+            <li>Ensure that all instances of Apache Traffic Server are updated with the latest security patches.</li>
             
-            <li>Conduct a security audit of cryptocurrency storage practices to mitigate potential losses.</li>
+            <li>Review web application firewall (WAF) rules to detect and block potential desynchronization attacks.</li>
             
           </ul>
         </div>
@@ -488,24 +488,24 @@
           <div class="label">Do now</div>
           <ul class="list">
             
-            <li>Update macOS systems to the latest version to patch vulnerabilities.</li>
+            <li>Patch Apache Traffic Server immediately to close the zero-day vulnerability.</li>
             
-            <li>Educate users on recognizing suspicious downloads and links.</li>
+            <li>Conduct a security assessment of web applications for potential exposure to HTTP desynchronization techniques.</li>
             
-            <li>Monitor network traffic for unusual activity related to cryptocurrency transactions.</li>
+            <li>Enhance logging and monitoring of web traffic for signs of exploitation.</li>
             
           </ul>
         </div>
 
-        <div class="text-block"><span class="label">Watch next:</span> Monitor for updates on malware variants and any patches released by Apple addressing these vulnerabilities.</div>
+        <div class="text-block"><span class="label">Watch next:</span> Monitor for updates from Apache regarding patches for the zero-day vulnerability and any related exploit activity.</div>
 
         <div class="sources">
           <div class="label">Sources</div>
           
             
               <div>
-                <a href="https://www.bleepingcomputer.com/news/security/clickfix-attack-pushes-macos-infostealer-for-crypto-theft-attacks/" target="_blank" rel="noopener noreferrer">
-                  BleepingComputer - ClickFix attack pushes macOS infostealer for crypto theft attacks
+                <a href="https://thehackernews.com/2026/08/ai-assisted-http-terminator-finds-novel.html" target="_blank" rel="noopener noreferrer">
+                  The Hacker News - AI-Assisted HTTP Terminator Finds Novel HTTP Desync Techniques and Apache Zero-Day
                 </a>
               </div>
             
@@ -528,136 +528,41 @@
         <div class="meta">
           <span class="chip risk-high">HIGH</span>
           
-            <span class="chip label-chip">INDUSTRY SIGNAL</span>
-          
-          <span class="chip chip-neutral">Initial Access</span>
-          <span class="chip chip-neutral">Confidence LOW</span>
-        </div>
-        
-          <h3><a href="https://www.bleepingcomputer.com/news/security/swiss-government-sharepoint-breach-compromised-200-accounts/" target="_blank" rel="noopener noreferrer">Swiss government SharePoint breach compromised 200 accounts</a></h3>
-        
-        <p class="hook">The breach of 200 Swiss government accounts through SharePoint highlights significant vulnerabilities in critical infrastructure, raising immediate concerns about data integrity and national security.</p>
-        <div class="support-grid">
-          <div class="text-block"><span class="label">Who should care:</span> Government IT security teams and any departments utilizing Microsoft SharePoint should be particularly vigilant.</div>
-          <div class="text-block"><span class="label">Attack path:</span> Attackers likely gained access by exploiting known vulnerabilities in SharePoint, allowing them to compromise user accounts and potentially escalate their access.</div>
-        </div>
-        <div class="text-block"><span class="label">Why this matters now:</span> Sector exposure makes this broader than a one-off incident.</div>
-        <div class="text-block"><span class="label">In plain English:</span> Hackers compromised around 200 accounts in a Swiss government SharePoint breach, exploiting server vulnerabilities.</div>
-        
-          <div class="tags">
-            
-              <span>cve</span>
-            
-              <span>cloud</span>
-            
-          </div>
-        
-        <ul class="story-list">
-          
-            <li>Switzerland's federal IT office reported that hackers successfully breached Microsoft SharePoint servers, compromising approximately 200 accounts. The breach was attributed to the exploitation of existing vulnerabilities within the SharePoint infrastructure.</li>
-          
-            <li>This incident underscores the potential for sensitive government data to be accessed by unauthorized parties, which could lead to data leaks or further attacks. The breach may also erode public trust in government cybersecurity measures and expose critical systems to additional threats.</li>
-          
-            <li>Attackers likely gained access by exploiting known vulnerabilities in SharePoint, allowing them to compromise user accounts and potentially escalate their access.</li>
-          
-            <li>Watch next: Monitor for updates from the Swiss federal IT office regarding remediation efforts and any further disclosures about the breach.</li>
-          
-        </ul>
-
-        
-          <div class="glossary">
-            <div class="label">Key terms</div>
-            <ul class="list">
-            
-              <li>SharePoint - a web-based collaboration platform developed by Microsoft, often used for document management and storage.</li>
-            
-              <li>Vulnerabilities - weaknesses in software that can be exploited by attackers to gain unauthorized access or cause harm.</li>
-            
-            </ul>
-          </div>
-        
-
-        <div>
-          <div class="label">Defender focus</div>
-          <ul class="list">
-            
-            <li>Implement monitoring for unusual account activity within SharePoint environments.</li>
-            
-            <li>Review and patch any known vulnerabilities in SharePoint servers immediately.</li>
-            
-            <li>Enhance user authentication measures, such as multi-factor authentication, to protect compromised accounts.</li>
-            
-          </ul>
-        </div>
-
-        <div>
-          <div class="label">Do now</div>
-          <ul class="list">
-            
-            <li>Patch SharePoint servers to close exploited vulnerabilities.</li>
-            
-            <li>Conduct a thorough audit of affected accounts to assess potential data exposure.</li>
-            
-            <li>Increase monitoring for suspicious activities across all government IT systems.</li>
-            
-          </ul>
-        </div>
-
-        <div class="text-block"><span class="label">Watch next:</span> Monitor for updates from the Swiss federal IT office regarding remediation efforts and any further disclosures about the breach.</div>
-
-        <div class="sources">
-          <div class="label">Sources</div>
-          
-            
-              <div>
-                <a href="https://www.bleepingcomputer.com/news/security/swiss-government-sharepoint-breach-compromised-200-accounts/" target="_blank" rel="noopener noreferrer">
-                  BleepingComputer - Swiss government SharePoint breach compromised 200 accounts
-                </a>
-              </div>
-            
-          
-        </div>
-      </article>
-            
-              <article class="card" style="--i: 1;">
-        <div class="meta">
-          <span class="chip risk-medium">MEDIUM</span>
-          
             <span class="chip label-chip">RESEARCH</span>
           
-          <span class="chip chip-neutral">Initial Access</span>
+          <span class="chip chip-neutral">Credential Access</span>
           <span class="chip chip-neutral">Confidence LOW</span>
         </div>
         
-          <h3><a href="https://thehackernews.com/2026/08/teampcp-linked-to-redis-attacks-dating.html" target="_blank" rel="noopener noreferrer">TeamPCP Linked To Redis Attacks Dating Back To 2020 And Later Supply Chain Campaign</a></h3>
+          <h3><a href="https://thehackernews.com/2026/08/microsoft-365-aitm-phishing-hijacks.html" target="_blank" rel="noopener noreferrer">Microsoft 365 AitM Phishing Hijacks Accounts to Collect Payroll and Finance Emails</a></h3>
         
-        <p class="hook">The long-term activity of TeamPCP poses a significant risk to organizations relying on Redis and software supply chains, as their tactics have evolved over years.</p>
+        <p class="hook">This widespread phishing campaign targeting Microsoft 365 accounts could lead to significant financial data breaches if not addressed immediately.</p>
         <div class="support-grid">
-          <div class="text-block"><span class="label">Who should care:</span> Development teams, IT security, and operations teams managing Redis databases and software supply chains.</div>
-          <div class="text-block"><span class="label">Attack path:</span> Attackers gain leverage by exploiting vulnerabilities in Redis servers, allowing them to deploy malware and potentially pivot to other systems within the network.</div>
+          <div class="text-block"><span class="label">Who should care:</span> IT security teams and finance departments using Microsoft 365 are most exposed to this threat.</div>
+          <div class="text-block"><span class="label">Attack path:</span> Attackers gain leverage by intercepting legitimate sign-in attempts and capturing sensitive information from compromised accounts. Abuse may include unauthorized access to payroll and finance-related emails.</div>
         </div>
-        <div class="text-block"><span class="label">Why this matters now:</span> Useful context for teams tracking where attacker pressure is building.</div>
-        <div class="text-block"><span class="label">In plain English:</span> TeamPCP has been attacking Redis servers since 2020, now threatening software supply chains.</div>
+        <div class="text-block"><span class="label">Why this matters now:</span> Sector exposure makes this broader than a one-off incident.</div>
+        <div class="text-block"><span class="label">In plain English:</span> A phishing campaign is hijacking Microsoft 365 accounts to steal sensitive payroll and finance emails.</div>
         
           <div class="tags">
             
-              <span>supply chain</span>
+              <span>phishing</span>
             
-              <span>redis</span>
+              <span>microsoft365</span>
             
-              <span>malware</span>
+              <span>email</span>
             
           </div>
         
         <ul class="story-list">
           
-            <li>TeamPCP has been linked to a series of attacks targeting Redis servers since 2020, utilizing various malware and techniques to compromise internet-facing infrastructure. Recent analysis shows their focus has shifted towards software supply chain attacks, indicating a broader strategy.</li>
+            <li>Cybersecurity researchers have identified a large-scale phishing campaign using adversary-in-the-middle (AitM) techniques to compromise Microsoft 365 accounts. The attackers leverage residential proxies to mask their malicious sign-ins, making them appear as legitimate user traffic.</li>
           
-            <li>Organizations using Redis or involved in software development should be aware of TeamPCP's capabilities and history, as their attacks can lead to data breaches or service disruptions. The evolution of their tactics suggests they may exploit vulnerabilities in widely-used software components, increasing the risk of widespread impact.</li>
+            <li>If successful, this campaign can provide attackers access to sensitive financial communications and personnel information, potentially leading to fraud or data theft. Organizations using Microsoft 365 must be vigilant to prevent unauthorized access to critical financial workflows.</li>
           
-            <li>Attackers gain leverage by exploiting vulnerabilities in Redis servers, allowing them to deploy malware and potentially pivot to other systems within the network.</li>
+            <li>Attackers gain leverage by intercepting legitimate sign-in attempts and capturing sensitive information from compromised accounts. Abuse may include unauthorized access to payroll and finance-related emails.</li>
           
-            <li>Watch next: Monitor for any new vulnerabilities in Redis and updates from security vendors regarding TeamPCP's tactics.</li>
+            <li>Watch next: Monitor for any unusual login attempts or changes in user behavior within Microsoft 365 environments.</li>
           
         </ul>
 
@@ -666,9 +571,9 @@
             <div class="label">Key terms</div>
             <ul class="list">
             
-              <li>Redis - an open-source in-memory data structure store used as a database, cache, and message broker.</li>
+              <li>Adversary-in-the-middle (AitM) - a type of attack where the attacker intercepts and potentially alters communications between two parties without their knowledge.</li>
             
-              <li>Supply Chain Attack - a cyber attack that targets less-secure elements in the supply chain to compromise a final product.</li>
+              <li>Residential proxies - servers that route internet traffic through residential IP addresses, making it harder to detect malicious activity.</li>
             
             </ul>
           </div>
@@ -678,108 +583,11 @@
           <div class="label">Defender focus</div>
           <ul class="list">
             
-            <li>Implement monitoring for unusual access patterns to Redis servers.</li>
+            <li>Implement monitoring for unusual login patterns in Microsoft 365 accounts.</li>
             
-            <li>Review and patch any known vulnerabilities in Redis and related software.</li>
+            <li>Review and tighten access controls for sensitive financial communications.</li>
             
-            <li>Enhance logging and alerting for suspicious activities in software development environments.</li>
-            
-          </ul>
-        </div>
-
-        <div>
-          <div class="label">Do now</div>
-          <ul class="list">
-            
-            <li>Conduct a security audit of Redis deployments.</li>
-            
-            <li>Update Redis to the latest version to mitigate known vulnerabilities.</li>
-            
-            <li>Train staff on recognizing signs of supply chain attacks.</li>
-            
-          </ul>
-        </div>
-
-        <div class="text-block"><span class="label">Watch next:</span> Monitor for any new vulnerabilities in Redis and updates from security vendors regarding TeamPCP's tactics.</div>
-
-        <div class="sources">
-          <div class="label">Sources</div>
-          
-            
-              <div>
-                <a href="https://thehackernews.com/2026/08/teampcp-linked-to-redis-attacks-dating.html" target="_blank" rel="noopener noreferrer">
-                  The Hacker News - TeamPCP Linked To Redis Attacks Dating Back To 2020 And Later Supply Chain Campaign
-                </a>
-              </div>
-            
-          
-        </div>
-      </article>
-            
-              <article class="card" style="--i: 2;">
-        <div class="meta">
-          <span class="chip risk-high">HIGH</span>
-          
-            <span class="chip label-chip">LEGAL POLICY</span>
-          
-          <span class="chip chip-neutral">Privilege Escalation</span>
-          <span class="chip chip-neutral">Confidence LOW</span>
-        </div>
-        
-          <h3><a href="https://thehackernews.com/2026/08/new-zapscape-kvm-flaw-could-let.html" target="_blank" rel="noopener noreferrer">New Zapscape KVM Flaw Could Let Privileged L1 Guest Code Escape to Linux Hosts</a></h3>
-        
-        <p class="hook">A newly discovered vulnerability in Zapscape could allow attackers to escape virtual machine isolation, posing a significant risk to host systems.</p>
-        <div class="support-grid">
-          <div class="text-block"><span class="label">Who should care:</span> Teams managing KVM virtualization environments and those responsible for Linux host security should prioritize this issue.</div>
-          <div class="text-block"><span class="label">Attack path:</span> An attacker with kernel access in a guest VM could leverage this flaw to execute arbitrary code on the host, bypassing isolation mechanisms.</div>
-        </div>
-        <div class="text-block"><span class="label">Why this matters now:</span> Useful context for teams tracking where attacker pressure is building.</div>
-        <div class="text-block"><span class="label">In plain English:</span> A flaw in Zapscape could let attackers execute code on Linux hosts from compromised virtual machines.</div>
-        
-          <div class="tags">
-            
-              <span>vulnerability</span>
-            
-              <span>cve</span>
-            
-              <span>virtualization</span>
-            
-          </div>
-        
-        <ul class="story-list">
-          
-            <li>A vulnerability identified as CVE-2026-64561 in the Zapscape Linux kernel allows an attacker with kernel privileges in a Level 1 guest virtual machine to escape KVM isolation. This flaw affects the shadow memory management unit (MMU) of KVM/x86, particularly when nested virtualization is exposed to untrusted guests.</li>
-          
-            <li>If exploited, this vulnerability could enable attackers to gain unauthorized access to the host system, potentially leading to data breaches or system compromise. Organizations using KVM for virtualization should be particularly vigilant, as the risk increases with untrusted guest environments.</li>
-          
-            <li>An attacker with kernel access in a guest VM could leverage this flaw to execute arbitrary code on the host, bypassing isolation mechanisms.</li>
-          
-            <li>Watch next: Monitor for patches from the Linux kernel maintainers and updates from KVM regarding this vulnerability.</li>
-          
-        </ul>
-
-        
-          <div class="glossary">
-            <div class="label">Key terms</div>
-            <ul class="list">
-            
-              <li>KVM - Kernel-based Virtual Machine, a virtualization module in the Linux kernel that allows the kernel to function as a hypervisor.</li>
-            
-              <li>CVE - Common Vulnerabilities and Exposures, a list of publicly disclosed cybersecurity vulnerabilities.</li>
-            
-            </ul>
-          </div>
-        
-
-        <div>
-          <div class="label">Defender focus</div>
-          <ul class="list">
-            
-            <li>Implement monitoring for unusual behavior in virtualized environments.</li>
-            
-            <li>Review access controls for nested virtualization configurations.</li>
-            
-            <li>Prepare to apply patches once they are released to mitigate this vulnerability.</li>
+            <li>Educate users on recognizing phishing attempts and the importance of reporting suspicious emails.</li>
             
           </ul>
         </div>
@@ -788,24 +596,24 @@
           <div class="label">Do now</div>
           <ul class="list">
             
-            <li>Assess your current KVM configurations for exposure to untrusted guests.</li>
+            <li>Enhance email filtering to detect and block phishing attempts.</li>
             
-            <li>Stay updated on patch releases related to CVE-2026-64561.</li>
+            <li>Conduct a security audit of Microsoft 365 account access and permissions.</li>
             
-            <li>Review and enhance security measures for virtual machine isolation.</li>
+            <li>Deploy multi-factor authentication for all users accessing sensitive financial data.</li>
             
           </ul>
         </div>
 
-        <div class="text-block"><span class="label">Watch next:</span> Monitor for patches from the Linux kernel maintainers and updates from KVM regarding this vulnerability.</div>
+        <div class="text-block"><span class="label">Watch next:</span> Monitor for any unusual login attempts or changes in user behavior within Microsoft 365 environments.</div>
 
         <div class="sources">
           <div class="label">Sources</div>
           
             
               <div>
-                <a href="https://thehackernews.com/2026/08/new-zapscape-kvm-flaw-could-let.html" target="_blank" rel="noopener noreferrer">
-                  The Hacker News - New Zapscape KVM Flaw Could Let Privileged L1 Guest Code Escape to Linux Hosts
+                <a href="https://thehackernews.com/2026/08/microsoft-365-aitm-phishing-hijacks.html" target="_blank" rel="noopener noreferrer">
+                  The Hacker News - Microsoft 365 AitM Phishing Hijacks Accounts to Collect Payroll and Finance Emails
                 </a>
               </div>
             
@@ -823,108 +631,7 @@
           Wider Signal
         </div>
         
-          <div class="grid">
-            
-              <article class="card" style="--i: 0;">
-        <div class="meta">
-          <span class="chip risk-high">HIGH</span>
-          
-            <span class="chip label-chip">PATCH RELEASE</span>
-          
-            <span class="chip label-chip">LEGAL POLICY</span>
-          
-          <span class="chip chip-neutral">Initial Access</span>
-          <span class="chip chip-neutral">Confidence LOW</span>
-        </div>
-        
-          <h3><a href="https://thehackernews.com/2026/08/cisco-patches-12-sd-wan-and-ios-xe.html" target="_blank" rel="noopener noreferrer">Cisco Patches 12 SD-WAN and IOS XE Flaws, Including Three 9.9 CVSS Score Bugs</a></h3>
-        
-        <p class="hook">Immediate patching is essential to prevent potential exploitation of critical vulnerabilities in Cisco SD-WAN and IOS XE software.</p>
-        <div class="support-grid">
-          <div class="text-block"><span class="label">Who should care:</span> Network operations teams and organizations using Cisco Catalyst SD-WAN and IOS XE Software should prioritize these updates.</div>
-          <div class="text-block"><span class="label">Attack path:</span> An attacker could exploit these vulnerabilities to gain unauthorized access to network devices, potentially leading to further attacks within the network.</div>
-        </div>
-        <div class="text-block"><span class="label">Why this matters now:</span> A live patch or vendor fix gives defenders something concrete to validate.</div>
-        <div class="text-block"><span class="label">In plain English:</span> Cisco has released patches for 12 critical vulnerabilities that could allow attackers to compromise affected devices.</div>
-        
-          <div class="tags">
-            
-              <span>cisco</span>
-            
-              <span>vulnerability</span>
-            
-              <span>patch</span>
-            
-          </div>
-        
-        <ul class="story-list">
-          
-            <li>Cisco has patched 12 vulnerabilities in its Catalyst SD-WAN and IOS XE Software, including three rated 9.9 on the CVSS scale. These vulnerabilities could be exploited regardless of device configuration and affect both autonomous and controller modes of IOS XE.</li>
-          
-            <li>Exploitation of these vulnerabilities could lead to unauthorized access, data breaches, or service disruptions. Given the critical nature of the flaws, organizations using Cisco products must act swiftly to mitigate risks.</li>
-          
-            <li>An attacker could exploit these vulnerabilities to gain unauthorized access to network devices, potentially leading to further attacks within the network.</li>
-          
-            <li>Watch next: Monitor for updates from Cisco regarding any additional vulnerabilities or patches that may arise.</li>
-          
-        </ul>
-
-        
-          <div class="glossary">
-            <div class="label">Key terms</div>
-            <ul class="list">
-            
-              <li>CVSS - Common Vulnerability Scoring System, a standard for assessing the severity of security vulnerabilities.</li>
-            
-              <li>SD-WAN - Software-Defined Wide Area Network, a technology that simplifies the management and operation of a WAN by separating the networking hardware from its control mechanism.</li>
-            
-            </ul>
-          </div>
-        
-
-        <div>
-          <div class="label">Defender focus</div>
-          <ul class="list">
-            
-            <li>Verify that all Cisco SD-WAN and IOS XE devices are updated with the latest patches.</li>
-            
-            <li>Monitor network traffic for unusual activity that may indicate exploitation attempts.</li>
-            
-            <li>Review device configurations to ensure they align with Cisco's security recommendations.</li>
-            
-          </ul>
-        </div>
-
-        <div>
-          <div class="label">Do now</div>
-          <ul class="list">
-            
-            <li>Immediately apply the latest patches from Cisco to affected devices.</li>
-            
-            <li>Conduct a risk assessment to identify potential exposure to these vulnerabilities.</li>
-            
-            <li>Implement monitoring for any signs of exploitation or unusual network behavior.</li>
-            
-          </ul>
-        </div>
-
-        <div class="text-block"><span class="label">Watch next:</span> Monitor for updates from Cisco regarding any additional vulnerabilities or patches that may arise.</div>
-
-        <div class="sources">
-          <div class="label">Sources</div>
-          
-            
-              <div>
-                <a href="https://thehackernews.com/2026/08/cisco-patches-12-sd-wan-and-ios-xe.html" target="_blank" rel="noopener noreferrer">
-                  The Hacker News - Cisco Patches 12 SD-WAN and IOS XE Flaws, Including Three 9.9 CVSS Score Bugs
-                </a>
-              </div>
-            
-          
-        </div>
-      </article>
-            
-          </div>
+          <p class="empty">No context stories today.</p>
         
       </section>
     </main>
