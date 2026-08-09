@@ -378,8 +378,8 @@
         The security news worth your attention, with context and practical takeaways.
       </p>
       <div class="meta-bar">
-        <span>Updated: 2026-08-09 08:33 UTC</span>
-        <span>Stories: 1</span>
+        <span>Updated: 2026-08-09 13:06 UTC</span>
+        <span>Stories: 6</span>
         <span>Recent issues: 14</span>
       </div>
     </header>
@@ -389,7 +389,7 @@
         <section class="one-liner">
           <h2>What Matters Today</h2>
           
-            <p class="text-block">TrueConf users face urgent threats from backdoored client installers, necessitating immediate patching efforts.</p>
+            <p class="text-block">Multiple critical vulnerabilities are being actively exploited, necessitating immediate action from security teams across various platforms to mitigate severe risks.</p>
           
         </section>
 
@@ -398,11 +398,11 @@
           
             <ul>
               
-              <li>Increased risk of backdoor installations highlights the need for vigilant patch management.</li>
+              <li>Active exploitation of vulnerabilities is increasing pressure on defenders to prioritize patching and monitoring.</li>
               
-              <li>Attackers are targeting widely used software to compromise sensitive communications.</li>
+              <li>Attackers are leveraging zero-day vulnerabilities for unauthorized access and data theft, highlighting the need for robust security practices.</li>
               
-              <li>Defenders must prioritize immediate remediation to mitigate potential data breaches.</li>
+              <li>Targeted vishing attacks indicate a shift towards social engineering tactics, requiring heightened awareness and training for employees.</li>
               
             </ul>
           
@@ -420,41 +420,47 @@
         <div class="meta">
           <span class="chip risk-high">HIGH</span>
           
-            <span class="chip label-chip">PATCH RELEASE</span>
+            <span class="chip label-chip">ACTIVE EXPLOITATION</span>
           
-          <span class="chip chip-neutral">Initial Access</span>
+            <span class="chip label-chip">KEV ADDED</span>
+          
+            <span class="chip label-chip">INDUSTRY SIGNAL</span>
+          
+            <span class="chip label-chip">LEGAL POLICY</span>
+          
+          <span class="chip chip-neutral">Execution</span>
           <span class="chip chip-neutral">Confidence LOW</span>
         </div>
         
-          <h3><a href="https://www.bleepingcomputer.com/news/security/hackers-breach-trueconf-to-trojanize-client-installers-with-backdoors/" target="_blank" rel="noopener noreferrer">Hackers breach TrueConf to trojanize client installers with backdoors</a></h3>
+          <h3><a href="https://thehackernews.com/2026/08/progress-kemp-loadmaster-flaw-hits-cisa.html" target="_blank" rel="noopener noreferrer">Progress Kemp LoadMaster Flaw Hits CISA KEV After 792 Reported Exploit Attempts</a></h3>
         
-        <p class="hook">Organizations using TrueConf are at immediate risk of backdoor installations, potentially compromising sensitive communications.</p>
+        <p class="hook">Immediate action is required as a critical vulnerability in Progress Kemp LoadMaster is actively being exploited, posing severe risks to affected systems.</p>
         <div class="support-grid">
-          <div class="text-block"><span class="label">Who should care:</span> IT security teams managing TrueConf installations and users of the platform.</div>
-          <div class="text-block"><span class="label">Attack path:</span> Attackers gain leverage by exploiting vulnerabilities in the server software to deliver malicious installers to users. This results in backdoor access to the affected systems.</div>
+          <div class="text-block"><span class="label">Who should care:</span> IT security teams managing Progress Kemp LoadMaster installations should be particularly vigilant.</div>
+          <div class="text-block"><span class="label">Attack path:</span> An attacker can exploit this vulnerability by sending crafted requests to the LoadMaster, allowing them to execute arbitrary commands on the device.</div>
         </div>
-        <div class="text-block"><span class="label">Why this matters now:</span> A live patch or vendor fix gives defenders something concrete to validate.</div>
-        <div class="text-block"><span class="label">In plain English:</span> Hackers have breached TrueConf servers to distribute malicious client installers that create backdoors.</div>
+        <div class="text-block"><span class="label">Why this matters now:</span> Active exploitation makes this an immediate exposure check. KEV status shortens the acceptable patch window.</div>
+        <div class="text-block"><span class="label">In plain English:</span> A serious command injection flaw in Progress Kemp LoadMaster is being exploited, and organizations must patch it immediately.</div>
         
           <div class="tags">
             
-              <span>malware</span>
+              <span>cve</span>
             
-              <span>vulnerability</span>
+              <span>security</span>
             
-              <span>video conferencing</span>
+              <span>exploitation</span>
             
           </div>
         
         <ul class="story-list">
           
-            <li>The Head Mare hacktivist group exploited vulnerabilities in unpatched TrueConf video conferencing servers. They replaced legitimate client installers with malicious versions that install backdoors on user systems.</li>
+            <li>CISA has added a critical-severity vulnerability in Progress Kemp LoadMaster to its Known Exploited Vulnerabilities catalog after 792 reported exploit attempts. The vulnerability, identified as CVE-2026-8037, has a CVSS score of 9.6 and allows for command injection.</li>
           
-            <li>This breach allows attackers to gain unauthorized access to video calls and sensitive data, posing a significant threat to organizational security. If left unaddressed, it could lead to data breaches or further exploitation of compromised systems.</li>
+            <li>If successfully exploited, this vulnerability could allow attackers to execute arbitrary commands on affected systems, potentially leading to unauthorized access and data breaches. Organizations using Progress Kemp LoadMaster are at heightened risk and must prioritize remediation to protect their infrastructure.</li>
           
-            <li>Attackers gain leverage by exploiting vulnerabilities in the server software to deliver malicious installers to users. This results in backdoor access to the affected systems.</li>
+            <li>An attacker can exploit this vulnerability by sending crafted requests to the LoadMaster, allowing them to execute arbitrary commands on the device.</li>
           
-            <li>Watch next: Monitor for updates from TrueConf regarding patches and any reported incidents of exploitation.</li>
+            <li>Watch next: Monitor for updates from Progress regarding patches and any further exploit attempts reported in the wild.</li>
           
         </ul>
 
@@ -463,9 +469,9 @@
             <div class="label">Key terms</div>
             <ul class="list">
             
-              <li>BACKDOOR - a method of bypassing normal authentication to gain remote access to a system.</li>
+              <li>CVE - Common Vulnerabilities and Exposures, a list of publicly disclosed cybersecurity vulnerabilities.</li>
             
-              <li>TROJAN - a type of malware that disguises itself as legitimate software.</li>
+              <li>Command Injection - A type of attack where an attacker can execute arbitrary commands on a server or application.</li>
             
             </ul>
           </div>
@@ -475,11 +481,11 @@
           <div class="label">Defender focus</div>
           <ul class="list">
             
-            <li>Implement monitoring for unusual installation activity related to TrueConf clients.</li>
+            <li>Implement immediate monitoring for unusual activity on LoadMaster devices.</li>
             
-            <li>Review server configurations for unpatched vulnerabilities and apply necessary updates.</li>
+            <li>Ensure all LoadMaster installations are updated with the latest security patches.</li>
             
-            <li>Conduct a security audit of systems that have installed TrueConf to identify potential backdoor access.</li>
+            <li>Review logs for any signs of exploitation attempts or unauthorized access.</li>
             
           </ul>
         </div>
@@ -488,24 +494,24 @@
           <div class="label">Do now</div>
           <ul class="list">
             
-            <li>Patch TrueConf servers immediately to close exploited vulnerabilities.</li>
+            <li>Patch Progress Kemp LoadMaster immediately to mitigate the vulnerability.</li>
             
-            <li>Remove any unauthorized client installations and replace them with verified versions.</li>
+            <li>Conduct a security audit of systems using LoadMaster to identify potential exposure.</li>
             
-            <li>Conduct a thorough investigation of affected systems for signs of compromise.</li>
+            <li>Increase monitoring for any suspicious activity related to LoadMaster devices.</li>
             
           </ul>
         </div>
 
-        <div class="text-block"><span class="label">Watch next:</span> Monitor for updates from TrueConf regarding patches and any reported incidents of exploitation.</div>
+        <div class="text-block"><span class="label">Watch next:</span> Monitor for updates from Progress regarding patches and any further exploit attempts reported in the wild.</div>
 
         <div class="sources">
           <div class="label">Sources</div>
           
             
               <div>
-                <a href="https://www.bleepingcomputer.com/news/security/hackers-breach-trueconf-to-trojanize-client-installers-with-backdoors/" target="_blank" rel="noopener noreferrer">
-                  BleepingComputer - Hackers breach TrueConf to trojanize client installers with backdoors
+                <a href="https://thehackernews.com/2026/08/progress-kemp-loadmaster-flaw-hits-cisa.html" target="_blank" rel="noopener noreferrer">
+                  The Hacker News - Progress Kemp LoadMaster Flaw Hits CISA KEV After 792 Reported Exploit Attempts
                 </a>
               </div>
             
@@ -522,7 +528,302 @@
           Priority Watchlist
         </div>
         
-          <p class="empty">No additional top stories.</p>
+          <div class="grid">
+            
+              <article class="card" style="--i: 0;">
+        <div class="meta">
+          <span class="chip risk-high">HIGH</span>
+          
+            <span class="chip label-chip">ACTIVE EXPLOITATION</span>
+          
+            <span class="chip label-chip">LEGAL POLICY</span>
+          
+          <span class="chip chip-neutral">Initial Access</span>
+          <span class="chip chip-neutral">Confidence LOW</span>
+        </div>
+        
+          <h3><a href="https://thehackernews.com/2026/08/metabase-zero-day-exploited-in-wild.html" target="_blank" rel="noopener noreferrer">Metabase Zero-Day Exploited in Wild Allows Admin Access Without Authentication</a></h3>
+        
+        <p class="hook">Immediate action is required as a critical zero-day vulnerability in Metabase could allow attackers full admin access without authentication.</p>
+        <div class="support-grid">
+          <div class="text-block"><span class="label">Who should care:</span> Development, IT security, and data analytics teams using Metabase should prioritize this issue.</div>
+          <div class="text-block"><span class="label">Attack path:</span> Attackers can exploit this vulnerability by sending specially crafted requests to the Metabase application, allowing them to execute SQL commands directly on the database.</div>
+        </div>
+        <div class="text-block"><span class="label">Why this matters now:</span> Active exploitation makes this an immediate exposure check.</div>
+        <div class="text-block"><span class="label">In plain English:</span> A severe flaw in Metabase allows attackers to execute arbitrary SQL commands, risking data integrity and security.</div>
+        
+          <div class="tags">
+            
+              <span>zero day</span>
+            
+              <span>sql injection</span>
+            
+              <span>metabase</span>
+            
+          </div>
+        
+        <ul class="story-list">
+          
+            <li>Metabase has disclosed a zero-day vulnerability that has been actively exploited, allowing unauthenticated remote attackers to inject arbitrary SQL into its database. This vulnerability has a maximum CVSS score of 10.0 and currently lacks a CVE identifier.</li>
+          
+            <li>The ability for attackers to execute arbitrary SQL commands means they can manipulate or exfiltrate sensitive data without any authentication. Organizations using Metabase are at significant risk of data breaches and operational disruption.</li>
+          
+            <li>Attackers can exploit this vulnerability by sending specially crafted requests to the Metabase application, allowing them to execute SQL commands directly on the database.</li>
+          
+            <li>Watch next: Monitor for any updates from Metabase regarding patches or mitigations for this vulnerability.</li>
+          
+        </ul>
+
+        
+          <div class="glossary">
+            <div class="label">Key terms</div>
+            <ul class="list">
+            
+              <li>SQL Injection - a code injection technique that exploits a vulnerability in an application's software by allowing an attacker to interfere with the queries that an application makes to its database.</li>
+            
+              <li>Zero-Day - a security flaw that is exploited before the vendor has released a fix.</li>
+            
+            </ul>
+          </div>
+        
+
+        <div>
+          <div class="label">Defender focus</div>
+          <ul class="list">
+            
+            <li>Implement network segmentation to limit access to Metabase instances.</li>
+            
+            <li>Review logs for unusual SQL queries or access patterns.</li>
+            
+            <li>Prepare to apply patches or mitigations as soon as they are released by Metabase.</li>
+            
+          </ul>
+        </div>
+
+        <div>
+          <div class="label">Do now</div>
+          <ul class="list">
+            
+            <li>Immediately assess all Metabase deployments for exposure.</li>
+            
+            <li>Restrict access to Metabase applications until a patch is available.</li>
+            
+            <li>Stay updated on Metabase communications for any security advisories.</li>
+            
+          </ul>
+        </div>
+
+        <div class="text-block"><span class="label">Watch next:</span> Monitor for any updates from Metabase regarding patches or mitigations for this vulnerability.</div>
+
+        <div class="sources">
+          <div class="label">Sources</div>
+          
+            
+              <div>
+                <a href="https://thehackernews.com/2026/08/metabase-zero-day-exploited-in-wild.html" target="_blank" rel="noopener noreferrer">
+                  The Hacker News - Metabase Zero-Day Exploited in Wild Allows Admin Access Without Authentication
+                </a>
+              </div>
+            
+          
+        </div>
+      </article>
+            
+              <article class="card" style="--i: 1;">
+        <div class="meta">
+          <span class="chip risk-high">HIGH</span>
+          
+            <span class="chip label-chip">INDUSTRY SIGNAL</span>
+          
+          <span class="chip chip-neutral">Initial Access</span>
+          <span class="chip chip-neutral">Confidence LOW</span>
+        </div>
+        
+          <h3><a href="https://www.bleepingcomputer.com/news/security/framework-tally-disclose-metabase-data-theft-attacks/" target="_blank" rel="noopener noreferrer">Metabase SQLi zero-day exploited in customer data-theft attacks</a></h3>
+        
+        <p class="hook">Immediate action is required as a critical SQL injection vulnerability in Metabase is being actively exploited, leading to significant data theft.</p>
+        <div class="support-grid">
+          <div class="text-block"><span class="label">Who should care:</span> Development and security teams managing Metabase instances, particularly those in data-sensitive environments.</div>
+          <div class="text-block"><span class="label">Attack path:</span> Attackers can leverage the SQL injection vulnerability to manipulate database queries, gaining access to sensitive customer data stored in Metabase.</div>
+        </div>
+        <div class="text-block"><span class="label">Why this matters now:</span> Useful context for teams tracking where attacker pressure is building.</div>
+        <div class="text-block"><span class="label">In plain English:</span> A serious vulnerability in Metabase is being used in attacks to steal customer data.</div>
+        
+          <div class="tags">
+            
+              <span>sql injection</span>
+            
+              <span>zero day</span>
+            
+              <span>data theft</span>
+            
+          </div>
+        
+        <ul class="story-list">
+          
+            <li>A zero-day SQL injection vulnerability in Metabase has been exploited in attacks targeting customer instances. This vulnerability allows attackers to execute arbitrary SQL queries, leading to unauthorized access to sensitive data.</li>
+          
+            <li>The exploitation of this vulnerability can result in severe data breaches, impacting customer trust and potentially leading to regulatory penalties. Organizations using Metabase need to act quickly to mitigate risks associated with this vulnerability.</li>
+          
+            <li>Attackers can leverage the SQL injection vulnerability to manipulate database queries, gaining access to sensitive customer data stored in Metabase.</li>
+          
+            <li>Watch next: Monitor for updates from Metabase regarding patches or mitigations for this vulnerability.</li>
+          
+        </ul>
+
+        
+          <div class="glossary">
+            <div class="label">Key terms</div>
+            <ul class="list">
+            
+              <li>SQL Injection - a type of attack that allows an attacker to interfere with the queries that an application makes to its database.</li>
+            
+              <li>Zero-Day - a vulnerability that is exploited before the vendor has released a fix.</li>
+            
+            </ul>
+          </div>
+        
+
+        <div>
+          <div class="label">Defender focus</div>
+          <ul class="list">
+            
+            <li>Implement web application firewalls to detect and block SQL injection attempts.</li>
+            
+            <li>Review logs for unusual database access patterns that may indicate exploitation.</li>
+            
+            <li>Ensure all Metabase instances are updated with the latest security patches as soon as they are available.</li>
+            
+          </ul>
+        </div>
+
+        <div>
+          <div class="label">Do now</div>
+          <ul class="list">
+            
+            <li>Immediately assess all Metabase instances for exposure to the vulnerability.</li>
+            
+            <li>Apply any available patches or mitigations provided by Metabase.</li>
+            
+            <li>Enhance monitoring for unusual database activity related to Metabase.</li>
+            
+          </ul>
+        </div>
+
+        <div class="text-block"><span class="label">Watch next:</span> Monitor for updates from Metabase regarding patches or mitigations for this vulnerability.</div>
+
+        <div class="sources">
+          <div class="label">Sources</div>
+          
+            
+              <div>
+                <a href="https://www.bleepingcomputer.com/news/security/framework-tally-disclose-metabase-data-theft-attacks/" target="_blank" rel="noopener noreferrer">
+                  BleepingComputer - Metabase SQLi zero-day exploited in customer data-theft attacks
+                </a>
+              </div>
+            
+          
+        </div>
+      </article>
+            
+              <article class="card" style="--i: 2;">
+        <div class="meta">
+          <span class="chip risk-high">HIGH</span>
+          
+            <span class="chip label-chip">PATCH RELEASE</span>
+          
+          <span class="chip chip-neutral">Initial Access</span>
+          <span class="chip chip-neutral">Confidence LOW</span>
+        </div>
+        
+          <h3><a href="https://www.bleepingcomputer.com/news/security/hackers-breach-trueconf-to-trojanize-client-installers-with-backdoors/" target="_blank" rel="noopener noreferrer">Hackers breach TrueConf to trojanize client installers with backdoors</a></h3>
+        
+        <p class="hook">The breach of TrueConf's client installers poses a significant risk of backdoor access to sensitive communications, making immediate action essential.</p>
+        <div class="support-grid">
+          <div class="text-block"><span class="label">Who should care:</span> IT and security teams managing TrueConf deployments should prioritize this issue.</div>
+          <div class="text-block"><span class="label">Attack path:</span> Attackers gain leverage by exploiting unpatched vulnerabilities in the TrueConf servers to deliver malicious software to users. This allows them to maintain persistent access to compromised systems.</div>
+        </div>
+        <div class="text-block"><span class="label">Why this matters now:</span> A live patch or vendor fix gives defenders something concrete to validate.</div>
+        <div class="text-block"><span class="label">In plain English:</span> Hackers have compromised TrueConf to insert backdoors into their client software, threatening user security.</div>
+        
+          <div class="tags">
+            
+              <span>malware</span>
+            
+              <span>vulnerability</span>
+            
+              <span>video conferencing</span>
+            
+          </div>
+        
+        <ul class="story-list">
+          
+            <li>The Head Mare hacktivist group exploited vulnerabilities in unpatched TrueConf video conferencing servers. They replaced legitimate client installers with malicious versions that contain backdoors.</li>
+          
+            <li>This breach allows attackers to gain unauthorized access to user systems, potentially compromising sensitive data and communications. Organizations using TrueConf are at heightened risk of data breaches and operational disruptions.</li>
+          
+            <li>Attackers gain leverage by exploiting unpatched vulnerabilities in the TrueConf servers to deliver malicious software to users. This allows them to maintain persistent access to compromised systems.</li>
+          
+            <li>Watch next: Monitor for updates from TrueConf regarding patches and any reports of exploitation in the wild.</li>
+          
+        </ul>
+
+        
+          <div class="glossary">
+            <div class="label">Key terms</div>
+            <ul class="list">
+            
+              <li>BACKDOOR - a method of bypassing normal authentication to access a system.</li>
+            
+              <li>TROJAN - a type of malware that disguises itself as legitimate software.</li>
+            
+            </ul>
+          </div>
+        
+
+        <div>
+          <div class="label">Defender focus</div>
+          <ul class="list">
+            
+            <li>Implement monitoring for unauthorized changes to TrueConf client installers.</li>
+            
+            <li>Review logs for unusual access patterns or installations of the TrueConf software.</li>
+            
+            <li>Ensure all TrueConf servers are updated with the latest security patches.</li>
+            
+          </ul>
+        </div>
+
+        <div>
+          <div class="label">Do now</div>
+          <ul class="list">
+            
+            <li>Immediately patch all TrueConf servers to close known vulnerabilities.</li>
+            
+            <li>Conduct a security audit of all systems using TrueConf to identify potential compromises.</li>
+            
+            <li>Inform users to verify the integrity of their TrueConf client installers before use.</li>
+            
+          </ul>
+        </div>
+
+        <div class="text-block"><span class="label">Watch next:</span> Monitor for updates from TrueConf regarding patches and any reports of exploitation in the wild.</div>
+
+        <div class="sources">
+          <div class="label">Sources</div>
+          
+            
+              <div>
+                <a href="https://www.bleepingcomputer.com/news/security/hackers-breach-trueconf-to-trojanize-client-installers-with-backdoors/" target="_blank" rel="noopener noreferrer">
+                  BleepingComputer - Hackers breach TrueConf to trojanize client installers with backdoors
+                </a>
+              </div>
+            
+          
+        </div>
+      </article>
+            
+          </div>
         
       </section>
 
@@ -532,7 +833,203 @@
           Wider Signal
         </div>
         
-          <p class="empty">No context stories today.</p>
+          <div class="grid">
+            
+              <article class="card" style="--i: 0;">
+        <div class="meta">
+          <span class="chip risk-high">HIGH</span>
+          
+            <span class="chip label-chip">INDUSTRY SIGNAL</span>
+          
+          <span class="chip chip-neutral">Initial Access</span>
+          <span class="chip chip-neutral">Confidence LOW</span>
+        </div>
+        
+          <h3><a href="https://thehackernews.com/2026/08/clickfix-attacks-deliver-macos-stealer.html" target="_blank" rel="noopener noreferrer">ClickFix Attacks Deliver macOS Stealer That Can Drain Crypto Wallets</a></h3>
+        
+        <p class="hook">The emergence of ClickFix attacks targeting macOS users poses a significant threat to cryptocurrency assets and sensitive data, making immediate awareness crucial.</p>
+        <div class="support-grid">
+          <div class="text-block"><span class="label">Who should care:</span> IT security teams managing macOS environments and users with cryptocurrency holdings should be particularly vigilant.</div>
+          <div class="text-block"><span class="label">Attack path:</span> Attackers gain leverage by delivering a shell script that profiles the host system and subsequently fetches the appropriate malware payload based on the CPU architecture.</div>
+        </div>
+        <div class="text-block"><span class="label">Why this matters now:</span> Useful context for teams tracking where attacker pressure is building.</div>
+        <div class="text-block"><span class="label">In plain English:</span> New ClickFix attacks are delivering malware that steals cryptocurrency and sensitive information from macOS devices.</div>
+        
+          <div class="tags">
+            
+              <span>ransomware</span>
+            
+              <span>cve</span>
+            
+              <span>cloud</span>
+            
+          </div>
+        
+        <ul class="story-list">
+          
+            <li>ClickFix-style attacks are now leveraging a Go-based malware that specifically targets macOS systems. This malware can extract cryptocurrency wallet information, browser-stored passwords, and Apple iCloud Keychain data through a multi-stage infection process.</li>
+          
+            <li>The ability of this malware to drain cryptocurrency wallets and access sensitive credentials can lead to substantial financial losses for individuals and organizations. As cryptocurrency usage increases, the risk of targeted attacks on macOS users also escalates, necessitating heightened vigilance.</li>
+          
+            <li>Attackers gain leverage by delivering a shell script that profiles the host system and subsequently fetches the appropriate malware payload based on the CPU architecture.</li>
+          
+            <li>Watch next: Monitor for updates from macOS security teams regarding patches or mitigations for this type of malware.</li>
+          
+        </ul>
+
+        
+          <div class="glossary">
+            <div class="label">Key terms</div>
+            <ul class="list">
+            
+              <li>ClickFix - a type of cyber attack that exploits vulnerabilities to deliver malware.</li>
+            
+              <li>Go-based malware - malware written in the Go programming language, known for its efficiency and portability.</li>
+            
+            </ul>
+          </div>
+        
+
+        <div>
+          <div class="label">Defender focus</div>
+          <ul class="list">
+            
+            <li>Implement endpoint detection to identify unusual shell script executions.</li>
+            
+            <li>Monitor for unauthorized access to cryptocurrency wallets and sensitive data.</li>
+            
+            <li>Review and update security policies for macOS systems to mitigate risks from such attacks.</li>
+            
+          </ul>
+        </div>
+
+        <div>
+          <div class="label">Do now</div>
+          <ul class="list">
+            
+            <li>Enhance monitoring of macOS endpoints for suspicious activity.</li>
+            
+            <li>Educate users about the risks of downloading unverified software.</li>
+            
+            <li>Ensure all systems are updated with the latest security patches.</li>
+            
+          </ul>
+        </div>
+
+        <div class="text-block"><span class="label">Watch next:</span> Monitor for updates from macOS security teams regarding patches or mitigations for this type of malware.</div>
+
+        <div class="sources">
+          <div class="label">Sources</div>
+          
+            
+              <div>
+                <a href="https://thehackernews.com/2026/08/clickfix-attacks-deliver-macos-stealer.html" target="_blank" rel="noopener noreferrer">
+                  The Hacker News - ClickFix Attacks Deliver macOS Stealer That Can Drain Crypto Wallets
+                </a>
+              </div>
+            
+          
+        </div>
+      </article>
+            
+              <article class="card" style="--i: 1;">
+        <div class="meta">
+          <span class="chip risk-high">HIGH</span>
+          
+            <span class="chip label-chip">INDUSTRY SIGNAL</span>
+          
+          <span class="chip chip-neutral">Credential Access</span>
+          <span class="chip chip-neutral">Confidence LOW</span>
+        </div>
+        
+          <h3><a href="https://thehackernews.com/2026/08/unc6671-vishing-attacks-target-personal.html" target="_blank" rel="noopener noreferrer">UNC6671 Vishing Attacks Target Personal Phones to Steal SaaS Data</a></h3>
+        
+        <p class="hook">The ongoing vishing attacks by UNC6671 could lead to significant data breaches in your organization if employees are not vigilant.</p>
+        <div class="support-grid">
+          <div class="text-block"><span class="label">Who should care:</span> IT and security teams in financial services, private equity, and professional services should be particularly vigilant.</div>
+          <div class="text-block"><span class="label">Attack path:</span> Attackers gain leverage by impersonating trusted IT personnel, which can lead to employees divulging sensitive information over the phone.</div>
+        </div>
+        <div class="text-block"><span class="label">Why this matters now:</span> Useful context for teams tracking where attacker pressure is building.</div>
+        <div class="text-block"><span class="label">In plain English:</span> UNC6671 is using vishing to trick employees into revealing sensitive SaaS data.</div>
+        
+          <div class="tags">
+            
+              <span>vishing</span>
+            
+              <span>data breach</span>
+            
+              <span>saas</span>
+            
+          </div>
+        
+        <ul class="story-list">
+          
+            <li>A series of vishing attacks have been reported, targeting employees in financial services, private equity, and professional services. The attackers impersonate IT help desk staff and claim to facilitate urgent security migrations to gain access to sensitive information.</li>
+          
+            <li>These attacks exploit the trust employees place in IT support, making it easier for attackers to extract sensitive data. If successful, this could lead to data breaches, financial loss, and reputational damage for affected organizations.</li>
+          
+            <li>Attackers gain leverage by impersonating trusted IT personnel, which can lead to employees divulging sensitive information over the phone.</li>
+          
+            <li>Watch next: Monitor for reports of increased vishing attempts and any updates from security vendors regarding protective measures.</li>
+          
+        </ul>
+
+        
+          <div class="glossary">
+            <div class="label">Key terms</div>
+            <ul class="list">
+            
+              <li>Vishing - voice phishing, a tactic where attackers use phone calls to trick individuals into revealing sensitive information.</li>
+            
+              <li>SaaS - Software as a Service, a software distribution model in which applications are hosted in the cloud and accessed via the internet.</li>
+            
+            </ul>
+          </div>
+        
+
+        <div>
+          <div class="label">Defender focus</div>
+          <ul class="list">
+            
+            <li>Implement call verification protocols for IT support requests.</li>
+            
+            <li>Train employees to recognize and report suspicious phone calls.</li>
+            
+            <li>Monitor for unusual access patterns in SaaS applications following employee interactions with unknown callers.</li>
+            
+          </ul>
+        </div>
+
+        <div>
+          <div class="label">Do now</div>
+          <ul class="list">
+            
+            <li>Enhance employee training on recognizing vishing attempts.</li>
+            
+            <li>Establish a verification process for IT-related phone calls.</li>
+            
+            <li>Review and strengthen access controls for sensitive SaaS applications.</li>
+            
+          </ul>
+        </div>
+
+        <div class="text-block"><span class="label">Watch next:</span> Monitor for reports of increased vishing attempts and any updates from security vendors regarding protective measures.</div>
+
+        <div class="sources">
+          <div class="label">Sources</div>
+          
+            
+              <div>
+                <a href="https://thehackernews.com/2026/08/unc6671-vishing-attacks-target-personal.html" target="_blank" rel="noopener noreferrer">
+                  The Hacker News - UNC6671 Vishing Attacks Target Personal Phones to Steal SaaS Data
+                </a>
+              </div>
+            
+          
+        </div>
+      </article>
+            
+          </div>
         
       </section>
     </main>
