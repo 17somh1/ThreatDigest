@@ -1,5 +1,5 @@
 {
-  "last_run_utc": "2026-08-10T09:10:55.772781+00:00",
+  "last_run_utc": "2026-08-10T13:26:17.331206+00:00",
   "processed_urls": [
     "https://www.bleepingcomputer.com/news/security/critical-cisco-sd-wan-bug-exploited-in-zero-day-attacks-since-2023/",
     "https://www.cisa.gov/news-events/alerts/2026/02/25/cisa-and-partners-release-guidance-ongoing-global-exploitation-cisco-sd-wan-systems",
@@ -1077,6 +1077,9 @@
     "https://thehackernews.com/2026/08/clickfix-attacks-deliver-macos-stealer.html",
     "https://thehackernews.com/2026/08/unc6671-vishing-attacks-target-personal.html",
     "https://www.bleepingcomputer.com/news/security/hackers-breach-trueconf-to-trojanize-client-installers-with-backdoors/",
-    "https://thehackernews.com/2026/08/solidity-pro-vs-code-extensions-steal.html"
+    "https://thehackernews.com/2026/08/solidity-pro-vs-code-extensions-steal.html",
+    "https://www.bleepingcomputer.com/news/security/cisa-warns-of-critical-progress-loadmaster-flaw-exploited-in-attacks/",
+    "https://thehackernews.com/2026/08/head-mare-exploits-trueconf-flaws-to.html",
+    "https://thehackernews.com/2026/08/new-passkey-attacks-can-recover-synced.html"
   ]
 }
