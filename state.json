@@ -1,5 +1,5 @@
 {
-  "last_run_utc": "2026-08-11T13:22:08.712675+00:00",
+  "last_run_utc": "2026-08-12T09:05:49.697033+00:00",
   "processed_urls": [
     "https://www.bleepingcomputer.com/news/security/critical-cisco-sd-wan-bug-exploited-in-zero-day-attacks-since-2023/",
     "https://www.cisa.gov/news-events/alerts/2026/02/25/cisa-and-partners-release-guidance-ongoing-global-exploitation-cisco-sd-wan-systems",
@@ -1090,6 +1090,19 @@
     "https://thehackernews.com/2026/08/kimsuky-builds-offline-ai-stack-that.html",
     "https://www.bleepingcomputer.com/news/security/cisa-microsoft-sharepoint-flaw-now-exploited-in-ransomware-attacks/",
     "https://www.bleepingcomputer.com/news/security/us-warns-of-gunra-ransomware-attacks-against-government-critical-infrastructure/",
-    "https://thehackernews.com/2026/08/gunra-ransomware-exploits-fortinet-and.html"
+    "https://thehackernews.com/2026/08/gunra-ransomware-exploits-fortinet-and.html",
+    "https://www.bleepingcomputer.com/news/microsoft/microsoft-august-2026-patch-tuesday-fixes-400-flaws-3-zero-days/",
+    "https://thehackernews.com/2026/08/cisco-asa-and-ftd-flaw-exploited-in.html",
+    "https://krebsonsecurity.com/2026/08/microsoft-plugs-nearly-400-security-holes/",
+    "https://www.bleepingcomputer.com/news/security/cisco-warns-of-asa-and-ftd-vpn-flaw-exploited-to-crash-devices/",
+    "https://thehackernews.com/2026/08/shieldbreak-zero-day-poc-claims.html",
+    "https://thehackernews.com/2026/08/microsoft-patches-398-flaws-including.html",
+    "https://thehackernews.com/2026/08/sap-commerce-cloud-flaw-could-let.html",
+    "https://thehackernews.com/2026/08/deadlock-ransomware-uses-polygon-smart.html",
+    "https://thehackernews.com/2026/08/openai-launches-gpt-56-cyber-with.html",
+    "https://www.bleepingcomputer.com/news/security/deadlock-ransomware-uses-blockchain-to-resist-infrastructure-takedown/",
+    "https://www.bleepingcomputer.com/news/security/wesco-confirms-security-incident-after-exfilsquad-claims-data-theft/",
+    "https://thehackernews.com/2026/08/malicious-litellm-releases-tied-to.html",
+    "https://thehackernews.com/2026/08/researchers-disclose-ai-assisted.html"
   ]
 }
