@@ -1,5 +1,5 @@
 {
-  "last_run_utc": "2026-08-12T09:05:49.697033+00:00",
+  "last_run_utc": "2026-08-12T13:27:02.230325+00:00",
   "processed_urls": [
     "https://www.bleepingcomputer.com/news/security/critical-cisco-sd-wan-bug-exploited-in-zero-day-attacks-since-2023/",
     "https://www.cisa.gov/news-events/alerts/2026/02/25/cisa-and-partners-release-guidance-ongoing-global-exploitation-cisco-sd-wan-systems",
@@ -1103,6 +1103,9 @@
     "https://www.bleepingcomputer.com/news/security/deadlock-ransomware-uses-blockchain-to-resist-infrastructure-takedown/",
     "https://www.bleepingcomputer.com/news/security/wesco-confirms-security-incident-after-exfilsquad-claims-data-theft/",
     "https://thehackernews.com/2026/08/malicious-litellm-releases-tied-to.html",
-    "https://thehackernews.com/2026/08/researchers-disclose-ai-assisted.html"
+    "https://thehackernews.com/2026/08/researchers-disclose-ai-assisted.html",
+    "https://thehackernews.com/2026/08/adobe-patches-three-cvss-100-coldfusion.html",
+    "https://www.bleepingcomputer.com/news/security/new-microsoft-defender-shieldbreak-zero-day-grants-system-privileges/",
+    "https://thehackernews.com/2026/08/attackers-exploit-vmware-vcenter.html"
   ]
 }
