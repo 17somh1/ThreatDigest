@@ -1,5 +1,5 @@
 {
-  "last_run_utc": "2026-08-12T13:27:02.230325+00:00",
+  "last_run_utc": "2026-08-13T09:05:03.705799+00:00",
   "processed_urls": [
     "https://www.bleepingcomputer.com/news/security/critical-cisco-sd-wan-bug-exploited-in-zero-day-attacks-since-2023/",
     "https://www.cisa.gov/news-events/alerts/2026/02/25/cisa-and-partners-release-guidance-ongoing-global-exploitation-cisco-sd-wan-systems",
@@ -1106,6 +1106,10 @@
     "https://thehackernews.com/2026/08/researchers-disclose-ai-assisted.html",
     "https://thehackernews.com/2026/08/adobe-patches-three-cvss-100-coldfusion.html",
     "https://www.bleepingcomputer.com/news/security/new-microsoft-defender-shieldbreak-zero-day-grants-system-privileges/",
-    "https://thehackernews.com/2026/08/attackers-exploit-vmware-vcenter.html"
+    "https://thehackernews.com/2026/08/attackers-exploit-vmware-vcenter.html",
+    "https://www.bleepingcomputer.com/news/security/lazarus-hackers-exploited-windows-zero-day-to-target-defense-firms/",
+    "https://thehackernews.com/2026/08/lazarus-exploits-windows-zero-day-to.html",
+    "https://thehackernews.com/2026/08/attackers-exploit-sharepoint.html",
+    "https://www.bleepingcomputer.com/news/security/hackers-exploit-critical-adobe-commerce-flaw-to-hijack-customer-accounts/"
   ]
 }
