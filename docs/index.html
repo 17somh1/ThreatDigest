@@ -378,8 +378,8 @@
         The security news worth your attention, with context and practical takeaways.
       </p>
       <div class="meta-bar">
-        <span>Updated: 2026-08-15 08:18 UTC</span>
-        <span>Stories: 3</span>
+        <span>Updated: 2026-08-15 12:52 UTC</span>
+        <span>Stories: 6</span>
         <span>Recent issues: 14</span>
       </div>
     </header>
@@ -389,7 +389,7 @@
         <section class="one-liner">
           <h2>What Matters Today</h2>
           
-            <p class="text-block">Organizations must urgently address critical vulnerabilities in SAP Commerce Cloud and remain vigilant against sophisticated attacks targeting Google Workspace and service provider flaws.</p>
+            <p class="text-block">Critical vulnerabilities in VMware vCenter, Windows, and SAP Commerce Cloud are actively exploited, demanding immediate patching to prevent unauthorized access and data breaches.</p>
           
         </section>
 
@@ -398,11 +398,11 @@
           
             <ul>
               
-              <li>Immediate action is required to mitigate high-risk vulnerabilities in widely used platforms.</li>
+              <li>Attackers are leveraging critical vulnerabilities in widely used platforms to gain unauthorized access, increasing pressure on defenders to patch systems quickly.</li>
               
-              <li>Attacker tactics are evolving to exploit weaknesses in authentication mechanisms, increasing the burden on defenders.</li>
+              <li>The rise of sophisticated techniques, such as bypassing security measures with stolen tokens and disabling endpoint detection, highlights the evolving tactics of cybercriminals.</li>
               
-              <li>Financial institutions must enhance their security posture against targeted fraud schemes exploiting service provider vulnerabilities.</li>
+              <li>Organizations must prioritize vigilance and rapid response to potential data breaches, as investigations into incidents like Shell's reveal the ongoing threat landscape.</li>
               
             </ul>
           
@@ -428,33 +428,35 @@
           <span class="chip chip-neutral">Confidence LOW</span>
         </div>
         
-          <h3><a href="https://www.bleepingcomputer.com/news/security/max-severity-sap-commerce-cloud-flaw-now-targeted-in-attacks/" target="_blank" rel="noopener noreferrer">Max severity SAP Commerce Cloud flaw now targeted in attacks</a></h3>
+          <h3><a href="https://www.bleepingcomputer.com/news/security/critical-vmware-vcenter-rce-flaw-exploited-for-reverse-ssh-access/" target="_blank" rel="noopener noreferrer">Critical VMware vCenter RCE flaw exploited for reverse SSH access</a></h3>
         
-        <p class="hook">Immediate exploitation of a critical SAP Commerce Cloud vulnerability poses a significant risk to organizations using this platform.</p>
+        <p class="hook">Exploitation of a critical VMware vCenter vulnerability could lead to unauthorized remote access, risking sensitive data and operational integrity.</p>
         <div class="support-grid">
-          <div class="text-block"><span class="label">Who should care:</span> IT security teams managing SAP Commerce Cloud environments should prioritize this issue.</div>
-          <div class="text-block"><span class="label">Attack path:</span> Attackers can leverage this vulnerability to gain remote access and execute malicious code on vulnerable systems, potentially compromising sensitive data.</div>
+          <div class="text-block"><span class="label">Who should care:</span> IT security teams managing VMware vCenter environments should prioritize this issue.</div>
+          <div class="text-block"><span class="label">Attack path:</span> Attackers exploit the vulnerability to deploy a reverse SSH tool, enabling them to maintain access to the system even after initial detection.</div>
         </div>
         <div class="text-block"><span class="label">Why this matters now:</span> A live patch or vendor fix gives defenders something concrete to validate.</div>
-        <div class="text-block"><span class="label">In plain English:</span> A recently patched severe vulnerability in SAP Commerce Cloud is now being actively exploited by attackers.</div>
+        <div class="text-block"><span class="label">In plain English:</span> A critical flaw in VMware vCenter is being actively exploited for remote access, posing serious risks to affected environments.</div>
         
           <div class="tags">
             
+              <span>vcenter</span>
+            
               <span>cve</span>
             
-              <span>cloud</span>
+              <span>remote_access</span>
             
           </div>
         
         <ul class="story-list">
           
-            <li>A maximum-severity remote code execution vulnerability in SAP Commerce Cloud was patched three days ago. Threat intelligence reports indicate that attackers are already targeting this flaw in active campaigns.</li>
+            <li>A critical vulnerability (CVE-2026-59310) in VMware vCenter Syslog Server has been identified and patched. However, it is currently being exploited in the wild to deploy a reverse SSH tool, allowing attackers to maintain persistent access.</li>
           
-            <li>If successfully exploited, this vulnerability could allow attackers to execute arbitrary code on affected systems, leading to potential data breaches or service disruptions. Organizations using SAP Commerce Cloud must act quickly to mitigate the risk of exploitation.</li>
+            <li>This vulnerability allows attackers to bypass security controls and gain unauthorized access to systems, which could lead to data breaches or further exploitation. Organizations using VMware vCenter need to act quickly to mitigate potential risks.</li>
           
-            <li>Attackers can leverage this vulnerability to gain remote access and execute malicious code on vulnerable systems, potentially compromising sensitive data.</li>
+            <li>Attackers exploit the vulnerability to deploy a reverse SSH tool, enabling them to maintain access to the system even after initial detection.</li>
           
-            <li>Watch next: Monitor for updates from SAP regarding any additional patches or guidance related to this vulnerability.</li>
+            <li>Watch next: Monitor for updates from VMware regarding additional patches or mitigation strategies.</li>
           
         </ul>
 
@@ -463,9 +465,9 @@
             <div class="label">Key terms</div>
             <ul class="list">
             
-              <li>Remote Code Execution - a type of vulnerability that allows an attacker to run arbitrary code on a target system from a remote location.</li>
+              <li>RCE - Remote Code Execution, a vulnerability that allows an attacker to run arbitrary code on a remote system.</li>
             
-              <li>Vulnerability - a weakness in a system that can be exploited by attackers to gain unauthorized access or cause harm.</li>
+              <li>Reverse SSH - A method where a compromised system initiates a connection back to an attacker's server, allowing remote control.</li>
             
             </ul>
           </div>
@@ -475,11 +477,11 @@
           <div class="label">Defender focus</div>
           <ul class="list">
             
-            <li>Implement monitoring for unusual activity on SAP Commerce Cloud instances.</li>
+            <li>Implement monitoring for unusual SSH connections from vCenter systems.</li>
             
-            <li>Ensure all systems are updated with the latest security patches.</li>
+            <li>Review logs for any unauthorized access attempts or anomalies.</li>
             
-            <li>Review access controls and logs for any signs of exploitation attempts.</li>
+            <li>Ensure that the latest patches are applied to all VMware vCenter installations.</li>
             
           </ul>
         </div>
@@ -488,24 +490,24 @@
           <div class="label">Do now</div>
           <ul class="list">
             
-            <li>Immediately apply the latest security patch from SAP.</li>
+            <li>Immediately apply the latest security patches from VMware.</li>
             
-            <li>Conduct a risk assessment to identify vulnerable systems.</li>
+            <li>Conduct a security audit of your VMware vCenter configurations.</li>
             
-            <li>Enhance monitoring for signs of exploitation or unusual behavior.</li>
+            <li>Enhance monitoring for any signs of reverse SSH connections.</li>
             
           </ul>
         </div>
 
-        <div class="text-block"><span class="label">Watch next:</span> Monitor for updates from SAP regarding any additional patches or guidance related to this vulnerability.</div>
+        <div class="text-block"><span class="label">Watch next:</span> Monitor for updates from VMware regarding additional patches or mitigation strategies.</div>
 
         <div class="sources">
           <div class="label">Sources</div>
           
             
               <div>
-                <a href="https://www.bleepingcomputer.com/news/security/max-severity-sap-commerce-cloud-flaw-now-targeted-in-attacks/" target="_blank" rel="noopener noreferrer">
-                  BleepingComputer - Max severity SAP Commerce Cloud flaw now targeted in attacks
+                <a href="https://www.bleepingcomputer.com/news/security/critical-vmware-vcenter-rce-flaw-exploited-for-reverse-ssh-access/" target="_blank" rel="noopener noreferrer">
+                  BleepingComputer - Critical VMware vCenter RCE flaw exploited for reverse SSH access
                 </a>
               </div>
             
@@ -526,43 +528,43 @@
             
               <article class="card" style="--i: 0;">
         <div class="meta">
-          <span class="chip risk-medium">MEDIUM</span>
+          <span class="chip risk-high">HIGH</span>
           
-            <span class="chip label-chip">INDUSTRY SIGNAL</span>
+            <span class="chip label-chip">PATCH RELEASE</span>
           
           <span class="chip chip-neutral">Initial Access</span>
           <span class="chip chip-neutral">Confidence LOW</span>
         </div>
         
-          <h3><a href="https://www.bleepingcomputer.com/news/security/the-modern-attack-chain-rethinking-google-workspace-security-in-the-age-of-ai/" target="_blank" rel="noopener noreferrer">The Modern Attack Chain: Rethinking Google Workspace Security in the Age of AI</a></h3>
+          <h3><a href="https://www.bleepingcomputer.com/news/microsoft/microsoft-patches-legacyhive-windows-zero-day-vulnerability/" target="_blank" rel="noopener noreferrer">Microsoft patches LegacyHive Windows zero-day vulnerability</a></h3>
         
-        <p class="hook">Organizations using Google Workspace face increased risk from sophisticated attacks leveraging stolen OAuth tokens, which can bypass traditional security measures.</p>
+        <p class="hook">The LegacyHive vulnerability poses a significant risk to Windows systems, making immediate patching essential to prevent potential exploitation.</p>
         <div class="support-grid">
-          <div class="text-block"><span class="label">Who should care:</span> IT security teams managing Google Workspace environments should prioritize this issue.</div>
-          <div class="text-block"><span class="label">Attack path:</span> Attackers can obtain OAuth tokens through various means, including exploiting vulnerabilities in third-party applications or social engineering techniques, allowing them to access user accounts directly.</div>
+          <div class="text-block"><span class="label">Who should care:</span> IT and security teams managing Windows environments should prioritize this patch to safeguard their systems.</div>
+          <div class="text-block"><span class="label">Attack path:</span> An attacker could exploit the LegacyHive vulnerability to execute malicious code on vulnerable systems, gaining unauthorized access and control.</div>
         </div>
-        <div class="text-block"><span class="label">Why this matters now:</span> Useful context for teams tracking where attacker pressure is building.</div>
-        <div class="text-block"><span class="label">In plain English:</span> Stolen OAuth tokens can compromise Google Workspace accounts, highlighting the need for comprehensive security strategies.</div>
+        <div class="text-block"><span class="label">Why this matters now:</span> A live patch or vendor fix gives defenders something concrete to validate.</div>
+        <div class="text-block"><span class="label">In plain English:</span> Microsoft has patched a critical zero-day vulnerability in Windows that could allow attackers to gain unauthorized access.</div>
         
           <div class="tags">
             
-              <span>cloud</span>
+              <span>cve</span>
             
-              <span>oauth</span>
+              <span>windows</span>
             
-              <span>google workspace</span>
+              <span>patch</span>
             
           </div>
         
         <ul class="story-list">
           
-            <li>Recent insights reveal that attacks on Google Workspace are evolving, with attackers increasingly using stolen OAuth tokens to gain unauthorized access to Gmail, Drive, and other connected systems. This method does not rely solely on phishing, making it a more insidious threat.</li>
+            <li>Microsoft released security patches for a zero-day vulnerability in Windows known as LegacyHive. This vulnerability was disclosed following the July 2026 Patch Tuesday and affects various Windows versions.</li>
           
-            <li>The use of stolen OAuth tokens can lead to significant data breaches, as attackers can access sensitive information without triggering typical security alerts. Organizations must adapt their security measures to address this evolving threat landscape to protect their data and maintain compliance.</li>
+            <li>If left unpatched, the LegacyHive vulnerability could allow attackers to execute arbitrary code, leading to unauthorized access and potential data breaches. Organizations using affected Windows systems are at heightened risk until they apply the necessary updates.</li>
           
-            <li>Attackers can obtain OAuth tokens through various means, including exploiting vulnerabilities in third-party applications or social engineering techniques, allowing them to access user accounts directly.</li>
+            <li>An attacker could exploit the LegacyHive vulnerability to execute malicious code on vulnerable systems, gaining unauthorized access and control.</li>
           
-            <li>Watch next: Monitor for updates from Google regarding OAuth security enhancements and any emerging threats related to token misuse.</li>
+            <li>Watch next: Monitor for updates from Microsoft regarding any additional vulnerabilities or patches related to LegacyHive.</li>
           
         </ul>
 
@@ -571,9 +573,9 @@
             <div class="label">Key terms</div>
             <ul class="list">
             
-              <li>OAuth token - a credential that allows access to a user's account without sharing their password.</li>
+              <li>ZERO-DAY - a vulnerability that is exploited before the vendor releases a fix.</li>
             
-              <li>Google Workspace - a suite of cloud computing, productivity, and collaboration tools developed by Google.</li>
+              <li>PATCH - a software update designed to fix vulnerabilities or improve functionality.</li>
             
             </ul>
           </div>
@@ -583,11 +585,11 @@
           <div class="label">Defender focus</div>
           <ul class="list">
             
-            <li>Implement monitoring for unusual OAuth token usage across Google Workspace accounts.</li>
+            <li>Ensure all Windows systems are updated with the latest patches from Microsoft.</li>
             
-            <li>Review and tighten permissions for third-party applications that can access Google Workspace data.</li>
+            <li>Monitor network traffic for signs of exploitation attempts related to LegacyHive.</li>
             
-            <li>Conduct regular audits of OAuth tokens to identify and revoke any that are no longer needed.</li>
+            <li>Review system logs for unusual access patterns that may indicate exploitation.</li>
             
           </ul>
         </div>
@@ -596,24 +598,24 @@
           <div class="label">Do now</div>
           <ul class="list">
             
-            <li>Enhance OAuth token management policies immediately.</li>
+            <li>Immediately apply the Microsoft patches for LegacyHive.</li>
             
-            <li>Educate users on recognizing suspicious application requests.</li>
+            <li>Conduct a vulnerability assessment to identify unpatched systems.</li>
             
-            <li>Regularly review and update security configurations for Google Workspace.</li>
+            <li>Educate staff on the importance of timely updates and patch management.</li>
             
           </ul>
         </div>
 
-        <div class="text-block"><span class="label">Watch next:</span> Monitor for updates from Google regarding OAuth security enhancements and any emerging threats related to token misuse.</div>
+        <div class="text-block"><span class="label">Watch next:</span> Monitor for updates from Microsoft regarding any additional vulnerabilities or patches related to LegacyHive.</div>
 
         <div class="sources">
           <div class="label">Sources</div>
           
             
               <div>
-                <a href="https://www.bleepingcomputer.com/news/security/the-modern-attack-chain-rethinking-google-workspace-security-in-the-age-of-ai/" target="_blank" rel="noopener noreferrer">
-                  BleepingComputer - The Modern Attack Chain: Rethinking Google Workspace Security in the Age of AI
+                <a href="https://www.bleepingcomputer.com/news/microsoft/microsoft-patches-legacyhive-windows-zero-day-vulnerability/" target="_blank" rel="noopener noreferrer">
+                  BleepingComputer - Microsoft patches LegacyHive Windows zero-day vulnerability
                 </a>
               </div>
             
@@ -625,41 +627,41 @@
         <div class="meta">
           <span class="chip risk-high">HIGH</span>
           
+            <span class="chip label-chip">PATCH RELEASE</span>
+          
             <span class="chip label-chip">LEGAL POLICY</span>
           
-          <span class="chip chip-neutral">Credential Access</span>
+          <span class="chip chip-neutral">Initial Access</span>
           <span class="chip chip-neutral">Confidence LOW</span>
         </div>
         
-          <h3><a href="https://www.bleepingcomputer.com/news/security/hackers-arrested-over-30m-bank-fraud-exploiting-service-provider-flaw/" target="_blank" rel="noopener noreferrer">Hackers arrested over €30M bank fraud exploiting service provider flaw</a></h3>
+          <h3><a href="https://www.bleepingcomputer.com/news/security/max-severity-sap-commerce-cloud-flaw-now-targeted-in-attacks/" target="_blank" rel="noopener noreferrer">Max severity SAP Commerce Cloud flaw now targeted in attacks</a></h3>
         
-        <p class="hook">The arrest of hackers involved in a €30M bank fraud highlights vulnerabilities in service providers that could lead to significant financial losses for banks and their customers.</p>
+        <p class="hook">Immediate exploitation of a critical SAP Commerce Cloud vulnerability poses a significant risk to organizations using this platform.</p>
         <div class="support-grid">
-          <div class="text-block"><span class="label">Who should care:</span> Banking security teams and service provider security teams should be particularly vigilant.</div>
-          <div class="text-block"><span class="label">Attack path:</span> Attackers gained leverage by exploiting a vulnerability in a service provider, allowing them to manipulate bank account access and withdraw funds.</div>
+          <div class="text-block"><span class="label">Who should care:</span> IT security teams managing SAP Commerce Cloud environments are most exposed.</div>
+          <div class="text-block"><span class="label">Attack path:</span> Attackers can leverage this vulnerability to gain remote access and execute malicious code on compromised systems.</div>
         </div>
-        <div class="text-block"><span class="label">Why this matters now:</span> Useful context for teams tracking where attacker pressure is building.</div>
-        <div class="text-block"><span class="label">In plain English:</span> Hackers exploited a service provider flaw to steal millions from bank accounts, leading to arrests.</div>
+        <div class="text-block"><span class="label">Why this matters now:</span> A live patch or vendor fix gives defenders something concrete to validate.</div>
+        <div class="text-block"><span class="label">In plain English:</span> A recently patched critical vulnerability in SAP Commerce Cloud is being actively exploited in attacks.</div>
         
           <div class="tags">
             
-              <span>banking</span>
+              <span>cve</span>
             
-              <span>fraud</span>
-            
-              <span>vulnerability</span>
+              <span>cloud</span>
             
           </div>
         
         <ul class="story-list">
           
-            <li>Four cybercriminals were arrested in Brazil, and three others were charged in Europe for exploiting a vulnerability in a service provider. This flaw allowed them unauthorized access to Commerzbank customers' accounts, resulting in substantial financial theft.</li>
+            <li>A maximum-severity remote code execution vulnerability in SAP Commerce Cloud was patched three days ago. Threat intelligence reports indicate that attackers are already targeting this flaw.</li>
           
-            <li>The incident underscores the critical need for banks and service providers to secure their systems against vulnerabilities that can be exploited for financial gain. If similar vulnerabilities exist elsewhere, they could lead to widespread financial fraud affecting many customers.</li>
+            <li>If exploited, this vulnerability could allow attackers to execute arbitrary code on affected systems, potentially leading to data breaches or service disruptions. Organizations using SAP Commerce Cloud must act quickly to mitigate the risk.</li>
           
-            <li>Attackers gained leverage by exploiting a vulnerability in a service provider, allowing them to manipulate bank account access and withdraw funds.</li>
+            <li>Attackers can leverage this vulnerability to gain remote access and execute malicious code on compromised systems.</li>
           
-            <li>Watch next: Monitor for updates on security patches from the affected service provider and any related vulnerabilities.</li>
+            <li>Watch next: Monitor for updates from SAP regarding further patches or guidance on mitigating this vulnerability.</li>
           
         </ul>
 
@@ -668,9 +670,9 @@
             <div class="label">Key terms</div>
             <ul class="list">
             
-              <li>Vulnerability - a weakness in a system that can be exploited by attackers to gain unauthorized access.</li>
+              <li>REMOTE CODE EXECUTION - a type of vulnerability that allows an attacker to run arbitrary code on a remote system.</li>
             
-              <li>Service Provider - a company that offers services to other businesses, often handling sensitive data.</li>
+              <li>VULNERABILITY - a weakness in a system that can be exploited by an attacker.</li>
             
             </ul>
           </div>
@@ -680,11 +682,11 @@
           <div class="label">Defender focus</div>
           <ul class="list">
             
-            <li>Review logs for unusual access patterns to customer accounts.</li>
+            <li>Implement the latest security patches for SAP Commerce Cloud immediately.</li>
             
-            <li>Implement multi-factor authentication for sensitive transactions.</li>
+            <li>Monitor logs for unusual access patterns or unauthorized code execution attempts.</li>
             
-            <li>Conduct a security audit of service provider integrations.</li>
+            <li>Conduct a vulnerability assessment to identify any other potential weaknesses in your environment.</li>
             
           </ul>
         </div>
@@ -693,24 +695,121 @@
           <div class="label">Do now</div>
           <ul class="list">
             
-            <li>Investigate any recent changes to service provider configurations.</li>
+            <li>Apply the latest security patch for SAP Commerce Cloud.</li>
             
-            <li>Enhance monitoring of account access for anomalies.</li>
+            <li>Review and enhance firewall rules to limit access to the affected systems.</li>
             
-            <li>Coordinate with service providers to ensure they are addressing vulnerabilities.</li>
+            <li>Educate relevant teams about the vulnerability and its potential impact.</li>
             
           </ul>
         </div>
 
-        <div class="text-block"><span class="label">Watch next:</span> Monitor for updates on security patches from the affected service provider and any related vulnerabilities.</div>
+        <div class="text-block"><span class="label">Watch next:</span> Monitor for updates from SAP regarding further patches or guidance on mitigating this vulnerability.</div>
 
         <div class="sources">
           <div class="label">Sources</div>
           
             
               <div>
-                <a href="https://www.bleepingcomputer.com/news/security/hackers-arrested-over-30m-bank-fraud-exploiting-service-provider-flaw/" target="_blank" rel="noopener noreferrer">
-                  BleepingComputer - Hackers arrested over €30M bank fraud exploiting service provider flaw
+                <a href="https://www.bleepingcomputer.com/news/security/max-severity-sap-commerce-cloud-flaw-now-targeted-in-attacks/" target="_blank" rel="noopener noreferrer">
+                  BleepingComputer - Max severity SAP Commerce Cloud flaw now targeted in attacks
+                </a>
+              </div>
+            
+          
+        </div>
+      </article>
+            
+              <article class="card" style="--i: 2;">
+        <div class="meta">
+          <span class="chip risk-medium">MEDIUM</span>
+          
+            <span class="chip label-chip">INDUSTRY SIGNAL</span>
+          
+          <span class="chip chip-neutral">Initial Access</span>
+          <span class="chip chip-neutral">Confidence LOW</span>
+        </div>
+        
+          <h3><a href="https://www.bleepingcomputer.com/news/security/the-modern-attack-chain-rethinking-google-workspace-security-in-the-age-of-ai/" target="_blank" rel="noopener noreferrer">The Modern Attack Chain: Rethinking Google Workspace Security in the Age of AI</a></h3>
+        
+        <p class="hook">Organizations using Google Workspace face increased risk as attackers exploit stolen OAuth tokens to bypass traditional security measures.</p>
+        <div class="support-grid">
+          <div class="text-block"><span class="label">Who should care:</span> IT security teams managing Google Workspace environments should prioritize this issue.</div>
+          <div class="text-block"><span class="label">Attack path:</span> Attackers can gain access by stealing OAuth tokens, which can be obtained through various means, including exploiting vulnerabilities in third-party applications.</div>
+        </div>
+        <div class="text-block"><span class="label">Why this matters now:</span> Useful context for teams tracking where attacker pressure is building.</div>
+        <div class="text-block"><span class="label">In plain English:</span> Stolen OAuth tokens can allow attackers to access Google Workspace without phishing.</div>
+        
+          <div class="tags">
+            
+              <span>cloud</span>
+            
+              <span>oauth</span>
+            
+              <span>google_workspace</span>
+            
+          </div>
+        
+        <ul class="story-list">
+          
+            <li>Recent analysis highlights that attacks on Google Workspace can start with stolen OAuth tokens rather than phishing. This method allows unauthorized access to Gmail, Drive, and other connected systems.</li>
+          
+            <li>The shift in attack vectors means that traditional security measures may not be sufficient to protect sensitive data in Google Workspace. Organizations must adapt their defenses to cover the entire attack chain to mitigate these risks.</li>
+          
+            <li>Attackers can gain access by stealing OAuth tokens, which can be obtained through various means, including exploiting vulnerabilities in third-party applications.</li>
+          
+            <li>Watch next: Monitor for updates from Google regarding OAuth security enhancements and any reported incidents involving token theft.</li>
+          
+        </ul>
+
+        
+          <div class="glossary">
+            <div class="label">Key terms</div>
+            <ul class="list">
+            
+              <li>OAuth - an open standard for access delegation commonly used for token-based authentication.</li>
+            
+              <li>Token - a piece of data that represents the authorization to access specific resources.</li>
+            
+            </ul>
+          </div>
+        
+
+        <div>
+          <div class="label">Defender focus</div>
+          <ul class="list">
+            
+            <li>Implement monitoring for unusual OAuth token usage in Google Workspace.</li>
+            
+            <li>Review and tighten permissions for third-party applications connected to Google Workspace.</li>
+            
+            <li>Educate users on recognizing suspicious application requests that may lead to token theft.</li>
+            
+          </ul>
+        </div>
+
+        <div>
+          <div class="label">Do now</div>
+          <ul class="list">
+            
+            <li>Audit OAuth token permissions and revoke unnecessary access.</li>
+            
+            <li>Enhance monitoring for unauthorized access attempts in Google Workspace.</li>
+            
+            <li>Stay informed on best practices for securing OAuth tokens.</li>
+            
+          </ul>
+        </div>
+
+        <div class="text-block"><span class="label">Watch next:</span> Monitor for updates from Google regarding OAuth security enhancements and any reported incidents involving token theft.</div>
+
+        <div class="sources">
+          <div class="label">Sources</div>
+          
+            
+              <div>
+                <a href="https://www.bleepingcomputer.com/news/security/the-modern-attack-chain-rethinking-google-workspace-security-in-the-age-of-ai/" target="_blank" rel="noopener noreferrer">
+                  BleepingComputer - The Modern Attack Chain: Rethinking Google Workspace Security in the Age of AI
                 </a>
               </div>
             
@@ -728,7 +827,203 @@
           Wider Signal
         </div>
         
-          <p class="empty">No context stories today.</p>
+          <div class="grid">
+            
+              <article class="card" style="--i: 0;">
+        <div class="meta">
+          <span class="chip risk-medium">MEDIUM</span>
+          
+            <span class="chip label-chip">INDUSTRY SIGNAL</span>
+          
+          <span class="chip chip-neutral">Exfiltration</span>
+          <span class="chip chip-neutral">Confidence LOW</span>
+        </div>
+        
+          <h3><a href="https://www.bleepingcomputer.com/news/security/shell-investigates-potential-incident-after-clop-data-theft-claims/" target="_blank" rel="noopener noreferrer">Shell investigates 'potential incident' after Clop data theft claims</a></h3>
+        
+        <p class="hook">Shell's investigation into a potential data breach could expose sensitive information, impacting operations and reputation.</p>
+        <div class="support-grid">
+          <div class="text-block"><span class="label">Who should care:</span> IT security teams and data governance personnel at Shell and similar organizations should be particularly vigilant.</div>
+          <div class="text-block"><span class="label">Attack path:</span> The Clop ransomware group typically gains access through phishing or exploiting vulnerabilities, allowing them to exfiltrate large volumes of data.</div>
+        </div>
+        <div class="text-block"><span class="label">Why this matters now:</span> Useful context for teams tracking where attacker pressure is building.</div>
+        <div class="text-block"><span class="label">In plain English:</span> Shell is looking into a possible security incident linked to Clop ransomware, which claims to have stolen significant data.</div>
+        
+          <div class="tags">
+            
+              <span>ransomware</span>
+            
+              <span>data breach</span>
+            
+              <span>incident response</span>
+            
+          </div>
+        
+        <ul class="story-list">
+          
+            <li>Shell has acknowledged a potential security incident following claims from the Clop ransomware group that they have stolen 89GB of data. The company is currently investigating the validity of these claims and the extent of the breach.</li>
+          
+            <li>If the claims are confirmed, Shell could face operational disruptions and reputational damage, particularly in a sector where data integrity is critical. Additionally, the stolen data may include sensitive information that could be exploited for further attacks or sold on the dark web.</li>
+          
+            <li>The Clop ransomware group typically gains access through phishing or exploiting vulnerabilities, allowing them to exfiltrate large volumes of data.</li>
+          
+            <li>Watch next: Monitor for updates from Shell regarding the investigation's findings and any potential data leaks.</li>
+          
+        </ul>
+
+        
+          <div class="glossary">
+            <div class="label">Key terms</div>
+            <ul class="list">
+            
+              <li>Clop ransomware - a type of malicious software that encrypts files and demands a ransom for their release.</li>
+            
+              <li>Data exfiltration - the unauthorized transfer of data from a computer or network.</li>
+            
+            </ul>
+          </div>
+        
+
+        <div>
+          <div class="label">Defender focus</div>
+          <ul class="list">
+            
+            <li>Enhance monitoring for unusual data transfers from Shell's networks.</li>
+            
+            <li>Review access logs for any unauthorized access attempts.</li>
+            
+            <li>Prepare incident response protocols in case of confirmed data exposure.</li>
+            
+          </ul>
+        </div>
+
+        <div>
+          <div class="label">Do now</div>
+          <ul class="list">
+            
+            <li>Initiate a thorough investigation into the claims made by Clop.</li>
+            
+            <li>Increase network monitoring for signs of data exfiltration.</li>
+            
+            <li>Communicate with stakeholders about potential impacts and response measures.</li>
+            
+          </ul>
+        </div>
+
+        <div class="text-block"><span class="label">Watch next:</span> Monitor for updates from Shell regarding the investigation's findings and any potential data leaks.</div>
+
+        <div class="sources">
+          <div class="label">Sources</div>
+          
+            
+              <div>
+                <a href="https://www.bleepingcomputer.com/news/security/shell-investigates-potential-incident-after-clop-data-theft-claims/" target="_blank" rel="noopener noreferrer">
+                  BleepingComputer - Shell investigates 'potential incident' after Clop data theft claims
+                </a>
+              </div>
+            
+          
+        </div>
+      </article>
+            
+              <article class="card" style="--i: 1;">
+        <div class="meta">
+          <span class="chip risk-high">HIGH</span>
+          
+            <span class="chip label-chip">INDUSTRY SIGNAL</span>
+          
+          <span class="chip chip-neutral">Credential Access</span>
+          <span class="chip chip-neutral">Confidence LOW</span>
+        </div>
+        
+          <h3><a href="https://www.bleepingcomputer.com/news/security/akira-hackers-disable-edr-with-safe-mode-steal-data-but-fail-to-encrypt/" target="_blank" rel="noopener noreferrer">Akira hackers disable EDR with Safe Mode, steal data but fail to encrypt</a></h3>
+        
+        <p class="hook">The Akira ransomware group has demonstrated a new method to bypass security measures, posing a significant threat to data integrity and availability.</p>
+        <div class="support-grid">
+          <div class="text-block"><span class="label">Who should care:</span> IT security teams and incident response units managing endpoint security solutions are most exposed.</div>
+          <div class="text-block"><span class="label">Attack path:</span> Attackers gain leverage by exploiting system boot options to bypass security controls, allowing them to operate undetected during data theft.</div>
+        </div>
+        <div class="text-block"><span class="label">Why this matters now:</span> Useful context for teams tracking where attacker pressure is building.</div>
+        <div class="text-block"><span class="label">In plain English:</span> Akira hackers disabled security tools to steal data without encrypting it, increasing the risk of data leaks.</div>
+        
+          <div class="tags">
+            
+              <span>ransomware</span>
+            
+              <span>cve</span>
+            
+              <span>cloud</span>
+            
+          </div>
+        
+        <ul class="story-list">
+          
+            <li>An affiliate of the Akira ransomware group successfully disabled endpoint detection and response (EDR) solutions by booting a compromised system into Safe Mode with Networking. This allowed them to steal data without triggering typical security alerts, although they did not encrypt the data.</li>
+          
+            <li>The ability to disable EDR solutions significantly lowers the defenses of affected systems, making it easier for attackers to exfiltrate sensitive information. Organizations must be aware that even without encryption, stolen data can lead to severe reputational and financial damage.</li>
+          
+            <li>Attackers gain leverage by exploiting system boot options to bypass security controls, allowing them to operate undetected during data theft.</li>
+          
+            <li>Watch next: Monitor for any updates from vendors regarding patches or mitigations for EDR solutions that could prevent this method of attack.</li>
+          
+        </ul>
+
+        
+          <div class="glossary">
+            <div class="label">Key terms</div>
+            <ul class="list">
+            
+              <li>EDR - Endpoint Detection and Response, a security solution that monitors and responds to threats on endpoints.</li>
+            
+              <li>Safe Mode - A diagnostic mode of a computer operating system that starts the system with minimal drivers and services.</li>
+            
+            </ul>
+          </div>
+        
+
+        <div>
+          <div class="label">Defender focus</div>
+          <ul class="list">
+            
+            <li>Implement stricter controls on system boot options to prevent unauthorized access.</li>
+            
+            <li>Enhance monitoring for unusual system reboots or Safe Mode entries.</li>
+            
+            <li>Review and update incident response plans to address data exfiltration scenarios.</li>
+            
+          </ul>
+        </div>
+
+        <div>
+          <div class="label">Do now</div>
+          <ul class="list">
+            
+            <li>Audit current EDR configurations and ensure they cannot be easily disabled.</li>
+            
+            <li>Educate staff on the risks of Safe Mode and unauthorized system access.</li>
+            
+            <li>Prepare a response plan for potential data leaks stemming from this attack method.</li>
+            
+          </ul>
+        </div>
+
+        <div class="text-block"><span class="label">Watch next:</span> Monitor for any updates from vendors regarding patches or mitigations for EDR solutions that could prevent this method of attack.</div>
+
+        <div class="sources">
+          <div class="label">Sources</div>
+          
+            
+              <div>
+                <a href="https://www.bleepingcomputer.com/news/security/akira-hackers-disable-edr-with-safe-mode-steal-data-but-fail-to-encrypt/" target="_blank" rel="noopener noreferrer">
+                  BleepingComputer - Akira hackers disable EDR with Safe Mode, steal data but fail to encrypt
+                </a>
+              </div>
+            
+          
+        </div>
+      </article>
+            
+          </div>
         
       </section>
     </main>
