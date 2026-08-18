@@ -378,8 +378,8 @@
         The security news worth your attention, with context and practical takeaways.
       </p>
       <div class="meta-bar">
-        <span>Updated: 2026-08-18 08:27 UTC</span>
-        <span>Stories: 6</span>
+        <span>Updated: 2026-08-18 12:59 UTC</span>
+        <span>Stories: 2</span>
         <span>Recent issues: 14</span>
       </div>
     </header>
@@ -389,22 +389,14 @@
         <section class="one-liner">
           <h2>What Matters Today</h2>
           
-            <p class="text-block">Active exploitation of critical vulnerabilities across multiple platforms demands immediate attention from development and security teams to mitigate potential breaches.</p>
+            <p class="empty">No summary available yet.</p>
           
         </section>
 
         <section class="themes">
           <h2>Patterns To Watch</h2>
           
-            <ul>
-              
-              <li>Increased attacker pressure on widely used frameworks and plugins highlights the need for rapid patching and vulnerability management.</li>
-              
-              <li>Privilege escalation risks in Certificate Authorities expose critical network components, necessitating heightened scrutiny of access controls.</li>
-              
-              <li>The theft of Azure account records underscores the importance of robust data protection measures and incident response readiness.</li>
-              
-            </ul>
+            <p class="empty">No themes available yet.</p>
           
         </section>
       </div>
@@ -422,43 +414,41 @@
           
             <span class="chip label-chip">ACTIVE EXPLOITATION</span>
           
-            <span class="chip label-chip">KEV ADDED</span>
-          
             <span class="chip label-chip">LEGAL POLICY</span>
           
-          <span class="chip chip-neutral">Execution</span>
+          <span class="chip chip-neutral">Initial Access</span>
           <span class="chip chip-neutral">Confidence LOW</span>
         </div>
         
-          <h3><a href="https://thehackernews.com/2026/08/cisa-flags-actively-exploited-ray-flaw.html" target="_blank" rel="noopener noreferrer">CISA Flags Actively Exploited Ray Flaw That Can Trigger Browser-Based RCE</a></h3>
+          <h3><a href="https://www.bleepingcomputer.com/news/security/cisa-windows-task-host-flaw-now-exploited-by-ransomware-gangs/" target="_blank" rel="noopener noreferrer">CISA: Windows Task Host flaw now exploited by ransomware gangs</a></h3>
         
-        <p class="hook">Active exploitation of a critical flaw in the Ray framework poses immediate risks to organizations using it for AI and machine learning workloads.</p>
+        <p class="hook">Ransomware gangs are actively exploiting a critical Windows Task Host vulnerability, posing immediate threats to organizational data integrity.</p>
         <div class="support-grid">
-          <div class="text-block"><span class="label">Who should care:</span> Development and operations teams using the Ray framework for AI and machine learning applications should be particularly vigilant.</div>
-          <div class="text-block"><span class="label">Attack path:</span> An attacker can exploit the vulnerability to execute arbitrary code on systems running the Ray framework, potentially gaining control over sensitive data and resources.</div>
+          <div class="text-block"><span class="label">Who should care:</span> IT security teams managing Windows environments should prioritize this issue.</div>
+          <div class="text-block"><span class="label">Attack path:</span> Attackers can leverage this vulnerability to gain unauthorized access to systems, potentially leading to data encryption and ransom demands.</div>
         </div>
-        <div class="text-block"><span class="label">Why this matters now:</span> Active exploitation makes this an immediate exposure check. KEV status shortens the acceptable patch window.</div>
-        <div class="text-block"><span class="label">In plain English:</span> CISA has identified a critical vulnerability in the Ray framework that is currently being exploited.</div>
+        <div class="text-block"><span class="label">Why this matters now:</span> Active exploitation makes this an immediate exposure check.</div>
+        <div class="text-block"><span class="label">In plain English:</span> A serious Windows vulnerability is being used by ransomware groups to compromise systems.</div>
         
           <div class="tags">
             
+              <span>ransomware</span>
+            
               <span>cve</span>
             
-              <span>rce</span>
-            
-              <span>ray</span>
+              <span>windows</span>
             
           </div>
         
         <ul class="story-list">
           
-            <li>CISA has added a critical vulnerability affecting the Ray framework to its Known Exploited Vulnerabilities catalog. This flaw allows for remote code execution (RCE) in browser environments, and evidence suggests that it is being actively exploited.</li>
+            <li>CISA has reported that a high-severity vulnerability in Windows Task Host is being exploited by ransomware gangs. This flaw was previously flagged as actively exploited in April, indicating ongoing threats to systems using this software.</li>
           
-            <li>Organizations utilizing the Ray framework for AI and machine learning are at risk of unauthorized access and potential data breaches. The ability for attackers to execute code remotely can lead to significant operational disruptions and data loss.</li>
+            <li>The exploitation of this vulnerability can lead to significant data loss and operational disruption for affected organizations. As ransomware attacks increase, the urgency to patch and secure systems is critical to prevent breaches.</li>
           
-            <li>An attacker can exploit the vulnerability to execute arbitrary code on systems running the Ray framework, potentially gaining control over sensitive data and resources.</li>
+            <li>Attackers can leverage this vulnerability to gain unauthorized access to systems, potentially leading to data encryption and ransom demands.</li>
           
-            <li>Watch next: Monitor for updates from CISA and the Ray development team regarding patches or mitigations for this vulnerability.</li>
+            <li>Watch next: Monitor for updates from CISA regarding patches and further exploitation details.</li>
           
         </ul>
 
@@ -467,9 +457,9 @@
             <div class="label">Key terms</div>
             <ul class="list">
             
-              <li>RCE - Remote Code Execution, a vulnerability that allows an attacker to run arbitrary code on a target machine.</li>
+              <li>Vulnerability - a weakness in a system that can be exploited by attackers.</li>
             
-              <li>CISA - Cybersecurity and Infrastructure Security Agency, a U.S. government agency responsible for protecting the nation's critical infrastructure.</li>
+              <li>Ransomware - a type of malicious software that encrypts files and demands payment for their release.</li>
             
             </ul>
           </div>
@@ -479,11 +469,11 @@
           <div class="label">Defender focus</div>
           <ul class="list">
             
-            <li>Implement monitoring for unusual activity in systems running the Ray framework.</li>
+            <li>Implement immediate monitoring for unusual file access patterns on Windows systems.</li>
             
-            <li>Review access logs for any unauthorized access attempts related to the Ray framework.</li>
+            <li>Ensure that all Windows Task Host instances are updated with the latest security patches.</li>
             
-            <li>Coordinate with development teams to prioritize patching the identified vulnerability.</li>
+            <li>Review and enhance incident response plans to address potential ransomware scenarios.</li>
             
           </ul>
         </div>
@@ -492,24 +482,24 @@
           <div class="label">Do now</div>
           <ul class="list">
             
-            <li>Immediately assess the impact of the Ray vulnerability on your systems.</li>
+            <li>Patch the Windows Task Host vulnerability immediately.</li>
             
-            <li>Apply any available patches or mitigations as soon as they are released.</li>
+            <li>Conduct a risk assessment to identify vulnerable systems.</li>
             
-            <li>Enhance monitoring for suspicious activity related to the Ray framework.</li>
+            <li>Increase monitoring for ransomware indicators across the network.</li>
             
           </ul>
         </div>
 
-        <div class="text-block"><span class="label">Watch next:</span> Monitor for updates from CISA and the Ray development team regarding patches or mitigations for this vulnerability.</div>
+        <div class="text-block"><span class="label">Watch next:</span> Monitor for updates from CISA regarding patches and further exploitation details.</div>
 
         <div class="sources">
           <div class="label">Sources</div>
           
             
               <div>
-                <a href="https://thehackernews.com/2026/08/cisa-flags-actively-exploited-ray-flaw.html" target="_blank" rel="noopener noreferrer">
-                  The Hacker News - CISA Flags Actively Exploited Ray Flaw That Can Trigger Browser-Based RCE
+                <a href="https://www.bleepingcomputer.com/news/security/cisa-windows-task-host-flaw-now-exploited-by-ransomware-gangs/" target="_blank" rel="noopener noreferrer">
+                  BleepingComputer - CISA: Windows Task Host flaw now exploited by ransomware gangs
                 </a>
               </div>
             
@@ -526,304 +516,7 @@
           Priority Watchlist
         </div>
         
-          <div class="grid">
-            
-              <article class="card" style="--i: 0;">
-        <div class="meta">
-          <span class="chip risk-high">HIGH</span>
-          
-            <span class="chip label-chip">PATCH RELEASE</span>
-          
-          <span class="chip chip-neutral">Privilege Escalation</span>
-          <span class="chip chip-neutral">Confidence LOW</span>
-        </div>
-        
-          <h3><a href="https://www.bleepingcomputer.com/news/security/certighost-and-the-privilege-hiding-in-your-certificate-authority/" target="_blank" rel="noopener noreferrer">Certighost and the Privilege Hiding in Your Certificate Authority</a></h3>
-        
-        <p class="hook">A vulnerability in your Certificate Authority could allow standard users to gain Domain Controller privileges, posing a severe risk to your entire network.</p>
-        <div class="support-grid">
-          <div class="text-block"><span class="label">Who should care:</span> IT security teams, system administrators, and anyone managing PKI or Active Directory environments should be particularly vigilant.</div>
-          <div class="text-block"><span class="label">Attack path:</span> An attacker with standard user privileges could leverage this vulnerability to manipulate the Certificate Authority, effectively gaining elevated access to critical network resources.</div>
-        </div>
-        <div class="text-block"><span class="label">Why this matters now:</span> A live patch or vendor fix gives defenders something concrete to validate.</div>
-        <div class="text-block"><span class="label">In plain English:</span> A critical vulnerability allows standard users to escalate privileges through your Certificate Authority, requiring immediate attention.</div>
-        
-          <div class="tags">
-            
-              <span>cve</span>
-            
-              <span>pki</span>
-            
-              <span>privilege escalation</span>
-            
-          </div>
-        
-        <ul class="story-list">
-          
-            <li>CVE-2026-54121 has been identified, which allows a standard domain user to exploit the Enterprise Certificate Authority (CA) and gain Domain Controller privileges. This vulnerability highlights significant flaws in how privileges are managed within the Public Key Infrastructure (PKI).</li>
-          
-            <li>If exploited, this vulnerability could lead to unauthorized access to sensitive systems and data, undermining the security of the entire network. Organizations must treat their PKI as critical infrastructure and ensure that proper access controls are in place to prevent such privilege escalation.</li>
-          
-            <li>An attacker with standard user privileges could leverage this vulnerability to manipulate the Certificate Authority, effectively gaining elevated access to critical network resources.</li>
-          
-            <li>Watch next: Monitor for any updates from vendors regarding patches and additional guidance on securing PKI environments.</li>
-          
-        </ul>
-
-        
-          <div class="glossary">
-            <div class="label">Key terms</div>
-            <ul class="list">
-            
-              <li>CVE - Common Vulnerabilities and Exposures, a list of publicly disclosed cybersecurity vulnerabilities.</li>
-            
-              <li>PKI - Public Key Infrastructure, a framework for managing digital certificates and public-key encryption.</li>
-            
-            </ul>
-          </div>
-        
-
-        <div>
-          <div class="label">Defender focus</div>
-          <ul class="list">
-            
-            <li>Implement monitoring for unusual access patterns to the Certificate Authority.</li>
-            
-            <li>Review and tighten access controls for users interacting with the PKI.</li>
-            
-            <li>Ensure that all systems are updated with the latest patches as soon as they are available.</li>
-            
-          </ul>
-        </div>
-
-        <div>
-          <div class="label">Do now</div>
-          <ul class="list">
-            
-            <li>Assess and patch the vulnerability immediately.</li>
-            
-            <li>Review user permissions related to the Certificate Authority.</li>
-            
-            <li>Conduct a security audit of your PKI and related systems.</li>
-            
-          </ul>
-        </div>
-
-        <div class="text-block"><span class="label">Watch next:</span> Monitor for any updates from vendors regarding patches and additional guidance on securing PKI environments.</div>
-
-        <div class="sources">
-          <div class="label">Sources</div>
-          
-            
-              <div>
-                <a href="https://www.bleepingcomputer.com/news/security/certighost-and-the-privilege-hiding-in-your-certificate-authority/" target="_blank" rel="noopener noreferrer">
-                  BleepingComputer - Certighost and the Privilege Hiding in Your Certificate Authority
-                </a>
-              </div>
-            
-          
-        </div>
-      </article>
-            
-              <article class="card" style="--i: 1;">
-        <div class="meta">
-          <span class="chip risk-high">HIGH</span>
-          
-            <span class="chip label-chip">INDUSTRY SIGNAL</span>
-          
-            <span class="chip label-chip">LEGAL POLICY</span>
-          
-            <span class="chip label-chip">RESEARCH</span>
-          
-          <span class="chip chip-neutral">Initial Access</span>
-          <span class="chip chip-neutral">Confidence LOW</span>
-        </div>
-        
-          <h3><a href="https://thehackernews.com/2026/08/forminator-wordpress-flaw-can-enable.html" target="_blank" rel="noopener noreferrer">Forminator WordPress Flaw Can Enable Unauthenticated RCE via Malicious PHP Uploads</a></h3>
-        
-        <p class="hook">The critical vulnerability in the Forminator WordPress plugin could allow attackers to execute arbitrary code on over 600,000 websites, posing an immediate threat to data integrity and site functionality.</p>
-        <div class="support-grid">
-          <div class="text-block"><span class="label">Who should care:</span> WordPress administrators and security teams managing sites using the Forminator plugin should prioritize this issue.</div>
-          <div class="text-block"><span class="label">Attack path:</span> An attacker can exploit this vulnerability by uploading malicious PHP files without authentication, allowing them to execute arbitrary code on the server.</div>
-        </div>
-        <div class="text-block"><span class="label">Why this matters now:</span> Useful context for teams tracking where attacker pressure is building.</div>
-        <div class="text-block"><span class="label">In plain English:</span> A serious flaw in a popular WordPress plugin could let attackers run malicious code on affected sites.</div>
-        
-          <div class="tags">
-            
-              <span>ransomware</span>
-            
-              <span>cve</span>
-            
-              <span>cloud</span>
-            
-          </div>
-        
-        <ul class="story-list">
-          
-            <li>A security flaw has been identified in the Forminator Forms plugin for WordPress, which has over 600,000 active installations. This vulnerability, tracked as CVE-2026-15748, has a CVSS score of 9.8, indicating critical severity. It allows unauthenticated users to upload malicious PHP files, leading to remote code execution.</li>
-          
-            <li>If exploited, this vulnerability could lead to unauthorized access, data breaches, and complete site takeovers for affected WordPress installations. The widespread use of this plugin means that many sites are at risk, and attackers could leverage this flaw to deploy malware or steal sensitive information.</li>
-          
-            <li>An attacker can exploit this vulnerability by uploading malicious PHP files without authentication, allowing them to execute arbitrary code on the server.</li>
-          
-            <li>Watch next: Monitor for updates from the plugin developers regarding patches and any reported exploitation attempts.</li>
-          
-        </ul>
-
-        
-          <div class="glossary">
-            <div class="label">Key terms</div>
-            <ul class="list">
-            
-              <li>RCE - Remote Code Execution, a type of vulnerability that allows an attacker to run arbitrary code on a target system.</li>
-            
-              <li>CVE - Common Vulnerabilities and Exposures, a list of publicly disclosed cybersecurity vulnerabilities.</li>
-            
-            </ul>
-          </div>
-        
-
-        <div>
-          <div class="label">Defender focus</div>
-          <ul class="list">
-            
-            <li>Implement web application firewalls to block malicious file uploads.</li>
-            
-            <li>Regularly scan WordPress installations for vulnerabilities and apply updates promptly.</li>
-            
-            <li>Monitor logs for unusual file upload activity that may indicate exploitation attempts.</li>
-            
-          </ul>
-        </div>
-
-        <div>
-          <div class="label">Do now</div>
-          <ul class="list">
-            
-            <li>Immediately update the Forminator plugin to the latest version.</li>
-            
-            <li>Conduct a security audit of all WordPress sites using the plugin.</li>
-            
-            <li>Educate site administrators on the importance of regular plugin updates and security practices.</li>
-            
-          </ul>
-        </div>
-
-        <div class="text-block"><span class="label">Watch next:</span> Monitor for updates from the plugin developers regarding patches and any reported exploitation attempts.</div>
-
-        <div class="sources">
-          <div class="label">Sources</div>
-          
-            
-              <div>
-                <a href="https://thehackernews.com/2026/08/forminator-wordpress-flaw-can-enable.html" target="_blank" rel="noopener noreferrer">
-                  The Hacker News - Forminator WordPress Flaw Can Enable Unauthenticated RCE via Malicious PHP Uploads
-                </a>
-              </div>
-            
-          
-        </div>
-      </article>
-            
-              <article class="card" style="--i: 2;">
-        <div class="meta">
-          <span class="chip risk-medium">MEDIUM</span>
-          
-            <span class="chip label-chip">INDUSTRY SIGNAL</span>
-          
-          <span class="chip chip-neutral">Initial Access</span>
-          <span class="chip chip-neutral">Confidence LOW</span>
-        </div>
-        
-          <h3><a href="https://thehackernews.com/2026/08/weekly-recap-vmware-exploits-windows-0.html" target="_blank" rel="noopener noreferrer">⚡ Weekly Recap: VMware Exploits, Windows 0-Day, MCP Attacks, Browser Hijacks and More</a></h3>
-        
-        <p class="hook">Recent exploits targeting VMware and a Windows 0-day highlight vulnerabilities that could lead to significant breaches if not addressed promptly.</p>
-        <div class="support-grid">
-          <div class="text-block"><span class="label">Who should care:</span> IT security teams, system administrators, and organizations using VMware or Windows environments should be particularly vigilant.</div>
-          <div class="text-block"><span class="label">Attack path:</span> Attackers may exploit exposed services or known vulnerabilities to gain initial access, then leverage existing permissions to escalate their attacks.</div>
-        </div>
-        <div class="text-block"><span class="label">Why this matters now:</span> Useful context for teams tracking where attacker pressure is building.</div>
-        <div class="text-block"><span class="label">In plain English:</span> Multiple vulnerabilities have been exploited recently, posing risks to systems that may not have been adequately secured.</div>
-        
-          <div class="tags">
-            
-              <span>vmware</span>
-            
-              <span>windows</span>
-            
-              <span>exploits</span>
-            
-          </div>
-        
-        <ul class="story-list">
-          
-            <li>This week, various exploits were reported, including vulnerabilities in VMware and a newly discovered Windows 0-day. Additionally, browser hijacking incidents and supply-chain attacks were noted, indicating a trend of leveraging existing access and outdated defenses.</li>
-          
-            <li>These vulnerabilities can lead to unauthorized access and data breaches, impacting organizational integrity and customer trust. The ease with which attackers are exploiting known weaknesses suggests that many systems remain inadequately protected.</li>
-          
-            <li>Attackers may exploit exposed services or known vulnerabilities to gain initial access, then leverage existing permissions to escalate their attacks.</li>
-          
-            <li>Watch next: Monitor for updates from VMware and Microsoft regarding patches and any new exploit disclosures.</li>
-          
-        </ul>
-
-        
-          <div class="glossary">
-            <div class="label">Key terms</div>
-            <ul class="list">
-            
-              <li>0-day - a vulnerability that is exploited before the vendor releases a fix.</li>
-            
-              <li>Supply-chain attack - a type of attack that targets the less secure elements in the supply chain of a product.</li>
-            
-            </ul>
-          </div>
-        
-
-        <div>
-          <div class="label">Defender focus</div>
-          <ul class="list">
-            
-            <li>Implement monitoring for unusual access patterns in VMware and Windows systems.</li>
-            
-            <li>Ensure all systems are updated with the latest security patches.</li>
-            
-            <li>Review and tighten access controls to limit potential exploitation paths.</li>
-            
-          </ul>
-        </div>
-
-        <div>
-          <div class="label">Do now</div>
-          <ul class="list">
-            
-            <li>Patch all vulnerable systems immediately.</li>
-            
-            <li>Conduct a security audit to identify exposed services.</li>
-            
-            <li>Enhance monitoring for suspicious activity related to browser sessions.</li>
-            
-          </ul>
-        </div>
-
-        <div class="text-block"><span class="label">Watch next:</span> Monitor for updates from VMware and Microsoft regarding patches and any new exploit disclosures.</div>
-
-        <div class="sources">
-          <div class="label">Sources</div>
-          
-            
-              <div>
-                <a href="https://thehackernews.com/2026/08/weekly-recap-vmware-exploits-windows-0.html" target="_blank" rel="noopener noreferrer">
-                  The Hacker News - ⚡ Weekly Recap: VMware Exploits, Windows 0-Day, MCP Attacks, Browser Hijacks and More
-                </a>
-              </div>
-            
-          
-        </div>
-      </article>
-            
-          </div>
+          <p class="empty">No additional top stories.</p>
         
       </section>
 
@@ -839,140 +532,41 @@
         <div class="meta">
           <span class="chip risk-high">HIGH</span>
           
-            <span class="chip label-chip">PATCH RELEASE</span>
+            <span class="chip label-chip">RESEARCH</span>
           
-            <span class="chip label-chip">LEGAL POLICY</span>
-          
-          <span class="chip chip-neutral">Impact</span>
+          <span class="chip chip-neutral">Initial Access</span>
           <span class="chip chip-neutral">Confidence LOW</span>
         </div>
         
-          <h3><a href="https://thehackernews.com/2026/08/critical-gitlab-graphql-flaw-could-let.html" target="_blank" rel="noopener noreferrer">Critical GitLab GraphQL Flaw Could Let Unauthenticated Attackers Delete Public Projects</a></h3>
+          <h3><a href="https://thehackernews.com/2026/08/16-typosquatted-rubygems-packages-steal.html" target="_blank" rel="noopener noreferrer">16 Typosquatted RubyGems Packages Steal Browser Credentials and Crypto Wallets</a></h3>
         
-        <p class="hook">Unauthenticated attackers can exploit a critical GitLab vulnerability to delete public projects, posing a significant risk to data integrity.</p>
+        <p class="hook">The discovery of 16 typosquatted RubyGems packages poses an immediate threat to developers, potentially compromising sensitive credentials and cryptocurrency wallets.</p>
         <div class="support-grid">
-          <div class="text-block"><span class="label">Who should care:</span> Development teams using GitLab Community or Enterprise Editions should prioritize this issue.</div>
-          <div class="text-block"><span class="label">Attack path:</span> An attacker could exploit this vulnerability by sending crafted requests to the GitLab server, allowing them to delete public projects without needing valid credentials.</div>
-        </div>
-        <div class="text-block"><span class="label">Why this matters now:</span> A live patch or vendor fix gives defenders something concrete to validate.</div>
-        <div class="text-block"><span class="label">In plain English:</span> A critical flaw in GitLab allows attackers to delete public projects without authentication.</div>
-        
-          <div class="tags">
-            
-              <span>cve</span>
-            
-              <span>gitlab</span>
-            
-              <span>vulnerability</span>
-            
-          </div>
-        
-        <ul class="story-list">
-          
-            <li>GitLab has identified a critical vulnerability in its Community and Enterprise Editions, tracked as CVE-2026-19478, which could enable unauthenticated attackers to remotely modify or delete public projects. The flaw has a CVSS score of 9.4, indicating its severity.</li>
-          
-            <li>This vulnerability could lead to the loss of important project data and user contributions, impacting organizations that rely on GitLab for version control and collaboration. The potential for data deletion without authentication raises serious concerns about the security of public repositories.</li>
-          
-            <li>An attacker could exploit this vulnerability by sending crafted requests to the GitLab server, allowing them to delete public projects without needing valid credentials.</li>
-          
-            <li>Watch next: Monitor for updates from GitLab regarding patches and any reported exploitation attempts.</li>
-          
-        </ul>
-
-        
-          <div class="glossary">
-            <div class="label">Key terms</div>
-            <ul class="list">
-            
-              <li>CVSS - Common Vulnerability Scoring System, a standard for assessing the severity of security vulnerabilities.</li>
-            
-              <li>CVE - Common Vulnerabilities and Exposures, a list of publicly disclosed cybersecurity vulnerabilities.</li>
-            
-            </ul>
-          </div>
-        
-
-        <div>
-          <div class="label">Defender focus</div>
-          <ul class="list">
-            
-            <li>Implement monitoring for unusual API calls to GitLab that may indicate exploitation attempts.</li>
-            
-            <li>Ensure that all GitLab instances are updated to the latest version to mitigate this vulnerability.</li>
-            
-            <li>Review access controls on public projects to limit potential damage from unauthorized deletions.</li>
-            
-          </ul>
-        </div>
-
-        <div>
-          <div class="label">Do now</div>
-          <ul class="list">
-            
-            <li>Update GitLab to the latest version immediately.</li>
-            
-            <li>Audit public projects for sensitive data that could be targeted.</li>
-            
-            <li>Prepare incident response plans in case of exploitation.</li>
-            
-          </ul>
-        </div>
-
-        <div class="text-block"><span class="label">Watch next:</span> Monitor for updates from GitLab regarding patches and any reported exploitation attempts.</div>
-
-        <div class="sources">
-          <div class="label">Sources</div>
-          
-            
-              <div>
-                <a href="https://thehackernews.com/2026/08/critical-gitlab-graphql-flaw-could-let.html" target="_blank" rel="noopener noreferrer">
-                  The Hacker News - Critical GitLab GraphQL Flaw Could Let Unauthenticated Attackers Delete Public Projects
-                </a>
-              </div>
-            
-          
-        </div>
-      </article>
-            
-              <article class="card" style="--i: 1;">
-        <div class="meta">
-          <span class="chip risk-high">HIGH</span>
-          
-            <span class="chip label-chip">INDUSTRY SIGNAL</span>
-          
-          <span class="chip chip-neutral">Credential Access</span>
-          <span class="chip chip-neutral">Confidence LOW</span>
-        </div>
-        
-          <h3><a href="https://www.bleepingcomputer.com/news/security/hacker-claims-36-million-azure-account-records-stolen-from-major-companies/" target="_blank" rel="noopener noreferrer">Hacker claims 3.6 million Azure account records stolen from major companies</a></h3>
-        
-        <p class="hook">The potential exposure of 3.6 million Azure account records could lead to significant data breaches and operational disruptions for affected companies.</p>
-        <div class="support-grid">
-          <div class="text-block"><span class="label">Who should care:</span> Security teams and IT departments of companies using Microsoft Azure services should be particularly vigilant.</div>
-          <div class="text-block"><span class="label">Attack path:</span> The attacker exploited compromised credentials to gain access to Azure accounts, which can allow them to extract sensitive data or launch further attacks.</div>
+          <div class="text-block"><span class="label">Who should care:</span> Development teams using RubyGems and any environments where Ruby applications are deployed should be vigilant.</div>
+          <div class="text-block"><span class="label">Attack path:</span> Attackers leverage typosquatting by creating malicious packages with names similar to legitimate ones, tricking developers into installing them.</div>
         </div>
         <div class="text-block"><span class="label">Why this matters now:</span> Useful context for teams tracking where attacker pressure is building.</div>
-        <div class="text-block"><span class="label">In plain English:</span> A hacker claims to have stolen and is selling Azure account records from major companies.</div>
+        <div class="text-block"><span class="label">In plain English:</span> A new campaign is targeting RubyGems users with malicious packages that can steal browser credentials and crypto wallets.</div>
         
           <div class="tags">
             
-              <span>cloud</span>
+              <span>typosquatting</span>
+            
+              <span>rubygems</span>
             
               <span>credential theft</span>
             
-              <span>data breach</span>
-            
           </div>
         
         <ul class="story-list">
           
-            <li>A threat actor has announced the sale of databases containing 3.6 million Azure account records from multiple Fortune 500 companies. The attacker reportedly gained access through compromised credentials, raising concerns about the security of Azure environments.</li>
+            <li>Cybersecurity researchers identified a typosquatting campaign affecting RubyGems users, with 16 malicious packages designed to steal information. The threat, tracked as StubMaker, was discovered on August 15, 2026, by OpenSourceMalware.</li>
           
-            <li>If these records are legitimate, affected companies could face severe reputational damage and financial losses due to data breaches. Additionally, the compromised credentials could lead to further attacks within their networks, increasing the risk of lateral movement and data exfiltration.</li>
+            <li>Developers using RubyGems may unknowingly install these malicious packages, leading to unauthorized access to their browser credentials and cryptocurrency wallets. This could result in significant financial losses and compromise sensitive projects.</li>
           
-            <li>The attacker exploited compromised credentials to gain access to Azure accounts, which can allow them to extract sensitive data or launch further attacks.</li>
+            <li>Attackers leverage typosquatting by creating malicious packages with names similar to legitimate ones, tricking developers into installing them.</li>
           
-            <li>Watch next: Monitor for any announcements from Microsoft regarding the breach and updates on credential security measures.</li>
+            <li>Watch next: Monitor for updates from RubyGems regarding the removal of these malicious packages and any further analysis from cybersecurity researchers.</li>
           
         </ul>
 
@@ -981,9 +575,9 @@
             <div class="label">Key terms</div>
             <ul class="list">
             
-              <li>Azure - a cloud computing service created by Microsoft that provides a range of services including data storage and computing power.</li>
+              <li>Typosquatting - a tactic where attackers register domain names or package names that are misspelled versions of legitimate ones to deceive users.</li>
             
-              <li>Compromised credentials - user login information that has been stolen or otherwise obtained by an unauthorized party.</li>
+              <li>RubyGems - a package manager for the Ruby programming language that allows developers to share and manage libraries.</li>
             
             </ul>
           </div>
@@ -993,11 +587,11 @@
           <div class="label">Defender focus</div>
           <ul class="list">
             
-            <li>Implement monitoring for unusual access patterns in Azure environments.</li>
+            <li>Implement monitoring for unusual package installations in Ruby environments.</li>
             
-            <li>Review and enforce strong password policies and multi-factor authentication for Azure accounts.</li>
+            <li>Educate development teams on verifying package authenticity before installation.</li>
             
-            <li>Conduct an audit of user accounts to identify any unauthorized access or anomalies.</li>
+            <li>Review and audit existing RubyGems packages for potential vulnerabilities.</li>
             
           </ul>
         </div>
@@ -1006,24 +600,24 @@
           <div class="label">Do now</div>
           <ul class="list">
             
-            <li>Investigate any suspicious account activity immediately.</li>
+            <li>Immediately alert development teams about the threat and provide the list of malicious packages.</li>
             
-            <li>Reset passwords for all Azure accounts and enforce multi-factor authentication.</li>
+            <li>Encourage teams to review their installed RubyGems packages for any suspicious entries.</li>
             
-            <li>Notify affected employees about potential risks and recommend vigilance.</li>
+            <li>Advise on implementing stricter controls for package installations in development environments.</li>
             
           </ul>
         </div>
 
-        <div class="text-block"><span class="label">Watch next:</span> Monitor for any announcements from Microsoft regarding the breach and updates on credential security measures.</div>
+        <div class="text-block"><span class="label">Watch next:</span> Monitor for updates from RubyGems regarding the removal of these malicious packages and any further analysis from cybersecurity researchers.</div>
 
         <div class="sources">
           <div class="label">Sources</div>
           
             
               <div>
-                <a href="https://www.bleepingcomputer.com/news/security/hacker-claims-36-million-azure-account-records-stolen-from-major-companies/" target="_blank" rel="noopener noreferrer">
-                  BleepingComputer - Hacker claims 3.6 million Azure account records stolen from major companies
+                <a href="https://thehackernews.com/2026/08/16-typosquatted-rubygems-packages-steal.html" target="_blank" rel="noopener noreferrer">
+                  The Hacker News - 16 Typosquatted RubyGems Packages Steal Browser Credentials and Crypto Wallets
                 </a>
               </div>
             
