@@ -1,5 +1,5 @@
 {
-  "last_run_utc": "2026-08-17T12:58:10.412422+00:00",
+  "last_run_utc": "2026-08-18T08:27:47.788962+00:00",
   "processed_urls": [
     "https://www.bleepingcomputer.com/news/security/critical-cisco-sd-wan-bug-exploited-in-zero-day-attacks-since-2023/",
     "https://www.cisa.gov/news-events/alerts/2026/02/25/cisa-and-partners-release-guidance-ongoing-global-exploitation-cisco-sd-wan-systems",
@@ -1121,6 +1121,13 @@
     "https://www.bleepingcomputer.com/news/security/safepal-data-breach-impacts-39-798-customers-stolen-info-for-sale/",
     "https://www.bleepingcomputer.com/news/security/microsoft-working-on-defender-patch-for-shieldbreak-zero-day/",
     "https://thehackernews.com/2026/08/suspected-china-nexus-actor-exploits.html",
-    "https://www.bleepingcomputer.com/news/security/philips-and-ge-investigating-clop-ransomware-data-theft-claims/"
+    "https://www.bleepingcomputer.com/news/security/philips-and-ge-investigating-clop-ransomware-data-theft-claims/",
+    "https://thehackernews.com/2026/08/cisa-flags-actively-exploited-ray-flaw.html",
+    "https://www.bleepingcomputer.com/news/security/certighost-and-the-privilege-hiding-in-your-certificate-authority/",
+    "https://thehackernews.com/2026/08/critical-gitlab-graphql-flaw-could-let.html",
+    "https://thehackernews.com/2026/08/snowflake-github-actions-flaw-lets_0330881554.html",
+    "https://thehackernews.com/2026/08/forminator-wordpress-flaw-can-enable.html",
+    "https://thehackernews.com/2026/08/weekly-recap-vmware-exploits-windows-0.html",
+    "https://www.bleepingcomputer.com/news/security/hacker-claims-36-million-azure-account-records-stolen-from-major-companies/"
   ]
 }
