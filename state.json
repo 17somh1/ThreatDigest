@@ -1,5 +1,5 @@
 {
-  "last_run_utc": "2026-08-19T08:27:46.212328+00:00",
+  "last_run_utc": "2026-08-19T13:01:01.332093+00:00",
   "processed_urls": [
     "https://www.bleepingcomputer.com/news/security/critical-cisco-sd-wan-bug-exploited-in-zero-day-attacks-since-2023/",
     "https://www.cisa.gov/news-events/alerts/2026/02/25/cisa-and-partners-release-guidance-ongoing-global-exploitation-cisco-sd-wan-systems",
@@ -1135,6 +1135,9 @@
     "https://www.bleepingcomputer.com/news/security/cisa-medusa-ransomware-hit-over-500-critical-infrastructure-orgs/",
     "https://thehackernews.com/2026/08/attackers-exploit-mlflow-ssrf-flaw-to.html",
     "https://thehackernews.com/2026/08/ransom-busters-claims-it-hacked.html",
-    "https://thehackernews.com/2026/08/twinloot-abuses-sharepoint-and-teams-to.html"
+    "https://thehackernews.com/2026/08/twinloot-abuses-sharepoint-and-teams-to.html",
+    "https://thehackernews.com/2026/08/critical-macos-sharepoint-vcenter-and.html",
+    "https://www.bleepingcomputer.com/news/security/cisa-critical-windows-ike-extension-flaw-now-exploited-in-attacks/",
+    "https://thehackernews.com/2026/08/clop-linked-windchill-web-shell.html"
   ]
 }

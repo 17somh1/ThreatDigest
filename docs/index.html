@@ -378,8 +378,8 @@
         The security news worth your attention, with context and practical takeaways.
       </p>
       <div class="meta-bar">
-        <span>Updated: 2026-08-19 08:27 UTC</span>
-        <span>Stories: 5</span>
+        <span>Updated: 2026-08-19 13:01 UTC</span>
+        <span>Stories: 3</span>
         <span>Recent issues: 14</span>
       </div>
     </header>
@@ -389,7 +389,7 @@
         <section class="one-liner">
           <h2>What Matters Today</h2>
           
-            <p class="text-block">Attackers are increasingly exploiting vulnerabilities in widely used platforms and services, highlighting urgent areas for defensive focus.</p>
+            <p class="text-block">Active exploitation of critical vulnerabilities in multiple platforms demands immediate attention from IT security teams to mitigate risks.</p>
           
         </section>
 
@@ -398,11 +398,11 @@
           
             <ul>
               
-              <li>Critical vulnerabilities in popular tools like MLflow and Microsoft services are being actively exploited, increasing the urgency for patching and monitoring.</li>
+              <li>Critical vulnerabilities in widely used software are being actively exploited, increasing the urgency for patching.</li>
               
-              <li>Custom attack tools, such as the web shell for Windchill, indicate a trend towards tailored exploits that can bypass standard defenses.</li>
+              <li>Attackers are leveraging remote code execution flaws to gain unauthorized access, heightening network security risks.</li>
               
-              <li>The widespread impact of ransomware on critical infrastructure underscores the need for enhanced resilience and incident response capabilities.</li>
+              <li>The presence of web shells linked to ransomware indicates a targeted approach to compromise sensitive data in specific environments.</li>
               
             </ul>
           
@@ -420,7 +420,9 @@
         <div class="meta">
           <span class="chip risk-high">HIGH</span>
           
-            <span class="chip label-chip">INDUSTRY SIGNAL</span>
+            <span class="chip label-chip">ACTIVE EXPLOITATION</span>
+          
+            <span class="chip label-chip">KEV ADDED</span>
           
             <span class="chip label-chip">LEGAL POLICY</span>
           
@@ -428,35 +430,39 @@
           <span class="chip chip-neutral">Confidence LOW</span>
         </div>
         
-          <h3><a href="https://thehackernews.com/2026/08/attackers-exploit-mlflow-ssrf-flaw-to.html" target="_blank" rel="noopener noreferrer">Attackers Exploit MLflow SSRF Flaw to Steal Cloud Credentials and Secrets</a></h3>
+          <h3><a href="https://thehackernews.com/2026/08/critical-macos-sharepoint-vcenter-and.html" target="_blank" rel="noopener noreferrer">Critical macOS, SharePoint, vCenter, and Microsoft IKE Flaws Under Active Exploitation</a></h3>
         
-        <p class="hook">Attackers are actively exploiting a critical vulnerability in MLflow that could lead to unauthorized access to sensitive cloud credentials, posing a significant risk to organizations using this platform.</p>
+        <p class="hook">Active exploitation of critical vulnerabilities in macOS and Microsoft products poses immediate risks to organizational security.</p>
         <div class="support-grid">
-          <div class="text-block"><span class="label">Who should care:</span> Development and operations teams using MLflow and FUXA should prioritize this issue.</div>
-          <div class="text-block"><span class="label">Attack path:</span> Attackers can leverage the SSRF (Server-Side Request Forgery) vulnerability to access internal services and extract sensitive information, including cloud credentials.</div>
+          <div class="text-block"><span class="label">Who should care:</span> IT security teams managing macOS, SharePoint, and vCenter environments should prioritize these vulnerabilities.</div>
+          <div class="text-block"><span class="label">Attack path:</span> Attackers can exploit these vulnerabilities to gain unauthorized access to systems, potentially leading to further exploitation or data exfiltration.</div>
         </div>
-        <div class="text-block"><span class="label">Why this matters now:</span> Useful context for teams tracking where attacker pressure is building.</div>
-        <div class="text-block"><span class="label">In plain English:</span> A serious flaw in MLflow is being exploited to steal cloud credentials.</div>
+        <div class="text-block"><span class="label">Why this matters now:</span> Active exploitation makes this an immediate exposure check. KEV status shortens the acceptable patch window.</div>
+        <div class="text-block"><span class="label">In plain English:</span> Four critical vulnerabilities are being actively exploited, affecting macOS, SharePoint, vCenter, and Microsoft IKE.</div>
         
           <div class="tags">
             
+              <span>vulnerability</span>
+            
               <span>cve</span>
             
-              <span>cloud</span>
+              <span>macos</span>
             
-              <span>mlflow</span>
+              <span>sharepoint</span>
+            
+              <span>vcenter</span>
             
           </div>
         
         <ul class="story-list">
           
-            <li>Two critical vulnerabilities have been identified in MLflow, an open-source AI platform, and FUXA, a web-based SCADA software. Reports indicate that these vulnerabilities are currently being scanned and exploited by malicious actors.</li>
+            <li>CISA has added four critical vulnerabilities to its Known Exploited Vulnerabilities catalog, indicating they are currently being exploited in the wild. These include a severe authentication flaw in macOS and vulnerabilities in SharePoint, vCenter, and Microsoft IKE.</li>
           
-            <li>The exploitation of these vulnerabilities can lead to unauthorized access to cloud environments, potentially allowing attackers to steal sensitive data and credentials. Organizations using MLflow should be particularly vigilant as the consequences of a breach could be severe, including data loss and operational disruption.</li>
+            <li>Organizations using affected systems are at high risk of unauthorized access and potential data breaches. The exploitation of these vulnerabilities can lead to significant operational disruptions and data loss.</li>
           
-            <li>Attackers can leverage the SSRF (Server-Side Request Forgery) vulnerability to access internal services and extract sensitive information, including cloud credentials.</li>
+            <li>Attackers can exploit these vulnerabilities to gain unauthorized access to systems, potentially leading to further exploitation or data exfiltration.</li>
           
-            <li>Watch next: Monitor for updates from MLflow regarding patches or mitigations for these vulnerabilities.</li>
+            <li>Watch next: Monitor for updates from CISA and vendor patches addressing these vulnerabilities.</li>
           
         </ul>
 
@@ -465,9 +471,9 @@
             <div class="label">Key terms</div>
             <ul class="list">
             
-              <li>SSRF - Server-Side Request Forgery, a vulnerability that allows an attacker to send unauthorized requests from a server to internal resources.</li>
+              <li>CVE - Common Vulnerabilities and Exposures, a list of publicly disclosed cybersecurity vulnerabilities.</li>
             
-              <li>MLflow - An open-source platform for managing the machine learning lifecycle.</li>
+              <li>CVSS - Common Vulnerability Scoring System, a standard for assessing the severity of vulnerabilities.</li>
             
             </ul>
           </div>
@@ -477,11 +483,11 @@
           <div class="label">Defender focus</div>
           <ul class="list">
             
-            <li>Implement monitoring for unusual access patterns to cloud services.</li>
+            <li>Implement immediate monitoring for unusual authentication attempts on macOS systems.</li>
             
-            <li>Review and restrict access to sensitive internal services from MLflow.</li>
+            <li>Ensure that all systems are updated with the latest security patches from vendors.</li>
             
-            <li>Ensure that all instances of MLflow are updated with the latest security patches.</li>
+            <li>Conduct a risk assessment to identify and prioritize vulnerable systems within your environment.</li>
             
           </ul>
         </div>
@@ -490,24 +496,24 @@
           <div class="label">Do now</div>
           <ul class="list">
             
-            <li>Patch MLflow and FUXA immediately to mitigate the vulnerabilities.</li>
+            <li>Patch affected systems immediately.</li>
             
-            <li>Conduct a security audit of cloud credentials and access logs.</li>
+            <li>Review logs for signs of exploitation.</li>
             
-            <li>Educate teams on the risks associated with SSRF vulnerabilities.</li>
+            <li>Enhance monitoring for suspicious activities related to these vulnerabilities.</li>
             
           </ul>
         </div>
 
-        <div class="text-block"><span class="label">Watch next:</span> Monitor for updates from MLflow regarding patches or mitigations for these vulnerabilities.</div>
+        <div class="text-block"><span class="label">Watch next:</span> Monitor for updates from CISA and vendor patches addressing these vulnerabilities.</div>
 
         <div class="sources">
           <div class="label">Sources</div>
           
             
               <div>
-                <a href="https://thehackernews.com/2026/08/attackers-exploit-mlflow-ssrf-flaw-to.html" target="_blank" rel="noopener noreferrer">
-                  The Hacker News - Attackers Exploit MLflow SSRF Flaw to Steal Cloud Credentials and Secrets
+                <a href="https://thehackernews.com/2026/08/critical-macos-sharepoint-vcenter-and.html" target="_blank" rel="noopener noreferrer">
+                  The Hacker News - Critical macOS, SharePoint, vCenter, and Microsoft IKE Flaws Under Active Exploitation
                 </a>
               </div>
             
@@ -530,41 +536,43 @@
         <div class="meta">
           <span class="chip risk-high">HIGH</span>
           
-            <span class="chip label-chip">INDUSTRY SIGNAL</span>
+            <span class="chip label-chip">ACTIVE EXPLOITATION</span>
           
-          <span class="chip chip-neutral">Initial Access</span>
+            <span class="chip label-chip">LEGAL POLICY</span>
+          
+          <span class="chip chip-neutral">Execution</span>
           <span class="chip chip-neutral">Confidence LOW</span>
         </div>
         
-          <h3><a href="https://www.bleepingcomputer.com/news/security/clop-created-custom-web-shell-for-windchill-data-theft-attacks/" target="_blank" rel="noopener noreferrer">Clop created custom web shell for Windchill data theft attacks</a></h3>
+          <h3><a href="https://www.bleepingcomputer.com/news/security/cisa-critical-windows-ike-extension-flaw-now-exploited-in-attacks/" target="_blank" rel="noopener noreferrer">Critical RCE flaw in Windows IKE Extension now actively exploited</a></h3>
         
-        <p class="hook">The emergence of a custom web shell targeting Windchill servers poses a significant risk of data theft and operational disruption for affected organizations.</p>
+        <p class="hook">The exploitation of a critical RCE flaw in Windows IKE Extensions poses an immediate threat to network security, potentially allowing attackers to execute arbitrary code.</p>
         <div class="support-grid">
-          <div class="text-block"><span class="label">Who should care:</span> IT security teams managing PTC Windchill and FlexPLM environments should prioritize monitoring and response efforts.</div>
-          <div class="text-block"><span class="label">Attack path:</span> An attacker can gain access through the custom web shell, allowing them to decrypt stored credentials and access sensitive files directly.</div>
+          <div class="text-block"><span class="label">Who should care:</span> IT security teams managing Windows environments and network infrastructure should prioritize this issue.</div>
+          <div class="text-block"><span class="label">Attack path:</span> Attackers can exploit this vulnerability to execute arbitrary code remotely, gaining unauthorized access to systems and potentially escalating their privileges.</div>
         </div>
-        <div class="text-block"><span class="label">Why this matters now:</span> Useful context for teams tracking where attacker pressure is building.</div>
-        <div class="text-block"><span class="label">In plain English:</span> Clop ransomware gang has developed a specialized web shell for stealing data from Windchill and FlexPLM servers.</div>
+        <div class="text-block"><span class="label">Why this matters now:</span> Active exploitation makes this an immediate exposure check.</div>
+        <div class="text-block"><span class="label">In plain English:</span> A critical vulnerability in Windows IKE Extensions is being actively exploited, which could lead to severe security breaches.</div>
         
           <div class="tags">
             
-              <span>ransomware</span>
+              <span>rce</span>
             
-              <span>web shell</span>
+              <span>cve</span>
             
-              <span>data theft</span>
+              <span>windows</span>
             
           </div>
         
         <ul class="story-list">
           
-            <li>A custom Java web shell has been identified, likely created by the Clop ransomware group, specifically for PTC Windchill and FlexPLM servers. This web shell includes features to decrypt credentials, enumerate file repositories, and facilitate file theft.</li>
+            <li>CISA has reported that a critical remote code execution vulnerability in the Windows Internet Key Exchange (IKE) Service Extensions is currently being exploited by attackers. This flaw allows unauthorized code execution, which could compromise affected systems.</li>
           
-            <li>Organizations using Windchill and FlexPLM are at heightened risk of data breaches, which could lead to sensitive information exposure and operational setbacks. The targeted nature of this attack indicates a focused effort by Clop to exploit vulnerabilities in these systems.</li>
+            <li>If exploited, this vulnerability could allow attackers to gain control over systems, leading to data breaches or further network infiltration. Organizations using affected Windows systems are at high risk and should take immediate action to mitigate potential damage.</li>
           
-            <li>An attacker can gain access through the custom web shell, allowing them to decrypt stored credentials and access sensitive files directly.</li>
+            <li>Attackers can exploit this vulnerability to execute arbitrary code remotely, gaining unauthorized access to systems and potentially escalating their privileges.</li>
           
-            <li>Watch next: Monitor for any updates from PTC regarding vulnerabilities or patches related to Windchill and FlexPLM.</li>
+            <li>Watch next: Monitor for updates from CISA and Microsoft regarding patches or additional exploitation indicators.</li>
           
         </ul>
 
@@ -573,9 +581,9 @@
             <div class="label">Key terms</div>
             <ul class="list">
             
-              <li>Web Shell - a script that can be uploaded to a web server to allow remote control and file manipulation.</li>
+              <li>RCE - Remote Code Execution, a vulnerability that allows an attacker to run arbitrary code on a target system.</li>
             
-              <li>Ransomware - malicious software that encrypts files and demands payment for decryption.</li>
+              <li>IKE - Internet Key Exchange, a protocol used to set up a secure communication channel.</li>
             
             </ul>
           </div>
@@ -585,11 +593,11 @@
           <div class="label">Defender focus</div>
           <ul class="list">
             
-            <li>Implement network monitoring to detect unusual access patterns to Windchill and FlexPLM servers.</li>
+            <li>Implement network segmentation to limit exposure of vulnerable systems.</li>
             
-            <li>Review and tighten access controls and authentication mechanisms for these systems.</li>
+            <li>Deploy intrusion detection systems to monitor for exploitation attempts.</li>
             
-            <li>Conduct a vulnerability assessment to identify and remediate any weaknesses in the web applications.</li>
+            <li>Ensure that all Windows systems are updated with the latest security patches.</li>
             
           </ul>
         </div>
@@ -598,24 +606,24 @@
           <div class="label">Do now</div>
           <ul class="list">
             
-            <li>Immediately assess the security posture of Windchill and FlexPLM servers.</li>
+            <li>Apply the latest security patches from Microsoft immediately.</li>
             
-            <li>Deploy intrusion detection systems to monitor for signs of exploitation.</li>
+            <li>Review and enhance firewall rules to block unauthorized access.</li>
             
-            <li>Prepare incident response plans specific to potential data breaches from these systems.</li>
+            <li>Conduct a vulnerability assessment to identify and remediate affected systems.</li>
             
           </ul>
         </div>
 
-        <div class="text-block"><span class="label">Watch next:</span> Monitor for any updates from PTC regarding vulnerabilities or patches related to Windchill and FlexPLM.</div>
+        <div class="text-block"><span class="label">Watch next:</span> Monitor for updates from CISA and Microsoft regarding patches or additional exploitation indicators.</div>
 
         <div class="sources">
           <div class="label">Sources</div>
           
             
               <div>
-                <a href="https://www.bleepingcomputer.com/news/security/clop-created-custom-web-shell-for-windchill-data-theft-attacks/" target="_blank" rel="noopener noreferrer">
-                  BleepingComputer - Clop created custom web shell for Windchill data theft attacks
+                <a href="https://www.bleepingcomputer.com/news/security/cisa-critical-windows-ike-extension-flaw-now-exploited-in-attacks/" target="_blank" rel="noopener noreferrer">
+                  BleepingComputer - Critical RCE flaw in Windows IKE Extension now actively exploited
                 </a>
               </div>
             
@@ -627,138 +635,41 @@
         <div class="meta">
           <span class="chip risk-high">HIGH</span>
           
-            <span class="chip label-chip">INDUSTRY SIGNAL</span>
+            <span class="chip label-chip">LEGAL POLICY</span>
           
           <span class="chip chip-neutral">Initial Access</span>
           <span class="chip chip-neutral">Confidence LOW</span>
         </div>
         
-          <h3><a href="https://www.bleepingcomputer.com/news/security/cisa-medusa-ransomware-hit-over-500-critical-infrastructure-orgs/" target="_blank" rel="noopener noreferrer">CISA: Medusa ransomware hit over 500 critical infrastructure orgs</a></h3>
+          <h3><a href="https://thehackernews.com/2026/08/clop-linked-windchill-web-shell.html" target="_blank" rel="noopener noreferrer">Clop-Linked Windchill Web Shell Decrypts Credentials and Maps Engineering Data</a></h3>
         
-        <p class="hook">The Medusa ransomware gang has compromised over 500 critical infrastructure organizations, posing a significant threat to national security and operational continuity.</p>
+        <p class="hook">The deployment of a web shell linked to Clop ransomware poses immediate risks to sensitive engineering data and credentials within PTC Windchill and FlexPLM environments.</p>
         <div class="support-grid">
-          <div class="text-block"><span class="label">Who should care:</span> Critical infrastructure teams, including those in energy, water, and transportation sectors, should be particularly vigilant.</div>
-          <div class="text-block"><span class="label">Attack path:</span> Attackers typically gain access through phishing campaigns or exploiting vulnerabilities in software used by these organizations. Once inside, they can deploy ransomware to encrypt data and demand payment.</div>
-        </div>
-        <div class="text-block"><span class="label">Why this matters now:</span> Sector exposure makes this broader than a one-off incident.</div>
-        <div class="text-block"><span class="label">In plain English:</span> Medusa ransomware has affected more than 500 critical infrastructure entities since June 2021.</div>
-        
-          <div class="tags">
-            
-              <span>ransomware</span>
-            
-              <span>cisa</span>
-            
-              <span>critical_infrastructure</span>
-            
-          </div>
-        
-        <ul class="story-list">
-          
-            <li>The FBI reported that the Medusa ransomware group has successfully breached over 500 critical infrastructure organizations in the U.S. since June 2021. This includes various sectors vital to public safety and economic stability.</li>
-          
-            <li>The impact of these breaches can lead to service disruptions, financial losses, and potential data leaks affecting public trust and safety. Organizations in critical sectors must prioritize their cybersecurity measures to mitigate these risks.</li>
-          
-            <li>Attackers typically gain access through phishing campaigns or exploiting vulnerabilities in software used by these organizations. Once inside, they can deploy ransomware to encrypt data and demand payment.</li>
-          
-            <li>Watch next: Monitor for updates from CISA regarding specific vulnerabilities exploited by Medusa and any recommended mitigations.</li>
-          
-        </ul>
-
-        
-          <div class="glossary">
-            <div class="label">Key terms</div>
-            <ul class="list">
-            
-              <li>Ransomware - a type of malicious software that encrypts files on a victim's system, demanding payment for decryption.</li>
-            
-              <li>Critical Infrastructure - systems and assets that are essential for the functioning of a society and economy.</li>
-            
-            </ul>
-          </div>
-        
-
-        <div>
-          <div class="label">Defender focus</div>
-          <ul class="list">
-            
-            <li>Enhance monitoring for unusual network activity that may indicate a ransomware attack.</li>
-            
-            <li>Implement strict access controls and segmentation to limit the spread of potential ransomware.</li>
-            
-            <li>Regularly update and patch systems to close vulnerabilities that could be exploited by attackers.</li>
-            
-          </ul>
-        </div>
-
-        <div>
-          <div class="label">Do now</div>
-          <ul class="list">
-            
-            <li>Conduct a thorough assessment of current cybersecurity measures in critical infrastructure systems.</li>
-            
-            <li>Increase employee training on recognizing phishing attempts and suspicious activities.</li>
-            
-            <li>Establish an incident response plan specifically for ransomware attacks.</li>
-            
-          </ul>
-        </div>
-
-        <div class="text-block"><span class="label">Watch next:</span> Monitor for updates from CISA regarding specific vulnerabilities exploited by Medusa and any recommended mitigations.</div>
-
-        <div class="sources">
-          <div class="label">Sources</div>
-          
-            
-              <div>
-                <a href="https://www.bleepingcomputer.com/news/security/cisa-medusa-ransomware-hit-over-500-critical-infrastructure-orgs/" target="_blank" rel="noopener noreferrer">
-                  BleepingComputer - CISA: Medusa ransomware hit over 500 critical infrastructure orgs
-                </a>
-              </div>
-            
-          
-        </div>
-      </article>
-            
-              <article class="card" style="--i: 2;">
-        <div class="meta">
-          <span class="chip risk-medium">MEDIUM</span>
-          
-            <span class="chip label-chip">RESEARCH</span>
-          
-          <span class="chip chip-neutral">Impact</span>
-          <span class="chip chip-neutral">Confidence LOW</span>
-        </div>
-        
-          <h3><a href="https://thehackernews.com/2026/08/ransom-busters-claims-it-hacked.html" target="_blank" rel="noopener noreferrer">Ransom Busters Claims It Hacked Ransomware Servers, Asks Victims for Up to $60,000</a></h3>
-        
-        <p class="hook">Organizations facing ransomware attacks may be targeted by a new group claiming to offer recovery services for a fee, complicating their recovery efforts.</p>
-        <div class="support-grid">
-          <div class="text-block"><span class="label">Who should care:</span> Incident response teams and organizations currently dealing with ransomware incidents should be particularly vigilant.</div>
-          <div class="text-block"><span class="label">Attack path:</span> Attackers leverage the chaos and urgency following a ransomware incident to present themselves as solution providers, potentially gaining trust and financial gain from desperate victims.</div>
+          <div class="text-block"><span class="label">Who should care:</span> IT security teams managing PTC Windchill and FlexPLM installations should be particularly vigilant.</div>
+          <div class="text-block"><span class="label">Attack path:</span> Attackers exploit a critical vulnerability to deploy the web shell, allowing them to access and manipulate sensitive data within the affected systems.</div>
         </div>
         <div class="text-block"><span class="label">Why this matters now:</span> Useful context for teams tracking where attacker pressure is building.</div>
-        <div class="text-block"><span class="label">In plain English:</span> A group called Ransom Busters is contacting ransomware victims, offering to delete stolen data for a fee.</div>
+        <div class="text-block"><span class="label">In plain English:</span> A critical vulnerability in PTC Windchill and FlexPLM has been exploited to deploy a web shell that can decrypt credentials and access sensitive data.</div>
         
           <div class="tags">
             
               <span>ransomware</span>
             
-              <span>scam</span>
+              <span>cve</span>
             
-              <span>cyber extortion</span>
+              <span>cloud</span>
             
           </div>
         
         <ul class="story-list">
           
-            <li>Ransom Busters, a ransomware affiliate, has been observed sending emails to organizations affected by ransomware, claiming they can delete stolen data from ransomware servers. They are asking for fees between $20,000 and $60,000 for this service.</li>
+            <li>A JavaServer Pages (JSP) web shell has been deployed following the exploitation of a critical security flaw in PTC Windchill and FlexPLM servers. This web shell is linked to Clop ransomware and is designed to function as an extortion platform.</li>
           
-            <li>This development highlights the evolving tactics of ransomware affiliates, who are now attempting to exploit victims further by posing as recovery services. Organizations may be misled into paying these fees, potentially leading to further financial loss without guaranteed recovery.</li>
+            <li>The web shell can decrypt credentials and map sensitive engineering data, potentially leading to significant data breaches and operational disruptions. Organizations using PTC Windchill and FlexPLM need to act quickly to mitigate the risk of data theft and extortion.</li>
           
-            <li>Attackers leverage the chaos and urgency following a ransomware incident to present themselves as solution providers, potentially gaining trust and financial gain from desperate victims.</li>
+            <li>Attackers exploit a critical vulnerability to deploy the web shell, allowing them to access and manipulate sensitive data within the affected systems.</li>
           
-            <li>Watch next: Monitor for reports of organizations engaging with Ransom Busters and any subsequent outcomes.</li>
+            <li>Watch next: Monitor for any updates from PTC regarding patches or mitigations for the exploited vulnerability.</li>
           
         </ul>
 
@@ -767,9 +678,9 @@
             <div class="label">Key terms</div>
             <ul class="list">
             
-              <li>Ransomware - a type of malicious software that encrypts a victim's files, demanding payment for decryption.</li>
+              <li>WEB SHELL - a script that allows remote access to a server, enabling attackers to execute commands.</li>
             
-              <li>Affiliate - a partner in a business arrangement, in this case, working with ransomware groups to extort victims.</li>
+              <li>CREDENTIALS - sensitive information used to authenticate users, such as usernames and passwords.</li>
             
             </ul>
           </div>
@@ -779,11 +690,11 @@
           <div class="label">Defender focus</div>
           <ul class="list">
             
-            <li>Identify and block communications from known Ransom Busters email addresses.</li>
+            <li>Implement monitoring for unusual access patterns in PTC Windchill and FlexPLM environments.</li>
             
-            <li>Alert incident response teams to the potential for scams targeting ransomware victims.</li>
+            <li>Review and update firewall rules to block unauthorized access to affected servers.</li>
             
-            <li>Monitor for any reports of organizations engaging with these scammers to assess the impact.</li>
+            <li>Conduct a thorough audit of user credentials and access permissions.</li>
             
           </ul>
         </div>
@@ -792,24 +703,24 @@
           <div class="label">Do now</div>
           <ul class="list">
             
-            <li>Investigate any communications from Ransom Busters to affected organizations.</li>
+            <li>Patch PTC Windchill and FlexPLM servers immediately to close the exploited vulnerability.</li>
             
-            <li>Educate incident response teams on the tactics used by Ransom Busters.</li>
+            <li>Conduct a security assessment to identify any existing web shells or unauthorized access.</li>
             
-            <li>Establish a protocol for verifying recovery service offers in the wake of ransomware incidents.</li>
+            <li>Enhance logging and monitoring to detect any suspicious activities related to the web shell.</li>
             
           </ul>
         </div>
 
-        <div class="text-block"><span class="label">Watch next:</span> Monitor for reports of organizations engaging with Ransom Busters and any subsequent outcomes.</div>
+        <div class="text-block"><span class="label">Watch next:</span> Monitor for any updates from PTC regarding patches or mitigations for the exploited vulnerability.</div>
 
         <div class="sources">
           <div class="label">Sources</div>
           
             
               <div>
-                <a href="https://thehackernews.com/2026/08/ransom-busters-claims-it-hacked.html" target="_blank" rel="noopener noreferrer">
-                  The Hacker News - Ransom Busters Claims It Hacked Ransomware Servers, Asks Victims for Up to $60,000
+                <a href="https://thehackernews.com/2026/08/clop-linked-windchill-web-shell.html" target="_blank" rel="noopener noreferrer">
+                  The Hacker News - Clop-Linked Windchill Web Shell Decrypts Credentials and Maps Engineering Data
                 </a>
               </div>
             
@@ -827,108 +738,7 @@
           Wider Signal
         </div>
         
-          <div class="grid">
-            
-              <article class="card" style="--i: 0;">
-        <div class="meta">
-          <span class="chip risk-high">HIGH</span>
-          
-            <span class="chip label-chip">INDUSTRY SIGNAL</span>
-          
-            <span class="chip label-chip">RESEARCH</span>
-          
-          <span class="chip chip-neutral">Credential Access</span>
-          <span class="chip chip-neutral">Confidence LOW</span>
-        </div>
-        
-          <h3><a href="https://thehackernews.com/2026/08/twinloot-abuses-sharepoint-and-teams-to.html" target="_blank" rel="noopener noreferrer">TWINLOOT Abuses SharePoint and Teams to Steal Credentials and Move Across Networks</a></h3>
-        
-        <p class="hook">The TWINLOOT framework leverages trusted Microsoft services to steal credentials, posing a significant risk to organizations using SharePoint and Teams.</p>
-        <div class="support-grid">
-          <div class="text-block"><span class="label">Who should care:</span> IT security teams managing Microsoft SharePoint and Teams environments should prioritize monitoring for this threat.</div>
-          <div class="text-block"><span class="label">Attack path:</span> Attackers can gain access by deploying the TWINLOOT implant within SharePoint or Teams, allowing them to execute commands and exfiltrate credentials without raising alarms.</div>
-        </div>
-        <div class="text-block"><span class="label">Why this matters now:</span> Useful context for teams tracking where attacker pressure is building.</div>
-        <div class="text-block"><span class="label">In plain English:</span> A new Python implant called TWINLOOT exploits SharePoint and Teams to access sensitive credentials.</div>
-        
-          <div class="tags">
-            
-              <span>credential theft</span>
-            
-              <span>sharepoint</span>
-            
-              <span>teams</span>
-            
-          </div>
-        
-        <ul class="story-list">
-          
-            <li>Researchers have identified a new cyber threat named TWINLOOT, which is a Python-based implant that operates within Microsoft SharePoint and Teams. This framework allows attackers to execute commands and steal credentials while remaining hidden within trusted environments.</li>
-          
-            <li>The use of trusted services like SharePoint and Teams for malicious activities increases the likelihood of successful attacks, as they bypass traditional security measures. Organizations relying on these platforms must be vigilant, as compromised credentials can lead to further network infiltration and data breaches.</li>
-          
-            <li>Attackers can gain access by deploying the TWINLOOT implant within SharePoint or Teams, allowing them to execute commands and exfiltrate credentials without raising alarms.</li>
-          
-            <li>Watch next: Monitor for updates from Microsoft regarding vulnerabilities in SharePoint and Teams that could be exploited by TWINLOOT.</li>
-          
-        </ul>
-
-        
-          <div class="glossary">
-            <div class="label">Key terms</div>
-            <ul class="list">
-            
-              <li>Python implant - a malicious software component written in Python that can execute commands on a victim's system.</li>
-            
-              <li>Command-and-control - a method used by attackers to remotely control compromised systems.</li>
-            
-            </ul>
-          </div>
-        
-
-        <div>
-          <div class="label">Defender focus</div>
-          <ul class="list">
-            
-            <li>Implement monitoring for unusual activities in SharePoint and Teams.</li>
-            
-            <li>Review access logs for unauthorized credential access attempts.</li>
-            
-            <li>Enhance endpoint detection to identify the presence of Python-based implants.</li>
-            
-          </ul>
-        </div>
-
-        <div>
-          <div class="label">Do now</div>
-          <ul class="list">
-            
-            <li>Increase monitoring of SharePoint and Teams for suspicious activities.</li>
-            
-            <li>Conduct a security audit of user permissions and access controls.</li>
-            
-            <li>Educate users on recognizing phishing attempts that may lead to credential theft.</li>
-            
-          </ul>
-        </div>
-
-        <div class="text-block"><span class="label">Watch next:</span> Monitor for updates from Microsoft regarding vulnerabilities in SharePoint and Teams that could be exploited by TWINLOOT.</div>
-
-        <div class="sources">
-          <div class="label">Sources</div>
-          
-            
-              <div>
-                <a href="https://thehackernews.com/2026/08/twinloot-abuses-sharepoint-and-teams-to.html" target="_blank" rel="noopener noreferrer">
-                  The Hacker News - TWINLOOT Abuses SharePoint and Teams to Steal Credentials and Move Across Networks
-                </a>
-              </div>
-            
-          
-        </div>
-      </article>
-            
-          </div>
+          <p class="empty">No context stories today.</p>
         
       </section>
     </main>
