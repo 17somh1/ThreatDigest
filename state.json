@@ -1,5 +1,5 @@
 {
-  "last_run_utc": "2026-08-18T12:59:44.751947+00:00",
+  "last_run_utc": "2026-08-19T08:27:46.212328+00:00",
   "processed_urls": [
     "https://www.bleepingcomputer.com/news/security/critical-cisco-sd-wan-bug-exploited-in-zero-day-attacks-since-2023/",
     "https://www.cisa.gov/news-events/alerts/2026/02/25/cisa-and-partners-release-guidance-ongoing-global-exploitation-cisco-sd-wan-systems",
@@ -1130,6 +1130,11 @@
     "https://thehackernews.com/2026/08/weekly-recap-vmware-exploits-windows-0.html",
     "https://www.bleepingcomputer.com/news/security/hacker-claims-36-million-azure-account-records-stolen-from-major-companies/",
     "https://www.bleepingcomputer.com/news/security/cisa-windows-task-host-flaw-now-exploited-by-ransomware-gangs/",
-    "https://thehackernews.com/2026/08/16-typosquatted-rubygems-packages-steal.html"
+    "https://thehackernews.com/2026/08/16-typosquatted-rubygems-packages-steal.html",
+    "https://www.bleepingcomputer.com/news/security/clop-created-custom-web-shell-for-windchill-data-theft-attacks/",
+    "https://www.bleepingcomputer.com/news/security/cisa-medusa-ransomware-hit-over-500-critical-infrastructure-orgs/",
+    "https://thehackernews.com/2026/08/attackers-exploit-mlflow-ssrf-flaw-to.html",
+    "https://thehackernews.com/2026/08/ransom-busters-claims-it-hacked.html",
+    "https://thehackernews.com/2026/08/twinloot-abuses-sharepoint-and-teams-to.html"
   ]
 }
