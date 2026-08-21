@@ -1,5 +1,5 @@
 {
-  "last_run_utc": "2026-08-21T08:31:23.115264+00:00",
+  "last_run_utc": "2026-08-21T13:02:08.909976+00:00",
   "processed_urls": [
     "https://www.bleepingcomputer.com/news/security/critical-cisco-sd-wan-bug-exploited-in-zero-day-attacks-since-2023/",
     "https://www.cisa.gov/news-events/alerts/2026/02/25/cisa-and-partners-release-guidance-ongoing-global-exploitation-cisco-sd-wan-systems",
@@ -1150,6 +1150,9 @@
     "https://thehackernews.com/2026/08/attackers-exploit-zimbra-snmp-flaw-for.html",
     "https://www.bleepingcomputer.com/news/security/how-msps-can-catch-phishing-attacks-email-filters-miss/",
     "https://thehackernews.com/2026/08/gitlab-cve-2026-19478-comes-under.html",
-    "https://thehackernews.com/2026/08/rust-supply-chain-attack-puts-build.html"
+    "https://thehackernews.com/2026/08/rust-supply-chain-attack-puts-build.html",
+    "https://www.bleepingcomputer.com/news/security/cisa-orders-feds-to-patch-actively-exploited-trueconf-server-flaws/",
+    "https://www.bleepingcomputer.com/news/microsoft/microsoft-warns-of-max-severity-entra-id-flaw-exploited-in-attacks/",
+    "https://thehackernews.com/2026/08/cisco-patches-nine-crosswork-and-secure.html"
   ]
 }
