@@ -378,8 +378,8 @@
         The security news worth your attention, with context and practical takeaways.
       </p>
       <div class="meta-bar">
-        <span>Updated: 2026-08-25 08:33 UTC</span>
-        <span>Stories: 3</span>
+        <span>Updated: 2026-08-25 13:01 UTC</span>
+        <span>Stories: 4</span>
         <span>Recent issues: 14</span>
       </div>
     </header>
@@ -389,7 +389,7 @@
         <section class="one-liner">
           <h2>What Matters Today</h2>
           
-            <p class="text-block">Organizations must urgently address critical vulnerabilities in Oracle WebLogic and Calix routers while remaining vigilant against new malware delivery methods targeting Windows systems.</p>
+            <p class="text-block">Attackers are actively exploiting vulnerabilities in miniOrange SAML and Microsoft 365 login flows, significantly increasing the risk of unauthorized access for WordPress sites and Microsoft 365 accounts.</p>
           
         </section>
 
@@ -398,11 +398,11 @@
           
             <ul>
               
-              <li>Active exploitation of known vulnerabilities increases urgency for patching and exposure checks.</li>
+              <li>Increased exploitation of critical vulnerabilities in widely used plugins and services, necessitating immediate patching efforts by defenders.</li>
               
-              <li>Unpatched router flaws create pathways for attackers to access sensitive internal networks.</li>
+              <li>Heightened phishing risks through compromised npm packages, demanding vigilance from development teams integrating third-party libraries.</li>
               
-              <li>Emerging malware delivery methods highlight the evolving tactics of attackers, necessitating enhanced monitoring and defense strategies.</li>
+              <li>Shifting dynamics in vulnerability management highlight the need for organizations to adapt their security strategies to maintain resilience.</li>
               
             </ul>
           
@@ -420,9 +420,7 @@
         <div class="meta">
           <span class="chip risk-high">HIGH</span>
           
-            <span class="chip label-chip">ACTIVE EXPLOITATION</span>
-          
-            <span class="chip label-chip">KEV ADDED</span>
+            <span class="chip label-chip">PATCH RELEASE</span>
           
             <span class="chip label-chip">LEGAL POLICY</span>
           
@@ -430,35 +428,35 @@
           <span class="chip chip-neutral">Confidence LOW</span>
         </div>
         
-          <h3><a href="https://thehackernews.com/2026/08/actively-exploited-oracle-weblogic-flaw.html" target="_blank" rel="noopener noreferrer">Actively Exploited Oracle WebLogic Flaw Lets Unauthenticated Attackers Access Critical Data</a></h3>
+          <h3><a href="https://thehackernews.com/2026/08/attackers-target-miniorange-saml-flaws.html" target="_blank" rel="noopener noreferrer">Attackers Target miniOrange SAML Flaws That Can Grant WordPress Admin Access</a></h3>
         
-        <p class="hook">The exploitation of a critical Oracle WebLogic flaw poses an immediate risk of unauthorized data access, making it essential for organizations to act swiftly.</p>
+        <p class="hook">Attackers can exploit critical vulnerabilities in miniOrange SAML to gain unauthorized admin access to WordPress sites, posing a significant risk to site integrity.</p>
         <div class="support-grid">
-          <div class="text-block"><span class="label">Who should care:</span> IT security teams managing Oracle WebLogic and HTTP Server environments should prioritize this issue.</div>
-          <div class="text-block"><span class="label">Attack path:</span> An attacker can exploit this vulnerability by sending crafted HTTP requests to the affected servers, gaining unauthorized access to sensitive data.</div>
+          <div class="text-block"><span class="label">Who should care:</span> WordPress administrators and security teams managing sites using the miniOrange SAML plugin should be particularly vigilant.</div>
+          <div class="text-block"><span class="label">Attack path:</span> An attacker can leverage these vulnerabilities to bypass authentication checks and gain access to user accounts, including those with administrative privileges.</div>
         </div>
-        <div class="text-block"><span class="label">Why this matters now:</span> Active exploitation makes this an immediate exposure check. KEV status shortens the acceptable patch window.</div>
-        <div class="text-block"><span class="label">In plain English:</span> A severe vulnerability in Oracle WebLogic is being actively exploited, allowing attackers to access sensitive data without authentication.</div>
+        <div class="text-block"><span class="label">Why this matters now:</span> A live patch or vendor fix gives defenders something concrete to validate.</div>
+        <div class="text-block"><span class="label">In plain English:</span> Serious flaws in the miniOrange SAML plugin allow attackers to log in as any WordPress user, including admins.</div>
         
           <div class="tags">
             
+              <span>ransomware</span>
+            
               <span>cve</span>
             
-              <span>oracle</span>
-            
-              <span>webserver</span>
+              <span>cloud</span>
             
           </div>
         
         <ul class="story-list">
           
-            <li>CISA has added CVE-2026-21962, a critical vulnerability in Oracle HTTP Server and WebLogic Server, to its Known Exploited Vulnerabilities catalog. This flaw has a CVSS score of 10.0 and allows unauthenticated attackers to access critical data over HTTP.</li>
+            <li>Two severe unauthenticated authentication bypass vulnerabilities were identified in the Xecurify miniOrange SAML 2.0 Single Sign On plugin. These vulnerabilities enable attackers to sign in as any WordPress user without proper authentication.</li>
           
-            <li>The ability for attackers to exploit this vulnerability without authentication means that organizations could face significant data breaches and operational disruptions. Immediate remediation is crucial to protect sensitive information and maintain system integrity.</li>
+            <li>If exploited, these vulnerabilities could allow attackers to take full control of WordPress sites, leading to data breaches, defacement, or further exploitation of connected systems. The ease of access increases the urgency for immediate patching and monitoring.</li>
           
-            <li>An attacker can exploit this vulnerability by sending crafted HTTP requests to the affected servers, gaining unauthorized access to sensitive data.</li>
+            <li>An attacker can leverage these vulnerabilities to bypass authentication checks and gain access to user accounts, including those with administrative privileges.</li>
           
-            <li>Watch next: Monitor for updates from Oracle regarding patches and any emerging threat intelligence related to this vulnerability.</li>
+            <li>Watch next: Monitor for updates from miniOrange regarding patches and any reports of exploitation attempts.</li>
           
         </ul>
 
@@ -467,9 +465,9 @@
             <div class="label">Key terms</div>
             <ul class="list">
             
-              <li>CVE - Common Vulnerabilities and Exposures, a list of publicly disclosed cybersecurity vulnerabilities.</li>
+              <li>SAML - Security Assertion Markup Language, a protocol used for single sign-on authentication.</li>
             
-              <li>CVSS - Common Vulnerability Scoring System, a standard for assessing the severity of security vulnerabilities.</li>
+              <li>Authentication Bypass - A vulnerability that allows an attacker to gain access without proper credentials.</li>
             
             </ul>
           </div>
@@ -479,11 +477,11 @@
           <div class="label">Defender focus</div>
           <ul class="list">
             
-            <li>Implement network segmentation to limit access to Oracle WebLogic servers.</li>
+            <li>Implement monitoring for unusual login attempts on WordPress sites using the miniOrange plugin.</li>
             
-            <li>Deploy web application firewalls to filter malicious HTTP requests.</li>
+            <li>Review and apply any available patches from miniOrange immediately.</li>
             
-            <li>Ensure that all Oracle products are updated with the latest security patches.</li>
+            <li>Conduct an audit of user accounts to identify any unauthorized access.</li>
             
           </ul>
         </div>
@@ -492,24 +490,24 @@
           <div class="label">Do now</div>
           <ul class="list">
             
-            <li>Immediately apply available patches from Oracle.</li>
+            <li>Patch the miniOrange SAML plugin as soon as updates are available.</li>
             
-            <li>Conduct a risk assessment to identify exposed systems.</li>
+            <li>Monitor logs for any unauthorized access attempts.</li>
             
-            <li>Enhance monitoring for unusual access patterns to Oracle servers.</li>
+            <li>Review user permissions and access levels on affected WordPress sites.</li>
             
           </ul>
         </div>
 
-        <div class="text-block"><span class="label">Watch next:</span> Monitor for updates from Oracle regarding patches and any emerging threat intelligence related to this vulnerability.</div>
+        <div class="text-block"><span class="label">Watch next:</span> Monitor for updates from miniOrange regarding patches and any reports of exploitation attempts.</div>
 
         <div class="sources">
           <div class="label">Sources</div>
           
             
               <div>
-                <a href="https://thehackernews.com/2026/08/actively-exploited-oracle-weblogic-flaw.html" target="_blank" rel="noopener noreferrer">
-                  The Hacker News - Actively Exploited Oracle WebLogic Flaw Lets Unauthenticated Attackers Access Critical Data
+                <a href="https://thehackernews.com/2026/08/attackers-target-miniorange-saml-flaws.html" target="_blank" rel="noopener noreferrer">
+                  The Hacker News - Attackers Target miniOrange SAML Flaws That Can Grant WordPress Admin Access
                 </a>
               </div>
             
@@ -530,45 +528,43 @@
             
               <article class="card" style="--i: 0;">
         <div class="meta">
-          <span class="chip risk-high">HIGH</span>
+          <span class="chip risk-medium">MEDIUM</span>
           
             <span class="chip label-chip">PATCH RELEASE</span>
           
-            <span class="chip label-chip">LEGAL POLICY</span>
-          
-          <span class="chip chip-neutral">Initial Access</span>
+          <span class="chip chip-neutral">Unknown</span>
           <span class="chip chip-neutral">Confidence LOW</span>
         </div>
         
-          <h3><a href="https://www.bleepingcomputer.com/news/security/unpatched-calix-flaw-lets-hackers-bypass-nat-to-expose-internal-devices/" target="_blank" rel="noopener noreferrer">Unpatched Calix flaw lets hackers bypass NAT to expose internal devices</a></h3>
+          <h3><a href="https://thehackernews.com/2026/08/frontier-ai-vulnerability-managements.html" target="_blank" rel="noopener noreferrer">Frontier AI: Vulnerability Management's Systemic Revolution</a></h3>
         
-        <p class="hook">Unpatched vulnerabilities in widely used Calix routers could allow attackers to expose sensitive internal devices, posing significant risks to network security.</p>
+        <p class="hook">The evolving dynamics between vulnerability and patch management could significantly impact your organization's security posture.</p>
         <div class="support-grid">
-          <div class="text-block"><span class="label">Who should care:</span> Network security teams and IT departments using Calix GS7 XGS routers should prioritize this issue.</div>
-          <div class="text-block"><span class="label">Attack path:</span> Attackers can exploit the vulnerability to create port-forwarding rules, effectively bypassing NAT (Network Address Translation) protections and gaining access to internal devices.</div>
+          <div class="text-block"><span class="label">Who should care:</span> Security teams, especially those focused on vulnerability and patch management processes.</div>
+          <div class="text-block"><span class="label">Attack path:</span> An attacker could exploit unpatched vulnerabilities if vulnerability management does not align with timely patch deployment.</div>
         </div>
         <div class="text-block"><span class="label">Why this matters now:</span> A live patch or vendor fix gives defenders something concrete to validate.</div>
-        <div class="text-block"><span class="label">In plain English:</span> A serious flaw in Calix routers could let attackers access internal devices remotely.</div>
+        <div class="text-block"><span class="label">In plain English:</span> Changes in vulnerability management practices are reshaping how organizations handle security risks.</div>
         
           <div class="tags">
             
-              <span>cve</span>
+              <span>vulnerability management</span>
             
-              <span>network</span>
+              <span>patch management</span>
             
-              <span>router</span>
+              <span>cybersecurity</span>
             
           </div>
         
         <ul class="story-list">
           
-            <li>A vulnerability in Calix GS7 XGS residential routers has been discovered that allows remote, unauthenticated attackers to create port-forwarding rules. This flaw can expose internal network devices to the public internet, increasing the risk of unauthorized access.</li>
+            <li>A recent article discusses the evolving relationship between vulnerability management and patch management teams. It highlights the historical context and the ongoing challenges faced by these teams in collaborating effectively.</li>
           
-            <li>The ability to expose internal devices can lead to data breaches, unauthorized surveillance, and potential exploitation of sensitive systems. Given the widespread use of these routers by U.S. broadband providers, many households and businesses could be at risk.</li>
+            <li>As organizations increasingly rely on automated systems for vulnerability management, any misalignment with patch management could lead to unaddressed vulnerabilities. This could expose systems to potential exploits, increasing the risk of data breaches or service disruptions.</li>
           
-            <li>Attackers can exploit the vulnerability to create port-forwarding rules, effectively bypassing NAT (Network Address Translation) protections and gaining access to internal devices.</li>
+            <li>An attacker could exploit unpatched vulnerabilities if vulnerability management does not align with timely patch deployment.</li>
           
-            <li>Watch next: Monitor for any patches or updates from Calix that address this vulnerability.</li>
+            <li>Watch next: Monitor for updates on best practices in vulnerability and patch management integration.</li>
           
         </ul>
 
@@ -577,9 +573,9 @@
             <div class="label">Key terms</div>
             <ul class="list">
             
-              <li>NAT - Network Address Translation, a method used to allow multiple devices on a local network to share a single public IP address.</li>
+              <li>Vulnerability Management - the process of identifying, classifying, and addressing security weaknesses in systems.</li>
             
-              <li>Port-forwarding - A technique that allows external devices to access services on a private network by redirecting traffic from a public IP address to a specific internal IP address.</li>
+              <li>Patch Management - the process of managing updates to software applications and systems to fix vulnerabilities.</li>
             
             </ul>
           </div>
@@ -589,11 +585,11 @@
           <div class="label">Defender focus</div>
           <ul class="list">
             
-            <li>Implement network segmentation to limit exposure of internal devices.</li>
+            <li>Assess current vulnerability management tools for integration with patch management processes.</li>
             
-            <li>Monitor for unusual port-forwarding rules being created on affected routers.</li>
+            <li>Evaluate the effectiveness of communication between vulnerability and patch management teams.</li>
             
-            <li>Review firewall configurations to ensure they are not allowing unauthorized access.</li>
+            <li>Implement regular reviews of vulnerability reports to ensure timely patching.</li>
             
           </ul>
         </div>
@@ -602,24 +598,24 @@
           <div class="label">Do now</div>
           <ul class="list">
             
-            <li>Assess the impact of the vulnerability on your network.</li>
+            <li>Review existing vulnerability management practices for alignment with patch management.</li>
             
-            <li>Apply any available patches or updates from Calix as soon as they are released.</li>
+            <li>Facilitate a meeting between vulnerability and patch management teams to discuss collaboration.</li>
             
-            <li>Consider replacing vulnerable devices if patches are not forthcoming.</li>
+            <li>Stay informed on emerging trends in vulnerability management technologies.</li>
             
           </ul>
         </div>
 
-        <div class="text-block"><span class="label">Watch next:</span> Monitor for any patches or updates from Calix that address this vulnerability.</div>
+        <div class="text-block"><span class="label">Watch next:</span> Monitor for updates on best practices in vulnerability and patch management integration.</div>
 
         <div class="sources">
           <div class="label">Sources</div>
           
             
               <div>
-                <a href="https://www.bleepingcomputer.com/news/security/unpatched-calix-flaw-lets-hackers-bypass-nat-to-expose-internal-devices/" target="_blank" rel="noopener noreferrer">
-                  BleepingComputer - Unpatched Calix flaw lets hackers bypass NAT to expose internal devices
+                <a href="https://thehackernews.com/2026/08/frontier-ai-vulnerability-managements.html" target="_blank" rel="noopener noreferrer">
+                  The Hacker News - Frontier AI: Vulnerability Management's Systemic Revolution
                 </a>
               </div>
             
@@ -633,39 +629,39 @@
           
             <span class="chip label-chip">RESEARCH</span>
           
-          <span class="chip chip-neutral">Initial Access</span>
+          <span class="chip chip-neutral">Credential Access</span>
           <span class="chip chip-neutral">Confidence LOW</span>
         </div>
         
-          <h3><a href="https://thehackernews.com/2026/08/wordlistloader-delivers-amatera-via.html" target="_blank" rel="noopener noreferrer">WordlistLoader Delivers Amatera via ClickFix, SynkLoader Phishes Windows Passwords</a></h3>
+          <h3><a href="https://thehackernews.com/2026/08/mirage2fa-surge-hits-4500-us-and-eu.html" target="_blank" rel="noopener noreferrer">Mirage2FA Surge Hits 4,500 US and EU Companies, Abusing Microsoft 365 Login Flows</a></h3>
         
-        <p class="hook">The emergence of WordlistLoader and SynkLoader poses a significant threat as they facilitate the delivery of dangerous malware, potentially leading to data breaches and ransomware attacks.</p>
+        <p class="hook">The ongoing Mirage2FA campaign has compromised nearly half of targeted Microsoft 365 accounts, posing a significant threat to organizational security.</p>
         <div class="support-grid">
-          <div class="text-block"><span class="label">Who should care:</span> IT security teams and organizations that rely on Windows systems are most exposed to these threats.</div>
-          <div class="text-block"><span class="label">Attack path:</span> Attackers use WordlistLoader to deliver Amatera Stealer, which can harvest sensitive information such as passwords, enabling further exploitation.</div>
+          <div class="text-block"><span class="label">Who should care:</span> IT security teams and organizations using Microsoft 365 should be particularly vigilant.</div>
+          <div class="text-block"><span class="label">Attack path:</span> Attackers leverage the Mirage2FA toolkit to exploit legitimate login processes, allowing them to bypass security measures like two-factor authentication.</div>
         </div>
         <div class="text-block"><span class="label">Why this matters now:</span> Useful context for teams tracking where attacker pressure is building.</div>
-        <div class="text-block"><span class="label">In plain English:</span> New malware families are being used to steal credentials and deliver payloads, increasing the risk of ransomware incidents.</div>
+        <div class="text-block"><span class="label">In plain English:</span> A phishing toolkit is exploiting Microsoft 365 login processes, affecting thousands of companies.</div>
         
           <div class="tags">
             
-              <span>ransomware</span>
+              <span>phishing</span>
             
-              <span>cve</span>
+              <span>microsoft365</span>
             
-              <span>cloud</span>
+              <span>cybersecurity</span>
             
           </div>
         
         <ul class="story-list">
           
-            <li>Cybersecurity researchers identified two new malware families, WordlistLoader and SynkLoader, which are being utilized to deliver next-stage payloads and likely sell access to ransomware groups. WordlistLoader specifically delivers the Amatera Stealer through ClearFake campaigns that use ClickFix.</li>
+            <li>The Mirage2FA campaign has surged, impacting approximately 4,500 companies in the US and EU from 2024 to 2026. This phishing-as-a-service toolkit bypasses two-factor authentication by abusing legitimate login flows. Research indicates that 48% of targeted email addresses may have been compromised.</li>
           
-            <li>These malware families can lead to significant data theft and compromise user credentials, making organizations vulnerable to ransomware attacks. The ability to sell access to ransomware groups increases the urgency for organizations to bolster their defenses.</li>
+            <li>The compromise of Microsoft 365 accounts can lead to unauthorized access to sensitive data and systems, potentially resulting in data breaches and financial losses. With many affected companies based in the US, the implications for customer trust and regulatory compliance are significant.</li>
           
-            <li>Attackers use WordlistLoader to deliver Amatera Stealer, which can harvest sensitive information such as passwords, enabling further exploitation.</li>
+            <li>Attackers leverage the Mirage2FA toolkit to exploit legitimate login processes, allowing them to bypass security measures like two-factor authentication.</li>
           
-            <li>Watch next: Monitor for updates from cybersecurity vendors regarding detection capabilities for these new malware families.</li>
+            <li>Watch next: Monitor for updates from Microsoft regarding security patches or guidance related to this campaign.</li>
           
         </ul>
 
@@ -674,9 +670,9 @@
             <div class="label">Key terms</div>
             <ul class="list">
             
-              <li>WordlistLoader - a malware that delivers other malicious payloads, often used in phishing campaigns.</li>
+              <li>Phishing - a method of trying to gather personal information using deceptive emails and websites.</li>
             
-              <li>Amatera Stealer - a type of malware designed to steal sensitive information from infected systems.</li>
+              <li>Two-Factor Authentication (2FA) - a security process in which the user provides two different authentication factors to verify themselves.</li>
             
             </ul>
           </div>
@@ -686,11 +682,11 @@
           <div class="label">Defender focus</div>
           <ul class="list">
             
-            <li>Implement detection rules for WordlistLoader and Amatera-related activity.</li>
+            <li>Implement monitoring for unusual login attempts to Microsoft 365 accounts.</li>
             
-            <li>Monitor for unusual login attempts or credential theft indicators.</li>
+            <li>Review and enhance existing two-factor authentication configurations.</li>
             
-            <li>Enhance email filtering to block phishing attempts associated with ClearFake campaigns.</li>
+            <li>Conduct a security audit of email accounts to identify potential compromises.</li>
             
           </ul>
         </div>
@@ -699,24 +695,121 @@
           <div class="label">Do now</div>
           <ul class="list">
             
-            <li>Update security protocols to detect and block WordlistLoader and Amatera.</li>
+            <li>Increase monitoring of Microsoft 365 account access logs.</li>
             
-            <li>Conduct a security audit to identify vulnerabilities in Windows systems.</li>
+            <li>Educate employees on recognizing phishing attempts.</li>
             
-            <li>Train staff on recognizing phishing attempts related to these malware families.</li>
+            <li>Review and strengthen security policies around account access.</li>
             
           </ul>
         </div>
 
-        <div class="text-block"><span class="label">Watch next:</span> Monitor for updates from cybersecurity vendors regarding detection capabilities for these new malware families.</div>
+        <div class="text-block"><span class="label">Watch next:</span> Monitor for updates from Microsoft regarding security patches or guidance related to this campaign.</div>
 
         <div class="sources">
           <div class="label">Sources</div>
           
             
               <div>
-                <a href="https://thehackernews.com/2026/08/wordlistloader-delivers-amatera-via.html" target="_blank" rel="noopener noreferrer">
-                  The Hacker News - WordlistLoader Delivers Amatera via ClickFix, SynkLoader Phishes Windows Passwords
+                <a href="https://thehackernews.com/2026/08/mirage2fa-surge-hits-4500-us-and-eu.html" target="_blank" rel="noopener noreferrer">
+                  The Hacker News - Mirage2FA Surge Hits 4,500 US and EU Companies, Abusing Microsoft 365 Login Flows
+                </a>
+              </div>
+            
+          
+        </div>
+      </article>
+            
+              <article class="card" style="--i: 2;">
+        <div class="meta">
+          <span class="chip risk-medium">MEDIUM</span>
+          
+            <span class="chip label-chip">RESEARCH</span>
+          
+          <span class="chip chip-neutral">Credential Access</span>
+          <span class="chip chip-neutral">Confidence LOW</span>
+        </div>
+        
+          <h3><a href="https://thehackernews.com/2026/08/24-npm-packages-abuse-unpkg-mirrors-to.html" target="_blank" rel="noopener noreferrer">24 npm Packages Abuse unpkg Mirrors to Host Fake Cloudflare CAPTCHA Pages</a></h3>
+        
+        <p class="hook">The exploitation of npm packages for phishing poses a significant risk to developers and organizations relying on these resources for legitimate software.</p>
+        <div class="support-grid">
+          <div class="text-block"><span class="label">Who should care:</span> Development teams using npm packages and organizations that integrate third-party libraries into their applications should be vigilant.</div>
+          <div class="text-block"><span class="label">Attack path:</span> Attackers exploit npm packages to redirect users to fake CAPTCHA pages, capturing sensitive information without directly infecting systems.</div>
+        </div>
+        <div class="text-block"><span class="label">Why this matters now:</span> Useful context for teams tracking where attacker pressure is building.</div>
+        <div class="text-block"><span class="label">In plain English:</span> 24 npm packages are being misused to host fake CAPTCHA pages, potentially tricking users into providing sensitive information.</div>
+        
+          <div class="tags">
+            
+              <span>phishing</span>
+            
+              <span>npm</span>
+            
+              <span>cloud</span>
+            
+          </div>
+        
+        <ul class="story-list">
+          
+            <li>Researchers have identified a campaign utilizing 24 npm packages that redirect users to fraudulent CAPTCHA pages. These packages do not contain harmful code but serve as a phishing mechanism to capture user credentials.</li>
+          
+            <li>This tactic leverages trusted software repositories, making it easier for attackers to deceive users. Organizations that rely on npm for software development may inadvertently expose their developers to phishing attempts, leading to potential credential theft.</li>
+          
+            <li>Attackers exploit npm packages to redirect users to fake CAPTCHA pages, capturing sensitive information without directly infecting systems.</li>
+          
+            <li>Watch next: Monitor for updates from npm regarding the removal of these malicious packages and any further phishing campaigns.</li>
+          
+        </ul>
+
+        
+          <div class="glossary">
+            <div class="label">Key terms</div>
+            <ul class="list">
+            
+              <li>npm - a package manager for JavaScript that allows developers to share and reuse code.</li>
+            
+              <li>CAPTCHA - a challenge-response test used to determine whether the user is human, often used to prevent automated access.</li>
+            
+            </ul>
+          </div>
+        
+
+        <div>
+          <div class="label">Defender focus</div>
+          <ul class="list">
+            
+            <li>Implement monitoring for unusual traffic patterns to npm packages.</li>
+            
+            <li>Educate developers on recognizing phishing attempts, especially those involving npm.</li>
+            
+            <li>Review and validate the npm packages in use to ensure they are from trusted sources.</li>
+            
+          </ul>
+        </div>
+
+        <div>
+          <div class="label">Do now</div>
+          <ul class="list">
+            
+            <li>Audit your npm package usage for any suspicious packages.</li>
+            
+            <li>Enhance monitoring for phishing attempts targeting your development teams.</li>
+            
+            <li>Stay updated on npm security advisories regarding malicious packages.</li>
+            
+          </ul>
+        </div>
+
+        <div class="text-block"><span class="label">Watch next:</span> Monitor for updates from npm regarding the removal of these malicious packages and any further phishing campaigns.</div>
+
+        <div class="sources">
+          <div class="label">Sources</div>
+          
+            
+              <div>
+                <a href="https://thehackernews.com/2026/08/24-npm-packages-abuse-unpkg-mirrors-to.html" target="_blank" rel="noopener noreferrer">
+                  The Hacker News - 24 npm Packages Abuse unpkg Mirrors to Host Fake Cloudflare CAPTCHA Pages
                 </a>
               </div>
             
