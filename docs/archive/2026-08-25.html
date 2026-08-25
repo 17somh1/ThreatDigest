@@ -3,7 +3,7 @@
   <head>
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1" />
-    <title>Threat Digest - 2026-08-11</title>
+    <title>Threat Digest - 2026-08-25</title>
     <style>
       @import url("https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,600;9..144,700&family=Space+Grotesk:wght@400;500;600&display=swap");
 
@@ -373,12 +373,12 @@
 
     <header>
       <div class="eyebrow">Daily Threat Briefing</div>
-      <h1>Threat Digest - 2026-08-11</h1>
+      <h1>Threat Digest - 2026-08-25</h1>
       <p class="subtitle">
         The security news worth your attention, with context and practical takeaways.
       </p>
       <div class="meta-bar">
-        <span>Updated: 2026-08-11 13:22 UTC</span>
+        <span>Updated: 2026-08-25 08:33 UTC</span>
         <span>Stories: 3</span>
         <span>Recent issues: 14</span>
       </div>
@@ -389,7 +389,7 @@
         <section class="one-liner">
           <h2>What Matters Today</h2>
           
-            <p class="text-block">Ransomware gangs are exploiting critical vulnerabilities in Microsoft SharePoint and other platforms, significantly increasing risks for organizations and government agencies.</p>
+            <p class="text-block">Organizations must urgently address critical vulnerabilities in Oracle WebLogic and Calix routers while remaining vigilant against new malware delivery methods targeting Windows systems.</p>
           
         </section>
 
@@ -398,11 +398,11 @@
           
             <ul>
               
-              <li>Immediate need for vulnerability patching in widely used platforms like Microsoft SharePoint to prevent ransomware exploitation.</li>
+              <li>Active exploitation of known vulnerabilities increases urgency for patching and exposure checks.</li>
               
-              <li>Heightened risk for government agencies from targeted ransomware attacks, necessitating increased vigilance and incident response readiness.</li>
+              <li>Unpatched router flaws create pathways for attackers to access sensitive internal networks.</li>
               
-              <li>Critical infrastructure sectors must prioritize security measures against ransomware exploiting known vulnerabilities in their systems.</li>
+              <li>Emerging malware delivery methods highlight the evolving tactics of attackers, necessitating enhanced monitoring and defense strategies.</li>
               
             </ul>
           
@@ -422,41 +422,43 @@
           
             <span class="chip label-chip">ACTIVE EXPLOITATION</span>
           
+            <span class="chip label-chip">KEV ADDED</span>
+          
             <span class="chip label-chip">LEGAL POLICY</span>
           
           <span class="chip chip-neutral">Initial Access</span>
           <span class="chip chip-neutral">Confidence LOW</span>
         </div>
         
-          <h3><a href="https://www.bleepingcomputer.com/news/security/cisa-microsoft-sharepoint-flaw-now-exploited-in-ransomware-attacks/" target="_blank" rel="noopener noreferrer">CISA: Microsoft SharePoint flaw now exploited in ransomware attacks</a></h3>
+          <h3><a href="https://thehackernews.com/2026/08/actively-exploited-oracle-weblogic-flaw.html" target="_blank" rel="noopener noreferrer">Actively Exploited Oracle WebLogic Flaw Lets Unauthenticated Attackers Access Critical Data</a></h3>
         
-        <p class="hook">Ransomware gangs are actively exploiting a critical vulnerability in Microsoft SharePoint, posing immediate threats to organizations using this platform.</p>
+        <p class="hook">The exploitation of a critical Oracle WebLogic flaw poses an immediate risk of unauthorized data access, making it essential for organizations to act swiftly.</p>
         <div class="support-grid">
-          <div class="text-block"><span class="label">Who should care:</span> IT security teams managing Microsoft SharePoint environments should prioritize this issue.</div>
-          <div class="text-block"><span class="label">Attack path:</span> Attackers can leverage the remote code execution vulnerability to gain unauthorized access to systems running SharePoint, allowing them to deploy ransomware.</div>
+          <div class="text-block"><span class="label">Who should care:</span> IT security teams managing Oracle WebLogic and HTTP Server environments should prioritize this issue.</div>
+          <div class="text-block"><span class="label">Attack path:</span> An attacker can exploit this vulnerability by sending crafted HTTP requests to the affected servers, gaining unauthorized access to sensitive data.</div>
         </div>
-        <div class="text-block"><span class="label">Why this matters now:</span> Active exploitation makes this an immediate exposure check.</div>
-        <div class="text-block"><span class="label">In plain English:</span> A serious flaw in Microsoft SharePoint is being used by ransomware attackers, and organizations need to act quickly.</div>
+        <div class="text-block"><span class="label">Why this matters now:</span> Active exploitation makes this an immediate exposure check. KEV status shortens the acceptable patch window.</div>
+        <div class="text-block"><span class="label">In plain English:</span> A severe vulnerability in Oracle WebLogic is being actively exploited, allowing attackers to access sensitive data without authentication.</div>
         
           <div class="tags">
             
-              <span>ransomware</span>
-            
               <span>cve</span>
             
-              <span>cloud</span>
+              <span>oracle</span>
+            
+              <span>webserver</span>
             
           </div>
         
         <ul class="story-list">
           
-            <li>CISA has confirmed that a high-severity remote code execution vulnerability in Microsoft SharePoint is being exploited by ransomware groups. This vulnerability has been flagged as actively exploited since early July 2026.</li>
+            <li>CISA has added CVE-2026-21962, a critical vulnerability in Oracle HTTP Server and WebLogic Server, to its Known Exploited Vulnerabilities catalog. This flaw has a CVSS score of 10.0 and allows unauthenticated attackers to access critical data over HTTP.</li>
           
-            <li>If left unaddressed, this vulnerability can lead to significant data loss and operational disruptions for organizations relying on SharePoint. The ongoing exploitation indicates that attackers are actively seeking to compromise systems, making immediate remediation critical.</li>
+            <li>The ability for attackers to exploit this vulnerability without authentication means that organizations could face significant data breaches and operational disruptions. Immediate remediation is crucial to protect sensitive information and maintain system integrity.</li>
           
-            <li>Attackers can leverage the remote code execution vulnerability to gain unauthorized access to systems running SharePoint, allowing them to deploy ransomware.</li>
+            <li>An attacker can exploit this vulnerability by sending crafted HTTP requests to the affected servers, gaining unauthorized access to sensitive data.</li>
           
-            <li>Watch next: Monitor for updates from Microsoft regarding patches and any new indicators of compromise related to this vulnerability.</li>
+            <li>Watch next: Monitor for updates from Oracle regarding patches and any emerging threat intelligence related to this vulnerability.</li>
           
         </ul>
 
@@ -465,9 +467,9 @@
             <div class="label">Key terms</div>
             <ul class="list">
             
-              <li>REMOTE CODE EXECUTION - a type of vulnerability that allows an attacker to run arbitrary code on a target system remotely.</li>
+              <li>CVE - Common Vulnerabilities and Exposures, a list of publicly disclosed cybersecurity vulnerabilities.</li>
             
-              <li>RANSOMWARE - a type of malicious software that encrypts files on a victim's system and demands payment for the decryption key.</li>
+              <li>CVSS - Common Vulnerability Scoring System, a standard for assessing the severity of security vulnerabilities.</li>
             
             </ul>
           </div>
@@ -477,11 +479,11 @@
           <div class="label">Defender focus</div>
           <ul class="list">
             
-            <li>Implement monitoring for unusual access patterns to SharePoint servers.</li>
+            <li>Implement network segmentation to limit access to Oracle WebLogic servers.</li>
             
-            <li>Ensure that all SharePoint instances are updated with the latest security patches.</li>
+            <li>Deploy web application firewalls to filter malicious HTTP requests.</li>
             
-            <li>Review and tighten access controls to limit exposure to the vulnerability.</li>
+            <li>Ensure that all Oracle products are updated with the latest security patches.</li>
             
           </ul>
         </div>
@@ -490,24 +492,24 @@
           <div class="label">Do now</div>
           <ul class="list">
             
-            <li>Patch Microsoft SharePoint immediately to mitigate the vulnerability.</li>
+            <li>Immediately apply available patches from Oracle.</li>
             
-            <li>Conduct a risk assessment to identify any systems that may be exposed.</li>
+            <li>Conduct a risk assessment to identify exposed systems.</li>
             
-            <li>Increase monitoring for signs of ransomware activity in your environment.</li>
+            <li>Enhance monitoring for unusual access patterns to Oracle servers.</li>
             
           </ul>
         </div>
 
-        <div class="text-block"><span class="label">Watch next:</span> Monitor for updates from Microsoft regarding patches and any new indicators of compromise related to this vulnerability.</div>
+        <div class="text-block"><span class="label">Watch next:</span> Monitor for updates from Oracle regarding patches and any emerging threat intelligence related to this vulnerability.</div>
 
         <div class="sources">
           <div class="label">Sources</div>
           
             
               <div>
-                <a href="https://www.bleepingcomputer.com/news/security/cisa-microsoft-sharepoint-flaw-now-exploited-in-ransomware-attacks/" target="_blank" rel="noopener noreferrer">
-                  BleepingComputer - CISA: Microsoft SharePoint flaw now exploited in ransomware attacks
+                <a href="https://thehackernews.com/2026/08/actively-exploited-oracle-weblogic-flaw.html" target="_blank" rel="noopener noreferrer">
+                  The Hacker News - Actively Exploited Oracle WebLogic Flaw Lets Unauthenticated Attackers Access Critical Data
                 </a>
               </div>
             
@@ -530,41 +532,43 @@
         <div class="meta">
           <span class="chip risk-high">HIGH</span>
           
+            <span class="chip label-chip">PATCH RELEASE</span>
+          
             <span class="chip label-chip">LEGAL POLICY</span>
           
           <span class="chip chip-neutral">Initial Access</span>
           <span class="chip chip-neutral">Confidence LOW</span>
         </div>
         
-          <h3><a href="https://www.bleepingcomputer.com/news/security/us-warns-of-gunra-ransomware-attacks-against-government-critical-infrastructure/" target="_blank" rel="noopener noreferrer">US and South Korea warn of Gunra ransomware targeting govt agencies</a></h3>
+          <h3><a href="https://www.bleepingcomputer.com/news/security/unpatched-calix-flaw-lets-hackers-bypass-nat-to-expose-internal-devices/" target="_blank" rel="noopener noreferrer">Unpatched Calix flaw lets hackers bypass NAT to expose internal devices</a></h3>
         
-        <p class="hook">Government agencies are at heightened risk from Gunra ransomware, which could disrupt critical services and compromise sensitive data.</p>
+        <p class="hook">Unpatched vulnerabilities in widely used Calix routers could allow attackers to expose sensitive internal devices, posing significant risks to network security.</p>
         <div class="support-grid">
-          <div class="text-block"><span class="label">Who should care:</span> Government IT teams and critical infrastructure operators are most exposed to these threats.</div>
-          <div class="text-block"><span class="label">Attack path:</span> Attackers likely exploit vulnerabilities in government systems to deploy ransomware, encrypting data and demanding ransom for restoration. This could involve phishing or exploiting unpatched software.</div>
+          <div class="text-block"><span class="label">Who should care:</span> Network security teams and IT departments using Calix GS7 XGS routers should prioritize this issue.</div>
+          <div class="text-block"><span class="label">Attack path:</span> Attackers can exploit the vulnerability to create port-forwarding rules, effectively bypassing NAT (Network Address Translation) protections and gaining access to internal devices.</div>
         </div>
-        <div class="text-block"><span class="label">Why this matters now:</span> Sector exposure makes this broader than a one-off incident.</div>
-        <div class="text-block"><span class="label">In plain English:</span> Gunra ransomware is actively targeting government and critical infrastructure organizations, necessitating immediate security measures.</div>
+        <div class="text-block"><span class="label">Why this matters now:</span> A live patch or vendor fix gives defenders something concrete to validate.</div>
+        <div class="text-block"><span class="label">In plain English:</span> A serious flaw in Calix routers could let attackers access internal devices remotely.</div>
         
           <div class="tags">
             
-              <span>ransomware</span>
+              <span>cve</span>
             
-              <span>government</span>
+              <span>network</span>
             
-              <span>critical infrastructure</span>
+              <span>router</span>
             
           </div>
         
         <ul class="story-list">
           
-            <li>U.S. federal agencies and South Korea's National Policy Agency issued a warning about Gunra ransomware attacks aimed at government entities and critical infrastructure. The advisory highlights the need for enhanced security protocols to defend against these threats.</li>
+            <li>A vulnerability in Calix GS7 XGS residential routers has been discovered that allows remote, unauthenticated attackers to create port-forwarding rules. This flaw can expose internal network devices to the public internet, increasing the risk of unauthorized access.</li>
           
-            <li>Successful attacks could lead to significant operational disruptions and data breaches within government systems. The targeting of critical infrastructure raises concerns about national security and public safety.</li>
+            <li>The ability to expose internal devices can lead to data breaches, unauthorized surveillance, and potential exploitation of sensitive systems. Given the widespread use of these routers by U.S. broadband providers, many households and businesses could be at risk.</li>
           
-            <li>Attackers likely exploit vulnerabilities in government systems to deploy ransomware, encrypting data and demanding ransom for restoration. This could involve phishing or exploiting unpatched software.</li>
+            <li>Attackers can exploit the vulnerability to create port-forwarding rules, effectively bypassing NAT (Network Address Translation) protections and gaining access to internal devices.</li>
           
-            <li>Watch next: Monitor for updates from cybersecurity agencies regarding new indicators of compromise or specific vulnerabilities associated with Gunra ransomware.</li>
+            <li>Watch next: Monitor for any patches or updates from Calix that address this vulnerability.</li>
           
         </ul>
 
@@ -573,9 +577,9 @@
             <div class="label">Key terms</div>
             <ul class="list">
             
-              <li>Ransomware - a type of malicious software that encrypts files on a victim's system, demanding payment for decryption.</li>
+              <li>NAT - Network Address Translation, a method used to allow multiple devices on a local network to share a single public IP address.</li>
             
-              <li>Critical Infrastructure - systems and assets vital to national security, economy, public health, or safety.</li>
+              <li>Port-forwarding - A technique that allows external devices to access services on a private network by redirecting traffic from a public IP address to a specific internal IP address.</li>
             
             </ul>
           </div>
@@ -585,11 +589,11 @@
           <div class="label">Defender focus</div>
           <ul class="list">
             
-            <li>Implement network segmentation to limit ransomware spread.</li>
+            <li>Implement network segmentation to limit exposure of internal devices.</li>
             
-            <li>Ensure all systems are updated with the latest security patches.</li>
+            <li>Monitor for unusual port-forwarding rules being created on affected routers.</li>
             
-            <li>Monitor for unusual login attempts or unauthorized access to sensitive data.</li>
+            <li>Review firewall configurations to ensure they are not allowing unauthorized access.</li>
             
           </ul>
         </div>
@@ -598,24 +602,24 @@
           <div class="label">Do now</div>
           <ul class="list">
             
-            <li>Immediately review and strengthen security protocols for government systems.</li>
+            <li>Assess the impact of the vulnerability on your network.</li>
             
-            <li>Conduct a vulnerability assessment to identify and remediate weaknesses.</li>
+            <li>Apply any available patches or updates from Calix as soon as they are released.</li>
             
-            <li>Establish a response plan for potential ransomware incidents.</li>
+            <li>Consider replacing vulnerable devices if patches are not forthcoming.</li>
             
           </ul>
         </div>
 
-        <div class="text-block"><span class="label">Watch next:</span> Monitor for updates from cybersecurity agencies regarding new indicators of compromise or specific vulnerabilities associated with Gunra ransomware.</div>
+        <div class="text-block"><span class="label">Watch next:</span> Monitor for any patches or updates from Calix that address this vulnerability.</div>
 
         <div class="sources">
           <div class="label">Sources</div>
           
             
               <div>
-                <a href="https://www.bleepingcomputer.com/news/security/us-warns-of-gunra-ransomware-attacks-against-government-critical-infrastructure/" target="_blank" rel="noopener noreferrer">
-                  BleepingComputer - US and South Korea warn of Gunra ransomware targeting govt agencies
+                <a href="https://www.bleepingcomputer.com/news/security/unpatched-calix-flaw-lets-hackers-bypass-nat-to-expose-internal-devices/" target="_blank" rel="noopener noreferrer">
+                  BleepingComputer - Unpatched Calix flaw lets hackers bypass NAT to expose internal devices
                 </a>
               </div>
             
@@ -627,23 +631,21 @@
         <div class="meta">
           <span class="chip risk-high">HIGH</span>
           
-            <span class="chip label-chip">INDUSTRY SIGNAL</span>
-          
-            <span class="chip label-chip">LEGAL POLICY</span>
+            <span class="chip label-chip">RESEARCH</span>
           
           <span class="chip chip-neutral">Initial Access</span>
           <span class="chip chip-neutral">Confidence LOW</span>
         </div>
         
-          <h3><a href="https://thehackernews.com/2026/08/gunra-ransomware-exploits-fortinet-and.html" target="_blank" rel="noopener noreferrer">Gunra Ransomware Exploits Fortinet and Schneider Electric Flaws to Breach Networks</a></h3>
+          <h3><a href="https://thehackernews.com/2026/08/wordlistloader-delivers-amatera-via.html" target="_blank" rel="noopener noreferrer">WordlistLoader Delivers Amatera via ClickFix, SynkLoader Phishes Windows Passwords</a></h3>
         
-        <p class="hook">Gunra ransomware is actively exploiting vulnerabilities in Fortinet and Schneider Electric products, posing immediate threats to critical infrastructure worldwide.</p>
+        <p class="hook">The emergence of WordlistLoader and SynkLoader poses a significant threat as they facilitate the delivery of dangerous malware, potentially leading to data breaches and ransomware attacks.</p>
         <div class="support-grid">
-          <div class="text-block"><span class="label">Who should care:</span> Teams managing critical infrastructure, especially in healthcare, finance, and government sectors, should prioritize this threat.</div>
-          <div class="text-block"><span class="label">Attack path:</span> Attackers leverage known vulnerabilities in Fortinet and Schneider Electric products to gain unauthorized access to networks. Once inside, they can deploy ransomware to encrypt data and demand payment.</div>
+          <div class="text-block"><span class="label">Who should care:</span> IT security teams and organizations that rely on Windows systems are most exposed to these threats.</div>
+          <div class="text-block"><span class="label">Attack path:</span> Attackers use WordlistLoader to deliver Amatera Stealer, which can harvest sensitive information such as passwords, enabling further exploitation.</div>
         </div>
-        <div class="text-block"><span class="label">Why this matters now:</span> Sector exposure makes this broader than a one-off incident.</div>
-        <div class="text-block"><span class="label">In plain English:</span> Gunra ransomware is targeting critical sectors by exploiting known vulnerabilities.</div>
+        <div class="text-block"><span class="label">Why this matters now:</span> Useful context for teams tracking where attacker pressure is building.</div>
+        <div class="text-block"><span class="label">In plain English:</span> New malware families are being used to steal credentials and deliver payloads, increasing the risk of ransomware incidents.</div>
         
           <div class="tags">
             
@@ -657,13 +659,13 @@
         
         <ul class="story-list">
           
-            <li>Cybersecurity agencies from South Korea and the U.S. have reported that Gunra ransomware is exploiting flaws in Fortinet and Schneider Electric systems. These attacks are affecting various critical infrastructure sectors, including healthcare, finance, and government services.</li>
+            <li>Cybersecurity researchers identified two new malware families, WordlistLoader and SynkLoader, which are being utilized to deliver next-stage payloads and likely sell access to ransomware groups. WordlistLoader specifically delivers the Amatera Stealer through ClearFake campaigns that use ClickFix.</li>
           
-            <li>The exploitation of these vulnerabilities can lead to significant disruptions in essential services, risking data integrity and operational continuity. Organizations in the affected sectors must act quickly to mitigate potential breaches and protect sensitive information.</li>
+            <li>These malware families can lead to significant data theft and compromise user credentials, making organizations vulnerable to ransomware attacks. The ability to sell access to ransomware groups increases the urgency for organizations to bolster their defenses.</li>
           
-            <li>Attackers leverage known vulnerabilities in Fortinet and Schneider Electric products to gain unauthorized access to networks. Once inside, they can deploy ransomware to encrypt data and demand payment.</li>
+            <li>Attackers use WordlistLoader to deliver Amatera Stealer, which can harvest sensitive information such as passwords, enabling further exploitation.</li>
           
-            <li>Watch next: Monitor for updates from Fortinet and Schneider Electric regarding patches and mitigation strategies.</li>
+            <li>Watch next: Monitor for updates from cybersecurity vendors regarding detection capabilities for these new malware families.</li>
           
         </ul>
 
@@ -672,9 +674,9 @@
             <div class="label">Key terms</div>
             <ul class="list">
             
-              <li>Ransomware - a type of malicious software that encrypts files and demands payment for their release.</li>
+              <li>WordlistLoader - a malware that delivers other malicious payloads, often used in phishing campaigns.</li>
             
-              <li>Vulnerability - a weakness in a system that can be exploited by attackers to gain unauthorized access.</li>
+              <li>Amatera Stealer - a type of malware designed to steal sensitive information from infected systems.</li>
             
             </ul>
           </div>
@@ -684,11 +686,11 @@
           <div class="label">Defender focus</div>
           <ul class="list">
             
-            <li>Implement network segmentation to limit the spread of ransomware.</li>
+            <li>Implement detection rules for WordlistLoader and Amatera-related activity.</li>
             
-            <li>Ensure all Fortinet and Schneider Electric products are updated with the latest security patches.</li>
+            <li>Monitor for unusual login attempts or credential theft indicators.</li>
             
-            <li>Monitor network traffic for unusual activity that may indicate a breach.</li>
+            <li>Enhance email filtering to block phishing attempts associated with ClearFake campaigns.</li>
             
           </ul>
         </div>
@@ -697,24 +699,24 @@
           <div class="label">Do now</div>
           <ul class="list">
             
-            <li>Patch Fortinet and Schneider Electric vulnerabilities immediately.</li>
+            <li>Update security protocols to detect and block WordlistLoader and Amatera.</li>
             
-            <li>Review and enhance incident response plans for ransomware attacks.</li>
+            <li>Conduct a security audit to identify vulnerabilities in Windows systems.</li>
             
-            <li>Conduct a risk assessment of critical infrastructure systems.</li>
+            <li>Train staff on recognizing phishing attempts related to these malware families.</li>
             
           </ul>
         </div>
 
-        <div class="text-block"><span class="label">Watch next:</span> Monitor for updates from Fortinet and Schneider Electric regarding patches and mitigation strategies.</div>
+        <div class="text-block"><span class="label">Watch next:</span> Monitor for updates from cybersecurity vendors regarding detection capabilities for these new malware families.</div>
 
         <div class="sources">
           <div class="label">Sources</div>
           
             
               <div>
-                <a href="https://thehackernews.com/2026/08/gunra-ransomware-exploits-fortinet-and.html" target="_blank" rel="noopener noreferrer">
-                  The Hacker News - Gunra Ransomware Exploits Fortinet and Schneider Electric Flaws to Breach Networks
+                <a href="https://thehackernews.com/2026/08/wordlistloader-delivers-amatera-via.html" target="_blank" rel="noopener noreferrer">
+                  The Hacker News - WordlistLoader Delivers Amatera via ClickFix, SynkLoader Phishes Windows Passwords
                 </a>
               </div>
             
@@ -741,33 +743,33 @@
       <strong>Recent Issues</strong>
       <div class="archive-list">
         
-        <a href="archive/2026-08-11.html">2026-08-11</a>
+        <a href="archive/2026-08-25.html">2026-08-25</a>
         
-        <a href="archive/2026-08-10.html">2026-08-10</a>
+        <a href="archive/2026-08-24.html">2026-08-24</a>
         
-        <a href="archive/2026-08-09.html">2026-08-09</a>
+        <a href="archive/2026-08-23.html">2026-08-23</a>
         
-        <a href="archive/2026-08-08.html">2026-08-08</a>
+        <a href="archive/2026-08-22.html">2026-08-22</a>
         
-        <a href="archive/2026-08-07.html">2026-08-07</a>
+        <a href="archive/2026-08-21.html">2026-08-21</a>
         
-        <a href="archive/2026-08-06.html">2026-08-06</a>
+        <a href="archive/2026-08-20.html">2026-08-20</a>
         
-        <a href="archive/2026-08-05.html">2026-08-05</a>
+        <a href="archive/2026-08-19.html">2026-08-19</a>
         
-        <a href="archive/2026-08-04.html">2026-08-04</a>
+        <a href="archive/2026-08-18.html">2026-08-18</a>
         
-        <a href="archive/2026-08-03.html">2026-08-03</a>
+        <a href="archive/2026-08-17.html">2026-08-17</a>
         
-        <a href="archive/2026-08-02.html">2026-08-02</a>
+        <a href="archive/2026-08-16.html">2026-08-16</a>
         
-        <a href="archive/2026-08-01.html">2026-08-01</a>
+        <a href="archive/2026-08-15.html">2026-08-15</a>
         
-        <a href="archive/2026-07-31.html">2026-07-31</a>
+        <a href="archive/2026-08-14.html">2026-08-14</a>
         
-        <a href="archive/2026-07-30.html">2026-07-30</a>
+        <a href="archive/2026-08-13.html">2026-08-13</a>
         
-        <a href="archive/2026-07-29.html">2026-07-29</a>
+        <a href="archive/2026-08-12.html">2026-08-12</a>
         
       </div>
     </aside>
