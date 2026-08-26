@@ -1,5 +1,5 @@
 {
-  "last_run_utc": "2026-08-25T13:01:46.289459+00:00",
+  "last_run_utc": "2026-08-26T08:34:35.124690+00:00",
   "processed_urls": [
     "https://www.bleepingcomputer.com/news/security/critical-cisco-sd-wan-bug-exploited-in-zero-day-attacks-since-2023/",
     "https://www.cisa.gov/news-events/alerts/2026/02/25/cisa-and-partners-release-guidance-ongoing-global-exploitation-cisco-sd-wan-systems",
@@ -1171,6 +1171,11 @@
     "https://thehackernews.com/2026/08/attackers-target-miniorange-saml-flaws.html",
     "https://thehackernews.com/2026/08/mirage2fa-surge-hits-4500-us-and-eu.html",
     "https://thehackernews.com/2026/08/24-npm-packages-abuse-unpkg-mirrors-to.html",
-    "https://thehackernews.com/2026/08/frontier-ai-vulnerability-managements.html"
+    "https://thehackernews.com/2026/08/frontier-ai-vulnerability-managements.html",
+    "https://thehackernews.com/2026/08/critical-gitea-rce-actively-exploited.html",
+    "https://www.bleepingcomputer.com/news/security/hackers-abuse-npm-mirrors-to-host-phishing-redirect-pages/",
+    "https://www.bleepingcomputer.com/news/security/anonymouskit-phaas-uses-voice-ai-agents-to-phish-iphone-passcodes/",
+    "https://thehackernews.com/2026/08/fake-apple-support-ai-calls-target.html",
+    "https://thehackernews.com/2026/08/whatsapp-adds-multiple-passkeys-for.html"
   ]
 }
