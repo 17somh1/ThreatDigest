@@ -1,5 +1,5 @@
 {
-  "last_run_utc": "2026-08-27T22:11:21.052946+00:00",
+  "last_run_utc": "2026-08-28T19:49:58.678686+00:00",
   "processed_urls": [
     "https://www.bleepingcomputer.com/news/security/critical-cisco-sd-wan-bug-exploited-in-zero-day-attacks-since-2023/",
     "https://www.cisa.gov/news-events/alerts/2026/02/25/cisa-and-partners-release-guidance-ongoing-global-exploitation-cisco-sd-wan-systems",
@@ -1189,6 +1189,17 @@
     "https://www.bleepingcomputer.com/news/security/hackers-target-microsoft-sharepoint-rce-chain-with-poc-exploit/",
     "https://thehackernews.com/2026/08/alleged-teampcp-hackers-charged-in.html",
     "https://thehackernews.com/2026/08/novacookies-campaigns-abuse-genuine.html",
-    "https://krebsonsecurity.com/2026/08/two-alleged-teampcp-hackers-arrested-in-australia/"
+    "https://krebsonsecurity.com/2026/08/two-alleged-teampcp-hackers-arrested-in-australia/",
+    "https://www.bleepingcomputer.com/news/security/papercut-releases-second-emergency-patch-for-exploited-flaws/",
+    "https://thehackernews.com/2026/08/snowflake-github-actions-flaw-lets.html",
+    "https://thehackernews.com/2026/08/papercut-zero-day-exploited-in-attacks.html",
+    "https://thehackernews.com/2026/08/china-made-zbt-routers-ship-with-two.html",
+    "https://www.bleepingcomputer.com/news/security/over-8-300-gitea-servers-vulnerable-to-code-execution-attacks/",
+    "https://www.bleepingcomputer.com/news/security/servicenow-warns-of-three-max-severity-security-vulnerabilities/",
+    "https://thehackernews.com/2026/08/critical-cpanel-flaw-could-let-one.html",
+    "https://thehackernews.com/2026/08/openai-says-reward-hacking-drove-ai.html",
+    "https://thehackernews.com/2026/08/attackers-chain-two-papercut-flaws-to.html",
+    "https://thehackernews.com/2026/08/two-unitree-g1-edu-humanoid-robot-flaws.html",
+    "https://thehackernews.com/2026/08/three-cvss-100-servicenow-flaws-could.html"
   ]
 }
