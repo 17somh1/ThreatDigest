@@ -1,5 +1,5 @@
 {
-  "last_run_utc": "2026-08-29T16:39:25.009994+00:00",
+  "last_run_utc": "2026-08-30T13:27:15.147860+00:00",
   "processed_urls": [
     "https://www.bleepingcomputer.com/news/security/critical-cisco-sd-wan-bug-exploited-in-zero-day-attacks-since-2023/",
     "https://www.cisa.gov/news-events/alerts/2026/02/25/cisa-and-partners-release-guidance-ongoing-global-exploitation-cisco-sd-wan-systems",
@@ -1201,6 +1201,7 @@
     "https://thehackernews.com/2026/08/attackers-chain-two-papercut-flaws-to.html",
     "https://thehackernews.com/2026/08/two-unitree-g1-edu-humanoid-robot-flaws.html",
     "https://thehackernews.com/2026/08/three-cvss-100-servicenow-flaws-could.html",
-    "https://thehackernews.com/2026/08/cosmos-evm-flaw-exploited-after-cosmos.html"
+    "https://thehackernews.com/2026/08/cosmos-evm-flaw-exploited-after-cosmos.html",
+    "https://thehackernews.com/2026/08/five-critical-wordpress-plugin-and.html"
   ]
 }
